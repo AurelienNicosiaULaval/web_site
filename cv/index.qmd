@@ -1,0 +1,12 @@
+---
+title: "CV (aperçu)"
+---
+
+**Aurélien** — Chargé d'enseignement, Département de mathématiques et de statistiques, **Université Laval** (Québec)
+
+- **Rôle principal :** Responsable du **Centre du Dépannage et d'Apprentissage en math et en stat**.
+- **Enseignement :** Cours de mathématiques et statistiques (1er cycle), accompagnement d'équipes d'auxiliaires d'enseignement.
+- **Intérêts pédagogiques :** pédagogie active, évaluation formative, apprentissage par problèmes, ressources ouvertes.
+- **Compétences :** R, Python, LaTeX, Quarto, git, gestion d'équipe (centre d'aide), communication scientifique.
+
+> Ajoutez un `cv.pdf` ici et liez-le depuis cette page si vous souhaitez publier la version complète.

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Logo Aurélien">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .ring { fill: none; stroke: #c8102e; stroke-width: 12; }
+      .letter { fill: #111; font-family: 'DejaVu Sans', Arial, sans-serif; font-size: 140px; font-weight: 700; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="256" height="256" rx="28" ry="28"/>
+  <circle class="ring" cx="128" cy="128" r="90"/>
+  <text class="letter" x="50%" y="57%" text-anchor="middle" dominant-baseline="middle">A</text>
+</svg>

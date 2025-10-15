@@ -1,0 +1,11 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+---
+
+
+Notes rapides sur l'enseignement, la statistique et la vie du **CDA**.

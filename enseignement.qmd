@@ -1,0 +1,20 @@
+---
+title: "Enseignement"
+toc: true
+---
+
+Vous trouverez ci-dessous la structure proposée pour organiser les cours. 
+Créez un dossier par cours (ex. `cours/STA-XXXX/`) contenant des `.qmd` (plan de cours, calendrier, devoirs, etc.).
+
+## Cours (exemples de structure)
+
+| Sigle | Titre (à remplacer) | Session | Ressources |
+|:------|:---------------------|:--------|:-----------|
+| MAT-1XXX | Calcul différentiel | A2025 | [Plan de cours](#) · [Notes](#) · [Devoirs](#) |
+| STA-2XXX | Statistiques inférentielles | H2026 | [Plan de cours](#) · [R scripts](#) · [Exercices](#) |
+
+::: {.callout-tip}
+**Bonnes pratiques** : 
+- Ajoutez un fichier `index.qmd` dans chaque dossier de cours pour servir de page d'accueil du cours.  
+- Utilisez des *listings* Quarto pour générer automatiquement un sommaire des ressources.
+:::

@@ -1,0 +1,8 @@
+---
+title: "Bienvenue sur mon site Quarto"
+date: 2025-10-09
+categories: [Annonce]
+---
+
+Lancement de mon site d'enseignant (Quarto + GitHub Pages). 
+Vous y trouverez mes pages de cours, des ressources et les informations du **CDA**.

@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "ressources.html",
+    "href": "ressources.html",
+    "title": "Ressources",
+    "section": "",
+    "text": "Fiches mémo : dérivées usuelles, lois de probabilité, tests d’hypothèses, intervalles de confiance.\nOutils : R, RStudio, Python, Jupyter, Quarto, LaTeX.\nTutoriels (exemples) : Importer des données dans R, Graphiques de base avec ggplot2, Régression linéaire, Visualiser avec matplotlib.\nAteliers du CDA : gabarits d’activités, consignes et supports (ajoutez vos documents ici).\n\n\nRemplacez/complétez ces éléments par vos propres ressources ou ajoutez de nouvelles pages dans ressources/."
+  },
+  {
+    "objectID": "recherche.html",
+    "href": "recherche.html",
+    "title": "Recherche",
+    "section": "",
+    "text": "Fiches mémo : dérivées usuelles, lois de probabilité, tests d’hypothèses, intervalles de confiance.\nOutils : R, RStudio, Python, Jupyter, Quarto, LaTeX.\nTutoriels (exemples) : Importer des données dans R, Graphiques de base avec ggplot2, Régression linéaire, Visualiser avec matplotlib.\nAteliers du CDA : gabarits d’activités, consignes et supports (ajoutez vos documents ici).\n\n\nRemplacez/complétez ces éléments par vos propres ressources ou ajoutez de nouvelles pages dans ressources/."
+  },
+  {
+    "objectID": "cda/index.html",
+    "href": "cda/index.html",
+    "title": "Centre du Dépannage et d’Apprentissage (CDA) — Math & Stat",
+    "section": "",
+    "text": "Le Centre du Dépannage et d’Apprentissage en math et en stat offre un soutien aux étudiantes et étudiants du département : tutorat, ateliers thématiques, dépistage de difficultés et stratégies d’apprentissage."
+  },
+  {
+    "objectID": "cda/index.html#services",
+    "href": "cda/index.html#services",
+    "title": "Centre du Dépannage et d’Apprentissage (CDA) — Math & Stat",
+    "section": "Services",
+    "text": "Services\n\nTutorat : accompagnement ciblé sur des notions de cours.\nAteliers : révision, méthodes de résolution, préparation aux évaluations.\nApprentissage : organisation du travail, prise de notes, préparation aux examens."
+  },
+  {
+    "objectID": "cda/index.html#informations-pratiques",
+    "href": "cda/index.html#informations-pratiques",
+    "title": "Centre du Dépannage et d’Apprentissage (CDA) — Math & Stat",
+    "section": "Informations pratiques",
+    "text": "Informations pratiques\n\nAffiliation : Département de mathématiques et de statistiques — Université Laval (Québec).\nHoraires : à publier en début de session (remplacez par les heures exactes).\nLieu / Modalités : campus (local à confirmer) et/ou en ligne (compléter selon vos modalités).\nContact : aurelien@example.com (remplacez par votre adresse ULaval)."
+  },
+  {
+    "objectID": "cda/index.html#comment-nous-rejoindre",
+    "href": "cda/index.html#comment-nous-rejoindre",
+    "title": "Centre du Dépannage et d’Apprentissage (CDA) — Math & Stat",
+    "section": "Comment nous rejoindre",
+    "text": "Comment nous rejoindre\n\nPubliez ici le formulaire de prise de rendez-vous ou le calendrier des ateliers.\nAjoutez des liens vers les ressources d’étude, gabarits de fiches et capsules vidéo.\n\n\n\n\n\n\n\nImportant\n\n\n\nPensez à garder cette page à jour au début de chaque session (horaires, ateliers, liens d’inscription)."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Notes rapides sur l’enseignement, la statistique et la vie du CDA.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBienvenue sur mon site Quarto\n\n\n\nAnnonce\n\n\n\n\n\n\n\n\n\n9 oct. 2025\n\n\n\n\n\n\n\n\n\n\n\n\nCDA : ce que nous offrons\n\n\n\nCDA\n\nPédagogie\n\n\n\n\n\n\n\n\n\n9 oct. 2025\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "blog/posts/2025-10-09-bienvenue.html",
+    "href": "blog/posts/2025-10-09-bienvenue.html",
+    "title": "Bienvenue sur mon site Quarto",
+    "section": "",
+    "text": "Lancement de mon site d’enseignant (Quarto + GitHub Pages). Vous y trouverez mes pages de cours, des ressources et les informations du CDA."
+  },
+  {
+    "objectID": "a-propos.html",
+    "href": "a-propos.html",
+    "title": "À propos",
+    "section": "",
+    "text": "Je m’appelle Aurélien. Je suis chargé d’enseignement en mathématiques et statistiques au département de mathématiques et de statistiques de l’Université Laval. Je suis également responsable du Centre du Dépannage et d’Apprentissage (CDA) en mathématiques et en statistiques.\n\nIntérêts : pédagogie universitaire, statistiques appliquées, R & Python pour l’enseignement, évaluation formative, accompagnement des apprentissages.\nLocalisation : Québec, QC, Canada.\nAffiliation : Université Laval — Département de mathématiques et de statistiques.\nCourriel : aurelien.nicosia@mat.ulaval.ca\n\n\nCe site\nCe site est généré avec Quarto et déployé automatiquement avec GitHub Pages. Le code source est disponible dans le dépôt indiqué dans la barre de navigation.\nSi vous souhaitez proposer une correction, utilisez l’action Edit (icône crayon) en haut des pages."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bienvenue",
+    "section": "",
+    "text": "Bonjour ! Je suis Aurélien, chargé d’enseignement en mathématiques et statistiques au département de mathématiques et de statistiques de l’Université Laval (Québec). Je suis aussi responsable du Centre du Dépannage et d’Apprentissage en math et en stat.\n\n\n\nAccès rapide\n\nEnseignement : plans de cours, notes et devoirs → Enseignement\nRessources : fiches mémo, notebooks et tutoriels → Ressources\nÀ propos / Contact : qui je suis et comment me joindre → À propos\n\n\n\nActualités rapides\n\nLancement du site (Quarto + GitHub Pages).\nMise à jour des informations du CDA (horaires & ateliers).\nNouveaux gabarits de page pour les cours.\n\n\n\n\n\n\n\n\n\nConseil\n\n\n\nPour modifier ce site, éditez les fichiers .qmd puis lancez quarto preview en local."
+  },
+  {
+    "objectID": "blog/posts/2025-10-09-cda.html",
+    "href": "blog/posts/2025-10-09-cda.html",
+    "title": "CDA : ce que nous offrons",
+    "section": "",
+    "text": "Le Centre du Dépannage et d’Apprentissage en math et en stat vise à soutenir les apprentissages : tutorat, ateliers ciblés, et conseils méthodologiques. Les détails (horaires, inscriptions) sont publiés sur la page CDA."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Média",
+    "section": "",
+    "text": "Cette page regroupe des mentions publiques, articles, vidéos, compétitions et liens professionnels me concernant."
+  },
+  {
+    "objectID": "publications.html#aperçu",
+    "href": "publications.html#aperçu",
+    "title": "Média",
+    "section": "",
+    "text": "Cette page regroupe des mentions publiques, articles, vidéos, compétitions et liens professionnels me concernant."
+  },
+  {
+    "objectID": "publications.html#vidéos",
+    "href": "publications.html#vidéos",
+    "title": "Média",
+    "section": "Vidéos",
+    "text": "Vidéos\n\nCogito 2016 — Habitudes animales et formation des nuages\n\n\n\nSource : Série Cogito (Canal Savoir / AELIÉS, 2016).\n\n\nPrésentation de l’espace Innovation Co-operators\n\n\n\n\n\nSAS Global Forum 2016 — Student Symposium\nRécapitulatif officiel (SAS Blog) avec ressources et vidéos d’archives.\n→ https://www.fsg.ulaval.ca/faculte/actualites/mm-nicosia-et-perreault-grands-vainqueurs-du-symposium-etudiant-du-sas-global-forum-2016-1812"
+  },
+  {
+    "objectID": "publications.html#presse-nouvelles-sélection",
+    "href": "publications.html#presse-nouvelles-sélection",
+    "title": "Média",
+    "section": "Presse & nouvelles (sélection)",
+    "text": "Presse & nouvelles (sélection)\n\nMT180 (Faculté des sciences et de génie, Université Laval) — Coup de cœur du jury (7 mars 2016).\nArticle facultaire : « La sélection facultaire du concours MT180 a été fort relevée ». :contentReferenceoaicite:2\nActuLab (U. Laval — Actuariat) — Affiche de l’événement (2016), incluant la présentation « Pouvez-vous prévoir mon pointage au golf ? ».\nPDF (affiche publicitaire) : :contentReferenceoaicite:3"
+  },
+  {
+    "objectID": "publications.html#compétitions",
+    "href": "publications.html#compétitions",
+    "title": "Média",
+    "section": "Compétitions",
+    "text": "Compétitions\n\nSAS Global Forum — Student Symposium (2016)\nRécapitulatif des Proceedings SAS GF 2016 (programme et papiers). :contentReferenceoaicite:4\nActuLab (2015) — « Pouvez-vous prévoir mon pointage au golf ? » (problème gagnant).\nBillet explicatif (WordPress) : « Comment prédire votre score au golf comme un pro ? ». :contentReferenceoaicite:5"
+  },
+  {
+    "objectID": "publications.html#communauté-concours",
+    "href": "publications.html#communauté-concours",
+    "title": "Média",
+    "section": "Communauté & concours",
+    "text": "Communauté & concours\n\nShiny App Store — Shiny Contest (Posit Community, 2021)\nPrototype d’« App Store » pour applications Shiny, co-développé par Penelope Ferron et Aurélien Nicosia (12 mai 2021).\n→ Discussion (Posit Community) : https://forum.posit.co/t/shiny-app-store-shiny-contest-submission/104579 :contentReferenceoaicite:6"
+  },
+  {
+    "objectID": "publications.html#blog-site-personnel",
+    "href": "publications.html#blog-site-personnel",
+    "title": "Média",
+    "section": "Blog & site personnel",
+    "text": "Blog & site personnel\n\nWordPress (blog / portfolio) — Billets sur SAS GF, Cogito, applications Shiny, publications, etc.\nPage d’accueil : https://aureliennicosia.wordpress.com/ :contentReferenceoaicite:7\nPage Shiny (démonstration liée au Student Symposium) : https://aureliennicosia.wordpress.com/shiny-app/ :contentReferenceoaicite:8\nBillet : « Comment prédire votre score au golf comme un pro ? » (ActuLab, 2015). :contentReferenceoaicite:9"
+  },
+  {
+    "objectID": "publications.html#présence-professionnelle",
+    "href": "publications.html#présence-professionnelle",
+    "title": "Média",
+    "section": "Présence professionnelle",
+    "text": "Présence professionnelle\n\nResearchGate — Profil public (publications, lectures, citations).\nhttps://www.researchgate.net/profile/Aurelien-Nicosia-2 :contentReferenceoaicite:10\nEIOM — École interdisciplinaire outils & méthodes (mention LinkedIn)\nEIOM (U. Laval) — Publication LinkedIn (5e édition, 2025).\nLien : https://www.linkedin.com/posts/eiomulaval_jour-2-de-leiom-2025-5e-%C3%A9dition-activity-7366140743142240256-d4O_"
+  },
+  {
+    "objectID": "enseignement.html",
+    "href": "enseignement.html",
+    "title": "Enseignement",
+    "section": "",
+    "text": "Vous trouverez ci-dessous la structure proposée pour organiser les cours. Créez un dossier par cours (ex. cours/STA-XXXX/) contenant des .qmd (plan de cours, calendrier, devoirs, etc.)."
+  },
+  {
+    "objectID": "enseignement.html#cours-exemples-de-structure",
+    "href": "enseignement.html#cours-exemples-de-structure",
+    "title": "Enseignement",
+    "section": "Cours (exemples de structure)",
+    "text": "Cours (exemples de structure)\n\n\n\nSigle\nTitre (à remplacer)\nSession\nRessources\n\n\n\n\nMAT-1XXX\nCalcul différentiel\nA2025\nPlan de cours · Notes · Devoirs\n\n\nSTA-2XXX\nStatistiques inférentielles\nH2026\nPlan de cours · R scripts · Exercices\n\n\n\n\n\n\n\n\n\nAstuce\n\n\n\nBonnes pratiques : - Ajoutez un fichier index.qmd dans chaque dossier de cours pour servir de page d’accueil du cours.\n- Utilisez des listings Quarto pour générer automatiquement un sommaire des ressources."
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "CV (aperçu)",
+    "section": "",
+    "text": "Aurélien — Chargé d’enseignement, Département de mathématiques et de statistiques, Université Laval (Québec)\n\nRôle principal : Responsable du Centre du Dépannage et d’Apprentissage en math et en stat.\nEnseignement : Cours de mathématiques et statistiques (1er cycle), accompagnement d’équipes d’auxiliaires d’enseignement.\nIntérêts pédagogiques : pédagogie active, évaluation formative, apprentissage par problèmes, ressources ouvertes.\nCompétences : R, Python, LaTeX, Quarto, git, gestion d’équipe (centre d’aide), communication scientifique.\n\n\nAjoutez un cv.pdf ici et liez-le depuis cette page si vous souhaitez publier la version complète."
+  }
+]

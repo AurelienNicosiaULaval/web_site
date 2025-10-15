@@ -1,0 +1,10 @@
+---
+title: "Ressources"
+---
+
+- **Fiches mémo :** dérivées usuelles, lois de probabilité, tests d'hypothèses, intervalles de confiance.
+- **Outils :** R, RStudio, Python, Jupyter, Quarto, LaTeX.
+- **Tutoriels (exemples) :** *Importer des données dans R*, *Graphiques de base avec ggplot2*, *Régression linéaire*, *Visualiser avec matplotlib*.
+- **Ateliers du CDA :** gabarits d'activités, consignes et supports (ajoutez vos documents ici).
+
+> Remplacez/complétez ces éléments par vos propres ressources ou ajoutez de nouvelles pages dans `ressources/`.

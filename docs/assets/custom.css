@@ -1,0 +1,13 @@
+/* Ajustements simples et accent de couleur */
+:root {
+  --accent: #c8102e; /* rouge proche ULaval */
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+a:hover { text-decoration: none; }
+.navbar-brand img { height: 26px; }
+.page-footer { font-size: .95rem; opacity: .9; }
+.lead { font-size: 1.1rem; }
+h1, h2, h3 a.anchorjs-link { color: inherit; }
+.btn-primary, .btn-outline-primary:hover { background-color: var(--accent); border-color: var(--accent); }
+a { color: var(--accent); }
+.title-block-banner { background: linear-gradient(90deg, rgba(200,16,46,.1), rgba(200,16,46,.25)); }

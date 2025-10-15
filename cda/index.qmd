@@ -1,0 +1,25 @@
+---
+title: "Centre du Dépannage et d'Apprentissage (CDA) — Math & Stat"
+---
+
+Le **Centre du Dépannage et d'Apprentissage en math et en stat** offre un soutien aux étudiantes et étudiants du département :
+tutorat, ateliers thématiques, dépistage de difficultés et stratégies d'apprentissage.
+
+## Services
+- **Tutorat** : accompagnement ciblé sur des notions de cours.
+- **Ateliers** : révision, méthodes de résolution, préparation aux évaluations.
+- **Apprentissage** : organisation du travail, prise de notes, préparation aux examens.
+
+## Informations pratiques
+- **Affiliation :** Département de mathématiques et de statistiques — **Université Laval** (Québec).
+- **Horaires :** à publier en début de session *(remplacez par les heures exactes)*.
+- **Lieu / Modalités :** campus (local à confirmer) et/ou en ligne *(compléter selon vos modalités)*.
+- **Contact :** aurelien@example.com *(remplacez par votre adresse ULaval)*.
+
+## Comment nous rejoindre
+- Publiez ici le formulaire de prise de rendez-vous ou le calendrier des ateliers.
+- Ajoutez des liens vers les ressources d'étude, gabarits de fiches et capsules vidéo.
+
+::: {.callout-important}
+Pensez à garder cette page à jour au début de chaque session (horaires, ateliers, liens d'inscription).
+:::

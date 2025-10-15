@@ -1,0 +1,83 @@
+---
+title: "Média"
+---
+
+
+## Aperçu
+
+Cette page regroupe des mentions publiques, articles, vidéos, compétitions et liens professionnels me concernant.
+
+---
+
+## Vidéos
+
+### Cogito 2016 — *Habitudes animales et formation des nuages*
+
+<div style="aspect-ratio:16/9;">
+  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/k96TG-NBua4" title="Cogito 2016 - Émission 1" frameborder="0" allowfullscreen></iframe>
+</div>
+
+_Source :_ Série Cogito (Canal Savoir / AELIÉS, 2016). 
+
+### Présentation de l'espace Innovation Co-operators
+
+<div style="aspect-ratio:16/9;">
+  <iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=dvhPPcdSVDM" title="Présentation de l'espace Innovation Co-operators" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+### SAS Global Forum 2016 — Student Symposium 
+
+Récapitulatif officiel (SAS Blog) avec ressources et vidéos d’archives.  
+→ <https://www.fsg.ulaval.ca/faculte/actualites/mm-nicosia-et-perreault-grands-vainqueurs-du-symposium-etudiant-du-sas-global-forum-2016-1812> 
+
+---
+
+## Presse & nouvelles (sélection)
+
+- **MT180 (Faculté des sciences et de génie, Université Laval)** — *Coup de cœur du jury* (7 mars 2016).  
+  Article facultaire : « La sélection facultaire du concours MT180 a été fort relevée ». :contentReference[oaicite:2]{index=2}
+
+- **ActuLab (U. Laval — Actuariat)** — Affiche de l’événement (2016), incluant la présentation _« Pouvez-vous prévoir mon pointage au golf ? »_.  
+  PDF (affiche publicitaire) : :contentReference[oaicite:3]{index=3}
+
+---
+
+## Compétitions
+
+- **SAS Global Forum — Student Symposium (2016)**  
+  Récapitulatif des _Proceedings_ SAS GF 2016 (programme et papiers). :contentReference[oaicite:4]{index=4}
+
+- **ActuLab (2015)** — _« Pouvez-vous prévoir mon pointage au golf ? »_ (problème gagnant).  
+  Billet explicatif (WordPress) : « Comment prédire votre score au golf comme un pro ? ». :contentReference[oaicite:5]{index=5}
+
+---
+
+## Communauté & concours
+
+### Shiny App Store — Shiny Contest (Posit Community, 2021)
+
+Prototype d’« App Store » pour applications Shiny, co-développé par **Penelope Ferron** et **Aurélien Nicosia** (12 mai 2021).  
+→ Discussion (Posit Community) : <https://forum.posit.co/t/shiny-app-store-shiny-contest-submission/104579> :contentReference[oaicite:6]{index=6}
+
+---
+
+## Blog & site personnel
+
+- **WordPress (blog / portfolio)** — Billets sur SAS GF, Cogito, applications Shiny, publications, etc.  
+  Page d’accueil : <https://aureliennicosia.wordpress.com/> :contentReference[oaicite:7]{index=7}  
+  Page Shiny (démonstration liée au Student Symposium) : <https://aureliennicosia.wordpress.com/shiny-app/> :contentReference[oaicite:8]{index=8}  
+  Billet : « Comment prédire votre score au golf comme un pro ? » (ActuLab, 2015). :contentReference[oaicite:9]{index=9}
+
+---
+
+## Présence professionnelle
+
+- **ResearchGate** — Profil public (publications, lectures, citations).  
+  <https://www.researchgate.net/profile/Aurelien-Nicosia-2> :contentReference[oaicite:10]{index=10}
+  
+  ## EIOM — École interdisciplinaire outils & méthodes (mention LinkedIn)
+
+- **EIOM (U. Laval)** — Publication LinkedIn (5e édition, 2025).  
+  Lien : <https://www.linkedin.com/posts/eiomulaval_jour-2-de-leiom-2025-5e-%C3%A9dition-activity-7366140743142240256-d4O_>
+

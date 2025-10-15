@@ -1,0 +1,9 @@
+---
+title: "CDA : ce que nous offrons"
+date: 2025-10-09
+categories: [CDA, Pédagogie]
+---
+
+Le **Centre du Dépannage et d'Apprentissage en math et en stat** vise à soutenir les apprentissages : 
+tutorat, ateliers ciblés, et conseils méthodologiques. 
+Les détails (horaires, inscriptions) sont publiés sur la page [CDA](../../cda/index.qmd).

@@ -1,0 +1,18 @@
+---
+title: "À propos"
+---
+
+Je m'appelle **Aurélien**. Je suis **chargé d'enseignement** en mathématiques et statistiques au 
+**département de mathématiques et de statistiques de l'Université Laval**. 
+Je suis également **responsable du Centre du Dépannage et d'Apprentissage [(CDA)](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage)** en mathématiques et en statistiques.
+
+- **Intérêts :** pédagogie universitaire, statistiques appliquées, R & Python pour l'enseignement, évaluation formative, accompagnement des apprentissages.
+- **Localisation :** Québec, QC, Canada.
+- **Affiliation :** Université Laval — Département de mathématiques et de statistiques.
+- **Courriel :** aurelien.nicosia@mat.ulaval.ca 
+
+### Ce site
+Ce site est généré avec [Quarto](https://quarto.org) et déployé automatiquement avec **GitHub Pages**.
+Le code source est disponible dans le dépôt indiqué dans la barre de navigation.
+
+Si vous souhaitez proposer une correction, utilisez l'action *Edit* (icône crayon) en haut des pages.

@@ -1,0 +1,32 @@
+---
+title: "Bienvenue"
+subtitle: "Chargé d'enseignement en mathématiques & statistiques — Université Laval (Québec)"
+title-block-banner: true
+---
+
+<div class="lead">
+Bonjour ! Je suis <strong>Aurélien</strong>, chargé d'enseignement en mathématiques et statistiques au 
+département de mathématiques et de statistiques de l'<strong>Université Laval</strong> (Québec).
+Je suis aussi <strong>responsable du Centre du Dépannage et d'Apprentissage en math et en stat</strong>.
+</div>
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+### Accès rapide
+
+- **Enseignement :** plans de cours, notes et devoirs → [Enseignement](enseignement.qmd)
+- **Ressources :** fiches mémo, notebooks et tutoriels → [Ressources](ressources.qmd)
+- **À propos / Contact :** qui je suis et comment me joindre → [À propos](a-propos.qmd)
+:::
+::: {.g-col-12 .g-col-md-6}
+### Actualités rapides
+- Lancement du site (Quarto + GitHub Pages).
+- Mise à jour des informations du **CDA** (horaires & ateliers).
+- Nouveaux gabarits de page pour les **cours**.
+:::
+:::
+
+::: {.callout-note}
+### Conseil
+Pour modifier ce site, éditez les fichiers `.qmd` puis lancez `quarto preview` en local.
+:::

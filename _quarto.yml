@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Aurélien Nicosia"
+  site-url: https://AurelienNicosiaUlaval.github.io/web_site/
+  repo-url: https://github.com/AurelienNicosiaUlaval/web_site
+  repo-actions: [edit, issue]
+  navbar:
+    logo: assets/logo.svg
+    collapse-below: lg
+    right:
+      - href: index.qmd
+        text: Accueil
+      - href: enseignement.qmd
+        text: Enseignement
+      - href: recherche.qmd
+        text: Recherche
+      - href: innovation.qmd
+        text: Innovation
+      - href: ressources.qmd
+        text: Ressources
+      - href: publications.qmd
+        text: Média
+      - href: a-propos.qmd
+        text: À propos
+      - href: cv/index.qmd
+        text: CV
+  page-footer:
+    left: |
+      © 2025 **Aurélien Nicosia** — Université Laval  
+      📍 Québec, QC — ✉️ [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca)
+    right: |
+      [GitHub](https://github.com/AurelienNicosiaULaval) • 
+      [LinkedIn](https://www.linkedin.com/in/aur%C3%A9lien-nicosia-6a52487b/) • 
+      [ORCID](https://orcid.org/0000-0002-0974-9988)
+
+  search:
+    location: navbar
+    type: textbox
+  favicon: assets/logo.svg
+  open-graph:
+#    image: assets/og-default.png
+    locale: fr_CA
+
+format:
+  html:
+    theme: cosmo
+    css: assets/custom.css
+    toc: true
+    anchor-sections: true
+    link-external-newwindow: true
+    smooth-scroll: true
+
+lang: fr-CA
+execute:
+  freeze: auto

@@ -56,7 +56,7 @@ Cette plateforme vise à faciliter la conception de matériel reproductible, int
 
 
 
-#### Plateforme de ressources pédagogiques 
+#### 1. Plateforme de ressources pédagogiques 
 
 **Lien :** [site_ressources_SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/)
 
@@ -74,7 +74,7 @@ Elle met l’accent sur la reproductibilité, la collaboration et la mutualisati
 
 
 
-#### tutorizeR
+#### 2. tutorizeR
 
 **Lien :** [tutorizeR](https://github.com/AurelienNicosiaULaval/tutorizeR)
 
@@ -91,7 +91,7 @@ Il a été conçu pour aider les enseignants à créer rapidement des activités
 **Résultat :** *tutorizeR* permet de réduire considérablement la charge technique de création de tutoriels tout en renforçant la reproductibilité et l’engagement étudiant.
 
 
-####  ZeroWasteData *(en développement)*
+####  3. ZeroWasteData *(en développement)*
 
 **Lien :** [ZeroWasteData](https://github.com/AurelienNicosiaULaval/ZeroWasteData)
 
@@ -116,6 +116,28 @@ Une application Streamlit conviviale et open source qui agit comme un assistant 
 tout en sensibilisant à la gestion responsable et durable des ressources numériques.
 
 
+#### 4. Tutoriels interactifs *learnr*
+
+**Liens :**  
+- 🚴‍♂️ [Tutoriel BIXI — Analyse et visualisation de données](https://aureliennicosia.shinyapps.io/TutorielBixi/)  
+- 🎨 [Tutoriel ggplot2 — Visualisation de données](https://aureliennicosia.shinyapps.io/TutorielGGplot/)
+
+Ces tutoriels interactifs, développés avec le package **learnr**, permettent aux étudiantes et étudiants d’apprendre les bases de la science des données en manipulant directement du code R dans un environnement guidé.  
+Ils combinent explications, exercices pratiques et rétroactions automatiques, afin de favoriser l’apprentissage actif et la compréhension progressive des concepts.
+
+**Tutoriel BIXI**  
+Ce tutoriel repose sur un jeu de données réelles des trajets BIXI Montréal.  
+Les participantes et participants y apprennent à importer, nettoyer, explorer et visualiser des données à l’aide du *tidyverse*.  
+Chaque étape est accompagnée d’un court texte explicatif et d’exercices auto-corrigés, renforçant la compréhension du cycle complet d’analyse de données.
+
+**Tutoriel ggplot2**  
+Ce tutoriel guide l’étudiant·e à travers les principes de la grammaire des graphiques de ggplot2.  
+Il illustre comment construire des visualisations efficaces et esthétiques, personnaliser les éléments graphiques et interpréter les relations entre variables.  
+L’approche interactive encourage l’expérimentation directe et la réflexion critique sur la visualisation des données.
+
+**Objectif global :**  
+offrir des environnements d’apprentissage reproductibles et engageants, où les étudiantes et étudiants peuvent apprendre par la pratique tout en recevant une rétroaction immédiate.  
+Ces tutoriels constituent une étape clé de la transition vers un enseignement plus interactif, intégré aux approches hybrides et en ligne.
 
   
 ### Projet « Dessin numérique avec R »

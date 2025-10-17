@@ -1,32 +1,60 @@
 ---
 title: "Bienvenue"
-subtitle: "Chargé d'enseignement en mathématiques & statistiques — Université Laval (Québec)"
 title-block-banner: true
 ---
 
-<div class="lead">
-Bonjour ! Je suis <strong>Aurélien</strong>, chargé d'enseignement en mathématiques et statistiques au 
-département de mathématiques et de statistiques de l'<strong>Université Laval</strong> (Québec).
-Je suis aussi <strong>responsable du Centre du Dépannage et d'Apprentissage en math et en stat</strong>.
-</div>
+Chargé d’enseignement en mathématiques et statistiques — Québec, Canada  
+Je m’intéresse à la statistique appliquée, à la reproductibilité et à l’innovation pédagogique.
 
-::: {.grid}
-::: {.g-col-12 .g-col-md-6}
-### Accès rapide
-
-- **Enseignement :** plans de cours, notes et devoirs → [Enseignement](enseignement.qmd)
-- **Ressources :** fiches mémo, notebooks et tutoriels → [Ressources](ressources.qmd)
-- **À propos / Contact :** qui je suis et comment me joindre → [À propos](a-propos.qmd)
-:::
-::: {.g-col-12 .g-col-md-6}
-### Actualités rapides
-- Lancement du site (Quarto + GitHub Pages).
-- Mise à jour des informations du **CDA** (horaires & ateliers).
-- Nouveaux gabarits de page pour les **cours**.
-:::
+:::{ .mt-4}
+[🎓 Enseignement](enseignement.qmd){.btn .btn-outline-danger .rounded-pill .btn-lg .fw-bold}
+[📊 Recherche](recherche.qmd){.btn .btn-outline-dark .rounded-pill .btn-lg .fw-bold}
+[💡 Innovation pédagogique](innovation.qmd){.btn .btn-outline-warning .rounded-pill .btn-lg .fw-bold}
 :::
 
-::: {.callout-note}
-### Conseil
-Pour modifier ce site, éditez les fichiers `.qmd` puis lancez `quarto preview` en local.
+
+
+## À l’affiche
+
+::: { .grid .gap-4 }
+::: {.g-col-12 .g-col-md-4}
+### Thèse de doctorat
+Modèles multi-états pour l’analyse du mouvement animalier.  
+
+[Consulter le PDF](https://corpus.ulaval.ca/server/api/core/bitstreams/cf3426a4-3475-4d48-a4c4-de29df846ed5/content){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+
+[Code et matériel](https://github.com/AurelienNicosiaULaval/multi-state-model-animal-movement){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 :::
+
+::: {.g-col-12 .g-col-md-4}
+### Packages R
+Ensemble de packages R développés pour la statistique appliquée.
+
+[GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+
+[CircularRegression](https://github.com/AurelienNicosiaULaval/CircularRegression){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+
+[GeneralOaxaca (CRAN)](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Ressources ouvertes
+Plateforme de ressources, tutoriels et outils pédagogiques.  
+
+[site_ressources_SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+
+[tutorizeR](https://github.com/AurelienNicosiaULaval/tutorizeR){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+
+[ZeroWasteData](https://github.com/AurelienNicosiaULaval/ZeroWasteData){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+
+
+
+## Accès rapide
+
+- Enseignement : plans, notes et devoirs → [Enseignement](enseignement.qmd)  
+- Recherche : axes, logiciels, thèse → [Recherche](recherche.qmd)  
+- Innovation pédagogique : projets et ressources → [Innovation pédagogique](innovation.qmd)  
+- À propos / contact → [À propos](a-propos.qmd)  
+- CV complet → [cv](cv/index.qmd)

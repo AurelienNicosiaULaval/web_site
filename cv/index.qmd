@@ -12,14 +12,14 @@ Chargé d’enseignement — Département de mathématiques et de statistique
 [aureliennicosiaulaval.github.io/web_site](https://aureliennicosiaulaval.github.io/web_site)  
 ORCID : [0000-0002-0974-9988](https://orcid.org/0000-0002-0974-9988)
 
----
+
 
 ### Profil
 Chercheur et enseignant en **statistique et science des données**, je m’intéresse à la modélisation de données complexes, la statistique computationnelle et l’innovation pédagogique.  
 Mon approche relie rigueur mathématique, reproductibilité et diffusion libre du savoir.  
 Je développe des outils open source et des environnements pédagogiques numériques.
 
----
+
 
 ### En bref
 - 🎓 **Ph.D. en statistique**, Université Laval (2024)  
@@ -28,30 +28,19 @@ Je développe des outils open source et des environnements pédagogiques numéri
 - 💻 **Ancien directeur R-D** — The Co-operators 
 - 🧠 **Intérêts principaux :** estimation de densité, HMM, modèles directionnels, pédagogie numérique
 
----
 
-### Axes de travail
-- [**Recherche**](recherche.qmd) : méthodes statistiques robustes pour données complexes (GLBFP, HMM-SSF, CircularRegression).  
-- [**Enseignement**](enseignement.qmd) : approche active et par projet, intégrant R, GitHub et Quarto.  
-- [**Innovation pédagogique**](innovation.qmd) : conception du GPT-CDA et projets PAIP (IA et apprentissage interactif).  
 
----
 
 ### Sélection de publications
 - *A Multi-State Conditional Logistic Regression Model for Animal Movement*, *Annals of Applied Statistics*, 2017.  
 - *A General Angular Regression Model for Data on Animal Movement*, *JRSS-C*, 2015.  
 - *Behavioural State Inference Using Markovian Step Selection Functions*, soumis à *MEE*, 2025.
 
-📚 Voir la [liste complète des publications](recherche.qmd#publications).
 
----
 
 ### Distinctions et subventions
 - **Prix Enseignant Étoile ULaval** (2014, 2023, 2024, 2025)  
 - **Subventions PAIP** (2023–2026) — innovation pédagogique et IA  
 - **CALQ** (2024) — *Dessin numérique avec R*
 
----
 
-### Télécharger le CV complet
-[📄 Télécharger le CV complet (PDF)](cv.pdf)

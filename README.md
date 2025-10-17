@@ -1,16 +1,14 @@
-# Site Quarto — Aurélien (ULaval)
-
-Site web d'enseignant en mathématiques et statistiques, prêt à être publié sur **GitHub Pages**.
+# Site Quarto — Aurélien Nicosia (ULaval)
 
 ## Caractéristiques
-- Navigation adaptée : Accueil, Enseignement, Ressources, **CDA (Centre)**, Blog, À propos, CV.
+- Navigation adaptée : Accueil, Enseignement, Ressources, À propos, CV.
 - Langue et locale : **fr-CA** (Québec).
 - Thème `cosmo` + styles simples.
 - Workflow **GitHub Actions** → branche `gh-pages`.
 
 ## Déploiement — Étapes
 
-1. **Créer un dépôt** GitHub (ex. `site-aurelien-quarto`).  
+1. **Créer un dépôt** GitHub.  
 2. **Télécharger et extraire** cette archive, puis :
    ```bash
    git init
@@ -28,11 +26,6 @@ Site web d'enseignant en mathématiques et statistiques, prêt à être publié 
 ```bash
 quarto preview
 ```
-
-### Personnalisation rapide
-- Remplacez `assets/logo.svg` par votre logo.
-- Mettez à jour **CDA** (`cda/index.qmd`) avec horaires, lieux, modalités et liens d'inscription.
-- Ajoutez des dossiers dans `cours/` pour générer une page par cours.
 
 ---
 

@@ -2,17 +2,36 @@
 title: "À propos"
 ---
 
-Je m'appelle **Aurélien**. Je suis **chargé d'enseignement** en mathématiques et statistiques au 
-**département de mathématiques et de statistiques de l'Université Laval**. 
-Je suis également **responsable du Centre du Dépannage et d'Apprentissage [(CDA)](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage)** en mathématiques et en statistiques.
 
-- **Intérêts :** pédagogie universitaire, statistiques appliquées, R & Python pour l'enseignement, évaluation formative, accompagnement des apprentissages.
-- **Localisation :** Québec, QC, Canada.
-- **Affiliation :** Université Laval — Département de mathématiques et de statistiques.
-- **Courriel :** aurelien.nicosia@mat.ulaval.ca 
+Je m'appelle **Aurélien Nicosia**.  
+Je suis chargé d’enseignement en mathématiques et statistiques au Département de mathématiques et de statistiques de l’Université Laval (Québec). Je suis également responsable du [Centre de Dépannage et d’Apprentissage (CDA)](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage),   un espace de soutien à la réussite où les étudiantes et étudiants reçoivent de l’aide chaque session.
 
-### Ce site
-Ce site est généré avec [Quarto](https://quarto.org) et déployé automatiquement avec **GitHub Pages**.
-Le code source est disponible dans le dépôt indiqué dans la barre de navigation.
+Mon travail se situe à la croisée de la pédagogie universitaire, de la statistique appliquée et du développement d’outils numériques pour l’enseignement et la recherche.  
+J’accorde une grande importance à la reproductibilité, à la science ouverte et à l’accessibilité des savoirs.
 
-Si vous souhaitez proposer une correction, utilisez l'action *Edit* (icône crayon) en haut des pages.
+---
+
+### Intérêts
+
+- **Pédagogie universitaire** : apprentissage actif, évaluation formative et conception de ressources interactives.  
+- **Statistique appliquée** : modélisation multi-états, estimation de densité, données directionnelles.  
+- **Outils numériques** : R, Python, Quarto, GitHub, Shiny, et l’intégration de l’IA en éducation.  
+- **Innovation** : accompagnement des apprentissages, collaboration interdisciplinaire et partage de ressources francophones.
+
+---
+
+### Localisation et contact
+
+📍 Québec, QC, Canada  
+🏛️ Université Laval — Département de mathématiques et de statistiques  
+✉️ [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca)
+
+---
+
+### À propos du site
+
+Ce site est généré avec [**Quarto**](https://quarto.org) et déployé automatiquement via **GitHub Pages**.  
+Il regroupe mes activités de **recherche**, d’**enseignement** et d’**innovation pédagogique**.  
+Le code source est accessible dans le dépôt indiqué dans la barre de navigation.
+
+💡 Si vous souhaitez proposer une correction ou une amélioration, cliquez sur l’icône *crayon* (*Edit*) en haut de la page pour ouvrir la version correspondante dans GitHub.

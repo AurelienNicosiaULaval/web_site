@@ -1,80 +1,66 @@
 [
   {
-    "objectID": "ressources.html",
-    "href": "ressources.html",
-    "title": "Ressources",
+    "objectID": "innovation.html",
+    "href": "innovation.html",
+    "title": "Innovation pédagogique",
     "section": "",
-    "text": "Fiches mémo : dérivées usuelles, lois de probabilité, tests d’hypothèses, intervalles de confiance.\nOutils : R, RStudio, Python, Jupyter, Quarto, LaTeX.\nTutoriels (exemples) : Importer des données dans R, Graphiques de base avec ggplot2, Régression linéaire, Visualiser avec matplotlib.\nAteliers du CDA : gabarits d’activités, consignes et supports (ajoutez vos documents ici).\n\n\nRemplacez/complétez ces éléments par vos propres ressources ou ajoutez de nouvelles pages dans ressources/."
+    "text": "Je considère l’innovation pédagogique comme un levier de transformation de l’apprentissage.\nMon objectif est de concevoir des environnements où les étudiantes et étudiants deviennent acteurs de leur formation, à travers des approches actives, des outils numériques modernes et une culture de la reproductibilité.\nMes projets s’articulent autour de trois axes :\n\nModernisation des cours grâce aux technologies ouvertes (R, Quarto, Learnr, GitHub).\n\nAccompagnement et encadrement à travers la formation d’auxiliaires et la création de ressources collaboratives.\n\nIntégration responsable de l’intelligence artificielle en enseignement et en soutien à la réussite.\n\n\n🌱 L’innovation pédagogique, pour moi, consiste à rapprocher rigueur, créativité et accessibilité — pour que chaque étudiant·e puisse apprendre en explorant, expérimentant et comprenant."
   },
   {
-    "objectID": "recherche.html",
-    "href": "recherche.html",
-    "title": "Recherche",
+    "objectID": "innovation.html#vision-générale",
+    "href": "innovation.html#vision-générale",
+    "title": "Innovation pédagogique",
     "section": "",
-    "text": "Fiches mémo : dérivées usuelles, lois de probabilité, tests d’hypothèses, intervalles de confiance.\nOutils : R, RStudio, Python, Jupyter, Quarto, LaTeX.\nTutoriels (exemples) : Importer des données dans R, Graphiques de base avec ggplot2, Régression linéaire, Visualiser avec matplotlib.\nAteliers du CDA : gabarits d’activités, consignes et supports (ajoutez vos documents ici).\n\n\nRemplacez/complétez ces éléments par vos propres ressources ou ajoutez de nouvelles pages dans ressources/."
+    "text": "Je considère l’innovation pédagogique comme un levier de transformation de l’apprentissage.\nMon objectif est de concevoir des environnements où les étudiantes et étudiants deviennent acteurs de leur formation, à travers des approches actives, des outils numériques modernes et une culture de la reproductibilité.\nMes projets s’articulent autour de trois axes :\n\nModernisation des cours grâce aux technologies ouvertes (R, Quarto, Learnr, GitHub).\n\nAccompagnement et encadrement à travers la formation d’auxiliaires et la création de ressources collaboratives.\n\nIntégration responsable de l’intelligence artificielle en enseignement et en soutien à la réussite.\n\n\n🌱 L’innovation pédagogique, pour moi, consiste à rapprocher rigueur, créativité et accessibilité — pour que chaque étudiant·e puisse apprendre en explorant, expérimentant et comprenant."
   },
   {
-    "objectID": "cda/index.html",
-    "href": "cda/index.html",
-    "title": "Centre du Dépannage et d’Apprentissage (CDA) — Math & Stat",
+    "objectID": "innovation.html#principaux-projets",
+    "href": "innovation.html#principaux-projets",
+    "title": "Innovation pédagogique",
+    "section": "Principaux projets",
+    "text": "Principaux projets\n\nRefonte des cours en science des données\nMise à jour complète des cours d’introduction à la science des données et de programmation scientifique.\nObjectifs :\n\nrendre l’apprentissage plus actif et contextualisé ;\n\ndévelopper des études de cas francophones ;\n\noffrir une rétroaction automatisée et formative via Quarto et GitHub Classroom.\n\nRésultat : amélioration de la motivation et de la participation étudiante, tout en favorisant la reproductibilité du code.\n\n\nAmélioration du soutien à la réussite étudiante\nDéveloppement d’un modèle de formation structurée des auxiliaires et d’une plateforme interne regroupant ressources, capsules vidéo et foire aux questions.\nRésultat : professionnalisation du rôle d’auxiliaire et uniformisation du soutien pédagogique.\nLien : Espace des auxiliaires – plateforme interne (Ulaval)\n\n\nProjet GPT-CDA — Intelligence artificielle et apprentissage\nDéveloppement d’un assistant conversationnel spécialisé pour l’accompagnement en mathématiques et en statistiques.\nObjectifs :\n\noffrir des explications adaptées au matériel de cours ;\n\ndétecter les incompréhensions et rediriger vers un tuteur humain ;\n\noptimiser le temps d’intervention des auxiliaires.\n\nRésultat : déploiement d’un prototype supervisé combinant IA et accompagnement pédagogique personnalisé.\n\n\nRessources pédagogiques ouvertes\nJe développe un écosystème de ressources numériques libres pour soutenir l’enseignement et l’apprentissage de la science des données.\nCette plateforme vise à faciliter la conception de matériel reproductible, interactif et collaboratif, tout en favorisant la diffusion de ressources francophones.\n\nPlateforme de ressources pédagogiques\nLien : site_ressources_SSD\nCréée comme une bibliothèque en ligne, cette plateforme centralise un ensemble de ressources destinées aux enseignants et aux étudiants.\nElle met l’accent sur la reproductibilité, la collaboration et la mutualisation des pratiques pédagogiques.\nContenu :\n\nGabarits Quarto pour la création de sites web, rapports et documents reproductibles ;\n\nExemples de tutoriels interactifs développés avec learnr ;\n\nLibrairie R UlavalSSD contenant des fonctions et jeux de données pour l’enseignement des statistiques ;\n\nProcédures GitHub et guides pour la gestion de versions et la diffusion ouverte de matériel pédagogique.\n\nRésultat : cette plateforme favorise la cohérence des pratiques d’enseignement et la collaboration entre collègues, tout en réduisant le temps de préparation de matériel.\n\n\ntutorizeR\nLien : tutorizeR\nLe package tutorizeR automatise la conversion de fichiers Quarto (.qmd) et RMarkdown (.Rmd) en tutoriels interactifs utilisant learnr ou quarto-live.\nIl a été conçu pour aider les enseignants à créer rapidement des activités dynamiques, sans effort technique supplémentaire.\nFonctionnalités principales :\n\nConversion automatique de documents en tutoriels interactifs ;\n\nAjout de zones de réponse et de rétroaction immédiate via gradethis ;\n\nGénération d’environnements prêts à être déployés (cours en ligne, autoformation, laboratoires).\n\nObjectif : promouvoir une pédagogie active et formative en intégrant des exercices interactifs directement dans les documents Quarto.\nRésultat : tutorizeR permet de réduire considérablement la charge technique de création de tutoriels tout en renforçant la reproductibilité et l’engagement étudiant.\n\n\nZeroWasteData (en développement)\nLien : ZeroWasteData\nZeroWasteData est une application interactive développée en Python avec Streamlit, qui vise à encourager la réutilisation intelligente des données dans un contexte d’enseignement en science des données.\nElle repose sur une idée simple : plutôt que d’accumuler des fichiers et d’épuiser les ressources de stockage, exploitons mieux les données que nous avons déjà.\nPrincipe de fonctionnement :\n\nl’utilisateur importe son jeu de données ;\n\nil indique quelles analyses ou activités ont déjà été réalisées avec ce jeu ;\n\nl’application lui suggère automatiquement d’autres analyses possibles, en les associant à des concepts statistiques ou de science des données pertinents (par exemple : visualisation, corrélation, régression, apprentissage supervisé, clustering, etc.).\n\nObjectifs pédagogiques :\n\nvaloriser les données existantes en explorant de nouvelles perspectives analytiques ;\n\nréduire la duplication et le gaspillage numérique, en liant pédagogie et durabilité des données ;\n\nfavoriser la découverte active, en reliant chaque type d’analyse à un concept d’enseignement concret.\n\nRésultat attendu :\nUne application Streamlit conviviale et open source qui agit comme un assistant pédagogique intelligent, aidant enseignants et étudiants à tirer le meilleur parti d’un même jeu de données,\ntout en sensibilisant à la gestion responsable et durable des ressources numériques.\n\n\n\nProjet « Dessin numérique avec R »\nCollaboration entre art et science des données explorant le potentiel graphique du langage R et de la librairie ggplot2.\nSoutien : subvention à la création.\nObjectif : produire des images génératives fondées sur des processus statistiques, documenter les fonctions de création et partager les ressources sur GitHub.\nRésultat : un projet interdisciplinaire à la frontière entre art, science et visualisation de données."
+  },
+  {
+    "objectID": "innovation.html#rayonnement",
+    "href": "innovation.html#rayonnement",
+    "title": "Innovation pédagogique",
+    "section": "Rayonnement",
+    "text": "Rayonnement\nJe partage régulièrement mes pratiques lors de colloques et ateliers consacrés à la pédagogie universitaire et à la science des données.\nJ’anime notamment des formations sur :\n\nla reproductibilité scientifique avec R et Quarto,\n\nla gestion de projets collaboratifs sur GitHub,\n\nla conception d’activités interactives avec Learnr.\n\nCes initiatives contribuent à bâtir une communauté de pratique francophone autour de la science des données et des pédagogies numériques ouvertes.\nVoici des exemples de matériel sur Github:\n\nEIOM 2025 — Ateliers de modélisation statistique et Site web\nASSQ 2025 - Quoi de neuf en science des données ?"
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "CV (aperçu)",
     "section": "",
-    "text": "Le Centre du Dépannage et d’Apprentissage en math et en stat offre un soutien aux étudiantes et étudiants du département : tutorat, ateliers thématiques, dépistage de difficultés et stratégies d’apprentissage."
+    "text": "Aurélien Nicosia\nChargé d’enseignement — Département de mathématiques et de statistique\nUniversité Laval (Québec, Canada)\naureliennicosiaulaval.github.io/web_site\nORCID : 0000-0002-0974-9988\n\n\nProfil\nChercheur et enseignant en statistique et science des données, je m’intéresse à la modélisation de données complexes, la statistique computationnelle et l’innovation pédagogique.\nMon approche relie rigueur mathématique, reproductibilité et diffusion libre du savoir.\nJe développe des outils open source et des environnements pédagogiques numériques.\n\n\n\nEn bref\n\n🎓 Ph.D. en statistique, Université Laval (2024)\n\n👨‍🏫 Chargé d’enseignement et responsable du CDA, Université Laval\n\n🤝 Chargé de cours, UQAC (informatique et science des données)\n\n💻 Ancien directeur R-D — The Co-operators\n🧠 Intérêts principaux : estimation de densité, HMM, modèles directionnels, pédagogie numérique\n\n\n\n\nAxes de travail\n\nRecherche : méthodes statistiques robustes pour données complexes (GLBFP, HMM-SSF, CircularRegression).\n\nEnseignement : approche active et par projet, intégrant R, GitHub et Quarto.\n\nInnovation pédagogique : conception du GPT-CDA et projets PAIP (IA et apprentissage interactif).\n\n\n\n\nSélection de publications\n\nA Multi-State Conditional Logistic Regression Model for Animal Movement, Annals of Applied Statistics, 2017.\n\nA General Angular Regression Model for Data on Animal Movement, JRSS-C, 2015.\n\nBehavioural State Inference Using Markovian Step Selection Functions, soumis à MEE, 2025.\n\n📚 Voir la liste complète des publications.\n\n\n\nDistinctions et subventions\n\nPrix Enseignant Étoile ULaval (2014, 2023, 2024, 2025)\n\nSubventions PAIP (2023–2026) — innovation pédagogique et IA\n\nCALQ (2024) — Dessin numérique avec R\n\n\n\n\nTélécharger le CV complet\n📄 Télécharger le CV complet (PDF)"
   },
   {
-    "objectID": "cda/index.html#services",
-    "href": "cda/index.html#services",
-    "title": "Centre du Dépannage et d’Apprentissage (CDA) — Math & Stat",
-    "section": "Services",
-    "text": "Services\n\nTutorat : accompagnement ciblé sur des notions de cours.\nAteliers : révision, méthodes de résolution, préparation aux évaluations.\nApprentissage : organisation du travail, prise de notes, préparation aux examens."
-  },
-  {
-    "objectID": "cda/index.html#informations-pratiques",
-    "href": "cda/index.html#informations-pratiques",
-    "title": "Centre du Dépannage et d’Apprentissage (CDA) — Math & Stat",
-    "section": "Informations pratiques",
-    "text": "Informations pratiques\n\nAffiliation : Département de mathématiques et de statistiques — Université Laval (Québec).\nHoraires : à publier en début de session (remplacez par les heures exactes).\nLieu / Modalités : campus (local à confirmer) et/ou en ligne (compléter selon vos modalités).\nContact : aurelien@example.com (remplacez par votre adresse ULaval)."
-  },
-  {
-    "objectID": "cda/index.html#comment-nous-rejoindre",
-    "href": "cda/index.html#comment-nous-rejoindre",
-    "title": "Centre du Dépannage et d’Apprentissage (CDA) — Math & Stat",
-    "section": "Comment nous rejoindre",
-    "text": "Comment nous rejoindre\n\nPubliez ici le formulaire de prise de rendez-vous ou le calendrier des ateliers.\nAjoutez des liens vers les ressources d’étude, gabarits de fiches et capsules vidéo.\n\n\n\n\n\n\n\nImportant\n\n\n\nPensez à garder cette page à jour au début de chaque session (horaires, ateliers, liens d’inscription)."
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
+    "objectID": "enseignement.html",
+    "href": "enseignement.html",
+    "title": "Enseignement",
     "section": "",
-    "text": "Notes rapides sur l’enseignement, la statistique et la vie du CDA.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBienvenue sur mon site Quarto\n\n\n\nAnnonce\n\n\n\n\n\n\n\n\n\n9 oct. 2025\n\n\n\n\n\n\n\n\n\n\n\n\nCDA : ce que nous offrons\n\n\n\nCDA\n\nPédagogie\n\n\n\n\n\n\n\n\n\n9 oct. 2025\n\n\n\n\n\nAucun article correspondant"
+    "text": "J’aborde l’enseignement des mathématiques, de la statistique et de la science des données comme une activité de compréhension et d’exploration.\nL’apprentissage repose sur trois principes :\n\nApprendre en agissant : la pratique et la manipulation d’outils comme R ou Quarto permettent de construire le sens.\n\nApprendre en collaboration : les projets d’équipe et les discussions sont au cœur de mes cours.\n\nApprendre de manière transparente : chaque activité est documentée et reproductible, pour ancrer la rigueur scientifique dans la démarche étudiante.\n\nJe privilégie des approches par projet, des évaluations formatives et un environnement bienveillant où la rigueur et le plaisir d’apprendre cohabitent."
   },
   {
-    "objectID": "blog/posts/2025-10-09-bienvenue.html",
-    "href": "blog/posts/2025-10-09-bienvenue.html",
-    "title": "Bienvenue sur mon site Quarto",
+    "objectID": "enseignement.html#philosophie-de-lenseignement",
+    "href": "enseignement.html#philosophie-de-lenseignement",
+    "title": "Enseignement",
     "section": "",
-    "text": "Lancement de mon site d’enseignant (Quarto + GitHub Pages). Vous y trouverez mes pages de cours, des ressources et les informations du CDA."
+    "text": "J’aborde l’enseignement des mathématiques, de la statistique et de la science des données comme une activité de compréhension et d’exploration.\nL’apprentissage repose sur trois principes :\n\nApprendre en agissant : la pratique et la manipulation d’outils comme R ou Quarto permettent de construire le sens.\n\nApprendre en collaboration : les projets d’équipe et les discussions sont au cœur de mes cours.\n\nApprendre de manière transparente : chaque activité est documentée et reproductible, pour ancrer la rigueur scientifique dans la démarche étudiante.\n\nJe privilégie des approches par projet, des évaluations formatives et un environnement bienveillant où la rigueur et le plaisir d’apprendre cohabitent."
   },
   {
-    "objectID": "a-propos.html",
-    "href": "a-propos.html",
-    "title": "À propos",
-    "section": "",
-    "text": "Je m’appelle Aurélien. Je suis chargé d’enseignement en mathématiques et statistiques au département de mathématiques et de statistiques de l’Université Laval. Je suis également responsable du Centre du Dépannage et d’Apprentissage (CDA) en mathématiques et en statistiques.\n\nIntérêts : pédagogie universitaire, statistiques appliquées, R & Python pour l’enseignement, évaluation formative, accompagnement des apprentissages.\nLocalisation : Québec, QC, Canada.\nAffiliation : Université Laval — Département de mathématiques et de statistiques.\nCourriel : aurelien.nicosia@mat.ulaval.ca\n\n\nCe site\nCe site est généré avec Quarto et déployé automatiquement avec GitHub Pages. Le code source est disponible dans le dépôt indiqué dans la barre de navigation.\nSi vous souhaitez proposer une correction, utilisez l’action Edit (icône crayon) en haut des pages."
+    "objectID": "enseignement.html#cours-enseignés",
+    "href": "enseignement.html#cours-enseignés",
+    "title": "Enseignement",
+    "section": "Cours enseignés",
+    "text": "Cours enseignés\n\nUniversité Laval — Département de mathématiques et de statistique\n\nSTT-1100 — Introduction à la science des données\nCours d’introduction centré sur des mises en situation professionnelles où les étudiants incarnent un rôle en science des données.\nObjectifs : apprendre à structurer une analyse complète — de l’importation des données à la communication des résultats.\nOutils : R, tidyverse, Quarto, GitHub.\nNotes de cours : STT-1100_notes_de_cours\nPhilosophie : apprentissage actif, études de cas francophones, réflexion éthique sur les données.\nGPT STT-1100 : assistant conversationnel dédié au cours, pour aider les étudiants dans leurs apprentissages.\n\n\nSTT-4230 — R pour scientifiques\nCours axé sur les bonnes pratiques de développement : structuration de projets, documentation, collaboration via GitHub.\nOutils : R, Quarto, GitHub, testthat.\nRessource : Notes de cours produit par Sophie Baillargeon.\nPhilosophie : clarté, reproductibilité, intégration des outils modernes. GPT STT-4230 : assistant conversationnel dédié au cours, pour aider les étudiants dans leurs apprentissages. UlavalSSD : package R UlavalSSD regroupant des fonctions utilitaires pour la science des données à l’Université Laval.\n\n\nSTT-2200 — Analyse de données\nCours de statistique appliquée où les étudiants travaillent à partir de jeux de données réels et produisent des rapports reproductibles.\nOutils : R, ggplot2, dplyr, RMarkdown.\nPhilosophie : interprétation avant automatisation, communication claire des résultats.\n\n\n\nUniversité du Québec à Chicoutimi (UQAC)\n\n8INF404 — Introduction à la science des données et intelligence d’affaires\nCours interdisciplinaire présentant le cycle complet d’un projet de science des données : préparation, exploration et modélisation prédictive.\nOutils : R, shiny, Quarto.\nPhilosophie : relier technique et prise de décision, avec un accent sur la communication.\n\n\n8INF416 — Visualisation et interface\nCours consacré à la visualisation interactive et à la communication scientifique.\nOutils : R (Shiny), ggplot2.\nPhilosophie : clarté visuelle, accessibilité et rigueur du message graphique.\n\n\n8STT108 — Méthodes statistiques pour les données massives\nIntroduction aux méthodes statistiques appliquées aux grands ensembles de données (big data).\nOutils : R, tidyverse, parallel computing.\nPhilosophie : mettre l’accent sur la logique des modèles avant leur automatisation."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Bienvenue",
-    "section": "",
-    "text": "Bonjour ! Je suis Aurélien, chargé d’enseignement en mathématiques et statistiques au département de mathématiques et de statistiques de l’Université Laval (Québec). Je suis aussi responsable du Centre du Dépannage et d’Apprentissage en math et en stat.\n\n\n\nAccès rapide\n\nEnseignement : plans de cours, notes et devoirs → Enseignement\nRessources : fiches mémo, notebooks et tutoriels → Ressources\nÀ propos / Contact : qui je suis et comment me joindre → À propos\n\n\n\nActualités rapides\n\nLancement du site (Quarto + GitHub Pages).\nMise à jour des informations du CDA (horaires & ateliers).\nNouveaux gabarits de page pour les cours.\n\n\n\n\n\n\n\n\n\nConseil\n\n\n\nPour modifier ce site, éditez les fichiers .qmd puis lancez quarto preview en local."
-  },
-  {
-    "objectID": "blog/posts/2025-10-09-cda.html",
-    "href": "blog/posts/2025-10-09-cda.html",
-    "title": "CDA : ce que nous offrons",
-    "section": "",
-    "text": "Le Centre du Dépannage et d’Apprentissage en math et en stat vise à soutenir les apprentissages : tutorat, ateliers ciblés, et conseils méthodologiques. Les détails (horaires, inscriptions) sont publiés sur la page CDA."
+    "objectID": "enseignement.html#ressources-partagées",
+    "href": "enseignement.html#ressources-partagées",
+    "title": "Enseignement",
+    "section": "Ressources partagées",
+    "text": "Ressources partagées\n\n📚 Plateforme de ressources pédagogiques pour enseignants\nGabarits Quarto, tutoriels interactifs et exemples reproductibles.\n🤖 Projet GPT-CDA\nAssistant conversationnel d’aide à la réussite en mathématiques et statistiques.\n\n\n✨ Mon objectif : former des scientifiques des données autonomes, rigoureux et curieux, capables de relier théorie, pratique et communication scientifique."
   },
   {
     "objectID": "publications.html",
@@ -133,24 +119,115 @@
     "text": "Présence professionnelle\n\nResearchGate — Profil public (publications, lectures, citations).\nhttps://www.researchgate.net/profile/Aurelien-Nicosia-2 :contentReferenceoaicite:10\nEIOM — École interdisciplinaire outils & méthodes (mention LinkedIn)\nEIOM (U. Laval) — Publication LinkedIn (5e édition, 2025).\nLien : https://www.linkedin.com/posts/eiomulaval_jour-2-de-leiom-2025-5e-%C3%A9dition-activity-7366140743142240256-d4O_"
   },
   {
-    "objectID": "enseignement.html",
-    "href": "enseignement.html",
-    "title": "Enseignement",
+    "objectID": "blog/posts/2025-10-09-cda.html",
+    "href": "blog/posts/2025-10-09-cda.html",
+    "title": "CDA : ce que nous offrons",
     "section": "",
-    "text": "Vous trouverez ci-dessous la structure proposée pour organiser les cours. Créez un dossier par cours (ex. cours/STA-XXXX/) contenant des .qmd (plan de cours, calendrier, devoirs, etc.)."
+    "text": "Le Centre du Dépannage et d’Apprentissage en math et en stat vise à soutenir les apprentissages : tutorat, ateliers ciblés, et conseils méthodologiques. Les détails (horaires, inscriptions) sont publiés sur la page CDA."
   },
   {
-    "objectID": "enseignement.html#cours-exemples-de-structure",
-    "href": "enseignement.html#cours-exemples-de-structure",
-    "title": "Enseignement",
-    "section": "Cours (exemples de structure)",
-    "text": "Cours (exemples de structure)\n\n\n\nSigle\nTitre (à remplacer)\nSession\nRessources\n\n\n\n\nMAT-1XXX\nCalcul différentiel\nA2025\nPlan de cours · Notes · Devoirs\n\n\nSTA-2XXX\nStatistiques inférentielles\nH2026\nPlan de cours · R scripts · Exercices\n\n\n\n\n\n\n\n\n\nAstuce\n\n\n\nBonnes pratiques : - Ajoutez un fichier index.qmd dans chaque dossier de cours pour servir de page d’accueil du cours.\n- Utilisez des listings Quarto pour générer automatiquement un sommaire des ressources."
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bienvenue",
+    "section": "",
+    "text": "Bonjour ! Je suis Aurélien, chargé d’enseignement en mathématiques et statistiques au département de mathématiques et de statistiques de l’Université Laval (Québec). Je suis aussi responsable du Centre du Dépannage et d’Apprentissage en math et en stat.\n\n\n\nAccès rapide\n\nEnseignement : plans de cours, notes et devoirs → Enseignement\nRessources : fiches mémo, notebooks et tutoriels → Ressources\nÀ propos / Contact : qui je suis et comment me joindre → À propos\n\n\n\nActualités rapides\n\nLancement du site (Quarto + GitHub Pages).\nMise à jour des informations du CDA (horaires & ateliers).\nNouveaux gabarits de page pour les cours.\n\n\n\n\n\n\n\n\n\nConseil\n\n\n\nPour modifier ce site, éditez les fichiers .qmd puis lancez quarto preview en local."
   },
   {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "CV (aperçu)",
+    "objectID": "a-propos.html",
+    "href": "a-propos.html",
+    "title": "À propos",
     "section": "",
-    "text": "Aurélien — Chargé d’enseignement, Département de mathématiques et de statistiques, Université Laval (Québec)\n\nRôle principal : Responsable du Centre du Dépannage et d’Apprentissage en math et en stat.\nEnseignement : Cours de mathématiques et statistiques (1er cycle), accompagnement d’équipes d’auxiliaires d’enseignement.\nIntérêts pédagogiques : pédagogie active, évaluation formative, apprentissage par problèmes, ressources ouvertes.\nCompétences : R, Python, LaTeX, Quarto, git, gestion d’équipe (centre d’aide), communication scientifique.\n\n\nAjoutez un cv.pdf ici et liez-le depuis cette page si vous souhaitez publier la version complète."
+    "text": "Je m’appelle Aurélien Nicosia.\nJe suis chargé d’enseignement en mathématiques et statistiques au Département de mathématiques et de statistiques de l’Université Laval (Québec). Je suis également responsable du Centre de Dépannage et d’Apprentissage (CDA), un espace de soutien à la réussite où les étudiantes et étudiants reçoivent de l’aide chaque session.\nMon travail se situe à la croisée de la pédagogie universitaire, de la statistique appliquée et du développement d’outils numériques pour l’enseignement et la recherche.\nJ’accorde une grande importance à la reproductibilité, à la science ouverte et à l’accessibilité des savoirs.\n\n\nIntérêts\n\nPédagogie universitaire : apprentissage actif, évaluation formative et conception de ressources interactives.\n\nStatistique appliquée : modélisation multi-états, estimation de densité, données directionnelles.\n\nOutils numériques : R, Python, Quarto, GitHub, Shiny, et l’intégration de l’IA en éducation.\n\nInnovation : accompagnement des apprentissages, collaboration interdisciplinaire et partage de ressources francophones.\n\n\n\n\nLocalisation et contact\n📍 Québec, QC, Canada\n🏛️ Université Laval — Département de mathématiques et de statistiques\n✉️ aurelien.nicosia@mat.ulaval.ca\n\n\n\nÀ propos du site\nCe site est généré avec Quarto et déployé automatiquement via GitHub Pages.\nIl regroupe mes activités de recherche, d’enseignement et d’innovation pédagogique.\nLe code source est accessible dans le dépôt indiqué dans la barre de navigation.\n💡 Si vous souhaitez proposer une correction ou une amélioration, cliquez sur l’icône crayon (Edit) en haut de la page pour ouvrir la version correspondante dans GitHub."
+  },
+  {
+    "objectID": "blog/posts/2025-10-09-bienvenue.html",
+    "href": "blog/posts/2025-10-09-bienvenue.html",
+    "title": "Bienvenue sur mon site Quarto",
+    "section": "",
+    "text": "Lancement de mon site d’enseignant (Quarto + GitHub Pages). Vous y trouverez mes pages de cours, des ressources et les informations du CDA."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Notes rapides sur l’enseignement, la statistique et la vie du CDA.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBienvenue sur mon site Quarto\n\n\n\nAnnonce\n\n\n\n\n\n\n\n\n\n9 oct. 2025\n\n\n\n\n\n\n\n\n\n\n\n\nCDA : ce que nous offrons\n\n\n\nCDA\n\nPédagogie\n\n\n\n\n\n\n\n\n\n9 oct. 2025\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "cda/index.html",
+    "href": "cda/index.html",
+    "title": "Centre du Dépannage et d’Apprentissage (CDA) — Math & Stat",
+    "section": "",
+    "text": "Le Centre du Dépannage et d’Apprentissage en math et en stat offre un soutien aux étudiantes et étudiants du département : tutorat, ateliers thématiques, dépistage de difficultés et stratégies d’apprentissage."
+  },
+  {
+    "objectID": "cda/index.html#services",
+    "href": "cda/index.html#services",
+    "title": "Centre du Dépannage et d’Apprentissage (CDA) — Math & Stat",
+    "section": "Services",
+    "text": "Services\n\nTutorat : accompagnement ciblé sur des notions de cours.\nAteliers : révision, méthodes de résolution, préparation aux évaluations.\nApprentissage : organisation du travail, prise de notes, préparation aux examens."
+  },
+  {
+    "objectID": "cda/index.html#informations-pratiques",
+    "href": "cda/index.html#informations-pratiques",
+    "title": "Centre du Dépannage et d’Apprentissage (CDA) — Math & Stat",
+    "section": "Informations pratiques",
+    "text": "Informations pratiques\n\nAffiliation : Département de mathématiques et de statistiques — Université Laval (Québec).\nHoraires : à publier en début de session (remplacez par les heures exactes).\nLieu / Modalités : campus (local à confirmer) et/ou en ligne (compléter selon vos modalités).\nContact : aurelien@example.com (remplacez par votre adresse ULaval)."
+  },
+  {
+    "objectID": "cda/index.html#comment-nous-rejoindre",
+    "href": "cda/index.html#comment-nous-rejoindre",
+    "title": "Centre du Dépannage et d’Apprentissage (CDA) — Math & Stat",
+    "section": "Comment nous rejoindre",
+    "text": "Comment nous rejoindre\n\nPubliez ici le formulaire de prise de rendez-vous ou le calendrier des ateliers.\nAjoutez des liens vers les ressources d’étude, gabarits de fiches et capsules vidéo.\n\n\n\n\n\n\n\nImportant\n\n\n\nPensez à garder cette page à jour au début de chaque session (horaires, ateliers, liens d’inscription)."
+  },
+  {
+    "objectID": "recherche.html",
+    "href": "recherche.html",
+    "title": "Recherche",
+    "section": "",
+    "text": "Mes travaux se situent à l’interface des mathématiques appliquées, de la statistique computationnelle et de la science des données.\nJe développe des méthodes robustes et interprétables pour l’analyse de données complexes, avec une attention particulière à la reproductibilité, aux logiciels libres et au transfert vers la pratique."
+  },
+  {
+    "objectID": "recherche.html#vision-générale",
+    "href": "recherche.html#vision-générale",
+    "title": "Recherche",
+    "section": "",
+    "text": "Mes travaux se situent à l’interface des mathématiques appliquées, de la statistique computationnelle et de la science des données.\nJe développe des méthodes robustes et interprétables pour l’analyse de données complexes, avec une attention particulière à la reproductibilité, aux logiciels libres et au transfert vers la pratique."
+  },
+  {
+    "objectID": "recherche.html#axes-de-recherche",
+    "href": "recherche.html#axes-de-recherche",
+    "title": "Recherche",
+    "section": "Axes de recherche",
+    "text": "Axes de recherche\n\n1. Estimation de densité et détection d’anomalies\nDéveloppement de méthodes de type GLBFP (Generalized Linear Blend Frequency Polygons) qui unifient histogrammes, ASH et LBFP.\nObjectifs : stabilité, adaptativité et lecture géométrique claire.\nApplication directe : détection d’observations atypiques via combinaisons de densités locales.\nRessource logicielle : GLBFP (package R, dépôt GitHub).\n\n\n2. Statistique directionnelle et modèles angulaires\nModèles pour données circulaires et directionnelles et effets aléatoires circulaires.\nApplications : orientation/mouvement, phénomènes périodiques, vents dominants.\nRessource logicielle : CircularRegression (package R, dépôt GitHub).\n\n\n3. Modèles cachés et dynamiques latentes\nModélisation par Hidden Markov Models pour données temporelles et spatio-temporelles.\nIntérêts récents : effet de l’échelle temporelle sur l’inférence, modèles multi-individus, liens avec les fonctions de sélection d’habitat pour relier comportements et environnement.\n\n\n4. Science des données appliquée et innovation pédagogique\nTransfert de concepts statistiques vers l’apprentissage automatique (erreurs de mesure, interprétabilité, robustesse).\nConception de ressources ouvertes pour la formation en science des données (Quarto, learnr, GitHub) et réflexion sur l’usage responsable de l’IA en enseignement."
+  },
+  {
+    "objectID": "recherche.html#thèse-de-doctorat",
+    "href": "recherche.html#thèse-de-doctorat",
+    "title": "Recherche",
+    "section": "Thèse de doctorat",
+    "text": "Thèse de doctorat\nTitre : Modèles multi-états généraux pour l’analyse du mouvement animalier\nAnnée : 2024\nUniversité : Université Laval\nDirection : Thierry Duchesne et Louis-Paul Rivest\nCette thèse développe un cadre général de modélisation multi-états pour l’étude du mouvement animal, combinant la rigueur des modèles de Markov cachés et la flexibilité des fonctions de sélection d’habitat.\nElle propose une formulation unificatrice reliant les approches comportementales et spatiales, ainsi qu’une implémentation logicielle complète en R.\n\n📄 Consulter la thèse (PDF, dépôt institutionnel)\n\n💻 Code et matériel reproductible (GitHub)\n\n\nLogiciels et diffusion\n\nGLBFP — Estimation de densité fondée sur les Generalized Linear Blend Frequency Polygons.\nMéthode unificatrice des approches histogramme, ASH et LBFP, offrant une interprétation géométrique claire et une stabilité accrue.\nCircularRegression — Régression de données circulaires et directionnelles.\nComprend des extensions avec effets aléatoires circulaires et des modèles tridimensionnels pour le mouvement dans l’espace.\nsite_ressources_SSD — Plateforme de ressources pédagogiques francophones pour la science des données.\nRegroupe gabarits Quarto, tutoriels interactifs (Learnr) et exemples reproductibles pour enseignants et étudiants.\nGeneralOaxaca — Package R disponible sur le CRAN pour la décomposition d’écarts selon la méthode de Blinder–Oaxaca généralisée.\nIl permet d’analyser les différences observées entre groupes (ex. genre, régions, secteurs) en décomposant les contributions dues aux effets de composition et aux effets de coefficients, dans des modèles linéaires et généralisés."
+  },
+  {
+    "objectID": "recherche.html#publications",
+    "href": "recherche.html#publications",
+    "title": "Recherche",
+    "section": "Publications",
+    "text": "Publications\n\nArticles publiés\n\nGagnon, S., Allard, M., Nicosia, A. (2017). Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada. Arctic Science.\nhttps://doi.org/10.1139/AS-2016-0045\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2016). A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement. Annals of Applied Statistics.\nhttps://doi.org/10.1214/17-AOAS1045\nRivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D. (2015). A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology. Journal of the Royal Statistical Society: Series C (Applied Statistics).\nhttps://doi.org/10.1111/rssc.12124\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2015). A General Hidden State Random Walk Model for Animal Movement. Computational Statistics & Data Analysis.\nhttps://doi.org/10.1016/j.csda.2016.07.009"
+  },
+  {
+    "objectID": "ressources.html",
+    "href": "ressources.html",
+    "title": "Autres",
+    "section": "",
+    "text": "Au-delà de la recherche et de l’enseignement, plusieurs domaines nourrissent ma curiosité et mes projets.\nJ’aime explorer les frontières entre mathématiques, art, données et créativité numérique.\n\n\nJe m’intéresse à la beauté mathématique sous toutes ses formes — qu’il s’agisse d’une équation élégante, d’une visualisation bien conçue ou d’un motif généré aléatoirement.\nCette fascination m’a conduit à développer des projets à la frontière entre art et science des données, comme :\n\n🎨 Dessin numérique avec R : exploration des textures et motifs génératifs produits à partir de lois de probabilités.\n\n📐 Recettes mathématiques : un projet d’écriture où chaque concept mathématique est présenté comme une “recette”, mêlant rigueur et poésie.\n📘 Voir un exemple de deux recettes mathématique (PDF) sur l’identité d’Euler (\\(e^{i\\pi}+1 = 0\\)) et sur la suite de Fibonacci\n\n\n\n\nJ’aime rendre les mathématiques accessibles, vivantes et inspirantes.\nMes projets d’écriture associent souvent narration, clarté visuelle et rigueur conceptuelle.\nJe travaille actuellement sur :\n\nLa cuisine des données — une plateforme d’apprentissage inspirée de l’univers culinaire ;\nRecettes mathématiques — un ouvrage illustré pour découvrir la beauté des théorèmes à travers des “recettes” courtes et visuelles.\n\n\n🌱 Mon parcours s’articule autour d’une idée simple :\nfaire dialoguer la rigueur scientifique et la créativité humaine,\npour que les mathématiques et la science des données deviennent des espaces de découverte, d’art et de transmission."
+  },
+  {
+    "objectID": "ressources.html#centres-dintérêt-et-explorations",
+    "href": "ressources.html#centres-dintérêt-et-explorations",
+    "title": "Autres",
+    "section": "",
+    "text": "Au-delà de la recherche et de l’enseignement, plusieurs domaines nourrissent ma curiosité et mes projets.\nJ’aime explorer les frontières entre mathématiques, art, données et créativité numérique.\n\n\nJe m’intéresse à la beauté mathématique sous toutes ses formes — qu’il s’agisse d’une équation élégante, d’une visualisation bien conçue ou d’un motif généré aléatoirement.\nCette fascination m’a conduit à développer des projets à la frontière entre art et science des données, comme :\n\n🎨 Dessin numérique avec R : exploration des textures et motifs génératifs produits à partir de lois de probabilités.\n\n📐 Recettes mathématiques : un projet d’écriture où chaque concept mathématique est présenté comme une “recette”, mêlant rigueur et poésie.\n📘 Voir un exemple de deux recettes mathématique (PDF) sur l’identité d’Euler (\\(e^{i\\pi}+1 = 0\\)) et sur la suite de Fibonacci\n\n\n\n\nJ’aime rendre les mathématiques accessibles, vivantes et inspirantes.\nMes projets d’écriture associent souvent narration, clarté visuelle et rigueur conceptuelle.\nJe travaille actuellement sur :\n\nLa cuisine des données — une plateforme d’apprentissage inspirée de l’univers culinaire ;\nRecettes mathématiques — un ouvrage illustré pour découvrir la beauté des théorèmes à travers des “recettes” courtes et visuelles.\n\n\n🌱 Mon parcours s’articule autour d’une idée simple :\nfaire dialoguer la rigueur scientifique et la créativité humaine,\npour que les mathématiques et la science des données deviennent des espaces de découverte, d’art et de transmission."
   }
 ]

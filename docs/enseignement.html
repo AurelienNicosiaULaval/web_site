@@ -110,16 +110,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Recherche</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./innovation.qmd"> 
-<span class="menu-text">Innovation</span></a>
+    <a class="nav-link" href="./innovation.html"> 
+<span class="menu-text">Innovation Pédagogique</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./ressources.html"> 
-<span class="menu-text">Ressources</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Média</span></a>
+<span class="menu-text">Autres</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./a-propos.html"> 
@@ -145,7 +141,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#cours-exemples-de-structure" id="toc-cours-exemples-de-structure" class="nav-link active" data-scroll-target="#cours-exemples-de-structure">Cours (exemples de structure)</a></li>
+  <li><a href="#philosophie-de-lenseignement" id="toc-philosophie-de-lenseignement" class="nav-link active" data-scroll-target="#philosophie-de-lenseignement">Philosophie de l’enseignement</a></li>
+  <li><a href="#cours-enseignés" id="toc-cours-enseignés" class="nav-link" data-scroll-target="#cours-enseignés">Cours enseignés</a>
+  <ul class="collapse">
+  <li><a href="#université-laval-département-de-mathématiques-et-de-statistique" id="toc-université-laval-département-de-mathématiques-et-de-statistique" class="nav-link" data-scroll-target="#université-laval-département-de-mathématiques-et-de-statistique">Université Laval — Département de mathématiques et de statistique</a></li>
+  <li><a href="#université-du-québec-à-chicoutimi-uqac" id="toc-université-du-québec-à-chicoutimi-uqac" class="nav-link" data-scroll-target="#université-du-québec-à-chicoutimi-uqac">Université du Québec à Chicoutimi (UQAC)</a></li>
+  </ul></li>
+  <li><a href="#ressources-partagées" id="toc-ressources-partagées" class="nav-link" data-scroll-target="#ressources-partagées">Ressources partagées</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/enseignement.qmd" class="toc-action"><i class="bi bi-github"></i>Modifier cette page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></nav>
     </div>
@@ -171,47 +173,79 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Vous trouverez ci-dessous la structure proposée pour organiser les cours. Créez un dossier par cours (ex. <code>cours/STA-XXXX/</code>) contenant des <code>.qmd</code> (plan de cours, calendrier, devoirs, etc.).</p>
-<section id="cours-exemples-de-structure" class="level2">
-<h2 class="anchored" data-anchor-id="cours-exemples-de-structure">Cours (exemples de structure)</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Sigle</th>
-<th style="text-align: left;">Titre (à remplacer)</th>
-<th style="text-align: left;">Session</th>
-<th style="text-align: left;">Ressources</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">MAT-1XXX</td>
-<td style="text-align: left;">Calcul différentiel</td>
-<td style="text-align: left;">A2025</td>
-<td style="text-align: left;"><a href="#">Plan de cours</a> · <a href="#">Notes</a> · <a href="#">Devoirs</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">STA-2XXX</td>
-<td style="text-align: left;">Statistiques inférentielles</td>
-<td style="text-align: left;">H2026</td>
-<td style="text-align: left;"><a href="#">Plan de cours</a> · <a href="#">R scripts</a> · <a href="#">Exercices</a></td>
-</tr>
-</tbody>
-</table>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Astuce
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Bonnes pratiques</strong>&nbsp;: - Ajoutez un fichier <code>index.qmd</code> dans chaque dossier de cours pour servir de page d’accueil du cours.<br>
-- Utilisez des <em>listings</em> Quarto pour générer automatiquement un sommaire des ressources.</p>
-</div>
-</div>
+<section id="philosophie-de-lenseignement" class="level2">
+<h2 class="anchored" data-anchor-id="philosophie-de-lenseignement">Philosophie de l’enseignement</h2>
+<p>J’aborde l’enseignement des mathématiques, de la statistique et de la science des données comme une activité de <strong>compréhension et d’exploration</strong>.<br>
+L’apprentissage repose sur trois principes :</p>
+<ul>
+<li><strong>Apprendre en agissant</strong> : la pratique et la manipulation d’outils comme R ou Quarto permettent de construire le sens.<br>
+</li>
+<li><strong>Apprendre en collaboration</strong> : les projets d’équipe et les discussions sont au cœur de mes cours.<br>
+</li>
+<li><strong>Apprendre de manière transparente</strong> : chaque activité est documentée et reproductible, pour ancrer la rigueur scientifique dans la démarche étudiante.</li>
+</ul>
+<p>Je privilégie des approches par projet, des évaluations formatives et un environnement bienveillant où la rigueur et le plaisir d’apprendre cohabitent.</p>
+</section>
+<section id="cours-enseignés" class="level2">
+<h2 class="anchored" data-anchor-id="cours-enseignés">Cours enseignés</h2>
+<section id="université-laval-département-de-mathématiques-et-de-statistique" class="level3">
+<h3 class="anchored" data-anchor-id="université-laval-département-de-mathématiques-et-de-statistique">Université Laval — Département de mathématiques et de statistique</h3>
+<section id="stt-1100-introduction-à-la-science-des-données" class="level4">
+<h4 class="anchored" data-anchor-id="stt-1100-introduction-à-la-science-des-données">STT-1100 — Introduction à la science des données</h4>
+<p>Cours d’introduction centré sur des <strong>mises en situation professionnelles</strong> où les étudiants incarnent un rôle en science des données.<br>
+Objectifs : apprendre à structurer une analyse complète — de l’importation des données à la communication des résultats.<br>
+<strong>Outils :</strong> R, tidyverse, Quarto, GitHub.<br>
+<strong>Notes de cours :</strong> <a href="https://aureliennicosiaulaval.github.io/STT-1100_notes_de_cours/">STT-1100_notes_de_cours</a><br>
+<strong>Philosophie :</strong> apprentissage actif, études de cas francophones, réflexion éthique sur les données.</p>
+<p><strong>GPT STT-1100</strong> : <a href="https://chatgpt.com/g/g-682d165f32e881918633affa3fe9dfd6-stt-1100">assistant conversationnel dédié au cours</a>, pour aider les étudiants dans leurs apprentissages.</p>
+</section>
+<section id="stt-4230-r-pour-scientifiques" class="level4">
+<h4 class="anchored" data-anchor-id="stt-4230-r-pour-scientifiques">STT-4230 — R pour scientifiques</h4>
+<p>Cours axé sur les <strong>bonnes pratiques de développement</strong> : structuration de projets, documentation, collaboration via GitHub.<br>
+<strong>Outils :</strong> R, Quarto, GitHub, testthat.<br>
+<strong>Ressource :</strong> <a href="https://stt4230.rbind.io/">Notes de cours</a> produit par Sophie Baillargeon.<br>
+<strong>Philosophie :</strong> clarté, reproductibilité, intégration des outils modernes. <strong>GPT STT-4230</strong> : <a href="https://chatgpt.com/g/g-689dc0b2bb348191b77cd4609dfce184-r-pour-scientifiques">assistant conversationnel dédié au cours</a>, pour aider les étudiants dans leurs apprentissages. <strong>UlavalSSD</strong> : <a href="https://aureliennicosiaulaval.github.io/UlavalSSD/">package R UlavalSSD</a> regroupant des fonctions utilitaires pour la science des données à l’Université Laval.</p>
+</section>
+<section id="stt-2200-analyse-de-données" class="level4">
+<h4 class="anchored" data-anchor-id="stt-2200-analyse-de-données">STT-2200 — Analyse de données</h4>
+<p>Cours de <strong>statistique appliquée</strong> où les étudiants travaillent à partir de jeux de données réels et produisent des rapports reproductibles.<br>
+<strong>Outils :</strong> R, ggplot2, dplyr, RMarkdown.<br>
+<strong>Philosophie :</strong> interprétation avant automatisation, communication claire des résultats.</p>
+</section>
+</section>
+<section id="université-du-québec-à-chicoutimi-uqac" class="level3">
+<h3 class="anchored" data-anchor-id="université-du-québec-à-chicoutimi-uqac">Université du Québec à Chicoutimi (UQAC)</h3>
+<section id="inf404-introduction-à-la-science-des-données-et-intelligence-daffaires" class="level4">
+<h4 class="anchored" data-anchor-id="inf404-introduction-à-la-science-des-données-et-intelligence-daffaires">8INF404 — Introduction à la science des données et intelligence d’affaires</h4>
+<p>Cours interdisciplinaire présentant le cycle complet d’un projet de science des données : préparation, exploration et modélisation prédictive.<br>
+<strong>Outils :</strong> R, shiny, Quarto.<br>
+<strong>Philosophie :</strong> relier technique et prise de décision, avec un accent sur la communication.</p>
+</section>
+<section id="inf416-visualisation-et-interface" class="level4">
+<h4 class="anchored" data-anchor-id="inf416-visualisation-et-interface">8INF416 — Visualisation et interface</h4>
+<p>Cours consacré à la <strong>visualisation interactive et à la communication scientifique</strong>.<br>
+<strong>Outils :</strong> R (Shiny), ggplot2.<br>
+<strong>Philosophie :</strong> clarté visuelle, accessibilité et rigueur du message graphique.</p>
+</section>
+<section id="stt108-méthodes-statistiques-pour-les-données-massives" class="level4">
+<h4 class="anchored" data-anchor-id="stt108-méthodes-statistiques-pour-les-données-massives">8STT108 — Méthodes statistiques pour les données massives</h4>
+<p>Introduction aux méthodes statistiques appliquées aux grands ensembles de données (big data).<br>
+<strong>Outils :</strong> R, tidyverse, parallel computing.<br>
+<strong>Philosophie :</strong> mettre l’accent sur la logique des modèles avant leur automatisation.</p>
+</section>
+</section>
+</section>
+<section id="ressources-partagées" class="level2">
+<h2 class="anchored" data-anchor-id="ressources-partagées">Ressources partagées</h2>
+<ul>
+<li><p>📚 <a href="https://aureliennicosiaulaval.github.io/site_ressources_SSD/">Plateforme de ressources pédagogiques pour enseignants</a><br>
+Gabarits Quarto, tutoriels interactifs et exemples reproductibles.</p></li>
+<li><p>🤖 <a href="https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage#c48278">Projet GPT-CDA</a><br>
+Assistant conversationnel d’aide à la réussite en mathématiques et statistiques.</p></li>
+</ul>
+<blockquote class="blockquote">
+<p>✨ Mon objectif : former des scientifiques des données autonomes, rigoureux et curieux, capables de relier théorie, pratique et communication scientifique.</p>
+</blockquote>
 
 
 </section>

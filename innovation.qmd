@@ -1,0 +1,148 @@
+---
+title: "Innovation pédagogique"
+---
+  
+## Vision générale
+  
+  Je considère l’innovation pédagogique comme un **levier de transformation de l’apprentissage**.  
+Mon objectif est de concevoir des environnements où les étudiantes et étudiants deviennent acteurs de leur formation, à travers des approches actives, des outils numériques modernes et une culture de la reproductibilité.
+
+Mes projets s’articulent autour de trois axes :
+
+1. **Modernisation des cours** grâce aux technologies ouvertes (R, Quarto, Learnr, GitHub).  
+2. **Accompagnement et encadrement** à travers la formation d’auxiliaires et la création de ressources collaboratives.  
+3. **Intégration responsable de l’intelligence artificielle** en enseignement et en soutien à la réussite.
+
+  > 🌱 L’innovation pédagogique, pour moi, consiste à rapprocher rigueur, créativité et accessibilité — pour que chaque étudiant·e puisse apprendre en explorant, expérimentant et comprenant.
+  
+## Principaux projets
+  
+### Refonte des cours en science des données
+  Mise à jour complète des cours d’introduction à la science des données et de programmation scientifique.  
+Objectifs :
+
+- rendre l’apprentissage plus actif et contextualisé ;  
+- développer des études de cas francophones ;  
+- offrir une rétroaction automatisée et formative via Quarto et GitHub Classroom. 
+
+**Résultat :** amélioration de la motivation et de la participation étudiante, tout en favorisant la reproductibilité du code.
+
+
+
+  
+### Amélioration du soutien à la réussite étudiante
+  Développement d’un modèle de formation structurée des auxiliaires et d’une plateforme interne regroupant ressources, capsules vidéo et foire aux questions.  
+**Résultat :** professionnalisation du rôle d’auxiliaire et uniformisation du soutien pédagogique.  
+**Lien :** [Espace des auxiliaires – plateforme interne (Ulaval)](https://ulavaldti.sharepoint.com/sites/AuxiliaireduDMS)
+
+
+  
+### Projet GPT-CDA — Intelligence artificielle et apprentissage
+  Développement d’un **assistant conversationnel spécialisé** pour l’accompagnement en mathématiques et en statistiques.  
+Objectifs :
+
+- offrir des explications adaptées au matériel de cours ;  
+- détecter les incompréhensions et rediriger vers un tuteur humain ;  
+- optimiser le temps d’intervention des auxiliaires.  
+
+**Résultat :** déploiement d’un prototype supervisé combinant IA et accompagnement pédagogique personnalisé.
+
+
+  
+### Ressources pédagogiques ouvertes
+
+Je développe un écosystème de ressources numériques libres pour soutenir l’enseignement et l’apprentissage de la science des données.  
+Cette plateforme vise à faciliter la conception de matériel reproductible, interactif et collaboratif, tout en favorisant la diffusion de ressources francophones.
+
+
+
+#### Plateforme de ressources pédagogiques 
+
+**Lien :** [site_ressources_SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/)
+
+Créée comme une bibliothèque en ligne, cette plateforme centralise un ensemble de ressources destinées aux enseignants et aux étudiants.  
+Elle met l’accent sur la reproductibilité, la collaboration et la mutualisation des pratiques pédagogiques.
+
+**Contenu :**
+
+- Gabarits Quarto pour la création de sites web, rapports et documents reproductibles ;  
+- Exemples de tutoriels interactifs développés avec *learnr* ;  
+- Librairie R `UlavalSSD` contenant des fonctions et jeux de données pour l’enseignement des statistiques ;  
+- Procédures GitHub et guides pour la gestion de versions et la diffusion ouverte de matériel pédagogique.
+
+**Résultat :** cette plateforme favorise la cohérence des pratiques d’enseignement et la collaboration entre collègues, tout en réduisant le temps de préparation de matériel.
+
+
+
+#### tutorizeR
+
+**Lien :** [tutorizeR](https://github.com/AurelienNicosiaULaval/tutorizeR)
+
+Le package *tutorizeR* automatise la conversion de fichiers Quarto (`.qmd`) et RMarkdown (`.Rmd`) en tutoriels interactifs utilisant `learnr` ou `quarto-live`.  
+Il a été conçu pour aider les enseignants à créer rapidement des activités dynamiques, sans effort technique supplémentaire.
+
+**Fonctionnalités principales :**
+
+- Conversion automatique de documents en tutoriels interactifs ;  
+- Ajout de zones de réponse et de rétroaction immédiate via `gradethis` ;  
+- Génération d’environnements prêts à être déployés (cours en ligne, autoformation, laboratoires).  
+
+**Objectif :** promouvoir une pédagogie active et formative en intégrant des exercices interactifs directement dans les documents Quarto.  
+**Résultat :** *tutorizeR* permet de réduire considérablement la charge technique de création de tutoriels tout en renforçant la reproductibilité et l’engagement étudiant.
+
+
+####  ZeroWasteData *(en développement)*
+
+**Lien :** [ZeroWasteData](https://github.com/AurelienNicosiaULaval/ZeroWasteData)
+
+*ZeroWasteData* est une application interactive développée en Python avec Streamlit, qui vise à encourager la **réutilisation intelligente des données** dans un contexte d’enseignement en science des données.  
+Elle repose sur une idée simple : plutôt que d’accumuler des fichiers et d’épuiser les ressources de stockage, exploitons mieux les données que nous avons déjà.
+
+**Principe de fonctionnement :**
+
+- l’utilisateur importe son jeu de données ;  
+- il indique quelles analyses ou activités ont déjà été réalisées avec ce jeu ;  
+- l’application lui suggère automatiquement d’autres analyses possibles, en les associant à des concepts statistiques ou de science des données pertinents (par exemple : visualisation, corrélation, régression, apprentissage supervisé, clustering, etc.).
+
+**Objectifs pédagogiques :**
+
+- valoriser les données existantes en explorant de nouvelles perspectives analytiques ;  
+- réduire la duplication et le gaspillage numérique, en liant pédagogie et durabilité des données ;  
+- favoriser la découverte active, en reliant chaque type d’analyse à un concept d’enseignement concret.
+
+**Résultat attendu :**
+
+Une application Streamlit conviviale et open source qui agit comme un assistant pédagogique intelligent, aidant enseignants et étudiants à tirer le meilleur parti d’un même jeu de données,  
+tout en sensibilisant à la gestion responsable et durable des ressources numériques.
+
+
+
+  
+### Projet « Dessin numérique avec R »
+  Collaboration entre art et science des données explorant le potentiel graphique du langage R et de la librairie `ggplot2`.  
+**Soutien :** subvention à la création.  
+**Objectif :** produire des images génératives fondées sur des processus statistiques, documenter les fonctions de création et partager les ressources sur GitHub.  
+**Résultat :** un projet interdisciplinaire à la frontière entre art, science et visualisation de données.
+
+
+
+  
+## Rayonnement
+  
+  Je partage régulièrement mes pratiques lors de **colloques et ateliers** consacrés à la pédagogie universitaire et à la science des données.  
+J’anime notamment des formations sur :
+
+- la reproductibilité scientifique avec R et Quarto,  
+- la gestion de projets collaboratifs sur GitHub,  
+- la conception d’activités interactives avec Learnr.
+
+Ces initiatives contribuent à bâtir une **communauté de pratique francophone** autour de la science des données et des pédagogies numériques ouvertes.
+
+Voici des exemples de matériel sur Github:
+
+- [EIOM 2025 — Ateliers de modélisation statistique](https://github.com/AurelienNicosiaULaval/EIOM_2025) et [Site web](https://aureliennicosiaulaval.github.io/EIOM_2025/)
+- [ASSQ 2025 - Quoi de neuf en science des données ?](https://github.com/AurelienNicosiaULaval/ASSQ_E25)
+
+
+  
+

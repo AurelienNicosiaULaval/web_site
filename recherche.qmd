@@ -2,9 +2,86 @@
 title: "Recherche"
 ---
 
-- **Fiches mémo :** dérivées usuelles, lois de probabilité, tests d'hypothèses, intervalles de confiance.
-- **Outils :** R, RStudio, Python, Jupyter, Quarto, LaTeX.
-- **Tutoriels (exemples) :** *Importer des données dans R*, *Graphiques de base avec ggplot2*, *Régression linéaire*, *Visualiser avec matplotlib*.
-- **Ateliers du CDA :** gabarits d'activités, consignes et supports (ajoutez vos documents ici).
+## Vision générale
 
-> Remplacez/complétez ces éléments par vos propres ressources ou ajoutez de nouvelles pages dans `ressources/`.
+Mes travaux se situent à l’interface des mathématiques appliquées, de la statistique computationnelle et de la science des données.  
+Je développe des méthodes robustes et interprétables pour l’analyse de données complexes, avec une attention particulière à la reproductibilité, aux logiciels libres et au transfert vers la pratique.
+
+
+
+## Axes de recherche
+
+### 1. Estimation de densité et détection d’anomalies
+Développement de méthodes de type GLBFP (Generalized Linear Blend Frequency Polygons) qui unifient histogrammes, ASH et LBFP.  
+Objectifs : stabilité, adaptativité et lecture géométrique claire.  
+Application directe : détection d’observations atypiques via combinaisons de densités locales.  
+Ressource logicielle : GLBFP (package R, dépôt GitHub).
+
+### 2. Statistique directionnelle et modèles angulaires
+Modèles pour données circulaires et directionnelles et effets aléatoires circulaires.  
+Applications : orientation/mouvement, phénomènes périodiques, vents dominants.  
+Ressource logicielle : CircularRegression (package R, dépôt GitHub).
+
+### 3. Modèles cachés et dynamiques latentes
+Modélisation par Hidden Markov Models pour données temporelles et spatio-temporelles.  
+Intérêts récents : effet de l’échelle temporelle sur l’inférence, modèles multi-individus, liens avec les fonctions de sélection d’habitat pour relier comportements et environnement.
+
+### 4. Science des données appliquée et innovation pédagogique
+Transfert de concepts statistiques vers l’apprentissage automatique (erreurs de mesure, interprétabilité, robustesse).  
+Conception de ressources ouvertes pour la formation en science des données (Quarto, learnr, GitHub) et réflexion sur l’usage responsable de l’IA en enseignement.
+
+
+
+
+## Thèse de doctorat
+
+**Titre :** *Modèles multi-états généraux pour l’analyse du mouvement animalier*  
+**Année :** 2024  
+**Université :** Université Laval  
+**Direction :** Thierry Duchesne et Louis-Paul Rivest  
+
+Cette thèse développe un cadre général de **modélisation multi-états pour l’étude du mouvement animal**, combinant la rigueur des modèles de Markov cachés et la flexibilité des fonctions de sélection d’habitat.  
+Elle propose une formulation unificatrice reliant les approches comportementales et spatiales, ainsi qu’une implémentation logicielle complète en R.
+
+- 📄 [Consulter la thèse (PDF, dépôt institutionnel)](https://corpus.ulaval.ca/server/api/core/bitstreams/cf3426a4-3475-4d48-a4c4-de29df846ed5/content)  
+- 💻 [Code et matériel reproductible (GitHub)](https://github.com/AurelienNicosiaULaval/multi-state-model-animal-movement)
+
+
+
+
+### Logiciels et diffusion
+
+- [**GLBFP**](https://github.com/AurelienNicosiaULaval/GLBFP) — Estimation de densité fondée sur les *Generalized Linear Blend Frequency Polygons*.  
+  Méthode unificatrice des approches histogramme, ASH et LBFP, offrant une interprétation géométrique claire et une stabilité accrue.
+
+- [**CircularRegression**](https://github.com/AurelienNicosiaULaval/CircularRegression) — Régression de données circulaires et directionnelles.  
+  Comprend des extensions avec effets aléatoires circulaires et des modèles tridimensionnels pour le mouvement dans l’espace.
+
+- [**site_ressources_SSD**](https://aureliennicosiaulaval.github.io/site_ressources_SSD/) — Plateforme de ressources pédagogiques francophones pour la science des données.  
+  Regroupe gabarits Quarto, tutoriels interactifs (Learnr) et exemples reproductibles pour enseignants et étudiants.
+  
+- [**GeneralOaxaca**](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html) — Package R disponible sur le CRAN pour la décomposition d’écarts selon la méthode de **Blinder–Oaxaca généralisée**.  
+  Il permet d’analyser les différences observées entre groupes (ex. genre, régions, secteurs) en décomposant les contributions dues aux effets de composition et aux effets de coefficients, dans des modèles linéaires et généralisés.
+
+
+
+
+## Publications
+
+### Articles publiés
+
+1. **Gagnon, S., Allard, M., Nicosia, A.** (2017). *Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada.* *Arctic Science.*  
+   [https://doi.org/10.1139/AS-2016-0045](https://doi.org/10.1139/AS-2016-0045)
+
+2. **Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D.** (2016). *A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement.* *Annals of Applied Statistics.*  
+   [https://doi.org/10.1214/17-AOAS1045](https://doi.org/10.1214/17-AOAS1045)
+
+3. **Rivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D.** (2015). *A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology.* *Journal of the Royal Statistical Society: Series C (Applied Statistics).*  
+   [https://doi.org/10.1111/rssc.12124](https://doi.org/10.1111/rssc.12124)
+
+4. **Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D.** (2015). *A General Hidden State Random Walk Model for Animal Movement.* *Computational Statistics & Data Analysis.*  
+   [https://doi.org/10.1016/j.csda.2016.07.009](https://doi.org/10.1016/j.csda.2016.07.009)
+
+
+
+

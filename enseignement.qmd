@@ -1,20 +1,83 @@
 ---
 title: "Enseignement"
-toc: true
 ---
 
-Vous trouverez ci-dessous la structure proposée pour organiser les cours. 
-Créez un dossier par cours (ex. `cours/STA-XXXX/`) contenant des `.qmd` (plan de cours, calendrier, devoirs, etc.).
+## Philosophie de l’enseignement
 
-## Cours (exemples de structure)
+J’aborde l’enseignement des mathématiques, de la statistique et de la science des données comme une activité de **compréhension et d’exploration**.  
+L’apprentissage repose sur trois principes :
 
-| Sigle | Titre (à remplacer) | Session | Ressources |
-|:------|:---------------------|:--------|:-----------|
-| MAT-1XXX | Calcul différentiel | A2025 | [Plan de cours](#) · [Notes](#) · [Devoirs](#) |
-| STA-2XXX | Statistiques inférentielles | H2026 | [Plan de cours](#) · [R scripts](#) · [Exercices](#) |
+- **Apprendre en agissant** : la pratique et la manipulation d’outils comme R ou Quarto permettent de construire le sens.  
+- **Apprendre en collaboration** : les projets d’équipe et les discussions sont au cœur de mes cours.  
+- **Apprendre de manière transparente** : chaque activité est documentée et reproductible, pour ancrer la rigueur scientifique dans la démarche étudiante.
 
-::: {.callout-tip}
-**Bonnes pratiques** : 
-- Ajoutez un fichier `index.qmd` dans chaque dossier de cours pour servir de page d'accueil du cours.  
-- Utilisez des *listings* Quarto pour générer automatiquement un sommaire des ressources.
-:::
+Je privilégie des approches par projet, des évaluations formatives et un environnement bienveillant où la rigueur et le plaisir d’apprendre cohabitent.
+
+
+
+## Cours enseignés
+
+### Université Laval — Département de mathématiques et de statistique
+
+#### STT-1100 — Introduction à la science des données
+Cours d’introduction centré sur des **mises en situation professionnelles** où les étudiants incarnent un rôle en science des données.  
+Objectifs : apprendre à structurer une analyse complète — de l’importation des données à la communication des résultats.  
+**Outils :** R, tidyverse, Quarto, GitHub.  
+**Notes de cours :** [STT-1100_notes_de_cours](https://aureliennicosiaulaval.github.io/STT-1100_notes_de_cours/)  
+**Philosophie :** apprentissage actif, études de cas francophones, réflexion éthique sur les données.
+
+**GPT STT-1100** : [assistant conversationnel dédié au cours](https://chatgpt.com/g/g-682d165f32e881918633affa3fe9dfd6-stt-1100), pour aider les étudiants dans leurs apprentissages.
+
+
+
+#### STT-4230 — R pour scientifiques
+Cours axé sur les **bonnes pratiques de développement** : structuration de projets, documentation, collaboration via GitHub.  
+**Outils :** R, Quarto, GitHub, testthat.  
+**Ressource :** [Notes de cours](https://stt4230.rbind.io/) produit par Sophie Baillargeon.  
+**Philosophie :** clarté, reproductibilité, intégration des outils modernes.
+**GPT STT-4230** : [assistant conversationnel dédié au cours](https://chatgpt.com/g/g-689dc0b2bb348191b77cd4609dfce184-r-pour-scientifiques), pour aider les étudiants dans leurs apprentissages.
+**UlavalSSD** : [package R UlavalSSD](https://aureliennicosiaulaval.github.io/UlavalSSD/) regroupant des fonctions utilitaires pour la science des données à l’Université Laval.
+
+
+
+#### STT-2200 — Analyse de données
+Cours de **statistique appliquée** où les étudiants travaillent à partir de jeux de données réels et produisent des rapports reproductibles.  
+**Outils :** R, ggplot2, dplyr, RMarkdown.  
+**Philosophie :** interprétation avant automatisation, communication claire des résultats.
+
+
+
+### Université du Québec à Chicoutimi (UQAC)
+
+#### 8INF404 — Introduction à la science des données et intelligence d’affaires
+Cours interdisciplinaire présentant le cycle complet d’un projet de science des données : préparation, exploration et modélisation prédictive.  
+**Outils :** R, shiny, Quarto.  
+**Philosophie :** relier technique et prise de décision, avec un accent sur la communication.
+
+
+
+#### 8INF416 — Visualisation et interface
+Cours consacré à la **visualisation interactive et à la communication scientifique**.  
+**Outils :** R (Shiny), ggplot2.  
+**Philosophie :** clarté visuelle, accessibilité et rigueur du message graphique.
+
+
+
+#### 8STT108 — Méthodes statistiques pour les données massives
+Introduction aux méthodes statistiques appliquées aux grands ensembles de données (big data).  
+**Outils :** R, tidyverse, parallel computing.  
+**Philosophie :** mettre l’accent sur la logique des modèles avant leur automatisation.
+
+
+
+## Ressources partagées
+
+- 📚 [Plateforme de ressources pédagogiques pour enseignants](https://aureliennicosiaulaval.github.io/site_ressources_SSD/)  
+  Gabarits Quarto, tutoriels interactifs et exemples reproductibles.
+
+- 🤖 [Projet GPT-CDA](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage#c48278)  
+  Assistant conversationnel d’aide à la réussite en mathématiques et statistiques.
+
+
+
+> ✨ Mon objectif : former des scientifiques des données autonomes, rigoureux et curieux, capables de relier théorie, pratique et communication scientifique.

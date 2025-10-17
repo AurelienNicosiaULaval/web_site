@@ -18,11 +18,11 @@ website:
       - href: recherche.qmd
         text: Recherche
       - href: innovation.qmd
-        text: Innovation
+        text: Innovation Pédagogique
       - href: ressources.qmd
-        text: Ressources
-      - href: publications.qmd
-        text: Média
+        text: Autres
+#      - href: publications.qmd
+#        text: Média
       - href: a-propos.qmd
         text: À propos
       - href: cv/index.qmd

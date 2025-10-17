@@ -72,6 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="assets/custom.css">
 <meta property="og:title" content="Recherche – Aurélien Nicosia">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="Aurélien Nicosia">
 <meta property="og:locale" content="fr_CA">
 </head>
@@ -109,16 +110,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Recherche</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./innovation.qmd"> 
-<span class="menu-text">Innovation</span></a>
+    <a class="nav-link" href="./innovation.html"> 
+<span class="menu-text">Innovation Pédagogique</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./ressources.html"> 
-<span class="menu-text">Ressources</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Média</span></a>
+<span class="menu-text">Autres</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./a-propos.html"> 
@@ -139,8 +136,29 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#vision-générale" id="toc-vision-générale" class="nav-link active" data-scroll-target="#vision-générale">Vision générale</a></li>
+  <li><a href="#axes-de-recherche" id="toc-axes-de-recherche" class="nav-link" data-scroll-target="#axes-de-recherche">Axes de recherche</a>
+  <ul class="collapse">
+  <li><a href="#estimation-de-densité-et-détection-danomalies" id="toc-estimation-de-densité-et-détection-danomalies" class="nav-link" data-scroll-target="#estimation-de-densité-et-détection-danomalies">1. Estimation de densité et détection d’anomalies</a></li>
+  <li><a href="#statistique-directionnelle-et-modèles-angulaires" id="toc-statistique-directionnelle-et-modèles-angulaires" class="nav-link" data-scroll-target="#statistique-directionnelle-et-modèles-angulaires">2. Statistique directionnelle et modèles angulaires</a></li>
+  <li><a href="#modèles-cachés-et-dynamiques-latentes" id="toc-modèles-cachés-et-dynamiques-latentes" class="nav-link" data-scroll-target="#modèles-cachés-et-dynamiques-latentes">3. Modèles cachés et dynamiques latentes</a></li>
+  <li><a href="#science-des-données-appliquée-et-innovation-pédagogique" id="toc-science-des-données-appliquée-et-innovation-pédagogique" class="nav-link" data-scroll-target="#science-des-données-appliquée-et-innovation-pédagogique">4. Science des données appliquée et innovation pédagogique</a></li>
+  </ul></li>
+  <li><a href="#thèse-de-doctorat" id="toc-thèse-de-doctorat" class="nav-link" data-scroll-target="#thèse-de-doctorat">Thèse de doctorat</a>
+  <ul class="collapse">
+  <li><a href="#logiciels-et-diffusion" id="toc-logiciels-et-diffusion" class="nav-link" data-scroll-target="#logiciels-et-diffusion">Logiciels et diffusion</a></li>
+  </ul></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a>
+  <ul class="collapse">
+  <li><a href="#articles-publiés" id="toc-articles-publiés" class="nav-link" data-scroll-target="#articles-publiés">Articles publiés</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/recherche.qmd" class="toc-action"><i class="bi bi-github"></i>Modifier cette page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -164,17 +182,82 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="vision-générale" class="level2">
+<h2 class="anchored" data-anchor-id="vision-générale">Vision générale</h2>
+<p>Mes travaux se situent à l’interface des mathématiques appliquées, de la statistique computationnelle et de la science des données.<br>
+Je développe des méthodes robustes et interprétables pour l’analyse de données complexes, avec une attention particulière à la reproductibilité, aux logiciels libres et au transfert vers la pratique.</p>
+</section>
+<section id="axes-de-recherche" class="level2">
+<h2 class="anchored" data-anchor-id="axes-de-recherche">Axes de recherche</h2>
+<section id="estimation-de-densité-et-détection-danomalies" class="level3">
+<h3 class="anchored" data-anchor-id="estimation-de-densité-et-détection-danomalies">1. Estimation de densité et détection d’anomalies</h3>
+<p>Développement de méthodes de type GLBFP (Generalized Linear Blend Frequency Polygons) qui unifient histogrammes, ASH et LBFP.<br>
+Objectifs : stabilité, adaptativité et lecture géométrique claire.<br>
+Application directe : détection d’observations atypiques via combinaisons de densités locales.<br>
+Ressource logicielle : GLBFP (package R, dépôt GitHub).</p>
+</section>
+<section id="statistique-directionnelle-et-modèles-angulaires" class="level3">
+<h3 class="anchored" data-anchor-id="statistique-directionnelle-et-modèles-angulaires">2. Statistique directionnelle et modèles angulaires</h3>
+<p>Modèles pour données circulaires et directionnelles et effets aléatoires circulaires.<br>
+Applications : orientation/mouvement, phénomènes périodiques, vents dominants.<br>
+Ressource logicielle : CircularRegression (package R, dépôt GitHub).</p>
+</section>
+<section id="modèles-cachés-et-dynamiques-latentes" class="level3">
+<h3 class="anchored" data-anchor-id="modèles-cachés-et-dynamiques-latentes">3. Modèles cachés et dynamiques latentes</h3>
+<p>Modélisation par Hidden Markov Models pour données temporelles et spatio-temporelles.<br>
+Intérêts récents : effet de l’échelle temporelle sur l’inférence, modèles multi-individus, liens avec les fonctions de sélection d’habitat pour relier comportements et environnement.</p>
+</section>
+<section id="science-des-données-appliquée-et-innovation-pédagogique" class="level3">
+<h3 class="anchored" data-anchor-id="science-des-données-appliquée-et-innovation-pédagogique">4. Science des données appliquée et innovation pédagogique</h3>
+<p>Transfert de concepts statistiques vers l’apprentissage automatique (erreurs de mesure, interprétabilité, robustesse).<br>
+Conception de ressources ouvertes pour la formation en science des données (Quarto, learnr, GitHub) et réflexion sur l’usage responsable de l’IA en enseignement.</p>
+</section>
+</section>
+<section id="thèse-de-doctorat" class="level2">
+<h2 class="anchored" data-anchor-id="thèse-de-doctorat">Thèse de doctorat</h2>
+<p><strong>Titre :</strong> <em>Modèles multi-états généraux pour l’analyse du mouvement animalier</em><br>
+<strong>Année :</strong> 2024<br>
+<strong>Université :</strong> Université Laval<br>
+<strong>Direction :</strong> Thierry Duchesne et Louis-Paul Rivest</p>
+<p>Cette thèse développe un cadre général de <strong>modélisation multi-états pour l’étude du mouvement animal</strong>, combinant la rigueur des modèles de Markov cachés et la flexibilité des fonctions de sélection d’habitat.<br>
+Elle propose une formulation unificatrice reliant les approches comportementales et spatiales, ainsi qu’une implémentation logicielle complète en R.</p>
 <ul>
-<li><strong>Fiches mémo&nbsp;:</strong> dérivées usuelles, lois de probabilité, tests d’hypothèses, intervalles de confiance.</li>
-<li><strong>Outils&nbsp;:</strong> R, RStudio, Python, Jupyter, Quarto, LaTeX.</li>
-<li><strong>Tutoriels (exemples)&nbsp;:</strong> <em>Importer des données dans R</em>, <em>Graphiques de base avec ggplot2</em>, <em>Régression linéaire</em>, <em>Visualiser avec matplotlib</em>.</li>
-<li><strong>Ateliers du CDA&nbsp;:</strong> gabarits d’activités, consignes et supports (ajoutez vos documents ici).</li>
+<li>📄 <a href="https://corpus.ulaval.ca/server/api/core/bitstreams/cf3426a4-3475-4d48-a4c4-de29df846ed5/content">Consulter la thèse (PDF, dépôt institutionnel)</a><br>
+</li>
+<li>💻 <a href="https://github.com/AurelienNicosiaULaval/multi-state-model-animal-movement">Code et matériel reproductible (GitHub)</a></li>
 </ul>
-<blockquote class="blockquote">
-<p>Remplacez/complétez ces éléments par vos propres ressources ou ajoutez de nouvelles pages dans <code>ressources/</code>.</p>
-</blockquote>
+<section id="logiciels-et-diffusion" class="level3">
+<h3 class="anchored" data-anchor-id="logiciels-et-diffusion">Logiciels et diffusion</h3>
+<ul>
+<li><p><a href="https://github.com/AurelienNicosiaULaval/GLBFP"><strong>GLBFP</strong></a> — Estimation de densité fondée sur les <em>Generalized Linear Blend Frequency Polygons</em>.<br>
+Méthode unificatrice des approches histogramme, ASH et LBFP, offrant une interprétation géométrique claire et une stabilité accrue.</p></li>
+<li><p><a href="https://github.com/AurelienNicosiaULaval/CircularRegression"><strong>CircularRegression</strong></a> — Régression de données circulaires et directionnelles.<br>
+Comprend des extensions avec effets aléatoires circulaires et des modèles tridimensionnels pour le mouvement dans l’espace.</p></li>
+<li><p><a href="https://aureliennicosiaulaval.github.io/site_ressources_SSD/"><strong>site_ressources_SSD</strong></a> — Plateforme de ressources pédagogiques francophones pour la science des données.<br>
+Regroupe gabarits Quarto, tutoriels interactifs (Learnr) et exemples reproductibles pour enseignants et étudiants.</p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/GeneralOaxaca/index.html"><strong>GeneralOaxaca</strong></a> — Package R disponible sur le CRAN pour la décomposition d’écarts selon la méthode de <strong>Blinder–Oaxaca généralisée</strong>.<br>
+Il permet d’analyser les différences observées entre groupes (ex. genre, régions, secteurs) en décomposant les contributions dues aux effets de composition et aux effets de coefficients, dans des modèles linéaires et généralisés.</p></li>
+</ul>
+</section>
+</section>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<section id="articles-publiés" class="level3">
+<h3 class="anchored" data-anchor-id="articles-publiés">Articles publiés</h3>
+<ol type="1">
+<li><p><strong>Gagnon, S., Allard, M., Nicosia, A.</strong> (2017). <em>Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada.</em> <em>Arctic Science.</em><br>
+<a href="https://doi.org/10.1139/AS-2016-0045">https://doi.org/10.1139/AS-2016-0045</a></p></li>
+<li><p><strong>Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D.</strong> (2016). <em>A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement.</em> <em>Annals of Applied Statistics.</em><br>
+<a href="https://doi.org/10.1214/17-AOAS1045">https://doi.org/10.1214/17-AOAS1045</a></p></li>
+<li><p><strong>Rivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D.</strong> (2015). <em>A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology.</em> <em>Journal of the Royal Statistical Society: Series C (Applied Statistics).</em><br>
+<a href="https://doi.org/10.1111/rssc.12124">https://doi.org/10.1111/rssc.12124</a></p></li>
+<li><p><strong>Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D.</strong> (2015). <em>A General Hidden State Random Walk Model for Animal Movement.</em> <em>Computational Statistics &amp; Data Analysis.</em><br>
+<a href="https://doi.org/10.1016/j.csda.2016.07.009">https://doi.org/10.1016/j.csda.2016.07.009</a></p></li>
+</ol>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -590,7 +673,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/recherche.qmd" class="toc-action"><i class="bi bi-github"></i>Modifier cette page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/recherche.qmd" class="toc-action"><i class="bi bi-github"></i>Modifier cette page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p><a href="https://github.com/AurelienNicosiaULaval">GitHub</a> • <a href="https://www.linkedin.com/in/aur%C3%A9lien-nicosia-6a52487b/">LinkedIn</a> • <a href="https://orcid.org/0000-0002-0974-9988">ORCID</a></p>
 </div>

@@ -27,38 +27,8 @@ website:
         text: À propos
       - href: cv/index.qmd
         text: CV
-      - text: Français
-        menu:
-          - href: index.qmd
-            text: Accueil
-          - href: enseignement.qmd
-            text: Enseignement
-          - href: recherche.qmd
-            text: Recherche
-          - href: innovation.qmd
-            text: Innovation pédagogique
-          - href: ressources.qmd
-            text: Autres
-          - href: a-propos.qmd
-            text: À propos
-          - href: cv/index.qmd
-            text: CV
-      - text: English
-        menu:
-          - href: en/index.qmd
-            text: Home
-          - href: en/enseignement.qmd
-            text: Teaching
-          - href: en/recherche.qmd
-            text: Research
-          - href: en/innovation.qmd
-            text: Educational innovation
-          - href: en/ressources.qmd
-            text: Resources
-          - href: en/a-propos.qmd
-            text: About
-          - href: en/cv/index.qmd
-            text: CV
+      - text: EN
+        href: en/index.qmd
   page-footer:
     left: |
       © 2025 **Aurélien Nicosia** — Université Laval  
@@ -80,6 +50,8 @@ format:
   html:
     theme: cosmo
     css: assets/custom.css
+    include-in-header:
+      - assets/language-switch.js
     toc: true
     anchor-sections: true
     link-external-newwindow: true

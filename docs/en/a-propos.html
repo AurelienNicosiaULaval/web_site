@@ -68,16 +68,84 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-
-
-<link rel="stylesheet" href="../assets/custom.css">
 <meta property="og:title" content="About – Aurélien Nicosia">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Aurélien Nicosia">
 <meta property="og:locale" content="fr_CA">
-</head>
+</head><body class="nav-fixed quarto-light">(function () {
+  const EN_PAGES = new Set([
+    "index.html",
+    "enseignement.html",
+    "recherche.html",
+    "innovation.html",
+    "ressources.html",
+    "a-propos.html",
+    "publications.html",
+    "cv/index.html",
+    "cda/index.html"
+  ]);
 
-<body class="nav-fixed quarto-light">
+  const url = new URL(window.location.href);
+  const rawPath = url.pathname;
+  const siteRoot = rawPath.startsWith("/en/")
+    ? "/"
+    : rawPath.match(/^\/[^/]+\//)?.[0] || "/";
+
+  function toSiteRelative(pathname) {
+    if (!pathname.startsWith(siteRoot)) {
+      return pathname.replace(/^\//, "");
+    }
+    return pathname.slice(siteRoot.length);
+  }
+
+  function asIndex(pathname) {
+    return pathname === "" ? "index.html" : pathname.replace(/\/$/, "index.html");
+  }
+
+  function isEnglishPage(pathname) {
+    return pathname.startsWith("en/");
+  }
+
+  function updateSwitcher() {
+    const relPath = asIndex(toSiteRelative(rawPath));
+    const currentInEnglish = isEnglishPage(relPath);
+    const frPage = currentInEnglish ? relPath.replace(/^en\//, "") : relPath;
+    const targetRel = currentInEnglish
+      ? EN_PAGES.has(frPage)
+        ? frPage
+        : "index.html"
+      : EN_PAGES.has(frPage)
+        ? `en/${frPage}`
+        : "en/index.html";
+
+    const targetUrl = `${siteRoot}${targetRel}`;
+    const switcher = Array.from(document.querySelectorAll(".navbar-nav .nav-link")).find(
+      (link) =&gt; (link.getAttribute("href") || "").includes("en/index.html")
+    );
+
+    if (!switcher) {
+      return;
+    }
+
+    switcher.href = new URL(targetUrl, url).toString();
+    const label = switcher.querySelector(".menu-text");
+    if (label) {
+      label.textContent = currentInEnglish ? "FR" : "EN";
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", updateSwitcher);
+  } else {
+    updateSwitcher();
+  }
+})();
+
+
+<link rel="stylesheet" href="../assets/custom.css">
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -125,76 +193,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../cv/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-français" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Français</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-français">    
-        <li>
-    <a class="dropdown-item" href="../index.html">
- <span class="dropdown-text">Accueil</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../en/index.html"> 
+<span class="menu-text">EN</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../enseignement.html">
- <span class="dropdown-text">Enseignement</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../recherche.html">
- <span class="dropdown-text">Recherche</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../innovation.html">
- <span class="dropdown-text">Innovation pédagogique</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../ressources.html">
- <span class="dropdown-text">Autres</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../a-propos.html">
- <span class="dropdown-text">À propos</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../cv/index.html">
- <span class="dropdown-text">CV</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-english" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">English</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-english">    
-        <li>
-    <a class="dropdown-item" href="../en/index.html">
- <span class="dropdown-text">Home</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../en/enseignement.html">
- <span class="dropdown-text">Teaching</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../en/recherche.html">
- <span class="dropdown-text">Research</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../en/innovation.html">
- <span class="dropdown-text">Educational innovation</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../en/ressources.html">
- <span class="dropdown-text">Resources</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../en/a-propos.html">
- <span class="dropdown-text">About</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../en/cv/index.html">
- <span class="dropdown-text">CV</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">

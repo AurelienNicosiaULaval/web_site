@@ -1,3 +1,4 @@
+<script>
 (function () {
   const EN_PAGES = new Set([
     "index.html",
@@ -66,3 +67,4 @@
     updateSwitcher();
   }
 })();
+</script>

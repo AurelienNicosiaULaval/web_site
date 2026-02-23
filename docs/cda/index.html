@@ -68,11 +68,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<meta property="og:title" content="Centre du Dépannage et d’Apprentissage (CDA) — Math &amp; Stat – Aurélien Nicosia">
-<meta property="og:description" content="">
-<meta property="og:site_name" content="Aurélien Nicosia">
-<meta property="og:locale" content="fr_CA">
-</head><body class="nav-fixed quarto-light">(function () {
+<script>
+(function () {
   const EN_PAGES = new Set([
     "index.html",
     "enseignement.html",
@@ -120,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
 
     const targetUrl = `${siteRoot}${targetRel}`;
     const switcher = Array.from(document.querySelectorAll(".navbar-nav .nav-link")).find(
-      (link) =&gt; (link.getAttribute("href") || "").includes("en/index.html")
+      (link) => (link.getAttribute("href") || "").includes("en/index.html")
     );
 
     if (!switcher) {
@@ -140,12 +137,17 @@ ul.task-list li input[type="checkbox"] {
     updateSwitcher();
   }
 })();
+</script>
 
 
 <link rel="stylesheet" href="../assets/custom.css">
+<meta property="og:title" content="Centre du Dépannage et d’Apprentissage (CDA) — Math &amp; Stat – Aurélien Nicosia">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Aurélien Nicosia">
+<meta property="og:locale" content="fr_CA">
+</head>
 
-
-
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">

@@ -1,0 +1,36 @@
+---
+title: "Resources"
+lang: en
+---
+
+## Interests and explorations
+
+Beyond research and teaching, several areas feed my curiosity and projects.  
+I enjoy exploring the boundaries between mathematics, art, data, and digital creativity.
+
+
+
+### Mathematics, art, and visualization
+I am interested in mathematical beauty in all its forms — whether an elegant equation, a well-designed visualization, or a random-generated motif.  
+This curiosity has led me to projects at the boundary between art and data science, such as:
+
+- 🎨 *Digital drawing with R*: exploring textures and generative patterns from probability laws.  
+- 📐 *Mathematical recipes*: a writing project where each mathematical concept is presented as a “recipe,” blending rigor and poetry.  
+📘 [View a sample of two mathematical recipes (PDF)](../Example Recipes.pdf) on Euler's identity ($e^{i\pi}+1 = 0$) and the Fibonacci sequence
+
+
+### Writing and outreach
+
+I like to make mathematics **accessible, alive, and inspiring**.  
+My writing projects often combine storytelling, visual clarity, and conceptual rigor.  
+I am currently working on:
+
+- *Data Kitchen* — a learning platform inspired by the culinary world  
+
+- *Mathematical Recipes* — an illustrated book to discover the beauty of theorems through short, visual "recipes"  
+
+
+
+> 🌱 My path is guided by a simple idea:  
+**bringing scientific rigor and human creativity together**,  
+so mathematics and data science become spaces for discovery, art, and communication.

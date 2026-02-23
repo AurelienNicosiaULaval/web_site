@@ -1,0 +1,37 @@
+---
+title: "CV (overview)"
+format:
+  html:
+    toc: false
+    theme: cosmo
+lang: en
+---
+
+Aurélien Nicosia  
+Lecturer in Mathematics and Statistics  
+**Université Laval (Québec, Canada)**  
+[aureliennicosiaulaval.github.io/web_site](https://aureliennicosiaulaval.github.io/web_site)  
+ORCID: [0000-0002-0974-9988](https://orcid.org/0000-0002-0974-9988)
+
+
+
+### Profile
+Researcher and instructor in **statistics and data science**, interested in complex data modeling, computational statistics, and educational innovation.  
+My work connects mathematical rigor, reproducibility, and open knowledge dissemination.  
+I develop open-source tools and digital teaching environments.
+
+
+
+### In brief
+- 🎓 **Ph.D. in statistics**, Université Laval (2024)  
+- 👨‍🏫 **Lecturer** and CDA coordinator, Université Laval  
+- 🤝 **Course instructor**, UQAC (informatics and data science)  
+- 💻 **Former R&D manager** — The Co-operators  
+- 🧠 **Core interests:** density estimation, HMMs, directional models, digital pedagogy
+
+
+
+### Selected publications
+- *A Multi-State Conditional Logistic Regression Model for Animal Movement*, *Annals of Applied Statistics*, 2017.  
+- *A General Angular Regression Model for Data on Animal Movement*, *JRSS-C*, 2015.  
+- *Behavioural State Inference Using Markovian Step Selection Functions*, submitted to *MEE*, 2025.

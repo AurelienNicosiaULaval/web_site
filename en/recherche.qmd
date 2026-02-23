@@ -1,0 +1,40 @@
+---
+title: "Research"
+lang: en
+---
+
+## Overview
+
+My work sits at the interface of applied mathematics, computational statistics, and data science.  
+I develop robust and interpretable methods for complex data analysis, with a special focus on reproducibility, open-source software, and practical translation into usable tools.
+
+
+
+## Research axes
+
+### 1. Density estimation and anomaly detection
+I develop methods based on GLBFP (Generalized Linear Blend Frequency Polygons) that unify histograms, ASH, and LBFP.  
+The goals are stability, adaptivity, and clear geometric interpretation.  
+Direct application: detecting outliers through combinations of local densities.  
+Software: GLBFP (R package, GitHub repository).
+
+### 2. Directional statistics and angular models
+Models for circular and directional data and random circular effects.  
+Applications include orientation/movement, periodic phenomena, and dominant wind patterns.  
+Software: CircularRegression (R package, GitHub repository).
+
+### 3. Hidden models and latent dynamics
+Modeling with Hidden Markov Models for temporal and spatio-temporal data.  
+Recent interests include temporal-scale effects on inference, multi-individual models, and links with habitat-selection functions to connect behavior and environment.
+
+### 4. Applied data science and pedagogical innovation
+Transfer of statistical concepts to machine learning (measurement errors, interpretability, robustness).  
+Development of open resources for data science training (Quarto, learnr, GitHub) and reflection on responsible AI use in education.
+
+
+
+## Doctoral thesis
+
+**Title:** *General Multi-state Models for the Analysis of Animal Movement*  
+**Year:** 2024  
+**University:** Université Laval  

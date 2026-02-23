@@ -1,0 +1,61 @@
+---
+title: "Welcome"
+title-block-banner: true
+lang: en
+---
+
+Lecturer in mathematics and statistics — Quebec, Canada  
+I am interested in applied statistics, reproducibility, and educational innovation.
+
+:::{ .mt-4}
+[🎓 Teaching](enseignement.qmd){.btn .btn-outline-danger .rounded-pill .btn-lg .fw-bold}
+[📊 Research](recherche.qmd){.btn .btn-outline-dark .rounded-pill .btn-lg .fw-bold}
+[💡 Educational innovation](innovation.qmd){.btn .btn-outline-warning .rounded-pill .btn-lg .fw-bold}
+:::
+
+
+
+## Featured
+
+::: { .grid .gap-4 }
+::: {.g-col-12 .g-col-md-4}
+### Doctoral thesis
+Multi-state models for animal movement analysis.  
+
+[View PDF](https://corpus.ulaval.ca/server/api/core/bitstreams/cf3426a4-3475-4d48-a4c4-de29df846ed5/content){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+
+[Code and materials](https://github.com/AurelienNicosiaULaval/multi-state-model-animal-movement){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### R packages
+A set of R packages developed for applied statistics.
+
+[GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+
+[CircularRegression](https://github.com/AurelienNicosiaULaval/CircularRegression){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+
+[GeneralOaxaca (CRAN)](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Open resources
+A platform for open educational resources, tutorials, and teaching tools.  
+
+[site_ressources_SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+
+[tutorizeR](https://github.com/AurelienNicosiaULaval/tutorizeR){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+
+[ZeroWasteData](https://github.com/AurelienNicosiaULaval/ZeroWasteData){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+
+
+
+## Quick links
+
+- Teaching: course notes and assignments → [Teaching](enseignement.qmd)  
+- Research: projects, software, thesis → [Research](recherche.qmd)  
+- Educational innovation: projects and resources → [Educational innovation](innovation.qmd)  
+- About and contact → [About](a-propos.qmd)  
+- Full CV → [CV](cv/index.qmd)

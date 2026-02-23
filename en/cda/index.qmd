@@ -1,0 +1,26 @@
+---
+title: "Center for Tutoring and Learning (CDA) — Math & Statistics"
+lang: en
+---
+
+The **CDA Center for Tutoring and Learning in Math and Statistics** provides support to students in the department:
+tutoring, thematic workshops, difficulty screening, and learning strategies.
+
+## Services
+- **Tutoring:** targeted guidance on key course concepts.
+- **Workshops:** review sessions, problem-solving methods, exam preparation.
+- **Learning support:** work organization, note-taking, and exam preparation.
+
+## Practical information
+- **Affiliation:** Department of Mathematics and Statistics — **Université Laval** (Québec).
+- **Hours:** to be published at the start of each term *(replace with exact hours)*.
+- **Location / format:** campus (room to confirm) and/or online *(update with your delivery mode)*.
+- **Contact:** aurelien@example.com *(replace with your ULaval address)*.
+
+## How to get in touch
+- Add here your appointment booking form or workshop calendar.
+- Add links to study resources, worksheet templates, and video capsules.
+
+::: {.callout-important}
+Please keep this page updated at the beginning of each term (hours, workshops, sign-up links).
+:::

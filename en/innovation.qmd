@@ -1,0 +1,42 @@
+---
+title: "Educational Innovation"
+lang: en
+---
+  
+## Vision
+  
+I see pedagogical innovation as a **lever for transforming learning**.  
+My goal is to design environments where students become active participants in their own training through active approaches, modern digital tools, and a culture of reproducibility.
+
+My projects are organized around three axes:
+
+1. **Modernizing courses** with open technologies (R, Quarto, Learnr, GitHub).  
+2. **Support and supervision** through teaching assistant training and collaborative resource development.  
+3. **Responsible integration of artificial intelligence** in teaching and student support.
+
+  > 🌱 For me, pedagogical innovation means connecting rigor, creativity, and accessibility so each student can learn through exploration, experimentation, and understanding.
+  
+## Key projects
+  
+### Redesign of data science courses
+Complete renewal of introductory data science and scientific programming courses.  
+Objectives:
+
+- make learning more active and contextualized;  
+- develop francophone case studies;  
+- provide automated formative feedback through Quarto and GitHub Classroom.
+
+**Outcome:** improved motivation and student participation, while strengthening code reproducibility.
+
+
+  
+### Improving student success support
+Development of a structured training model for teaching assistants and an internal platform combining resources, short videos, and FAQs.  
+**Outcome:** professionalization of assistant roles and more consistent pedagogical support.  
+**Link:** [CDA assistant portal (Ulaval)](https://ulavaldti.sharepoint.com/sites/AuxiliaireduDMS)
+
+
+  
+### GPT-CDA project — AI and learning
+### Ongoing
+Use of conversational AI to support personalized learning pathways and streamline routine support tasks.

@@ -1,0 +1,40 @@
+---
+title: "Teaching"
+lang: en
+---
+
+## Teaching philosophy
+
+I approach teaching mathematics, statistics, and data science as a process of **understanding and exploration**.  
+Learning is based on three principles:
+
+- **Learning by doing**: practice and hands-on use of tools like R or Quarto help students build meaning.  
+- **Learning through collaboration**: team projects and discussion are central in my courses.  
+- **Transparent learning**: every activity is documented and reproducible, embedding scientific rigor in student work.
+
+I rely on project-based learning, formative assessment, and a supportive environment where rigor and curiosity can coexist.
+
+
+
+## Courses taught
+
+### Université Laval — Department of Mathematics and Statistics
+
+#### STT-1100 — Introduction to Data Science
+This introductory course focuses on **professional situations** where students assume a data science role.  
+Learning goals: master the full analysis pipeline, from data import to communication of results.  
+**Tools:** R, tidyverse, Quarto, GitHub.  
+**Course notes:** [STT-1100_notes_de_cours](https://aureliennicosiaulaval.github.io/STT-1100_notes_de_cours/)  
+**Philosophy:** active learning, francophone case studies, ethical reflection on data.
+
+**STT-1100 GPT**: [course-specific conversational assistant](https://chatgpt.com/g/g-682d165f32e881918633affa3fe9dfd6-stt-1100), to support student learning.
+
+
+
+#### STT-4230 — R for scientists
+Course focused on **good development practices**: project structure, documentation, and collaboration through GitHub.  
+**Tools:** R, Quarto, GitHub, testthat.  
+**Resource:** [Course notes](https://stt4230.rbind.io/) from Sophie Baillargeon.  
+**Philosophy:** clarity, reproducibility, and integration of modern tools.
+**STT-4230 GPT**: [course-specific conversational assistant](https://chatgpt.com/g/g-689dc0b2bb348191b77cd4609dfce184-r-pour-scientifiques), to support student learning.
+**UlavalSSD:** [UlavalSSD R package](https://aureliennicosiaulaval.github.io/UlavalSSD/), featuring practical utilities for data science at Université Laval.

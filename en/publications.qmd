@@ -1,0 +1,40 @@
+---
+title: "Media"
+lang: en
+---
+
+
+## Overview
+
+This page gathers public mentions, articles, videos, competitions, and professional links about me.
+
+---
+
+## Videos
+
+### Cogito 2016 — *Animal habits and cloud formation*
+
+<div style="aspect-ratio:16/9;">
+  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/k96TG-NBua4" title="Cogito 2016 - Episode 1" frameborder="0" allowfullscreen></iframe>
+</div>
+
+_Source:_ Cogito series (Canal Savoir / AELIÉS, 2016). 
+
+### Co-operators Innovation Space overview
+
+<div style="aspect-ratio:16/9;">
+  <iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=dvhPPcdSVDM" title="Co-operators Innovation Space overview" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+### SAS Global Forum 2016 — Student Symposium
+
+Official recap (SAS Blog) with archive resources and videos.  
+→ <https://www.fsg.ulaval.ca/faculte/actualites/mm-nicosia-et-perreault-grands-vainqueurs-du-symposium-etudiant-du-sas-global-forum-2016-1812> 
+
+---
+
+## Press & news (selection)
+
+- **MT180 (Faculty of Science and Engineering, Université Laval)** — *Jury favorite* (March 7, 2016).  
+  Faculty article: “Faculty selection at MT180 was very well received.”

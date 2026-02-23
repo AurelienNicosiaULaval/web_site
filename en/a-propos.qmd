@@ -1,0 +1,38 @@
+---
+title: "About"
+lang: en
+---
+
+
+My name is **Aurélien Nicosia**.  
+I am a lecturer in mathematics and statistics at the Department of Mathematics and Statistics at Université Laval (Québec). I am also the coordinator of the [Center for Tutoring and Learning (CDA)](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage), a student support space where students receive help each term.
+
+My work sits at the intersection of university pedagogy, applied statistics, and the development of digital tools for teaching and research.  
+I place strong emphasis on reproducibility, open science, and knowledge accessibility.
+
+---
+
+### Interests
+
+- **University pedagogy**: active learning, formative assessment, and design of interactive resources.  
+- **Applied statistics**: multi-state modeling, density estimation, directional data.  
+- **Digital tools**: R, Python, Quarto, GitHub, Shiny, and responsible use of AI in education.  
+- **Innovation**: support for learning, interdisciplinary collaboration, and sharing francophone educational resources.
+
+---
+
+### Location and contact
+
+📍 Québec, QC, Canada  
+🏛️ Université Laval — Department of Mathematics and Statistics  
+✉️ [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca)
+
+---
+
+### About this site
+
+This website is built with [**Quarto**](https://quarto.org) and deployed automatically with **GitHub Pages**.  
+It gathers my activities in **research**, **teaching**, and **pedagogical innovation**.  
+The source code is available in the repository linked in the navigation bar.
+
+💡 If you want to suggest a correction or improvement, click the pencil (*Edit*) icon at the top of the page to open the corresponding version in GitHub.

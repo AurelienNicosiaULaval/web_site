@@ -33,6 +33,16 @@
     return pathname.startsWith("en/");
   }
 
+  function findLanguageSwitcher() {
+    const navLinks = Array.from(document.querySelectorAll(".navbar-nav .nav-link"));
+    const labeled = navLinks.find((link) => {
+      const text = (link.querySelector(".menu-text") || link).textContent || "";
+      const code = text.trim().toUpperCase();
+      return code === "EN" || code === "FR";
+    });
+    return labeled || navLinks[navLinks.length - 1] || null;
+  }
+
   function updateSwitcher() {
     const relPath = asIndex(toSiteRelative(rawPath));
     const currentInEnglish = isEnglishPage(relPath);
@@ -46,9 +56,7 @@
         : "en/index.html";
 
     const targetUrl = `${siteRoot}${targetRel}`;
-    const switcher = Array.from(document.querySelectorAll(".navbar-nav .nav-link")).find(
-      (link) => (link.getAttribute("href") || "").includes("en/index.html")
-    );
+    const switcher = findLanguageSwitcher();
 
     if (!switcher) {
       return;

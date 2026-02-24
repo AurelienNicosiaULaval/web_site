@@ -118,7 +118,8 @@ ul.task-list li input[type="checkbox"] {
     const labeled = navLinks.find((link) => {
       const text = (link.querySelector(".menu-text") || link).textContent || "";
       const code = text.trim().toUpperCase();
-      return code === "EN" || code === "FR";
+      const href = link.getAttribute("href") || "";
+      return code === "EN" || code === "FR" || href.includes("en/index.html");
     });
     return labeled || navLinks[navLinks.length - 1] || null;
   }
@@ -128,6 +129,17 @@ ul.task-list li input[type="checkbox"] {
     if (label) {
       label.textContent = text;
     }
+  }
+
+  function setSwitcherLabel(link, currentInEnglish) {
+    const label = link.querySelector(".menu-text");
+    if (!label) {
+      return;
+    }
+
+    const nextLang = currentInEnglish ? "Français" : "English";
+    const nextCode = currentInEnglish ? "FR" : "EN";
+    label.innerHTML = `<span class="lang-switch"><i class="bi bi-globe2" aria-hidden="true"></i><span class="lang-switch-code">${nextCode}</span><span class="lang-switch-text">${nextLang}</span></span>`;
   }
 
   function toAbsolute(relPath) {
@@ -166,7 +178,8 @@ ul.task-list li input[type="checkbox"] {
     });
 
     switcher.href = toAbsolute(targetRel);
-    setMenuText(switcher, currentInEnglish ? "FR" : "EN");
+    switcher.classList.add("language-switch");
+    setSwitcherLabel(switcher, currentInEnglish);
 
     const searchBox = document.querySelector("#quarto-search");
     if (searchBox) {
@@ -269,7 +282,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./en/index.html"> 
-<span class="menu-text">EN</span></a>
+<span class="menu-text">Langue</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->

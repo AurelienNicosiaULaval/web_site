@@ -11,3 +11,42 @@ h1, h2, h3 a.anchorjs-link { color: inherit; }
 .btn-primary, .btn-outline-primary:hover { background-color: var(--accent); border-color: var(--accent); }
 a { color: var(--accent); }
 .title-block-banner { background: linear-gradient(90deg, rgba(200,16,46,.1), rgba(200,16,46,.25)); }
+
+.language-switch .menu-text {
+  display: inline-flex;
+  align-items: center;
+}
+
+.lang-switch {
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  padding: 0.28rem 0.65rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.lang-switch i {
+  line-height: 1;
+  font-size: 0.95rem;
+}
+
+.lang-switch-code {
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  padding: 0.02rem 0.45rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.lang-switch-text {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  .lang-switch-text {
+    display: none;
+  }
+}

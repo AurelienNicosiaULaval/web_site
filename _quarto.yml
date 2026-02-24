@@ -27,7 +27,7 @@ website:
         text: À propos
       - href: cv/index.qmd
         text: CV
-      - text: EN
+      - text: 🌐
         href: en/index.qmd
   page-footer:
     left: |

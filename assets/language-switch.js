@@ -48,7 +48,8 @@
     const labeled = navLinks.find((link) => {
       const text = (link.querySelector(".menu-text") || link).textContent || "";
       const code = text.trim().toUpperCase();
-      return code === "EN" || code === "FR";
+      const href = link.getAttribute("href") || "";
+      return code === "EN" || code === "FR" || href.includes("en/index.html");
     });
     return labeled || navLinks[navLinks.length - 1] || null;
   }
@@ -58,6 +59,17 @@
     if (label) {
       label.textContent = text;
     }
+  }
+
+  function setSwitcherLabel(link, currentInEnglish) {
+    const label = link.querySelector(".menu-text");
+    if (!label) {
+      return;
+    }
+
+    const nextLang = currentInEnglish ? "Français" : "English";
+    const nextCode = currentInEnglish ? "FR" : "EN";
+    label.innerHTML = `<span class="lang-switch"><i class="bi bi-globe2" aria-hidden="true"></i><span class="lang-switch-code">${nextCode}</span><span class="lang-switch-text">${nextLang}</span></span>`;
   }
 
   function toAbsolute(relPath) {
@@ -96,7 +108,8 @@
     });
 
     switcher.href = toAbsolute(targetRel);
-    setMenuText(switcher, currentInEnglish ? "FR" : "EN");
+    switcher.classList.add("language-switch");
+    setSwitcherLabel(switcher, currentInEnglish);
 
     const searchBox = document.querySelector("#quarto-search");
     if (searchBox) {

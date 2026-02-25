@@ -12,8 +12,8 @@ h1, h2, h3 a.anchorjs-link { color: inherit; }
 a { color: var(--accent); }
 .title-block-banner { background: linear-gradient(90deg, rgba(200,16,46,.1), rgba(200,16,46,.25)); }
 
-.navbar-nav .nav-link[href*="en/index.html"],
-.language-switch .menu-text {
+.language-switch .menu-text,
+.navbar-nav .nav-link[href*="en/index.html"]:not(.language-switch) .menu-text {
   display: inline-flex;
   align-items: center;
 }
@@ -46,7 +46,7 @@ a { color: var(--accent); }
   font-weight: 600;
 }
 
-.navbar-nav .nav-link[href*="en/index.html"] .menu-text {
+.navbar-nav .nav-link[href*="en/index.html"]:not(.language-switch) .menu-text {
   border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 999px;
   padding: 0.28rem 0.65rem;
@@ -56,12 +56,12 @@ a { color: var(--accent); }
   background-color: rgba(255, 255, 255, 0.08);
 }
 
-.navbar-nav .nav-link[href*="en/index.html"] .menu-text::before {
+.navbar-nav .nav-link[href*="en/index.html"]:not(.language-switch) .menu-text::before {
   content: "🌐";
   line-height: 1;
 }
 
-.navbar-nav .nav-link[href*="en/index.html"] .menu-text::after {
+.navbar-nav .nav-link[href*="en/index.html"]:not(.language-switch) .menu-text::after {
   content: "↔";
   opacity: 0.75;
   margin-left: 0.15rem;
@@ -72,7 +72,7 @@ a { color: var(--accent); }
     display: none;
   }
 
-  .navbar-nav .nav-link[href*="en/index.html"] .menu-text::after {
+  .navbar-nav .nav-link[href*="en/index.html"]:not(.language-switch) .menu-text::after {
     content: "";
     margin-left: 0;
   }

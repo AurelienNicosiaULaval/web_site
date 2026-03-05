@@ -72,6 +72,9 @@ Introduction aux méthodes statistiques appliquées aux grands ensembles de donn
 
 ## Ressources partagées
 
+- 🗂️ [Dossier d’enseignement (page web)](https://aureliennicosiaulaval-dossier-enseignement.share.connect.posit.cloud/?utm_source=chatgpt.com)  
+  Présentation de ma démarche pédagogique, de mes activités et de mes réalisations en enseignement.
+
 - 📚 [Plateforme de ressources pédagogiques pour enseignants](https://aureliennicosiaulaval.github.io/site_ressources_SSD/)  
   Gabarits Quarto, tutoriels interactifs et exemples reproductibles.
 

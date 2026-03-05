@@ -3,38 +3,80 @@ title: "Media"
 lang: en
 ---
 
-
 ## Overview
 
-This page gathers public mentions, articles, videos, competitions, and professional links about me.
+This page gathers public mentions, articles, videos, competitions, and professional links related to my work.
 
 ---
 
 ## Videos
 
-### Cogito 2016 — *Animal habits and cloud formation*
+### Cogito 2016 - *Animal habits and cloud formation*
 
 <div style="aspect-ratio:16/9;">
   <iframe width="100%" height="100%" src="https://www.youtube.com/embed/k96TG-NBua4" title="Cogito 2016 - Episode 1" frameborder="0" allowfullscreen></iframe>
 </div>
 
-_Source:_ Cogito series (Canal Savoir / AELIÉS, 2016). 
+_Source:_ Cogito series (Canal Savoir / AELIÉS, 2016).
 
-### Co-operators Innovation Space overview
+### Co-operators Innovation Space presentation
 
 <div style="aspect-ratio:16/9;">
-  <iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=dvhPPcdSVDM" title="Co-operators Innovation Space overview" frameborder="0" allowfullscreen></iframe>
+  <iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=dvhPPcdSVDM" title="Co-operators Innovation Space presentation" frameborder="0" allowfullscreen></iframe>
 </div>
 
 
-### SAS Global Forum 2016 — Student Symposium
+### SAS Global Forum 2016 - Student Symposium
 
 Official recap (SAS Blog) with archive resources and videos.  
-→ <https://www.fsg.ulaval.ca/faculte/actualites/mm-nicosia-et-perreault-grands-vainqueurs-du-symposium-etudiant-du-sas-global-forum-2016-1812> 
+→ <https://www.fsg.ulaval.ca/faculte/actualites/mm-nicosia-et-perreault-grands-vainqueurs-du-symposium-etudiant-du-sas-global-forum-2016-1812>
 
 ---
 
 ## Press & news (selection)
 
-- **MT180 (Faculty of Science and Engineering, Université Laval)** — *Jury favorite* (March 7, 2016).  
-  Faculty article: “Faculty selection at MT180 was very well received.”
+- **MT180 (Faculty of Science and Engineering, Université Laval)** - *Jury favorite* (March 7, 2016).  
+  Faculty article: "La sélection facultaire du concours MT180 a été fort relevée." :contentReference[oaicite:2]{index=2}
+
+- **ActuLab (Université Laval - Actuarial Science)** - Event poster (2016), including the presentation *"Can you predict my golf score?"*.  
+  PDF (promotional poster): :contentReference[oaicite:3]{index=3}
+
+---
+
+## Competitions
+
+- **SAS Global Forum - Student Symposium (2016)**  
+  Proceedings recap from SAS GF 2016 (program and papers). :contentReference[oaicite:4]{index=4}
+
+- **ActuLab (2015)** - *"Can you predict my golf score?"* (winning problem).  
+  Explanatory post (WordPress): "How to predict your golf score like a pro?" :contentReference[oaicite:5]{index=5}
+
+---
+
+## Community & contests
+
+### Shiny App Store - Shiny Contest (Posit Community, 2021)
+
+"App Store" prototype for Shiny applications, co-developed by **Penelope Ferron** and **Aurélien Nicosia** (May 12, 2021).  
+→ Discussion (Posit Community): <https://forum.posit.co/t/shiny-app-store-shiny-contest-submission/104579> :contentReference[oaicite:6]{index=6}
+
+---
+
+## Blog & personal website
+
+- **WordPress (blog / portfolio)** - Posts on SAS GF, Cogito, Shiny apps, publications, etc.  
+  Home page: <https://aureliennicosia.wordpress.com/> :contentReference[oaicite:7]{index=7}  
+  Shiny page (demo related to the Student Symposium): <https://aureliennicosia.wordpress.com/shiny-app/> :contentReference[oaicite:8]{index=8}  
+  Post: "How to predict your golf score like a pro?" (ActuLab, 2015). :contentReference[oaicite:9]{index=9}
+
+---
+
+## Professional presence
+
+- **ResearchGate** - Public profile (publications, reads, citations).  
+  <https://www.researchgate.net/profile/Aurelien-Nicosia-2> :contentReference[oaicite:10]{index=10}
+
+## EIOM - Interdisciplinary School of Tools & Methods (LinkedIn mention)
+
+- **EIOM (Université Laval)** - LinkedIn post (5th edition, 2025).  
+  Link: <https://www.linkedin.com/posts/eiomulaval_jour-2-de-leiom-2025-5e-%C3%A9dition-activity-7366140743142240256-d4O_>

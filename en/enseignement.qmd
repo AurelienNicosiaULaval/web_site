@@ -35,6 +35,53 @@ Learning goals: master the full analysis pipeline, from data import to communica
 Course focused on **good development practices**: project structure, documentation, and collaboration through GitHub.  
 **Tools:** R, Quarto, GitHub, testthat.  
 **Resource:** [Course notes](https://stt4230.rbind.io/) from Sophie Baillargeon.  
-**Philosophy:** clarity, reproducibility, and integration of modern tools.
-**STT-4230 GPT**: [course-specific conversational assistant](https://chatgpt.com/g/g-689dc0b2bb348191b77cd4609dfce184-r-pour-scientifiques), to support student learning.
+**Philosophy:** clarity, reproducibility, and integration of modern tools.  
+**STT-4230 GPT**: [course-specific conversational assistant](https://chatgpt.com/g/g-689dc0b2bb348191b77cd4609dfce184-r-pour-scientifiques), to support student learning.  
 **UlavalSSD:** [UlavalSSD R package](https://aureliennicosiaulaval.github.io/UlavalSSD/), featuring practical utilities for data science at Université Laval.
+
+
+
+#### STT-2200 — Data Analysis
+An **applied statistics** course where students work from real datasets and produce reproducible reports.  
+**Tools:** R, ggplot2, dplyr, RMarkdown.  
+**Philosophy:** interpretation before automation, clear communication of results.
+
+
+
+### Université du Québec à Chicoutimi (UQAC)
+
+#### 8INF404 — Introduction to Data Science and Business Intelligence
+An interdisciplinary course introducing the full data science project cycle: preparation, exploration, and predictive modeling.  
+**Tools:** R, shiny, Quarto.  
+**Philosophy:** connect technical work to decision-making, with an emphasis on communication.
+
+
+
+#### 8INF416 — Visualization and Interface
+Course devoted to **interactive visualization and scientific communication**.  
+**Tools:** R (Shiny), ggplot2.  
+**Philosophy:** visual clarity, accessibility, and rigor in graphical messaging.
+
+
+
+#### 8STT108 — Statistical Methods for Big Data
+Introduction to statistical methods applied to large datasets (big data).  
+**Tools:** R, tidyverse, parallel computing.  
+**Philosophy:** emphasize model logic before automation.
+
+
+
+## Shared resources
+
+- 🗂️ [Teaching portfolio (web page)](https://aureliennicosiaulaval-dossier-enseignement.share.connect.posit.cloud/?utm_source=chatgpt.com)  
+  Overview of my teaching approach, activities, and achievements.
+
+- 📚 [Teaching resources platform for instructors](https://aureliennicosiaulaval.github.io/site_ressources_SSD/)  
+  Quarto templates, interactive tutorials, and reproducible examples.
+
+- 🤖 [GPT-CDA project](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage#c48278)  
+  A conversational assistant supporting success in mathematics and statistics.
+
+
+
+> ✨ My goal: train autonomous, rigorous, and curious data scientists who can connect theory, practice, and scientific communication.

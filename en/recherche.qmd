@@ -14,22 +14,23 @@ I develop robust and interpretable methods for complex data analysis, with a spe
 
 ### 1. Density estimation and anomaly detection
 I develop methods based on GLBFP (Generalized Linear Blend Frequency Polygons) that unify histograms, ASH, and LBFP.  
-The goals are stability, adaptivity, and clear geometric interpretation.  
-Direct application: detecting outliers through combinations of local densities.  
-Software: GLBFP (R package, GitHub repository).
+Goals: stability, adaptivity, and clear geometric interpretation.  
+Direct application: detection of atypical observations through combinations of local densities.  
+Software resource: GLBFP (R package, GitHub repository).
 
 ### 2. Directional statistics and angular models
-Models for circular and directional data and random circular effects.  
-Applications include orientation/movement, periodic phenomena, and dominant wind patterns.  
-Software: CircularRegression (R package, GitHub repository).
+Models for circular and directional data, including random circular effects.  
+Applications: orientation/movement, periodic phenomena, and dominant wind patterns.  
+Software resource: CircularRegression (R package, GitHub repository).
 
 ### 3. Hidden models and latent dynamics
 Modeling with Hidden Markov Models for temporal and spatio-temporal data.  
-Recent interests include temporal-scale effects on inference, multi-individual models, and links with habitat-selection functions to connect behavior and environment.
+Recent interests: impact of temporal scale on inference, multi-individual models, and links with habitat-selection functions to connect behavior and environment.
 
 ### 4. Applied data science and pedagogical innovation
 Transfer of statistical concepts to machine learning (measurement errors, interpretability, robustness).  
-Development of open resources for data science training (Quarto, learnr, GitHub) and reflection on responsible AI use in education.
+Development of open resources for data science training (Quarto, learnr, GitHub) and reflection on responsible AI use in teaching.
+
 
 
 
@@ -38,3 +39,49 @@ Development of open resources for data science training (Quarto, learnr, GitHub)
 **Title:** *General Multi-state Models for the Analysis of Animal Movement*  
 **Year:** 2024  
 **University:** Université Laval  
+**Supervisors:** Thierry Duchesne and Louis-Paul Rivest
+
+This thesis develops a general framework for **multi-state modeling of animal movement**, combining the rigor of hidden Markov models with the flexibility of habitat-selection functions.  
+It proposes a unifying formulation connecting behavioral and spatial approaches, along with a full software implementation in R.
+
+- 📄 [View thesis (PDF, institutional repository)](https://corpus.ulaval.ca/server/api/core/bitstreams/cf3426a4-3475-4d48-a4c4-de29df846ed5/content)  
+- 💻 [Code and reproducible material (GitHub)](https://github.com/AurelienNicosiaULaval/multi-state-model-animal-movement)
+
+
+
+
+### Software and dissemination
+
+- [**GLBFP**](https://github.com/AurelienNicosiaULaval/GLBFP) — Density estimation based on *Generalized Linear Blend Frequency Polygons*.  
+  A unifying method for histogram, ASH, and LBFP approaches, offering clear geometric interpretation and improved stability.
+
+- [**CircularRegression**](https://github.com/AurelienNicosiaULaval/CircularRegression) — Regression for circular and directional data.  
+  Includes extensions with random circular effects and three-dimensional models for movement in space.
+
+- [**site_ressources_SSD**](https://aureliennicosiaulaval.github.io/site_ressources_SSD/) — Francophone educational resources platform for data science.  
+  Includes Quarto templates, interactive tutorials (Learnr), and reproducible examples for instructors and students.
+
+- [**GeneralOaxaca**](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html) — R package available on CRAN for decomposition of gaps using the **generalized Blinder-Oaxaca** approach.  
+  It supports analysis of observed differences between groups (e.g., gender, regions, sectors) by decomposing contributions from composition effects and coefficient effects in linear and generalized models.
+
+
+
+
+## Publications
+
+### Published articles
+
+1. **Nicosia, A.** (2026). *Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”.* *Journal of Data Science.*  
+   [https://doi.org/10.6339/26-JDS1208H](https://doi.org/10.6339/26-JDS1208H) — [Article page](https://jds-online.org/journal/JDS/article/1474/info)
+
+2. **Gagnon, S., Allard, M., Nicosia, A.** (2017). *Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada.* *Arctic Science.*  
+   [https://doi.org/10.1139/AS-2016-0045](https://doi.org/10.1139/AS-2016-0045)
+
+3. **Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D.** (2016). *A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement.* *Annals of Applied Statistics.*  
+   [https://doi.org/10.1214/17-AOAS1045](https://doi.org/10.1214/17-AOAS1045)
+
+4. **Rivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D.** (2015). *A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology.* *Journal of the Royal Statistical Society: Series C (Applied Statistics).*  
+   [https://doi.org/10.1111/rssc.12124](https://doi.org/10.1111/rssc.12124)
+
+5. **Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D.** (2015). *A General Hidden State Random Walk Model for Animal Movement.* *Computational Statistics & Data Analysis.*  
+   [https://doi.org/10.1016/j.csda.2016.07.009](https://doi.org/10.1016/j.csda.2016.07.009)

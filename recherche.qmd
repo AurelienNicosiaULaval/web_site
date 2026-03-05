@@ -70,18 +70,20 @@ Elle propose une formulation unificatrice reliant les approches comportementales
 
 ### Articles publiés
 
-1. **Gagnon, S., Allard, M., Nicosia, A.** (2017). *Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada.* *Arctic Science.*  
+1. **Nicosia, A.** (2026). *Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”.* *Journal of Data Science.*  
+   [https://doi.org/10.6339/26-JDS1208H](https://doi.org/10.6339/26-JDS1208H) — [Page de l’article](https://jds-online.org/journal/JDS/article/1474/info)
+
+2. **Gagnon, S., Allard, M., Nicosia, A.** (2017). *Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada.* *Arctic Science.*  
    [https://doi.org/10.1139/AS-2016-0045](https://doi.org/10.1139/AS-2016-0045)
 
-2. **Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D.** (2016). *A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement.* *Annals of Applied Statistics.*  
+3. **Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D.** (2016). *A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement.* *Annals of Applied Statistics.*  
    [https://doi.org/10.1214/17-AOAS1045](https://doi.org/10.1214/17-AOAS1045)
 
-3. **Rivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D.** (2015). *A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology.* *Journal of the Royal Statistical Society: Series C (Applied Statistics).*  
+4. **Rivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D.** (2015). *A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology.* *Journal of the Royal Statistical Society: Series C (Applied Statistics).*  
    [https://doi.org/10.1111/rssc.12124](https://doi.org/10.1111/rssc.12124)
 
-4. **Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D.** (2015). *A General Hidden State Random Walk Model for Animal Movement.* *Computational Statistics & Data Analysis.*  
+5. **Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D.** (2015). *A General Hidden State Random Walk Model for Animal Movement.* *Computational Statistics & Data Analysis.*  
    [https://doi.org/10.1016/j.csda.2016.07.009](https://doi.org/10.1016/j.csda.2016.07.009)
-
 
 
 

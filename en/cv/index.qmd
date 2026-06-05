@@ -7,38 +7,48 @@ format:
 lang: en
 ---
 
-Aurélien Nicosia  
-Lecturer - Department of Mathematics and Statistics  
-**Université Laval (Québec, Canada)**  
-[aureliennicosiaulaval.github.io/web_site](https://aureliennicosiaulaval.github.io/web_site)  
+Aurélien Nicosia
+Lecturer - Department of Mathematics and Statistics
+**Université Laval (Québec, Canada)**
+[aureliennicosiaulaval.github.io/web_site](https://aureliennicosiaulaval.github.io/web_site)
 ORCID: [0000-0002-0974-9988](https://orcid.org/0000-0002-0974-9988)
 
 
 
 ### Profile
-Researcher and instructor in **statistics and data science**, interested in complex data modeling, computational statistics, and educational innovation.  
-My work connects mathematical rigor, reproducibility, and open knowledge dissemination.  
+Researcher and instructor in **statistics and data science**, interested in complex data modeling, computational statistics, and educational innovation.
+My work connects mathematical rigor, reproducibility, and open knowledge dissemination.
 I develop open-source tools and digital teaching environments.
 
 
 
 ### In brief
-- 🎓 **Ph.D. in statistics**, Université Laval (2024)  
-- 👨‍🏫 **Lecturer** and CDA coordinator, Université Laval  
-- 🤝 **Course instructor**, UQAC (computer science and data science)  
+- 🎓 **Ph.D. in statistics**, Université Laval (2024)
+- 👨‍🏫 **Lecturer** and CDA coordinator, Université Laval
+- 🤝 **Course instructor**, UQAC (computer science and data science)
 - 💻 **Former R&D Director** - The Co-operators
-- 🧠 **Core interests:** density estimation, HMMs, directional models, digital pedagogy
+- 🧠 **Core interests:** density estimation, HMMs, directional models, digital pedagogy, and AI in teaching
 
 
 
 ### Selected publications
-- *A Multi-State Conditional Logistic Regression Model for Animal Movement*, *Annals of Applied Statistics*, 2017.  
-- *A General Angular Regression Model for Data on Animal Movement*, *JRSS-C*, 2015.  
-- *Behavioural State Inference Using Markovian Step Selection Functions*, submitted to *MEE*, 2025.
+- *Beyond the next step: A multi-criteria generative validation framework for step selection functions*, *Methods in Ecology and Evolution*, 2026.
+- *Behavioural state inference from movement and environmental data using Markovian step selection functions*, bioRxiv, 2026.
+- *A Multi-State Conditional Logistic Regression Model for Animal Movement*, *Annals of Applied Statistics*, 2017.
+- *A General Angular Regression Model for Data on Animal Movement*, *JRSS-C*, 2015.
+
+
+
+### Software and open resources
+- `ggcircular`: R package available on CRAN since 2026 for circular, axial, and directional data.
+- `GLBFP`: R package for density estimation and atypical-observation detection.
+- `CircularRegression`: tools for regression with circular and directional data.
+- `site_ressources_SSD`: open teaching-resource platform for data science.
 
 
 
 ### Awards and grants
-- **ULaval Star Teacher Award** (2014, 2023, 2024, 2025)  
-- **PAIP grants** (2023-2026) - educational innovation and AI  
+- **ULaval Star Teacher Award** (2014, 2023, 2024, 2025, 2026)
+- **2026 New Investigator Presentation Award**, SSC 2026
+- **PAIP grants** (2023-2026) - educational innovation and AI
 - **CALQ** (2024) - *Digital drawing with R*

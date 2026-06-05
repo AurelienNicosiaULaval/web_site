@@ -2,24 +2,32 @@
 title: "Centre du Dépannage et d'Apprentissage (CDA) — Math & Stat"
 ---
 
-Le **Centre du Dépannage et d'Apprentissage en math et en stat** offre un soutien aux étudiantes et étudiants du département :
-tutorat, ateliers thématiques, dépistage de difficultés et stratégies d'apprentissage.
+Le Centre de Dépannage et d’Apprentissage en mathématiques et statistique offre un soutien gratuit aux étudiantes et étudiants inscrits à plusieurs cours du Département de mathématiques et de statistique de l’Université Laval.
+
+Le CDA combine l’aide humaine, les ateliers de soutien et des ressources numériques pour accompagner les apprentissages sans se substituer au travail de compréhension des étudiantes et étudiants.
 
 ## Services
-- **Tutorat** : accompagnement ciblé sur des notions de cours.
-- **Ateliers** : révision, méthodes de résolution, préparation aux évaluations.
-- **Apprentissage** : organisation du travail, prise de notes, préparation aux examens.
+- **Tutorat** : accompagnement ciblé sur les notions de cours.
+- **Ateliers** : révision, méthodes de résolution, préparation aux évaluations.
+- **Apprentissage** : organisation du travail, prise de notes, préparation aux examens.
+- **Orientation** : redirection vers les ressources appropriées lorsque les besoins dépassent le cadre du CDA.
+
+## GPT-CDA
+
+GPT-CDA est un assistant conversationnel pédagogique développé pour soutenir l’apprentissage en mathématiques et en statistique. Le projet vise à accompagner le raisonnement, à utiliser les notations des cours et à maintenir le lien avec les auxiliaires du CDA lorsque l’aide humaine est préférable.
+
+Le projet a été présenté dans [ULaval Nouvelles le 22 mai 2026](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30).
 
 ## Informations pratiques
-- **Affiliation :** Département de mathématiques et de statistiques — **Université Laval** (Québec).
-- **Horaires :** à publier en début de session *(remplacez par les heures exactes)*.
-- **Lieu / Modalités :** campus (local à confirmer) et/ou en ligne *(compléter selon vos modalités)*.
-- **Contact :** aurelien@example.com *(remplacez par votre adresse ULaval)*.
+- **Affiliation :** Département de mathématiques et de statistique, Université Laval.
+- **Responsable :** Aurélien Nicosia.
+- **Horaires et modalités :** publiés au début de chaque session sur la page officielle du CDA.
+- **Contact :** [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca).
 
 ## Comment nous rejoindre
-- Publiez ici le formulaire de prise de rendez-vous ou le calendrier des ateliers.
-- Ajoutez des liens vers les ressources d'étude, gabarits de fiches et capsules vidéo.
+- Consulter la [page officielle du CDA](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage) pour les informations institutionnelles à jour.
+- Surveiller les annonces de début de session pour les horaires, les ateliers et les modalités d’accès.
 
-::: {.callout-important}
-Pensez à garder cette page à jour au début de chaque session (horaires, ateliers, liens d'inscription).
+::: {.callout-note}
+Les horaires changent selon les sessions. La page officielle du Département demeure la source de référence pour les modalités pratiques.
 :::

@@ -3,35 +3,45 @@ title: "À propos"
 ---
 
 
-Je m'appelle **Aurélien Nicosia**.  
+Je m'appelle **Aurélien Nicosia**.
 Je suis chargé d’enseignement en mathématiques et statistiques au Département de mathématiques et de statistiques de l’Université Laval (Québec). Je suis également responsable du [Centre de Dépannage et d’Apprentissage (CDA)](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage),   un espace de soutien à la réussite où les étudiantes et étudiants reçoivent de l’aide chaque session.
 
-Mon travail se situe à la croisée de la pédagogie universitaire, de la statistique appliquée et du développement d’outils numériques pour l’enseignement et la recherche.  
+Mon travail se situe à la croisée de la pédagogie universitaire, de la statistique appliquée et du développement d’outils numériques pour l’enseignement et la recherche.
 J’accorde une grande importance à la reproductibilité, à la science ouverte et à l’accessibilité des savoirs.
+
+---
+
+### Réalisations récentes
+
+- Développement du [GPT-CDA](cda/index.qmd), présenté dans [ULaval Nouvelles le 22 mai 2026](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30).
+- Publication de l’article [*Beyond the next step: A multi-criteria generative validation framework for step selection functions*](https://doi.org/10.1111/2041-210X.70313) dans *Methods in Ecology and Evolution*.
+- Publication de [`ggcircular`](https://cran.r-project.org/web/packages/ggcircular/index.html) sur le CRAN en 2026, avec documentation ouverte sur [GitHub](https://github.com/AurelienNicosiaULaval/ggcircular).
+- Animation d’un atelier sur l’IA et l’enseignement à SSC 2026, avec une [galerie publique de ressources](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/).
+- Prix 2026 de la présentation par un nouveau chercheur à SSC 2026 pour une présentation sur LOO-LBFP.
 
 ---
 
 ### Intérêts
 
-- **Pédagogie universitaire** : apprentissage actif, évaluation formative et conception de ressources interactives.  
-- **Statistique appliquée** : modélisation multi-états, estimation de densité, données directionnelles.  
-- **Outils numériques** : R, Python, Quarto, GitHub, Shiny, et l’intégration de l’IA en éducation.  
+- **Pédagogie universitaire** : apprentissage actif, évaluation formative et conception de ressources interactives.
+- **Statistique appliquée** : modélisation multi-états, estimation de densité, données directionnelles.
+- **Outils numériques** : R, Python, Quarto, GitHub, Shiny, et l’intégration de l’IA en éducation.
 - **Innovation** : accompagnement des apprentissages, collaboration interdisciplinaire et partage de ressources francophones.
 
 ---
 
 ### Localisation et contact
 
-📍 Québec, QC, Canada  
-🏛️ Université Laval — Département de mathématiques et de statistiques  
+📍 Québec, QC, Canada
+🏛️ Université Laval — Département de mathématiques et de statistiques
 ✉️ [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca)
 
 ---
 
 ### À propos du site
 
-Ce site est généré avec [**Quarto**](https://quarto.org) et déployé automatiquement via **GitHub Pages**.  
-Il regroupe mes activités de **recherche**, d’**enseignement** et d’**innovation pédagogique**.  
+Ce site est généré avec [**Quarto**](https://quarto.org) et déployé automatiquement via **GitHub Pages**.
+Il regroupe mes activités de **recherche**, d’**enseignement** et d’**innovation pédagogique**.
 Le code source est accessible dans le dépôt indiqué dans la barre de navigation.
 
 💡 Si vous souhaitez proposer une correction ou une amélioration, cliquez sur l’icône *crayon* (*Edit*) en haut de la page pour ouvrir la version correspondante dans GitHub.

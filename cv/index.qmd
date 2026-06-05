@@ -6,41 +6,49 @@ format:
     theme: cosmo
 ---
 
-Aurélien Nicosia  
-Chargé d’enseignement — Département de mathématiques et de statistique  
-**Université Laval (Québec, Canada)**  
-[aureliennicosiaulaval.github.io/web_site](https://aureliennicosiaulaval.github.io/web_site)  
+Aurélien Nicosia
+Chargé d’enseignement — Département de mathématiques et de statistique
+**Université Laval (Québec, Canada)**
+[aureliennicosiaulaval.github.io/web_site](https://aureliennicosiaulaval.github.io/web_site)
 ORCID : [0000-0002-0974-9988](https://orcid.org/0000-0002-0974-9988)
 
 
 
 ### Profil
-Chercheur et enseignant en **statistique et science des données**, je m’intéresse à la modélisation de données complexes, la statistique computationnelle et l’innovation pédagogique.  
-Mon approche relie rigueur mathématique, reproductibilité et diffusion libre du savoir.  
+Chercheur et enseignant en **statistique et science des données**, je m’intéresse à la modélisation de données complexes, la statistique computationnelle et l’innovation pédagogique.
+Mon approche relie rigueur mathématique, reproductibilité et diffusion libre du savoir.
 Je développe des outils open source et des environnements pédagogiques numériques.
 
 
 
 ### En bref
-- 🎓 **Ph.D. en statistique**, Université Laval (2024)  
-- 👨‍🏫 **Chargé d’enseignement** et responsable du CDA, Université Laval  
-- 🤝 **Chargé de cours**, UQAC (informatique et science des données)  
-- 💻 **Ancien directeur R-D** — The Co-operators 
-- 🧠 **Intérêts principaux :** estimation de densité, HMM, modèles directionnels, pédagogie numérique
+- 🎓 **Ph.D. en statistique**, Université Laval (2024)
+- 👨‍🏫 **Chargé d’enseignement** et responsable du CDA, Université Laval
+- 🤝 **Chargé de cours**, UQAC (informatique et science des données)
+- 💻 **Ancien directeur R-D** — The Co-operators
+- 🧠 **Intérêts principaux :** estimation de densité, HMM, modèles directionnels, pédagogie numérique et IA en enseignement
 
 
 
 
 ### Sélection de publications
-- *A Multi-State Conditional Logistic Regression Model for Animal Movement*, *Annals of Applied Statistics*, 2017.  
-- *A General Angular Regression Model for Data on Animal Movement*, *JRSS-C*, 2015.  
-- *Behavioural State Inference Using Markovian Step Selection Functions*, soumis à *MEE*, 2025.
+- *Beyond the next step: A multi-criteria generative validation framework for step selection functions*, *Methods in Ecology and Evolution*, 2026.
+- *Behavioural state inference from movement and environmental data using Markovian step selection functions*, bioRxiv, 2026.
+- *A Multi-State Conditional Logistic Regression Model for Animal Movement*, *Annals of Applied Statistics*, 2017.
+- *A General Angular Regression Model for Data on Animal Movement*, *JRSS-C*, 2015.
+
+
+
+### Logiciels et ressources ouvertes
+- `ggcircular` : package R disponible sur le CRAN depuis 2026 pour les données circulaires, axiales et directionnelles.
+- `GLBFP` : package R pour l’estimation de densité et la détection d’observations atypiques.
+- `CircularRegression` : outils pour la régression de données circulaires et directionnelles.
+- `site_ressources_SSD` : plateforme de ressources pédagogiques ouvertes pour la science des données.
 
 
 
 ### Distinctions et subventions
-- **Prix Enseignant Étoile ULaval** (2014, 2023, 2024, 2025)  
-- **Subventions PAIP** (2023–2026) — innovation pédagogique et IA  
+- **Prix Enseignant Étoile ULaval** (2014, 2023, 2024, 2025, 2026)
+- **2026 New Investigator Presentation Award / Prix de la présentation par un nouveau chercheur**, SSC 2026
+- **Subventions PAIP** (2023–2026) — innovation pédagogique et IA
 - **CALQ** (2024) — *Dessin numérique avec R*
-
-

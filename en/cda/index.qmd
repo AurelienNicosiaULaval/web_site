@@ -3,24 +3,32 @@ title: "Center for Tutoring and Learning (CDA) — Math & Statistics"
 lang: en
 ---
 
-The **CDA Center for Tutoring and Learning in Math and Statistics** provides support to students in the department:
-tutoring, thematic workshops, difficulty screening, and learning strategies.
+The Center for Tutoring and Learning in Mathematics and Statistics provides free support to students enrolled in several courses in the Department of Mathematics and Statistics at Université Laval.
+
+The CDA combines human tutoring, support workshops, and digital resources to support learning without replacing students’ own reasoning and understanding.
 
 ## Services
-- **Tutoring:** targeted guidance on key course concepts.
-- **Workshops:** review sessions, problem-solving methods, exam preparation.
+- **Tutoring:** targeted guidance on course concepts.
+- **Workshops:** review sessions, problem-solving methods, and exam preparation.
 - **Learning support:** work organization, note-taking, and exam preparation.
+- **Orientation:** referral to appropriate resources when needs go beyond the CDA scope.
+
+## GPT-CDA
+
+GPT-CDA is a pedagogical conversational assistant developed to support learning in mathematics and statistics. The project is designed to guide reasoning, use course-specific notation, and maintain the connection with CDA teaching assistants when human support is preferable.
+
+The project was featured in [ULaval News on May 22, 2026](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30).
 
 ## Practical information
-- **Affiliation:** Department of Mathematics and Statistics — **Université Laval** (Québec).
-- **Hours:** to be published at the start of each term *(replace with exact hours)*.
-- **Location / format:** campus (room to confirm) and/or online *(update with your delivery mode)*.
-- **Contact:** aurelien@example.com *(replace with your ULaval address)*.
+- **Affiliation:** Department of Mathematics and Statistics, Université Laval.
+- **Coordinator:** Aurélien Nicosia.
+- **Hours and format:** published at the start of each term on the official CDA page.
+- **Contact:** [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca).
 
 ## How to get in touch
-- Add here your appointment booking form or workshop calendar.
-- Add links to study resources, worksheet templates, and video capsules.
+- Visit the [official CDA page](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage) for up-to-date institutional information.
+- Watch for beginning-of-term announcements for hours, workshops, and access details.
 
-::: {.callout-important}
-Please keep this page updated at the beginning of each term (hours, workshops, sign-up links).
+::: {.callout-note}
+Schedules change from term to term. The official Department page remains the reference source for practical details.
 :::

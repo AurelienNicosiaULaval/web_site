@@ -12,6 +12,27 @@ h1, h2, h3 a.anchorjs-link { color: inherit; }
 a { color: var(--accent); }
 .title-block-banner { background: linear-gradient(90deg, rgba(200,16,46,.1), rgba(200,16,46,.25)); }
 
+.news-panel,
+.feature-panel {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 1.1rem;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0.35rem 1.2rem rgba(0, 0, 0, 0.04);
+}
+
+.news-panel h3,
+.feature-panel h3 {
+  margin-top: 0;
+}
+
+.link-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 0.8rem;
+}
+
 .language-switch .menu-text,
 .navbar-nav .nav-item:last-child > .nav-link:not(.language-switch) .menu-text {
   display: inline-flex;

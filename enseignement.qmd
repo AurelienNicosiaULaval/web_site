@@ -4,11 +4,11 @@ title: "Enseignement"
 
 ## Philosophie de l’enseignement
 
-J’aborde l’enseignement des mathématiques, de la statistique et de la science des données comme une activité de **compréhension et d’exploration**.  
+J’aborde l’enseignement des mathématiques, de la statistique et de la science des données comme une activité de **compréhension et d’exploration**.
 L’apprentissage repose sur trois principes :
 
-- **Apprendre en agissant** : la pratique et la manipulation d’outils comme R ou Quarto permettent de construire le sens.  
-- **Apprendre en collaboration** : les projets d’équipe et les discussions sont au cœur de mes cours.  
+- **Apprendre en agissant** : la pratique et la manipulation d’outils comme R ou Quarto permettent de construire le sens.
+- **Apprendre en collaboration** : les projets d’équipe et les discussions sont au cœur de mes cours.
 - **Apprendre de manière transparente** : chaque activité est documentée et reproductible, pour ancrer la rigueur scientifique dans la démarche étudiante.
 
 Je privilégie des approches par projet, des évaluations formatives et un environnement bienveillant où la rigueur et le plaisir d’apprendre cohabitent.
@@ -20,10 +20,10 @@ Je privilégie des approches par projet, des évaluations formatives et un envir
 ### Université Laval — Département de mathématiques et de statistique
 
 #### STT-1100 — Introduction à la science des données
-Cours d’introduction centré sur des **mises en situation professionnelles** où les étudiants incarnent un rôle en science des données.  
-Objectifs : apprendre à structurer une analyse complète — de l’importation des données à la communication des résultats.  
-**Outils :** R, tidyverse, Quarto, GitHub.  
-**Notes de cours :** [STT-1100_notes_de_cours](https://aureliennicosiaulaval.github.io/STT-1100_notes_de_cours/)  
+Cours d’introduction centré sur des **mises en situation professionnelles** où les étudiants incarnent un rôle en science des données.
+Objectifs : apprendre à structurer une analyse complète — de l’importation des données à la communication des résultats.
+**Outils :** R, tidyverse, Quarto, GitHub.
+**Notes de cours :** [STT-1100_notes_de_cours](https://aureliennicosiaulaval.github.io/STT-1100_notes_de_cours/)
 **Philosophie :** apprentissage actif, études de cas francophones, réflexion éthique sur les données.
 
 **GPT STT-1100** : [assistant conversationnel dédié au cours](https://chatgpt.com/g/g-682d165f32e881918633affa3fe9dfd6-stt-1100), pour aider les étudiants dans leurs apprentissages.
@@ -31,9 +31,9 @@ Objectifs : apprendre à structurer une analyse complète — de l’importation
 
 
 #### STT-4230 — R pour scientifiques
-Cours axé sur les **bonnes pratiques de développement** : structuration de projets, documentation, collaboration via GitHub.  
-**Outils :** R, Quarto, GitHub, testthat.  
-**Ressource :** [Notes de cours](https://stt4230.rbind.io/) produit par Sophie Baillargeon.  
+Cours axé sur les **bonnes pratiques de développement** : structuration de projets, documentation, collaboration via GitHub.
+**Outils :** R, Quarto, GitHub, testthat.
+**Ressource :** [Notes de cours](https://stt4230.rbind.io/) produit par Sophie Baillargeon.
 **Philosophie :** clarté, reproductibilité, intégration des outils modernes.
 **GPT STT-4230** : [assistant conversationnel dédié au cours](https://chatgpt.com/g/g-689dc0b2bb348191b77cd4609dfce184-r-pour-scientifiques), pour aider les étudiants dans leurs apprentissages.
 **UlavalSSD** : [package R UlavalSSD](https://aureliennicosiaulaval.github.io/UlavalSSD/) regroupant des fonctions utilitaires pour la science des données à l’Université Laval.
@@ -41,8 +41,8 @@ Cours axé sur les **bonnes pratiques de développement** : structuration de pro
 
 
 #### STT-2200 — Analyse de données
-Cours de **statistique appliquée** où les étudiants travaillent à partir de jeux de données réels et produisent des rapports reproductibles.  
-**Outils :** R, ggplot2, dplyr, RMarkdown.  
+Cours de **statistique appliquée** où les étudiants travaillent à partir de jeux de données réels et produisent des rapports reproductibles.
+**Outils :** R, ggplot2, dplyr, RMarkdown.
 **Philosophie :** interprétation avant automatisation, communication claire des résultats.
 
 
@@ -50,36 +50,45 @@ Cours de **statistique appliquée** où les étudiants travaillent à partir de 
 ### Université du Québec à Chicoutimi (UQAC)
 
 #### 8INF404 — Introduction à la science des données et intelligence d’affaires
-Cours interdisciplinaire présentant le cycle complet d’un projet de science des données : préparation, exploration et modélisation prédictive.  
-**Outils :** R, shiny, Quarto.  
+Cours interdisciplinaire présentant le cycle complet d’un projet de science des données : préparation, exploration et modélisation prédictive.
+**Outils :** R, shiny, Quarto.
 **Philosophie :** relier technique et prise de décision, avec un accent sur la communication.
 
 
 
 #### 8INF416 — Visualisation et interface
-Cours consacré à la **visualisation interactive et à la communication scientifique**.  
-**Outils :** R (Shiny), ggplot2.  
+Cours consacré à la **visualisation interactive et à la communication scientifique**.
+**Outils :** R (Shiny), ggplot2.
 **Philosophie :** clarté visuelle, accessibilité et rigueur du message graphique.
 
 
 
 #### 8STT108 — Méthodes statistiques pour les données massives
-Introduction aux méthodes statistiques appliquées aux grands ensembles de données (big data).  
-**Outils :** R, tidyverse, parallel computing.  
+Introduction aux méthodes statistiques appliquées aux grands ensembles de données (big data).
+**Outils :** R, tidyverse, parallel computing.
 **Philosophie :** mettre l’accent sur la logique des modèles avant leur automatisation.
+
+
+
+## Reconnaissance pédagogique
+
+J’ai reçu à nouveau le Prix Enseignant Étoile en 2026. Cette reconnaissance s’ajoute aux éditions 2014, 2023, 2024 et 2025 déjà indiquées dans mon CV.
+La Faculté des sciences et de génie décrit ce titre comme une reconnaissance accordée aux enseignantes et enseignants ayant reçu d’excellentes appréciations étudiantes.
+
+[En savoir plus sur la cérémonie des Étoiles de l’enseignement FSG](https://www.fsg.ulaval.ca/faculte/evenements-facultaires/ceremonie-des-etoiles-de-lenseignement-fsg){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
 
 
 ## Ressources partagées
 
-- 🗂️ [Dossier d’enseignement (page web)](https://aureliennicosiaulaval-dossier-enseignement.share.connect.posit.cloud/?utm_source=chatgpt.com)  
+- 🗂️ [Dossier d’enseignement (page web)](https://aureliennicosiaulaval-dossier-enseignement.share.connect.posit.cloud/?utm_source=chatgpt.com)
   Présentation de ma démarche pédagogique, de mes activités et de mes réalisations en enseignement.
 
-- 📚 [Plateforme de ressources pédagogiques pour enseignants](https://aureliennicosiaulaval.github.io/site_ressources_SSD/)  
+- 📚 [Plateforme de ressources pédagogiques pour enseignants](https://aureliennicosiaulaval.github.io/site_ressources_SSD/)
   Gabarits Quarto, tutoriels interactifs et exemples reproductibles.
 
-- 🤖 [Projet GPT-CDA](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage#c48278)  
-  Assistant conversationnel d’aide à la réussite en mathématiques et statistiques.
+- 🤖 [Projet GPT-CDA](cda/index.qmd)
+  Assistant conversationnel d’aide à la réussite en mathématiques et statistiques, présenté dans [ULaval Nouvelles le 22 mai 2026](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30).
 
 
 

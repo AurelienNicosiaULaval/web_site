@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.28">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Research – Aurélien Nicosia</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -37,10 +40,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-b719d3d4935f2b08311a76135e2bf442.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -211,7 +214,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/logo.svg" alt="" class="navbar-logo">
+    <img src="../assets/logo.svg" alt="" class="navbar-logo light-content">
+    <img src="../assets/logo.svg" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Aurélien Nicosia</span>
@@ -283,9 +287,11 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#software-and-dissemination" id="toc-software-and-dissemination" class="nav-link" data-scroll-target="#software-and-dissemination">Software and dissemination</a></li>
   </ul></li>
+  <li><a href="#recent-presentations" id="toc-recent-presentations" class="nav-link" data-scroll-target="#recent-presentations">Recent presentations</a></li>
   <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a>
   <ul class="collapse">
   <li><a href="#published-articles" id="toc-published-articles" class="nav-link" data-scroll-target="#published-articles">Published articles</a></li>
+  <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/en/recherche.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -314,77 +320,69 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>My work sits at the interface of applied mathematics, computational statistics, and data science.<br>
-I develop robust and interpretable methods for complex data analysis, with a special focus on reproducibility, open-source software, and practical translation into usable tools.</p>
+<p>My work sits at the interface of applied mathematics, computational statistics, and data science. I develop robust and interpretable methods for complex data analysis, with a special focus on reproducibility, open-source software, and practical translation into usable tools.</p>
 </section>
 <section id="research-axes" class="level2">
 <h2 class="anchored" data-anchor-id="research-axes">Research axes</h2>
 <section id="density-estimation-and-anomaly-detection" class="level3">
 <h3 class="anchored" data-anchor-id="density-estimation-and-anomaly-detection">1. Density estimation and anomaly detection</h3>
-<p>I develop methods based on GLBFP (Generalized Linear Blend Frequency Polygons) that unify histograms, ASH, and LBFP.<br>
-Goals: stability, adaptivity, and clear geometric interpretation.<br>
-Direct application: detection of atypical observations through combinations of local densities.<br>
-Software resource: GLBFP (R package, GitHub repository).</p>
+<p>I develop methods based on GLBFP (Generalized Linear Blend Frequency Polygons) that unify histograms, ASH, and LBFP. Goals: stability, adaptivity, and clear geometric interpretation. Direct application: detection of atypical observations through combinations of local densities. Software resource: GLBFP (R package, GitHub repository).</p>
 </section>
 <section id="directional-statistics-and-angular-models" class="level3">
 <h3 class="anchored" data-anchor-id="directional-statistics-and-angular-models">2. Directional statistics and angular models</h3>
-<p>Models for circular and directional data, including random circular effects.<br>
-Applications: orientation/movement, periodic phenomena, and dominant wind patterns.<br>
-Software resource: CircularRegression (R package, GitHub repository).</p>
+<p>Models for circular and directional data, including random circular effects. Applications: orientation/movement, periodic phenomena, and dominant wind patterns. Software resources: CircularRegression and ggcircular (R packages).</p>
 </section>
 <section id="hidden-models-and-latent-dynamics" class="level3">
 <h3 class="anchored" data-anchor-id="hidden-models-and-latent-dynamics">3. Hidden models and latent dynamics</h3>
-<p>Modeling with Hidden Markov Models for temporal and spatio-temporal data.<br>
-Recent interests: impact of temporal scale on inference, multi-individual models, and links with habitat-selection functions to connect behavior and environment.</p>
+<p>Modeling with Hidden Markov Models for temporal and spatio-temporal data. Recent interests: impact of temporal scale on inference, multi-individual models, and links with habitat-selection functions to connect behavior and environment.</p>
 </section>
 <section id="applied-data-science-and-pedagogical-innovation" class="level3">
 <h3 class="anchored" data-anchor-id="applied-data-science-and-pedagogical-innovation">4. Applied data science and pedagogical innovation</h3>
-<p>Transfer of statistical concepts to machine learning (measurement errors, interpretability, robustness).<br>
-Development of open resources for data science training (Quarto, learnr, GitHub) and reflection on responsible AI use in teaching.</p>
+<p>Transfer of statistical concepts to machine learning (measurement errors, interpretability, robustness). Development of open resources for data science training (Quarto, learnr, GitHub) and reflection on responsible AI use in teaching.</p>
 </section>
 </section>
 <section id="doctoral-thesis" class="level2">
 <h2 class="anchored" data-anchor-id="doctoral-thesis">Doctoral thesis</h2>
-<p><strong>Title:</strong> <em>General Multi-state Models for the Analysis of Animal Movement</em><br>
-<strong>Year:</strong> 2024<br>
-<strong>University:</strong> Université Laval<br>
-<strong>Supervisors:</strong> Thierry Duchesne and Louis-Paul Rivest</p>
-<p>This thesis develops a general framework for <strong>multi-state modeling of animal movement</strong>, combining the rigor of hidden Markov models with the flexibility of habitat-selection functions.<br>
-It proposes a unifying formulation connecting behavioral and spatial approaches, along with a full software implementation in R.</p>
+<p><strong>Title:</strong> <em>General Multi-state Models for the Analysis of Animal Movement</em> <strong>Year:</strong> 2024 <strong>University:</strong> Université Laval <strong>Supervisors:</strong> Thierry Duchesne and Louis-Paul Rivest</p>
+<p>This thesis develops a general framework for <strong>multi-state modeling of animal movement</strong>, combining the rigor of hidden Markov models with the flexibility of habitat-selection functions. It proposes a unifying formulation connecting behavioral and spatial approaches, along with a full software implementation in R.</p>
 <ul>
-<li>📄 <a href="https://corpus.ulaval.ca/server/api/core/bitstreams/cf3426a4-3475-4d48-a4c4-de29df846ed5/content">View thesis (PDF, institutional repository)</a><br>
-</li>
+<li>📄 <a href="https://corpus.ulaval.ca/server/api/core/bitstreams/cf3426a4-3475-4d48-a4c4-de29df846ed5/content">View thesis (PDF, institutional repository)</a></li>
 <li>💻 <a href="https://github.com/AurelienNicosiaULaval/multi-state-model-animal-movement">Code and reproducible material (GitHub)</a></li>
 </ul>
 <section id="software-and-dissemination" class="level3">
 <h3 class="anchored" data-anchor-id="software-and-dissemination">Software and dissemination</h3>
 <ul>
-<li><p><a href="https://github.com/AurelienNicosiaULaval/GLBFP"><strong>GLBFP</strong></a> — Density estimation based on <em>Generalized Linear Blend Frequency Polygons</em>.<br>
-A unifying method for histogram, ASH, and LBFP approaches, offering clear geometric interpretation and improved stability.</p></li>
-<li><p><a href="https://github.com/AurelienNicosiaULaval/CircularRegression"><strong>CircularRegression</strong></a> — Regression for circular and directional data.<br>
-Includes extensions with random circular effects and three-dimensional models for movement in space.</p></li>
-<li><p><a href="https://aureliennicosiaulaval.github.io/site_ressources_SSD/"><strong>site_ressources_SSD</strong></a> — Francophone educational resources platform for data science.<br>
-Includes Quarto templates, interactive tutorials (Learnr), and reproducible examples for instructors and students.</p></li>
-<li><p><a href="https://cran.r-project.org/web/packages/GeneralOaxaca/index.html"><strong>GeneralOaxaca</strong></a> — R package available on CRAN for decomposition of gaps using the <strong>generalized Blinder-Oaxaca</strong> approach.<br>
-It supports analysis of observed differences between groups (e.g., gender, regions, sectors) by decomposing contributions from composition effects and coefficient effects in linear and generalized models.</p></li>
+<li><p><a href="https://github.com/AurelienNicosiaULaval/GLBFP"><strong>GLBFP</strong></a> — Density estimation based on <em>Generalized Linear Blend Frequency Polygons</em>. A unifying method for histogram, ASH, and LBFP approaches, offering clear geometric interpretation and improved stability.</p></li>
+<li><p><a href="https://github.com/AurelienNicosiaULaval/CircularRegression"><strong>CircularRegression</strong></a> — Regression for circular and directional data. Includes extensions with random circular effects and three-dimensional models for movement in space.</p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/ggcircular/index.html"><strong>ggcircular</strong></a> — A <code>ggplot2</code> extension for circular, axial, and directional data, available on CRAN since June 4, 2026. The package provides layers, scales, summaries, diagnostics, and visualizations for angles, orientations, directions, times of day, and movement data. See also the <a href="https://github.com/AurelienNicosiaULaval/ggcircular">GitHub repository</a> and the <a href="https://aureliennicosiaulaval.github.io/ggcircular/">pkgdown documentation</a>.</p></li>
+<li><p><a href="https://aureliennicosiaulaval.github.io/site_ressources_SSD/"><strong>site_ressources_SSD</strong></a> — Francophone educational resources platform for data science. Includes Quarto templates, interactive tutorials (Learnr), and reproducible examples for instructors and students.</p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/GeneralOaxaca/index.html"><strong>GeneralOaxaca</strong></a> — R package available on CRAN for decomposition of gaps using the <strong>generalized Blinder-Oaxaca</strong> approach. It supports analysis of observed differences between groups (e.g., gender, regions, sectors) by decomposing contributions from composition effects and coefficient effects in linear and generalized models.</p></li>
 </ul>
 </section>
+</section>
+<section id="recent-presentations" class="level2">
+<h2 class="anchored" data-anchor-id="recent-presentations">Recent presentations</h2>
+<ul>
+<li><strong>SSC 2026.</strong> <em>A Leave-One-Out Influence Statistic for Scalable Density-Based Outlier Detection</em>, with Thierry Duchesne and Michel Carbon. <a href="https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf">View the presentation PDF</a> and the <a href="https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation">GitHub repository</a>. This presentation received the 2026 New Investigator Presentation Award.</li>
+</ul>
 </section>
 <section id="publications" class="level2">
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>
 <section id="published-articles" class="level3">
 <h3 class="anchored" data-anchor-id="published-articles">Published articles</h3>
 <ol type="1">
-<li><p><strong>Nicosia, A.</strong> (2026). <em>Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”.</em> <em>Journal of Data Science.</em><br>
-<a href="https://doi.org/10.6339/26-JDS1208H">https://doi.org/10.6339/26-JDS1208H</a> — <a href="https://jds-online.org/journal/JDS/article/1474/info">Article page</a></p></li>
-<li><p><strong>Gagnon, S., Allard, M., Nicosia, A.</strong> (2017). <em>Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada.</em> <em>Arctic Science.</em><br>
-<a href="https://doi.org/10.1139/AS-2016-0045">https://doi.org/10.1139/AS-2016-0045</a></p></li>
-<li><p><strong>Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D.</strong> (2016). <em>A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement.</em> <em>Annals of Applied Statistics.</em><br>
-<a href="https://doi.org/10.1214/17-AOAS1045">https://doi.org/10.1214/17-AOAS1045</a></p></li>
-<li><p><strong>Rivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D.</strong> (2015). <em>A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology.</em> <em>Journal of the Royal Statistical Society: Series C (Applied Statistics).</em><br>
-<a href="https://doi.org/10.1111/rssc.12124">https://doi.org/10.1111/rssc.12124</a></p></li>
-<li><p><strong>Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D.</strong> (2015). <em>A General Hidden State Random Walk Model for Animal Movement.</em> <em>Computational Statistics &amp; Data Analysis.</em><br>
-<a href="https://doi.org/10.1016/j.csda.2016.07.009">https://doi.org/10.1016/j.csda.2016.07.009</a></p></li>
+<li><p><strong>Nicosia, A.</strong> (2026). <em>Beyond the next step: A multi-criteria generative validation framework for step selection functions.</em> <em>Methods in Ecology and Evolution, 17</em>(6), 1754-1767. <a href="https://doi.org/10.1111/2041-210X.70313">https://doi.org/10.1111/2041-210X.70313</a></p></li>
+<li><p><strong>Nicosia, A.</strong> (2026). <em>Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”.</em> <em>Journal of Data Science.</em> <a href="https://doi.org/10.6339/26-JDS1208H">https://doi.org/10.6339/26-JDS1208H</a> — <a href="https://jds-online.org/journal/JDS/article/1474/info">Article page</a></p></li>
+<li><p><strong>Gagnon, S., Allard, M., Nicosia, A.</strong> (2017). <em>Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada.</em> <em>Arctic Science.</em> <a href="https://doi.org/10.1139/AS-2016-0045">https://doi.org/10.1139/AS-2016-0045</a></p></li>
+<li><p><strong>Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D.</strong> (2016). <em>A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement.</em> <em>Annals of Applied Statistics.</em> <a href="https://doi.org/10.1214/17-AOAS1045">https://doi.org/10.1214/17-AOAS1045</a></p></li>
+<li><p><strong>Rivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D.</strong> (2015). <em>A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology.</em> <em>Journal of the Royal Statistical Society: Series C (Applied Statistics).</em> <a href="https://doi.org/10.1111/rssc.12124">https://doi.org/10.1111/rssc.12124</a></p></li>
+<li><p><strong>Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D.</strong> (2015). <em>A General Hidden State Random Walk Model for Animal Movement.</em> <em>Computational Statistics &amp; Data Analysis.</em> <a href="https://doi.org/10.1016/j.csda.2016.07.009">https://doi.org/10.1016/j.csda.2016.07.009</a></p></li>
+</ol>
+</section>
+<section id="preprints" class="level3">
+<h3 class="anchored" data-anchor-id="preprints">Preprints</h3>
+<ol type="1">
+<li><strong>Bouderbala, I., Nicosia, A., Fortin, D.</strong> (2026). <em>Behavioural state inference from movement and environmental data using Markovian step selection functions.</em> <em>bioRxiv</em>. <a href="https://doi.org/10.64898/2026.02.05.704063">https://doi.org/10.64898/2026.02.05.704063</a></li>
 </ol>
 
 
@@ -443,13 +441,14 @@ It supports analysis of observed differences between groups (e.g., gender, regio
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -800,8 +799,7 @@ It supports analysis of observed differences between groups (e.g., gender, regio
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 <strong>Aurélien Nicosia</strong> — Université Laval<br>
-📍 Québec, QC — ✉️ <a href="mailto:aurelien.nicosia@mat.ulaval.ca">aurelien.nicosia@mat.ulaval.ca</a></p>
+<p>© 2026 <strong>Aurélien Nicosia</strong> — Université Laval 📍 Québec, QC — ✉️ <a href="mailto:aurelien.nicosia@mat.ulaval.ca">aurelien.nicosia@mat.ulaval.ca</a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

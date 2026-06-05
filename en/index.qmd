@@ -4,7 +4,7 @@ title-block-banner: true
 lang: en
 ---
 
-Lecturer in mathematics and statistics — Quebec, Canada  
+Lecturer in mathematics and statistics — Quebec, Canada
 I am interested in applied statistics, reproducibility, and educational innovation.
 
 :::{ .mt-4}
@@ -14,13 +14,59 @@ I am interested in applied statistics, reproducibility, and educational innovati
 :::
 
 
+## 2026 updates
+
+::: { .grid .gap-4 }
+::: {.g-col-12 .g-col-lg-4 .news-panel}
+### GPT-CDA in ULaval News
+On May 22, 2026, ULaval News published a story about GPT-CDA, a conversational assistant designed to support learning in mathematics and statistics at the CDA.
+
+::: {.link-list}
+[Read the article](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[CDA page](cda/index.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+
+::: {.g-col-12 .g-col-lg-4 .news-panel}
+### ggcircular on CRAN
+The R package `ggcircular` has been available on CRAN since June 4, 2026, in version 0.1.0. It extends `ggplot2` to circular, axial, and directional data.
+
+::: {.link-list}
+[CRAN](https://cran.r-project.org/web/packages/ggcircular/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[GitHub](https://github.com/AurelienNicosiaULaval/ggcircular){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[Documentation](https://aureliennicosiaulaval.github.io/ggcircular/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+
+::: {.g-col-12 .g-col-lg-4 .news-panel}
+### SSC 2026
+I led a workshop on AI and teaching, contributed to a public teaching-resource gallery, presented work on LOO-LBFP, and received the 2026 New Investigator Presentation Award.
+
+::: {.link-list}
+[AI Gallery](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[LOO-LBFP presentation](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+
+::: {.g-col-12 .g-col-lg-4 .news-panel}
+### Animal movement publications
+A new article is published in *Methods in Ecology and Evolution*, and a bioRxiv preprint focuses on behavioural-state inference using Markovian step-selection functions.
+
+::: {.link-list}
+[MEE article](https://doi.org/10.1111/2041-210X.70313){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[bioRxiv preprint](https://doi.org/10.64898/2026.02.05.704063){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+:::
+
+
 
 ## Featured
 
 ::: { .grid .gap-4 }
 ::: {.g-col-12 .g-col-md-4}
 ### Doctoral thesis
-Multi-state models for animal movement analysis.  
+Multi-state models for animal movement analysis.
 
 [View PDF](https://corpus.ulaval.ca/server/api/core/bitstreams/cf3426a4-3475-4d48-a4c4-de29df846ed5/content){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
@@ -35,12 +81,14 @@ A set of R packages developed for applied statistics.
 
 [CircularRegression](https://github.com/AurelienNicosiaULaval/CircularRegression){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
+[ggcircular (CRAN)](https://cran.r-project.org/web/packages/ggcircular/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+
 [GeneralOaxaca (CRAN)](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ### Open resources
-A platform for open educational resources, tutorials, and teaching tools.  
+A platform for open educational resources, tutorials, and teaching tools.
 
 [site_ressources_SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
@@ -54,8 +102,8 @@ A platform for open educational resources, tutorials, and teaching tools.
 
 ## Quick links
 
-- Teaching: course notes and assignments → [Teaching](enseignement.qmd)  
-- Research: projects, software, thesis → [Research](recherche.qmd)  
-- Educational innovation: projects and resources → [Educational innovation](innovation.qmd)  
-- About and contact → [About](a-propos.qmd)  
+- Teaching: course notes and assignments → [Teaching](enseignement.qmd)
+- Research: projects, software, thesis → [Research](recherche.qmd)
+- Educational innovation: projects and resources → [Educational innovation](innovation.qmd)
+- About and contact → [About](a-propos.qmd)
 - Full CV → [CV](cv/index.qmd)

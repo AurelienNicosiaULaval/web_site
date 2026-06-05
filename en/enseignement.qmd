@@ -5,11 +5,11 @@ lang: en
 
 ## Teaching philosophy
 
-I approach teaching mathematics, statistics, and data science as a process of **understanding and exploration**.  
+I approach teaching mathematics, statistics, and data science as a process of **understanding and exploration**.
 Learning is based on three principles:
 
-- **Learning by doing**: practice and hands-on use of tools like R or Quarto help students build meaning.  
-- **Learning through collaboration**: team projects and discussion are central in my courses.  
+- **Learning by doing**: practice and hands-on use of tools like R or Quarto help students build meaning.
+- **Learning through collaboration**: team projects and discussion are central in my courses.
 - **Transparent learning**: every activity is documented and reproducible, embedding scientific rigor in student work.
 
 I rely on project-based learning, formative assessment, and a supportive environment where rigor and curiosity can coexist.
@@ -21,10 +21,10 @@ I rely on project-based learning, formative assessment, and a supportive environ
 ### Université Laval — Department of Mathematics and Statistics
 
 #### STT-1100 — Introduction to Data Science
-This introductory course focuses on **professional situations** where students assume a data science role.  
-Learning goals: master the full analysis pipeline, from data import to communication of results.  
-**Tools:** R, tidyverse, Quarto, GitHub.  
-**Course notes:** [STT-1100_notes_de_cours](https://aureliennicosiaulaval.github.io/STT-1100_notes_de_cours/)  
+This introductory course focuses on **professional situations** where students assume a data science role.
+Learning goals: master the full analysis pipeline, from data import to communication of results.
+**Tools:** R, tidyverse, Quarto, GitHub.
+**Course notes:** [STT-1100_notes_de_cours](https://aureliennicosiaulaval.github.io/STT-1100_notes_de_cours/)
 **Philosophy:** active learning, francophone case studies, ethical reflection on data.
 
 **STT-1100 GPT**: [course-specific conversational assistant](https://chatgpt.com/g/g-682d165f32e881918633affa3fe9dfd6-stt-1100), to support student learning.
@@ -32,18 +32,18 @@ Learning goals: master the full analysis pipeline, from data import to communica
 
 
 #### STT-4230 — R for scientists
-Course focused on **good development practices**: project structure, documentation, and collaboration through GitHub.  
-**Tools:** R, Quarto, GitHub, testthat.  
-**Resource:** [Course notes](https://stt4230.rbind.io/) from Sophie Baillargeon.  
-**Philosophy:** clarity, reproducibility, and integration of modern tools.  
-**STT-4230 GPT**: [course-specific conversational assistant](https://chatgpt.com/g/g-689dc0b2bb348191b77cd4609dfce184-r-pour-scientifiques), to support student learning.  
+Course focused on **good development practices**: project structure, documentation, and collaboration through GitHub.
+**Tools:** R, Quarto, GitHub, testthat.
+**Resource:** [Course notes](https://stt4230.rbind.io/) from Sophie Baillargeon.
+**Philosophy:** clarity, reproducibility, and integration of modern tools.
+**STT-4230 GPT**: [course-specific conversational assistant](https://chatgpt.com/g/g-689dc0b2bb348191b77cd4609dfce184-r-pour-scientifiques), to support student learning.
 **UlavalSSD:** [UlavalSSD R package](https://aureliennicosiaulaval.github.io/UlavalSSD/), featuring practical utilities for data science at Université Laval.
 
 
 
 #### STT-2200 — Data Analysis
-An **applied statistics** course where students work from real datasets and produce reproducible reports.  
-**Tools:** R, ggplot2, dplyr, RMarkdown.  
+An **applied statistics** course where students work from real datasets and produce reproducible reports.
+**Tools:** R, ggplot2, dplyr, RMarkdown.
 **Philosophy:** interpretation before automation, clear communication of results.
 
 
@@ -51,36 +51,45 @@ An **applied statistics** course where students work from real datasets and prod
 ### Université du Québec à Chicoutimi (UQAC)
 
 #### 8INF404 — Introduction to Data Science and Business Intelligence
-An interdisciplinary course introducing the full data science project cycle: preparation, exploration, and predictive modeling.  
-**Tools:** R, shiny, Quarto.  
+An interdisciplinary course introducing the full data science project cycle: preparation, exploration, and predictive modeling.
+**Tools:** R, shiny, Quarto.
 **Philosophy:** connect technical work to decision-making, with an emphasis on communication.
 
 
 
 #### 8INF416 — Visualization and Interface
-Course devoted to **interactive visualization and scientific communication**.  
-**Tools:** R (Shiny), ggplot2.  
+Course devoted to **interactive visualization and scientific communication**.
+**Tools:** R (Shiny), ggplot2.
 **Philosophy:** visual clarity, accessibility, and rigor in graphical messaging.
 
 
 
 #### 8STT108 — Statistical Methods for Big Data
-Introduction to statistical methods applied to large datasets (big data).  
-**Tools:** R, tidyverse, parallel computing.  
+Introduction to statistical methods applied to large datasets (big data).
+**Tools:** R, tidyverse, parallel computing.
 **Philosophy:** emphasize model logic before automation.
+
+
+
+## Teaching recognition
+
+I received the Star Teacher Award again in 2026. This recognition adds to the 2014, 2023, 2024, and 2025 editions already listed in my CV.
+The Faculty of Science and Engineering describes the title as a recognition given to instructors who receive excellent student evaluations.
+
+[Learn more about the FSG Teaching Stars ceremony](https://www.fsg.ulaval.ca/faculte/evenements-facultaires/ceremonie-des-etoiles-de-lenseignement-fsg){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
 
 
 ## Shared resources
 
-- 🗂️ [Teaching portfolio (web page)](https://aureliennicosiaulaval-dossier-enseignement.share.connect.posit.cloud/?utm_source=chatgpt.com)  
+- 🗂️ [Teaching portfolio (web page)](https://aureliennicosiaulaval-dossier-enseignement.share.connect.posit.cloud/?utm_source=chatgpt.com)
   Overview of my teaching approach, activities, and achievements.
 
-- 📚 [Teaching resources platform for instructors](https://aureliennicosiaulaval.github.io/site_ressources_SSD/)  
+- 📚 [Teaching resources platform for instructors](https://aureliennicosiaulaval.github.io/site_ressources_SSD/)
   Quarto templates, interactive tutorials, and reproducible examples.
 
-- 🤖 [GPT-CDA project](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage#c48278)  
-  A conversational assistant supporting success in mathematics and statistics.
+- 🤖 [GPT-CDA project](cda/index.qmd)
+  A conversational assistant supporting success in mathematics and statistics, featured in [ULaval News on May 22, 2026](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30).
 
 
 

@@ -4,7 +4,7 @@ title-block-banner: true
 lang: en
 ---
 
-Lecturer in mathematics and statistics — Quebec, Canada
+Lecturer in mathematics and statistics - Quebec, Canada
 I am interested in applied statistics, reproducibility, and educational innovation.
 
 :::{ .mt-4}
@@ -28,10 +28,11 @@ On May 22, 2026, ULaval News published a story about GPT-CDA, a conversational a
 :::
 
 ::: {.g-col-12 .g-col-lg-4 .news-panel}
-### ggcircular on CRAN
-The R package `ggcircular` has been available on CRAN since June 4, 2026, in version 0.1.0. It extends `ggplot2` to circular, axial, and directional data.
+### DonutMap and ggcircular on CRAN
+The R packages `DonutMap` and `ggcircular` have been available on CRAN since June 2026. They support donut-chart mapping and visualization for circular data.
 
 ::: {.link-list}
+[DonutMap](packages/donutmap.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 [CRAN](https://cran.r-project.org/web/packages/ggcircular/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 [GitHub](https://github.com/AurelienNicosiaULaval/ggcircular){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 [Documentation](https://aureliennicosiaulaval.github.io/ggcircular/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
@@ -77,6 +78,8 @@ Multi-state models for animal movement analysis.
 ### R packages
 A set of R packages developed for applied statistics.
 
+[DonutMap (CRAN)](https://cran.r-project.org/web/packages/DonutMap/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+
 [GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
 [CircularRegression](https://github.com/AurelienNicosiaULaval/CircularRegression){.btn .btn-outline-dark .rounded-pill .shadow-sm}
@@ -84,6 +87,8 @@ A set of R packages developed for applied statistics.
 [ggcircular (CRAN)](https://cran.r-project.org/web/packages/ggcircular/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
 [GeneralOaxaca (CRAN)](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+
+[View all packages](packages.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 :::
 
 ::: {.g-col-12 .g-col-md-4}

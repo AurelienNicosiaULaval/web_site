@@ -7,7 +7,7 @@ format:
 ---
 
 Aurélien Nicosia
-Chargé d’enseignement — Département de mathématiques et de statistique
+Chargé d’enseignement - Département de mathématiques et de statistique
 **Université Laval (Québec, Canada)**
 [aureliennicosiaulaval.github.io/web_site](https://aureliennicosiaulaval.github.io/web_site)
 ORCID : [0000-0002-0974-9988](https://orcid.org/0000-0002-0974-9988)
@@ -25,7 +25,7 @@ Je développe des outils open source et des environnements pédagogiques numéri
 - 🎓 **Ph.D. en statistique**, Université Laval (2024)
 - 👨‍🏫 **Chargé d’enseignement** et responsable du CDA, Université Laval
 - 🤝 **Chargé de cours**, UQAC (informatique et science des données)
-- 💻 **Ancien directeur R-D** — The Co-operators
+- 💻 **Ancien directeur R-D** - The Co-operators
 - 🧠 **Intérêts principaux :** estimation de densité, HMM, modèles directionnels, pédagogie numérique et IA en enseignement
 
 
@@ -40,6 +40,7 @@ Je développe des outils open source et des environnements pédagogiques numéri
 
 
 ### Logiciels et ressources ouvertes
+- `DonutMap` : package R disponible sur le CRAN depuis 2026 pour créer des cartes de diagrammes en anneau avec `sf`, `ggplot2` et `leaflet`.
 - `ggcircular` : package R disponible sur le CRAN depuis 2026 pour les données circulaires, axiales et directionnelles.
 - `GLBFP` : package R pour l’estimation de densité et la détection d’observations atypiques.
 - `CircularRegression` : outils pour la régression de données circulaires et directionnelles.
@@ -50,5 +51,5 @@ Je développe des outils open source et des environnements pédagogiques numéri
 ### Distinctions et subventions
 - **Prix Enseignant Étoile ULaval** (2014, 2023, 2024, 2025, 2026)
 - **2026 New Investigator Presentation Award / Prix de la présentation par un nouveau chercheur**, SSC 2026
-- **Subventions PAIP** (2023–2026) — innovation pédagogique et IA
-- **CALQ** (2024) — *Dessin numérique avec R*
+- **Subventions PAIP** (2023–2026) - innovation pédagogique et IA
+- **CALQ** (2024) - *Dessin numérique avec R*

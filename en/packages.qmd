@@ -1,0 +1,76 @@
+---
+title: "R Packages"
+lang: en
+---
+
+This page gathers the R packages I develop and maintain, with particular attention to packages available on CRAN and documented openly.
+
+The CRAN information below was verified on June 9, 2026.
+
+## Packages on CRAN
+
+::: { .grid .gap-4 }
+::: {.g-col-12 .g-col-lg-4}
+::: {.package-card}
+<div class="package-card-header">
+<img src="../assets/packages/donutmap-logo.svg" class="package-card-logo" alt="DonutMap hex logo">
+<h3>DonutMap</h3>
+</div>
+
+Donut maps with `sf`, `ggplot2`, and `leaflet`. The package places donut charts on static or interactive maps and can add origin-destination flows.
+
+CRAN version: 0.1.0, published on June 8, 2026.
+
+::: {.link-list}
+[Dedicated page](packages/donutmap.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[CRAN](https://cran.r-project.org/web/packages/DonutMap/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[GitHub](https://github.com/AurelienNicosiaULaval/DonutMap){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[Documentation](https://aureliennicosiaulaval.github.io/DonutMap/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-lg-4}
+::: {.package-card}
+<div class="package-card-header">
+<img src="../assets/packages/ggcircular-logo.svg" class="package-card-logo" alt="ggcircular hex logo">
+<h3>ggcircular</h3>
+</div>
+
+A `ggplot2` extension for circular, axial, and directional data: rose diagrams, circular densities, mean directions, confidence arcs, and movement visualizations.
+
+CRAN version: 0.1.0, published on June 4, 2026.
+
+::: {.link-list}
+[CRAN](https://cran.r-project.org/web/packages/ggcircular/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[GitHub](https://github.com/AurelienNicosiaULaval/ggcircular){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[Documentation](https://aureliennicosiaulaval.github.io/ggcircular/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-lg-4}
+::: {.package-card}
+<div class="package-card-header">
+<span class="package-card-fallback">GO</span>
+<h3>GeneralOaxaca</h3>
+</div>
+
+Blinder-Oaxaca decomposition for generalized linear models, with bootstrap standard errors and twofold or threefold decomposition outputs.
+
+CRAN version: 1.0, published on August 17, 2015.
+
+::: {.link-list}
+[CRAN](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+:::
+:::
+
+## Related GitHub projects
+
+Some packages and tools are also developed or maintained on GitHub, even if they are not all on CRAN at the time of this verification.
+
+- [GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP): density estimation with General Linear Blend Frequency Polygons.
+- [CircularRegression](https://github.com/AurelienNicosiaULaval/CircularRegression): regression models for circular responses.
+- [tutorizeR](https://github.com/AurelienNicosiaULaval/tutorizeR): conversion of R Markdown or Quarto teaching material into interactive tutorials.

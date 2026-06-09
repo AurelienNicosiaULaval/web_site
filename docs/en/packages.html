@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="fr-CA" xml:lang="fr-CA"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.9.37">
@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Média – Aurélien Nicosia</title>
+<title>R Packages – Aurélien Nicosia</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,24 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./assets/logo.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/logo.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -57,17 +57,17 @@ ul.task-list li input[type="checkbox"] {
     "s"
   ],
   "language": {
-    "search-no-results-text": "Pas de résultats",
-    "search-matching-documents-text": "documents trouvés",
-    "search-copy-link-title": "Copier le lien vers la recherche",
-    "search-hide-matches-text": "Cacher les correspondances additionnelles",
-    "search-more-match-text": "correspondance de plus dans ce document",
-    "search-more-matches-text": "correspondances de plus dans ce document",
-    "search-clear-button-title": "Effacer",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Annuler",
-    "search-submit-button-title": "Envoyer",
-    "search-label": "Recherche"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
@@ -199,11 +199,13 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<link rel="stylesheet" href="assets/custom.css">
-<meta property="og:title" content="Média – Aurélien Nicosia">
+<link rel="stylesheet" href="../assets/custom.css">
+<meta property="og:title" content="R Packages – Aurélien Nicosia">
 <meta property="og:description" content="">
+<meta property="og:image" content="https://AurelienNicosiaUlaval.github.io/web_site/assets/packages/donutmap-logo.svg">
 <meta property="og:site_name" content="Aurélien Nicosia">
 <meta property="og:locale" content="fr_CA">
+<meta property="og:image:alt" content="DonutMap hex logo">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -213,54 +215,54 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/logo.svg" alt="" class="navbar-logo light-content">
-    <img src="./assets/logo.svg" alt="" class="navbar-logo dark-content">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/logo.svg" alt="" class="navbar-logo light-content">
+    <img src="../assets/logo.svg" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Aurélien Nicosia</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Recherche"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./enseignement.html"> 
+    <a class="nav-link" href="../enseignement.html"> 
 <span class="menu-text">Enseignement</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./recherche.html"> 
+    <a class="nav-link" href="../recherche.html"> 
 <span class="menu-text">Recherche</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./packages.html"> 
+    <a class="nav-link" href="../packages.html"> 
 <span class="menu-text">Packages R</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./innovation.html"> 
+    <a class="nav-link" href="../innovation.html"> 
 <span class="menu-text">Innovation Pédagogique</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./ressources.html"> 
+    <a class="nav-link" href="../ressources.html"> 
 <span class="menu-text">Autres</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./a-propos.html"> 
+    <a class="nav-link" href="../a-propos.html"> 
 <span class="menu-text">À propos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv/index.html"> 
+    <a class="nav-link" href="../cv/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./en/index.html"> 
+    <a class="nav-link" href="../en/index.html"> 
 <span class="menu-text">Langue</span></a>
   </li>  
 </ul>
@@ -276,33 +278,20 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Sur cette page</h2>
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#aperçu" id="toc-aperçu" class="nav-link active" data-scroll-target="#aperçu">Aperçu</a></li>
-  <li><a href="#vidéos" id="toc-vidéos" class="nav-link" data-scroll-target="#vidéos">Vidéos</a>
-  <ul class="collapse">
-  <li><a href="#cogito-2016-habitudes-animales-et-formation-des-nuages" id="toc-cogito-2016-habitudes-animales-et-formation-des-nuages" class="nav-link" data-scroll-target="#cogito-2016-habitudes-animales-et-formation-des-nuages">Cogito 2016 — <em>Habitudes animales et formation des nuages</em></a></li>
-  <li><a href="#présentation-de-lespace-innovation-co-operators" id="toc-présentation-de-lespace-innovation-co-operators" class="nav-link" data-scroll-target="#présentation-de-lespace-innovation-co-operators">Présentation de l’espace Innovation Co-operators</a></li>
-  <li><a href="#sas-global-forum-2016-student-symposium" id="toc-sas-global-forum-2016-student-symposium" class="nav-link" data-scroll-target="#sas-global-forum-2016-student-symposium">SAS Global Forum 2016 — Student Symposium</a></li>
-  </ul></li>
-  <li><a href="#presse-nouvelles-sélection" id="toc-presse-nouvelles-sélection" class="nav-link" data-scroll-target="#presse-nouvelles-sélection">Presse &amp; nouvelles (sélection)</a></li>
-  <li><a href="#compétitions" id="toc-compétitions" class="nav-link" data-scroll-target="#compétitions">Compétitions</a></li>
-  <li><a href="#communauté-concours" id="toc-communauté-concours" class="nav-link" data-scroll-target="#communauté-concours">Communauté &amp; concours</a>
-  <ul class="collapse">
-  <li><a href="#shiny-app-store-shiny-contest-posit-community-2021" id="toc-shiny-app-store-shiny-contest-posit-community-2021" class="nav-link" data-scroll-target="#shiny-app-store-shiny-contest-posit-community-2021">Shiny App Store — Shiny Contest (Posit Community, 2021)</a></li>
-  </ul></li>
-  <li><a href="#blog-site-personnel" id="toc-blog-site-personnel" class="nav-link" data-scroll-target="#blog-site-personnel">Blog &amp; site personnel</a></li>
-  <li><a href="#présence-professionnelle" id="toc-présence-professionnelle" class="nav-link" data-scroll-target="#présence-professionnelle">Présence professionnelle</a></li>
+  <li><a href="#packages-on-cran" id="toc-packages-on-cran" class="nav-link active" data-scroll-target="#packages-on-cran">Packages on CRAN</a></li>
+  <li><a href="#related-github-projects" id="toc-related-github-projects" class="nav-link" data-scroll-target="#related-github-projects">Related GitHub projects</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/publications.qmd" class="toc-action"><i class="bi bi-github"></i>Modifier cette page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/en/packages.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Média</h1>
+<h1 class="title">R Packages</h1>
 </div>
 
 
@@ -319,71 +308,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="aperçu" class="level2">
-<h2 class="anchored" data-anchor-id="aperçu">Aperçu</h2>
-<p>Cette page regroupe des mentions publiques, articles, vidéos, compétitions et liens professionnels me concernant.</p>
-<hr>
-</section>
-<section id="vidéos" class="level2">
-<h2 class="anchored" data-anchor-id="vidéos">Vidéos</h2>
-<section id="cogito-2016-habitudes-animales-et-formation-des-nuages" class="level3">
-<h3 class="anchored" data-anchor-id="cogito-2016-habitudes-animales-et-formation-des-nuages">Cogito 2016 — <em>Habitudes animales et formation des nuages</em></h3>
-<div style="aspect-ratio:16/9;">
-<p><iframe width="100%" height="100%" src="https://www.youtube.com/embed/k96TG-NBua4" title="Cogito 2016 - Émission 1" frameborder="0" allowfullscreen=""></iframe></p>
+<p>This page gathers the R packages I develop and maintain, with particular attention to packages available on CRAN and documented openly.</p>
+<p>The CRAN information below was verified on June 9, 2026.</p>
+<section id="packages-on-cran" class="level2">
+<h2 class="anchored" data-anchor-id="packages-on-cran">Packages on CRAN</h2>
+<div class="grid gap-4">
+<div class="g-col-12 g-col-lg-4">
+<div class="package-card">
+<div class="package-card-header">
+<img src="../assets/packages/donutmap-logo.svg" class="package-card-logo" alt="DonutMap hex logo">
+<h3 class="anchored">
+DonutMap
+</h3>
 </div>
-<p><em>Source :</em> Série Cogito (Canal Savoir / AELIÉS, 2016).</p>
-</section>
-<section id="présentation-de-lespace-innovation-co-operators" class="level3">
-<h3 class="anchored" data-anchor-id="présentation-de-lespace-innovation-co-operators">Présentation de l’espace Innovation Co-operators</h3>
-<div style="aspect-ratio:16/9;">
-<p><iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=dvhPPcdSVDM" title="Présentation de l'espace Innovation Co-operators" frameborder="0" allowfullscreen=""></iframe></p>
+<p>Donut maps with <code>sf</code>, <code>ggplot2</code>, and <code>leaflet</code>. The package places donut charts on static or interactive maps and can add origin-destination flows.</p>
+<p>CRAN version: 0.1.0, published on June 8, 2026.</p>
+<div class="link-list">
+<p><a href="../en/packages/donutmap.html" class="btn btn-outline-dark rounded-pill shadow-sm">Dedicated page</a> <a href="https://cran.r-project.org/web/packages/DonutMap/index.html" class="btn btn-outline-dark rounded-pill shadow-sm">CRAN</a> <a href="https://github.com/AurelienNicosiaULaval/DonutMap" class="btn btn-outline-dark rounded-pill shadow-sm">GitHub</a> <a href="https://aureliennicosiaulaval.github.io/DonutMap/" class="btn btn-outline-dark rounded-pill shadow-sm">Documentation</a></p>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-4">
+<div class="package-card">
+<div class="package-card-header">
+<img src="../assets/packages/ggcircular-logo.svg" class="package-card-logo" alt="ggcircular hex logo">
+<h3 class="anchored">
+ggcircular
+</h3>
+</div>
+<p>A <code>ggplot2</code> extension for circular, axial, and directional data: rose diagrams, circular densities, mean directions, confidence arcs, and movement visualizations.</p>
+<p>CRAN version: 0.1.0, published on June 4, 2026.</p>
+<div class="link-list">
+<p><a href="https://cran.r-project.org/web/packages/ggcircular/index.html" class="btn btn-outline-dark rounded-pill shadow-sm">CRAN</a> <a href="https://github.com/AurelienNicosiaULaval/ggcircular" class="btn btn-outline-dark rounded-pill shadow-sm">GitHub</a> <a href="https://aureliennicosiaulaval.github.io/ggcircular/" class="btn btn-outline-dark rounded-pill shadow-sm">Documentation</a></p>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-4">
+<div class="package-card">
+<div class="package-card-header">
+<span class="package-card-fallback">GO</span>
+<h3 class="anchored">
+GeneralOaxaca
+</h3>
+</div>
+<p>Blinder-Oaxaca decomposition for generalized linear models, with bootstrap standard errors and twofold or threefold decomposition outputs.</p>
+<p>CRAN version: 1.0, published on August 17, 2015.</p>
+<div class="link-list">
+<p><a href="https://cran.r-project.org/web/packages/GeneralOaxaca/index.html" class="btn btn-outline-dark rounded-pill shadow-sm">CRAN</a></p>
+</div>
+</div>
+</div>
 </div>
 </section>
-<section id="sas-global-forum-2016-student-symposium" class="level3">
-<h3 class="anchored" data-anchor-id="sas-global-forum-2016-student-symposium">SAS Global Forum 2016 — Student Symposium</h3>
-<p>Récapitulatif officiel (SAS Blog) avec ressources et vidéos d’archives. → <a href="https://www.fsg.ulaval.ca/faculte/actualites/mm-nicosia-et-perreault-grands-vainqueurs-du-symposium-etudiant-du-sas-global-forum-2016-1812" class="uri">https://www.fsg.ulaval.ca/faculte/actualites/mm-nicosia-et-perreault-grands-vainqueurs-du-symposium-etudiant-du-sas-global-forum-2016-1812</a></p>
-<hr>
-</section>
-</section>
-<section id="presse-nouvelles-sélection" class="level2">
-<h2 class="anchored" data-anchor-id="presse-nouvelles-sélection">Presse &amp; nouvelles (sélection)</h2>
+<section id="related-github-projects" class="level2">
+<h2 class="anchored" data-anchor-id="related-github-projects">Related GitHub projects</h2>
+<p>Some packages and tools are also developed or maintained on GitHub, even if they are not all on CRAN at the time of this verification.</p>
 <ul>
-<li><p><strong>ULaval Nouvelles</strong> — <em>Le GPT-CDA, un robot conversationnel qui épaule les étudiantes et étudiants dans les cours de mathématiques et de statistique</em> (22 mai 2026). Article : <a href="https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30" class="uri">https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30</a></p></li>
-<li><p><strong>SSC 2026</strong> — Prix 2026 de la présentation par un nouveau chercheur pour une présentation sur LOO-LBFP. Présentation : <a href="https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf" class="uri">https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf</a></p></li>
-<li><p><strong>MT180 (Faculté des sciences et de génie, Université Laval)</strong> — <em>Coup de cœur du jury</em> (7 mars 2016).</p></li>
-<li><p><strong>ActuLab (U. Laval — Actuariat)</strong> — Affiche de l’événement (2016), incluant la présentation <em>« Pouvez-vous prévoir mon pointage au golf ? »</em>.</p></li>
-</ul>
-<hr>
-</section>
-<section id="compétitions" class="level2">
-<h2 class="anchored" data-anchor-id="compétitions">Compétitions</h2>
-<ul>
-<li><p><strong>SAS Global Forum — Student Symposium (2016)</strong> Récapitulatif des <em>Proceedings</em> SAS GF 2016, programme et papiers.</p></li>
-<li><p><strong>ActuLab (2015)</strong> — <em>« Pouvez-vous prévoir mon pointage au golf ? »</em> (problème gagnant). Billet explicatif WordPress : « Comment prédire votre score au golf comme un pro ? ».</p></li>
-</ul>
-<hr>
-</section>
-<section id="communauté-concours" class="level2">
-<h2 class="anchored" data-anchor-id="communauté-concours">Communauté &amp; concours</h2>
-<section id="shiny-app-store-shiny-contest-posit-community-2021" class="level3">
-<h3 class="anchored" data-anchor-id="shiny-app-store-shiny-contest-posit-community-2021">Shiny App Store — Shiny Contest (Posit Community, 2021)</h3>
-<p>Prototype d’« App Store » pour applications Shiny, co-développé par <strong>Penelope Ferron</strong> et <strong>Aurélien Nicosia</strong> (12 mai 2021). → Discussion (Posit Community) : <a href="https://forum.posit.co/t/shiny-app-store-shiny-contest-submission/104579" class="uri">https://forum.posit.co/t/shiny-app-store-shiny-contest-submission/104579</a></p>
-<hr>
-</section>
-</section>
-<section id="blog-site-personnel" class="level2">
-<h2 class="anchored" data-anchor-id="blog-site-personnel">Blog &amp; site personnel</h2>
-<ul>
-<li><strong>WordPress (blog / portfolio)</strong> — Billets sur SAS GF, Cogito, applications Shiny, publications, etc. Page d’accueil : <a href="https://aureliennicosia.wordpress.com/" class="uri">https://aureliennicosia.wordpress.com/</a> Page Shiny (démonstration liée au Student Symposium) : <a href="https://aureliennicosia.wordpress.com/shiny-app/" class="uri">https://aureliennicosia.wordpress.com/shiny-app/</a> Billet : « Comment prédire votre score au golf comme un pro ? » (ActuLab, 2015).</li>
-</ul>
-<hr>
-</section>
-<section id="présence-professionnelle" class="level2">
-<h2 class="anchored" data-anchor-id="présence-professionnelle">Présence professionnelle</h2>
-<ul>
-<li><p><strong>ResearchGate</strong> — Profil public (publications, lectures, citations). <a href="https://www.researchgate.net/profile/Aurelien-Nicosia-2" class="uri">https://www.researchgate.net/profile/Aurelien-Nicosia-2</a></p>
-<h2 id="eiom-école-interdisciplinaire-outils-méthodes-mention-linkedin" class="anchored">EIOM — École interdisciplinaire outils &amp; méthodes (mention LinkedIn)</h2></li>
-<li><p><strong>EIOM (U. Laval)</strong> — Publication LinkedIn (5e édition, 2025). Lien : <a href="https://www.linkedin.com/posts/eiomulaval_jour-2-de-leiom-2025-5e-%C3%A9dition-activity-7366140743142240256-d4O_" class="uri">https://www.linkedin.com/posts/eiomulaval_jour-2-de-leiom-2025-5e-%C3%A9dition-activity-7366140743142240256-d4O_</a></p></li>
+<li><a href="https://github.com/AurelienNicosiaULaval/GLBFP">GLBFP</a>: density estimation with General Linear Blend Frequency Polygons.</li>
+<li><a href="https://github.com/AurelienNicosiaULaval/CircularRegression">CircularRegression</a>: regression models for circular responses.</li>
+<li><a href="https://github.com/AurelienNicosiaULaval/tutorizeR">tutorizeR</a>: conversion of R Markdown or Quarto teaching material into interactive tutorials.</li>
 </ul>
 
 
@@ -415,12 +398,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copié");
+      button.setAttribute("title", "Copied!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copié");
+        button.setAttribute("data-bs-title", "Copied!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -803,7 +786,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/publications.qmd" class="toc-action"><i class="bi bi-github"></i>Modifier cette page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/en/packages.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p><a href="https://github.com/AurelienNicosiaULaval">GitHub</a> • <a href="https://www.linkedin.com/in/aur%C3%A9lien-nicosia-6a52487b/">LinkedIn</a> • <a href="https://www.researchgate.net/profile/Aurelien-Nicosia-2?ev=prf_overview">ResearchGate</a> • <a href="https://orcid.org/0000-0002-0974-9988">ORCID</a></p>
 </div>
@@ -813,5 +796,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

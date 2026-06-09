@@ -1,0 +1,85 @@
+---
+title: "DonutMap"
+---
+
+::: {.package-hero}
+::: {}
+`DonutMap` est un package R pour représenter des compositions locales sous forme de diagrammes en anneau placés sur une carte. Il fournit des fonctions pour créer des cartes statiques avec `ggplot2`, des cartes interactives avec `leaflet`, des polygones `sf` et des lignes de flux origine-destination.
+
+Version CRAN : 0.1.0, publiée le 8 juin 2026.
+
+::: {.link-list}
+[CRAN](https://cran.r-project.org/web/packages/DonutMap/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[GitHub](https://github.com/AurelienNicosiaULaval/DonutMap){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[Documentation](https://aureliennicosiaulaval.github.io/DonutMap/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[Vignette](https://aureliennicosiaulaval.github.io/DonutMap/articles/donut-maps.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+
+![Logo hexagonal DonutMap](../assets/packages/donutmap-logo.svg){.package-logo}
+:::
+
+## Exemple d’utilisation
+
+Le code suivant crée des diagrammes en anneau par site et ajoute des flux entre sites. Les données sont simulées pour illustrer la structure attendue par le package.
+
+```r
+# Load libraries
+library(DonutMap)
+library(ggplot2)
+
+# Create example data
+demo <- data.frame(
+  place = rep(c("A", "B", "C"), each = 3),
+  lon = rep(c(-71.35, -71.20, -71.05), each = 3),
+  lat = rep(c(46.75, 46.82, 46.73), each = 3),
+  category = rep(c("Walking", "Transit", "Car"), times = 3),
+  value = c(10, 20, 5, 5, 15, 10, 12, 4, 9)
+)
+
+flows <- data.frame(
+  from = c("A", "B"),
+  to = c("B", "C"),
+  trips = c(30, 10),
+  flow_category = c("Transit", "Car")
+)
+
+mode_colours <- c(
+  Walking = "#1b9e77",
+  Transit = "#7570b3",
+  Car = "#d95f02"
+)
+
+# Draw a static donut map
+donut_map(
+  demo,
+  place,
+  category,
+  value,
+  lon = lon,
+  lat = lat,
+  flows = flows,
+  from = from,
+  to = to,
+  flow_value = trips,
+  flow_group = flow_category,
+  flow_colours = mode_colours,
+  flow_curvature = 0.22,
+  flow_arrow = TRUE,
+  colours = mode_colours
+)
+```
+
+## Aperçu visuel
+
+L’image ci-dessous provient de la galerie d’exemples du package et montre une carte statique avec liens courbés et flèches.
+
+![Exemple de carte DonutMap avec liens courbés colorés par corridor.](../assets/packages/donutmap-example.png){.package-example}
+
+## À quoi sert DonutMap ?
+
+- comparer des compositions locales sur une carte ;
+- visualiser des flux entre lieux avec des trajectoires droites ou courbées ;
+- produire une carte statique `ggplot2` ou une carte interactive `leaflet` ;
+- conserver une interface de données tidy compatible avec des flux de travail reproductibles.
+

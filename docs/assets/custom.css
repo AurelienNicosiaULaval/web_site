@@ -33,6 +33,68 @@ a { color: var(--accent); }
   margin-top: 0.8rem;
 }
 
+.package-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(120px, 190px);
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.package-logo {
+  width: min(100%, 180px);
+  justify-self: center;
+}
+
+.package-card {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.78);
+  height: 100%;
+}
+
+.package-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.package-card-logo {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.package-card-fallback {
+  width: 58px;
+  height: 58px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(200, 16, 46, 0.1);
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.package-example {
+  width: min(100%, 900px);
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 720px) {
+  .package-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .package-logo {
+    justify-self: start;
+  }
+}
+
 .language-switch .menu-text,
 .navbar-nav .nav-item:last-child > .nav-link:not(.language-switch) .menu-text {
   display: inline-flex;

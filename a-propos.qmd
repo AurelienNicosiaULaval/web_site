@@ -15,6 +15,7 @@ J’accorde une grande importance à la reproductibilité, à la science ouverte
 
 - Développement du [GPT-CDA](cda/index.qmd), présenté dans [ULaval Nouvelles le 22 mai 2026](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30).
 - Publication de l’article [*Beyond the next step: A multi-criteria generative validation framework for step selection functions*](https://doi.org/10.1111/2041-210X.70313) dans *Methods in Ecology and Evolution*.
+- Publication de [`DonutMap`](https://cran.r-project.org/web/packages/DonutMap/index.html) sur le CRAN en 2026, avec [page dédiée](packages/donutmap.qmd) et documentation ouverte.
 - Publication de [`ggcircular`](https://cran.r-project.org/web/packages/ggcircular/index.html) sur le CRAN en 2026, avec documentation ouverte sur [GitHub](https://github.com/AurelienNicosiaULaval/ggcircular).
 - Animation d’un atelier sur l’IA et l’enseignement à SSC 2026, avec une [galerie publique de ressources](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/).
 - Prix 2026 de la présentation par un nouveau chercheur à SSC 2026 pour une présentation sur LOO-LBFP.
@@ -33,7 +34,7 @@ J’accorde une grande importance à la reproductibilité, à la science ouverte
 ### Localisation et contact
 
 📍 Québec, QC, Canada
-🏛️ Université Laval — Département de mathématiques et de statistiques
+🏛️ Université Laval - Département de mathématiques et de statistiques
 ✉️ [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca)
 
 ---

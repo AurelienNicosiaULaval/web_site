@@ -3,7 +3,7 @@ title: "Bienvenue"
 title-block-banner: true
 ---
 
-Chargé d’enseignement en mathématiques et statistiques — Québec, Canada
+Chargé d’enseignement en mathématiques et statistiques - Québec, Canada
 Je m’intéresse à la statistique appliquée, à la reproductibilité et à l’innovation pédagogique.
 
 :::{ .mt-4}
@@ -27,10 +27,11 @@ Le 22 mai 2026, ULaval Nouvelles a consacré un article au GPT-CDA, un assistant
 :::
 
 ::: {.g-col-12 .g-col-lg-4 .news-panel}
-### ggcircular sur CRAN
-Le package R `ggcircular` est disponible sur le CRAN depuis le 4 juin 2026 en version 0.1.0. Il étend `ggplot2` aux données circulaires, axiales et directionnelles.
+### DonutMap et ggcircular sur CRAN
+Les packages R `DonutMap` et `ggcircular` sont disponibles sur le CRAN depuis juin 2026. Ils soutiennent respectivement la cartographie de diagrammes en anneau et la visualisation de données circulaires.
 
 ::: {.link-list}
+[DonutMap](packages/donutmap.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 [CRAN](https://cran.r-project.org/web/packages/ggcircular/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 [GitHub](https://github.com/AurelienNicosiaULaval/ggcircular){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 [Documentation](https://aureliennicosiaulaval.github.io/ggcircular/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
@@ -76,6 +77,8 @@ Modèles multi-états pour l’analyse du mouvement animalier.
 ### Packages R
 Ensemble de packages R développés pour la statistique appliquée.
 
+[DonutMap (CRAN)](https://cran.r-project.org/web/packages/DonutMap/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+
 [GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
 [CircularRegression](https://github.com/AurelienNicosiaULaval/CircularRegression){.btn .btn-outline-dark .rounded-pill .shadow-sm}
@@ -83,6 +86,8 @@ Ensemble de packages R développés pour la statistique appliquée.
 [ggcircular (CRAN)](https://cran.r-project.org/web/packages/ggcircular/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
 [GeneralOaxaca (CRAN)](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+
+[Voir tous les packages](packages.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 :::
 
 ::: {.g-col-12 .g-col-md-4}

@@ -1,0 +1,75 @@
+---
+title: "Packages R"
+---
+
+Cette page rassemble les packages R que je développe et maintiens, avec une attention particulière aux packages disponibles sur le CRAN et accompagnés d’une documentation ouverte.
+
+Les informations CRAN ci-dessous ont été vérifiées le 9 juin 2026.
+
+## Packages sur le CRAN
+
+::: { .grid .gap-4 }
+::: {.g-col-12 .g-col-lg-4}
+::: {.package-card}
+<div class="package-card-header">
+<img src="assets/packages/donutmap-logo.svg" class="package-card-logo" alt="Logo hexagonal DonutMap">
+<h3>DonutMap</h3>
+</div>
+
+Cartes en anneaux avec `sf`, `ggplot2` et `leaflet`. Le package permet de placer des diagrammes en anneau sur des cartes statiques ou interactives et d’ajouter des flux origine-destination.
+
+Version CRAN : 0.1.0, publiée le 8 juin 2026.
+
+::: {.link-list}
+[Page dédiée](packages/donutmap.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[CRAN](https://cran.r-project.org/web/packages/DonutMap/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[GitHub](https://github.com/AurelienNicosiaULaval/DonutMap){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[Documentation](https://aureliennicosiaulaval.github.io/DonutMap/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-lg-4}
+::: {.package-card}
+<div class="package-card-header">
+<img src="assets/packages/ggcircular-logo.svg" class="package-card-logo" alt="Logo hexagonal ggcircular">
+<h3>ggcircular</h3>
+</div>
+
+Extension `ggplot2` pour données circulaires, axiales et directionnelles : diagrammes de rose, densités circulaires, directions moyennes, arcs de confiance et visualisations de mouvement.
+
+Version CRAN : 0.1.0, publiée le 4 juin 2026.
+
+::: {.link-list}
+[CRAN](https://cran.r-project.org/web/packages/ggcircular/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[GitHub](https://github.com/AurelienNicosiaULaval/ggcircular){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[Documentation](https://aureliennicosiaulaval.github.io/ggcircular/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-lg-4}
+::: {.package-card}
+<div class="package-card-header">
+<span class="package-card-fallback">GO</span>
+<h3>GeneralOaxaca</h3>
+</div>
+
+Décomposition de Blinder-Oaxaca pour modèles linéaires généralisés, avec erreurs-types bootstrap et sorties pour décompositions en deux et trois composantes.
+
+Version CRAN : 1.0, publiée le 17 août 2015.
+
+::: {.link-list}
+[CRAN](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+:::
+:::
+
+## Projets GitHub liés
+
+Certains packages et outils sont aussi développés ou maintenus sur GitHub, même s’ils ne sont pas tous sur le CRAN au moment de cette vérification.
+
+- [GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP) : estimation de densité par General Linear Blend Frequency Polygons.
+- [CircularRegression](https://github.com/AurelienNicosiaULaval/CircularRegression) : modèles de régression pour réponses circulaires.
+- [tutorizeR](https://github.com/AurelienNicosiaULaval/tutorizeR) : conversion de matériel R Markdown ou Quarto en tutoriels interactifs.

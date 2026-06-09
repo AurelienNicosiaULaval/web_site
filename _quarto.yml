@@ -17,6 +17,8 @@ website:
         text: Enseignement
       - href: recherche.qmd
         text: Recherche
+      - href: packages.qmd
+        text: Packages R
       - href: innovation.qmd
         text: Innovation Pédagogique
       - href: ressources.qmd
@@ -31,8 +33,8 @@ website:
         href: en/index.qmd
   page-footer:
     left: |
-      © 2026 **Aurélien Nicosia** — Université Laval
-      📍 Québec, QC — ✉️ [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca)
+      © 2026 **Aurélien Nicosia** - Université Laval
+      📍 Québec, QC - ✉️ [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca)
     right: |
       [GitHub](https://github.com/AurelienNicosiaULaval) •
       [LinkedIn](https://www.linkedin.com/in/aur%C3%A9lien-nicosia-6a52487b/) •

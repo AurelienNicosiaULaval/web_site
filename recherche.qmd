@@ -51,19 +51,22 @@ Elle propose une formulation unificatrice reliant les approches comportementales
 
 ### Logiciels et diffusion
 
-- [**GLBFP**](https://github.com/AurelienNicosiaULaval/GLBFP) — Estimation de densité fondée sur les *Generalized Linear Blend Frequency Polygons*.
+- [**GLBFP**](https://github.com/AurelienNicosiaULaval/GLBFP) : estimation de densité fondée sur les *Generalized Linear Blend Frequency Polygons*.
   Méthode unificatrice des approches histogramme, ASH et LBFP, offrant une interprétation géométrique claire et une stabilité accrue.
 
-- [**CircularRegression**](https://github.com/AurelienNicosiaULaval/CircularRegression) — Régression de données circulaires et directionnelles.
+- [**CircularRegression**](https://github.com/AurelienNicosiaULaval/CircularRegression) : régression de données circulaires et directionnelles.
   Comprend des extensions avec effets aléatoires circulaires et des modèles tridimensionnels pour le mouvement dans l’espace.
 
-- [**ggcircular**](https://cran.r-project.org/web/packages/ggcircular/index.html) — Extension `ggplot2` pour données circulaires, axiales et directionnelles, disponible sur le CRAN depuis le 4 juin 2026.
+- [**ggcircular**](https://cran.r-project.org/web/packages/ggcircular/index.html) : extension `ggplot2` pour données circulaires, axiales et directionnelles, disponible sur le CRAN depuis le 4 juin 2026.
   Le package fournit des couches, échelles, résumés, diagnostics et visualisations pour angles, orientations, directions, heures de la journée et mouvements. Voir aussi le [dépôt GitHub](https://github.com/AurelienNicosiaULaval/ggcircular) et la [documentation pkgdown](https://aureliennicosiaulaval.github.io/ggcircular/).
 
-- [**site_ressources_SSD**](https://aureliennicosiaulaval.github.io/site_ressources_SSD/) — Plateforme de ressources pédagogiques francophones pour la science des données.
+- [**DonutMap**](https://cran.r-project.org/web/packages/DonutMap/index.html) : package R disponible sur le CRAN depuis le 8 juin 2026 pour créer des cartes de diagrammes en anneau avec `sf`, `ggplot2` et `leaflet`.
+  Voir aussi la [page dédiée](packages/donutmap.qmd), le [dépôt GitHub](https://github.com/AurelienNicosiaULaval/DonutMap) et la [documentation pkgdown](https://aureliennicosiaulaval.github.io/DonutMap/).
+
+- [**site_ressources_SSD**](https://aureliennicosiaulaval.github.io/site_ressources_SSD/) : plateforme de ressources pédagogiques francophones pour la science des données.
   Regroupe gabarits Quarto, tutoriels interactifs (Learnr) et exemples reproductibles pour enseignants et étudiants.
 
-- [**GeneralOaxaca**](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html) — Package R disponible sur le CRAN pour la décomposition d’écarts selon la méthode de **Blinder–Oaxaca généralisée**.
+- [**GeneralOaxaca**](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html) : package R disponible sur le CRAN pour la décomposition d’écarts selon la méthode de **Blinder–Oaxaca généralisée**.
   Il permet d’analyser les différences observées entre groupes (ex. genre, régions, secteurs) en décomposant les contributions dues aux effets de composition et aux effets de coefficients, dans des modèles linéaires et généralisés.
 
 
@@ -85,7 +88,7 @@ Elle propose une formulation unificatrice reliant les approches comportementales
    [https://doi.org/10.1111/2041-210X.70313](https://doi.org/10.1111/2041-210X.70313)
 
 2. **Nicosia, A.** (2026). *Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”.* *Journal of Data Science.*
-   [https://doi.org/10.6339/26-JDS1208H](https://doi.org/10.6339/26-JDS1208H) — [Page de l’article](https://jds-online.org/journal/JDS/article/1474/info)
+   [https://doi.org/10.6339/26-JDS1208H](https://doi.org/10.6339/26-JDS1208H) - [Page de l’article](https://jds-online.org/journal/JDS/article/1474/info)
 
 3. **Gagnon, S., Allard, M., Nicosia, A.** (2017). *Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada.* *Arctic Science.*
    [https://doi.org/10.1139/AS-2016-0045](https://doi.org/10.1139/AS-2016-0045)

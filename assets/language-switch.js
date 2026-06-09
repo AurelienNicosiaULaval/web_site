@@ -4,9 +4,10 @@
     { fr: "index.html", en: "index.html", frLabel: "Accueil", enLabel: "Home" },
     { fr: "enseignement.html", en: "enseignement.html", frLabel: "Enseignement", enLabel: "Teaching" },
     { fr: "recherche.html", en: "recherche.html", frLabel: "Recherche", enLabel: "Research" },
+    { fr: "packages.html", en: "packages.html", frLabel: "Packages R", enLabel: "R packages" },
     { fr: "innovation.html", en: "innovation.html", frLabel: "Innovation Pédagogique", enLabel: "Educational innovation" },
     { fr: "ressources.html", en: "ressources.html", frLabel: "Autres", enLabel: "Resources" },
-    { fr: "a-propos.html", en: "a-propos.html", frLabel: "A propos", enLabel: "About" },
+    { fr: "a-propos.html", en: "a-propos.html", frLabel: "À propos", enLabel: "About" },
     { fr: "cv/index.html", en: "cv/index.html", frLabel: "CV", enLabel: "CV" }
   ];
 
@@ -14,6 +15,9 @@
     "index.html",
     "enseignement.html",
     "recherche.html",
+    "packages.html",
+    "packages/donutmap.html",
+    "packages/ggcircular.html",
     "innovation.html",
     "ressources.html",
     "a-propos.html",
@@ -24,10 +28,26 @@
 
   const url = new URL(window.location.href);
   const rawPath = url.pathname;
-  const enMarker = rawPath.indexOf("/en/");
-  const siteRoot = enMarker >= 0
-    ? rawPath.slice(0, enMarker + 1)
-    : rawPath.match(/^\/[^/]+\//)?.[0] || "/";
+  const ROOT_LEVEL_PATHS = new Set([
+    "",
+    "index.html",
+    "enseignement.html",
+    "recherche.html",
+    "packages.html",
+    "innovation.html",
+    "ressources.html",
+    "a-propos.html",
+    "publications.html",
+    "en",
+    "packages",
+    "cda",
+    "cv",
+    "blog"
+  ]);
+  const firstSegment = rawPath.replace(/^\/+/, "").split("/")[0] || "";
+  const siteRoot = ROOT_LEVEL_PATHS.has(firstSegment) || firstSegment.endsWith(".html")
+    ? "/"
+    : `/${firstSegment}/`;
 
   function toSiteRelative(pathname) {
     if (!pathname.startsWith(siteRoot)) {

@@ -13,7 +13,7 @@ Mes projets s’articulent autour de trois axes :
 2. **Accompagnement et encadrement** à travers la formation d’auxiliaires et la création de ressources collaboratives.
 3. **Intégration responsable de l’intelligence artificielle** en enseignement et en soutien à la réussite.
 
-  > 🌱 L’innovation pédagogique, pour moi, consiste à rapprocher rigueur, créativité et accessibilité — pour que chaque étudiant·e puisse apprendre en explorant, expérimentant et comprenant.
+  > 🌱 L’innovation pédagogique, pour moi, consiste à rapprocher rigueur, créativité et accessibilité - pour que chaque étudiant·e puisse apprendre en explorant, expérimentant et comprenant.
 
 ## Principaux projets
 
@@ -37,7 +37,7 @@ Objectifs :
 
 
 
-### Projet GPT-CDA — Intelligence artificielle et apprentissage
+### Projet GPT-CDA - Intelligence artificielle et apprentissage
   Développement d’un **assistant conversationnel spécialisé** pour l’accompagnement en mathématiques et en statistiques.
 Objectifs :
 
@@ -120,8 +120,8 @@ tout en sensibilisant à la gestion responsable et durable des ressources numér
 #### 4. Tutoriels interactifs *learnr*
 
 **Liens :**
-- 🚴‍♂️ [Tutoriel BIXI — Analyse et visualisation de données](https://aureliennicosia.shinyapps.io/TutorielBixi/)
-- 🎨 [Tutoriel ggplot2 — Visualisation de données](https://aureliennicosia.shinyapps.io/TutorielGGplot/)
+- 🚴‍♂️ [Tutoriel BIXI - Analyse et visualisation de données](https://aureliennicosia.shinyapps.io/TutorielBixi/)
+- 🎨 [Tutoriel ggplot2 - Visualisation de données](https://aureliennicosia.shinyapps.io/TutorielGGplot/)
 
 Ces tutoriels interactifs, développés avec le package **learnr**, permettent aux étudiantes et étudiants d’apprendre les bases de la science des données en manipulant directement du code R dans un environnement guidé.
 Ils combinent explications, exercices pratiques et rétroactions automatiques, afin de favoriser l’apprentissage actif et la compréhension progressive des concepts.
@@ -163,8 +163,8 @@ Ces initiatives contribuent à bâtir une **communauté de pratique francophone*
 
 Voici des exemples de matériel sur GitHub:
 
-- [SSC 2026 — Atelier IA et enseignement](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/) : galerie publique de prompts, activités, règles d’usage de l’IA et routines de vérification réutilisables en enseignement.
-- [EIOM 2025 — Ateliers de modélisation statistique](https://github.com/AurelienNicosiaULaval/EIOM_2025) et [Site web](https://aureliennicosiaulaval.github.io/EIOM_2025/)
+- [SSC 2026 - Atelier IA et enseignement](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/) : galerie publique de prompts, activités, règles d’usage de l’IA et routines de vérification réutilisables en enseignement.
+- [EIOM 2025 - Ateliers de modélisation statistique](https://github.com/AurelienNicosiaULaval/EIOM_2025) et [Site web](https://aureliennicosiaulaval.github.io/EIOM_2025/)
 - [ASSQ 2025 - Quoi de neuf en science des données ?](https://github.com/AurelienNicosiaULaval/ASSQ_E25)
 
 

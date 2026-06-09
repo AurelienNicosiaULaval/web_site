@@ -41,6 +41,7 @@ Extension `ggplot2` pour données circulaires, axiales et directionnelles : diag
 Version CRAN : 0.1.0, publiée le 4 juin 2026.
 
 ::: {.link-list}
+[Page dédiée](packages/ggcircular.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 [CRAN](https://cran.r-project.org/web/packages/ggcircular/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 [GitHub](https://github.com/AurelienNicosiaULaval/ggcircular){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 [Documentation](https://aureliennicosiaulaval.github.io/ggcircular/){.btn .btn-outline-dark .rounded-pill .shadow-sm}

@@ -1,22 +1,35 @@
 ---
-title: "Bienvenue"
+title: "Aurélien Nicosia"
 title-block-banner: true
 ---
 
-Chargé d’enseignement en mathématiques et statistiques - Québec, Canada
-Je m’intéresse à la statistique appliquée, à la reproductibilité et à l’innovation pédagogique.
+::: {.home-hero}
+::: {.home-hero-copy}
+## Statistique appliquée, R et pédagogie ouverte
 
-:::{ .mt-4}
-[🎓 Enseignement](enseignement.qmd){.btn .btn-outline-danger .rounded-pill .btn-lg .fw-bold}
-[📊 Recherche](recherche.qmd){.btn .btn-outline-dark .rounded-pill .btn-lg .fw-bold}
-[💡 Innovation pédagogique](innovation.qmd){.btn .btn-outline-warning .rounded-pill .btn-lg .fw-bold}
+Chargé d’enseignement en mathématiques et statistiques à l’Université Laval, à Québec. Je développe des ressources, des packages R et des méthodes statistiques pour relier analyse rigoureuse, visualisation et apprentissage actif.
+
+::: {.hero-actions}
+[Enseignement](enseignement.qmd){.btn .btn-outline-danger .rounded-pill .btn-lg .fw-bold}
+[Recherche](recherche.qmd){.btn .btn-outline-dark .rounded-pill .btn-lg .fw-bold}
+[Packages R](packages.qmd){.btn .btn-outline-dark .rounded-pill .btn-lg .fw-bold}
+[Innovation pédagogique](innovation.qmd){.btn .btn-outline-warning .rounded-pill .btn-lg .fw-bold}
+:::
+:::
+
+::: {.home-hero-visual}
+::: {.home-hero-thumbs}
+![Logo DonutMap](assets/packages/donutmap-logo.svg)
+![Exemple ggcircular](assets/packages/ggcircular-example.png)
+:::
+:::
 :::
 
 
 ## Nouveautés 2026
 
-::: { .grid .gap-4 }
-::: {.g-col-12 .g-col-lg-4 .news-panel}
+::: {.news-grid}
+::: {.news-panel}
 ### GPT-CDA dans ULaval Nouvelles
 Le 22 mai 2026, ULaval Nouvelles a consacré un article au GPT-CDA, un assistant conversationnel conçu pour soutenir l’apprentissage en mathématiques et en statistique au CDA.
 
@@ -26,19 +39,18 @@ Le 22 mai 2026, ULaval Nouvelles a consacré un article au GPT-CDA, un assistant
 :::
 :::
 
-::: {.g-col-12 .g-col-lg-4 .news-panel}
+::: {.news-panel}
 ### DonutMap et ggcircular sur CRAN
 Les packages R `DonutMap` et `ggcircular` sont disponibles sur le CRAN depuis juin 2026. Ils soutiennent respectivement la cartographie de diagrammes en anneau et la visualisation de données circulaires.
 
 ::: {.link-list}
 [DonutMap](packages/donutmap.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[CRAN](https://cran.r-project.org/web/packages/ggcircular/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[GitHub](https://github.com/AurelienNicosiaULaval/ggcircular){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[Documentation](https://aureliennicosiaulaval.github.io/ggcircular/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[ggcircular](packages/ggcircular.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[Tous les packages](packages.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 :::
 :::
 
-::: {.g-col-12 .g-col-lg-4 .news-panel}
+::: {.news-panel}
 ### SSC 2026
 J’ai animé un atelier sur l’IA et l’enseignement, contribué à une galerie publique de ressources pédagogiques, présenté des travaux sur LOO-LBFP, et reçu le prix 2026 de la présentation par un nouveau chercheur.
 
@@ -48,7 +60,7 @@ J’ai animé un atelier sur l’IA et l’enseignement, contribué à une galer
 :::
 :::
 
-::: {.g-col-12 .g-col-lg-4 .news-panel}
+::: {.news-panel}
 ### Publications en mouvement animal
 Un nouvel article est publié dans *Methods in Ecology and Evolution* et une prépublication bioRxiv porte sur l’inférence des états comportementaux à partir de fonctions de sélection de pas markoviennes.
 
@@ -63,8 +75,8 @@ Un nouvel article est publié dans *Methods in Ecology and Evolution* et une pr�
 
 ## À l’affiche
 
-::: { .grid .gap-4 }
-::: {.g-col-12 .g-col-md-4}
+::: {.feature-grid}
+::: {.feature-panel}
 ### Thèse de doctorat
 Modèles multi-états pour l’analyse du mouvement animalier.
 
@@ -73,24 +85,24 @@ Modèles multi-états pour l’analyse du mouvement animalier.
 [Code et matériel](https://github.com/AurelienNicosiaULaval/multi-state-model-animal-movement){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 :::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.feature-panel}
 ### Packages R
 Ensemble de packages R développés pour la statistique appliquée.
 
-[DonutMap (CRAN)](https://cran.r-project.org/web/packages/DonutMap/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[DonutMap](packages/donutmap.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
 [GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
 [CircularRegression](https://github.com/AurelienNicosiaULaval/CircularRegression){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
-[ggcircular (CRAN)](https://cran.r-project.org/web/packages/ggcircular/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[ggcircular](packages/ggcircular.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
 [GeneralOaxaca (CRAN)](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
 [Voir tous les packages](packages.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 :::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.feature-panel}
 ### Ressources ouvertes
 Plateforme de ressources, tutoriels et outils pédagogiques.
 

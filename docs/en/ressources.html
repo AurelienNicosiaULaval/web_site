@@ -77,9 +77,10 @@ ul.task-list li input[type="checkbox"] {
     { fr: "index.html", en: "index.html", frLabel: "Accueil", enLabel: "Home" },
     { fr: "enseignement.html", en: "enseignement.html", frLabel: "Enseignement", enLabel: "Teaching" },
     { fr: "recherche.html", en: "recherche.html", frLabel: "Recherche", enLabel: "Research" },
+    { fr: "packages.html", en: "packages.html", frLabel: "Packages R", enLabel: "R packages" },
     { fr: "innovation.html", en: "innovation.html", frLabel: "Innovation Pédagogique", enLabel: "Educational innovation" },
     { fr: "ressources.html", en: "ressources.html", frLabel: "Autres", enLabel: "Resources" },
-    { fr: "a-propos.html", en: "a-propos.html", frLabel: "A propos", enLabel: "About" },
+    { fr: "a-propos.html", en: "a-propos.html", frLabel: "À propos", enLabel: "About" },
     { fr: "cv/index.html", en: "cv/index.html", frLabel: "CV", enLabel: "CV" }
   ];
 
@@ -87,6 +88,9 @@ ul.task-list li input[type="checkbox"] {
     "index.html",
     "enseignement.html",
     "recherche.html",
+    "packages.html",
+    "packages/donutmap.html",
+    "packages/ggcircular.html",
     "innovation.html",
     "ressources.html",
     "a-propos.html",
@@ -97,10 +101,26 @@ ul.task-list li input[type="checkbox"] {
 
   const url = new URL(window.location.href);
   const rawPath = url.pathname;
-  const enMarker = rawPath.indexOf("/en/");
-  const siteRoot = enMarker >= 0
-    ? rawPath.slice(0, enMarker + 1)
-    : rawPath.match(/^\/[^/]+\//)?.[0] || "/";
+  const ROOT_LEVEL_PATHS = new Set([
+    "",
+    "index.html",
+    "enseignement.html",
+    "recherche.html",
+    "packages.html",
+    "innovation.html",
+    "ressources.html",
+    "a-propos.html",
+    "publications.html",
+    "en",
+    "packages",
+    "cda",
+    "cv",
+    "blog"
+  ]);
+  const firstSegment = rawPath.replace(/^\/+/, "").split("/")[0] || "";
+  const siteRoot = ROOT_LEVEL_PATHS.has(firstSegment) || firstSegment.endsWith(".html")
+    ? "/"
+    : `/${firstSegment}/`;
 
   function toSiteRelative(pathname) {
     if (!pathname.startsWith(siteRoot)) {
@@ -340,32 +360,24 @@ window.Quarto = {
 
 <section id="interests-and-explorations" class="level2">
 <h2 class="anchored" data-anchor-id="interests-and-explorations">Interests and explorations</h2>
-<p>Beyond research and teaching, several areas feed my curiosity and projects.<br>
-I enjoy exploring the boundaries between mathematics, art, data, and digital creativity.</p>
+<p>Beyond research and teaching, several areas feed my curiosity and projects. I enjoy exploring the boundaries between mathematics, art, data, and digital creativity.</p>
 <section id="mathematics-art-and-visualization" class="level3">
 <h3 class="anchored" data-anchor-id="mathematics-art-and-visualization">Mathematics, art, and visualization</h3>
-<p>I am interested in mathematical beauty in all its forms — whether an elegant equation, a well-designed visualization, or a random-generated motif.<br>
-This curiosity has led me to projects at the boundary between art and data science, such as:</p>
+<p>I am interested in mathematical beauty in all its forms - whether an elegant equation, a well-designed visualization, or a random-generated motif. This curiosity has led me to projects at the boundary between art and data science, such as:</p>
 <ul>
-<li>🎨 <em>Digital drawing with R</em>: exploring textures and generative patterns from probability laws.<br>
-</li>
-<li>📐 <em>Mathematical recipes</em>: a writing project where each mathematical concept is presented as a “recipe,” blending rigor and poetry.<br>
-📘 <a href="../Example Recipes.pdf">View a sample of two mathematical recipes (PDF)</a> on Euler’s identity (<span class="math inline">\(e^{i\pi}+1 = 0\)</span>) and the Fibonacci sequence</li>
+<li>🎨 <em>Digital drawing with R</em>: exploring textures and generative patterns from probability laws.</li>
+<li>📐 <em>Mathematical recipes</em>: a writing project where each mathematical concept is presented as a “recipe,” blending rigor and poetry. 📘 <a href="../Example Recipes.pdf">View a sample of two mathematical recipes (PDF)</a> on Euler’s identity (<span class="math inline">\(e^{i\pi}+1 = 0\)</span>) and the Fibonacci sequence</li>
 </ul>
 </section>
 <section id="writing-and-outreach" class="level3">
 <h3 class="anchored" data-anchor-id="writing-and-outreach">Writing and outreach</h3>
-<p>I like to make mathematics <strong>accessible, alive, and inspiring</strong>.<br>
-My writing projects often combine storytelling, visual clarity, and conceptual rigor.<br>
-I am currently working on:</p>
+<p>I like to make mathematics <strong>accessible, alive, and inspiring</strong>. My writing projects often combine storytelling, visual clarity, and conceptual rigor. I am currently working on:</p>
 <ul>
-<li><p><em>Data Kitchen</em> — a learning platform inspired by the culinary world</p></li>
-<li><p><em>Mathematical Recipes</em> — an illustrated book to discover the beauty of theorems through short, visual “recipes”</p></li>
+<li><p><em>Data Kitchen</em> - a learning platform inspired by the culinary world</p></li>
+<li><p><em>Mathematical Recipes</em> - an illustrated book to discover the beauty of theorems through short, visual “recipes”</p></li>
 </ul>
 <blockquote class="blockquote">
-<p>🌱 My path is guided by a simple idea:<br>
-<strong>bringing scientific rigor and human creativity together</strong>,<br>
-so mathematics and data science become spaces for discovery, art, and communication.</p>
+<p>🌱 My path is guided by a simple idea: <strong>bringing scientific rigor and human creativity together</strong>, so mathematics and data science become spaces for discovery, art, and communication.</p>
 </blockquote>
 
 

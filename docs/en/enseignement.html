@@ -77,9 +77,10 @@ ul.task-list li input[type="checkbox"] {
     { fr: "index.html", en: "index.html", frLabel: "Accueil", enLabel: "Home" },
     { fr: "enseignement.html", en: "enseignement.html", frLabel: "Enseignement", enLabel: "Teaching" },
     { fr: "recherche.html", en: "recherche.html", frLabel: "Recherche", enLabel: "Research" },
+    { fr: "packages.html", en: "packages.html", frLabel: "Packages R", enLabel: "R packages" },
     { fr: "innovation.html", en: "innovation.html", frLabel: "Innovation Pédagogique", enLabel: "Educational innovation" },
     { fr: "ressources.html", en: "ressources.html", frLabel: "Autres", enLabel: "Resources" },
-    { fr: "a-propos.html", en: "a-propos.html", frLabel: "A propos", enLabel: "About" },
+    { fr: "a-propos.html", en: "a-propos.html", frLabel: "À propos", enLabel: "About" },
     { fr: "cv/index.html", en: "cv/index.html", frLabel: "CV", enLabel: "CV" }
   ];
 
@@ -87,6 +88,9 @@ ul.task-list li input[type="checkbox"] {
     "index.html",
     "enseignement.html",
     "recherche.html",
+    "packages.html",
+    "packages/donutmap.html",
+    "packages/ggcircular.html",
     "innovation.html",
     "ressources.html",
     "a-propos.html",
@@ -97,10 +101,26 @@ ul.task-list li input[type="checkbox"] {
 
   const url = new URL(window.location.href);
   const rawPath = url.pathname;
-  const enMarker = rawPath.indexOf("/en/");
-  const siteRoot = enMarker >= 0
-    ? rawPath.slice(0, enMarker + 1)
-    : rawPath.match(/^\/[^/]+\//)?.[0] || "/";
+  const ROOT_LEVEL_PATHS = new Set([
+    "",
+    "index.html",
+    "enseignement.html",
+    "recherche.html",
+    "packages.html",
+    "innovation.html",
+    "ressources.html",
+    "a-propos.html",
+    "publications.html",
+    "en",
+    "packages",
+    "cda",
+    "cv",
+    "blog"
+  ]);
+  const firstSegment = rawPath.replace(/^\/+/, "").split("/")[0] || "";
+  const siteRoot = ROOT_LEVEL_PATHS.has(firstSegment) || firstSegment.endsWith(".html")
+    ? "/"
+    : `/${firstSegment}/`;
 
   function toSiteRelative(pathname) {
     if (!pathname.startsWith(siteRoot)) {
@@ -282,7 +302,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#teaching-philosophy" id="toc-teaching-philosophy" class="nav-link active" data-scroll-target="#teaching-philosophy">Teaching philosophy</a></li>
   <li><a href="#courses-taught" id="toc-courses-taught" class="nav-link" data-scroll-target="#courses-taught">Courses taught</a>
   <ul class="collapse">
-  <li><a href="#université-laval-department-of-mathematics-and-statistics" id="toc-université-laval-department-of-mathematics-and-statistics" class="nav-link" data-scroll-target="#université-laval-department-of-mathematics-and-statistics">Université Laval — Department of Mathematics and Statistics</a></li>
+  <li><a href="#université-laval---department-of-mathematics-and-statistics" id="toc-université-laval---department-of-mathematics-and-statistics" class="nav-link" data-scroll-target="#université-laval---department-of-mathematics-and-statistics">Université Laval - Department of Mathematics and Statistics</a></li>
   <li><a href="#université-du-québec-à-chicoutimi-uqac" id="toc-université-du-québec-à-chicoutimi-uqac" class="nav-link" data-scroll-target="#université-du-québec-à-chicoutimi-uqac">Université du Québec à Chicoutimi (UQAC)</a></li>
   </ul></li>
   <li><a href="#teaching-recognition" id="toc-teaching-recognition" class="nav-link" data-scroll-target="#teaching-recognition">Teaching recognition</a></li>
@@ -324,34 +344,34 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="courses-taught" class="level2">
 <h2 class="anchored" data-anchor-id="courses-taught">Courses taught</h2>
-<section id="université-laval-department-of-mathematics-and-statistics" class="level3">
-<h3 class="anchored" data-anchor-id="université-laval-department-of-mathematics-and-statistics">Université Laval — Department of Mathematics and Statistics</h3>
-<section id="stt-1100-introduction-to-data-science" class="level4">
-<h4 class="anchored" data-anchor-id="stt-1100-introduction-to-data-science">STT-1100 — Introduction to Data Science</h4>
+<section id="université-laval---department-of-mathematics-and-statistics" class="level3">
+<h3 class="anchored" data-anchor-id="université-laval---department-of-mathematics-and-statistics">Université Laval - Department of Mathematics and Statistics</h3>
+<section id="stt-1100---introduction-to-data-science" class="level4">
+<h4 class="anchored" data-anchor-id="stt-1100---introduction-to-data-science">STT-1100 - Introduction to Data Science</h4>
 <p>This introductory course focuses on <strong>professional situations</strong> where students assume a data science role. Learning goals: master the full analysis pipeline, from data import to communication of results. <strong>Tools:</strong> R, tidyverse, Quarto, GitHub. <strong>Course notes:</strong> <a href="https://aureliennicosiaulaval.github.io/STT-1100_notes_de_cours/">STT-1100_notes_de_cours</a> <strong>Philosophy:</strong> active learning, francophone case studies, ethical reflection on data.</p>
 <p><strong>STT-1100 GPT</strong>: <a href="https://chatgpt.com/g/g-682d165f32e881918633affa3fe9dfd6-stt-1100">course-specific conversational assistant</a>, to support student learning.</p>
 </section>
-<section id="stt-4230-r-for-scientists" class="level4">
-<h4 class="anchored" data-anchor-id="stt-4230-r-for-scientists">STT-4230 — R for scientists</h4>
+<section id="stt-4230---r-for-scientists" class="level4">
+<h4 class="anchored" data-anchor-id="stt-4230---r-for-scientists">STT-4230 - R for scientists</h4>
 <p>Course focused on <strong>good development practices</strong>: project structure, documentation, and collaboration through GitHub. <strong>Tools:</strong> R, Quarto, GitHub, testthat. <strong>Resource:</strong> <a href="https://stt4230.rbind.io/">Course notes</a> from Sophie Baillargeon. <strong>Philosophy:</strong> clarity, reproducibility, and integration of modern tools. <strong>STT-4230 GPT</strong>: <a href="https://chatgpt.com/g/g-689dc0b2bb348191b77cd4609dfce184-r-pour-scientifiques">course-specific conversational assistant</a>, to support student learning. <strong>UlavalSSD:</strong> <a href="https://aureliennicosiaulaval.github.io/UlavalSSD/">UlavalSSD R package</a>, featuring practical utilities for data science at Université Laval.</p>
 </section>
-<section id="stt-2200-data-analysis" class="level4">
-<h4 class="anchored" data-anchor-id="stt-2200-data-analysis">STT-2200 — Data Analysis</h4>
+<section id="stt-2200---data-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="stt-2200---data-analysis">STT-2200 - Data Analysis</h4>
 <p>An <strong>applied statistics</strong> course where students work from real datasets and produce reproducible reports. <strong>Tools:</strong> R, ggplot2, dplyr, RMarkdown. <strong>Philosophy:</strong> interpretation before automation, clear communication of results.</p>
 </section>
 </section>
 <section id="université-du-québec-à-chicoutimi-uqac" class="level3">
 <h3 class="anchored" data-anchor-id="université-du-québec-à-chicoutimi-uqac">Université du Québec à Chicoutimi (UQAC)</h3>
-<section id="inf404-introduction-to-data-science-and-business-intelligence" class="level4">
-<h4 class="anchored" data-anchor-id="inf404-introduction-to-data-science-and-business-intelligence">8INF404 — Introduction to Data Science and Business Intelligence</h4>
+<section id="inf404---introduction-to-data-science-and-business-intelligence" class="level4">
+<h4 class="anchored" data-anchor-id="inf404---introduction-to-data-science-and-business-intelligence">8INF404 - Introduction to Data Science and Business Intelligence</h4>
 <p>An interdisciplinary course introducing the full data science project cycle: preparation, exploration, and predictive modeling. <strong>Tools:</strong> R, shiny, Quarto. <strong>Philosophy:</strong> connect technical work to decision-making, with an emphasis on communication.</p>
 </section>
-<section id="inf416-visualization-and-interface" class="level4">
-<h4 class="anchored" data-anchor-id="inf416-visualization-and-interface">8INF416 — Visualization and Interface</h4>
+<section id="inf416---visualization-and-interface" class="level4">
+<h4 class="anchored" data-anchor-id="inf416---visualization-and-interface">8INF416 - Visualization and Interface</h4>
 <p>Course devoted to <strong>interactive visualization and scientific communication</strong>. <strong>Tools:</strong> R (Shiny), ggplot2. <strong>Philosophy:</strong> visual clarity, accessibility, and rigor in graphical messaging.</p>
 </section>
-<section id="stt108-statistical-methods-for-big-data" class="level4">
-<h4 class="anchored" data-anchor-id="stt108-statistical-methods-for-big-data">8STT108 — Statistical Methods for Big Data</h4>
+<section id="stt108---statistical-methods-for-big-data" class="level4">
+<h4 class="anchored" data-anchor-id="stt108---statistical-methods-for-big-data">8STT108 - Statistical Methods for Big Data</h4>
 <p>Introduction to statistical methods applied to large datasets (big data). <strong>Tools:</strong> R, tidyverse, parallel computing. <strong>Philosophy:</strong> emphasize model logic before automation.</p>
 </section>
 </section>

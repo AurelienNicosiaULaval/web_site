@@ -164,5 +164,5 @@ These initiatives help build a **francophone community of practice** around data
 Here are examples of material on GitHub:
 
 - [SSC 2026, AI and teaching workshop](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/): public gallery of prompts, teaching activities, AI-use rules, and reusable verification routines.
-- [EIOM 2025 — Statistical modeling workshops](https://github.com/AurelienNicosiaULaval/EIOM_2025) and [Website](https://aureliennicosiaulaval.github.io/EIOM_2025/)
+- [EIOM 2025 - Statistical modeling workshops](https://github.com/AurelienNicosiaULaval/EIOM_2025) and [Website](https://aureliennicosiaulaval.github.io/EIOM_2025/)
 - [ASSQ 2025 - What's new in data science?](https://github.com/AurelienNicosiaULaval/ASSQ_E25)

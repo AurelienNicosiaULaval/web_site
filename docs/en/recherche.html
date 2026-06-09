@@ -77,9 +77,10 @@ ul.task-list li input[type="checkbox"] {
     { fr: "index.html", en: "index.html", frLabel: "Accueil", enLabel: "Home" },
     { fr: "enseignement.html", en: "enseignement.html", frLabel: "Enseignement", enLabel: "Teaching" },
     { fr: "recherche.html", en: "recherche.html", frLabel: "Recherche", enLabel: "Research" },
+    { fr: "packages.html", en: "packages.html", frLabel: "Packages R", enLabel: "R packages" },
     { fr: "innovation.html", en: "innovation.html", frLabel: "Innovation Pédagogique", enLabel: "Educational innovation" },
     { fr: "ressources.html", en: "ressources.html", frLabel: "Autres", enLabel: "Resources" },
-    { fr: "a-propos.html", en: "a-propos.html", frLabel: "A propos", enLabel: "About" },
+    { fr: "a-propos.html", en: "a-propos.html", frLabel: "À propos", enLabel: "About" },
     { fr: "cv/index.html", en: "cv/index.html", frLabel: "CV", enLabel: "CV" }
   ];
 
@@ -87,6 +88,9 @@ ul.task-list li input[type="checkbox"] {
     "index.html",
     "enseignement.html",
     "recherche.html",
+    "packages.html",
+    "packages/donutmap.html",
+    "packages/ggcircular.html",
     "innovation.html",
     "ressources.html",
     "a-propos.html",
@@ -97,10 +101,26 @@ ul.task-list li input[type="checkbox"] {
 
   const url = new URL(window.location.href);
   const rawPath = url.pathname;
-  const enMarker = rawPath.indexOf("/en/");
-  const siteRoot = enMarker >= 0
-    ? rawPath.slice(0, enMarker + 1)
-    : rawPath.match(/^\/[^/]+\//)?.[0] || "/";
+  const ROOT_LEVEL_PATHS = new Set([
+    "",
+    "index.html",
+    "enseignement.html",
+    "recherche.html",
+    "packages.html",
+    "innovation.html",
+    "ressources.html",
+    "a-propos.html",
+    "publications.html",
+    "en",
+    "packages",
+    "cda",
+    "cv",
+    "blog"
+  ]);
+  const firstSegment = rawPath.replace(/^\/+/, "").split("/")[0] || "";
+  const siteRoot = ROOT_LEVEL_PATHS.has(firstSegment) || firstSegment.endsWith(".html")
+    ? "/"
+    : `/${firstSegment}/`;
 
   function toSiteRelative(pathname) {
     if (!pathname.startsWith(siteRoot)) {
@@ -358,7 +378,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p><a href="https://github.com/AurelienNicosiaULaval/GLBFP"><strong>GLBFP</strong></a>: density estimation based on <em>Generalized Linear Blend Frequency Polygons</em>. A unifying method for histogram, ASH, and LBFP approaches, offering clear geometric interpretation and improved stability.</p></li>
 <li><p><a href="https://github.com/AurelienNicosiaULaval/CircularRegression"><strong>CircularRegression</strong></a>: regression for circular and directional data. Includes extensions with random circular effects and three-dimensional models for movement in space.</p></li>
-<li><p><a href="https://cran.r-project.org/web/packages/ggcircular/index.html"><strong>ggcircular</strong></a>: a <code>ggplot2</code> extension for circular, axial, and directional data, available on CRAN since June 4, 2026. The package provides layers, scales, summaries, diagnostics, and visualizations for angles, orientations, directions, times of day, and movement data. See also the <a href="https://github.com/AurelienNicosiaULaval/ggcircular">GitHub repository</a> and the <a href="https://aureliennicosiaulaval.github.io/ggcircular/">pkgdown documentation</a>.</p></li>
+<li><p><a href="../en/packages/ggcircular.html"><strong>ggcircular</strong></a>: a <code>ggplot2</code> extension for circular, axial, and directional data, available on CRAN since June 4, 2026. The package provides layers, scales, summaries, diagnostics, and visualizations for angles, orientations, directions, times of day, and movement data. See also <a href="https://cran.r-project.org/web/packages/ggcircular/index.html">CRAN</a>, the <a href="https://github.com/AurelienNicosiaULaval/ggcircular">GitHub repository</a>, and the <a href="https://aureliennicosiaulaval.github.io/ggcircular/">pkgdown documentation</a>.</p></li>
 <li><p><a href="https://cran.r-project.org/web/packages/DonutMap/index.html"><strong>DonutMap</strong></a>: R package available on CRAN since June 8, 2026, for creating donut maps with <code>sf</code>, <code>ggplot2</code>, and <code>leaflet</code>. See also the <a href="../en/packages/donutmap.html">dedicated page</a>, the <a href="https://github.com/AurelienNicosiaULaval/DonutMap">GitHub repository</a>, and the <a href="https://aureliennicosiaulaval.github.io/DonutMap/">pkgdown documentation</a>.</p></li>
 <li><p><a href="https://aureliennicosiaulaval.github.io/site_ressources_SSD/"><strong>site_ressources_SSD</strong></a>: Francophone educational resources platform for data science. Includes Quarto templates, interactive tutorials (Learnr), and reproducible examples for instructors and students.</p></li>
 <li><p><a href="https://cran.r-project.org/web/packages/GeneralOaxaca/index.html"><strong>GeneralOaxaca</strong></a>: R package available on CRAN for decomposition of gaps using the <strong>generalized Blinder-Oaxaca</strong> approach. It supports analysis of observed differences between groups (e.g., gender, regions, sectors) by decomposing contributions from composition effects and coefficient effects in linear and generalized models.</p></li>

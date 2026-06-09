@@ -11,7 +11,7 @@ Cette page regroupe des mentions publiques, articles, vidéos, compétitions et 
 
 ## Vidéos
 
-### Cogito 2016 — *Habitudes animales et formation des nuages*
+### Cogito 2016 - *Habitudes animales et formation des nuages*
 
 <div style="aspect-ratio:16/9;">
   <iframe width="100%" height="100%" src="https://www.youtube.com/embed/k96TG-NBua4" title="Cogito 2016 - Émission 1" frameborder="0" allowfullscreen></iframe>
@@ -26,7 +26,7 @@ _Source :_ Série Cogito (Canal Savoir / AELIÉS, 2016).
 </div>
 
 
-### SAS Global Forum 2016 — Student Symposium
+### SAS Global Forum 2016 - Student Symposium
 
 Récapitulatif officiel (SAS Blog) avec ressources et vidéos d’archives.
 → <https://www.fsg.ulaval.ca/faculte/actualites/mm-nicosia-et-perreault-grands-vainqueurs-du-symposium-etudiant-du-sas-global-forum-2016-1812>
@@ -35,31 +35,31 @@ Récapitulatif officiel (SAS Blog) avec ressources et vidéos d’archives.
 
 ## Presse & nouvelles (sélection)
 
-- **ULaval Nouvelles** — *Le GPT-CDA, un robot conversationnel qui épaule les étudiantes et étudiants dans les cours de mathématiques et de statistique* (22 mai 2026).
+- **ULaval Nouvelles** - *Le GPT-CDA, un robot conversationnel qui épaule les étudiantes et étudiants dans les cours de mathématiques et de statistique* (22 mai 2026).
   Article : <https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30>
 
-- **SSC 2026** — Prix 2026 de la présentation par un nouveau chercheur pour une présentation sur LOO-LBFP.
+- **SSC 2026** - Prix 2026 de la présentation par un nouveau chercheur pour une présentation sur LOO-LBFP.
   Présentation : <https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf>
 
-- **MT180 (Faculté des sciences et de génie, Université Laval)** — *Coup de cœur du jury* (7 mars 2016).
+- **MT180 (Faculté des sciences et de génie, Université Laval)** - *Coup de cœur du jury* (7 mars 2016).
 
-- **ActuLab (U. Laval — Actuariat)** — Affiche de l’événement (2016), incluant la présentation _« Pouvez-vous prévoir mon pointage au golf ? »_.
+- **ActuLab (U. Laval - Actuariat)** - Affiche de l’événement (2016), incluant la présentation _« Pouvez-vous prévoir mon pointage au golf ? »_.
 
 ---
 
 ## Compétitions
 
-- **SAS Global Forum — Student Symposium (2016)**
+- **SAS Global Forum - Student Symposium (2016)**
   Récapitulatif des _Proceedings_ SAS GF 2016, programme et papiers.
 
-- **ActuLab (2015)** — _« Pouvez-vous prévoir mon pointage au golf ? »_ (problème gagnant).
+- **ActuLab (2015)** - _« Pouvez-vous prévoir mon pointage au golf ? »_ (problème gagnant).
   Billet explicatif WordPress : « Comment prédire votre score au golf comme un pro ? ».
 
 ---
 
 ## Communauté & concours
 
-### Shiny App Store — Shiny Contest (Posit Community, 2021)
+### Shiny App Store - Shiny Contest (Posit Community, 2021)
 
 Prototype d’« App Store » pour applications Shiny, co-développé par **Penelope Ferron** et **Aurélien Nicosia** (12 mai 2021).
 → Discussion (Posit Community) : <https://forum.posit.co/t/shiny-app-store-shiny-contest-submission/104579>
@@ -68,7 +68,7 @@ Prototype d’« App Store » pour applications Shiny, co-développé par **Pene
 
 ## Blog & site personnel
 
-- **WordPress (blog / portfolio)** — Billets sur SAS GF, Cogito, applications Shiny, publications, etc.
+- **WordPress (blog / portfolio)** - Billets sur SAS GF, Cogito, applications Shiny, publications, etc.
   Page d’accueil : <https://aureliennicosia.wordpress.com/>
   Page Shiny (démonstration liée au Student Symposium) : <https://aureliennicosia.wordpress.com/shiny-app/>
   Billet : « Comment prédire votre score au golf comme un pro ? » (ActuLab, 2015).
@@ -77,10 +77,10 @@ Prototype d’« App Store » pour applications Shiny, co-développé par **Pene
 
 ## Présence professionnelle
 
-- **ResearchGate** — Profil public (publications, lectures, citations).
+- **ResearchGate** - Profil public (publications, lectures, citations).
   <https://www.researchgate.net/profile/Aurelien-Nicosia-2>
 
-  ## EIOM — École interdisciplinaire outils & méthodes (mention LinkedIn)
+  ## EIOM - École interdisciplinaire outils & méthodes (mention LinkedIn)
 
-- **EIOM (U. Laval)** — Publication LinkedIn (5e édition, 2025).
+- **EIOM (U. Laval)** - Publication LinkedIn (5e édition, 2025).
   Lien : <https://www.linkedin.com/posts/eiomulaval_jour-2-de-leiom-2025-5e-%C3%A9dition-activity-7366140743142240256-d4O_>

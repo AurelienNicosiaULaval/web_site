@@ -77,9 +77,10 @@ ul.task-list li input[type="checkbox"] {
     { fr: "index.html", en: "index.html", frLabel: "Accueil", enLabel: "Home" },
     { fr: "enseignement.html", en: "enseignement.html", frLabel: "Enseignement", enLabel: "Teaching" },
     { fr: "recherche.html", en: "recherche.html", frLabel: "Recherche", enLabel: "Research" },
+    { fr: "packages.html", en: "packages.html", frLabel: "Packages R", enLabel: "R packages" },
     { fr: "innovation.html", en: "innovation.html", frLabel: "Innovation Pédagogique", enLabel: "Educational innovation" },
     { fr: "ressources.html", en: "ressources.html", frLabel: "Autres", enLabel: "Resources" },
-    { fr: "a-propos.html", en: "a-propos.html", frLabel: "A propos", enLabel: "About" },
+    { fr: "a-propos.html", en: "a-propos.html", frLabel: "À propos", enLabel: "About" },
     { fr: "cv/index.html", en: "cv/index.html", frLabel: "CV", enLabel: "CV" }
   ];
 
@@ -87,6 +88,9 @@ ul.task-list li input[type="checkbox"] {
     "index.html",
     "enseignement.html",
     "recherche.html",
+    "packages.html",
+    "packages/donutmap.html",
+    "packages/ggcircular.html",
     "innovation.html",
     "ressources.html",
     "a-propos.html",
@@ -97,10 +101,26 @@ ul.task-list li input[type="checkbox"] {
 
   const url = new URL(window.location.href);
   const rawPath = url.pathname;
-  const enMarker = rawPath.indexOf("/en/");
-  const siteRoot = enMarker >= 0
-    ? rawPath.slice(0, enMarker + 1)
-    : rawPath.match(/^\/[^/]+\//)?.[0] || "/";
+  const ROOT_LEVEL_PATHS = new Set([
+    "",
+    "index.html",
+    "enseignement.html",
+    "recherche.html",
+    "packages.html",
+    "innovation.html",
+    "ressources.html",
+    "a-propos.html",
+    "publications.html",
+    "en",
+    "packages",
+    "cda",
+    "cv",
+    "blog"
+  ]);
+  const firstSegment = rawPath.replace(/^\/+/, "").split("/")[0] || "";
+  const siteRoot = ROOT_LEVEL_PATHS.has(firstSegment) || firstSegment.endsWith(".html")
+    ? "/"
+    : `/${firstSegment}/`;
 
   function toSiteRelative(pathname) {
     if (!pathname.startsWith(siteRoot)) {
@@ -282,15 +302,15 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#aperçu" id="toc-aperçu" class="nav-link active" data-scroll-target="#aperçu">Aperçu</a></li>
   <li><a href="#vidéos" id="toc-vidéos" class="nav-link" data-scroll-target="#vidéos">Vidéos</a>
   <ul class="collapse">
-  <li><a href="#cogito-2016-habitudes-animales-et-formation-des-nuages" id="toc-cogito-2016-habitudes-animales-et-formation-des-nuages" class="nav-link" data-scroll-target="#cogito-2016-habitudes-animales-et-formation-des-nuages">Cogito 2016 — <em>Habitudes animales et formation des nuages</em></a></li>
+  <li><a href="#cogito-2016---habitudes-animales-et-formation-des-nuages" id="toc-cogito-2016---habitudes-animales-et-formation-des-nuages" class="nav-link" data-scroll-target="#cogito-2016---habitudes-animales-et-formation-des-nuages">Cogito 2016 - <em>Habitudes animales et formation des nuages</em></a></li>
   <li><a href="#présentation-de-lespace-innovation-co-operators" id="toc-présentation-de-lespace-innovation-co-operators" class="nav-link" data-scroll-target="#présentation-de-lespace-innovation-co-operators">Présentation de l’espace Innovation Co-operators</a></li>
-  <li><a href="#sas-global-forum-2016-student-symposium" id="toc-sas-global-forum-2016-student-symposium" class="nav-link" data-scroll-target="#sas-global-forum-2016-student-symposium">SAS Global Forum 2016 — Student Symposium</a></li>
+  <li><a href="#sas-global-forum-2016---student-symposium" id="toc-sas-global-forum-2016---student-symposium" class="nav-link" data-scroll-target="#sas-global-forum-2016---student-symposium">SAS Global Forum 2016 - Student Symposium</a></li>
   </ul></li>
   <li><a href="#presse-nouvelles-sélection" id="toc-presse-nouvelles-sélection" class="nav-link" data-scroll-target="#presse-nouvelles-sélection">Presse &amp; nouvelles (sélection)</a></li>
   <li><a href="#compétitions" id="toc-compétitions" class="nav-link" data-scroll-target="#compétitions">Compétitions</a></li>
   <li><a href="#communauté-concours" id="toc-communauté-concours" class="nav-link" data-scroll-target="#communauté-concours">Communauté &amp; concours</a>
   <ul class="collapse">
-  <li><a href="#shiny-app-store-shiny-contest-posit-community-2021" id="toc-shiny-app-store-shiny-contest-posit-community-2021" class="nav-link" data-scroll-target="#shiny-app-store-shiny-contest-posit-community-2021">Shiny App Store — Shiny Contest (Posit Community, 2021)</a></li>
+  <li><a href="#shiny-app-store---shiny-contest-posit-community-2021" id="toc-shiny-app-store---shiny-contest-posit-community-2021" class="nav-link" data-scroll-target="#shiny-app-store---shiny-contest-posit-community-2021">Shiny App Store - Shiny Contest (Posit Community, 2021)</a></li>
   </ul></li>
   <li><a href="#blog-site-personnel" id="toc-blog-site-personnel" class="nav-link" data-scroll-target="#blog-site-personnel">Blog &amp; site personnel</a></li>
   <li><a href="#présence-professionnelle" id="toc-présence-professionnelle" class="nav-link" data-scroll-target="#présence-professionnelle">Présence professionnelle</a></li>
@@ -326,8 +346,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="vidéos" class="level2">
 <h2 class="anchored" data-anchor-id="vidéos">Vidéos</h2>
-<section id="cogito-2016-habitudes-animales-et-formation-des-nuages" class="level3">
-<h3 class="anchored" data-anchor-id="cogito-2016-habitudes-animales-et-formation-des-nuages">Cogito 2016 — <em>Habitudes animales et formation des nuages</em></h3>
+<section id="cogito-2016---habitudes-animales-et-formation-des-nuages" class="level3">
+<h3 class="anchored" data-anchor-id="cogito-2016---habitudes-animales-et-formation-des-nuages">Cogito 2016 - <em>Habitudes animales et formation des nuages</em></h3>
 <div style="aspect-ratio:16/9;">
 <p><iframe width="100%" height="100%" src="https://www.youtube.com/embed/k96TG-NBua4" title="Cogito 2016 - Émission 1" frameborder="0" allowfullscreen=""></iframe></p>
 </div>
@@ -339,8 +359,8 @@ ul.task-list li input[type="checkbox"] {
 <p><iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=dvhPPcdSVDM" title="Présentation de l'espace Innovation Co-operators" frameborder="0" allowfullscreen=""></iframe></p>
 </div>
 </section>
-<section id="sas-global-forum-2016-student-symposium" class="level3">
-<h3 class="anchored" data-anchor-id="sas-global-forum-2016-student-symposium">SAS Global Forum 2016 — Student Symposium</h3>
+<section id="sas-global-forum-2016---student-symposium" class="level3">
+<h3 class="anchored" data-anchor-id="sas-global-forum-2016---student-symposium">SAS Global Forum 2016 - Student Symposium</h3>
 <p>Récapitulatif officiel (SAS Blog) avec ressources et vidéos d’archives. → <a href="https://www.fsg.ulaval.ca/faculte/actualites/mm-nicosia-et-perreault-grands-vainqueurs-du-symposium-etudiant-du-sas-global-forum-2016-1812" class="uri">https://www.fsg.ulaval.ca/faculte/actualites/mm-nicosia-et-perreault-grands-vainqueurs-du-symposium-etudiant-du-sas-global-forum-2016-1812</a></p>
 <hr>
 </section>
@@ -348,25 +368,25 @@ ul.task-list li input[type="checkbox"] {
 <section id="presse-nouvelles-sélection" class="level2">
 <h2 class="anchored" data-anchor-id="presse-nouvelles-sélection">Presse &amp; nouvelles (sélection)</h2>
 <ul>
-<li><p><strong>ULaval Nouvelles</strong> — <em>Le GPT-CDA, un robot conversationnel qui épaule les étudiantes et étudiants dans les cours de mathématiques et de statistique</em> (22 mai 2026). Article : <a href="https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30" class="uri">https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30</a></p></li>
-<li><p><strong>SSC 2026</strong> — Prix 2026 de la présentation par un nouveau chercheur pour une présentation sur LOO-LBFP. Présentation : <a href="https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf" class="uri">https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf</a></p></li>
-<li><p><strong>MT180 (Faculté des sciences et de génie, Université Laval)</strong> — <em>Coup de cœur du jury</em> (7 mars 2016).</p></li>
-<li><p><strong>ActuLab (U. Laval — Actuariat)</strong> — Affiche de l’événement (2016), incluant la présentation <em>« Pouvez-vous prévoir mon pointage au golf ? »</em>.</p></li>
+<li><p><strong>ULaval Nouvelles</strong> - <em>Le GPT-CDA, un robot conversationnel qui épaule les étudiantes et étudiants dans les cours de mathématiques et de statistique</em> (22 mai 2026). Article : <a href="https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30" class="uri">https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30</a></p></li>
+<li><p><strong>SSC 2026</strong> - Prix 2026 de la présentation par un nouveau chercheur pour une présentation sur LOO-LBFP. Présentation : <a href="https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf" class="uri">https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf</a></p></li>
+<li><p><strong>MT180 (Faculté des sciences et de génie, Université Laval)</strong> - <em>Coup de cœur du jury</em> (7 mars 2016).</p></li>
+<li><p><strong>ActuLab (U. Laval - Actuariat)</strong> - Affiche de l’événement (2016), incluant la présentation <em>« Pouvez-vous prévoir mon pointage au golf ? »</em>.</p></li>
 </ul>
 <hr>
 </section>
 <section id="compétitions" class="level2">
 <h2 class="anchored" data-anchor-id="compétitions">Compétitions</h2>
 <ul>
-<li><p><strong>SAS Global Forum — Student Symposium (2016)</strong> Récapitulatif des <em>Proceedings</em> SAS GF 2016, programme et papiers.</p></li>
-<li><p><strong>ActuLab (2015)</strong> — <em>« Pouvez-vous prévoir mon pointage au golf ? »</em> (problème gagnant). Billet explicatif WordPress : « Comment prédire votre score au golf comme un pro ? ».</p></li>
+<li><p><strong>SAS Global Forum - Student Symposium (2016)</strong> Récapitulatif des <em>Proceedings</em> SAS GF 2016, programme et papiers.</p></li>
+<li><p><strong>ActuLab (2015)</strong> - <em>« Pouvez-vous prévoir mon pointage au golf ? »</em> (problème gagnant). Billet explicatif WordPress : « Comment prédire votre score au golf comme un pro ? ».</p></li>
 </ul>
 <hr>
 </section>
 <section id="communauté-concours" class="level2">
 <h2 class="anchored" data-anchor-id="communauté-concours">Communauté &amp; concours</h2>
-<section id="shiny-app-store-shiny-contest-posit-community-2021" class="level3">
-<h3 class="anchored" data-anchor-id="shiny-app-store-shiny-contest-posit-community-2021">Shiny App Store — Shiny Contest (Posit Community, 2021)</h3>
+<section id="shiny-app-store---shiny-contest-posit-community-2021" class="level3">
+<h3 class="anchored" data-anchor-id="shiny-app-store---shiny-contest-posit-community-2021">Shiny App Store - Shiny Contest (Posit Community, 2021)</h3>
 <p>Prototype d’« App Store » pour applications Shiny, co-développé par <strong>Penelope Ferron</strong> et <strong>Aurélien Nicosia</strong> (12 mai 2021). → Discussion (Posit Community) : <a href="https://forum.posit.co/t/shiny-app-store-shiny-contest-submission/104579" class="uri">https://forum.posit.co/t/shiny-app-store-shiny-contest-submission/104579</a></p>
 <hr>
 </section>
@@ -374,16 +394,16 @@ ul.task-list li input[type="checkbox"] {
 <section id="blog-site-personnel" class="level2">
 <h2 class="anchored" data-anchor-id="blog-site-personnel">Blog &amp; site personnel</h2>
 <ul>
-<li><strong>WordPress (blog / portfolio)</strong> — Billets sur SAS GF, Cogito, applications Shiny, publications, etc. Page d’accueil : <a href="https://aureliennicosia.wordpress.com/" class="uri">https://aureliennicosia.wordpress.com/</a> Page Shiny (démonstration liée au Student Symposium) : <a href="https://aureliennicosia.wordpress.com/shiny-app/" class="uri">https://aureliennicosia.wordpress.com/shiny-app/</a> Billet : « Comment prédire votre score au golf comme un pro ? » (ActuLab, 2015).</li>
+<li><strong>WordPress (blog / portfolio)</strong> - Billets sur SAS GF, Cogito, applications Shiny, publications, etc. Page d’accueil : <a href="https://aureliennicosia.wordpress.com/" class="uri">https://aureliennicosia.wordpress.com/</a> Page Shiny (démonstration liée au Student Symposium) : <a href="https://aureliennicosia.wordpress.com/shiny-app/" class="uri">https://aureliennicosia.wordpress.com/shiny-app/</a> Billet : « Comment prédire votre score au golf comme un pro ? » (ActuLab, 2015).</li>
 </ul>
 <hr>
 </section>
 <section id="présence-professionnelle" class="level2">
 <h2 class="anchored" data-anchor-id="présence-professionnelle">Présence professionnelle</h2>
 <ul>
-<li><p><strong>ResearchGate</strong> — Profil public (publications, lectures, citations). <a href="https://www.researchgate.net/profile/Aurelien-Nicosia-2" class="uri">https://www.researchgate.net/profile/Aurelien-Nicosia-2</a></p>
-<h2 id="eiom-école-interdisciplinaire-outils-méthodes-mention-linkedin" class="anchored">EIOM — École interdisciplinaire outils &amp; méthodes (mention LinkedIn)</h2></li>
-<li><p><strong>EIOM (U. Laval)</strong> — Publication LinkedIn (5e édition, 2025). Lien : <a href="https://www.linkedin.com/posts/eiomulaval_jour-2-de-leiom-2025-5e-%C3%A9dition-activity-7366140743142240256-d4O_" class="uri">https://www.linkedin.com/posts/eiomulaval_jour-2-de-leiom-2025-5e-%C3%A9dition-activity-7366140743142240256-d4O_</a></p></li>
+<li><p><strong>ResearchGate</strong> - Profil public (publications, lectures, citations). <a href="https://www.researchgate.net/profile/Aurelien-Nicosia-2" class="uri">https://www.researchgate.net/profile/Aurelien-Nicosia-2</a></p>
+<h2 id="eiom---école-interdisciplinaire-outils-méthodes-mention-linkedin" class="anchored">EIOM - École interdisciplinaire outils &amp; méthodes (mention LinkedIn)</h2></li>
+<li><p><strong>EIOM (U. Laval)</strong> - Publication LinkedIn (5e édition, 2025). Lien : <a href="https://www.linkedin.com/posts/eiomulaval_jour-2-de-leiom-2025-5e-%C3%A9dition-activity-7366140743142240256-d4O_" class="uri">https://www.linkedin.com/posts/eiomulaval_jour-2-de-leiom-2025-5e-%C3%A9dition-activity-7366140743142240256-d4O_</a></p></li>
 </ul>
 
 

@@ -17,11 +17,11 @@ Je privilégie des approches par projet, des évaluations formatives et un envir
 
 ## Cours enseignés
 
-### Université Laval — Département de mathématiques et de statistique
+### Université Laval - Département de mathématiques et de statistique
 
-#### STT-1100 — Introduction à la science des données
+#### STT-1100 - Introduction à la science des données
 Cours d’introduction centré sur des **mises en situation professionnelles** où les étudiants incarnent un rôle en science des données.
-Objectifs : apprendre à structurer une analyse complète — de l’importation des données à la communication des résultats.
+Objectifs : apprendre à structurer une analyse complète - de l’importation des données à la communication des résultats.
 **Outils :** R, tidyverse, Quarto, GitHub.
 **Notes de cours :** [STT-1100_notes_de_cours](https://aureliennicosiaulaval.github.io/STT-1100_notes_de_cours/)
 **Philosophie :** apprentissage actif, études de cas francophones, réflexion éthique sur les données.
@@ -30,7 +30,7 @@ Objectifs : apprendre à structurer une analyse complète — de l’importation
 
 
 
-#### STT-4230 — R pour scientifiques
+#### STT-4230 - R pour scientifiques
 Cours axé sur les **bonnes pratiques de développement** : structuration de projets, documentation, collaboration via GitHub.
 **Outils :** R, Quarto, GitHub, testthat.
 **Ressource :** [Notes de cours](https://stt4230.rbind.io/) produit par Sophie Baillargeon.
@@ -40,7 +40,7 @@ Cours axé sur les **bonnes pratiques de développement** : structuration de pro
 
 
 
-#### STT-2200 — Analyse de données
+#### STT-2200 - Analyse de données
 Cours de **statistique appliquée** où les étudiants travaillent à partir de jeux de données réels et produisent des rapports reproductibles.
 **Outils :** R, ggplot2, dplyr, RMarkdown.
 **Philosophie :** interprétation avant automatisation, communication claire des résultats.
@@ -49,21 +49,21 @@ Cours de **statistique appliquée** où les étudiants travaillent à partir de 
 
 ### Université du Québec à Chicoutimi (UQAC)
 
-#### 8INF404 — Introduction à la science des données et intelligence d’affaires
+#### 8INF404 - Introduction à la science des données et intelligence d’affaires
 Cours interdisciplinaire présentant le cycle complet d’un projet de science des données : préparation, exploration et modélisation prédictive.
 **Outils :** R, shiny, Quarto.
 **Philosophie :** relier technique et prise de décision, avec un accent sur la communication.
 
 
 
-#### 8INF416 — Visualisation et interface
+#### 8INF416 - Visualisation et interface
 Cours consacré à la **visualisation interactive et à la communication scientifique**.
 **Outils :** R (Shiny), ggplot2.
 **Philosophie :** clarté visuelle, accessibilité et rigueur du message graphique.
 
 
 
-#### 8STT108 — Méthodes statistiques pour les données massives
+#### 8STT108 - Méthodes statistiques pour les données massives
 Introduction aux méthodes statistiques appliquées aux grands ensembles de données (big data).
 **Outils :** R, tidyverse, parallel computing.
 **Philosophie :** mettre l’accent sur la logique des modèles avant leur automatisation.

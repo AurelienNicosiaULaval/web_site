@@ -112,9 +112,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     { fr: "index.html", en: "index.html", frLabel: "Accueil", enLabel: "Home" },
     { fr: "enseignement.html", en: "enseignement.html", frLabel: "Enseignement", enLabel: "Teaching" },
     { fr: "recherche.html", en: "recherche.html", frLabel: "Recherche", enLabel: "Research" },
+    { fr: "packages.html", en: "packages.html", frLabel: "Packages R", enLabel: "R packages" },
     { fr: "innovation.html", en: "innovation.html", frLabel: "Innovation Pédagogique", enLabel: "Educational innovation" },
     { fr: "ressources.html", en: "ressources.html", frLabel: "Autres", enLabel: "Resources" },
-    { fr: "a-propos.html", en: "a-propos.html", frLabel: "A propos", enLabel: "About" },
+    { fr: "a-propos.html", en: "a-propos.html", frLabel: "À propos", enLabel: "About" },
     { fr: "cv/index.html", en: "cv/index.html", frLabel: "CV", enLabel: "CV" }
   ];
 
@@ -122,6 +123,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "index.html",
     "enseignement.html",
     "recherche.html",
+    "packages.html",
+    "packages/donutmap.html",
+    "packages/ggcircular.html",
     "innovation.html",
     "ressources.html",
     "a-propos.html",
@@ -132,10 +136,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
   const url = new URL(window.location.href);
   const rawPath = url.pathname;
-  const enMarker = rawPath.indexOf("/en/");
-  const siteRoot = enMarker >= 0
-    ? rawPath.slice(0, enMarker + 1)
-    : rawPath.match(/^\/[^/]+\//)?.[0] || "/";
+  const ROOT_LEVEL_PATHS = new Set([
+    "",
+    "index.html",
+    "enseignement.html",
+    "recherche.html",
+    "packages.html",
+    "innovation.html",
+    "ressources.html",
+    "a-propos.html",
+    "publications.html",
+    "en",
+    "packages",
+    "cda",
+    "cv",
+    "blog"
+  ]);
+  const firstSegment = rawPath.replace(/^\/+/, "").split("/")[0] || "";
+  const siteRoot = ROOT_LEVEL_PATHS.has(firstSegment) || firstSegment.endsWith(".html")
+    ? "/"
+    : `/${firstSegment}/`;
 
   function toSiteRelative(pathname) {
     if (!pathname.startsWith(siteRoot)) {
@@ -315,8 +335,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#usage-example" id="toc-usage-example" class="nav-link active" data-scroll-target="#usage-example">Usage example</a></li>
-  <li><a href="#visual-preview" id="toc-visual-preview" class="nav-link" data-scroll-target="#visual-preview">Visual preview</a></li>
+  <li><a href="#visual-preview" id="toc-visual-preview" class="nav-link active" data-scroll-target="#visual-preview">Visual preview</a></li>
+  <li><a href="#usage-example" id="toc-usage-example" class="nav-link" data-scroll-target="#usage-example">Usage example</a></li>
   <li><a href="#what-is-donutmap-for" id="toc-what-is-donutmap-for" class="nav-link" data-scroll-target="#what-is-donutmap-for">What is DonutMap for?</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/en/packages/donutmap.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -358,6 +378,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </figure>
 </div>
 </div>
+<section id="visual-preview" class="level2">
+<h2 class="anchored" data-anchor-id="visual-preview">Visual preview</h2>
+<p>The image below comes from the package example gallery and shows a static map with curved links and arrows.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../assets/packages/donutmap-example.png" class="package-example img-fluid figure-img"></p>
+<figcaption>Example DonutMap map with curved links coloured by corridor.</figcaption>
+</figure>
+</div>
+</section>
 <section id="usage-example" class="level2">
 <h2 class="anchored" data-anchor-id="usage-example">Usage example</h2>
 <p>The code below creates donut charts by site and adds flows between sites. The data are simulated to illustrate the structure expected by the package.</p>
@@ -405,16 +435,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>  <span class="at">flow_arrow =</span> <span class="cn">TRUE</span>,</span>
 <span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>  <span class="at">colours =</span> mode_colours</span>
 <span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="visual-preview" class="level2">
-<h2 class="anchored" data-anchor-id="visual-preview">Visual preview</h2>
-<p>The image below comes from the package example gallery and shows a static map with curved links and arrows.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../assets/packages/donutmap-example.png" class="package-example img-fluid figure-img"></p>
-<figcaption>Example DonutMap map with curved links coloured by corridor.</figcaption>
-</figure>
-</div>
 </section>
 <section id="what-is-donutmap-for" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-donutmap-for">What is DonutMap for?</h2>

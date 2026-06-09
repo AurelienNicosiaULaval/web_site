@@ -77,9 +77,10 @@ ul.task-list li input[type="checkbox"] {
     { fr: "index.html", en: "index.html", frLabel: "Accueil", enLabel: "Home" },
     { fr: "enseignement.html", en: "enseignement.html", frLabel: "Enseignement", enLabel: "Teaching" },
     { fr: "recherche.html", en: "recherche.html", frLabel: "Recherche", enLabel: "Research" },
+    { fr: "packages.html", en: "packages.html", frLabel: "Packages R", enLabel: "R packages" },
     { fr: "innovation.html", en: "innovation.html", frLabel: "Innovation Pédagogique", enLabel: "Educational innovation" },
     { fr: "ressources.html", en: "ressources.html", frLabel: "Autres", enLabel: "Resources" },
-    { fr: "a-propos.html", en: "a-propos.html", frLabel: "A propos", enLabel: "About" },
+    { fr: "a-propos.html", en: "a-propos.html", frLabel: "À propos", enLabel: "About" },
     { fr: "cv/index.html", en: "cv/index.html", frLabel: "CV", enLabel: "CV" }
   ];
 
@@ -87,6 +88,9 @@ ul.task-list li input[type="checkbox"] {
     "index.html",
     "enseignement.html",
     "recherche.html",
+    "packages.html",
+    "packages/donutmap.html",
+    "packages/ggcircular.html",
     "innovation.html",
     "ressources.html",
     "a-propos.html",
@@ -97,10 +101,26 @@ ul.task-list li input[type="checkbox"] {
 
   const url = new URL(window.location.href);
   const rawPath = url.pathname;
-  const enMarker = rawPath.indexOf("/en/");
-  const siteRoot = enMarker >= 0
-    ? rawPath.slice(0, enMarker + 1)
-    : rawPath.match(/^\/[^/]+\//)?.[0] || "/";
+  const ROOT_LEVEL_PATHS = new Set([
+    "",
+    "index.html",
+    "enseignement.html",
+    "recherche.html",
+    "packages.html",
+    "innovation.html",
+    "ressources.html",
+    "a-propos.html",
+    "publications.html",
+    "en",
+    "packages",
+    "cda",
+    "cv",
+    "blog"
+  ]);
+  const firstSegment = rawPath.replace(/^\/+/, "").split("/")[0] || "";
+  const siteRoot = ROOT_LEVEL_PATHS.has(firstSegment) || firstSegment.endsWith(".html")
+    ? "/"
+    : `/${firstSegment}/`;
 
   function toSiteRelative(pathname) {
     if (!pathname.startsWith(siteRoot)) {
@@ -340,32 +360,24 @@ window.Quarto = {
 
 <section id="centres-dintérêt-et-explorations" class="level2">
 <h2 class="anchored" data-anchor-id="centres-dintérêt-et-explorations">Centres d’intérêt et explorations</h2>
-<p>Au-delà de la recherche et de l’enseignement, plusieurs domaines nourrissent ma curiosité et mes projets.<br>
-J’aime explorer les frontières entre mathématiques, art, données et créativité numérique.</p>
+<p>Au-delà de la recherche et de l’enseignement, plusieurs domaines nourrissent ma curiosité et mes projets. J’aime explorer les frontières entre mathématiques, art, données et créativité numérique.</p>
 <section id="mathématiques-art-et-visualisation" class="level3">
 <h3 class="anchored" data-anchor-id="mathématiques-art-et-visualisation">Mathématiques, art et visualisation</h3>
-<p>Je m’intéresse à la beauté mathématique sous toutes ses formes — qu’il s’agisse d’une équation élégante, d’une visualisation bien conçue ou d’un motif généré aléatoirement.<br>
-Cette fascination m’a conduit à développer des projets à la frontière entre art et science des données, comme :</p>
+<p>Je m’intéresse à la beauté mathématique sous toutes ses formes - qu’il s’agisse d’une équation élégante, d’une visualisation bien conçue ou d’un motif généré aléatoirement. Cette fascination m’a conduit à développer des projets à la frontière entre art et science des données, comme :</p>
 <ul>
-<li>🎨 <em>Dessin numérique avec R</em> : exploration des textures et motifs génératifs produits à partir de lois de probabilités.<br>
-</li>
-<li>📐 <em>Recettes mathématiques</em> : un projet d’écriture où chaque concept mathématique est présenté comme une “recette”, mêlant rigueur et poésie.<br>
-📘 <a href="Example Recipes.pdf">Voir un exemple de deux recettes mathématique (PDF)</a> sur l’identité d’Euler (<span class="math inline">\(e^{i\pi}+1 = 0\)</span>) et sur la suite de Fibonacci</li>
+<li>🎨 <em>Dessin numérique avec R</em> : exploration des textures et motifs génératifs produits à partir de lois de probabilités.</li>
+<li>📐 <em>Recettes mathématiques</em> : un projet d’écriture où chaque concept mathématique est présenté comme une “recette”, mêlant rigueur et poésie. 📘 <a href="Example Recipes.pdf">Voir un exemple de deux recettes mathématique (PDF)</a> sur l’identité d’Euler (<span class="math inline">\(e^{i\pi}+1 = 0\)</span>) et sur la suite de Fibonacci</li>
 </ul>
 </section>
 <section id="écriture-et-vulgarisation" class="level3">
 <h3 class="anchored" data-anchor-id="écriture-et-vulgarisation">Écriture et vulgarisation</h3>
-<p>J’aime rendre les mathématiques <strong>accessibles, vivantes et inspirantes</strong>.<br>
-Mes projets d’écriture associent souvent narration, clarté visuelle et rigueur conceptuelle.<br>
-Je travaille actuellement sur :</p>
+<p>J’aime rendre les mathématiques <strong>accessibles, vivantes et inspirantes</strong>. Mes projets d’écriture associent souvent narration, clarté visuelle et rigueur conceptuelle. Je travaille actuellement sur :</p>
 <ul>
-<li><p><em>La cuisine des données</em> — une plateforme d’apprentissage inspirée de l’univers culinaire ;</p></li>
-<li><p><em>Recettes mathématiques</em> — un ouvrage illustré pour découvrir la beauté des théorèmes à travers des “recettes” courtes et visuelles.</p></li>
+<li><p><em>La cuisine des données</em> - une plateforme d’apprentissage inspirée de l’univers culinaire ;</p></li>
+<li><p><em>Recettes mathématiques</em> - un ouvrage illustré pour découvrir la beauté des théorèmes à travers des “recettes” courtes et visuelles.</p></li>
 </ul>
 <blockquote class="blockquote">
-<p>🌱 Mon parcours s’articule autour d’une idée simple :<br>
-<strong>faire dialoguer la rigueur scientifique et la créativité humaine</strong>,<br>
-pour que les mathématiques et la science des données deviennent des espaces de découverte, d’art et de transmission.</p>
+<p>🌱 Mon parcours s’articule autour d’une idée simple : <strong>faire dialoguer la rigueur scientifique et la créativité humaine</strong>, pour que les mathématiques et la science des données deviennent des espaces de découverte, d’art et de transmission.</p>
 </blockquote>
 
 

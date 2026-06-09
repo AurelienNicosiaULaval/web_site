@@ -58,8 +58,8 @@ It proposes a unifying formulation connecting behavioral and spatial approaches,
 - [**CircularRegression**](https://github.com/AurelienNicosiaULaval/CircularRegression): regression for circular and directional data.
   Includes extensions with random circular effects and three-dimensional models for movement in space.
 
-- [**ggcircular**](https://cran.r-project.org/web/packages/ggcircular/index.html): a `ggplot2` extension for circular, axial, and directional data, available on CRAN since June 4, 2026.
-  The package provides layers, scales, summaries, diagnostics, and visualizations for angles, orientations, directions, times of day, and movement data. See also the [GitHub repository](https://github.com/AurelienNicosiaULaval/ggcircular) and the [pkgdown documentation](https://aureliennicosiaulaval.github.io/ggcircular/).
+- [**ggcircular**](packages/ggcircular.qmd): a `ggplot2` extension for circular, axial, and directional data, available on CRAN since June 4, 2026.
+  The package provides layers, scales, summaries, diagnostics, and visualizations for angles, orientations, directions, times of day, and movement data. See also [CRAN](https://cran.r-project.org/web/packages/ggcircular/index.html), the [GitHub repository](https://github.com/AurelienNicosiaULaval/ggcircular), and the [pkgdown documentation](https://aureliennicosiaulaval.github.io/ggcircular/).
 
 - [**DonutMap**](https://cran.r-project.org/web/packages/DonutMap/index.html): R package available on CRAN since June 8, 2026, for creating donut maps with `sf`, `ggplot2`, and `leaflet`.
   See also the [dedicated page](packages/donutmap.qmd), the [GitHub repository](https://github.com/AurelienNicosiaULaval/DonutMap), and the [pkgdown documentation](https://aureliennicosiaulaval.github.io/DonutMap/).

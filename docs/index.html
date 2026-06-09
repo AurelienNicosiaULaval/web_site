@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bienvenue – Aurélien Nicosia</title>
+<title>Aurélien Nicosia</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -77,9 +77,10 @@ ul.task-list li input[type="checkbox"] {
     { fr: "index.html", en: "index.html", frLabel: "Accueil", enLabel: "Home" },
     { fr: "enseignement.html", en: "enseignement.html", frLabel: "Enseignement", enLabel: "Teaching" },
     { fr: "recherche.html", en: "recherche.html", frLabel: "Recherche", enLabel: "Research" },
+    { fr: "packages.html", en: "packages.html", frLabel: "Packages R", enLabel: "R packages" },
     { fr: "innovation.html", en: "innovation.html", frLabel: "Innovation Pédagogique", enLabel: "Educational innovation" },
     { fr: "ressources.html", en: "ressources.html", frLabel: "Autres", enLabel: "Resources" },
-    { fr: "a-propos.html", en: "a-propos.html", frLabel: "A propos", enLabel: "About" },
+    { fr: "a-propos.html", en: "a-propos.html", frLabel: "À propos", enLabel: "About" },
     { fr: "cv/index.html", en: "cv/index.html", frLabel: "CV", enLabel: "CV" }
   ];
 
@@ -87,6 +88,9 @@ ul.task-list li input[type="checkbox"] {
     "index.html",
     "enseignement.html",
     "recherche.html",
+    "packages.html",
+    "packages/donutmap.html",
+    "packages/ggcircular.html",
     "innovation.html",
     "ressources.html",
     "a-propos.html",
@@ -97,10 +101,26 @@ ul.task-list li input[type="checkbox"] {
 
   const url = new URL(window.location.href);
   const rawPath = url.pathname;
-  const enMarker = rawPath.indexOf("/en/");
-  const siteRoot = enMarker >= 0
-    ? rawPath.slice(0, enMarker + 1)
-    : rawPath.match(/^\/[^/]+\//)?.[0] || "/";
+  const ROOT_LEVEL_PATHS = new Set([
+    "",
+    "index.html",
+    "enseignement.html",
+    "recherche.html",
+    "packages.html",
+    "innovation.html",
+    "ressources.html",
+    "a-propos.html",
+    "publications.html",
+    "en",
+    "packages",
+    "cda",
+    "cv",
+    "blog"
+  ]);
+  const firstSegment = rawPath.replace(/^\/+/, "").split("/")[0] || "";
+  const siteRoot = ROOT_LEVEL_PATHS.has(firstSegment) || firstSegment.endsWith(".html")
+    ? "/"
+    : `/${firstSegment}/`;
 
   function toSiteRelative(pathname) {
     if (!pathname.startsWith(siteRoot)) {
@@ -200,10 +220,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="assets/custom.css">
-<meta property="og:title" content="Bienvenue – Aurélien Nicosia">
-<meta property="og:description" content="">
+<meta property="og:title" content="Aurélien Nicosia">
+<meta property="og:image" content="https://AurelienNicosiaUlaval.github.io/web_site/assets/packages/donutmap-logo.svg">
 <meta property="og:site_name" content="Aurélien Nicosia">
 <meta property="og:locale" content="fr_CA">
+<meta property="og:image:alt" content="Logo DonutMap">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -274,7 +295,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Bienvenue</h1>
+      <h1 class="title">Aurélien Nicosia</h1>
                       </div>
   </div>
     
@@ -308,35 +329,45 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Chargé d’enseignement en mathématiques et statistiques - Québec, Canada Je m’intéresse à la statistique appliquée, à la reproductibilité et à l’innovation pédagogique.</p>
-<div class="mt-4">
-<p><a href="./enseignement.html" class="btn btn-outline-danger rounded-pill btn-lg fw-bold">🎓 Enseignement</a> <a href="./recherche.html" class="btn btn-outline-dark rounded-pill btn-lg fw-bold">📊 Recherche</a> <a href="./innovation.html" class="btn btn-outline-warning rounded-pill btn-lg fw-bold">💡 Innovation pédagogique</a></p>
+<div class="home-hero">
+<section id="statistique-appliquée-r-et-pédagogie-ouverte" class="level2 home-hero-copy">
+<h2 class="anchored" data-anchor-id="statistique-appliquée-r-et-pédagogie-ouverte">Statistique appliquée, R et pédagogie ouverte</h2>
+<p>Chargé d’enseignement en mathématiques et statistiques à l’Université Laval, à Québec. Je développe des ressources, des packages R et des méthodes statistiques pour relier analyse rigoureuse, visualisation et apprentissage actif.</p>
+<div class="hero-actions">
+<p><a href="./enseignement.html" class="btn btn-outline-danger rounded-pill btn-lg fw-bold">Enseignement</a> <a href="./recherche.html" class="btn btn-outline-dark rounded-pill btn-lg fw-bold">Recherche</a> <a href="./packages.html" class="btn btn-outline-dark rounded-pill btn-lg fw-bold">Packages R</a> <a href="./innovation.html" class="btn btn-outline-warning rounded-pill btn-lg fw-bold">Innovation pédagogique</a></p>
+</div>
+</section>
+<div class="home-hero-visual">
+<div class="home-hero-thumbs">
+<p><img src="assets/packages/donutmap-logo.svg" class="img-fluid" alt="Logo DonutMap"> <img src="assets/packages/ggcircular-example.png" class="img-fluid" alt="Exemple ggcircular"></p>
+</div>
+</div>
 </div>
 <section id="nouveautés-2026" class="level2">
 <h2 class="anchored" data-anchor-id="nouveautés-2026">Nouveautés 2026</h2>
-<div class="grid gap-4">
-<section id="gpt-cda-dans-ulaval-nouvelles" class="level3 g-col-12 g-col-lg-4 news-panel">
+<div class="news-grid">
+<section id="gpt-cda-dans-ulaval-nouvelles" class="level3 news-panel">
 <h3 class="anchored" data-anchor-id="gpt-cda-dans-ulaval-nouvelles">GPT-CDA dans ULaval Nouvelles</h3>
 <p>Le 22 mai 2026, ULaval Nouvelles a consacré un article au GPT-CDA, un assistant conversationnel conçu pour soutenir l’apprentissage en mathématiques et en statistique au CDA.</p>
 <div class="link-list">
 <p><a href="https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30" class="btn btn-outline-dark rounded-pill shadow-sm">Lire l’article</a> <a href="./cda/index.html" class="btn btn-outline-dark rounded-pill shadow-sm">Page CDA</a></p>
 </div>
 </section>
-<section id="donutmap-et-ggcircular-sur-cran" class="level3 g-col-12 g-col-lg-4 news-panel">
+<section id="donutmap-et-ggcircular-sur-cran" class="level3 news-panel">
 <h3 class="anchored" data-anchor-id="donutmap-et-ggcircular-sur-cran">DonutMap et ggcircular sur CRAN</h3>
 <p>Les packages R <code>DonutMap</code> et <code>ggcircular</code> sont disponibles sur le CRAN depuis juin 2026. Ils soutiennent respectivement la cartographie de diagrammes en anneau et la visualisation de données circulaires.</p>
 <div class="link-list">
-<p><a href="./packages/donutmap.html" class="btn btn-outline-dark rounded-pill shadow-sm">DonutMap</a> <a href="https://cran.r-project.org/web/packages/ggcircular/index.html" class="btn btn-outline-dark rounded-pill shadow-sm">CRAN</a> <a href="https://github.com/AurelienNicosiaULaval/ggcircular" class="btn btn-outline-dark rounded-pill shadow-sm">GitHub</a> <a href="https://aureliennicosiaulaval.github.io/ggcircular/" class="btn btn-outline-dark rounded-pill shadow-sm">Documentation</a></p>
+<p><a href="./packages/donutmap.html" class="btn btn-outline-dark rounded-pill shadow-sm">DonutMap</a> <a href="./packages/ggcircular.html" class="btn btn-outline-dark rounded-pill shadow-sm">ggcircular</a> <a href="./packages.html" class="btn btn-outline-dark rounded-pill shadow-sm">Tous les packages</a></p>
 </div>
 </section>
-<section id="ssc-2026" class="level3 g-col-12 g-col-lg-4 news-panel">
+<section id="ssc-2026" class="level3 news-panel">
 <h3 class="anchored" data-anchor-id="ssc-2026">SSC 2026</h3>
 <p>J’ai animé un atelier sur l’IA et l’enseignement, contribué à une galerie publique de ressources pédagogiques, présenté des travaux sur LOO-LBFP, et reçu le prix 2026 de la présentation par un nouveau chercheur.</p>
 <div class="link-list">
 <p><a href="https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/" class="btn btn-outline-dark rounded-pill shadow-sm">AI Gallery</a> <a href="https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf" class="btn btn-outline-dark rounded-pill shadow-sm">Présentation LOO-LBFP</a></p>
 </div>
 </section>
-<section id="publications-en-mouvement-animal" class="level3 g-col-12 g-col-lg-4 news-panel">
+<section id="publications-en-mouvement-animal" class="level3 news-panel">
 <h3 class="anchored" data-anchor-id="publications-en-mouvement-animal">Publications en mouvement animal</h3>
 <p>Un nouvel article est publié dans <em>Methods in Ecology and Evolution</em> et une prépublication bioRxiv porte sur l’inférence des états comportementaux à partir de fonctions de sélection de pas markoviennes.</p>
 <div class="link-list">
@@ -347,24 +378,24 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="à-laffiche" class="level2">
 <h2 class="anchored" data-anchor-id="à-laffiche">À l’affiche</h2>
-<div class="grid gap-4">
-<section id="thèse-de-doctorat" class="level3 g-col-12 g-col-md-4">
+<div class="feature-grid">
+<section id="thèse-de-doctorat" class="level3 feature-panel">
 <h3 class="anchored" data-anchor-id="thèse-de-doctorat">Thèse de doctorat</h3>
 <p>Modèles multi-états pour l’analyse du mouvement animalier.</p>
 <p><a href="https://corpus.ulaval.ca/server/api/core/bitstreams/cf3426a4-3475-4d48-a4c4-de29df846ed5/content" class="btn btn-outline-dark rounded-pill shadow-sm">Consulter le PDF</a></p>
 <p><a href="https://github.com/AurelienNicosiaULaval/multi-state-model-animal-movement" class="btn btn-outline-dark rounded-pill shadow-sm">Code et matériel</a></p>
 </section>
-<section id="packages-r" class="level3 g-col-12 g-col-md-4">
+<section id="packages-r" class="level3 feature-panel">
 <h3 class="anchored" data-anchor-id="packages-r">Packages R</h3>
 <p>Ensemble de packages R développés pour la statistique appliquée.</p>
-<p><a href="https://cran.r-project.org/web/packages/DonutMap/index.html" class="btn btn-outline-dark rounded-pill shadow-sm">DonutMap (CRAN)</a></p>
+<p><a href="./packages/donutmap.html" class="btn btn-outline-dark rounded-pill shadow-sm">DonutMap</a></p>
 <p><a href="https://github.com/AurelienNicosiaULaval/GLBFP" class="btn btn-outline-dark rounded-pill shadow-sm">GLBFP</a></p>
 <p><a href="https://github.com/AurelienNicosiaULaval/CircularRegression" class="btn btn-outline-dark rounded-pill shadow-sm">CircularRegression</a></p>
-<p><a href="https://cran.r-project.org/web/packages/ggcircular/index.html" class="btn btn-outline-dark rounded-pill shadow-sm">ggcircular (CRAN)</a></p>
+<p><a href="./packages/ggcircular.html" class="btn btn-outline-dark rounded-pill shadow-sm">ggcircular</a></p>
 <p><a href="https://cran.r-project.org/web/packages/GeneralOaxaca/index.html" class="btn btn-outline-dark rounded-pill shadow-sm">GeneralOaxaca (CRAN)</a></p>
 <p><a href="./packages.html" class="btn btn-outline-dark rounded-pill shadow-sm">Voir tous les packages</a></p>
 </section>
-<section id="ressources-ouvertes" class="level3 g-col-12 g-col-md-4">
+<section id="ressources-ouvertes" class="level3 feature-panel">
 <h3 class="anchored" data-anchor-id="ressources-ouvertes">Ressources ouvertes</h3>
 <p>Plateforme de ressources, tutoriels et outils pédagogiques.</p>
 <p><a href="https://aureliennicosiaulaval.github.io/site_ressources_SSD/" class="btn btn-outline-dark rounded-pill shadow-sm">site_ressources_SSD</a></p>

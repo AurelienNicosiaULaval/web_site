@@ -1,5 +1,5 @@
 ---
-title: "Center for Tutoring and Learning (CDA) — Math & Statistics"
+title: "Center for Tutoring and Learning (CDA) - Math & Statistics"
 lang: en
 ---
 

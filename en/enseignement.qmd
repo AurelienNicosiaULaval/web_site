@@ -18,9 +18,9 @@ I rely on project-based learning, formative assessment, and a supportive environ
 
 ## Courses taught
 
-### Université Laval — Department of Mathematics and Statistics
+### Université Laval - Department of Mathematics and Statistics
 
-#### STT-1100 — Introduction to Data Science
+#### STT-1100 - Introduction to Data Science
 This introductory course focuses on **professional situations** where students assume a data science role.
 Learning goals: master the full analysis pipeline, from data import to communication of results.
 **Tools:** R, tidyverse, Quarto, GitHub.
@@ -31,7 +31,7 @@ Learning goals: master the full analysis pipeline, from data import to communica
 
 
 
-#### STT-4230 — R for scientists
+#### STT-4230 - R for scientists
 Course focused on **good development practices**: project structure, documentation, and collaboration through GitHub.
 **Tools:** R, Quarto, GitHub, testthat.
 **Resource:** [Course notes](https://stt4230.rbind.io/) from Sophie Baillargeon.
@@ -41,7 +41,7 @@ Course focused on **good development practices**: project structure, documentati
 
 
 
-#### STT-2200 — Data Analysis
+#### STT-2200 - Data Analysis
 An **applied statistics** course where students work from real datasets and produce reproducible reports.
 **Tools:** R, ggplot2, dplyr, RMarkdown.
 **Philosophy:** interpretation before automation, clear communication of results.
@@ -50,21 +50,21 @@ An **applied statistics** course where students work from real datasets and prod
 
 ### Université du Québec à Chicoutimi (UQAC)
 
-#### 8INF404 — Introduction to Data Science and Business Intelligence
+#### 8INF404 - Introduction to Data Science and Business Intelligence
 An interdisciplinary course introducing the full data science project cycle: preparation, exploration, and predictive modeling.
 **Tools:** R, shiny, Quarto.
 **Philosophy:** connect technical work to decision-making, with an emphasis on communication.
 
 
 
-#### 8INF416 — Visualization and Interface
+#### 8INF416 - Visualization and Interface
 Course devoted to **interactive visualization and scientific communication**.
 **Tools:** R (Shiny), ggplot2.
 **Philosophy:** visual clarity, accessibility, and rigor in graphical messaging.
 
 
 
-#### 8STT108 — Statistical Methods for Big Data
+#### 8STT108 - Statistical Methods for Big Data
 Introduction to statistical methods applied to large datasets (big data).
 **Tools:** R, tidyverse, parallel computing.
 **Philosophy:** emphasize model logic before automation.

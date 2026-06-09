@@ -42,6 +42,7 @@ A `ggplot2` extension for circular, axial, and directional data: rose diagrams, 
 CRAN version: 0.1.0, published on June 4, 2026.
 
 ::: {.link-list}
+[Dedicated page](packages/ggcircular.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 [CRAN](https://cran.r-project.org/web/packages/ggcircular/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 [GitHub](https://github.com/AurelienNicosiaULaval/ggcircular){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 [Documentation](https://aureliennicosiaulaval.github.io/ggcircular/){.btn .btn-outline-dark .rounded-pill .shadow-sm}

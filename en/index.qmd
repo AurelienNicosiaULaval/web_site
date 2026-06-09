@@ -1,23 +1,36 @@
 ---
-title: "Welcome"
+title: "Aurélien Nicosia"
 title-block-banner: true
 lang: en
 ---
 
-Lecturer in mathematics and statistics - Quebec, Canada
-I am interested in applied statistics, reproducibility, and educational innovation.
+::: {.home-hero}
+::: {.home-hero-copy}
+## Applied statistics, R, and open teaching
 
-:::{ .mt-4}
-[🎓 Teaching](enseignement.qmd){.btn .btn-outline-danger .rounded-pill .btn-lg .fw-bold}
-[📊 Research](recherche.qmd){.btn .btn-outline-dark .rounded-pill .btn-lg .fw-bold}
-[💡 Educational innovation](innovation.qmd){.btn .btn-outline-warning .rounded-pill .btn-lg .fw-bold}
+Lecturer in mathematics and statistics at Université Laval in Quebec City. I develop teaching resources, R packages, and statistical methods that connect rigorous analysis, visualization, and active learning.
+
+::: {.hero-actions}
+[Teaching](enseignement.qmd){.btn .btn-outline-danger .rounded-pill .btn-lg .fw-bold}
+[Research](recherche.qmd){.btn .btn-outline-dark .rounded-pill .btn-lg .fw-bold}
+[R packages](packages.qmd){.btn .btn-outline-dark .rounded-pill .btn-lg .fw-bold}
+[Educational innovation](innovation.qmd){.btn .btn-outline-warning .rounded-pill .btn-lg .fw-bold}
+:::
+:::
+
+::: {.home-hero-visual}
+::: {.home-hero-thumbs}
+![DonutMap logo](../assets/packages/donutmap-logo.svg)
+![ggcircular example](../assets/packages/ggcircular-example.png)
+:::
+:::
 :::
 
 
 ## 2026 updates
 
-::: { .grid .gap-4 }
-::: {.g-col-12 .g-col-lg-4 .news-panel}
+::: {.news-grid}
+::: {.news-panel}
 ### GPT-CDA in ULaval News
 On May 22, 2026, ULaval News published a story about GPT-CDA, a conversational assistant designed to support learning in mathematics and statistics at the CDA.
 
@@ -27,19 +40,18 @@ On May 22, 2026, ULaval News published a story about GPT-CDA, a conversational a
 :::
 :::
 
-::: {.g-col-12 .g-col-lg-4 .news-panel}
+::: {.news-panel}
 ### DonutMap and ggcircular on CRAN
 The R packages `DonutMap` and `ggcircular` have been available on CRAN since June 2026. They support donut-chart mapping and visualization for circular data.
 
 ::: {.link-list}
 [DonutMap](packages/donutmap.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[CRAN](https://cran.r-project.org/web/packages/ggcircular/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[GitHub](https://github.com/AurelienNicosiaULaval/ggcircular){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[Documentation](https://aureliennicosiaulaval.github.io/ggcircular/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[ggcircular](packages/ggcircular.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[All packages](packages.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 :::
 :::
 
-::: {.g-col-12 .g-col-lg-4 .news-panel}
+::: {.news-panel}
 ### SSC 2026
 I led a workshop on AI and teaching, contributed to a public teaching-resource gallery, presented work on LOO-LBFP, and received the 2026 New Investigator Presentation Award.
 
@@ -49,7 +61,7 @@ I led a workshop on AI and teaching, contributed to a public teaching-resource g
 :::
 :::
 
-::: {.g-col-12 .g-col-lg-4 .news-panel}
+::: {.news-panel}
 ### Animal movement publications
 A new article is published in *Methods in Ecology and Evolution*, and a bioRxiv preprint focuses on behavioural-state inference using Markovian step-selection functions.
 
@@ -64,8 +76,8 @@ A new article is published in *Methods in Ecology and Evolution*, and a bioRxiv 
 
 ## Featured
 
-::: { .grid .gap-4 }
-::: {.g-col-12 .g-col-md-4}
+::: {.feature-grid}
+::: {.feature-panel}
 ### Doctoral thesis
 Multi-state models for animal movement analysis.
 
@@ -74,24 +86,24 @@ Multi-state models for animal movement analysis.
 [Code and materials](https://github.com/AurelienNicosiaULaval/multi-state-model-animal-movement){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 :::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.feature-panel}
 ### R packages
 A set of R packages developed for applied statistics.
 
-[DonutMap (CRAN)](https://cran.r-project.org/web/packages/DonutMap/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[DonutMap](packages/donutmap.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
 [GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
 [CircularRegression](https://github.com/AurelienNicosiaULaval/CircularRegression){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
-[ggcircular (CRAN)](https://cran.r-project.org/web/packages/ggcircular/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[ggcircular](packages/ggcircular.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
 [GeneralOaxaca (CRAN)](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
 [View all packages](packages.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 :::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.feature-panel}
 ### Open resources
 A platform for open educational resources, tutorials, and teaching tools.
 

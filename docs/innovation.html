@@ -77,9 +77,10 @@ ul.task-list li input[type="checkbox"] {
     { fr: "index.html", en: "index.html", frLabel: "Accueil", enLabel: "Home" },
     { fr: "enseignement.html", en: "enseignement.html", frLabel: "Enseignement", enLabel: "Teaching" },
     { fr: "recherche.html", en: "recherche.html", frLabel: "Recherche", enLabel: "Research" },
+    { fr: "packages.html", en: "packages.html", frLabel: "Packages R", enLabel: "R packages" },
     { fr: "innovation.html", en: "innovation.html", frLabel: "Innovation Pédagogique", enLabel: "Educational innovation" },
     { fr: "ressources.html", en: "ressources.html", frLabel: "Autres", enLabel: "Resources" },
-    { fr: "a-propos.html", en: "a-propos.html", frLabel: "A propos", enLabel: "About" },
+    { fr: "a-propos.html", en: "a-propos.html", frLabel: "À propos", enLabel: "About" },
     { fr: "cv/index.html", en: "cv/index.html", frLabel: "CV", enLabel: "CV" }
   ];
 
@@ -87,6 +88,9 @@ ul.task-list li input[type="checkbox"] {
     "index.html",
     "enseignement.html",
     "recherche.html",
+    "packages.html",
+    "packages/donutmap.html",
+    "packages/ggcircular.html",
     "innovation.html",
     "ressources.html",
     "a-propos.html",
@@ -97,10 +101,26 @@ ul.task-list li input[type="checkbox"] {
 
   const url = new URL(window.location.href);
   const rawPath = url.pathname;
-  const enMarker = rawPath.indexOf("/en/");
-  const siteRoot = enMarker >= 0
-    ? rawPath.slice(0, enMarker + 1)
-    : rawPath.match(/^\/[^/]+\//)?.[0] || "/";
+  const ROOT_LEVEL_PATHS = new Set([
+    "",
+    "index.html",
+    "enseignement.html",
+    "recherche.html",
+    "packages.html",
+    "innovation.html",
+    "ressources.html",
+    "a-propos.html",
+    "publications.html",
+    "en",
+    "packages",
+    "cda",
+    "cv",
+    "blog"
+  ]);
+  const firstSegment = rawPath.replace(/^\/+/, "").split("/")[0] || "";
+  const siteRoot = ROOT_LEVEL_PATHS.has(firstSegment) || firstSegment.endsWith(".html")
+    ? "/"
+    : `/${firstSegment}/`;
 
   function toSiteRelative(pathname) {
     if (!pathname.startsWith(siteRoot)) {
@@ -284,7 +304,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#refonte-des-cours-en-science-des-données" id="toc-refonte-des-cours-en-science-des-données" class="nav-link" data-scroll-target="#refonte-des-cours-en-science-des-données">Refonte des cours en science des données</a></li>
   <li><a href="#amélioration-du-soutien-à-la-réussite-étudiante" id="toc-amélioration-du-soutien-à-la-réussite-étudiante" class="nav-link" data-scroll-target="#amélioration-du-soutien-à-la-réussite-étudiante">Amélioration du soutien à la réussite étudiante</a></li>
-  <li><a href="#projet-gpt-cda-intelligence-artificielle-et-apprentissage" id="toc-projet-gpt-cda-intelligence-artificielle-et-apprentissage" class="nav-link" data-scroll-target="#projet-gpt-cda-intelligence-artificielle-et-apprentissage">Projet GPT-CDA — Intelligence artificielle et apprentissage</a></li>
+  <li><a href="#projet-gpt-cda---intelligence-artificielle-et-apprentissage" id="toc-projet-gpt-cda---intelligence-artificielle-et-apprentissage" class="nav-link" data-scroll-target="#projet-gpt-cda---intelligence-artificielle-et-apprentissage">Projet GPT-CDA - Intelligence artificielle et apprentissage</a></li>
   <li><a href="#ressources-pédagogiques-ouvertes" id="toc-ressources-pédagogiques-ouvertes" class="nav-link" data-scroll-target="#ressources-pédagogiques-ouvertes">Ressources pédagogiques ouvertes</a></li>
   <li><a href="#projet-dessin-numérique-avec-r" id="toc-projet-dessin-numérique-avec-r" class="nav-link" data-scroll-target="#projet-dessin-numérique-avec-r">Projet « Dessin numérique avec R »</a></li>
   </ul></li>
@@ -324,7 +344,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Intégration responsable de l’intelligence artificielle</strong> en enseignement et en soutien à la réussite.</li>
 </ol>
 <blockquote class="blockquote">
-<p>🌱 L’innovation pédagogique, pour moi, consiste à rapprocher rigueur, créativité et accessibilité — pour que chaque étudiant·e puisse apprendre en explorant, expérimentant et comprenant.</p>
+<p>🌱 L’innovation pédagogique, pour moi, consiste à rapprocher rigueur, créativité et accessibilité - pour que chaque étudiant·e puisse apprendre en explorant, expérimentant et comprenant.</p>
 </blockquote>
 </section>
 <section id="principaux-projets" class="level2">
@@ -343,8 +363,8 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="amélioration-du-soutien-à-la-réussite-étudiante">Amélioration du soutien à la réussite étudiante</h3>
 <p>Développement d’un modèle de formation structurée des auxiliaires et d’une plateforme interne regroupant ressources, capsules vidéo et foire aux questions. <strong>Résultat :</strong> professionnalisation du rôle d’auxiliaire et uniformisation du soutien pédagogique. <strong>Lien :</strong> <a href="https://ulavaldti.sharepoint.com/sites/AuxiliaireduDMS">Espace des auxiliaires – plateforme interne (Ulaval)</a></p>
 </section>
-<section id="projet-gpt-cda-intelligence-artificielle-et-apprentissage" class="level3">
-<h3 class="anchored" data-anchor-id="projet-gpt-cda-intelligence-artificielle-et-apprentissage">Projet GPT-CDA — Intelligence artificielle et apprentissage</h3>
+<section id="projet-gpt-cda---intelligence-artificielle-et-apprentissage" class="level3">
+<h3 class="anchored" data-anchor-id="projet-gpt-cda---intelligence-artificielle-et-apprentissage">Projet GPT-CDA - Intelligence artificielle et apprentissage</h3>
 <p>Développement d’un <strong>assistant conversationnel spécialisé</strong> pour l’accompagnement en mathématiques et en statistiques. Objectifs :</p>
 <ul>
 <li>offrir des explications adaptées au matériel de cours ;</li>
@@ -402,7 +422,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="tutoriels-interactifs-learnr" class="level4">
 <h4 class="anchored" data-anchor-id="tutoriels-interactifs-learnr">4. Tutoriels interactifs <em>learnr</em></h4>
-<p><strong>Liens :</strong> - 🚴‍♂️ <a href="https://aureliennicosia.shinyapps.io/TutorielBixi/">Tutoriel BIXI — Analyse et visualisation de données</a> - 🎨 <a href="https://aureliennicosia.shinyapps.io/TutorielGGplot/">Tutoriel ggplot2 — Visualisation de données</a></p>
+<p><strong>Liens :</strong> - 🚴‍♂️ <a href="https://aureliennicosia.shinyapps.io/TutorielBixi/">Tutoriel BIXI - Analyse et visualisation de données</a> - 🎨 <a href="https://aureliennicosia.shinyapps.io/TutorielGGplot/">Tutoriel ggplot2 - Visualisation de données</a></p>
 <p>Ces tutoriels interactifs, développés avec le package <strong>learnr</strong>, permettent aux étudiantes et étudiants d’apprendre les bases de la science des données en manipulant directement du code R dans un environnement guidé. Ils combinent explications, exercices pratiques et rétroactions automatiques, afin de favoriser l’apprentissage actif et la compréhension progressive des concepts.</p>
 <p><strong>Tutoriel BIXI</strong> Ce tutoriel repose sur un jeu de données réelles des trajets BIXI Montréal. Les participantes et participants y apprennent à importer, nettoyer, explorer et visualiser des données à l’aide du <em>tidyverse</em>. Chaque étape est accompagnée d’un court texte explicatif et d’exercices auto-corrigés, renforçant la compréhension du cycle complet d’analyse de données.</p>
 <p><strong>Tutoriel ggplot2</strong> Ce tutoriel guide l’étudiant·e à travers les principes de la grammaire des graphiques de ggplot2. Il illustre comment construire des visualisations efficaces et esthétiques, personnaliser les éléments graphiques et interpréter les relations entre variables. L’approche interactive encourage l’expérimentation directe et la réflexion critique sur la visualisation des données.</p>
@@ -425,8 +445,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Ces initiatives contribuent à bâtir une <strong>communauté de pratique francophone</strong> autour de la science des données et des pédagogies numériques ouvertes.</p>
 <p>Voici des exemples de matériel sur GitHub:</p>
 <ul>
-<li><a href="https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/">SSC 2026 — Atelier IA et enseignement</a> : galerie publique de prompts, activités, règles d’usage de l’IA et routines de vérification réutilisables en enseignement.</li>
-<li><a href="https://github.com/AurelienNicosiaULaval/EIOM_2025">EIOM 2025 — Ateliers de modélisation statistique</a> et <a href="https://aureliennicosiaulaval.github.io/EIOM_2025/">Site web</a></li>
+<li><a href="https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/">SSC 2026 - Atelier IA et enseignement</a> : galerie publique de prompts, activités, règles d’usage de l’IA et routines de vérification réutilisables en enseignement.</li>
+<li><a href="https://github.com/AurelienNicosiaULaval/EIOM_2025">EIOM 2025 - Ateliers de modélisation statistique</a> et <a href="https://aureliennicosiaulaval.github.io/EIOM_2025/">Site web</a></li>
 <li><a href="https://github.com/AurelienNicosiaULaval/ASSQ_E25">ASSQ 2025 - Quoi de neuf en science des données ?</a></li>
 </ul>
 

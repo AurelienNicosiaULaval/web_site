@@ -19,6 +19,12 @@ Version CRAN : 0.1.0, publiée le 8 juin 2026.
 ![Logo hexagonal DonutMap](../assets/packages/donutmap-logo.svg){.package-logo}
 :::
 
+## Aperçu visuel
+
+L’image ci-dessous provient de la galerie d’exemples du package et montre une carte statique avec liens courbés et flèches.
+
+![Exemple de carte DonutMap avec liens courbés colorés par corridor.](../assets/packages/donutmap-example.png){.package-example}
+
 ## Exemple d’utilisation
 
 Le code suivant crée des diagrammes en anneau par site et ajoute des flux entre sites. Les données sont simulées pour illustrer la structure attendue par le package.
@@ -70,16 +76,9 @@ donut_map(
 )
 ```
 
-## Aperçu visuel
-
-L’image ci-dessous provient de la galerie d’exemples du package et montre une carte statique avec liens courbés et flèches.
-
-![Exemple de carte DonutMap avec liens courbés colorés par corridor.](../assets/packages/donutmap-example.png){.package-example}
-
 ## À quoi sert DonutMap ?
 
 - comparer des compositions locales sur une carte ;
 - visualiser des flux entre lieux avec des trajectoires droites ou courbées ;
 - produire une carte statique `ggplot2` ou une carte interactive `leaflet` ;
 - conserver une interface de données tidy compatible avec des flux de travail reproductibles.
-

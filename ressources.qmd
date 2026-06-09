@@ -4,32 +4,32 @@ title: "Autres"
 
 ## Centres d’intérêt et explorations
 
-Au-delà de la recherche et de l’enseignement, plusieurs domaines nourrissent ma curiosité et mes projets.  
+Au-delà de la recherche et de l’enseignement, plusieurs domaines nourrissent ma curiosité et mes projets.
 J’aime explorer les frontières entre mathématiques, art, données et créativité numérique.
 
 
 
 ### Mathématiques, art et visualisation
-Je m’intéresse à la beauté mathématique sous toutes ses formes — qu’il s’agisse d’une équation élégante, d’une visualisation bien conçue ou d’un motif généré aléatoirement.  
+Je m’intéresse à la beauté mathématique sous toutes ses formes - qu’il s’agisse d’une équation élégante, d’une visualisation bien conçue ou d’un motif généré aléatoirement.
 Cette fascination m’a conduit à développer des projets à la frontière entre art et science des données, comme :
 
-- 🎨 *Dessin numérique avec R* : exploration des textures et motifs génératifs produits à partir de lois de probabilités.  
-- 📐 *Recettes mathématiques* : un projet d’écriture où chaque concept mathématique est présenté comme une “recette”, mêlant rigueur et poésie.  
+- 🎨 *Dessin numérique avec R* : exploration des textures et motifs génératifs produits à partir de lois de probabilités.
+- 📐 *Recettes mathématiques* : un projet d’écriture où chaque concept mathématique est présenté comme une “recette”, mêlant rigueur et poésie.
 📘 [Voir un exemple de deux recettes mathématique (PDF)](Example Recipes.pdf) sur l'identité d'Euler ($e^{i\pi}+1 = 0$) et sur la suite de Fibonacci
 
 
 ### Écriture et vulgarisation
 
-J’aime rendre les mathématiques **accessibles, vivantes et inspirantes**.  
-Mes projets d’écriture associent souvent narration, clarté visuelle et rigueur conceptuelle.  
+J’aime rendre les mathématiques **accessibles, vivantes et inspirantes**.
+Mes projets d’écriture associent souvent narration, clarté visuelle et rigueur conceptuelle.
 Je travaille actuellement sur :
 
-- *La cuisine des données* — une plateforme d’apprentissage inspirée de l’univers culinaire ;  
+- *La cuisine des données* - une plateforme d’apprentissage inspirée de l’univers culinaire ;
 
-- *Recettes mathématiques* — un ouvrage illustré pour découvrir la beauté des théorèmes à travers des “recettes” courtes et visuelles.  
+- *Recettes mathématiques* - un ouvrage illustré pour découvrir la beauté des théorèmes à travers des “recettes” courtes et visuelles.
 
 
 
-> 🌱 Mon parcours s’articule autour d’une idée simple :  
-**faire dialoguer la rigueur scientifique et la créativité humaine**,  
+> 🌱 Mon parcours s’articule autour d’une idée simple :
+**faire dialoguer la rigueur scientifique et la créativité humaine**,
 pour que les mathématiques et la science des données deviennent des espaces de découverte, d’art et de transmission.

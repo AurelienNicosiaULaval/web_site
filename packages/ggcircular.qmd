@@ -1,0 +1,65 @@
+---
+title: "ggcircular"
+---
+
+::: {.package-hero}
+::: {}
+`ggcircular` est une extension `ggplot2` pour visualiser des données circulaires, axiales et directionnelles. Le package fournit des géométries, statistiques, échelles et thèmes pour travailler avec des angles, orientations, heures de la journée, directions de mouvement et distributions circulaires.
+
+Version CRAN : 0.1.0, publiée le 4 juin 2026.
+
+::: {.link-list}
+[CRAN](https://cran.r-project.org/web/packages/ggcircular/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[GitHub](https://github.com/AurelienNicosiaULaval/ggcircular){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[Documentation](https://aureliennicosiaulaval.github.io/ggcircular/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[Référence](https://aureliennicosiaulaval.github.io/ggcircular/reference/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+
+![Logo hexagonal ggcircular](../assets/packages/ggcircular-logo.svg){.package-logo}
+:::
+
+## Aperçu visuel
+
+::: {.package-gallery}
+![Exemple ggcircular avec diagramme de rose, densité circulaire et direction moyenne.](../assets/packages/ggcircular-example.png){.package-example}
+![Exemple ggcircular pour directions de mouvement.](../assets/packages/ggcircular-movement.png){.package-example}
+:::
+
+## Exemple d’utilisation
+
+Le code suivant reprend l’esprit du démarrage rapide du package : représenter des directions de vent hivernales avec un diagramme de rose, une densité circulaire et une direction moyenne.
+
+```r
+# Load libraries
+library(ggplot2)
+library(dplyr)
+library(ggcircular)
+
+# Plot winter wind directions
+wind_directions |>
+  filter(season == "winter") |>
+  ggplot(aes(x = direction)) +
+  geom_rose(
+    aes(y = after_stat(density), fill = after_stat(density)),
+    bins = 24,
+    alpha = 0.78
+  ) +
+  geom_circular_density(linewidth = 1.1, colour = "#123C4A") +
+  geom_mean_direction(
+    length = "resultant",
+    colour = "#E4572E",
+    linewidth = 1.1
+  ) +
+  scale_x_circular_compass() +
+  coord_circular(zero = "north", direction = "clockwise") +
+  labs(fill = "densité", title = "Directions de vent en hiver") +
+  theme_circular()
+```
+
+## À quoi sert ggcircular ?
+
+- créer des diagrammes de rose et des histogrammes circulaires ;
+- estimer et afficher des densités circulaires ;
+- représenter directions moyennes, arcs de confiance et distributions théoriques ;
+- produire des graphiques `ggplot2` reproductibles pour données périodiques, axiales ou directionnelles.

@@ -16,6 +16,7 @@
     "enseignement.html",
     "recherche.html",
     "packages.html",
+    "packages/circularregression.html",
     "packages/donutmap.html",
     "packages/ggcircular.html",
     "innovation.html",

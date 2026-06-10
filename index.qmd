@@ -21,6 +21,7 @@ Chargé d’enseignement en mathématiques et statistiques à l’Université La
 ::: {.home-hero-thumbs}
 ![Logo DonutMap](assets/packages/donutmap-logo.svg)
 ![Exemple ggcircular](assets/packages/ggcircular-example.png)
+![Logo CircularRegression](assets/packages/circularregression-logo.svg)
 :::
 :::
 :::
@@ -40,12 +41,13 @@ Le 22 mai 2026, ULaval Nouvelles a consacré un article au GPT-CDA, un assistant
 :::
 
 ::: {.news-panel}
-### DonutMap et ggcircular sur CRAN
-Les packages R `DonutMap` et `ggcircular` sont disponibles sur le CRAN depuis juin 2026. Ils soutiennent respectivement la cartographie de diagrammes en anneau et la visualisation de données circulaires.
+### Trois packages R récents sur CRAN
+Les packages R `DonutMap`, `ggcircular` et `CircularRegression` sont disponibles sur le CRAN depuis juin 2026. Ils soutiennent la cartographie de diagrammes en anneau, la visualisation de données circulaires et la régression pour réponses circulaires.
 
 ::: {.link-list}
 [DonutMap](packages/donutmap.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 [ggcircular](packages/ggcircular.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[CircularRegression](packages/circularregression.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 [Tous les packages](packages.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 :::
 :::
@@ -93,7 +95,7 @@ Ensemble de packages R développés pour la statistique appliquée.
 
 [GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
-[CircularRegression](https://github.com/AurelienNicosiaULaval/CircularRegression){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[CircularRegression](packages/circularregression.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 
 [ggcircular](packages/ggcircular.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 

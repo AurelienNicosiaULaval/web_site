@@ -20,7 +20,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 /* CSS for syntax highlighting */
@@ -124,6 +124,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "enseignement.html",
     "recherche.html",
     "packages.html",
+    "packages/circularregression.html",
     "packages/donutmap.html",
     "packages/ggcircular.html",
     "innovation.html",
@@ -284,41 +285,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Accueil</span></a>
-  </li>
+  </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../enseignement.html">
+    <a class="nav-link" href="../enseignement.html"> 
 <span class="menu-text">Enseignement</span></a>
-  </li>
+  </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../recherche.html">
+    <a class="nav-link" href="../recherche.html"> 
 <span class="menu-text">Recherche</span></a>
-  </li>
+  </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../packages.html">
+    <a class="nav-link" href="../packages.html"> 
 <span class="menu-text">Packages R</span></a>
-  </li>
+  </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../innovation.html">
+    <a class="nav-link" href="../innovation.html"> 
 <span class="menu-text">Innovation Pédagogique</span></a>
-  </li>
+  </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../ressources.html">
+    <a class="nav-link" href="../ressources.html"> 
 <span class="menu-text">Autres</span></a>
-  </li>
+  </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../a-propos.html">
+    <a class="nav-link" href="../a-propos.html"> 
 <span class="menu-text">À propos</span></a>
-  </li>
+  </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv/index.html">
+    <a class="nav-link" href="../cv/index.html"> 
 <span class="menu-text">CV</span></a>
-  </li>
+  </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../en/index.html">
+    <a class="nav-link" href="../en/index.html"> 
 <span class="menu-text">Langue</span></a>
-  </li>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -333,7 +334,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Sur cette page</h2>
-
+   
   <ul>
   <li><a href="#aperçu-visuel" id="toc-aperçu-visuel" class="nav-link active" data-scroll-target="#aperçu-visuel">Aperçu visuel</a></li>
   <li><a href="#exemple-dutilisation" id="toc-exemple-dutilisation" class="nav-link" data-scroll-target="#exemple-dutilisation">Exemple d’utilisation</a></li>
@@ -353,11 +354,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div class="quarto-title-meta">
 
-
-
-
+    
+  
+    
   </div>
-
+  
 
 
 </header>
@@ -436,7 +437,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {
+        if (clz.startsWith('code-annotation-')) {                     
           return true;
         }
       }
@@ -456,11 +457,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
         button.setAttribute("data-bs-title", "Copié");
-        tooltip = new bootstrap.Tooltip(button,
-          { trigger: "manual",
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
             offset: [0, -8]});
-        tooltip.show();
+        tooltip.show();    
       }
       setTimeout(function() {
         if (tooltip) {
@@ -542,7 +543,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       if (onUntriggerFn) {
         config.onUntrigger = onUntriggerFn;
       }
-      window.tippy(el, config);
+      window.tippy(el, config); 
     }
     const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
     for (var i=0; i<noterefs.length; i++) {
@@ -617,7 +618,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       tippyHover(xref, undefined, function(instance) {
         instance.disable();
         let url = xref.getAttribute('href');
-        let hash = undefined;
+        let hash = undefined; 
         if (url.startsWith('#')) {
           hash = url;
         } else {
@@ -645,7 +646,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
               if (note !== null) {
                 const html = processXRef(id, note);
                 instance.setContent(html);
-              }
+              } 
             }).finally(() => {
               instance.enable();
               instance.show();
@@ -669,7 +670,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
               }
               const html = processXRef(null, note);
               instance.setContent(html);
-            }
+            } 
           }).finally(() => {
             instance.enable();
             instance.show();
@@ -709,7 +710,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
               height = bottom - top;
             }
             if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it
+              // cook up a div (if necessary) and position it 
               let div = window.document.getElementById("code-annotation-line-highlight");
               if (div === null) {
                 div = window.document.createElement("div");
@@ -835,7 +836,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <div class="nav-footer">
     <div class="nav-footer-left">
 <p>© 2026 <strong>Aurélien Nicosia</strong> - Université Laval 📍 Québec, QC - ✉️ <a href="mailto:aurelien.nicosia@mat.ulaval.ca">aurelien.nicosia@mat.ulaval.ca</a></p>
-</div>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/packages/ggcircular.qmd" class="toc-action"><i class="bi bi-github"></i>Modifier cette page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div>

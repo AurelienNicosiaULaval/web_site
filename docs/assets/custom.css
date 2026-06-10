@@ -5,6 +5,14 @@
 .navbar-dark .navbar-nav .nav-link:hover,
 a:hover { text-decoration: none; }
 .navbar-brand img { height: 26px; }
+.navbar .navbar-nav .nav-link {
+  padding-left: 0.45rem;
+  padding-right: 0.45rem;
+}
+.navbar .navbar-nav .nav-link .menu-text,
+.navbar-brand {
+  white-space: nowrap;
+}
 .page-footer { font-size: .95rem; opacity: .9; }
 .lead { font-size: 1.1rem; }
 h1, h2, h3 a.anchorjs-link { color: inherit; }
@@ -280,7 +288,13 @@ body:has(.home-hero) #title-block-header {
   margin-left: 0.15rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
+  .navbar .navbar-nav .nav-link {
+    font-size: 0.92rem;
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+  }
+
   .lang-switch-text {
     display: none;
   }

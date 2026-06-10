@@ -42,8 +42,8 @@ Je développe des outils open source et des environnements pédagogiques numéri
 ### Logiciels et ressources ouvertes
 - `DonutMap` : package R disponible sur le CRAN depuis 2026 pour créer des cartes de diagrammes en anneau avec `sf`, `ggplot2` et `leaflet`.
 - `ggcircular` : package R disponible sur le CRAN depuis 2026 pour les données circulaires, axiales et directionnelles.
+- `CircularRegression` : package R disponible sur le CRAN depuis 2026 pour la régression de réponses circulaires.
 - `GLBFP` : package R pour l’estimation de densité et la détection d’observations atypiques.
-- `CircularRegression` : outils pour la régression de données circulaires et directionnelles.
 - `site_ressources_SSD` : plateforme de ressources pédagogiques ouvertes pour la science des données.
 
 
@@ -51,5 +51,5 @@ Je développe des outils open source et des environnements pédagogiques numéri
 ### Distinctions et subventions
 - **Prix Enseignant Étoile ULaval** (2014, 2023, 2024, 2025, 2026)
 - **2026 New Investigator Presentation Award / Prix de la présentation par un nouveau chercheur**, SSC 2026
-- **Subventions PAIP** (2023–2026) - innovation pédagogique et IA
+- **Subventions PAIP** (2023-2026) - innovation pédagogique et IA
 - **CALQ** (2024) - *Dessin numérique avec R*

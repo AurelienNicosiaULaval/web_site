@@ -32,21 +32,21 @@
     "href": "packages.html",
     "title": "Packages R",
     "section": "",
-    "text": "Cette page rassemble les packages R que je développe et maintiens, avec une attention particulière aux packages disponibles sur le CRAN et accompagnés d’une documentation ouverte.\nLes informations CRAN ci-dessous ont été vérifiées le 9 juin 2026."
+    "text": "Cette page rassemble les packages R que je développe et maintiens, avec une attention particulière aux packages disponibles sur le CRAN et accompagnés d’une documentation ouverte.\nLes informations CRAN ci-dessous ont été vérifiées le 10 juin 2026."
   },
   {
     "objectID": "packages.html#packages-sur-le-cran",
     "href": "packages.html#packages-sur-le-cran",
     "title": "Packages R",
     "section": "Packages sur le CRAN",
-    "text": "Packages sur le CRAN\n\n\n\n\n\n\nDonutMap\n\n\nCartes en anneaux avec sf, ggplot2 et leaflet. Le package permet de placer des diagrammes en anneau sur des cartes statiques ou interactives et d’ajouter des flux origine-destination.\nVersion CRAN : 0.1.0, publiée le 8 juin 2026.\n\nPage dédiée CRAN GitHub Documentation\n\n\n\n\n\n\n\n\nggcircular\n\n\nExtension ggplot2 pour données circulaires, axiales et directionnelles : diagrammes de rose, densités circulaires, directions moyennes, arcs de confiance et visualisations de mouvement.\nVersion CRAN : 0.1.0, publiée le 4 juin 2026.\n\nPage dédiée CRAN GitHub Documentation\n\n\n\n\n\n\nGO\n\nGeneralOaxaca\n\n\nDécomposition de Blinder-Oaxaca pour modèles linéaires généralisés, avec erreurs-types bootstrap et sorties pour décompositions en deux et trois composantes.\nVersion CRAN : 1.0, publiée le 17 août 2015.\n\nCRAN"
+    "text": "Packages sur le CRAN\n\n\n\n\n\n\nDonutMap\n\n\nCartes en anneaux avec sf, ggplot2 et leaflet. Le package permet de placer des diagrammes en anneau sur des cartes statiques ou interactives et d’ajouter des flux origine-destination.\nVersion CRAN : 0.1.0, publiée le 8 juin 2026.\n\nPage dédiée CRAN GitHub Documentation\n\n\n\n\n\n\n\n\nggcircular\n\n\nExtension ggplot2 pour données circulaires, axiales et directionnelles : diagrammes de rose, densités circulaires, directions moyennes, arcs de confiance et visualisations de mouvement.\nVersion CRAN : 0.1.0, publiée le 4 juin 2026.\n\nPage dédiée CRAN GitHub Documentation\n\n\n\n\n\n\n\n\nCircularRegression\n\n\nModèles de régression pour réponses circulaires : régression angulaire homogène, consensus angulaire, workflow en deux étapes et extension à effet aléatoire pour réponses circulaires groupées.\nVersion CRAN : 0.5.1, publiée le 10 juin 2026.\n\nPage dédiée CRAN GitHub Vignette\n\n\n\n\n\n\nGO\n\nGeneralOaxaca\n\n\nDécomposition de Blinder-Oaxaca pour modèles linéaires généralisés, avec erreurs-types bootstrap et sorties pour décompositions en deux et trois composantes.\nVersion CRAN : 1.0, publiée le 17 août 2015.\n\nCRAN"
   },
   {
     "objectID": "packages.html#projets-github-liés",
     "href": "packages.html#projets-github-liés",
     "title": "Packages R",
     "section": "Projets GitHub liés",
-    "text": "Projets GitHub liés\nCertains packages et outils sont aussi développés ou maintenus sur GitHub, même s’ils ne sont pas tous sur le CRAN au moment de cette vérification.\n\nGLBFP : estimation de densité par General Linear Blend Frequency Polygons.\nCircularRegression : modèles de régression pour réponses circulaires.\ntutorizeR : conversion de matériel R Markdown ou Quarto en tutoriels interactifs."
+    "text": "Projets GitHub liés\nCertains packages et outils sont aussi développés ou maintenus sur GitHub, même s’ils ne sont pas tous sur le CRAN au moment de cette vérification.\n\nGLBFP : estimation de densité par General Linear Blend Frequency Polygons.\ntutorizeR : conversion de matériel R Markdown ou Quarto en tutoriels interactifs."
   },
   {
     "objectID": "en/ressources.html",
@@ -67,7 +67,7 @@
     "href": "en/cv/index.html",
     "title": "CV (overview)",
     "section": "",
-    "text": "Aurélien Nicosia Lecturer - Department of Mathematics and Statistics Université Laval (Québec, Canada) aureliennicosiaulaval.github.io/web_site ORCID: 0000-0002-0974-9988\n\nProfile\nResearcher and instructor in statistics and data science, interested in complex data modeling, computational statistics, and educational innovation. My work connects mathematical rigor, reproducibility, and open knowledge dissemination. I develop open-source tools and digital teaching environments.\n\n\nIn brief\n\n🎓 Ph.D. in statistics, Université Laval (2024)\n👨‍🏫 Lecturer and CDA coordinator, Université Laval\n🤝 Course instructor, UQAC (computer science and data science)\n💻 Former R&D Director - The Co-operators\n🧠 Core interests: density estimation, HMMs, directional models, digital pedagogy, and AI in teaching\n\n\n\nSelected publications\n\nBeyond the next step: A multi-criteria generative validation framework for step selection functions, Methods in Ecology and Evolution, 2026.\nBehavioural state inference from movement and environmental data using Markovian step selection functions, bioRxiv, 2026.\nA Multi-State Conditional Logistic Regression Model for Animal Movement, Annals of Applied Statistics, 2017.\nA General Angular Regression Model for Data on Animal Movement, JRSS-C, 2015.\n\n\n\nSoftware and open resources\n\nDonutMap: R package available on CRAN since 2026 for creating donut maps with sf, ggplot2, and leaflet.\nggcircular: R package available on CRAN since 2026 for circular, axial, and directional data.\nGLBFP: R package for density estimation and atypical-observation detection.\nCircularRegression: tools for regression with circular and directional data.\nsite_ressources_SSD: open teaching-resource platform for data science.\n\n\n\nAwards and grants\n\nULaval Star Teacher Award (2014, 2023, 2024, 2025, 2026)\n2026 New Investigator Presentation Award, SSC 2026\nPAIP grants (2023-2026) - educational innovation and AI\nCALQ (2024) - Digital drawing with R"
+    "text": "Aurélien Nicosia Lecturer - Department of Mathematics and Statistics Université Laval (Québec, Canada) aureliennicosiaulaval.github.io/web_site ORCID: 0000-0002-0974-9988\n\nProfile\nResearcher and instructor in statistics and data science, interested in complex data modeling, computational statistics, and educational innovation. My work connects mathematical rigor, reproducibility, and open knowledge dissemination. I develop open-source tools and digital teaching environments.\n\n\nIn brief\n\n🎓 Ph.D. in statistics, Université Laval (2024)\n👨‍🏫 Lecturer and CDA coordinator, Université Laval\n🤝 Course instructor, UQAC (computer science and data science)\n💻 Former R&D Director - The Co-operators\n🧠 Core interests: density estimation, HMMs, directional models, digital pedagogy, and AI in teaching\n\n\n\nSelected publications\n\nBeyond the next step: A multi-criteria generative validation framework for step selection functions, Methods in Ecology and Evolution, 2026.\nBehavioural state inference from movement and environmental data using Markovian step selection functions, bioRxiv, 2026.\nA Multi-State Conditional Logistic Regression Model for Animal Movement, Annals of Applied Statistics, 2017.\nA General Angular Regression Model for Data on Animal Movement, JRSS-C, 2015.\n\n\n\nSoftware and open resources\n\nDonutMap: R package available on CRAN since 2026 for creating donut maps with sf, ggplot2, and leaflet.\nggcircular: R package available on CRAN since 2026 for circular, axial, and directional data.\nCircularRegression: R package available on CRAN since 2026 for regression with circular responses.\nGLBFP: R package for density estimation and atypical-observation detection.\nsite_ressources_SSD: open teaching-resource platform for data science.\n\n\n\nAwards and grants\n\nULaval Star Teacher Award (2014, 2023, 2024, 2025, 2026)\n2026 New Investigator Presentation Award, SSC 2026\nPAIP grants (2023-2026) - educational innovation and AI\nCALQ (2024) - Digital drawing with R"
   },
   {
     "objectID": "en/packages/donutmap.html",
@@ -98,151 +98,137 @@
     "text": "What is DonutMap for?\n\ncomparing local compositions on a map;\nvisualizing flows between locations with straight or curved trajectories;\nproducing either a static ggplot2 map or an interactive leaflet map;\nkeeping a tidy-data interface compatible with reproducible workflows."
   },
   {
-    "objectID": "en/enseignement.html",
-    "href": "en/enseignement.html",
-    "title": "Teaching",
+    "objectID": "en/packages/ggcircular.html",
+    "href": "en/packages/ggcircular.html",
+    "title": "ggcircular",
     "section": "",
-    "text": "I approach teaching mathematics, statistics, and data science as a process of understanding and exploration. Learning is based on three principles:\n\nLearning by doing: practice and hands-on use of tools like R or Quarto help students build meaning.\nLearning through collaboration: team projects and discussion are central in my courses.\nTransparent learning: every activity is documented and reproducible, embedding scientific rigor in student work.\n\nI rely on project-based learning, formative assessment, and a supportive environment where rigor and curiosity can coexist."
+    "text": "ggcircular is a ggplot2 extension for visualizing circular, axial, and directional data. The package provides geoms, stats, scales, and themes for angles, orientations, times of day, movement directions, and circular distributions.\nCRAN version: 0.1.0, published on June 4, 2026.\n\nCRAN GitHub Documentation Reference\n\n\n\n\n\nggcircular hex logo"
   },
   {
-    "objectID": "en/enseignement.html#teaching-philosophy",
-    "href": "en/enseignement.html#teaching-philosophy",
-    "title": "Teaching",
+    "objectID": "en/packages/ggcircular.html#visual-preview",
+    "href": "en/packages/ggcircular.html#visual-preview",
+    "title": "ggcircular",
+    "section": "Visual preview",
+    "text": "Visual preview"
+  },
+  {
+    "objectID": "en/packages/ggcircular.html#usage-example",
+    "href": "en/packages/ggcircular.html#usage-example",
+    "title": "ggcircular",
+    "section": "Usage example",
+    "text": "Usage example\nThe code below follows the package quick start: it displays winter wind directions with a rose diagram, a circular density estimate, and a mean direction.\n# Load libraries\nlibrary(ggplot2)\nlibrary(dplyr)\nlibrary(ggcircular)\n\n# Plot winter wind directions\nwind_directions |&gt;\n  filter(season == \"winter\") |&gt;\n  ggplot(aes(x = direction)) +\n  geom_rose(\n    aes(y = after_stat(density), fill = after_stat(density)),\n    bins = 24,\n    alpha = 0.78\n  ) +\n  geom_circular_density(linewidth = 1.1, colour = \"#123C4A\") +\n  geom_mean_direction(\n    length = \"resultant\",\n    colour = \"#E4572E\",\n    linewidth = 1.1\n  ) +\n  scale_x_circular_compass() +\n  coord_circular(zero = \"north\", direction = \"clockwise\") +\n  labs(fill = \"density\", title = \"Winter wind directions\") +\n  theme_circular()"
+  },
+  {
+    "objectID": "en/packages/ggcircular.html#what-is-ggcircular-for",
+    "href": "en/packages/ggcircular.html#what-is-ggcircular-for",
+    "title": "ggcircular",
+    "section": "What is ggcircular for?",
+    "text": "What is ggcircular for?\n\ncreating rose diagrams and circular histograms;\nestimating and displaying circular densities;\nshowing mean directions, confidence arcs, and theoretical distributions;\nproducing reproducible ggplot2 graphics for periodic, axial, or directional data."
+  },
+  {
+    "objectID": "en/cda/index.html",
+    "href": "en/cda/index.html",
+    "title": "Center for Tutoring and Learning (CDA) - Math & Statistics",
     "section": "",
-    "text": "I approach teaching mathematics, statistics, and data science as a process of understanding and exploration. Learning is based on three principles:\n\nLearning by doing: practice and hands-on use of tools like R or Quarto help students build meaning.\nLearning through collaboration: team projects and discussion are central in my courses.\nTransparent learning: every activity is documented and reproducible, embedding scientific rigor in student work.\n\nI rely on project-based learning, formative assessment, and a supportive environment where rigor and curiosity can coexist."
+    "text": "The Center for Tutoring and Learning in Mathematics and Statistics provides free support to students enrolled in several courses in the Department of Mathematics and Statistics at Université Laval.\nThe CDA combines human tutoring, support workshops, and digital resources to support learning without replacing students’ own reasoning and understanding."
   },
   {
-    "objectID": "en/enseignement.html#courses-taught",
-    "href": "en/enseignement.html#courses-taught",
-    "title": "Teaching",
-    "section": "Courses taught",
-    "text": "Courses taught\n\nUniversité Laval - Department of Mathematics and Statistics\n\nSTT-1100 - Introduction to Data Science\nThis introductory course focuses on professional situations where students assume a data science role. Learning goals: master the full analysis pipeline, from data import to communication of results. Tools: R, tidyverse, Quarto, GitHub. Course notes: STT-1100_notes_de_cours Philosophy: active learning, francophone case studies, ethical reflection on data.\nSTT-1100 GPT: course-specific conversational assistant, to support student learning.\n\n\nSTT-4230 - R for scientists\nCourse focused on good development practices: project structure, documentation, and collaboration through GitHub. Tools: R, Quarto, GitHub, testthat. Resource: Course notes from Sophie Baillargeon. Philosophy: clarity, reproducibility, and integration of modern tools. STT-4230 GPT: course-specific conversational assistant, to support student learning. UlavalSSD: UlavalSSD R package, featuring practical utilities for data science at Université Laval.\n\n\nSTT-2200 - Data Analysis\nAn applied statistics course where students work from real datasets and produce reproducible reports. Tools: R, ggplot2, dplyr, RMarkdown. Philosophy: interpretation before automation, clear communication of results.\n\n\n\nUniversité du Québec à Chicoutimi (UQAC)\n\n8INF404 - Introduction to Data Science and Business Intelligence\nAn interdisciplinary course introducing the full data science project cycle: preparation, exploration, and predictive modeling. Tools: R, shiny, Quarto. Philosophy: connect technical work to decision-making, with an emphasis on communication.\n\n\n8INF416 - Visualization and Interface\nCourse devoted to interactive visualization and scientific communication. Tools: R (Shiny), ggplot2. Philosophy: visual clarity, accessibility, and rigor in graphical messaging.\n\n\n8STT108 - Statistical Methods for Big Data\nIntroduction to statistical methods applied to large datasets (big data). Tools: R, tidyverse, parallel computing. Philosophy: emphasize model logic before automation."
+    "objectID": "en/cda/index.html#services",
+    "href": "en/cda/index.html#services",
+    "title": "Center for Tutoring and Learning (CDA) - Math & Statistics",
+    "section": "Services",
+    "text": "Services\n\nTutoring: targeted guidance on course concepts.\nWorkshops: review sessions, problem-solving methods, and exam preparation.\nLearning support: work organization, note-taking, and exam preparation.\nOrientation: referral to appropriate resources when needs go beyond the CDA scope."
   },
   {
-    "objectID": "en/enseignement.html#teaching-recognition",
-    "href": "en/enseignement.html#teaching-recognition",
-    "title": "Teaching",
-    "section": "Teaching recognition",
-    "text": "Teaching recognition\nI received the Star Teacher Award again in 2026. This recognition adds to the 2014, 2023, 2024, and 2025 editions already listed in my CV. The Faculty of Science and Engineering describes the title as a recognition given to instructors who receive excellent student evaluations.\nLearn more about the FSG Teaching Stars ceremony"
+    "objectID": "en/cda/index.html#gpt-cda",
+    "href": "en/cda/index.html#gpt-cda",
+    "title": "Center for Tutoring and Learning (CDA) - Math & Statistics",
+    "section": "GPT-CDA",
+    "text": "GPT-CDA\nGPT-CDA is a pedagogical conversational assistant developed to support learning in mathematics and statistics. The project is designed to guide reasoning, use course-specific notation, and maintain the connection with CDA teaching assistants when human support is preferable.\nThe project was featured in ULaval News on May 22, 2026."
   },
   {
-    "objectID": "en/enseignement.html#shared-resources",
-    "href": "en/enseignement.html#shared-resources",
-    "title": "Teaching",
-    "section": "Shared resources",
-    "text": "Shared resources\n\n🗂️ Teaching portfolio (web page) Overview of my teaching approach, activities, and achievements.\n📚 Teaching resources platform for instructors Quarto templates, interactive tutorials, and reproducible examples.\n🤖 GPT-CDA project A conversational assistant supporting success in mathematics and statistics, featured in ULaval News on May 22, 2026.\n\n\n✨ My goal: train autonomous, rigorous, and curious data scientists who can connect theory, practice, and scientific communication."
+    "objectID": "en/cda/index.html#practical-information",
+    "href": "en/cda/index.html#practical-information",
+    "title": "Center for Tutoring and Learning (CDA) - Math & Statistics",
+    "section": "Practical information",
+    "text": "Practical information\n\nAffiliation: Department of Mathematics and Statistics, Université Laval.\nCoordinator: Aurélien Nicosia.\nHours and format: published at the start of each term on the official CDA page.\nContact: aurelien.nicosia@mat.ulaval.ca."
   },
   {
-    "objectID": "en/publications.html",
-    "href": "en/publications.html",
-    "title": "Media",
+    "objectID": "en/cda/index.html#how-to-get-in-touch",
+    "href": "en/cda/index.html#how-to-get-in-touch",
+    "title": "Center for Tutoring and Learning (CDA) - Math & Statistics",
+    "section": "How to get in touch",
+    "text": "How to get in touch\n\nVisit the official CDA page for up-to-date institutional information.\nWatch for beginning-of-term announcements for hours, workshops, and access details.\n\n\n\n\n\n\n\nNote\n\n\n\nSchedules change from term to term. The official Department page remains the reference source for practical details."
+  },
+  {
+    "objectID": "en/index.html",
+    "href": "en/index.html",
+    "title": "Aurélien Nicosia",
     "section": "",
-    "text": "This page gathers public mentions, articles, videos, competitions, and professional links related to my work."
+    "text": "Lecturer in mathematics and statistics at Université Laval in Quebec City. I develop teaching resources, R packages, and statistical methods that connect rigorous analysis, visualization, and active learning.\n\nTeaching Research R packages Educational innovation"
   },
   {
-    "objectID": "en/publications.html#overview",
-    "href": "en/publications.html#overview",
-    "title": "Media",
+    "objectID": "en/index.html#applied-statistics-r-and-open-teaching",
+    "href": "en/index.html#applied-statistics-r-and-open-teaching",
+    "title": "Aurélien Nicosia",
     "section": "",
-    "text": "This page gathers public mentions, articles, videos, competitions, and professional links related to my work."
+    "text": "Lecturer in mathematics and statistics at Université Laval in Quebec City. I develop teaching resources, R packages, and statistical methods that connect rigorous analysis, visualization, and active learning.\n\nTeaching Research R packages Educational innovation"
   },
   {
-    "objectID": "en/publications.html#videos",
-    "href": "en/publications.html#videos",
-    "title": "Media",
-    "section": "Videos",
-    "text": "Videos\n\nCogito 2016 - Animal habits and cloud formation\n\n\n\nSource: Cogito series (Canal Savoir / AELIÉS, 2016).\n\n\nCo-operators Innovation Space presentation\n\n\n\n\n\nSAS Global Forum 2016 - Student Symposium\nOfficial recap (SAS Blog) with archive resources and videos. → https://www.fsg.ulaval.ca/faculte/actualites/mm-nicosia-et-perreault-grands-vainqueurs-du-symposium-etudiant-du-sas-global-forum-2016-1812"
+    "objectID": "en/index.html#updates",
+    "href": "en/index.html#updates",
+    "title": "Aurélien Nicosia",
+    "section": "2026 updates",
+    "text": "2026 updates\n\n\nGPT-CDA in ULaval News\nOn May 22, 2026, ULaval News published a story about GPT-CDA, a conversational assistant designed to support learning in mathematics and statistics at the CDA.\n\nRead the article CDA page\n\n\n\nThree recent R packages on CRAN\nThe R packages DonutMap, ggcircular, and CircularRegression have been available on CRAN since June 2026. They support donut-chart mapping, circular-data visualization, and regression for circular responses.\n\nDonutMap ggcircular CircularRegression All packages\n\n\n\nSSC 2026\nI led a workshop on AI and teaching, contributed to a public teaching-resource gallery, presented work on LOO-LBFP, and received the 2026 New Investigator Presentation Award.\n\nAI Gallery LOO-LBFP presentation\n\n\n\nAnimal movement publications\nA new article is published in Methods in Ecology and Evolution, and a bioRxiv preprint focuses on behavioural-state inference using Markovian step-selection functions.\n\nMEE article bioRxiv preprint"
   },
   {
-    "objectID": "en/publications.html#press-news-selection",
-    "href": "en/publications.html#press-news-selection",
-    "title": "Media",
-    "section": "Press & news (selection)",
-    "text": "Press & news (selection)\n\nULaval News - Le GPT-CDA, un robot conversationnel qui épaule les étudiantes et étudiants dans les cours de mathématiques et de statistique (May 22, 2026). Article: https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30\nSSC 2026 - 2026 New Investigator Presentation Award for a presentation on LOO-LBFP. Presentation: https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf\nMT180 (Faculty of Science and Engineering, Université Laval) - Jury favorite (March 7, 2016).\nActuLab (Université Laval - Actuarial Science) - Event poster (2016), including the presentation “Can you predict my golf score?”."
+    "objectID": "en/index.html#featured",
+    "href": "en/index.html#featured",
+    "title": "Aurélien Nicosia",
+    "section": "Featured",
+    "text": "Featured\n\n\nDoctoral thesis\nMulti-state models for animal movement analysis.\nView PDF\nCode and materials\n\n\nR packages\nA set of R packages developed for applied statistics.\nDonutMap\nGLBFP\nCircularRegression\nggcircular\nGeneralOaxaca (CRAN)\nView all packages\n\n\nOpen resources\nA platform for open educational resources, tutorials, and teaching tools.\nsite_ressources_SSD\ntutorizeR\nZeroWasteData"
   },
   {
-    "objectID": "en/publications.html#competitions",
-    "href": "en/publications.html#competitions",
-    "title": "Media",
-    "section": "Competitions",
-    "text": "Competitions\n\nSAS Global Forum - Student Symposium (2016) Proceedings recap from SAS GF 2016, program and papers.\nActuLab (2015) - “Can you predict my golf score?” (winning problem). Explanatory WordPress post: “How to predict your golf score like a pro?”"
+    "objectID": "en/index.html#quick-links",
+    "href": "en/index.html#quick-links",
+    "title": "Aurélien Nicosia",
+    "section": "Quick links",
+    "text": "Quick links\n\nTeaching: course notes and assignments → Teaching\nResearch: projects, software, thesis → Research\nEducational innovation: projects and resources → Educational innovation\nAbout and contact → About\nFull CV → CV"
   },
   {
-    "objectID": "en/publications.html#community-contests",
-    "href": "en/publications.html#community-contests",
-    "title": "Media",
-    "section": "Community & contests",
-    "text": "Community & contests\n\nShiny App Store - Shiny Contest (Posit Community, 2021)\n“App Store” prototype for Shiny applications, co-developed by Penelope Ferron and Aurélien Nicosia (May 12, 2021). → Discussion (Posit Community): https://forum.posit.co/t/shiny-app-store-shiny-contest-submission/104579"
-  },
-  {
-    "objectID": "en/publications.html#blog-personal-website",
-    "href": "en/publications.html#blog-personal-website",
-    "title": "Media",
-    "section": "Blog & personal website",
-    "text": "Blog & personal website\n\nWordPress (blog / portfolio) - Posts on SAS GF, Cogito, Shiny apps, publications, etc. Home page: https://aureliennicosia.wordpress.com/ Shiny page (demo related to the Student Symposium): https://aureliennicosia.wordpress.com/shiny-app/ Post: “How to predict your golf score like a pro?” (ActuLab, 2015)."
-  },
-  {
-    "objectID": "en/publications.html#professional-presence",
-    "href": "en/publications.html#professional-presence",
-    "title": "Media",
-    "section": "Professional presence",
-    "text": "Professional presence\n\nResearchGate - Public profile (publications, reads, citations). https://www.researchgate.net/profile/Aurelien-Nicosia-2"
-  },
-  {
-    "objectID": "en/publications.html#eiom---interdisciplinary-school-of-tools-methods-linkedin-mention",
-    "href": "en/publications.html#eiom---interdisciplinary-school-of-tools-methods-linkedin-mention",
-    "title": "Media",
-    "section": "EIOM - Interdisciplinary School of Tools & Methods (LinkedIn mention)",
-    "text": "EIOM - Interdisciplinary School of Tools & Methods (LinkedIn mention)\n\nEIOM (Université Laval) - LinkedIn post (5th edition, 2025). Link: https://www.linkedin.com/posts/eiomulaval_jour-2-de-leiom-2025-5e-%C3%A9dition-activity-7366140743142240256-d4O_"
-  },
-  {
-    "objectID": "en/a-propos.html",
-    "href": "en/a-propos.html",
-    "title": "About",
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "CV (aperçu)",
     "section": "",
-    "text": "My name is Aurélien Nicosia. I am a lecturer in mathematics and statistics at the Department of Mathematics and Statistics at Université Laval (Québec). I am also the coordinator of the Center for Tutoring and Learning (CDA), a student support space where students receive help each term.\nMy work sits at the intersection of university pedagogy, applied statistics, and the development of digital tools for teaching and research. I place strong emphasis on reproducibility, open science, and knowledge accessibility.\n\n\nRecent highlights\n\nDevelopment of GPT-CDA, featured in ULaval News on May 22, 2026.\nPublication of Beyond the next step: A multi-criteria generative validation framework for step selection functions in Methods in Ecology and Evolution.\nRelease of DonutMap on CRAN in 2026, with a dedicated page and open documentation.\nRelease of ggcircular on CRAN in 2026, with open documentation on GitHub.\nWorkshop on AI and teaching at SSC 2026, with a public teaching-resource gallery.\n2026 New Investigator Presentation Award at SSC 2026 for a presentation on LOO-LBFP.\n\n\n\n\nInterests\n\nUniversity pedagogy: active learning, formative assessment, and design of interactive resources.\nApplied statistics: multi-state modeling, density estimation, directional data.\nDigital tools: R, Python, Quarto, GitHub, Shiny, and responsible use of AI in education.\nInnovation: support for learning, interdisciplinary collaboration, and sharing francophone educational resources.\n\n\n\n\nLocation and contact\n📍 Québec, QC, Canada 🏛️ Université Laval - Department of Mathematics and Statistics ✉️ aurelien.nicosia@mat.ulaval.ca\n\n\n\nAbout this site\nThis website is built with Quarto and deployed automatically with GitHub Pages. It gathers my activities in research, teaching, and pedagogical innovation. The source code is available in the repository linked in the navigation bar.\n💡 If you want to suggest a correction or improvement, click the pencil (Edit) icon at the top of the page to open the corresponding version in GitHub."
+    "text": "Aurélien Nicosia Chargé d’enseignement - Département de mathématiques et de statistique Université Laval (Québec, Canada) aureliennicosiaulaval.github.io/web_site ORCID : 0000-0002-0974-9988\n\nProfil\nChercheur et enseignant en statistique et science des données, je m’intéresse à la modélisation de données complexes, la statistique computationnelle et l’innovation pédagogique. Mon approche relie rigueur mathématique, reproductibilité et diffusion libre du savoir. Je développe des outils open source et des environnements pédagogiques numériques.\n\n\nEn bref\n\n🎓 Ph.D. en statistique, Université Laval (2024)\n👨‍🏫 Chargé d’enseignement et responsable du CDA, Université Laval\n🤝 Chargé de cours, UQAC (informatique et science des données)\n💻 Ancien directeur R-D - The Co-operators\n🧠 Intérêts principaux : estimation de densité, HMM, modèles directionnels, pédagogie numérique et IA en enseignement\n\n\n\nSélection de publications\n\nBeyond the next step: A multi-criteria generative validation framework for step selection functions, Methods in Ecology and Evolution, 2026.\nBehavioural state inference from movement and environmental data using Markovian step selection functions, bioRxiv, 2026.\nA Multi-State Conditional Logistic Regression Model for Animal Movement, Annals of Applied Statistics, 2017.\nA General Angular Regression Model for Data on Animal Movement, JRSS-C, 2015.\n\n\n\nLogiciels et ressources ouvertes\n\nDonutMap : package R disponible sur le CRAN depuis 2026 pour créer des cartes de diagrammes en anneau avec sf, ggplot2 et leaflet.\nggcircular : package R disponible sur le CRAN depuis 2026 pour les données circulaires, axiales et directionnelles.\nCircularRegression : package R disponible sur le CRAN depuis 2026 pour la régression de réponses circulaires.\nGLBFP : package R pour l’estimation de densité et la détection d’observations atypiques.\nsite_ressources_SSD : plateforme de ressources pédagogiques ouvertes pour la science des données.\n\n\n\nDistinctions et subventions\n\nPrix Enseignant Étoile ULaval (2014, 2023, 2024, 2025, 2026)\n2026 New Investigator Presentation Award / Prix de la présentation par un nouveau chercheur, SSC 2026\nSubventions PAIP (2023-2026) - innovation pédagogique et IA\nCALQ (2024) - Dessin numérique avec R"
   },
   {
-    "objectID": "recherche.html",
-    "href": "recherche.html",
-    "title": "Recherche",
+    "objectID": "packages/donutmap.html",
+    "href": "packages/donutmap.html",
+    "title": "DonutMap",
     "section": "",
-    "text": "Mes travaux se situent à l’interface des mathématiques appliquées, de la statistique computationnelle et de la science des données. Je développe des méthodes robustes et interprétables pour l’analyse de données complexes, avec une attention particulière à la reproductibilité, aux logiciels libres et au transfert vers la pratique."
+    "text": "DonutMap est un package R pour représenter des compositions locales sous forme de diagrammes en anneau placés sur une carte. Il fournit des fonctions pour créer des cartes statiques avec ggplot2, des cartes interactives avec leaflet, des polygones sf et des lignes de flux origine-destination.\nVersion CRAN : 0.1.0, publiée le 8 juin 2026.\n\nCRAN GitHub Documentation Vignette\n\n\n\n\n\nLogo hexagonal DonutMap"
   },
   {
-    "objectID": "recherche.html#vision-générale",
-    "href": "recherche.html#vision-générale",
-    "title": "Recherche",
-    "section": "",
-    "text": "Mes travaux se situent à l’interface des mathématiques appliquées, de la statistique computationnelle et de la science des données. Je développe des méthodes robustes et interprétables pour l’analyse de données complexes, avec une attention particulière à la reproductibilité, aux logiciels libres et au transfert vers la pratique."
+    "objectID": "packages/donutmap.html#aperçu-visuel",
+    "href": "packages/donutmap.html#aperçu-visuel",
+    "title": "DonutMap",
+    "section": "Aperçu visuel",
+    "text": "Aperçu visuel\nL’image ci-dessous provient de la galerie d’exemples du package et montre une carte statique avec liens courbés et flèches.\n\n\n\nExemple de carte DonutMap avec liens courbés colorés par corridor."
   },
   {
-    "objectID": "recherche.html#axes-de-recherche",
-    "href": "recherche.html#axes-de-recherche",
-    "title": "Recherche",
-    "section": "Axes de recherche",
-    "text": "Axes de recherche\n\n1. Estimation de densité et détection d’anomalies\nDéveloppement de méthodes de type GLBFP (Generalized Linear Blend Frequency Polygons) qui unifient histogrammes, ASH et LBFP. Objectifs : stabilité, adaptativité et lecture géométrique claire. Application directe : détection d’observations atypiques via combinaisons de densités locales. Ressource logicielle : GLBFP (package R, dépôt GitHub).\n\n\n2. Statistique directionnelle et modèles angulaires\nModèles pour données circulaires et directionnelles et effets aléatoires circulaires. Applications : orientation/mouvement, phénomènes périodiques, vents dominants. Ressources logicielles : CircularRegression et ggcircular (packages R).\n\n\n3. Modèles cachés et dynamiques latentes\nModélisation par Hidden Markov Models pour données temporelles et spatio-temporelles. Intérêts récents : effet de l’échelle temporelle sur l’inférence, modèles multi-individus, liens avec les fonctions de sélection d’habitat pour relier comportements et environnement.\n\n\n4. Science des données appliquée et innovation pédagogique\nTransfert de concepts statistiques vers l’apprentissage automatique (erreurs de mesure, interprétabilité, robustesse). Conception de ressources ouvertes pour la formation en science des données (Quarto, learnr, GitHub) et réflexion sur l’usage responsable de l’IA en enseignement."
+    "objectID": "packages/donutmap.html#exemple-dutilisation",
+    "href": "packages/donutmap.html#exemple-dutilisation",
+    "title": "DonutMap",
+    "section": "Exemple d’utilisation",
+    "text": "Exemple d’utilisation\nLe code suivant crée des diagrammes en anneau par site et ajoute des flux entre sites. Les données sont simulées pour illustrer la structure attendue par le package.\n# Load libraries\nlibrary(DonutMap)\nlibrary(ggplot2)\n\n# Create example data\ndemo &lt;- data.frame(\n  place = rep(c(\"A\", \"B\", \"C\"), each = 3),\n  lon = rep(c(-71.35, -71.20, -71.05), each = 3),\n  lat = rep(c(46.75, 46.82, 46.73), each = 3),\n  category = rep(c(\"Walking\", \"Transit\", \"Car\"), times = 3),\n  value = c(10, 20, 5, 5, 15, 10, 12, 4, 9)\n)\n\nflows &lt;- data.frame(\n  from = c(\"A\", \"B\"),\n  to = c(\"B\", \"C\"),\n  trips = c(30, 10),\n  flow_category = c(\"Transit\", \"Car\")\n)\n\nmode_colours &lt;- c(\n  Walking = \"#1b9e77\",\n  Transit = \"#7570b3\",\n  Car = \"#d95f02\"\n)\n\n# Draw a static donut map\ndonut_map(\n  demo,\n  place,\n  category,\n  value,\n  lon = lon,\n  lat = lat,\n  flows = flows,\n  from = from,\n  to = to,\n  flow_value = trips,\n  flow_group = flow_category,\n  flow_colours = mode_colours,\n  flow_curvature = 0.22,\n  flow_arrow = TRUE,\n  colours = mode_colours\n)"
   },
   {
-    "objectID": "recherche.html#thèse-de-doctorat",
-    "href": "recherche.html#thèse-de-doctorat",
-    "title": "Recherche",
-    "section": "Thèse de doctorat",
-    "text": "Thèse de doctorat\nTitre : Modèles multi-états généraux pour l’analyse du mouvement animalier Année : 2024 Université : Université Laval Direction : Thierry Duchesne et Louis-Paul Rivest\nCette thèse développe un cadre général de modélisation multi-états pour l’étude du mouvement animal, combinant la rigueur des modèles de Markov cachés et la flexibilité des fonctions de sélection d’habitat. Elle propose une formulation unificatrice reliant les approches comportementales et spatiales, ainsi qu’une implémentation logicielle complète en R.\n\n📄 Consulter la thèse (PDF, dépôt institutionnel)\n💻 Code et matériel reproductible (GitHub)\n\n\nLogiciels et diffusion\n\nGLBFP : estimation de densité fondée sur les Generalized Linear Blend Frequency Polygons. Méthode unificatrice des approches histogramme, ASH et LBFP, offrant une interprétation géométrique claire et une stabilité accrue.\nCircularRegression : régression de données circulaires et directionnelles. Comprend des extensions avec effets aléatoires circulaires et des modèles tridimensionnels pour le mouvement dans l’espace.\nggcircular : extension ggplot2 pour données circulaires, axiales et directionnelles, disponible sur le CRAN depuis le 4 juin 2026. Le package fournit des couches, échelles, résumés, diagnostics et visualisations pour angles, orientations, directions, heures de la journée et mouvements. Voir aussi le CRAN, le dépôt GitHub et la documentation pkgdown.\nDonutMap : package R disponible sur le CRAN depuis le 8 juin 2026 pour créer des cartes de diagrammes en anneau avec sf, ggplot2 et leaflet. Voir aussi la page dédiée, le dépôt GitHub et la documentation pkgdown.\nsite_ressources_SSD : plateforme de ressources pédagogiques francophones pour la science des données. Regroupe gabarits Quarto, tutoriels interactifs (Learnr) et exemples reproductibles pour enseignants et étudiants.\nGeneralOaxaca : package R disponible sur le CRAN pour la décomposition d’écarts selon la méthode de Blinder–Oaxaca généralisée. Il permet d’analyser les différences observées entre groupes (ex. genre, régions, secteurs) en décomposant les contributions dues aux effets de composition et aux effets de coefficients, dans des modèles linéaires et généralisés."
-  },
-  {
-    "objectID": "recherche.html#communications-récentes",
-    "href": "recherche.html#communications-récentes",
-    "title": "Recherche",
-    "section": "Communications récentes",
-    "text": "Communications récentes\n\nSSC 2026. A Leave-One-Out Influence Statistic for Scalable Density-Based Outlier Detection, avec Thierry Duchesne et Michel Carbon. Consulter le PDF de la présentation et le dépôt GitHub. Cette présentation a reçu le 2026 New Investigator Presentation Award, soit le Prix de la présentation par un nouveau chercheur."
-  },
-  {
-    "objectID": "recherche.html#publications",
-    "href": "recherche.html#publications",
-    "title": "Recherche",
-    "section": "Publications",
-    "text": "Publications\n\nArticles publiés\n\nNicosia, A. (2026). Beyond the next step: A multi-criteria generative validation framework for step selection functions. Methods in Ecology and Evolution, 17(6), 1754-1767. https://doi.org/10.1111/2041-210X.70313\nNicosia, A. (2026). Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”. Journal of Data Science. https://doi.org/10.6339/26-JDS1208H - Page de l’article\nGagnon, S., Allard, M., Nicosia, A. (2017). Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada. Arctic Science. https://doi.org/10.1139/AS-2016-0045\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2016). A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement. Annals of Applied Statistics. https://doi.org/10.1214/17-AOAS1045\nRivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D. (2015). A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology. Journal of the Royal Statistical Society: Series C (Applied Statistics). https://doi.org/10.1111/rssc.12124\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2015). A General Hidden State Random Walk Model for Animal Movement. Computational Statistics & Data Analysis. https://doi.org/10.1016/j.csda.2016.07.009\n\n\n\nPrépublications\n\nBouderbala, I., Nicosia, A., Fortin, D. (2026). Behavioural state inference from movement and environmental data using Markovian step selection functions. bioRxiv. https://doi.org/10.64898/2026.02.05.704063"
+    "objectID": "packages/donutmap.html#à-quoi-sert-donutmap",
+    "href": "packages/donutmap.html#à-quoi-sert-donutmap",
+    "title": "DonutMap",
+    "section": "À quoi sert DonutMap ?",
+    "text": "À quoi sert DonutMap ?\n\ncomparer des compositions locales sur une carte ;\nvisualiser des flux entre lieux avec des trajectoires droites ou courbées ;\nproduire une carte statique ggplot2 ou une carte interactive leaflet ;\nconserver une interface de données tidy compatible avec des flux de travail reproductibles."
   },
   {
     "objectID": "packages/ggcircular.html",
@@ -347,7 +333,7 @@
     "href": "index.html#nouveautés-2026",
     "title": "Aurélien Nicosia",
     "section": "Nouveautés 2026",
-    "text": "Nouveautés 2026\n\n\nGPT-CDA dans ULaval Nouvelles\nLe 22 mai 2026, ULaval Nouvelles a consacré un article au GPT-CDA, un assistant conversationnel conçu pour soutenir l’apprentissage en mathématiques et en statistique au CDA.\n\nLire l’article Page CDA\n\n\n\nDonutMap et ggcircular sur CRAN\nLes packages R DonutMap et ggcircular sont disponibles sur le CRAN depuis juin 2026. Ils soutiennent respectivement la cartographie de diagrammes en anneau et la visualisation de données circulaires.\n\nDonutMap ggcircular Tous les packages\n\n\n\nSSC 2026\nJ’ai animé un atelier sur l’IA et l’enseignement, contribué à une galerie publique de ressources pédagogiques, présenté des travaux sur LOO-LBFP, et reçu le prix 2026 de la présentation par un nouveau chercheur.\n\nAI Gallery Présentation LOO-LBFP\n\n\n\nPublications en mouvement animal\nUn nouvel article est publié dans Methods in Ecology and Evolution et une prépublication bioRxiv porte sur l’inférence des états comportementaux à partir de fonctions de sélection de pas markoviennes.\n\nArticle MEE Prépublication bioRxiv"
+    "text": "Nouveautés 2026\n\n\nGPT-CDA dans ULaval Nouvelles\nLe 22 mai 2026, ULaval Nouvelles a consacré un article au GPT-CDA, un assistant conversationnel conçu pour soutenir l’apprentissage en mathématiques et en statistique au CDA.\n\nLire l’article Page CDA\n\n\n\nTrois packages R récents sur CRAN\nLes packages R DonutMap, ggcircular et CircularRegression sont disponibles sur le CRAN depuis juin 2026. Ils soutiennent la cartographie de diagrammes en anneau, la visualisation de données circulaires et la régression pour réponses circulaires.\n\nDonutMap ggcircular CircularRegression Tous les packages\n\n\n\nSSC 2026\nJ’ai animé un atelier sur l’IA et l’enseignement, contribué à une galerie publique de ressources pédagogiques, présenté des travaux sur LOO-LBFP, et reçu le prix 2026 de la présentation par un nouveau chercheur.\n\nAI Gallery Présentation LOO-LBFP\n\n\n\nPublications en mouvement animal\nUn nouvel article est publié dans Methods in Ecology and Evolution et une prépublication bioRxiv porte sur l’inférence des états comportementaux à partir de fonctions de sélection de pas markoviennes.\n\nArticle MEE Prépublication bioRxiv"
   },
   {
     "objectID": "index.html#à-laffiche",
@@ -462,137 +448,207 @@
     "text": "Ressources partagées\n\n🗂️ Dossier d’enseignement (page web) Présentation de ma démarche pédagogique, de mes activités et de mes réalisations en enseignement.\n📚 Plateforme de ressources pédagogiques pour enseignants Gabarits Quarto, tutoriels interactifs et exemples reproductibles.\n🤖 Projet GPT-CDA Assistant conversationnel d’aide à la réussite en mathématiques et statistiques, présenté dans ULaval Nouvelles le 22 mai 2026.\n\n\n✨ Mon objectif : former des scientifiques des données autonomes, rigoureux et curieux, capables de relier théorie, pratique et communication scientifique."
   },
   {
-    "objectID": "packages/donutmap.html",
-    "href": "packages/donutmap.html",
-    "title": "DonutMap",
+    "objectID": "packages/circularregression.html",
+    "href": "packages/circularregression.html",
+    "title": "CircularRegression",
     "section": "",
-    "text": "DonutMap est un package R pour représenter des compositions locales sous forme de diagrammes en anneau placés sur une carte. Il fournit des fonctions pour créer des cartes statiques avec ggplot2, des cartes interactives avec leaflet, des polygones sf et des lignes de flux origine-destination.\nVersion CRAN : 0.1.0, publiée le 8 juin 2026.\n\nCRAN GitHub Documentation Vignette\n\n\n\n\n\nLogo hexagonal DonutMap"
+    "text": "CircularRegression est un package R pour ajuster des modèles de régression lorsque la variable réponse est circulaire, par exemple une direction de mouvement ou un angle mesuré en radians. Il implémente des modèles de régression angulaire homogène, de consensus angulaire, un workflow en deux étapes, des interfaces spécialisées et une extension avec effet aléatoire pour réponses circulaires groupées.\nVersion CRAN : 0.5.1, publiée le 10 juin 2026.\n\nCRAN GitHub Vignette CRAN Référence méthodologique\n\n\n\n\n\nLogo hexagonal CircularRegression"
   },
   {
-    "objectID": "packages/donutmap.html#aperçu-visuel",
-    "href": "packages/donutmap.html#aperçu-visuel",
-    "title": "DonutMap",
+    "objectID": "packages/circularregression.html#aperçu-visuel",
+    "href": "packages/circularregression.html#aperçu-visuel",
+    "title": "CircularRegression",
     "section": "Aperçu visuel",
-    "text": "Aperçu visuel\nL’image ci-dessous provient de la galerie d’exemples du package et montre une carte statique avec liens courbés et flèches.\n\n\n\nExemple de carte DonutMap avec liens courbés colorés par corridor."
+    "text": "Aperçu visuel\nL’image ci-dessous provient du matériel du package et illustre une relation entre directions observées dans les données de Noshiro.\n\n\n\nNuage de points circulaires pour les données de Noshiro."
   },
   {
-    "objectID": "packages/donutmap.html#exemple-dutilisation",
-    "href": "packages/donutmap.html#exemple-dutilisation",
-    "title": "DonutMap",
+    "objectID": "packages/circularregression.html#exemple-dutilisation",
+    "href": "packages/circularregression.html#exemple-dutilisation",
+    "title": "CircularRegression",
     "section": "Exemple d’utilisation",
-    "text": "Exemple d’utilisation\nLe code suivant crée des diagrammes en anneau par site et ajoute des flux entre sites. Les données sont simulées pour illustrer la structure attendue par le package.\n# Load libraries\nlibrary(DonutMap)\nlibrary(ggplot2)\n\n# Create example data\ndemo &lt;- data.frame(\n  place = rep(c(\"A\", \"B\", \"C\"), each = 3),\n  lon = rep(c(-71.35, -71.20, -71.05), each = 3),\n  lat = rep(c(46.75, 46.82, 46.73), each = 3),\n  category = rep(c(\"Walking\", \"Transit\", \"Car\"), times = 3),\n  value = c(10, 20, 5, 5, 15, 10, 12, 4, 9)\n)\n\nflows &lt;- data.frame(\n  from = c(\"A\", \"B\"),\n  to = c(\"B\", \"C\"),\n  trips = c(30, 10),\n  flow_category = c(\"Transit\", \"Car\")\n)\n\nmode_colours &lt;- c(\n  Walking = \"#1b9e77\",\n  Transit = \"#7570b3\",\n  Car = \"#d95f02\"\n)\n\n# Draw a static donut map\ndonut_map(\n  demo,\n  place,\n  category,\n  value,\n  lon = lon,\n  lat = lat,\n  flows = flows,\n  from = from,\n  to = to,\n  flow_value = trips,\n  flow_group = flow_category,\n  flow_colours = mode_colours,\n  flow_curvature = 0.22,\n  flow_arrow = TRUE,\n  colours = mode_colours\n)"
+    "text": "Exemple d’utilisation\nLe code suivant ajuste un modèle de régression circulaire sur les données bison incluses dans le package. La syntaxe de formule permet d’utiliser des variables directionnelles directement, ou des directions pondérées par un modificateur non négatif avec la forme x:z.\n# Load library\nlibrary(CircularRegression)\n\n# Prepare example data\ndata(bison)\nd &lt;- bison[seq_len(100), ]\n\n# Fit a circular regression model\nfit &lt;- circular_regression(\n  y.dir ~ y.prec + x.meadow:z.meadow,\n  data = d\n)\n\n# Inspect the fitted model\nsummary(fit)\ncoef(fit)\nhead(predict(fit))"
   },
   {
-    "objectID": "packages/donutmap.html#à-quoi-sert-donutmap",
-    "href": "packages/donutmap.html#à-quoi-sert-donutmap",
-    "title": "DonutMap",
-    "section": "À quoi sert DonutMap ?",
-    "text": "À quoi sert DonutMap ?\n\ncomparer des compositions locales sur une carte ;\nvisualiser des flux entre lieux avec des trajectoires droites ou courbées ;\nproduire une carte statique ggplot2 ou une carte interactive leaflet ;\nconserver une interface de données tidy compatible avec des flux de travail reproductibles."
+    "objectID": "packages/circularregression.html#à-quoi-sert-circularregression",
+    "href": "packages/circularregression.html#à-quoi-sert-circularregression",
+    "title": "CircularRegression",
+    "section": "À quoi sert CircularRegression ?",
+    "text": "À quoi sert CircularRegression ?\n\nmodéliser des réponses angulaires ou directionnelles ;\najuster des modèles de régression angulaire homogène ou de consensus ;\nutiliser un workflow en deux étapes pour relier modèle de consensus et modèle homogène ;\nanalyser des réponses circulaires groupées avec une extension à effet aléatoire ;\nproduire des diagnostics, prédictions, résidus, critères d’information et résumés adaptés aux modèles circulaires."
   },
   {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "CV (aperçu)",
+    "objectID": "recherche.html",
+    "href": "recherche.html",
+    "title": "Recherche",
     "section": "",
-    "text": "Aurélien Nicosia Chargé d’enseignement - Département de mathématiques et de statistique Université Laval (Québec, Canada) aureliennicosiaulaval.github.io/web_site ORCID : 0000-0002-0974-9988\n\nProfil\nChercheur et enseignant en statistique et science des données, je m’intéresse à la modélisation de données complexes, la statistique computationnelle et l’innovation pédagogique. Mon approche relie rigueur mathématique, reproductibilité et diffusion libre du savoir. Je développe des outils open source et des environnements pédagogiques numériques.\n\n\nEn bref\n\n🎓 Ph.D. en statistique, Université Laval (2024)\n👨‍🏫 Chargé d’enseignement et responsable du CDA, Université Laval\n🤝 Chargé de cours, UQAC (informatique et science des données)\n💻 Ancien directeur R-D - The Co-operators\n🧠 Intérêts principaux : estimation de densité, HMM, modèles directionnels, pédagogie numérique et IA en enseignement\n\n\n\nSélection de publications\n\nBeyond the next step: A multi-criteria generative validation framework for step selection functions, Methods in Ecology and Evolution, 2026.\nBehavioural state inference from movement and environmental data using Markovian step selection functions, bioRxiv, 2026.\nA Multi-State Conditional Logistic Regression Model for Animal Movement, Annals of Applied Statistics, 2017.\nA General Angular Regression Model for Data on Animal Movement, JRSS-C, 2015.\n\n\n\nLogiciels et ressources ouvertes\n\nDonutMap : package R disponible sur le CRAN depuis 2026 pour créer des cartes de diagrammes en anneau avec sf, ggplot2 et leaflet.\nggcircular : package R disponible sur le CRAN depuis 2026 pour les données circulaires, axiales et directionnelles.\nGLBFP : package R pour l’estimation de densité et la détection d’observations atypiques.\nCircularRegression : outils pour la régression de données circulaires et directionnelles.\nsite_ressources_SSD : plateforme de ressources pédagogiques ouvertes pour la science des données.\n\n\n\nDistinctions et subventions\n\nPrix Enseignant Étoile ULaval (2014, 2023, 2024, 2025, 2026)\n2026 New Investigator Presentation Award / Prix de la présentation par un nouveau chercheur, SSC 2026\nSubventions PAIP (2023–2026) - innovation pédagogique et IA\nCALQ (2024) - Dessin numérique avec R"
+    "text": "Mes travaux se situent à l’interface des mathématiques appliquées, de la statistique computationnelle et de la science des données. Je développe des méthodes robustes et interprétables pour l’analyse de données complexes, avec une attention particulière à la reproductibilité, aux logiciels libres et au transfert vers la pratique."
   },
   {
-    "objectID": "en/index.html",
-    "href": "en/index.html",
-    "title": "Aurélien Nicosia",
+    "objectID": "recherche.html#vision-générale",
+    "href": "recherche.html#vision-générale",
+    "title": "Recherche",
     "section": "",
-    "text": "Lecturer in mathematics and statistics at Université Laval in Quebec City. I develop teaching resources, R packages, and statistical methods that connect rigorous analysis, visualization, and active learning.\n\nTeaching Research R packages Educational innovation"
+    "text": "Mes travaux se situent à l’interface des mathématiques appliquées, de la statistique computationnelle et de la science des données. Je développe des méthodes robustes et interprétables pour l’analyse de données complexes, avec une attention particulière à la reproductibilité, aux logiciels libres et au transfert vers la pratique."
   },
   {
-    "objectID": "en/index.html#applied-statistics-r-and-open-teaching",
-    "href": "en/index.html#applied-statistics-r-and-open-teaching",
-    "title": "Aurélien Nicosia",
+    "objectID": "recherche.html#axes-de-recherche",
+    "href": "recherche.html#axes-de-recherche",
+    "title": "Recherche",
+    "section": "Axes de recherche",
+    "text": "Axes de recherche\n\n1. Estimation de densité et détection d’anomalies\nDéveloppement de méthodes de type GLBFP (Generalized Linear Blend Frequency Polygons) qui unifient histogrammes, ASH et LBFP. Objectifs : stabilité, adaptativité et lecture géométrique claire. Application directe : détection d’observations atypiques via combinaisons de densités locales. Ressource logicielle : GLBFP (package R, dépôt GitHub).\n\n\n2. Statistique directionnelle et modèles angulaires\nModèles pour données circulaires et directionnelles et effets aléatoires circulaires. Applications : orientation/mouvement, phénomènes périodiques, vents dominants. Ressources logicielles : CircularRegression et ggcircular (packages R disponibles sur le CRAN).\n\n\n3. Modèles cachés et dynamiques latentes\nModélisation par Hidden Markov Models pour données temporelles et spatio-temporelles. Intérêts récents : effet de l’échelle temporelle sur l’inférence, modèles multi-individus, liens avec les fonctions de sélection d’habitat pour relier comportements et environnement.\n\n\n4. Science des données appliquée et innovation pédagogique\nTransfert de concepts statistiques vers l’apprentissage automatique (erreurs de mesure, interprétabilité, robustesse). Conception de ressources ouvertes pour la formation en science des données (Quarto, learnr, GitHub) et réflexion sur l’usage responsable de l’IA en enseignement."
+  },
+  {
+    "objectID": "recherche.html#thèse-de-doctorat",
+    "href": "recherche.html#thèse-de-doctorat",
+    "title": "Recherche",
+    "section": "Thèse de doctorat",
+    "text": "Thèse de doctorat\nTitre : Modèles multi-états généraux pour l’analyse du mouvement animalier Année : 2024 Université : Université Laval Direction : Thierry Duchesne et Louis-Paul Rivest\nCette thèse développe un cadre général de modélisation multi-états pour l’étude du mouvement animal, combinant la rigueur des modèles de Markov cachés et la flexibilité des fonctions de sélection d’habitat. Elle propose une formulation unificatrice reliant les approches comportementales et spatiales, ainsi qu’une implémentation logicielle complète en R.\n\n📄 Consulter la thèse (PDF, dépôt institutionnel)\n💻 Code et matériel reproductible (GitHub)\n\n\nLogiciels et diffusion\n\nGLBFP : estimation de densité fondée sur les Generalized Linear Blend Frequency Polygons. Méthode unificatrice des approches histogramme, ASH et LBFP, offrant une interprétation géométrique claire et une stabilité accrue.\nCircularRegression : package R disponible sur le CRAN depuis le 10 juin 2026 pour ajuster des modèles de régression lorsque la réponse est circulaire. Il comprend la régression angulaire homogène, le consensus angulaire, un workflow en deux étapes et une extension à effet aléatoire pour réponses circulaires groupées. Voir aussi le CRAN, le dépôt GitHub et la vignette CRAN.\nggcircular : extension ggplot2 pour données circulaires, axiales et directionnelles, disponible sur le CRAN depuis le 4 juin 2026. Le package fournit des couches, échelles, résumés, diagnostics et visualisations pour angles, orientations, directions, heures de la journée et mouvements. Voir aussi le CRAN, le dépôt GitHub et la documentation pkgdown.\nDonutMap : package R disponible sur le CRAN depuis le 8 juin 2026 pour créer des cartes de diagrammes en anneau avec sf, ggplot2 et leaflet. Voir aussi la page dédiée, le dépôt GitHub et la documentation pkgdown.\nsite_ressources_SSD : plateforme de ressources pédagogiques francophones pour la science des données. Regroupe gabarits Quarto, tutoriels interactifs (Learnr) et exemples reproductibles pour enseignants et étudiants.\nGeneralOaxaca : package R disponible sur le CRAN pour la décomposition d’écarts selon la méthode de Blinder-Oaxaca généralisée. Il permet d’analyser les différences observées entre groupes (ex. genre, régions, secteurs) en décomposant les contributions dues aux effets de composition et aux effets de coefficients, dans des modèles linéaires et généralisés."
+  },
+  {
+    "objectID": "recherche.html#communications-récentes",
+    "href": "recherche.html#communications-récentes",
+    "title": "Recherche",
+    "section": "Communications récentes",
+    "text": "Communications récentes\n\nSSC 2026. A Leave-One-Out Influence Statistic for Scalable Density-Based Outlier Detection, avec Thierry Duchesne et Michel Carbon. Consulter le PDF de la présentation et le dépôt GitHub. Cette présentation a reçu le 2026 New Investigator Presentation Award, soit le Prix de la présentation par un nouveau chercheur."
+  },
+  {
+    "objectID": "recherche.html#publications",
+    "href": "recherche.html#publications",
+    "title": "Recherche",
+    "section": "Publications",
+    "text": "Publications\n\nArticles publiés\n\nNicosia, A. (2026). Beyond the next step: A multi-criteria generative validation framework for step selection functions. Methods in Ecology and Evolution, 17(6), 1754-1767. https://doi.org/10.1111/2041-210X.70313\nNicosia, A. (2026). Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”. Journal of Data Science. https://doi.org/10.6339/26-JDS1208H - Page de l’article\nGagnon, S., Allard, M., Nicosia, A. (2017). Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada. Arctic Science. https://doi.org/10.1139/AS-2016-0045\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2016). A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement. Annals of Applied Statistics. https://doi.org/10.1214/17-AOAS1045\nRivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D. (2015). A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology. Journal of the Royal Statistical Society: Series C (Applied Statistics). https://doi.org/10.1111/rssc.12124\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2015). A General Hidden State Random Walk Model for Animal Movement. Computational Statistics & Data Analysis. https://doi.org/10.1016/j.csda.2016.07.009\n\n\n\nPrépublications\n\nBouderbala, I., Nicosia, A., Fortin, D. (2026). Behavioural state inference from movement and environmental data using Markovian step selection functions. bioRxiv. https://doi.org/10.64898/2026.02.05.704063"
+  },
+  {
+    "objectID": "en/a-propos.html",
+    "href": "en/a-propos.html",
+    "title": "About",
     "section": "",
-    "text": "Lecturer in mathematics and statistics at Université Laval in Quebec City. I develop teaching resources, R packages, and statistical methods that connect rigorous analysis, visualization, and active learning.\n\nTeaching Research R packages Educational innovation"
+    "text": "My name is Aurélien Nicosia. I am a lecturer in mathematics and statistics at the Department of Mathematics and Statistics at Université Laval (Québec). I am also the coordinator of the Center for Tutoring and Learning (CDA), a student support space where students receive help each term.\nMy work sits at the intersection of university pedagogy, applied statistics, and the development of digital tools for teaching and research. I place strong emphasis on reproducibility, open science, and knowledge accessibility.\n\n\nRecent highlights\n\nDevelopment of GPT-CDA, featured in ULaval News on May 22, 2026.\nPublication of Beyond the next step: A multi-criteria generative validation framework for step selection functions in Methods in Ecology and Evolution.\nRelease of DonutMap on CRAN in 2026, with a dedicated page and open documentation.\nRelease of ggcircular on CRAN in 2026, with open documentation on GitHub.\nWorkshop on AI and teaching at SSC 2026, with a public teaching-resource gallery.\n2026 New Investigator Presentation Award at SSC 2026 for a presentation on LOO-LBFP.\n\n\n\n\nInterests\n\nUniversity pedagogy: active learning, formative assessment, and design of interactive resources.\nApplied statistics: multi-state modeling, density estimation, directional data.\nDigital tools: R, Python, Quarto, GitHub, Shiny, and responsible use of AI in education.\nInnovation: support for learning, interdisciplinary collaboration, and sharing francophone educational resources.\n\n\n\n\nLocation and contact\n📍 Québec, QC, Canada 🏛️ Université Laval - Department of Mathematics and Statistics ✉️ aurelien.nicosia@mat.ulaval.ca\n\n\n\nAbout this site\nThis website is built with Quarto and deployed automatically with GitHub Pages. It gathers my activities in research, teaching, and pedagogical innovation. The source code is available in the repository linked in the navigation bar.\n💡 If you want to suggest a correction or improvement, click the pencil (Edit) icon at the top of the page to open the corresponding version in GitHub."
   },
   {
-    "objectID": "en/index.html#updates",
-    "href": "en/index.html#updates",
-    "title": "Aurélien Nicosia",
-    "section": "2026 updates",
-    "text": "2026 updates\n\n\nGPT-CDA in ULaval News\nOn May 22, 2026, ULaval News published a story about GPT-CDA, a conversational assistant designed to support learning in mathematics and statistics at the CDA.\n\nRead the article CDA page\n\n\n\nDonutMap and ggcircular on CRAN\nThe R packages DonutMap and ggcircular have been available on CRAN since June 2026. They support donut-chart mapping and visualization for circular data.\n\nDonutMap ggcircular All packages\n\n\n\nSSC 2026\nI led a workshop on AI and teaching, contributed to a public teaching-resource gallery, presented work on LOO-LBFP, and received the 2026 New Investigator Presentation Award.\n\nAI Gallery LOO-LBFP presentation\n\n\n\nAnimal movement publications\nA new article is published in Methods in Ecology and Evolution, and a bioRxiv preprint focuses on behavioural-state inference using Markovian step-selection functions.\n\nMEE article bioRxiv preprint"
-  },
-  {
-    "objectID": "en/index.html#featured",
-    "href": "en/index.html#featured",
-    "title": "Aurélien Nicosia",
-    "section": "Featured",
-    "text": "Featured\n\n\nDoctoral thesis\nMulti-state models for animal movement analysis.\nView PDF\nCode and materials\n\n\nR packages\nA set of R packages developed for applied statistics.\nDonutMap\nGLBFP\nCircularRegression\nggcircular\nGeneralOaxaca (CRAN)\nView all packages\n\n\nOpen resources\nA platform for open educational resources, tutorials, and teaching tools.\nsite_ressources_SSD\ntutorizeR\nZeroWasteData"
-  },
-  {
-    "objectID": "en/index.html#quick-links",
-    "href": "en/index.html#quick-links",
-    "title": "Aurélien Nicosia",
-    "section": "Quick links",
-    "text": "Quick links\n\nTeaching: course notes and assignments → Teaching\nResearch: projects, software, thesis → Research\nEducational innovation: projects and resources → Educational innovation\nAbout and contact → About\nFull CV → CV"
-  },
-  {
-    "objectID": "en/cda/index.html",
-    "href": "en/cda/index.html",
-    "title": "Center for Tutoring and Learning (CDA) - Math & Statistics",
+    "objectID": "en/publications.html",
+    "href": "en/publications.html",
+    "title": "Media",
     "section": "",
-    "text": "The Center for Tutoring and Learning in Mathematics and Statistics provides free support to students enrolled in several courses in the Department of Mathematics and Statistics at Université Laval.\nThe CDA combines human tutoring, support workshops, and digital resources to support learning without replacing students’ own reasoning and understanding."
+    "text": "This page gathers public mentions, articles, videos, competitions, and professional links related to my work."
   },
   {
-    "objectID": "en/cda/index.html#services",
-    "href": "en/cda/index.html#services",
-    "title": "Center for Tutoring and Learning (CDA) - Math & Statistics",
-    "section": "Services",
-    "text": "Services\n\nTutoring: targeted guidance on course concepts.\nWorkshops: review sessions, problem-solving methods, and exam preparation.\nLearning support: work organization, note-taking, and exam preparation.\nOrientation: referral to appropriate resources when needs go beyond the CDA scope."
-  },
-  {
-    "objectID": "en/cda/index.html#gpt-cda",
-    "href": "en/cda/index.html#gpt-cda",
-    "title": "Center for Tutoring and Learning (CDA) - Math & Statistics",
-    "section": "GPT-CDA",
-    "text": "GPT-CDA\nGPT-CDA is a pedagogical conversational assistant developed to support learning in mathematics and statistics. The project is designed to guide reasoning, use course-specific notation, and maintain the connection with CDA teaching assistants when human support is preferable.\nThe project was featured in ULaval News on May 22, 2026."
-  },
-  {
-    "objectID": "en/cda/index.html#practical-information",
-    "href": "en/cda/index.html#practical-information",
-    "title": "Center for Tutoring and Learning (CDA) - Math & Statistics",
-    "section": "Practical information",
-    "text": "Practical information\n\nAffiliation: Department of Mathematics and Statistics, Université Laval.\nCoordinator: Aurélien Nicosia.\nHours and format: published at the start of each term on the official CDA page.\nContact: aurelien.nicosia@mat.ulaval.ca."
-  },
-  {
-    "objectID": "en/cda/index.html#how-to-get-in-touch",
-    "href": "en/cda/index.html#how-to-get-in-touch",
-    "title": "Center for Tutoring and Learning (CDA) - Math & Statistics",
-    "section": "How to get in touch",
-    "text": "How to get in touch\n\nVisit the official CDA page for up-to-date institutional information.\nWatch for beginning-of-term announcements for hours, workshops, and access details.\n\n\n\n\n\n\n\nNote\n\n\n\nSchedules change from term to term. The official Department page remains the reference source for practical details."
-  },
-  {
-    "objectID": "en/packages/ggcircular.html",
-    "href": "en/packages/ggcircular.html",
-    "title": "ggcircular",
+    "objectID": "en/publications.html#overview",
+    "href": "en/publications.html#overview",
+    "title": "Media",
     "section": "",
-    "text": "ggcircular is a ggplot2 extension for visualizing circular, axial, and directional data. The package provides geoms, stats, scales, and themes for angles, orientations, times of day, movement directions, and circular distributions.\nCRAN version: 0.1.0, published on June 4, 2026.\n\nCRAN GitHub Documentation Reference\n\n\n\n\n\nggcircular hex logo"
+    "text": "This page gathers public mentions, articles, videos, competitions, and professional links related to my work."
   },
   {
-    "objectID": "en/packages/ggcircular.html#visual-preview",
-    "href": "en/packages/ggcircular.html#visual-preview",
-    "title": "ggcircular",
+    "objectID": "en/publications.html#videos",
+    "href": "en/publications.html#videos",
+    "title": "Media",
+    "section": "Videos",
+    "text": "Videos\n\nCogito 2016 - Animal habits and cloud formation\n\n\n\nSource: Cogito series (Canal Savoir / AELIÉS, 2016).\n\n\nCo-operators Innovation Space presentation\n\n\n\n\n\nSAS Global Forum 2016 - Student Symposium\nOfficial recap (SAS Blog) with archive resources and videos. → https://www.fsg.ulaval.ca/faculte/actualites/mm-nicosia-et-perreault-grands-vainqueurs-du-symposium-etudiant-du-sas-global-forum-2016-1812"
+  },
+  {
+    "objectID": "en/publications.html#press-news-selection",
+    "href": "en/publications.html#press-news-selection",
+    "title": "Media",
+    "section": "Press & news (selection)",
+    "text": "Press & news (selection)\n\nULaval News - Le GPT-CDA, un robot conversationnel qui épaule les étudiantes et étudiants dans les cours de mathématiques et de statistique (May 22, 2026). Article: https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30\nSSC 2026 - 2026 New Investigator Presentation Award for a presentation on LOO-LBFP. Presentation: https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf\nMT180 (Faculty of Science and Engineering, Université Laval) - Jury favorite (March 7, 2016).\nActuLab (Université Laval - Actuarial Science) - Event poster (2016), including the presentation “Can you predict my golf score?”."
+  },
+  {
+    "objectID": "en/publications.html#competitions",
+    "href": "en/publications.html#competitions",
+    "title": "Media",
+    "section": "Competitions",
+    "text": "Competitions\n\nSAS Global Forum - Student Symposium (2016) Proceedings recap from SAS GF 2016, program and papers.\nActuLab (2015) - “Can you predict my golf score?” (winning problem). Explanatory WordPress post: “How to predict your golf score like a pro?”"
+  },
+  {
+    "objectID": "en/publications.html#community-contests",
+    "href": "en/publications.html#community-contests",
+    "title": "Media",
+    "section": "Community & contests",
+    "text": "Community & contests\n\nShiny App Store - Shiny Contest (Posit Community, 2021)\n“App Store” prototype for Shiny applications, co-developed by Penelope Ferron and Aurélien Nicosia (May 12, 2021). → Discussion (Posit Community): https://forum.posit.co/t/shiny-app-store-shiny-contest-submission/104579"
+  },
+  {
+    "objectID": "en/publications.html#blog-personal-website",
+    "href": "en/publications.html#blog-personal-website",
+    "title": "Media",
+    "section": "Blog & personal website",
+    "text": "Blog & personal website\n\nWordPress (blog / portfolio) - Posts on SAS GF, Cogito, Shiny apps, publications, etc. Home page: https://aureliennicosia.wordpress.com/ Shiny page (demo related to the Student Symposium): https://aureliennicosia.wordpress.com/shiny-app/ Post: “How to predict your golf score like a pro?” (ActuLab, 2015)."
+  },
+  {
+    "objectID": "en/publications.html#professional-presence",
+    "href": "en/publications.html#professional-presence",
+    "title": "Media",
+    "section": "Professional presence",
+    "text": "Professional presence\n\nResearchGate - Public profile (publications, reads, citations). https://www.researchgate.net/profile/Aurelien-Nicosia-2"
+  },
+  {
+    "objectID": "en/publications.html#eiom---interdisciplinary-school-of-tools-methods-linkedin-mention",
+    "href": "en/publications.html#eiom---interdisciplinary-school-of-tools-methods-linkedin-mention",
+    "title": "Media",
+    "section": "EIOM - Interdisciplinary School of Tools & Methods (LinkedIn mention)",
+    "text": "EIOM - Interdisciplinary School of Tools & Methods (LinkedIn mention)\n\nEIOM (Université Laval) - LinkedIn post (5th edition, 2025). Link: https://www.linkedin.com/posts/eiomulaval_jour-2-de-leiom-2025-5e-%C3%A9dition-activity-7366140743142240256-d4O_"
+  },
+  {
+    "objectID": "en/enseignement.html",
+    "href": "en/enseignement.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I approach teaching mathematics, statistics, and data science as a process of understanding and exploration. Learning is based on three principles:\n\nLearning by doing: practice and hands-on use of tools like R or Quarto help students build meaning.\nLearning through collaboration: team projects and discussion are central in my courses.\nTransparent learning: every activity is documented and reproducible, embedding scientific rigor in student work.\n\nI rely on project-based learning, formative assessment, and a supportive environment where rigor and curiosity can coexist."
+  },
+  {
+    "objectID": "en/enseignement.html#teaching-philosophy",
+    "href": "en/enseignement.html#teaching-philosophy",
+    "title": "Teaching",
+    "section": "",
+    "text": "I approach teaching mathematics, statistics, and data science as a process of understanding and exploration. Learning is based on three principles:\n\nLearning by doing: practice and hands-on use of tools like R or Quarto help students build meaning.\nLearning through collaboration: team projects and discussion are central in my courses.\nTransparent learning: every activity is documented and reproducible, embedding scientific rigor in student work.\n\nI rely on project-based learning, formative assessment, and a supportive environment where rigor and curiosity can coexist."
+  },
+  {
+    "objectID": "en/enseignement.html#courses-taught",
+    "href": "en/enseignement.html#courses-taught",
+    "title": "Teaching",
+    "section": "Courses taught",
+    "text": "Courses taught\n\nUniversité Laval - Department of Mathematics and Statistics\n\nSTT-1100 - Introduction to Data Science\nThis introductory course focuses on professional situations where students assume a data science role. Learning goals: master the full analysis pipeline, from data import to communication of results. Tools: R, tidyverse, Quarto, GitHub. Course notes: STT-1100_notes_de_cours Philosophy: active learning, francophone case studies, ethical reflection on data.\nSTT-1100 GPT: course-specific conversational assistant, to support student learning.\n\n\nSTT-4230 - R for scientists\nCourse focused on good development practices: project structure, documentation, and collaboration through GitHub. Tools: R, Quarto, GitHub, testthat. Resource: Course notes from Sophie Baillargeon. Philosophy: clarity, reproducibility, and integration of modern tools. STT-4230 GPT: course-specific conversational assistant, to support student learning. UlavalSSD: UlavalSSD R package, featuring practical utilities for data science at Université Laval.\n\n\nSTT-2200 - Data Analysis\nAn applied statistics course where students work from real datasets and produce reproducible reports. Tools: R, ggplot2, dplyr, RMarkdown. Philosophy: interpretation before automation, clear communication of results.\n\n\n\nUniversité du Québec à Chicoutimi (UQAC)\n\n8INF404 - Introduction to Data Science and Business Intelligence\nAn interdisciplinary course introducing the full data science project cycle: preparation, exploration, and predictive modeling. Tools: R, shiny, Quarto. Philosophy: connect technical work to decision-making, with an emphasis on communication.\n\n\n8INF416 - Visualization and Interface\nCourse devoted to interactive visualization and scientific communication. Tools: R (Shiny), ggplot2. Philosophy: visual clarity, accessibility, and rigor in graphical messaging.\n\n\n8STT108 - Statistical Methods for Big Data\nIntroduction to statistical methods applied to large datasets (big data). Tools: R, tidyverse, parallel computing. Philosophy: emphasize model logic before automation."
+  },
+  {
+    "objectID": "en/enseignement.html#teaching-recognition",
+    "href": "en/enseignement.html#teaching-recognition",
+    "title": "Teaching",
+    "section": "Teaching recognition",
+    "text": "Teaching recognition\nI received the Star Teacher Award again in 2026. This recognition adds to the 2014, 2023, 2024, and 2025 editions already listed in my CV. The Faculty of Science and Engineering describes the title as a recognition given to instructors who receive excellent student evaluations.\nLearn more about the FSG Teaching Stars ceremony"
+  },
+  {
+    "objectID": "en/enseignement.html#shared-resources",
+    "href": "en/enseignement.html#shared-resources",
+    "title": "Teaching",
+    "section": "Shared resources",
+    "text": "Shared resources\n\n🗂️ Teaching portfolio (web page) Overview of my teaching approach, activities, and achievements.\n📚 Teaching resources platform for instructors Quarto templates, interactive tutorials, and reproducible examples.\n🤖 GPT-CDA project A conversational assistant supporting success in mathematics and statistics, featured in ULaval News on May 22, 2026.\n\n\n✨ My goal: train autonomous, rigorous, and curious data scientists who can connect theory, practice, and scientific communication."
+  },
+  {
+    "objectID": "en/packages/circularregression.html",
+    "href": "en/packages/circularregression.html",
+    "title": "CircularRegression",
+    "section": "",
+    "text": "CircularRegression is an R package for fitting regression models when the response is circular, such as a movement direction or an angle measured in radians. It implements homogeneous angular regression, consensus angular regression, a two-step workflow, selected model-specific interfaces, and a random-intercept extension for clustered circular responses.\nCRAN version: 0.5.1, published on June 10, 2026.\n\nCRAN GitHub CRAN vignette Methodological reference\n\n\n\n\n\nCircularRegression hex logo"
+  },
+  {
+    "objectID": "en/packages/circularregression.html#visual-preview",
+    "href": "en/packages/circularregression.html#visual-preview",
+    "title": "CircularRegression",
     "section": "Visual preview",
-    "text": "Visual preview"
+    "text": "Visual preview\nThe image below comes from the package material and illustrates a relationship between observed directions in the Noshiro data.\n\n\n\nCircular scatterplot for the Noshiro data."
   },
   {
-    "objectID": "en/packages/ggcircular.html#usage-example",
-    "href": "en/packages/ggcircular.html#usage-example",
-    "title": "ggcircular",
+    "objectID": "en/packages/circularregression.html#usage-example",
+    "href": "en/packages/circularregression.html#usage-example",
+    "title": "CircularRegression",
     "section": "Usage example",
-    "text": "Usage example\nThe code below follows the package quick start: it displays winter wind directions with a rose diagram, a circular density estimate, and a mean direction.\n# Load libraries\nlibrary(ggplot2)\nlibrary(dplyr)\nlibrary(ggcircular)\n\n# Plot winter wind directions\nwind_directions |&gt;\n  filter(season == \"winter\") |&gt;\n  ggplot(aes(x = direction)) +\n  geom_rose(\n    aes(y = after_stat(density), fill = after_stat(density)),\n    bins = 24,\n    alpha = 0.78\n  ) +\n  geom_circular_density(linewidth = 1.1, colour = \"#123C4A\") +\n  geom_mean_direction(\n    length = \"resultant\",\n    colour = \"#E4572E\",\n    linewidth = 1.1\n  ) +\n  scale_x_circular_compass() +\n  coord_circular(zero = \"north\", direction = \"clockwise\") +\n  labs(fill = \"density\", title = \"Winter wind directions\") +\n  theme_circular()"
+    "text": "Usage example\nThe code below fits a circular regression model to the bison data included in the package. Formula syntax can use directional variables directly, or directions weighted by a non-negative modifier with the x:z form.\n# Load library\nlibrary(CircularRegression)\n\n# Prepare example data\ndata(bison)\nd &lt;- bison[seq_len(100), ]\n\n# Fit a circular regression model\nfit &lt;- circular_regression(\n  y.dir ~ y.prec + x.meadow:z.meadow,\n  data = d\n)\n\n# Inspect the fitted model\nsummary(fit)\ncoef(fit)\nhead(predict(fit))"
   },
   {
-    "objectID": "en/packages/ggcircular.html#what-is-ggcircular-for",
-    "href": "en/packages/ggcircular.html#what-is-ggcircular-for",
-    "title": "ggcircular",
-    "section": "What is ggcircular for?",
-    "text": "What is ggcircular for?\n\ncreating rose diagrams and circular histograms;\nestimating and displaying circular densities;\nshowing mean directions, confidence arcs, and theoretical distributions;\nproducing reproducible ggplot2 graphics for periodic, axial, or directional data."
+    "objectID": "en/packages/circularregression.html#what-is-circularregression-for",
+    "href": "en/packages/circularregression.html#what-is-circularregression-for",
+    "title": "CircularRegression",
+    "section": "What is CircularRegression for?",
+    "text": "What is CircularRegression for?\n\nmodeling angular or directional responses;\nfitting homogeneous angular regression or consensus angular regression models;\nusing a two-step workflow that connects consensus and homogeneous models;\nanalyzing clustered circular responses with a random-intercept extension;\nproducing diagnostics, predictions, residuals, information criteria, and summaries adapted to circular models."
   },
   {
     "objectID": "en/recherche.html",
@@ -613,14 +669,14 @@
     "href": "en/recherche.html#research-axes",
     "title": "Research",
     "section": "Research axes",
-    "text": "Research axes\n\n1. Density estimation and anomaly detection\nI develop methods based on GLBFP (Generalized Linear Blend Frequency Polygons) that unify histograms, ASH, and LBFP. Goals: stability, adaptivity, and clear geometric interpretation. Direct application: detection of atypical observations through combinations of local densities. Software resource: GLBFP (R package, GitHub repository).\n\n\n2. Directional statistics and angular models\nModels for circular and directional data, including random circular effects. Applications: orientation/movement, periodic phenomena, and dominant wind patterns. Software resources: CircularRegression and ggcircular (R packages).\n\n\n3. Hidden models and latent dynamics\nModeling with Hidden Markov Models for temporal and spatio-temporal data. Recent interests: impact of temporal scale on inference, multi-individual models, and links with habitat-selection functions to connect behavior and environment.\n\n\n4. Applied data science and pedagogical innovation\nTransfer of statistical concepts to machine learning (measurement errors, interpretability, robustness). Development of open resources for data science training (Quarto, learnr, GitHub) and reflection on responsible AI use in teaching."
+    "text": "Research axes\n\n1. Density estimation and anomaly detection\nI develop methods based on GLBFP (Generalized Linear Blend Frequency Polygons) that unify histograms, ASH, and LBFP. Goals: stability, adaptivity, and clear geometric interpretation. Direct application: detection of atypical observations through combinations of local densities. Software resource: GLBFP (R package, GitHub repository).\n\n\n2. Directional statistics and angular models\nModels for circular and directional data, including random circular effects. Applications: orientation/movement, periodic phenomena, and dominant wind patterns. Software resources: CircularRegression and ggcircular (R packages available on CRAN).\n\n\n3. Hidden models and latent dynamics\nModeling with Hidden Markov Models for temporal and spatio-temporal data. Recent interests: impact of temporal scale on inference, multi-individual models, and links with habitat-selection functions to connect behavior and environment.\n\n\n4. Applied data science and pedagogical innovation\nTransfer of statistical concepts to machine learning (measurement errors, interpretability, robustness). Development of open resources for data science training (Quarto, learnr, GitHub) and reflection on responsible AI use in teaching."
   },
   {
     "objectID": "en/recherche.html#doctoral-thesis",
     "href": "en/recherche.html#doctoral-thesis",
     "title": "Research",
     "section": "Doctoral thesis",
-    "text": "Doctoral thesis\nTitle: General Multi-state Models for the Analysis of Animal Movement Year: 2024 University: Université Laval Supervisors: Thierry Duchesne and Louis-Paul Rivest\nThis thesis develops a general framework for multi-state modeling of animal movement, combining the rigor of hidden Markov models with the flexibility of habitat-selection functions. It proposes a unifying formulation connecting behavioral and spatial approaches, along with a full software implementation in R.\n\n📄 View thesis (PDF, institutional repository)\n💻 Code and reproducible material (GitHub)\n\n\nSoftware and dissemination\n\nGLBFP: density estimation based on Generalized Linear Blend Frequency Polygons. A unifying method for histogram, ASH, and LBFP approaches, offering clear geometric interpretation and improved stability.\nCircularRegression: regression for circular and directional data. Includes extensions with random circular effects and three-dimensional models for movement in space.\nggcircular: a ggplot2 extension for circular, axial, and directional data, available on CRAN since June 4, 2026. The package provides layers, scales, summaries, diagnostics, and visualizations for angles, orientations, directions, times of day, and movement data. See also CRAN, the GitHub repository, and the pkgdown documentation.\nDonutMap: R package available on CRAN since June 8, 2026, for creating donut maps with sf, ggplot2, and leaflet. See also the dedicated page, the GitHub repository, and the pkgdown documentation.\nsite_ressources_SSD: Francophone educational resources platform for data science. Includes Quarto templates, interactive tutorials (Learnr), and reproducible examples for instructors and students.\nGeneralOaxaca: R package available on CRAN for decomposition of gaps using the generalized Blinder-Oaxaca approach. It supports analysis of observed differences between groups (e.g., gender, regions, sectors) by decomposing contributions from composition effects and coefficient effects in linear and generalized models."
+    "text": "Doctoral thesis\nTitle: General Multi-state Models for the Analysis of Animal Movement Year: 2024 University: Université Laval Supervisors: Thierry Duchesne and Louis-Paul Rivest\nThis thesis develops a general framework for multi-state modeling of animal movement, combining the rigor of hidden Markov models with the flexibility of habitat-selection functions. It proposes a unifying formulation connecting behavioral and spatial approaches, along with a full software implementation in R.\n\n📄 View thesis (PDF, institutional repository)\n💻 Code and reproducible material (GitHub)\n\n\nSoftware and dissemination\n\nGLBFP: density estimation based on Generalized Linear Blend Frequency Polygons. A unifying method for histogram, ASH, and LBFP approaches, offering clear geometric interpretation and improved stability.\nCircularRegression: R package available on CRAN since June 10, 2026, for fitting regression models when the response is circular. It includes homogeneous angular regression, consensus angular regression, a two-step workflow, and a random-intercept extension for clustered circular responses. See also CRAN, the GitHub repository, and the CRAN vignette.\nggcircular: a ggplot2 extension for circular, axial, and directional data, available on CRAN since June 4, 2026. The package provides layers, scales, summaries, diagnostics, and visualizations for angles, orientations, directions, times of day, and movement data. See also CRAN, the GitHub repository, and the pkgdown documentation.\nDonutMap: R package available on CRAN since June 8, 2026, for creating donut maps with sf, ggplot2, and leaflet. See also the dedicated page, the GitHub repository, and the pkgdown documentation.\nsite_ressources_SSD: Francophone educational resources platform for data science. Includes Quarto templates, interactive tutorials (Learnr), and reproducible examples for instructors and students.\nGeneralOaxaca: R package available on CRAN for decomposition of gaps using the generalized Blinder-Oaxaca approach. It supports analysis of observed differences between groups (e.g., gender, regions, sectors) by decomposing contributions from composition effects and coefficient effects in linear and generalized models."
   },
   {
     "objectID": "en/recherche.html#recent-presentations",
@@ -641,21 +697,21 @@
     "href": "en/packages.html",
     "title": "R Packages",
     "section": "",
-    "text": "This page gathers the R packages I develop and maintain, with particular attention to packages available on CRAN and documented openly.\nThe CRAN information below was verified on June 9, 2026."
+    "text": "This page gathers the R packages I develop and maintain, with particular attention to packages available on CRAN and documented openly.\nThe CRAN information below was verified on June 10, 2026."
   },
   {
     "objectID": "en/packages.html#packages-on-cran",
     "href": "en/packages.html#packages-on-cran",
     "title": "R Packages",
     "section": "Packages on CRAN",
-    "text": "Packages on CRAN\n\n\n\n\n\n\nDonutMap\n\n\nDonut maps with sf, ggplot2, and leaflet. The package places donut charts on static or interactive maps and can add origin-destination flows.\nCRAN version: 0.1.0, published on June 8, 2026.\n\nDedicated page CRAN GitHub Documentation\n\n\n\n\n\n\n\n\nggcircular\n\n\nA ggplot2 extension for circular, axial, and directional data: rose diagrams, circular densities, mean directions, confidence arcs, and movement visualizations.\nCRAN version: 0.1.0, published on June 4, 2026.\n\nDedicated page CRAN GitHub Documentation\n\n\n\n\n\n\nGO\n\nGeneralOaxaca\n\n\nBlinder-Oaxaca decomposition for generalized linear models, with bootstrap standard errors and twofold or threefold decomposition outputs.\nCRAN version: 1.0, published on August 17, 2015.\n\nCRAN"
+    "text": "Packages on CRAN\n\n\n\n\n\n\nDonutMap\n\n\nDonut maps with sf, ggplot2, and leaflet. The package places donut charts on static or interactive maps and can add origin-destination flows.\nCRAN version: 0.1.0, published on June 8, 2026.\n\nDedicated page CRAN GitHub Documentation\n\n\n\n\n\n\n\n\nggcircular\n\n\nA ggplot2 extension for circular, axial, and directional data: rose diagrams, circular densities, mean directions, confidence arcs, and movement visualizations.\nCRAN version: 0.1.0, published on June 4, 2026.\n\nDedicated page CRAN GitHub Documentation\n\n\n\n\n\n\n\n\nCircularRegression\n\n\nRegression models for circular responses: homogeneous angular regression, consensus angular regression, a two-step workflow, and a random-intercept extension for clustered circular responses.\nCRAN version: 0.5.1, published on June 10, 2026.\n\nDedicated page CRAN GitHub Vignette\n\n\n\n\n\n\nGO\n\nGeneralOaxaca\n\n\nBlinder-Oaxaca decomposition for generalized linear models, with bootstrap standard errors and twofold or threefold decomposition outputs.\nCRAN version: 1.0, published on August 17, 2015.\n\nCRAN"
   },
   {
     "objectID": "en/packages.html#related-github-projects",
     "href": "en/packages.html#related-github-projects",
     "title": "R Packages",
     "section": "Related GitHub projects",
-    "text": "Related GitHub projects\nSome packages and tools are also developed or maintained on GitHub, even if they are not all on CRAN at the time of this verification.\n\nGLBFP: density estimation with General Linear Blend Frequency Polygons.\nCircularRegression: regression models for circular responses.\ntutorizeR: conversion of R Markdown or Quarto teaching material into interactive tutorials."
+    "text": "Related GitHub projects\nSome packages and tools are also developed or maintained on GitHub, even if they are not all on CRAN at the time of this verification.\n\nGLBFP: density estimation with General Linear Blend Frequency Polygons.\ntutorizeR: conversion of R Markdown or Quarto teaching material into interactive tutorials."
   },
   {
     "objectID": "en/innovation.html",

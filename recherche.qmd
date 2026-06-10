@@ -20,7 +20,7 @@ Ressource logicielle : GLBFP (package R, dépôt GitHub).
 ### 2. Statistique directionnelle et modèles angulaires
 Modèles pour données circulaires et directionnelles et effets aléatoires circulaires.
 Applications : orientation/mouvement, phénomènes périodiques, vents dominants.
-Ressources logicielles : CircularRegression et ggcircular (packages R).
+Ressources logicielles : CircularRegression et ggcircular (packages R disponibles sur le CRAN).
 
 ### 3. Modèles cachés et dynamiques latentes
 Modélisation par Hidden Markov Models pour données temporelles et spatio-temporelles.
@@ -54,8 +54,8 @@ Elle propose une formulation unificatrice reliant les approches comportementales
 - [**GLBFP**](https://github.com/AurelienNicosiaULaval/GLBFP) : estimation de densité fondée sur les *Generalized Linear Blend Frequency Polygons*.
   Méthode unificatrice des approches histogramme, ASH et LBFP, offrant une interprétation géométrique claire et une stabilité accrue.
 
-- [**CircularRegression**](https://github.com/AurelienNicosiaULaval/CircularRegression) : régression de données circulaires et directionnelles.
-  Comprend des extensions avec effets aléatoires circulaires et des modèles tridimensionnels pour le mouvement dans l’espace.
+- [**CircularRegression**](packages/circularregression.qmd) : package R disponible sur le CRAN depuis le 10 juin 2026 pour ajuster des modèles de régression lorsque la réponse est circulaire.
+  Il comprend la régression angulaire homogène, le consensus angulaire, un workflow en deux étapes et une extension à effet aléatoire pour réponses circulaires groupées. Voir aussi le [CRAN](https://cran.r-project.org/package=CircularRegression), le [dépôt GitHub](https://github.com/AurelienNicosiaULaval/CircularRegression) et la [vignette CRAN](https://cran.r-project.org/web/packages/CircularRegression/vignettes/angular-regression-workflow.html).
 
 - [**ggcircular**](packages/ggcircular.qmd) : extension `ggplot2` pour données circulaires, axiales et directionnelles, disponible sur le CRAN depuis le 4 juin 2026.
   Le package fournit des couches, échelles, résumés, diagnostics et visualisations pour angles, orientations, directions, heures de la journée et mouvements. Voir aussi le [CRAN](https://cran.r-project.org/web/packages/ggcircular/index.html), le [dépôt GitHub](https://github.com/AurelienNicosiaULaval/ggcircular) et la [documentation pkgdown](https://aureliennicosiaulaval.github.io/ggcircular/).
@@ -66,7 +66,7 @@ Elle propose une formulation unificatrice reliant les approches comportementales
 - [**site_ressources_SSD**](https://aureliennicosiaulaval.github.io/site_ressources_SSD/) : plateforme de ressources pédagogiques francophones pour la science des données.
   Regroupe gabarits Quarto, tutoriels interactifs (Learnr) et exemples reproductibles pour enseignants et étudiants.
 
-- [**GeneralOaxaca**](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html) : package R disponible sur le CRAN pour la décomposition d’écarts selon la méthode de **Blinder–Oaxaca généralisée**.
+- [**GeneralOaxaca**](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html) : package R disponible sur le CRAN pour la décomposition d’écarts selon la méthode de **Blinder-Oaxaca généralisée**.
   Il permet d’analyser les différences observées entre groupes (ex. genre, régions, secteurs) en décomposant les contributions dues aux effets de composition et aux effets de coefficients, dans des modèles linéaires et généralisés.
 
 

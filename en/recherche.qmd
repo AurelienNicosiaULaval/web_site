@@ -21,7 +21,7 @@ Software resource: GLBFP (R package, GitHub repository).
 ### 2. Directional statistics and angular models
 Models for circular and directional data, including random circular effects.
 Applications: orientation/movement, periodic phenomena, and dominant wind patterns.
-Software resources: CircularRegression and ggcircular (R packages).
+Software resources: CircularRegression and ggcircular (R packages available on CRAN).
 
 ### 3. Hidden models and latent dynamics
 Modeling with Hidden Markov Models for temporal and spatio-temporal data.
@@ -55,8 +55,8 @@ It proposes a unifying formulation connecting behavioral and spatial approaches,
 - [**GLBFP**](https://github.com/AurelienNicosiaULaval/GLBFP): density estimation based on *Generalized Linear Blend Frequency Polygons*.
   A unifying method for histogram, ASH, and LBFP approaches, offering clear geometric interpretation and improved stability.
 
-- [**CircularRegression**](https://github.com/AurelienNicosiaULaval/CircularRegression): regression for circular and directional data.
-  Includes extensions with random circular effects and three-dimensional models for movement in space.
+- [**CircularRegression**](packages/circularregression.qmd): R package available on CRAN since June 10, 2026, for fitting regression models when the response is circular.
+  It includes homogeneous angular regression, consensus angular regression, a two-step workflow, and a random-intercept extension for clustered circular responses. See also [CRAN](https://cran.r-project.org/package=CircularRegression), the [GitHub repository](https://github.com/AurelienNicosiaULaval/CircularRegression), and the [CRAN vignette](https://cran.r-project.org/web/packages/CircularRegression/vignettes/angular-regression-workflow.html).
 
 - [**ggcircular**](packages/ggcircular.qmd): a `ggplot2` extension for circular, axial, and directional data, available on CRAN since June 4, 2026.
   The package provides layers, scales, summaries, diagnostics, and visualizations for angles, orientations, directions, times of day, and movement data. See also [CRAN](https://cran.r-project.org/web/packages/ggcircular/index.html), the [GitHub repository](https://github.com/AurelienNicosiaULaval/ggcircular), and the [pkgdown documentation](https://aureliennicosiaulaval.github.io/ggcircular/).

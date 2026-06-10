@@ -5,12 +5,12 @@ lang: en
 
 This page gathers the R packages I develop and maintain, with particular attention to packages available on CRAN and documented openly.
 
-The CRAN information below was verified on June 9, 2026.
+The CRAN information below was verified on June 10, 2026.
 
 ## Packages on CRAN
 
 ::: { .grid .gap-4 }
-::: {.g-col-12 .g-col-lg-4}
+::: {.g-col-12 .g-col-lg-6 .g-col-xl-3}
 ::: {.package-card}
 <div class="package-card-header">
 <img src="../assets/packages/donutmap-logo.svg" class="package-card-logo" alt="DonutMap hex logo">
@@ -30,7 +30,7 @@ CRAN version: 0.1.0, published on June 8, 2026.
 :::
 :::
 
-::: {.g-col-12 .g-col-lg-4}
+::: {.g-col-12 .g-col-lg-6 .g-col-xl-3}
 ::: {.package-card}
 <div class="package-card-header">
 <img src="../assets/packages/ggcircular-logo.svg" class="package-card-logo" alt="ggcircular hex logo">
@@ -50,7 +50,27 @@ CRAN version: 0.1.0, published on June 4, 2026.
 :::
 :::
 
-::: {.g-col-12 .g-col-lg-4}
+::: {.g-col-12 .g-col-lg-6 .g-col-xl-3}
+::: {.package-card}
+<div class="package-card-header">
+<img src="../assets/packages/circularregression-logo.svg" class="package-card-logo" alt="CircularRegression hex logo">
+<h3>CircularRegression</h3>
+</div>
+
+Regression models for circular responses: homogeneous angular regression, consensus angular regression, a two-step workflow, and a random-intercept extension for clustered circular responses.
+
+CRAN version: 0.5.1, published on June 10, 2026.
+
+::: {.link-list}
+[Dedicated page](packages/circularregression.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[CRAN](https://cran.r-project.org/package=CircularRegression){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[GitHub](https://github.com/AurelienNicosiaULaval/CircularRegression){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[Vignette](https://cran.r-project.org/web/packages/CircularRegression/vignettes/angular-regression-workflow.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-lg-6 .g-col-xl-3}
 ::: {.package-card}
 <div class="package-card-header">
 <span class="package-card-fallback">GO</span>
@@ -73,5 +93,4 @@ CRAN version: 1.0, published on August 17, 2015.
 Some packages and tools are also developed or maintained on GitHub, even if they are not all on CRAN at the time of this verification.
 
 - [GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP): density estimation with General Linear Blend Frequency Polygons.
-- [CircularRegression](https://github.com/AurelienNicosiaULaval/CircularRegression): regression models for circular responses.
 - [tutorizeR](https://github.com/AurelienNicosiaULaval/tutorizeR): conversion of R Markdown or Quarto teaching material into interactive tutorials.

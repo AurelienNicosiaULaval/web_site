@@ -459,7 +459,7 @@
     "href": "packages/circularregression.html#aperçu-visuel",
     "title": "CircularRegression",
     "section": "Aperçu visuel",
-    "text": "Aperçu visuel\nL’image ci-dessous provient du matériel du package et illustre une relation entre directions observées dans les données de Noshiro.\n\n\n\nNuage de points circulaires pour les données de Noshiro."
+    "text": "Aperçu visuel\nL’illustration ci-dessous est produite à partir des données bison incluses dans le package. Le panneau de gauche compare les directions observées aux directions ajustées par le modèle ; le panneau de droite résume les résidus angulaires.\n\n\n\nIllustration d’un ajustement CircularRegression sur des directions de mouvement de bisons."
   },
   {
     "objectID": "packages/circularregression.html#exemple-dutilisation",
@@ -634,7 +634,7 @@
     "href": "en/packages/circularregression.html#visual-preview",
     "title": "CircularRegression",
     "section": "Visual preview",
-    "text": "Visual preview\nThe image below comes from the package material and illustrates a relationship between observed directions in the Noshiro data.\n\n\n\nCircular scatterplot for the Noshiro data."
+    "text": "Visual preview\nThe illustration below is produced from the bison data included in the package. The left panel compares observed directions with model-fitted directions, and the right panel summarizes angular residuals.\n\n\n\nIllustration of a CircularRegression fit on bison movement directions."
   },
   {
     "objectID": "en/packages/circularregression.html#usage-example",

@@ -21,9 +21,9 @@ Version CRAN : 0.5.1, publiée le 10 juin 2026.
 
 ## Aperçu visuel
 
-L’image ci-dessous provient du matériel du package et illustre une relation entre directions observées dans les données de Noshiro.
+L’illustration ci-dessous est produite à partir des données `bison` incluses dans le package. Le panneau de gauche compare les directions observées aux directions ajustées par le modèle ; le panneau de droite résume les résidus angulaires.
 
-![Nuage de points circulaires pour les données de Noshiro.](../assets/packages/circularregression-noshiro.png){.package-example}
+![Illustration d’un ajustement CircularRegression sur des directions de mouvement de bisons.](../assets/packages/circularregression-bison-fit-fr.png){.package-example}
 
 ## Exemple d’utilisation
 

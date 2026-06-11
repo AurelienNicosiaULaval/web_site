@@ -4,11 +4,31 @@ title: "Packages R"
 
 Cette page rassemble les packages R que je développe et maintiens, avec une attention particulière aux packages disponibles sur le CRAN et accompagnés d’une documentation ouverte.
 
-Les informations CRAN ci-dessous ont été vérifiées le 10 juin 2026.
+Les informations CRAN ci-dessous ont été vérifiées le 11 juin 2026.
 
 ## Packages sur le CRAN
 
 ::: { .grid .gap-4 }
+::: {.g-col-12 .g-col-lg-6}
+::: {.package-card}
+<div class="package-card-header">
+<img src="assets/packages/tutorizeR-logo.png" class="package-card-logo" alt="Logo hexagonal tutorizeR">
+<h3>tutorizeR</h3>
+</div>
+
+Conversion de matériel pédagogique `.Rmd` ou `.qmd` en tutoriels interactifs pour `learnr` ou `quarto-live`, avec rapports de conversion, tags enseignants et banques de questions.
+
+Version CRAN : 0.4.5, publiée le 11 juin 2026.
+
+::: {.link-list}
+[Page dédiée](packages/tutorizeR.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[CRAN](https://cran.r-project.org/web/packages/tutorizeR/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[GitHub](https://github.com/AurelienNicosiaULaval/tutorizeR){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[Vignette](https://cran.r-project.org/web/packages/tutorizeR/vignettes/getting-started.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+:::
+
 ::: {.g-col-12 .g-col-lg-6}
 ::: {.package-card}
 <div class="package-card-header">
@@ -92,4 +112,3 @@ Version CRAN : 1.0, publiée le 17 août 2015.
 Certains packages et outils sont aussi développés ou maintenus sur GitHub, même s’ils ne sont pas tous sur le CRAN au moment de cette vérification.
 
 - [GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP) : estimation de densité par General Linear Blend Frequency Polygons.
-- [tutorizeR](https://github.com/AurelienNicosiaULaval/tutorizeR) : conversion de matériel R Markdown ou Quarto en tutoriels interactifs.

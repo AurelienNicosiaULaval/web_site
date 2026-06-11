@@ -10,7 +10,7 @@ The CRAN information below was verified on June 10, 2026.
 ## Packages on CRAN
 
 ::: { .grid .gap-4 }
-::: {.g-col-12 .g-col-lg-6 .g-col-xl-3}
+::: {.g-col-12 .g-col-lg-6}
 ::: {.package-card}
 <div class="package-card-header">
 <img src="../assets/packages/donutmap-logo.svg" class="package-card-logo" alt="DonutMap hex logo">
@@ -30,7 +30,7 @@ CRAN version: 0.1.0, published on June 8, 2026.
 :::
 :::
 
-::: {.g-col-12 .g-col-lg-6 .g-col-xl-3}
+::: {.g-col-12 .g-col-lg-6}
 ::: {.package-card}
 <div class="package-card-header">
 <img src="../assets/packages/ggcircular-logo.svg" class="package-card-logo" alt="ggcircular hex logo">
@@ -50,7 +50,7 @@ CRAN version: 0.1.0, published on June 4, 2026.
 :::
 :::
 
-::: {.g-col-12 .g-col-lg-6 .g-col-xl-3}
+::: {.g-col-12 .g-col-lg-6}
 ::: {.package-card}
 <div class="package-card-header">
 <img src="../assets/packages/circularregression-logo.svg" class="package-card-logo" alt="CircularRegression hex logo">
@@ -70,7 +70,7 @@ CRAN version: 0.5.1, published on June 10, 2026.
 :::
 :::
 
-::: {.g-col-12 .g-col-lg-6 .g-col-xl-3}
+::: {.g-col-12 .g-col-lg-6}
 ::: {.package-card}
 <div class="package-card-header">
 <span class="package-card-fallback">GO</span>

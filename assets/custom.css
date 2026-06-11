@@ -152,13 +152,23 @@ body:has(.home-hero) #title-block-header {
   background: rgba(255, 255, 255, 0.78);
   height: 100%;
   box-shadow: 0 0.35rem 1.2rem rgba(0, 0, 0, 0.035);
+  display: flex;
+  flex-direction: column;
 }
 
 .package-card-header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.8rem;
   margin-bottom: 0.8rem;
+}
+
+.package-card-header h3 {
+  font-size: clamp(1.08rem, 1.8vw, 1.28rem);
+  line-height: 1.15;
+  margin: 0.25rem 0 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .package-card-logo {

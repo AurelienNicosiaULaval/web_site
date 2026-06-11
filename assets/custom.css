@@ -156,11 +156,20 @@ body:has(.home-hero) #title-block-header {
   flex-direction: column;
 }
 
+.package-card .link-list {
+  margin-top: auto;
+  padding-top: 0.8rem;
+}
+
 .package-card-header {
   display: flex;
   align-items: flex-start;
   gap: 0.8rem;
   margin-bottom: 0.8rem;
+}
+
+.package-card-header > div {
+  min-width: 0;
 }
 
 .package-card-header h3 {
@@ -188,6 +197,31 @@ body:has(.home-hero) #title-block-header {
   background: rgba(200, 16, 46, 0.1);
   color: var(--accent);
   font-weight: 700;
+}
+
+.github-package-card .package-card-fallback {
+  background: linear-gradient(135deg, rgba(18, 60, 74, 0.12), rgba(200, 16, 46, 0.1));
+  color: #123c4a;
+  border: 1px solid rgba(18, 60, 74, 0.15);
+}
+
+.package-card-meta {
+  color: #52606d;
+  font-size: 0.88rem;
+  line-height: 1.25;
+  margin-top: 0.2rem;
+}
+
+.package-card-tag {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+  margin-bottom: 0.65rem;
+  background: rgba(18, 60, 74, 0.08);
+  color: #123c4a;
+  font-size: 0.82rem;
+  font-weight: 600;
 }
 
 .package-example {

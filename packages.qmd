@@ -277,3 +277,30 @@ Compendium de recherche pour des approximations HMM à horizon fini de modèles 
 :::
 :::
 :::
+
+## Contributions open source externes
+
+Ces contributions concernent des packages maintenus dans d’autres organisations ou comptes GitHub.
+
+::: { .grid .gap-4 }
+::: {.g-col-12 .g-col-lg-6}
+::: {.package-card .github-package-card}
+<div class="package-card-header">
+<span class="package-card-fallback">AM</span>
+<div>
+<h3>amt</h3>
+<div class="package-card-meta">Package R • contribution externe</div>
+</div>
+</div>
+
+<span class="package-card-tag">Movement ecology</span>
+
+Contribution au package R `amt` avec le PR `#142`, “Add generative validation diagnostics”, fusionné le 23 juin 2026 dans `jmsigner/amt`.
+
+::: {.link-list}
+[Package amt](https://github.com/jmsigner/amt){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[PR #142](https://github.com/jmsigner/amt/pull/142){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+:::
+:::

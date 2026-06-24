@@ -63,6 +63,13 @@
     "text": "Projets GitHub liés\nLes vignettes ci-dessous présentent des packages et compendiums R publics hébergés sur mon GitHub, mais non listés dans la section CRAN ci-dessus.\n\n\n\n\nGL\n\n\nGLBFP\n\n\nPackage R • v0.5.1\n\n\n\nEstimation de densité\nEstimateurs ASH, LBFP et GLBFP pour l’estimation non paramétrique de densité, avec grilles, calculs clairsemés, scores leave-one-out et outils de visualisation.\n\nGitHub Documentation\n\n\n\n\n\n\nLT\n\n\nlearnrTrackR\n\n\nPackage R • v0.3.0\n\n\n\nEnseignement interactif\nSuivi des tentatives dans des tutoriels de style learnr, stockage SQLite ou PostgreSQL, résumés de scores, exports Moodle et rapports pédagogiques.\n\nGitHub Documentation\n\n\n\n\n\n\nGM\n\n\ngmov\n\n\nPackage R • v0.0.0.9000\n\n\n\nMouvement animalier\nDiagnostics de validation générative au niveau des trajectoires pour modèles SSF et iSSF, en comparant trajectoires observées et simulées.\n\nGitHub Documentation\n\n\n\n\n\n\nCR\n\n\ncontextR\n\n\nPackage R • v0.2.0\n\n\n\nInterprétation statistique\nAPI S3 pour extraire des résultats statistiques structurés, construire des prompts et produire des explications contextualisées avec contrôles de validation.\n\nGitHub\n\n\n\n\n\n\nUL\n\n\nUlavalSSD\n\n\nPackage R • v0.2.0\n\n\n\nDonnées pédagogiques\nDonnées et fonctions utiles pour l’enseignement de l’introduction à la science des données à l’Université Laval.\n\nGitHub\n\n\n\n\n\n\nHR\n\n\nHMMSSFGenerativeRepair\n\n\nPackage R • v0.1.0\n\n\n\nHMM-SSF\nPrototype de diagnostics de simulation, compatibilité, sharpness et interprétation pour modèles HMM-SSF et HMM-iSSA.\n\nGitHub Documentation\n\n\n\n\n\n\nEH\n\n\nevalue-HMM\n\n\nPackage R • v0.1.0\n\n\n\nDiagnostics prédictifs\nDiagnostics prédictifs par e-valeurs pour modèles de Markov cachés appliqués aux données de mouvement animalier.\n\nGitHub Documentation\n\n\n\n\n\n\nHS\n\n\nhsmmHmmApproximation\n\n\nCompendium R • v0.0.0.9000\n\n\n\nHSMM\nCompendium de recherche pour des approximations HMM à horizon fini de modèles semi-markoviens cachés.\n\nGitHub"
   },
   {
+    "objectID": "packages.html#contributions-open-source-externes",
+    "href": "packages.html#contributions-open-source-externes",
+    "title": "Packages R",
+    "section": "Contributions open source externes",
+    "text": "Contributions open source externes\nCes contributions concernent des packages maintenus dans d’autres organisations ou comptes GitHub.\n\n\n\n\nAM\n\n\namt\n\n\nPackage R • contribution externe\n\n\n\nMovement ecology\nContribution au package R amt avec le PR #142, “Add generative validation diagnostics”, fusionné le 23 juin 2026 dans jmsigner/amt.\n\nPackage amt PR #142"
+  },
+  {
     "objectID": "en/ressources.html",
     "href": "en/ressources.html",
     "title": "Resources",
@@ -838,6 +845,13 @@
     "title": "R Packages",
     "section": "Related GitHub projects",
     "text": "Related GitHub projects\nThe cards below highlight public R packages and compendia hosted on my GitHub account but not listed in the CRAN section above.\n\n\n\n\nGL\n\n\nGLBFP\n\n\nR package • v0.5.1\n\n\n\nDensity estimation\nASH, LBFP, and GLBFP estimators for nonparametric density estimation, with grid workflows, sparse computation, leave-one-out scores, and plotting tools.\n\nGitHub Documentation\n\n\n\n\n\n\nLT\n\n\nlearnrTrackR\n\n\nR package • v0.3.0\n\n\n\nInteractive teaching\nTracking for learnr-style tutorial attempts, with SQLite or PostgreSQL storage, score summaries, Moodle exports, and pedagogical reports.\n\nGitHub Documentation\n\n\n\n\n\n\nGM\n\n\ngmov\n\n\nR package • v0.0.0.9000\n\n\n\nAnimal movement\nTrajectory-level generative validation diagnostics for SSF and iSSF models, comparing observed and simulated trajectories.\n\nGitHub Documentation\n\n\n\n\n\n\nCR\n\n\ncontextR\n\n\nR package • v0.2.0\n\n\n\nStatistical interpretation\nAn S3 API for extracting structured statistical results, building prompts, and generating contextual explanations with validation checks.\n\nGitHub\n\n\n\n\n\n\nUL\n\n\nUlavalSSD\n\n\nR package • v0.2.0\n\n\n\nTeaching datasets\nDatasets and helper functions for introductory data science teaching at Université Laval.\n\nGitHub\n\n\n\n\n\n\nHR\n\n\nHMMSSFGenerativeRepair\n\n\nR package • v0.1.0\n\n\n\nHMM-SSF\nA development prototype for simulation, compatibility, sharpness, and interpretation diagnostics for HMM-SSF and HMM-iSSA models.\n\nGitHub Documentation\n\n\n\n\n\n\nEH\n\n\nevalue-HMM\n\n\nR package • v0.1.0\n\n\n\nPredictive diagnostics\nPredictive e-diagnostics for hidden Markov models applied to animal movement data.\n\nGitHub Documentation\n\n\n\n\n\n\nHS\n\n\nhsmmHmmApproximation\n\n\nR compendium • v0.0.0.9000\n\n\n\nHSMM\nA research compendium for finite-horizon HMM approximations to hidden semi-Markov models.\n\nGitHub"
+  },
+  {
+    "objectID": "en/packages.html#external-open-source-contributions",
+    "href": "en/packages.html#external-open-source-contributions",
+    "title": "R Packages",
+    "section": "External Open Source Contributions",
+    "text": "External Open Source Contributions\nThese contributions are to packages maintained under other GitHub accounts or organizations.\n\n\n\n\nAM\n\n\namt\n\n\nR package • external contribution\n\n\n\nMovement ecology\nContribution to the R package amt through PR #142, “Add generative validation diagnostics”, merged on June 23, 2026 into jmsigner/amt.\n\namt package PR #142"
   },
   {
     "objectID": "en/innovation.html",

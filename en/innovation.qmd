@@ -3,166 +3,118 @@ title: "Educational Innovation"
 lang: en
 ---
 
-## Vision
+## Orientation
 
-I see pedagogical innovation as a **lever for transforming learning**.
-My goal is to design environments where students become active participants in their own education through active approaches, modern digital tools, and a culture of reproducibility.
+::: {.section-intro}
+Educational innovation is used here for a focused purpose: designing active, reproducible, and supported learning environments where digital tools support understanding rather than replacing it.
+:::
 
-My projects are organized around three axes:
+My projects are organized around three priorities: modernizing courses with open technologies, structuring student support, and integrating artificial intelligence within supervised teaching settings.
 
-1. **Modernizing courses** through open technologies (R, Quarto, Learnr, GitHub).
-2. **Support and supervision** through TA training and collaborative resource development.
-3. **Responsible integration of artificial intelligence** in teaching and student success support.
+## Main projects
 
-> 🌱 For me, pedagogical innovation means bringing together rigor, creativity, and accessibility so that every student can learn by exploring, experimenting, and understanding.
-
-## Key projects
+::: {.resource-grid}
+::: {.resource-card}
+::: {.eyebrow}
+Courses
+:::
 
 ### Redesign of data science courses
-Complete update of introductory data science and scientific programming courses.
-Objectives:
 
-- make learning more active and contextualized;
-- develop francophone case studies;
-- provide automated and formative feedback through Quarto and GitHub Classroom.
+Revision of introductory data science and scientific programming courses to strengthen case studies, practice with R and Quarto, and reproducible reporting.
 
-**Outcome:** improved motivation and student participation, while promoting code reproducibility.
+Goals: contextualize learning, develop francophone case studies, provide formative feedback, and make workflows more explicit.
+:::
 
+::: {.resource-card}
+::: {.eyebrow}
+Student success
+:::
 
+### Training and resources for teaching assistants
 
-### Improving student success support
-Development of a structured training model for teaching assistants and an internal platform gathering resources, short videos, and a FAQ.
-**Outcome:** professionalization of the TA role and greater consistency in pedagogical support.
-**Link:** [TA space - internal platform (Ulaval)](https://ulavaldti.sharepoint.com/sites/AuxiliaireduDMS)
+Development of a support model for teaching assistants and an internal platform gathering shared resources, short videos, and procedures.
 
+[Teaching assistant space - internal platform](https://ulavaldti.sharepoint.com/sites/AuxiliaireduDMS){.btn .btn-outline-dark}
+:::
 
+::: {.resource-card}
+::: {.eyebrow}
+Supervised AI
+:::
 
-### GPT-CDA project - Artificial intelligence and learning
-Development of a **specialized conversational assistant** for support in mathematics and statistics.
-Objectives:
+### GPT-CDA project
 
-- provide explanations adapted to course materials;
-- detect misunderstandings and redirect to a human tutor;
-- optimize TA intervention time.
+Development of a specialized conversational assistant to support reasoning in mathematics and statistics, use course notation, and redirect students to a human tutor when human support is preferable.
 
-**Outcome:** deployment of a supervised prototype combining AI and personalized pedagogical support.
-The project was featured in [ULaval News on May 22, 2026](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30).
+::: {.link-list}
+[Project page](cda/index.qmd){.btn .btn-outline-dark}
+[ULaval News article](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30){.btn .btn-outline-dark}
+:::
+:::
 
+::: {.resource-card}
+::: {.eyebrow}
+Open resources
+:::
 
+### site_ressources_SSD platform
 
-### Open educational resources
+Online library of Quarto templates, interactive tutorials, reproducible examples, GitHub procedures, and resources for data science teaching.
 
-I develop an ecosystem of open digital resources to support teaching and learning in data science.
-This platform is designed to facilitate the creation of reproducible, interactive, and collaborative material, while promoting the dissemination of francophone resources.
+[site_ressources_SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/){.btn .btn-outline-dark}
+:::
 
+::: {.resource-card}
+::: {.eyebrow}
+Educational software
+:::
 
+### tutorizeR
 
-#### 1. Educational resources platform
+R package that automates conversion of `.qmd` or `.Rmd` documents into interactive tutorials for `learnr` or `quarto-live`, with conversion reports and feedback mechanisms.
 
-**Link:** [site_ressources_SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/)
+::: {.link-list}
+[Dedicated page](packages/tutorizeR.qmd){.btn .btn-outline-dark}
+[GitHub](https://github.com/AurelienNicosiaULaval/tutorizeR){.btn .btn-outline-dark}
+[CRAN](https://cran.r-project.org/web/packages/tutorizeR/index.html){.btn .btn-outline-dark}
+:::
+:::
 
-Created as an online library, this platform centralizes a set of resources for instructors and students.
-It emphasizes reproducibility, collaboration, and sharing of teaching practices.
+::: {.resource-card}
+::: {.eyebrow}
+Exploration
+:::
 
-**Content:**
+### ZeroWasteData
 
-- Quarto templates for websites, reports, and reproducible documents;
-- Examples of interactive tutorials built with *learnr*;
-- `UlavalSSD` R library containing functions and datasets for statistics teaching;
-- GitHub procedures and guides for version control and open sharing of teaching material.
+Project in development encouraging pedagogical reuse of datasets. The application suggests additional analyses from an already-used dataset and connects them to statistical or data science concepts.
 
-**Outcome:** this platform improves coherence in teaching practices and supports collaboration among colleagues while reducing preparation time.
+[GitHub](https://github.com/AurelienNicosiaULaval/ZeroWasteData){.btn .btn-outline-dark}
+:::
+:::
 
+## Interactive tutorials
 
+Interactive tutorials built with `learnr` allow students to manipulate R code in a guided environment with exercises and feedback.
 
-#### 2. tutorizeR
+::: {.link-list}
+[BIXI tutorial](https://aureliennicosia.shinyapps.io/TutorielBixi/){.btn .btn-outline-dark}
+[ggplot2 tutorial](https://aureliennicosia.shinyapps.io/TutorielGGplot/){.btn .btn-outline-dark}
+:::
 
-**Link:** [tutorizeR](https://github.com/AurelienNicosiaULaval/tutorizeR)
+## Art, mathematics, and data
 
-The *tutorizeR* package automates conversion of Quarto (`.qmd`) and RMarkdown (`.Rmd`) files into interactive tutorials using `learnr` or `quarto-live`.
-It was designed to help instructors quickly create dynamic activities without extra technical effort.
-
-**Main features:**
-
-- Automatic conversion of documents into interactive tutorials;
-- Addition of answer zones and immediate feedback via `gradethis`;
-- Generation of ready-to-deploy environments (online courses, self-training, labs).
-
-**Objective:** promote active and formative pedagogy by integrating interactive exercises directly into Quarto documents.
-**Outcome:** *tutorizeR* substantially reduces the technical workload of tutorial creation while improving reproducibility and student engagement.
-
-
-#### 3. ZeroWasteData *(in development)*
-
-**Link:** [ZeroWasteData](https://github.com/AurelienNicosiaULaval/ZeroWasteData)
-
-*ZeroWasteData* is an interactive application developed in Python with Streamlit, designed to encourage **smart data reuse** in data science education.
-It is based on a simple idea: rather than accumulating files and exhausting storage resources, we should make better use of data we already have.
-
-**How it works:**
-
-- the user imports a dataset;
-- they indicate which analyses or activities have already been performed on that dataset;
-- the application automatically suggests additional possible analyses and links them to relevant statistical or data science concepts (for example: visualization, correlation, regression, supervised learning, clustering, etc.).
-
-**Educational objectives:**
-
-- increase the value of existing datasets by exploring new analytical perspectives;
-- reduce duplication and digital waste, connecting pedagogy and data sustainability;
-- foster active discovery by linking each analysis type to a concrete teaching concept.
-
-**Expected outcome:**
-
-A user-friendly and open-source Streamlit application acting as an intelligent teaching assistant, helping instructors and students get the most from a single dataset,
-while promoting responsible and sustainable management of digital resources.
-
-
-#### 4. Interactive *learnr* tutorials
-
-**Links:**
-- 🚴‍♂️ [BIXI tutorial - Data analysis and visualization](https://aureliennicosia.shinyapps.io/TutorielBixi/)
-- 🎨 [ggplot2 tutorial - Data visualization](https://aureliennicosia.shinyapps.io/TutorielGGplot/)
-
-These interactive tutorials, developed with the **learnr** package, allow students to learn data science fundamentals by directly manipulating R code in a guided environment.
-They combine explanations, practical exercises, and automatic feedback to support active learning and progressive understanding of concepts.
-
-**BIXI tutorial**
-This tutorial is based on real-world BIXI Montréal trip data.
-Participants learn to import, clean, explore, and visualize data using the *tidyverse*.
-Each step includes short explanatory text and auto-graded exercises, reinforcing understanding of the full data analysis cycle.
-
-**ggplot2 tutorial**
-This tutorial guides students through principles of the ggplot2 grammar of graphics.
-It shows how to build effective and aesthetic visualizations, customize graphical elements, and interpret relationships between variables.
-The interactive approach encourages direct experimentation and critical reflection on data visualization.
-
-**Overall objective:**
-provide reproducible and engaging learning environments where students learn through practice while receiving immediate feedback.
-These tutorials are a key step in transitioning toward more interactive teaching, integrated with hybrid and online approaches.
-
-
-
-### Digital drawing with R project
-Collaboration between art and data science exploring the graphical potential of R and the `ggplot2` library.
-**Support:** creation grant.
-**Objective:** produce generative images based on statistical processes, document the creative functions, and share resources on GitHub.
-**Outcome:** an interdisciplinary project at the intersection of art, science, and data visualization.
-
-
+The Digital Drawing with R project explores the graphical potential of R and `ggplot2` for producing generative images based on statistical processes. This work connects visualization, creative programming, and reproducible resources.
 
 ## Outreach
 
-I regularly share my practices in **conferences and workshops** focused on higher education pedagogy and data science.
-I lead training sessions on:
+I regularly share my practices in conferences and workshops devoted to university teaching, data science, and open digital tools.
 
-- scientific reproducibility with R and Quarto,
-- collaborative project management with GitHub,
-- design of interactive activities with Learnr.
+- [SSC 2026 - AI and teaching workshop](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/): public gallery of prompts, teaching activities, AI-use rules, and reusable verification routines.
+- [EIOM 2025 - Statistical modeling workshops](https://github.com/AurelienNicosiaULaval/EIOM_2025) and [website](https://aureliennicosiaulaval.github.io/EIOM_2025/).
+- [ASSQ 2025 - What is new in data science?](https://github.com/AurelienNicosiaULaval/ASSQ_E25).
 
-These initiatives help build a **francophone community of practice** around data science and open digital pedagogy.
-
-Here are examples of material on GitHub:
-
-- [SSC 2026, AI and teaching workshop](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/): public gallery of prompts, teaching activities, AI-use rules, and reusable verification routines.
-- [EIOM 2025 - Statistical modeling workshops](https://github.com/AurelienNicosiaULaval/EIOM_2025) and [Website](https://aureliennicosiaulaval.github.io/EIOM_2025/)
-- [ASSQ 2025 - What's new in data science?](https://github.com/AurelienNicosiaULaval/ASSQ_E25)
+::: {.highlight-strip}
+Guiding principle: connect statistical rigor, student autonomy, and reproducible resources.
+:::

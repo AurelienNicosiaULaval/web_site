@@ -2,15 +2,35 @@
 title: "Centre du Dépannage et d'Apprentissage (CDA) - Math & Stat"
 ---
 
-Le Centre de Dépannage et d’Apprentissage en mathématiques et statistique offre un soutien gratuit aux étudiantes et étudiants inscrits à plusieurs cours du Département de mathématiques et de statistique de l’Université Laval.
+## Mission
 
-Le CDA combine l’aide humaine, les ateliers de soutien et des ressources numériques pour accompagner les apprentissages sans se substituer au travail de compréhension des étudiantes et étudiants.
+::: {.section-intro}
+Le Centre de Dépannage et d’Apprentissage en mathématiques et statistique offre un soutien gratuit aux étudiantes et étudiants inscrits à plusieurs cours du Département de mathématiques et de statistique de l’Université Laval.
+:::
+
+Le CDA combine accompagnement humain, ateliers de soutien et ressources numériques. Son rôle est de soutenir le raisonnement, l’organisation du travail et la progression dans les cours, sans se substituer à l’apprentissage personnel.
 
 ## Services
-- **Tutorat** : accompagnement ciblé sur les notions de cours.
-- **Ateliers** : révision, méthodes de résolution, préparation aux évaluations.
-- **Apprentissage** : organisation du travail, prise de notes, préparation aux examens.
-- **Orientation** : redirection vers les ressources appropriées lorsque les besoins dépassent le cadre du CDA.
+
+::: {.feature-grid}
+::: {.feature-panel}
+### Tutorat
+
+Accompagnement ciblé sur les notions de cours, les exercices, les méthodes de résolution et les difficultés récurrentes.
+:::
+
+::: {.feature-panel}
+### Ateliers
+
+Séances de révision, préparation aux évaluations, stratégies de résolution et soutien méthodologique.
+:::
+
+::: {.feature-panel}
+### Orientation
+
+Redirection vers les ressources appropriées lorsque les besoins dépassent le cadre pédagogique du CDA.
+:::
+:::
 
 ## GPT-CDA
 
@@ -19,14 +39,21 @@ GPT-CDA est un assistant conversationnel pédagogique développé pour soutenir 
 Le projet a été présenté dans [ULaval Nouvelles le 22 mai 2026](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30).
 
 ## Informations pratiques
-- **Affiliation :** Département de mathématiques et de statistique, Université Laval.
-- **Responsable :** Aurélien Nicosia.
-- **Horaires et modalités :** publiés au début de chaque session sur la page officielle du CDA.
-- **Contact :** [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca).
 
-## Comment nous rejoindre
-- Consulter la [page officielle du CDA](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage) pour les informations institutionnelles à jour.
-- Surveiller les annonces de début de session pour les horaires, les ateliers et les modalités d’accès.
+::: {.meta-list}
+Affiliation : Département de mathématiques et de statistique, Université Laval
+
+Responsable : Aurélien Nicosia
+
+Contact : [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca)
+:::
+
+Les horaires et modalités sont publiés au début de chaque session sur la page officielle du Département.
+
+::: {.link-list}
+[Page officielle du CDA](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage){.btn .btn-outline-dark}
+[Article ULaval Nouvelles](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30){.btn .btn-outline-dark}
+:::
 
 ::: {.callout-note}
 Les horaires changent selon les sessions. La page officielle du Département demeure la source de référence pour les modalités pratiques.

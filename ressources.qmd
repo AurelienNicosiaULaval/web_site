@@ -2,34 +2,56 @@
 title: "Autres"
 ---
 
-## Centres d’intérêt et explorations
+## Explorations
 
-Au-delà de la recherche et de l’enseignement, plusieurs domaines nourrissent ma curiosité et mes projets.
-J’aime explorer les frontières entre mathématiques, art, données et créativité numérique.
+::: {.section-intro}
+Cette page rassemble des projets plus exploratoires qui complètent mes activités de recherche et d’enseignement. Ils portent sur les liens entre mathématiques, écriture, visualisation et création numérique.
+:::
 
+::: {.resource-grid}
+::: {.resource-card}
+::: {.eyebrow}
+Mathématiques et art
+:::
 
+### Dessin numérique avec R
 
-### Mathématiques, art et visualisation
-Je m’intéresse à la beauté mathématique sous toutes ses formes - qu’il s’agisse d’une équation élégante, d’une visualisation bien conçue ou d’un motif généré aléatoirement.
-Cette fascination m’a conduit à développer des projets à la frontière entre art et science des données, comme :
+Exploration de textures, motifs et images génératives produits avec R, `ggplot2` et des processus probabilistes. Le projet sert à réfléchir à la visualisation comme espace commun entre rigueur statistique et création.
+:::
 
-- 🎨 *Dessin numérique avec R* : exploration des textures et motifs génératifs produits à partir de lois de probabilités.
-- 📐 *Recettes mathématiques* : un projet d’écriture où chaque concept mathématique est présenté comme une “recette”, mêlant rigueur et poésie.
-📘 [Voir un exemple de deux recettes mathématique (PDF)](Example Recipes.pdf) sur l'identité d'Euler ($e^{i\pi}+1 = 0$) et sur la suite de Fibonacci
+::: {.resource-card}
+::: {.eyebrow}
+Vulgarisation
+:::
 
+### Recettes mathématiques
 
-### Écriture et vulgarisation
+Projet d’écriture où des concepts mathématiques sont présentés comme des recettes courtes, visuelles et structurées. L’objectif est de rendre la beauté formelle des mathématiques plus accessible sans sacrifier la précision.
 
-J’aime rendre les mathématiques **accessibles, vivantes et inspirantes**.
-Mes projets d’écriture associent souvent narration, clarté visuelle et rigueur conceptuelle.
-Je travaille actuellement sur :
+[Exemple de deux recettes mathématiques](Example Recipes.pdf){.btn .btn-outline-dark}
+:::
 
-- *La cuisine des données* - une plateforme d’apprentissage inspirée de l’univers culinaire ;
+::: {.resource-card}
+::: {.eyebrow}
+Science des données
+:::
 
-- *Recettes mathématiques* - un ouvrage illustré pour découvrir la beauté des théorèmes à travers des “recettes” courtes et visuelles.
+### La cuisine des données
 
+Projet de plateforme d’apprentissage inspirée de l’univers culinaire, conçu pour expliquer les étapes d’un projet de données à partir d’analogies concrètes et d’exemples reproductibles.
+:::
 
+::: {.resource-card}
+::: {.eyebrow}
+Créativité numérique
+:::
 
-> 🌱 Mon parcours s’articule autour d’une idée simple :
-**faire dialoguer la rigueur scientifique et la créativité humaine**,
-pour que les mathématiques et la science des données deviennent des espaces de découverte, d’art et de transmission.
+### Visualisation et transmission
+
+Travail exploratoire sur la manière dont les formes visuelles, les métaphores et les interfaces peuvent soutenir la compréhension de concepts statistiques ou mathématiques.
+:::
+:::
+
+::: {.highlight-strip}
+Fil conducteur : faire dialoguer rigueur scientifique, clarté visuelle et créativité humaine afin de rendre les mathématiques et la science des données plus accessibles.
+:::

@@ -5,105 +5,111 @@ lang: en
 
 ## Overview
 
-My work sits at the interface of applied mathematics, computational statistics, and data science.
-I develop robust and interpretable methods for complex data analysis, with a special focus on reproducibility, open-source software, and practical translation into usable tools.
+::: {.section-intro}
+My work is situated at the interface of applied mathematics, computational statistics, and data science. I develop interpretable methods for analysing complex data, with particular attention to reproducibility, open-source software, and translation into usable tools.
+:::
 
+## Research areas
 
+::: {.research-axis-grid}
+::: {.research-card}
+::: {.eyebrow}
+Densities and anomalies
+:::
 
-## Research axes
+### Density estimation
 
-### 1. Density estimation and anomaly detection
-I develop methods based on GLBFP (Generalized Linear Blend Frequency Polygons) that unify histograms, ASH, and LBFP.
-Goals: stability, adaptivity, and clear geometric interpretation.
-Direct application: detection of atypical observations through combinations of local densities.
-Software resource: GLBFP (R package, GitHub repository).
+Development of GLBFP methods, for Generalized Linear Blend Frequency Polygons, extending ideas from histograms, average shifted histograms, and linear blend frequency polygons. The goal is to produce stable, adaptive, and geometrically interpretable estimators, especially for atypical-observation detection.
 
-### 2. Directional statistics and angular models
-Models for circular and directional data, including random circular effects.
-Applications: orientation/movement, periodic phenomena, and dominant wind patterns.
-Software resources: CircularRegression and ggcircular (R packages available on CRAN).
+[GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark}
+:::
 
-### 3. Hidden models and latent dynamics
-Modeling with Hidden Markov Models for temporal and spatio-temporal data.
-Recent interests: impact of temporal scale on inference, multi-individual models, and links with habitat-selection functions to connect behavior and environment.
+::: {.research-card}
+::: {.eyebrow}
+Directional data
+:::
 
-### 4. Applied data science and pedagogical innovation
-Transfer of statistical concepts to machine learning (measurement errors, interpretability, robustness).
-Development of open resources for data science training (Quarto, learnr, GitHub) and reflection on responsible AI use in teaching.
+### Circular statistics
 
+Models for circular, axial, and directional data, including angular responses, circular random effects, and visualizations adapted to angles, orientations, directions, and times of day.
 
+[CircularRegression](packages/circularregression.qmd){.btn .btn-outline-dark}
+[ggcircular](packages/ggcircular.qmd){.btn .btn-outline-dark}
+:::
 
+::: {.research-card}
+::: {.eyebrow}
+Latent dynamics
+:::
+
+### Hidden Markov models
+
+Modeling of temporal and spatio-temporal data with hidden-state models, with particular interest in the effect of temporal scale on inference, multi-individual models, and links with step-selection functions.
+
+[Thesis and code](https://github.com/AurelienNicosiaULaval/multi-state-model-animal-movement){.btn .btn-outline-dark}
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Translation
+:::
+
+### Applied data science
+
+Development of resources and tools connecting statistical methods, machine learning, interpretability, robustness, and data science education.
+
+[Teaching resources](ressources.qmd){.btn .btn-outline-dark}
+:::
+:::
 
 ## Doctoral thesis
 
-**Title:** *General Multi-state Models for the Analysis of Animal Movement*
-**Year:** 2024
-**University:** Université Laval
-**Supervisors:** Thierry Duchesne and Louis-Paul Rivest
+::: {.meta-list}
+Title: General Multi-state Models for the Analysis of Animal Movement
 
-This thesis develops a general framework for **multi-state modeling of animal movement**, combining the rigor of hidden Markov models with the flexibility of habitat-selection functions.
-It proposes a unifying formulation connecting behavioral and spatial approaches, along with a full software implementation in R.
+Year: 2024
 
-- 📄 [View thesis (PDF, institutional repository)](https://corpus.ulaval.ca/server/api/core/bitstreams/cf3426a4-3475-4d48-a4c4-de29df846ed5/content)
-- 💻 [Code and reproducible material (GitHub)](https://github.com/AurelienNicosiaULaval/multi-state-model-animal-movement)
+University: Université Laval
 
+Supervisors: Thierry Duchesne and Louis-Paul Rivest
+:::
 
+This thesis develops a general framework for multi-state modeling of animal movement. It combines the rigor of hidden Markov models with the flexibility of habitat-selection functions, through a unifying formulation connecting behavioral and spatial approaches.
 
+::: {.link-list}
+[View thesis](https://corpus.ulaval.ca/server/api/core/bitstreams/cf3426a4-3475-4d48-a4c4-de29df846ed5/content){.btn .btn-outline-dark}
+[Code and reproducible material](https://github.com/AurelienNicosiaULaval/multi-state-model-animal-movement){.btn .btn-outline-dark}
+:::
 
-### Software and dissemination
+## Software and dissemination
 
-- [**GLBFP**](https://github.com/AurelienNicosiaULaval/GLBFP): density estimation based on *Generalized Linear Blend Frequency Polygons*.
-  A unifying method for histogram, ASH, and LBFP approaches, offering clear geometric interpretation and improved stability.
-
-- [**CircularRegression**](packages/circularregression.qmd): R package available on CRAN since June 10, 2026, for fitting regression models when the response is circular.
-  It includes homogeneous angular regression, consensus angular regression, a two-step workflow, and a random-intercept extension for clustered circular responses. See also [CRAN](https://cran.r-project.org/package=CircularRegression), the [GitHub repository](https://github.com/AurelienNicosiaULaval/CircularRegression), and the [CRAN vignette](https://cran.r-project.org/web/packages/CircularRegression/vignettes/angular-regression-workflow.html).
-
-- [**ggcircular**](packages/ggcircular.qmd): a `ggplot2` extension for circular, axial, and directional data, available on CRAN since June 4, 2026.
-  The package provides layers, scales, summaries, diagnostics, and visualizations for angles, orientations, directions, times of day, and movement data. See also [CRAN](https://cran.r-project.org/web/packages/ggcircular/index.html), the [GitHub repository](https://github.com/AurelienNicosiaULaval/ggcircular), and the [pkgdown documentation](https://aureliennicosiaulaval.github.io/ggcircular/).
-
-- [**DonutMap**](https://cran.r-project.org/web/packages/DonutMap/index.html): R package available on CRAN since June 8, 2026, for creating donut maps with `sf`, `ggplot2`, and `leaflet`.
-  See also the [dedicated page](packages/donutmap.qmd), the [GitHub repository](https://github.com/AurelienNicosiaULaval/DonutMap), and the [pkgdown documentation](https://aureliennicosiaulaval.github.io/DonutMap/).
-
-- [**site_ressources_SSD**](https://aureliennicosiaulaval.github.io/site_ressources_SSD/): Francophone educational resources platform for data science.
-  Includes Quarto templates, interactive tutorials (Learnr), and reproducible examples for instructors and students.
-
-- [**GeneralOaxaca**](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html): R package available on CRAN for decomposition of gaps using the **generalized Blinder-Oaxaca** approach.
-  It supports analysis of observed differences between groups (e.g., gender, regions, sectors) by decomposing contributions from composition effects and coefficient effects in linear and generalized models.
-
-
-
+- [GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP): density estimation based on Generalized Linear Blend Frequency Polygons.
+- [CircularRegression](packages/circularregression.qmd): R package available on CRAN for fitting regression models when the response is circular.
+- [ggcircular](packages/ggcircular.qmd): `ggplot2` extension for circular, axial, and directional data.
+- [DonutMap](packages/donutmap.qmd): R package for creating donut maps with `sf`, `ggplot2`, and `leaflet`.
+- [site_ressources_SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/): francophone educational resources platform for data science.
+- [GeneralOaxaca](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html): R package for generalized Blinder-Oaxaca decomposition.
 
 ## Recent presentations
 
-- **SSC 2026.** *A Leave-One-Out Influence Statistic for Scalable Density-Based Outlier Detection*, with Thierry Duchesne and Michel Carbon.
-  [View the presentation PDF](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf) and the [GitHub repository](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation).
-  This presentation received the 2026 New Investigator Presentation Award.
-
-
+- SSC 2026. A Leave-One-Out Influence Statistic for Scalable Density-Based Outlier Detection, with Thierry Duchesne and Michel Carbon. [Presentation PDF](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf) and [GitHub repository](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation). This presentation received the 2026 New Investigator Presentation Award.
 
 ## Publications
 
 ### Published articles
 
-1. **Nicosia, A.** (2026). *Beyond the next step: A multi-criteria generative validation framework for step selection functions.* *Methods in Ecology and Evolution, 17*(6), 1754-1767.
-   [https://doi.org/10.1111/2041-210X.70313](https://doi.org/10.1111/2041-210X.70313)
+1. Nicosia, A. (2026). Beyond the next step: A multi-criteria generative validation framework for step selection functions. Methods in Ecology and Evolution, 17(6), 1754-1767. [https://doi.org/10.1111/2041-210X.70313](https://doi.org/10.1111/2041-210X.70313)
 
-2. **Nicosia, A.** (2026). *Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”.* *Journal of Data Science.*
-   [https://doi.org/10.6339/26-JDS1208H](https://doi.org/10.6339/26-JDS1208H) - [Article page](https://jds-online.org/journal/JDS/article/1474/info)
+2. Nicosia, A. (2026). Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”. Journal of Data Science. [https://doi.org/10.6339/26-JDS1208H](https://doi.org/10.6339/26-JDS1208H)
 
-3. **Gagnon, S., Allard, M., Nicosia, A.** (2017). *Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada.* *Arctic Science.*
-   [https://doi.org/10.1139/AS-2016-0045](https://doi.org/10.1139/AS-2016-0045)
+3. Gagnon, S., Allard, M., Nicosia, A. (2018). Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada. Arctic Science, 4(1), 1-15. [https://doi.org/10.1139/AS-2016-0045](https://doi.org/10.1139/AS-2016-0045)
 
-4. **Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D.** (2016). *A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement.* *Annals of Applied Statistics.*
-   [https://doi.org/10.1214/17-AOAS1045](https://doi.org/10.1214/17-AOAS1045)
+4. Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement. Annals of Applied Statistics, 11(3), 1537-1560. [https://doi.org/10.1214/17-AOAS1045](https://doi.org/10.1214/17-AOAS1045)
 
-5. **Rivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D.** (2015). *A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology.* *Journal of the Royal Statistical Society: Series C (Applied Statistics).*
-   [https://doi.org/10.1111/rssc.12124](https://doi.org/10.1111/rssc.12124)
+5. Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A General Hidden State Random Walk Model for Animal Movement. Computational Statistics & Data Analysis, 105, 76-95. [https://doi.org/10.1016/j.csda.2016.07.009](https://doi.org/10.1016/j.csda.2016.07.009)
 
-6. **Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D.** (2015). *A General Hidden State Random Walk Model for Animal Movement.* *Computational Statistics & Data Analysis.*
-   [https://doi.org/10.1016/j.csda.2016.07.009](https://doi.org/10.1016/j.csda.2016.07.009)
+6. Rivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D. (2016). A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology. Journal of the Royal Statistical Society: Series C, 65(3), 445-463. [https://doi.org/10.1111/rssc.12124](https://doi.org/10.1111/rssc.12124)
 
 ### Preprints
 
-1. **Bouderbala, I., Nicosia, A., Fortin, D.** (2026). *Behavioural state inference from movement and environmental data using Markovian step selection functions.* *bioRxiv*.
-   [https://doi.org/10.64898/2026.02.05.704063](https://doi.org/10.64898/2026.02.05.704063)
+1. Bouderbala, I., Nicosia, A., Fortin, D. (2026). Behavioural state inference from movement and environmental data using Markovian step selection functions. bioRxiv. [https://doi.org/10.64898/2026.02.05.704063](https://doi.org/10.64898/2026.02.05.704063)

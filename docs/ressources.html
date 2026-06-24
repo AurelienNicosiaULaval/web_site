@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr-CA" xml:lang="fr-CA"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -219,39 +219,9 @@ ul.task-list li input[type="checkbox"] {
 })();
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="assets/custom.css">
 <meta property="og:title" content="Autres – Aurélien Nicosia">
-<meta property="og:description" content="">
 <meta property="og:site_name" content="Aurélien Nicosia">
 <meta property="og:locale" content="fr_CA">
 </head>
@@ -329,11 +299,7 @@ window.Quarto = {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#centres-dintérêt-et-explorations" id="toc-centres-dintérêt-et-explorations" class="nav-link active" data-scroll-target="#centres-dintérêt-et-explorations">Centres d’intérêt et explorations</a>
-  <ul class="collapse">
-  <li><a href="#mathématiques-art-et-visualisation" id="toc-mathématiques-art-et-visualisation" class="nav-link" data-scroll-target="#mathématiques-art-et-visualisation">Mathématiques, art et visualisation</a></li>
-  <li><a href="#écriture-et-vulgarisation" id="toc-écriture-et-vulgarisation" class="nav-link" data-scroll-target="#écriture-et-vulgarisation">Écriture et vulgarisation</a></li>
-  </ul></li>
+  <li><a href="#explorations" id="toc-explorations" class="nav-link active" data-scroll-target="#explorations">Explorations</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/ressources.qmd" class="toc-action"><i class="bi bi-github"></i>Modifier cette page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></nav>
     </div>
@@ -359,30 +325,55 @@ window.Quarto = {
 </header>
 
 
-<section id="centres-dintérêt-et-explorations" class="level2">
-<h2 class="anchored" data-anchor-id="centres-dintérêt-et-explorations">Centres d’intérêt et explorations</h2>
-<p>Au-delà de la recherche et de l’enseignement, plusieurs domaines nourrissent ma curiosité et mes projets. J’aime explorer les frontières entre mathématiques, art, données et créativité numérique.</p>
-<section id="mathématiques-art-et-visualisation" class="level3">
-<h3 class="anchored" data-anchor-id="mathématiques-art-et-visualisation">Mathématiques, art et visualisation</h3>
-<p>Je m’intéresse à la beauté mathématique sous toutes ses formes - qu’il s’agisse d’une équation élégante, d’une visualisation bien conçue ou d’un motif généré aléatoirement. Cette fascination m’a conduit à développer des projets à la frontière entre art et science des données, comme :</p>
-<ul>
-<li>🎨 <em>Dessin numérique avec R</em> : exploration des textures et motifs génératifs produits à partir de lois de probabilités.</li>
-<li>📐 <em>Recettes mathématiques</em> : un projet d’écriture où chaque concept mathématique est présenté comme une “recette”, mêlant rigueur et poésie. 📘 <a href="Example Recipes.pdf">Voir un exemple de deux recettes mathématique (PDF)</a> sur l’identité d’Euler (<span class="math inline">\(e^{i\pi}+1 = 0\)</span>) et sur la suite de Fibonacci</li>
-</ul>
+<section id="explorations" class="level2">
+<h2 class="anchored" data-anchor-id="explorations">Explorations</h2>
+<div class="section-intro">
+<p>Cette page rassemble des projets plus exploratoires qui complètent mes activités de recherche et d’enseignement. Ils portent sur les liens entre mathématiques, écriture, visualisation et création numérique.</p>
+</div>
+<div class="resource-grid">
+<div class="resource-card">
+<div class="eyebrow">
+<p>Mathématiques et art</p>
+</div>
+<section id="dessin-numérique-avec-r" class="level3">
+<h3 class="anchored" data-anchor-id="dessin-numérique-avec-r">Dessin numérique avec R</h3>
+<p>Exploration de textures, motifs et images génératives produits avec R, <code>ggplot2</code> et des processus probabilistes. Le projet sert à réfléchir à la visualisation comme espace commun entre rigueur statistique et création.</p>
 </section>
-<section id="écriture-et-vulgarisation" class="level3">
-<h3 class="anchored" data-anchor-id="écriture-et-vulgarisation">Écriture et vulgarisation</h3>
-<p>J’aime rendre les mathématiques <strong>accessibles, vivantes et inspirantes</strong>. Mes projets d’écriture associent souvent narration, clarté visuelle et rigueur conceptuelle. Je travaille actuellement sur :</p>
-<ul>
-<li><p><em>La cuisine des données</em> - une plateforme d’apprentissage inspirée de l’univers culinaire ;</p></li>
-<li><p><em>Recettes mathématiques</em> - un ouvrage illustré pour découvrir la beauté des théorèmes à travers des “recettes” courtes et visuelles.</p></li>
-</ul>
-<blockquote class="blockquote">
-<p>🌱 Mon parcours s’articule autour d’une idée simple : <strong>faire dialoguer la rigueur scientifique et la créativité humaine</strong>, pour que les mathématiques et la science des données deviennent des espaces de découverte, d’art et de transmission.</p>
-</blockquote>
+</div>
+<div class="resource-card">
+<div class="eyebrow">
+<p>Vulgarisation</p>
+</div>
+<section id="recettes-mathématiques" class="level3">
+<h3 class="anchored" data-anchor-id="recettes-mathématiques">Recettes mathématiques</h3>
+<p>Projet d’écriture où des concepts mathématiques sont présentés comme des recettes courtes, visuelles et structurées. L’objectif est de rendre la beauté formelle des mathématiques plus accessible sans sacrifier la précision.</p>
+<p><a href="Example Recipes.pdf" class="btn btn-outline-dark">Exemple de deux recettes mathématiques</a></p>
+</section>
+</div>
+<div class="resource-card">
+<div class="eyebrow">
+<p>Science des données</p>
+</div>
+<section id="la-cuisine-des-données" class="level3">
+<h3 class="anchored" data-anchor-id="la-cuisine-des-données">La cuisine des données</h3>
+<p>Projet de plateforme d’apprentissage inspirée de l’univers culinaire, conçu pour expliquer les étapes d’un projet de données à partir d’analogies concrètes et d’exemples reproductibles.</p>
+</section>
+</div>
+<div class="resource-card">
+<div class="eyebrow">
+<p>Créativité numérique</p>
+</div>
+<section id="visualisation-et-transmission" class="level3">
+<h3 class="anchored" data-anchor-id="visualisation-et-transmission">Visualisation et transmission</h3>
+<p>Travail exploratoire sur la manière dont les formes visuelles, les métaphores et les interfaces peuvent soutenir la compréhension de concepts statistiques ou mathématiques.</p>
+</section>
+</div>
+</div>
+<div class="highlight-strip">
+<p>Fil conducteur : faire dialoguer rigueur scientifique, clarté visuelle et créativité humaine afin de rendre les mathématiques et la science des données plus accessibles.</p>
+</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -795,7 +786,7 @@ window.Quarto = {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 <strong>Aurélien Nicosia</strong> - Université Laval 📍 Québec, QC - ✉️ <a href="mailto:aurelien.nicosia@mat.ulaval.ca">aurelien.nicosia@mat.ulaval.ca</a></p>
+<p>© 2026 Aurélien Nicosia - Université Laval<br> Québec, QC - <a href="mailto:aurelien.nicosia@mat.ulaval.ca">aurelien.nicosia@mat.ulaval.ca</a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

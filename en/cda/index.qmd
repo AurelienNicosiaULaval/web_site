@@ -1,34 +1,61 @@
 ---
-title: "Center for Tutoring and Learning (CDA) - Math & Statistics"
+title: "Center for Tutoring and Learning (CDA) - Math & Stat"
 lang: en
 ---
 
-The Center for Tutoring and Learning in Mathematics and Statistics provides free support to students enrolled in several courses in the Department of Mathematics and Statistics at Université Laval.
+## Mission
 
-The CDA combines human tutoring, support workshops, and digital resources to support learning without replacing students’ own reasoning and understanding.
+::: {.section-intro}
+The Center for Tutoring and Learning in mathematics and statistics provides free support to students enrolled in several courses in the Department of Mathematics and Statistics at Université Laval.
+:::
+
+The CDA combines human support, workshops, and digital resources. Its role is to support reasoning, work organization, and progress in courses, without replacing students’ own learning process.
 
 ## Services
-- **Tutoring:** targeted guidance on course concepts.
-- **Workshops:** review sessions, problem-solving methods, and exam preparation.
-- **Learning support:** work organization, note-taking, and exam preparation.
-- **Orientation:** referral to appropriate resources when needs go beyond the CDA scope.
+
+::: {.feature-grid}
+::: {.feature-panel}
+### Tutoring
+
+Targeted support on course concepts, exercises, resolution methods, and recurring difficulties.
+:::
+
+::: {.feature-panel}
+### Workshops
+
+Review sessions, exam preparation, problem-solving strategies, and methodological support.
+:::
+
+::: {.feature-panel}
+### Guidance
+
+Referral to appropriate resources when needs go beyond the CDA’s pedagogical scope.
+:::
+:::
 
 ## GPT-CDA
 
-GPT-CDA is a pedagogical conversational assistant developed to support learning in mathematics and statistics. The project is designed to guide reasoning, use course-specific notation, and maintain the connection with CDA teaching assistants when human support is preferable.
+GPT-CDA is an educational conversational assistant developed to support learning in mathematics and statistics. The project aims to support reasoning, use course notation, and maintain the connection with CDA teaching assistants when human support is preferable.
 
 The project was featured in [ULaval News on May 22, 2026](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30).
 
 ## Practical information
-- **Affiliation:** Department of Mathematics and Statistics, Université Laval.
-- **Coordinator:** Aurélien Nicosia.
-- **Hours and format:** published at the start of each term on the official CDA page.
-- **Contact:** [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca).
 
-## How to get in touch
-- Visit the [official CDA page](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage) for up-to-date institutional information.
-- Watch for beginning-of-term announcements for hours, workshops, and access details.
+::: {.meta-list}
+Affiliation: Department of Mathematics and Statistics, Université Laval
+
+Coordinator: Aurélien Nicosia
+
+Contact: [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca)
+:::
+
+Schedules and access details are published at the beginning of each term on the official Department page.
+
+::: {.link-list}
+[Official CDA page](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage){.btn .btn-outline-dark}
+[ULaval News article](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30){.btn .btn-outline-dark}
+:::
 
 ::: {.callout-note}
-Schedules change from term to term. The official Department page remains the reference source for practical details.
+Schedules change by term. The official Department page remains the reference source for practical details.
 :::

@@ -1,20 +1,23 @@
 ---
 title: "Aurélien Nicosia"
 title-block-banner: true
+toc: false
 lang: en
 ---
 
 ::: {.home-hero}
 ::: {.home-hero-copy}
-## Applied statistics, R, and open teaching
+# Aurélien Nicosia
 
-Lecturer in mathematics and statistics at Université Laval in Quebec City. I develop teaching resources, R packages, and statistical methods that connect rigorous analysis, visualization, and active learning.
+## Applied statistics, data science, and university teaching
+
+Lecturer in mathematics and statistics at Université Laval in Quebec City. I develop teaching resources, R packages, and statistical methods at the intersection of rigorous analysis, visualization, and active learning.
 
 ::: {.hero-actions}
-[Teaching](enseignement.qmd){.btn .btn-outline-danger .rounded-pill .btn-lg .fw-bold}
-[Research](recherche.qmd){.btn .btn-outline-dark .rounded-pill .btn-lg .fw-bold}
-[R packages](packages.qmd){.btn .btn-outline-dark .rounded-pill .btn-lg .fw-bold}
-[Educational innovation](innovation.qmd){.btn .btn-outline-warning .rounded-pill .btn-lg .fw-bold}
+[Teaching](enseignement.qmd){.btn .btn-outline-dark .btn-lg}
+[Research](recherche.qmd){.btn .btn-outline-dark .btn-lg}
+[R packages](packages.qmd){.btn .btn-outline-dark .btn-lg}
+[Educational innovation](innovation.qmd){.btn .btn-outline-dark .btn-lg}
 :::
 :::
 
@@ -27,102 +30,100 @@ Lecturer in mathematics and statistics at Université Laval in Quebec City. I de
 :::
 :::
 
-
-## 2026 updates
+## Updates and highlights
 
 ::: {.news-grid}
 ::: {.news-panel}
+::: {.eyebrow}
+Student support
+:::
+
 ### GPT-CDA in ULaval News
+
 On May 22, 2026, ULaval News published a story about GPT-CDA, a conversational assistant designed to support learning in mathematics and statistics at the CDA.
 
 ::: {.link-list}
-[Read the article](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[CDA page](cda/index.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[Read the article](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30){.btn .btn-outline-dark}
+[CDA page](cda/index.qmd){.btn .btn-outline-dark}
 :::
 :::
 
 ::: {.news-panel}
-### Three recent R packages on CRAN
-The R packages `DonutMap`, `ggcircular`, and `CircularRegression` have been available on CRAN since June 2026. They support donut-chart mapping, circular-data visualization, and regression for circular responses.
+::: {.eyebrow}
+R software
+:::
+
+### Recent packages on CRAN
+
+`DonutMap`, `ggcircular`, `CircularRegression`, and `tutorizeR` support statistical mapping, circular-data visualization, circular regression, and interactive tutorial creation.
 
 ::: {.link-list}
-[DonutMap](packages/donutmap.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[ggcircular](packages/ggcircular.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[CircularRegression](packages/circularregression.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[All packages](packages.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[DonutMap](packages/donutmap.qmd){.btn .btn-outline-dark}
+[ggcircular](packages/ggcircular.qmd){.btn .btn-outline-dark}
+[CircularRegression](packages/circularregression.qmd){.btn .btn-outline-dark}
+[tutorizeR](packages/tutorizeR.qmd){.btn .btn-outline-dark}
 :::
 :::
 
 ::: {.news-panel}
+::: {.eyebrow}
+Presentations
+:::
+
 ### SSC 2026
+
 I led a workshop on AI and teaching, contributed to a public teaching-resource gallery, presented work on LOO-LBFP, and received the 2026 New Investigator Presentation Award.
 
 ::: {.link-list}
-[AI Gallery](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[LOO-LBFP presentation](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[AI Gallery](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/){.btn .btn-outline-dark}
+[LOO-LBFP presentation](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf){.btn .btn-outline-dark}
 :::
 :::
 
 ::: {.news-panel}
-### Animal movement publications
-A new article is published in *Methods in Ecology and Evolution*, and a bioRxiv preprint focuses on behavioural-state inference using Markovian step-selection functions.
+::: {.eyebrow}
+Publications
+:::
+
+### Animal movement
+
+An article is published in Methods in Ecology and Evolution, and a bioRxiv preprint focuses on behavioural-state inference using Markovian step-selection functions.
 
 ::: {.link-list}
-[MEE article](https://doi.org/10.1111/2041-210X.70313){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[bioRxiv preprint](https://doi.org/10.64898/2026.02.05.704063){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[MEE article](https://doi.org/10.1111/2041-210X.70313){.btn .btn-outline-dark}
+[bioRxiv preprint](https://doi.org/10.64898/2026.02.05.704063){.btn .btn-outline-dark}
 :::
 :::
 :::
 
-
-
-## Featured
+## Site focus
 
 ::: {.feature-grid}
 ::: {.feature-panel}
-### Doctoral thesis
-Multi-state models for animal movement analysis.
+### Teaching
 
-[View PDF](https://corpus.ulaval.ca/server/api/core/bitstreams/cf3426a4-3475-4d48-a4c4-de29df846ed5/content){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+Courses in statistics, data science, and R programming grounded in practice, reproducibility, and scientific communication.
 
-[Code and materials](https://github.com/AurelienNicosiaULaval/multi-state-model-animal-movement){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[View courses](enseignement.qmd){.btn .btn-outline-dark}
 :::
 
 ::: {.feature-panel}
-### R packages
-A set of R packages developed for applied statistics.
+### Research
 
-[DonutMap](packages/donutmap.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+Statistical methods for complex data, with emphasis on density estimation, multi-state models, circular data, and animal movement.
 
-[GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-
-[CircularRegression](packages/circularregression.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-
-[ggcircular](packages/ggcircular.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-
-[GeneralOaxaca (CRAN)](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-
-[View all packages](packages.qmd){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[View research areas](recherche.qmd){.btn .btn-outline-dark}
 :::
 
 ::: {.feature-panel}
-### Open resources
-A platform for open educational resources, tutorials, and teaching tools.
+### Software and resources
 
-[site_ressources_SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+R packages, Quarto platforms, interactive tutorials, and open material supporting reproducible research and data science teaching.
 
-[tutorizeR](https://github.com/AurelienNicosiaULaval/tutorizeR){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-
-[ZeroWasteData](https://github.com/AurelienNicosiaULaval/ZeroWasteData){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[Explore packages](packages.qmd){.btn .btn-outline-dark}
 :::
 :::
 
-
-
-## Quick links
-
-- Teaching: course notes and assignments → [Teaching](enseignement.qmd)
-- Research: projects, software, thesis → [Research](recherche.qmd)
-- Educational innovation: projects and resources → [Educational innovation](innovation.qmd)
-- About and contact → [About](a-propos.qmd)
-- Full CV → [CV](cv/index.qmd)
+::: {.highlight-strip}
+This website gathers my research, teaching, and pedagogical innovation activities. It emphasizes verifiable resources, links to repositories or publications, and materials that can be reused directly.
+:::

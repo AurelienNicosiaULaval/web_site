@@ -3,34 +3,56 @@ title: "Resources"
 lang: en
 ---
 
-## Interests and explorations
+## Explorations
 
-Beyond research and teaching, several areas feed my curiosity and projects.
-I enjoy exploring the boundaries between mathematics, art, data, and digital creativity.
+::: {.section-intro}
+This page gathers more exploratory projects that complement my research and teaching activities. They focus on connections between mathematics, writing, visualization, and digital creation.
+:::
 
+::: {.resource-grid}
+::: {.resource-card}
+::: {.eyebrow}
+Mathematics and art
+:::
 
+### Digital drawing with R
 
-### Mathematics, art, and visualization
-I am interested in mathematical beauty in all its forms - whether an elegant equation, a well-designed visualization, or a random-generated motif.
-This curiosity has led me to projects at the boundary between art and data science, such as:
+Exploration of textures, patterns, and generative images produced with R, `ggplot2`, and probabilistic processes. The project uses visualization as a meeting point between statistical rigor and creative work.
+:::
 
-- 🎨 *Digital drawing with R*: exploring textures and generative patterns from probability laws.
-- 📐 *Mathematical recipes*: a writing project where each mathematical concept is presented as a “recipe,” blending rigor and poetry.
-📘 [View a sample of two mathematical recipes (PDF)](../Example Recipes.pdf) on Euler's identity ($e^{i\pi}+1 = 0$) and the Fibonacci sequence
+::: {.resource-card}
+::: {.eyebrow}
+Outreach writing
+:::
 
+### Mathematical recipes
 
-### Writing and outreach
+Writing project where mathematical concepts are presented as short, visual, and structured recipes. The objective is to make the formal beauty of mathematics more accessible without sacrificing precision.
 
-I like to make mathematics **accessible, alive, and inspiring**.
-My writing projects often combine storytelling, visual clarity, and conceptual rigor.
-I am currently working on:
+[Sample of two mathematical recipes](../Example Recipes.pdf){.btn .btn-outline-dark}
+:::
 
-- *Data Kitchen* - a learning platform inspired by the culinary world
+::: {.resource-card}
+::: {.eyebrow}
+Data science
+:::
 
-- *Mathematical Recipes* - an illustrated book to discover the beauty of theorems through short, visual "recipes"
+### Data Kitchen
 
+Learning-platform project inspired by culinary language, designed to explain the stages of a data project through concrete analogies and reproducible examples.
+:::
 
+::: {.resource-card}
+::: {.eyebrow}
+Digital creativity
+:::
 
-> 🌱 My path is guided by a simple idea:
-**bringing scientific rigor and human creativity together**,
-so mathematics and data science become spaces for discovery, art, and communication.
+### Visualization and communication
+
+Exploratory work on how visual forms, metaphors, and interfaces can support understanding of statistical or mathematical concepts.
+:::
+:::
+
+::: {.highlight-strip}
+Guiding thread: connect scientific rigor, visual clarity, and human creativity to make mathematics and data science more accessible.
+:::

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -219,39 +219,9 @@ ul.task-list li input[type="checkbox"] {
 })();
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../assets/custom.css">
 <meta property="og:title" content="Resources – Aurélien Nicosia">
-<meta property="og:description" content="">
 <meta property="og:site_name" content="Aurélien Nicosia">
 <meta property="og:locale" content="fr_CA">
 </head>
@@ -329,11 +299,7 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#interests-and-explorations" id="toc-interests-and-explorations" class="nav-link active" data-scroll-target="#interests-and-explorations">Interests and explorations</a>
-  <ul class="collapse">
-  <li><a href="#mathematics-art-and-visualization" id="toc-mathematics-art-and-visualization" class="nav-link" data-scroll-target="#mathematics-art-and-visualization">Mathematics, art, and visualization</a></li>
-  <li><a href="#writing-and-outreach" id="toc-writing-and-outreach" class="nav-link" data-scroll-target="#writing-and-outreach">Writing and outreach</a></li>
-  </ul></li>
+  <li><a href="#explorations" id="toc-explorations" class="nav-link active" data-scroll-target="#explorations">Explorations</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/en/ressources.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -359,30 +325,55 @@ window.Quarto = {
 </header>
 
 
-<section id="interests-and-explorations" class="level2">
-<h2 class="anchored" data-anchor-id="interests-and-explorations">Interests and explorations</h2>
-<p>Beyond research and teaching, several areas feed my curiosity and projects. I enjoy exploring the boundaries between mathematics, art, data, and digital creativity.</p>
-<section id="mathematics-art-and-visualization" class="level3">
-<h3 class="anchored" data-anchor-id="mathematics-art-and-visualization">Mathematics, art, and visualization</h3>
-<p>I am interested in mathematical beauty in all its forms - whether an elegant equation, a well-designed visualization, or a random-generated motif. This curiosity has led me to projects at the boundary between art and data science, such as:</p>
-<ul>
-<li>🎨 <em>Digital drawing with R</em>: exploring textures and generative patterns from probability laws.</li>
-<li>📐 <em>Mathematical recipes</em>: a writing project where each mathematical concept is presented as a “recipe,” blending rigor and poetry. 📘 <a href="../Example Recipes.pdf">View a sample of two mathematical recipes (PDF)</a> on Euler’s identity (<span class="math inline">\(e^{i\pi}+1 = 0\)</span>) and the Fibonacci sequence</li>
-</ul>
+<section id="explorations" class="level2">
+<h2 class="anchored" data-anchor-id="explorations">Explorations</h2>
+<div class="section-intro">
+<p>This page gathers more exploratory projects that complement my research and teaching activities. They focus on connections between mathematics, writing, visualization, and digital creation.</p>
+</div>
+<div class="resource-grid">
+<div class="resource-card">
+<div class="eyebrow">
+<p>Mathematics and art</p>
+</div>
+<section id="digital-drawing-with-r" class="level3">
+<h3 class="anchored" data-anchor-id="digital-drawing-with-r">Digital drawing with R</h3>
+<p>Exploration of textures, patterns, and generative images produced with R, <code>ggplot2</code>, and probabilistic processes. The project uses visualization as a meeting point between statistical rigor and creative work.</p>
 </section>
-<section id="writing-and-outreach" class="level3">
-<h3 class="anchored" data-anchor-id="writing-and-outreach">Writing and outreach</h3>
-<p>I like to make mathematics <strong>accessible, alive, and inspiring</strong>. My writing projects often combine storytelling, visual clarity, and conceptual rigor. I am currently working on:</p>
-<ul>
-<li><p><em>Data Kitchen</em> - a learning platform inspired by the culinary world</p></li>
-<li><p><em>Mathematical Recipes</em> - an illustrated book to discover the beauty of theorems through short, visual “recipes”</p></li>
-</ul>
-<blockquote class="blockquote">
-<p>🌱 My path is guided by a simple idea: <strong>bringing scientific rigor and human creativity together</strong>, so mathematics and data science become spaces for discovery, art, and communication.</p>
-</blockquote>
+</div>
+<div class="resource-card">
+<div class="eyebrow">
+<p>Outreach writing</p>
+</div>
+<section id="mathematical-recipes" class="level3">
+<h3 class="anchored" data-anchor-id="mathematical-recipes">Mathematical recipes</h3>
+<p>Writing project where mathematical concepts are presented as short, visual, and structured recipes. The objective is to make the formal beauty of mathematics more accessible without sacrificing precision.</p>
+<p><a href="../Example Recipes.pdf" class="btn btn-outline-dark">Sample of two mathematical recipes</a></p>
+</section>
+</div>
+<div class="resource-card">
+<div class="eyebrow">
+<p>Data science</p>
+</div>
+<section id="data-kitchen" class="level3">
+<h3 class="anchored" data-anchor-id="data-kitchen">Data Kitchen</h3>
+<p>Learning-platform project inspired by culinary language, designed to explain the stages of a data project through concrete analogies and reproducible examples.</p>
+</section>
+</div>
+<div class="resource-card">
+<div class="eyebrow">
+<p>Digital creativity</p>
+</div>
+<section id="visualization-and-communication" class="level3">
+<h3 class="anchored" data-anchor-id="visualization-and-communication">Visualization and communication</h3>
+<p>Exploratory work on how visual forms, metaphors, and interfaces can support understanding of statistical or mathematical concepts.</p>
+</section>
+</div>
+</div>
+<div class="highlight-strip">
+<p>Guiding thread: connect scientific rigor, visual clarity, and human creativity to make mathematics and data science more accessible.</p>
+</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -795,7 +786,7 @@ window.Quarto = {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 <strong>Aurélien Nicosia</strong> - Université Laval 📍 Québec, QC - ✉️ <a href="mailto:aurelien.nicosia@mat.ulaval.ca">aurelien.nicosia@mat.ulaval.ca</a></p>
+<p>© 2026 Aurélien Nicosia - Université Laval<br> Québec, QC - <a href="mailto:aurelien.nicosia@mat.ulaval.ca">aurelien.nicosia@mat.ulaval.ca</a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

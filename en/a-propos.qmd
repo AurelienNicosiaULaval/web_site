@@ -3,47 +3,62 @@ title: "About"
 lang: en
 ---
 
+## Profile
 
-My name is **Aurélien Nicosia**.
-I am a lecturer in mathematics and statistics at the Department of Mathematics and Statistics at Université Laval (Québec). I am also the coordinator of the [Center for Tutoring and Learning (CDA)](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage), a student support space where students receive help each term.
+::: {.section-intro}
+I am a lecturer in mathematics and statistics in the Department of Mathematics and Statistics at Université Laval, in Quebec City. I also coordinate the Center for Tutoring and Learning in mathematics and statistics, a student success support service for several departmental courses.
+:::
 
-My work sits at the intersection of university pedagogy, applied statistics, and the development of digital tools for teaching and research.
-I place strong emphasis on reproducibility, open science, and knowledge accessibility.
+My work is situated at the intersection of university teaching, applied statistics, and digital tool development for teaching and research. I place central importance on reproducibility, open science, clear explanations, and accessible learning resources.
 
----
+::: {.about-grid}
+::: {.profile-panel}
+### Teaching
 
-### Recent highlights
+Course design in statistics, data science, and R programming, with emphasis on active learning, realistic case studies, and reproducible reporting.
+:::
+
+::: {.profile-panel}
+### Research
+
+Development of methods and software for density estimation, multi-state models, circular data, hidden Markov models, and animal movement analysis.
+:::
+
+::: {.profile-panel}
+### Digital tools
+
+Creation of R packages, Quarto platforms, interactive tutorials, and open resources supporting reproducible research and data science teaching.
+:::
+
+::: {.profile-panel}
+### Educational innovation
+
+Careful integration of digital tools and conversational assistants into supervised learning settings, with human support remaining central.
+:::
+:::
+
+## Recent highlights
 
 - Development of [GPT-CDA](cda/index.qmd), featured in [ULaval News on May 22, 2026](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30).
-- Publication of [*Beyond the next step: A multi-criteria generative validation framework for step selection functions*](https://doi.org/10.1111/2041-210X.70313) in *Methods in Ecology and Evolution*.
-- Release of [`DonutMap`](https://cran.r-project.org/web/packages/DonutMap/index.html) on CRAN in 2026, with a [dedicated page](packages/donutmap.qmd) and open documentation.
-- Release of [`ggcircular`](https://cran.r-project.org/web/packages/ggcircular/index.html) on CRAN in 2026, with open documentation on [GitHub](https://github.com/AurelienNicosiaULaval/ggcircular).
-- Workshop on AI and teaching at SSC 2026, with a [public teaching-resource gallery](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/).
+- Publication of [Beyond the next step: A multi-criteria generative validation framework for step selection functions](https://doi.org/10.1111/2041-210X.70313) in Methods in Ecology and Evolution.
+- Release of recent R packages on CRAN, including [DonutMap](packages/donutmap.qmd), [ggcircular](packages/ggcircular.qmd), [CircularRegression](packages/circularregression.qmd), and [tutorizeR](packages/tutorizeR.qmd).
+- Workshop on AI and teaching at SSC 2026, accompanied by a [public teaching-resource gallery](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/).
 - 2026 New Investigator Presentation Award at SSC 2026 for a presentation on LOO-LBFP.
 
----
+## Contact
 
-### Interests
+::: {.meta-list}
+Université Laval, Department of Mathematics and Statistics
 
-- **University pedagogy**: active learning, formative assessment, and design of interactive resources.
-- **Applied statistics**: multi-state modeling, density estimation, directional data.
-- **Digital tools**: R, Python, Quarto, GitHub, Shiny, and responsible use of AI in education.
-- **Innovation**: support for learning, interdisciplinary collaboration, and sharing francophone educational resources.
+Quebec City, QC, Canada
 
----
+[aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca)
+:::
 
-### Location and contact
+## About this site
 
-📍 Québec, QC, Canada
-🏛️ Université Laval - Department of Mathematics and Statistics
-✉️ [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca)
+This website is built with [Quarto](https://quarto.org) and deployed with GitHub Pages. It gathers my research, teaching, software development, and educational innovation activities. The source repository is available from the navigation bar.
 
----
-
-### About this site
-
-This website is built with [**Quarto**](https://quarto.org) and deployed automatically with **GitHub Pages**.
-It gathers my activities in **research**, **teaching**, and **pedagogical innovation**.
-The source code is available in the repository linked in the navigation bar.
-
-💡 If you want to suggest a correction or improvement, click the pencil (*Edit*) icon at the top of the page to open the corresponding version in GitHub.
+::: {.highlight-strip}
+Corrections and suggestions are welcome through the GitHub interface of the site or by email.
+:::

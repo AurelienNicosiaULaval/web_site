@@ -5,7 +5,7 @@ lang: en
 
 This page gathers the R packages I develop and maintain, with particular attention to packages available on CRAN and documented openly.
 
-The CRAN information below was verified on June 11, 2026.
+The CRAN information below was verified on June 24, 2026 from the official CRAN `DESCRIPTION` files.
 
 ## Packages on CRAN
 
@@ -274,33 +274,6 @@ A research compendium for finite-horizon HMM approximations to hidden semi-Marko
 
 ::: {.link-list}
 [GitHub](https://github.com/AurelienNicosiaULaval/hsmm-finite-horizon-code-data){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-:::
-:::
-:::
-:::
-
-## External Open Source Contributions
-
-These contributions are to packages maintained under other GitHub accounts or organizations.
-
-::: { .grid .gap-4 }
-::: {.g-col-12 .g-col-lg-6}
-::: {.package-card .github-package-card}
-<div class="package-card-header">
-<span class="package-card-fallback">AM</span>
-<div>
-<h3>amt</h3>
-<div class="package-card-meta">R package • external contribution</div>
-</div>
-</div>
-
-<span class="package-card-tag">Movement ecology</span>
-
-Contribution to the R package `amt` through PR `#142`, “Add generative validation diagnostics”, merged on June 23, 2026 into `jmsigner/amt`.
-
-::: {.link-list}
-[amt package](https://github.com/jmsigner/amt){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[PR #142](https://github.com/jmsigner/amt/pull/142){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 :::
 :::
 :::

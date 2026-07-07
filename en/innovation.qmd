@@ -81,17 +81,6 @@ R package that automates conversion of `.qmd` or `.Rmd` documents into interacti
 :::
 :::
 
-::: {.resource-card}
-::: {.eyebrow}
-Exploration
-:::
-
-### ZeroWasteData
-
-Project in development encouraging pedagogical reuse of datasets. The application suggests additional analyses from an already-used dataset and connects them to statistical or data science concepts.
-
-[GitHub](https://github.com/AurelienNicosiaULaval/ZeroWasteData){.btn .btn-outline-dark}
-:::
 :::
 
 ## Interactive tutorials

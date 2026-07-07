@@ -218,27 +218,6 @@ Données et fonctions utiles pour l’enseignement de l’introduction à la sci
 ::: {.g-col-12 .g-col-lg-6}
 ::: {.package-card .github-package-card}
 <div class="package-card-header">
-<span class="package-card-fallback">HR</span>
-<div>
-<h3>HMMSSFGenerativeRepair</h3>
-<div class="package-card-meta">Package R • v0.1.0</div>
-</div>
-</div>
-
-<span class="package-card-tag">HMM-SSF</span>
-
-Prototype de diagnostics de simulation, compatibilité, sharpness et interprétation pour modèles HMM-SSF et HMM-iSSA.
-
-::: {.link-list}
-[GitHub](https://github.com/AurelienNicosiaULaval/HMMSSFGenerativeRepair){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[Documentation](https://aureliennicosiaulaval.github.io/HMMSSFGenerativeRepair/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-:::
-:::
-:::
-
-::: {.g-col-12 .g-col-lg-6}
-::: {.package-card .github-package-card}
-<div class="package-card-header">
 <span class="package-card-fallback">EH</span>
 <div>
 <h3>evalue-HMM</h3>
@@ -253,26 +232,6 @@ Diagnostics prédictifs par e-valeurs pour modèles de Markov cachés appliqués
 ::: {.link-list}
 [GitHub](https://github.com/AurelienNicosiaULaval/evalue-HMM){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 [Documentation](https://aureliennicosiaulaval.github.io/evalue-HMM/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-:::
-:::
-:::
-
-::: {.g-col-12 .g-col-lg-6}
-::: {.package-card .github-package-card}
-<div class="package-card-header">
-<span class="package-card-fallback">HS</span>
-<div>
-<h3>hsmmHmmApproximation</h3>
-<div class="package-card-meta">Compendium R • v0.0.0.9000</div>
-</div>
-</div>
-
-<span class="package-card-tag">HSMM</span>
-
-Compendium de recherche pour des approximations HMM à horizon fini de modèles semi-markoviens cachés.
-
-::: {.link-list}
-[GitHub](https://github.com/AurelienNicosiaULaval/hsmm-finite-horizon-code-data){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 :::
 :::
 :::

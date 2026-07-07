@@ -1,0 +1,270 @@
+---
+title: "Research Lab"
+description: "Open research ecosystem in computational statistics, scientific R software, reproducible data science, and statistical pedagogy."
+lang: en
+---
+
+::: {.section-intro}
+This page presents the research, scientific software, and open pedagogy ecosystem developed by Aurélien Nicosia at Université Laval. It connects GitHub repositories, R packages, teaching resources, and reproducible research materials in computational statistics.
+:::
+
+::: {.link-list}
+[Version française](../research-lab.qmd){.btn .btn-outline-dark}
+[GitHub](https://github.com/AurelienNicosiaULaval){.btn .btn-outline-dark}
+[Research](recherche.qmd){.btn .btn-outline-dark}
+[R packages](packages.qmd){.btn .btn-outline-dark}
+:::
+
+## Mission
+
+To develop an open platform for computational statistics that connects methodological research, scientific software, reproducible data science, and statistical pedagogy. The aim is to produce interpretable methods, usable R tools, and open resources that support transmission, verification, and reuse.
+
+## Research areas
+
+::: {.research-axis-grid}
+::: {.research-card}
+::: {.eyebrow}
+Densities and anomalies
+:::
+
+### Density estimation and anomaly detection
+
+Density estimation methods based on Generalized Linear Blend Frequency Polygons, with attention to stability, geometric interpretation, and diagnostics for atypical observations.
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Directional data
+:::
+
+### Circular and directional statistics
+
+Models, visualizations, and tools for angles, orientations, directions, times of day, and circular responses.
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Animal movement
+:::
+
+### Movement modeling, HMMs, SSFs, and generative validation
+
+Hidden Markov models, step-selection functions, iSSF models, and generative validation of step-selection functions to evaluate simulated movement behavior.
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Interpretation
+:::
+
+### AI-assisted statistical interpretation
+
+Tools and workflows for contextualized statistical explanations, with methodological safeguards and attention to interpretation quality.
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Open pedagogy
+:::
+
+### Open statistical pedagogy and reproducible data science
+
+Quarto resources, pedagogical datasets, interactive tutorials, and reproducible environments for teaching statistics, R, and data science.
+:::
+:::
+
+## Ecosystem map
+
+```{mermaid}
+flowchart LR
+  A["Methodological research"] --> B["R packages"]
+  B --> C["Applications and diagnostics"]
+  C --> D["Reproducible research repositories"]
+  D --> E["Teaching resources"]
+  E --> F["Open dissemination"]
+
+  A --> A1["GLBFP"]
+  A --> A2["Validation-SSF"]
+  B --> B1["ggcircular"]
+  B --> B2["CircularRegression"]
+  B --> B3["gmov"]
+  C --> C1["contextR"]
+  E --> E1["donnees-bleues"]
+  E --> E2["tutorizeR"]
+```
+
+## Featured projects
+
+::: {.research-axis-grid}
+::: {.research-card}
+::: {.eyebrow}
+Densities and anomalies
+:::
+
+### GLBFP
+
+R package for density estimation using the Generalized Linear Blend Frequency Polygon approach. It is the methodological core of the density and atypical-observation axis.
+
+::: {.link-list}
+[GitHub repository](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Directional data
+:::
+
+### ggcircular
+
+`ggplot2` extension for visualizing circular, axial, and directional data. It supports graphical communication for methods involving angular data.
+
+::: {.link-list}
+[GitHub repository](https://github.com/AurelienNicosiaULaval/ggcircular){.btn .btn-outline-dark}
+[Documentation](https://aureliennicosiaulaval.github.io/ggcircular/){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Directional data
+:::
+
+### CircularRegression
+
+R package for fitting circular-linear regression models, especially for directional and trajectory-related data.
+
+::: {.link-list}
+[GitHub repository](https://github.com/AurelienNicosiaULaval/CircularRegression){.btn .btn-outline-dark}
+[Site page](packages/circularregression.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Animal movement
+:::
+
+### Validation-SSF
+
+Reproducible research repository for generative validation of step-selection functions, including simulations, empirical analyses, and sensitivity analyses.
+
+::: {.link-list}
+[GitHub repository](https://github.com/AurelienNicosiaULaval/Validation-SSF){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Animal movement
+:::
+
+### gmov
+
+Generative validation and diagnostic tools for SSF and iSSF movement models. The project connects methodological work with practical movement-model diagnostics.
+
+::: {.link-list}
+[GitHub repository](https://github.com/AurelienNicosiaULaval/gmov){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Data and pedagogy
+:::
+
+### donnees-bleues
+
+Open educational platform of Québec datasets for statistics and data science. It provides realistic data for teaching and reproducible exercises.
+
+::: {.link-list}
+[GitHub repository](https://github.com/AurelienNicosiaULaval/donnees-bleues){.btn .btn-outline-dark}
+[Website](https://aureliennicosiaulaval.github.io/donnees-bleues/){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Open pedagogy
+:::
+
+### tutorizeR
+
+R package for converting R Markdown and Quarto documents into interactive `learnr` tutorials with exercises, solutions, and optional quizzes.
+
+::: {.link-list}
+[GitHub repository](https://github.com/AurelienNicosiaULaval/tutorizeR){.btn .btn-outline-dark}
+[Site page](packages/tutorizeR.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Emerging project
+:::
+
+### contextR
+
+Emerging project around contextualized statistical explanations in R, with S3 structures, safeguards, and links to AI-assisted statistical interpretation.
+
+::: {.link-list}
+[GitHub repository](https://github.com/AurelienNicosiaULaval/contextR){.btn .btn-outline-dark}
+:::
+:::
+:::
+
+## Scientific software
+
+The R packages form a central layer of the ecosystem. They turn methodological ideas into tools that can be tested, documented, and reused. `GLBFP`, `ggcircular`, `CircularRegression`, `gmov`, `tutorizeR`, and `contextR` cover density estimation, circular visualization, circular-response modeling, generative movement validation, interactive tutorial production, and contextualized statistical interpretation.
+
+## Data and pedagogy
+
+The teaching resources support open, realistic, and reproducible training in statistics and data science.
+
+::: {.resource-grid}
+::: {.resource-card}
+### Datasets
+
+`donnees-bleues` gathers Québec datasets for courses, exercises, and projects.
+
+::: {.link-list}
+[donnees-bleues](https://aureliennicosiaulaval.github.io/donnees-bleues/){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.resource-card}
+### Courses and modules
+
+The course and resource sites structure content in statistics, R, and data science.
+
+::: {.link-list}
+[STT-1100](https://github.com/AurelienNicosiaULaval/STT-1100_notes_de_cours){.btn .btn-outline-dark}
+[Programming for data science](https://github.com/AurelienNicosiaULaval/programmation-pour-la-science-des-donnees){.btn .btn-outline-dark}
+[SSD resources](https://aureliennicosiaulaval.github.io/site_ressources_SSD/){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.resource-card}
+### Interactive tutorials
+
+`tutorizeR` supports the conversion of reproducible documents into interactive teaching resources.
+
+::: {.link-list}
+[tutorizeR](https://github.com/AurelienNicosiaULaval/tutorizeR){.btn .btn-outline-dark}
+:::
+:::
+:::
+
+## Reproducible research
+
+Reproducible research repositories document code, analyses, figures, simulations, and materials associated with scientific work. This layer makes results easier to verify and reuse by collaborators, students, article readers, and scientific software users.
+
+## Collaborations and contact
+
+Collaborations are welcome on statistical methods, R software, movement ecology applications, directional data, statistical pedagogy, and reproducible data science.
+
+::: {.link-list}
+[Email](mailto:aurelien.nicosia@mat.ulaval.ca){.btn .btn-outline-dark}
+[ORCID](https://orcid.org/0000-0002-0974-9988){.btn .btn-outline-dark}
+[LinkedIn](https://www.linkedin.com/in/aur%C3%A9lien-nicosia-6a52487b/){.btn .btn-outline-dark}
+:::

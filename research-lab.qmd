@@ -1,0 +1,269 @@
+---
+title: "Research Lab"
+description: "Écosystème de recherche ouvert en statistique computationnelle, logiciels scientifiques R, science des données reproductible et pédagogie statistique."
+---
+
+::: {.section-intro}
+Cette page présente l’écosystème de recherche, de logiciels scientifiques et de pédagogie ouverte développé par Aurélien Nicosia à l’Université Laval. Elle sert de porte d’entrée vers les projets GitHub, les packages R, les ressources pédagogiques et les dépôts de recherche reproductible reliés aux travaux en statistique computationnelle.
+:::
+
+::: {.link-list}
+[English version](en/research-lab.qmd){.btn .btn-outline-dark}
+[GitHub](https://github.com/AurelienNicosiaULaval){.btn .btn-outline-dark}
+[Recherche](recherche.qmd){.btn .btn-outline-dark}
+[Packages R](packages.qmd){.btn .btn-outline-dark}
+:::
+
+## Mission
+
+Développer une plateforme ouverte de statistique computationnelle qui relie la recherche méthodologique, les logiciels scientifiques, la science des données reproductible et l’innovation pédagogique. L’objectif est de produire des méthodes interprétables, des outils R utilisables et des ressources ouvertes qui facilitent la transmission, la vérification et la réutilisation des travaux statistiques.
+
+## Axes scientifiques
+
+::: {.research-axis-grid}
+::: {.research-card}
+::: {.eyebrow}
+Densités et anomalies
+:::
+
+### Estimation de densité et détection d’anomalies
+
+Méthodes d’estimation de densité fondées sur les Generalized Linear Blend Frequency Polygons, avec un intérêt pour la stabilité, l’interprétation géométrique et les diagnostics d’observations atypiques.
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Données directionnelles
+:::
+
+### Statistique circulaire et directionnelle
+
+Modèles, visualisations et outils pour les angles, orientations, directions, heures de la journée et réponses circulaires.
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Mouvement animalier
+:::
+
+### Modélisation du mouvement, HMM, SSF et validation générative
+
+Modèles de Markov cachés, fonctions de sélection de pas, modèles iSSF et validation générative de fonctions de sélection de pas pour évaluer les comportements simulés par les modèles.
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Interprétation
+:::
+
+### Interprétation statistique assistée par IA
+
+Outils et cadres de travail pour produire des explications statistiques contextualisées, avec des garde-fous méthodologiques et une attention portée à la qualité de l’interprétation.
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Pédagogie ouverte
+:::
+
+### Pédagogie statistique ouverte et science des données reproductible
+
+Ressources Quarto, jeux de données pédagogiques, tutoriels interactifs et environnements reproductibles pour l’enseignement de la statistique, de R et de la science des données.
+:::
+:::
+
+## Carte de l’écosystème
+
+```{mermaid}
+flowchart LR
+  A["Recherche méthodologique"] --> B["Packages R"]
+  B --> C["Applications et diagnostics"]
+  C --> D["Dépôts de recherche reproductible"]
+  D --> E["Ressources pédagogiques"]
+  E --> F["Diffusion ouverte"]
+
+  A --> A1["GLBFP"]
+  A --> A2["Validation-SSF"]
+  B --> B1["ggcircular"]
+  B --> B2["CircularRegression"]
+  B --> B3["gmov"]
+  C --> C1["contextR"]
+  E --> E1["donnees-bleues"]
+  E --> E2["tutorizeR"]
+```
+
+## Projets phares
+
+::: {.research-axis-grid}
+::: {.research-card}
+::: {.eyebrow}
+Densités et anomalies
+:::
+
+### GLBFP
+
+Package R pour l’estimation de densité avec l’approche Generalized Linear Blend Frequency Polygon. Le projet constitue le noyau méthodologique de l’axe sur les densités et les observations atypiques.
+
+::: {.link-list}
+[Dépôt GitHub](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Données directionnelles
+:::
+
+### ggcircular
+
+Extension de `ggplot2` pour visualiser des données circulaires, axiales et directionnelles. Le projet soutient la diffusion graphique des méthodes pour données angulaires.
+
+::: {.link-list}
+[Dépôt GitHub](https://github.com/AurelienNicosiaULaval/ggcircular){.btn .btn-outline-dark}
+[Documentation](https://aureliennicosiaulaval.github.io/ggcircular/){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Données directionnelles
+:::
+
+### CircularRegression
+
+Package R pour ajuster des modèles de régression circulaire-linéaire, notamment dans des contextes de données directionnelles et de trajectoires.
+
+::: {.link-list}
+[Dépôt GitHub](https://github.com/AurelienNicosiaULaval/CircularRegression){.btn .btn-outline-dark}
+[Page du site](packages/circularregression.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Mouvement animalier
+:::
+
+### Validation-SSF
+
+Dépôt de recherche reproductible pour la validation générative de fonctions de sélection de pas, incluant des simulations, analyses empiriques et analyses de sensibilité.
+
+::: {.link-list}
+[Dépôt GitHub](https://github.com/AurelienNicosiaULaval/Validation-SSF){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Mouvement animalier
+:::
+
+### gmov
+
+Outils de validation et diagnostics génératifs pour modèles SSF et iSSF. Le projet relie les développements méthodologiques aux diagnostics utilisables en analyse du mouvement.
+
+::: {.link-list}
+[Dépôt GitHub](https://github.com/AurelienNicosiaULaval/gmov){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Données et pédagogie
+:::
+
+### donnees-bleues
+
+Plateforme pédagogique ouverte de jeux de données québécois pour la statistique et la science des données. Le projet fournit des données réalistes pour l’enseignement et les exercices reproductibles.
+
+::: {.link-list}
+[Dépôt GitHub](https://github.com/AurelienNicosiaULaval/donnees-bleues){.btn .btn-outline-dark}
+[Site](https://aureliennicosiaulaval.github.io/donnees-bleues/){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Pédagogie ouverte
+:::
+
+### tutorizeR
+
+Package R pour convertir des documents R Markdown et Quarto en tutoriels interactifs `learnr`, avec exercices, solutions et questionnaires facultatifs.
+
+::: {.link-list}
+[Dépôt GitHub](https://github.com/AurelienNicosiaULaval/tutorizeR){.btn .btn-outline-dark}
+[Page du site](packages/tutorizeR.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Projet émergent
+:::
+
+### contextR
+
+Projet émergent autour d’explications statistiques contextualisées en R, avec structures S3, garde-fous et liens avec l’interprétation statistique assistée par IA.
+
+::: {.link-list}
+[Dépôt GitHub](https://github.com/AurelienNicosiaULaval/contextR){.btn .btn-outline-dark}
+:::
+:::
+:::
+
+## Logiciels scientifiques
+
+Les packages R forment une couche centrale de l’écosystème. Ils transforment les idées méthodologiques en outils testables, documentables et réutilisables. Les projets `GLBFP`, `ggcircular`, `CircularRegression`, `gmov`, `tutorizeR` et `contextR` couvrent respectivement l’estimation de densité, la visualisation circulaire, la modélisation de réponses circulaires, la validation générative du mouvement, la production de tutoriels interactifs et l’interprétation statistique contextualisée.
+
+## Données et pédagogie
+
+Les ressources pédagogiques visent à soutenir une formation ouverte, réaliste et reproductible en statistique et science des données.
+
+::: {.resource-grid}
+::: {.resource-card}
+### Jeux de données
+
+`donnees-bleues` rassemble des jeux de données québécois utilisables dans les cours, les exercices et les projets.
+
+::: {.link-list}
+[donnees-bleues](https://aureliennicosiaulaval.github.io/donnees-bleues/){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.resource-card}
+### Cours et modules
+
+Les sites de cours et de ressources structurent les contenus en statistique, R et science des données.
+
+::: {.link-list}
+[STT-1100](https://github.com/AurelienNicosiaULaval/STT-1100_notes_de_cours){.btn .btn-outline-dark}
+[Programmation pour la science des données](https://github.com/AurelienNicosiaULaval/programmation-pour-la-science-des-donnees){.btn .btn-outline-dark}
+[Ressources SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.resource-card}
+### Tutoriels interactifs
+
+`tutorizeR` soutient la transformation de documents reproductibles en ressources interactives pour l’enseignement.
+
+::: {.link-list}
+[tutorizeR](https://github.com/AurelienNicosiaULaval/tutorizeR){.btn .btn-outline-dark}
+:::
+:::
+:::
+
+## Recherche reproductible
+
+Les dépôts de recherche reproductible documentent le code, les analyses, les figures, les simulations et les matériaux associés aux travaux scientifiques. Cette couche rend les résultats plus vérifiables et facilite la réutilisation par des collaborateurs, étudiants, lecteurs d’articles et utilisateurs de logiciels scientifiques.
+
+## Collaborations et contact
+
+Les collaborations sont bienvenues sur les méthodes statistiques, les logiciels R, les applications en écologie du mouvement, les données directionnelles, la pédagogie statistique et la science des données reproductible.
+
+::: {.link-list}
+[Courriel](mailto:aurelien.nicosia@mat.ulaval.ca){.btn .btn-outline-dark}
+[ORCID](https://orcid.org/0000-0002-0974-9988){.btn .btn-outline-dark}
+[LinkedIn](https://www.linkedin.com/in/aur%C3%A9lien-nicosia-6a52487b/){.btn .btn-outline-dark}
+:::

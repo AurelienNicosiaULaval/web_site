@@ -1,0 +1,539 @@
+last_checked: "2026-07-07"
+source: "GitHub REST API and public HTTP checks"
+scope:
+  repository: "AurelienNicosiaULaval/web_site"
+  purpose: "Prepare repository metadata updates without applying them automatically."
+  constraints:
+    - "Do not rename repositories."
+    - "Do not change GitHub Pages URLs."
+    - "Do not change DOI records."
+    - "Do not modify licenses."
+    - "Do not change repository visibility."
+    - "Do not archive repositories."
+    - "Do not apply GitHub metadata updates without human validation."
+    - "Do not mention non-public repositories in public recommendations."
+
+repositories:
+  - name: "DonutMap"
+    category: "r-package"
+    current_description: null
+    proposed_description: "R package for static and interactive donut maps with sf, ggplot2 and leaflet."
+    current_topics: []
+    proposed_topics:
+      - "r"
+      - "r-package"
+      - "data-visualization"
+      - "geospatial"
+      - "sf"
+      - "ggplot2"
+      - "leaflet"
+    current_homepage: null
+    proposed_homepage: "https://aureliennicosiaulaval.github.io/DonutMap/"
+    maturity: "usable package"
+    public_visibility: "public"
+    sensitive: false
+    action: "update_metadata"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: "NOASSERTION"
+      github_pages_enabled: true
+      github_pages_url: "https://aureliennicosiaulaval.github.io/DonutMap/"
+      github_pages_http_status: 200
+    rationale: "The repository has no description or topics, and its GitHub Pages site exists and responds publicly."
+
+  - name: "MQT-2101"
+    category: "teaching"
+    current_description: null
+    proposed_description: "Quarto course site for applied data analysis and statistical modelling."
+    current_topics: []
+    proposed_topics:
+      - "quarto"
+      - "teaching"
+      - "statistics-education"
+      - "data-science-education"
+      - "statistical-modelling"
+    current_homepage: "https://aureliennicosiaulaval.github.io/MQT-2101/"
+    proposed_homepage: "https://aureliennicosiaulaval.github.io/MQT-2101/"
+    maturity: "course site"
+    public_visibility: "public"
+    sensitive: false
+    action: "update_metadata"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: null
+      github_pages_enabled: true
+      github_pages_url: "https://aureliennicosiaulaval.github.io/MQT-2101/"
+      github_pages_http_status: 200
+    rationale: "The course site is public, has a working homepage, and currently lacks a short description and topics."
+
+  - name: "arbres_quebec"
+    category: "teaching-dataset"
+    current_description: null
+    proposed_description: "Quebec teaching dataset for data science and statistics education."
+    current_topics: []
+    proposed_topics:
+      - "open-data"
+      - "quebec"
+      - "teaching-datasets"
+      - "data-science"
+      - "statistics-education"
+    current_homepage: null
+    proposed_homepage: null
+    maturity: "teaching dataset"
+    public_visibility: "public"
+    sensitive: false
+    action: "update_metadata"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: "MIT"
+      github_pages_enabled: false
+      github_pages_url: null
+      github_pages_http_status: 404
+    rationale: "The repository is public and documented, but no public GitHub Pages homepage was detected."
+
+  - name: "vehicules-quebec"
+    category: "teaching-dataset"
+    current_description: null
+    proposed_description: "Quebec vehicle dataset prepared for statistics and data science teaching."
+    current_topics: []
+    proposed_topics:
+      - "open-data"
+      - "quebec"
+      - "teaching-datasets"
+      - "data-science"
+      - "statistics-education"
+    current_homepage: null
+    proposed_homepage: null
+    maturity: "teaching dataset"
+    public_visibility: "public"
+    sensitive: false
+    action: "update_metadata"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: "NOASSERTION"
+      github_pages_enabled: false
+      github_pages_url: null
+      github_pages_http_status: 404
+    rationale: "The repository is public and documented, but no public GitHub Pages homepage was detected."
+
+  - name: "empress-of-ireland-data"
+    category: "teaching-dataset"
+    current_description: null
+    proposed_description: "Teaching dataset on the RMS Empress of Ireland for reproducible data analysis."
+    current_topics: []
+    proposed_topics:
+      - "open-data"
+      - "teaching-datasets"
+      - "data-science"
+      - "reproducible-research"
+      - "statistics-education"
+    current_homepage: null
+    proposed_homepage: null
+    maturity: "teaching dataset"
+    public_visibility: "public"
+    sensitive: false
+    action: "update_metadata"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: "MIT"
+      github_pages_enabled: false
+      github_pages_url: null
+      github_pages_http_status: 404
+    rationale: "The repository is public and documented, but no public GitHub Pages homepage was detected."
+
+  - name: "grid-density-sparse-traversal"
+    category: "reproducible-research"
+    current_description: null
+    proposed_description: "Reproducible code and manuscript materials for sparse grid traversal in density estimation."
+    current_topics: []
+    proposed_topics:
+      - "r"
+      - "density-estimation"
+      - "nonparametric-statistics"
+      - "computational-statistics"
+      - "reproducible-research"
+    current_homepage: null
+    proposed_homepage: null
+    maturity: "reproducible research materials"
+    public_visibility: "public"
+    sensitive: false
+    action: "update_metadata"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: "MIT"
+      github_pages_enabled: false
+      github_pages_url: null
+      github_pages_http_status: 404
+    rationale: "The repository appears to contain public research materials and currently lacks metadata."
+
+  - name: "HMMSSFGenerativeRepair"
+    category: "research-prototype"
+    current_description: null
+    proposed_description: "Research package for generative validation of hidden Markov step-selection models."
+    current_topics: []
+    proposed_topics:
+      - "r"
+      - "r-package"
+      - "movement-ecology"
+      - "hidden-markov-models"
+      - "step-selection-functions"
+      - "simulation"
+      - "reproducible-research"
+    current_homepage: null
+    proposed_homepage: "https://aureliennicosiaulaval.github.io/HMMSSFGenerativeRepair/"
+    maturity: "research prototype"
+    public_visibility: "public"
+    sensitive: true
+    action: "review_manually"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: "NOASSERTION"
+      github_pages_enabled: true
+      github_pages_url: "https://aureliennicosiaulaval.github.io/HMMSSFGenerativeRepair/"
+      github_pages_http_status: 200
+    rationale: "The repository is listed as sensitive; metadata should only be applied after confirming public positioning."
+
+  - name: "evalue-HMM"
+    category: "r-package"
+    current_description: null
+    proposed_description: "R package and research materials for predictive evaluation and diagnostics of hidden Markov models."
+    current_topics: []
+    proposed_topics:
+      - "r"
+      - "r-package"
+      - "hidden-markov-models"
+      - "simulation"
+      - "computational-statistics"
+      - "reproducible-research"
+    current_homepage: null
+    proposed_homepage: "https://aureliennicosiaulaval.github.io/evalue-HMM/"
+    maturity: "research package"
+    public_visibility: "public"
+    sensitive: false
+    action: "update_metadata"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: null
+      github_pages_enabled: true
+      github_pages_url: "https://aureliennicosiaulaval.github.io/evalue-HMM/"
+      github_pages_http_status: 200
+    rationale: "The repository has a public Pages site and no current description or topics."
+
+  - name: "UlavalSSD"
+    category: "r-package"
+    current_description: "📊 UlavalSSD est un package R conçu pour le cours STT-1100 à l'Université Laval. Il fournit des ensembles de données et des fonctions utiles pour faciliter l’apprentissage statistique et l’analyse de données des étudiants."
+    proposed_description: "R package with datasets and utilities for statistics and data science teaching at Université Laval."
+    current_topics: []
+    proposed_topics:
+      - "r"
+      - "r-package"
+      - "teaching"
+      - "statistics-education"
+      - "data-science-education"
+      - "teaching-datasets"
+    current_homepage: null
+    proposed_homepage: null
+    maturity: "teaching package"
+    public_visibility: "public"
+    sensitive: false
+    action: "update_metadata"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: "NOASSERTION"
+      github_pages_enabled: false
+      github_pages_url: null
+      github_pages_http_status: 404
+    rationale: "The current description is long for GitHub metadata; the proposed wording is shorter and consistent with the ecosystem."
+
+  - name: "Modele_etude_de_cas"
+    category: "teaching-template"
+    current_description: "Modèle de tutoriel learnr pour rédiger des études de cas reproductibles, destiné à l’enseignement et à la présentation scientifique."
+    proposed_description: "learnr template for reproducible interactive case studies."
+    current_topics:
+      - "learnr-tutorial"
+    proposed_topics:
+      - "r"
+      - "learnr"
+      - "teaching"
+      - "statistics-education"
+      - "reproducible-research"
+    current_homepage: "https://aureliennicosiaulaval.github.io/site_ressources_SSD/"
+    proposed_homepage: "https://aureliennicosiaulaval.github.io/site_ressources_SSD/"
+    maturity: "teaching template"
+    public_visibility: "public"
+    sensitive: false
+    action: "update_metadata"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: null
+      github_pages_enabled: false
+      github_pages_url: null
+      current_homepage_http_status: 200
+    rationale: "The current homepage responds publicly; the description can be shortened and the topic set can be made consistent."
+
+  - name: "ulaval-template"
+    category: "teaching-template"
+    current_description: "Modèle de quarto pour enseignement statistiques et science des données"
+    proposed_description: "Quarto templates for statistics and data science teaching material at Université Laval."
+    current_topics: []
+    proposed_topics:
+      - "quarto"
+      - "teaching"
+      - "statistics-education"
+      - "data-science-education"
+      - "template"
+    current_homepage: null
+    proposed_homepage: null
+    maturity: "teaching template"
+    public_visibility: "public"
+    sensitive: false
+    action: "update_metadata"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: null
+      github_pages_enabled: false
+      github_pages_url: null
+      github_pages_http_status: 404
+    rationale: "The current description can be made more precise and aligned with the teaching ecosystem."
+
+  - name: "learnrTrackR"
+    category: "r-package"
+    current_description: "R package for tracking learnr tutorial attempts"
+    proposed_description: "R package prototype for tracking learnr tutorial attempts in teaching contexts."
+    current_topics: []
+    proposed_topics:
+      - "r"
+      - "r-package"
+      - "learnr"
+      - "teaching"
+      - "statistics-education"
+      - "teaching-tools"
+    current_homepage: "https://aureliennicosiaulaval.github.io/learnrTrackR/"
+    proposed_homepage: "https://aureliennicosiaulaval.github.io/learnrTrackR/"
+    maturity: "package prototype"
+    public_visibility: "public"
+    sensitive: false
+    action: "update_metadata"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: "NOASSERTION"
+      github_pages_enabled: true
+      github_pages_url: "https://aureliennicosiaulaval.github.io/learnrTrackR/"
+      github_pages_http_status: 200
+    rationale: "The repository already has a public homepage; the description should explicitly signal prototype status."
+
+  - name: "gmov"
+    category: "r-package"
+    current_description: "Generative validation tools for SSF and iSSF movement models"
+    proposed_description: "R package for generative validation and diagnostics of SSF and iSSF movement models."
+    current_topics: []
+    proposed_topics:
+      - "r"
+      - "r-package"
+      - "movement-ecology"
+      - "hidden-markov-models"
+      - "step-selection-functions"
+      - "simulation"
+      - "reproducible-research"
+    current_homepage: null
+    proposed_homepage: "https://aureliennicosiaulaval.github.io/gmov/"
+    maturity: "research package"
+    public_visibility: "public"
+    sensitive: false
+    action: "update_metadata"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: "NOASSERTION"
+      github_pages_enabled: true
+      github_pages_url: "https://aureliennicosiaulaval.github.io/gmov/"
+      github_pages_http_status: 200
+    rationale: "The description is already close; adding topics and the existing public Pages URL would improve discoverability."
+
+  - name: "contextR"
+    category: "r-package"
+    current_description: "contextR package: S3 contextual statistical explanations with safety checks and ggcontext"
+    proposed_description: "Emerging R package for contextual interpretation of statistical analyses."
+    current_topics: []
+    proposed_topics:
+      - "r"
+      - "r-package"
+      - "statistics"
+      - "statistical-interpretation"
+      - "computational-statistics"
+      - "reproducible-research"
+    current_homepage: null
+    proposed_homepage: null
+    maturity: "emerging package"
+    public_visibility: "public"
+    sensitive: false
+    action: "update_metadata"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: "NOASSERTION"
+      github_pages_enabled: false
+      github_pages_url: null
+      github_pages_http_status: 404
+    rationale: "The project is public but young; the proposed wording keeps the emerging status visible."
+
+  - name: "gpt-cda-v2-prototype"
+    category: "sensitive-prototype"
+    current_description: null
+    proposed_description: "Prototype for course-aware teaching assistance and structured pedagogical workflows."
+    current_topics: []
+    proposed_topics:
+      - "ai-education"
+      - "teaching-tools"
+      - "statistical-interpretation"
+    current_homepage: null
+    proposed_homepage: null
+    maturity: "prototype"
+    public_visibility: "public"
+    sensitive: true
+    action: "review_manually"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: null
+      github_pages_enabled: false
+      github_pages_url: null
+      github_pages_http_status: 404
+    rationale: "The repository is a prototype and should not receive public metadata without explicit human validation."
+
+  - name: "ZeroWasteData"
+    category: "sensitive-prototype"
+    current_description: "Streamlit prototype for automated data exploration and analysis suggestions; generates Python and R code and exportable HTML reports."
+    proposed_description: "Streamlit prototype for automated data exploration and reproducible analysis suggestions."
+    current_topics: []
+    proposed_topics:
+      - "data-science"
+      - "teaching-tools"
+      - "statistical-interpretation"
+      - "prototype"
+    current_homepage: "https://zerowastedata.streamlit.app"
+    proposed_homepage: null
+    maturity: "prototype"
+    public_visibility: "public"
+    sensitive: true
+    action: "do_not_touch"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: null
+      github_pages_enabled: false
+      github_pages_url: null
+      current_homepage_http_status: "curl_error_47"
+    rationale: "The current Streamlit homepage did not complete a public curl check; keep metadata unchanged until the app status and public positioning are reviewed."
+
+  - name: "contextual-statistics-with-llm"
+    category: "sensitive-prototype"
+    current_description: "Package R contextR enrichissant les analyses statistiques (lm, ANOVA, PCA, etc.) avec des interprétations contextuelles générées par LLM."
+    proposed_description: "Research prototype for contextual statistical interpretation with LLM-supported explanations."
+    current_topics: []
+    proposed_topics:
+      - "r"
+      - "statistical-interpretation"
+      - "ai-education"
+      - "teaching-tools"
+    current_homepage: null
+    proposed_homepage: null
+    maturity: "prototype"
+    public_visibility: "public"
+    sensitive: true
+    action: "do_not_touch"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: null
+      github_pages_enabled: false
+      github_pages_url: null
+      github_pages_http_status: 404
+    rationale: "The repository appears to overlap with contextR and uses sensitive LLM wording; do not update until its role is clarified."
+
+  - name: "corrective-hmm-states"
+    category: "sensitive-research"
+    current_description: "Corrective hidden states in misspecified HMMs"
+    proposed_description: "Pre-submission research materials on corrective hidden states in misspecified HMMs."
+    current_topics: []
+    proposed_topics:
+      - "hidden-markov-models"
+      - "computational-statistics"
+      - "simulation"
+      - "reproducible-research"
+    current_homepage: null
+    proposed_homepage: null
+    maturity: "pre-submission materials"
+    public_visibility: "public"
+    sensitive: true
+    action: "review_manually"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: null
+      github_pages_enabled: false
+      github_pages_url: null
+      github_pages_http_status: 404
+    rationale: "The repository is sensitive research material and should be reviewed before any public metadata update."
+
+  - name: "geometry-aware-hsic-directional"
+    category: "sensitive-research"
+    current_description: "Replication materials for geometry-aware HSIC independence testing for circular, toroidal and circular-linear data"
+    proposed_description: "Reproducible research materials for geometry-aware HSIC tests with directional data."
+    current_topics: []
+    proposed_topics:
+      - "circular-statistics"
+      - "directional-data"
+      - "computational-statistics"
+      - "reproducible-research"
+    current_homepage: null
+    proposed_homepage: null
+    maturity: "reproducible research materials"
+    public_visibility: "public"
+    sensitive: true
+    action: "review_manually"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: "MIT"
+      github_pages_enabled: false
+      github_pages_url: null
+      github_pages_http_status: 404
+    rationale: "The current description is already careful, but the repository is listed as sensitive and needs human review before metadata changes."
+
+  - name: "hsmm-finite-horizon-code-data"
+    category: "sensitive-research"
+    current_description: "Code and data package for finite-horizon HSMM approximation error control"
+    proposed_description: "Reproducible code and data for finite-horizon HSMM approximation error control."
+    current_topics: []
+    proposed_topics:
+      - "hidden-markov-models"
+      - "computational-statistics"
+      - "simulation"
+      - "reproducible-research"
+    current_homepage: null
+    proposed_homepage: null
+    maturity: "reproducible research materials"
+    public_visibility: "public"
+    sensitive: true
+    action: "review_manually"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: "NOASSERTION"
+      github_pages_enabled: false
+      github_pages_url: null
+      github_pages_http_status: 404
+    rationale: "The repository is listed as sensitive and should be reviewed before adding topics or changing the description."

@@ -29,7 +29,7 @@ Densities and anomalies
 
 ### Density estimation and anomaly detection
 
-Density estimation methods based on Generalized Linear Blend Frequency Polygons, with attention to stability, geometric interpretation, and diagnostics for atypical observations.
+Density estimation methods based on the General Linear Blend Frequency Polygon approach, with attention to stability, geometric interpretation, and diagnostics for atypical observations.
 :::
 
 ::: {.research-card}
@@ -103,7 +103,7 @@ Densities and anomalies
 
 ### GLBFP
 
-R package for density estimation using the Generalized Linear Blend Frequency Polygon approach. It is the methodological core of the density and atypical-observation axis.
+R package for density estimation using the General Linear Blend Frequency Polygon approach. It is the methodological core of the density and atypical-observation axis.
 
 ::: {.link-list}
 [GitHub repository](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark}

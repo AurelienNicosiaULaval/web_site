@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Open research ecosystem in computational statistics, scientific R software, reproducible data science, and statistical pedagogy.">
 
-<title>ggcircular – Aurélien Nicosia</title>
+<title>Research Lab – Aurélien Nicosia</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,62 +24,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../assets/logo.svg" rel="icon" type="image/svg+xml">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/logo.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -253,12 +219,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 })();
 </script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
-<link rel="stylesheet" href="../../assets/custom.css">
-<meta property="og:title" content="ggcircular – Aurélien Nicosia">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://AurelienNicosiaUlaval.github.io/web_site/assets/packages/ggcircular-logo.svg">
+<link rel="stylesheet" href="../assets/custom.css">
+<meta property="og:title" content="Research Lab – Aurélien Nicosia">
+<meta property="og:description" content="Open research ecosystem in computational statistics, scientific R software, reproducible data science, and statistical pedagogy.">
 <meta property="og:site_name" content="Aurélien Nicosia">
 <meta property="og:locale" content="fr_CA">
 </head>
@@ -270,11 +238,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../assets/logo.svg" alt="" class="navbar-logo light-content">
-    <img src="../../assets/logo.svg" alt="" class="navbar-logo dark-content">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/logo.svg" alt="" class="navbar-logo light-content">
+    <img src="../assets/logo.svg" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Aurélien Nicosia</span>
     </a>
   </div>
@@ -285,43 +253,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../enseignement.html"> 
+    <a class="nav-link" href="../enseignement.html"> 
 <span class="menu-text">Enseignement</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../recherche.html"> 
+    <a class="nav-link" href="../recherche.html"> 
 <span class="menu-text">Recherche</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research-lab.html"> 
+    <a class="nav-link" href="../research-lab.html"> 
 <span class="menu-text">Research Lab</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../packages.html"> 
+    <a class="nav-link" href="../packages.html"> 
 <span class="menu-text">Packages R</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../innovation.html"> 
+    <a class="nav-link" href="../innovation.html"> 
 <span class="menu-text">Innovation Pédagogique</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../ressources.html"> 
+    <a class="nav-link" href="../ressources.html"> 
 <span class="menu-text">Autres</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../a-propos.html"> 
+    <a class="nav-link" href="../a-propos.html"> 
 <span class="menu-text">À propos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../cv/index.html"> 
+    <a class="nav-link" href="../cv/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../en/index.html"> 
+    <a class="nav-link" href="../en/index.html"> 
 <span class="menu-text">Langue</span></a>
   </li>  
 </ul>
@@ -340,20 +308,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#visual-preview" id="toc-visual-preview" class="nav-link active" data-scroll-target="#visual-preview">Visual preview</a></li>
-  <li><a href="#usage-example" id="toc-usage-example" class="nav-link" data-scroll-target="#usage-example">Usage example</a></li>
-  <li><a href="#what-is-ggcircular-for" id="toc-what-is-ggcircular-for" class="nav-link" data-scroll-target="#what-is-ggcircular-for">What is ggcircular for?</a></li>
+  <li><a href="#mission" id="toc-mission" class="nav-link active" data-scroll-target="#mission">Mission</a></li>
+  <li><a href="#research-areas" id="toc-research-areas" class="nav-link" data-scroll-target="#research-areas">Research areas</a></li>
+  <li><a href="#ecosystem-map" id="toc-ecosystem-map" class="nav-link" data-scroll-target="#ecosystem-map">Ecosystem map</a></li>
+  <li><a href="#featured-projects" id="toc-featured-projects" class="nav-link" data-scroll-target="#featured-projects">Featured projects</a></li>
+  <li><a href="#scientific-software" id="toc-scientific-software" class="nav-link" data-scroll-target="#scientific-software">Scientific software</a></li>
+  <li><a href="#data-and-pedagogy" id="toc-data-and-pedagogy" class="nav-link" data-scroll-target="#data-and-pedagogy">Data and pedagogy</a></li>
+  <li><a href="#reproducible-research" id="toc-reproducible-research" class="nav-link" data-scroll-target="#reproducible-research">Reproducible research</a></li>
+  <li><a href="#collaborations-and-contact" id="toc-collaborations-and-contact" class="nav-link" data-scroll-target="#collaborations-and-contact">Collaborations and contact</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/en/packages/ggcircular.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/en/research-lab.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">ggcircular</h1>
+<h1 class="title">Research Lab</h1>
 </div>
 
+<div>
+  <div class="description">
+    Open research ecosystem in computational statistics, scientific R software, reproducible data science, and statistical pedagogy.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -368,63 +346,237 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div class="package-hero">
-<div>
-<p><code>ggcircular</code> is a <code>ggplot2</code> extension for visualizing circular, axial, and directional data. The package provides geoms, stats, scales, and themes for angles, orientations, times of day, movement directions, and circular distributions.</p>
-<p>CRAN version: 0.1.0, published on June 4, 2026.</p>
+<div class="section-intro">
+<p>This page presents the research, scientific software, and open pedagogy ecosystem developed by Aurélien Nicosia at Université Laval. It connects GitHub repositories, R packages, teaching resources, and reproducible research materials in computational statistics.</p>
+</div>
 <div class="link-list">
-<p><a href="https://cran.r-project.org/web/packages/ggcircular/index.html" class="btn btn-outline-dark rounded-pill shadow-sm">CRAN</a> <a href="https://github.com/AurelienNicosiaULaval/ggcircular" class="btn btn-outline-dark rounded-pill shadow-sm">GitHub</a> <a href="https://aureliennicosiaulaval.github.io/ggcircular/" class="btn btn-outline-dark rounded-pill shadow-sm">Documentation</a> <a href="https://aureliennicosiaulaval.github.io/ggcircular/reference/index.html" class="btn btn-outline-dark rounded-pill shadow-sm">Reference</a></p>
+<p><a href="../research-lab.html" class="btn btn-outline-dark">Version française</a> <a href="https://github.com/AurelienNicosiaULaval" class="btn btn-outline-dark">GitHub</a> <a href="../en/recherche.html" class="btn btn-outline-dark">Research</a> <a href="../en/packages.html" class="btn btn-outline-dark">R packages</a></p>
 </div>
+<section id="mission" class="level2">
+<h2 class="anchored" data-anchor-id="mission">Mission</h2>
+<p>To develop an open platform for computational statistics that connects methodological research, scientific software, reproducible data science, and statistical pedagogy. The aim is to produce interpretable methods, usable R tools, and open resources that support transmission, verification, and reuse.</p>
+</section>
+<section id="research-areas" class="level2">
+<h2 class="anchored" data-anchor-id="research-areas">Research areas</h2>
+<div class="research-axis-grid">
+<div class="research-card">
+<div class="eyebrow">
+<p>Densities and anomalies</p>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../assets/packages/ggcircular-logo.svg" class="package-logo img-fluid figure-img"></p>
-<figcaption>ggcircular hex logo</figcaption>
-</figure>
+<section id="density-estimation-and-anomaly-detection" class="level3">
+<h3 class="anchored" data-anchor-id="density-estimation-and-anomaly-detection">Density estimation and anomaly detection</h3>
+<p>Density estimation methods based on the General Linear Blend Frequency Polygon approach, with attention to stability, geometric interpretation, and diagnostics for atypical observations.</p>
+</section>
 </div>
+<div class="research-card">
+<div class="eyebrow">
+<p>Directional data</p>
 </div>
-<section id="visual-preview" class="level2">
-<h2 class="anchored" data-anchor-id="visual-preview">Visual preview</h2>
-<div class="package-gallery">
-<p><img src="../../assets/packages/ggcircular-example.png" class="package-example img-fluid" alt="ggcircular example with a rose diagram, circular density, and mean direction."> <img src="../../assets/packages/ggcircular-movement.png" class="package-example img-fluid" alt="ggcircular example for movement directions."></p>
+<section id="circular-and-directional-statistics" class="level3">
+<h3 class="anchored" data-anchor-id="circular-and-directional-statistics">Circular and directional statistics</h3>
+<p>Models, visualizations, and tools for angles, orientations, directions, times of day, and circular responses.</p>
+</section>
+</div>
+<div class="research-card">
+<div class="eyebrow">
+<p>Animal movement</p>
+</div>
+<section id="movement-modeling-hmms-ssfs-and-generative-validation" class="level3">
+<h3 class="anchored" data-anchor-id="movement-modeling-hmms-ssfs-and-generative-validation">Movement modeling, HMMs, SSFs, and generative validation</h3>
+<p>Hidden Markov models, step-selection functions, iSSF models, and generative validation of step-selection functions to evaluate simulated movement behavior.</p>
+</section>
+</div>
+<div class="research-card">
+<div class="eyebrow">
+<p>Interpretation</p>
+</div>
+<section id="ai-assisted-statistical-interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="ai-assisted-statistical-interpretation">AI-assisted statistical interpretation</h3>
+<p>Tools and workflows for contextualized statistical explanations, with methodological safeguards and attention to interpretation quality.</p>
+</section>
+</div>
+<div class="research-card">
+<div class="eyebrow">
+<p>Open pedagogy</p>
+</div>
+<section id="open-statistical-pedagogy-and-reproducible-data-science" class="level3">
+<h3 class="anchored" data-anchor-id="open-statistical-pedagogy-and-reproducible-data-science">Open statistical pedagogy and reproducible data science</h3>
+<p>Quarto resources, pedagogical datasets, interactive tutorials, and reproducible environments for teaching statistics, R, and data science.</p>
+</section>
+</div>
 </div>
 </section>
-<section id="usage-example" class="level2">
-<h2 class="anchored" data-anchor-id="usage-example">Usage example</h2>
-<p>The code below follows the package quick start: it displays winter wind directions with a rose diagram, a circular density estimate, and a mean direction.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load libraries</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggcircular)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot winter wind directions</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>wind_directions <span class="sc">|&gt;</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(season <span class="sc">==</span> <span class="st">"winter"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> direction)) <span class="sc">+</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_rose</span>(</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">y =</span> <span class="fu">after_stat</span>(density), <span class="at">fill =</span> <span class="fu">after_stat</span>(density)),</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">bins =</span> <span class="dv">24</span>,</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">alpha =</span> <span class="fl">0.78</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_circular_density</span>(<span class="at">linewidth =</span> <span class="fl">1.1</span>, <span class="at">colour =</span> <span class="st">"#123C4A"</span>) <span class="sc">+</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_mean_direction</span>(</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">length =</span> <span class="st">"resultant"</span>,</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">colour =</span> <span class="st">"#E4572E"</span>,</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">linewidth =</span> <span class="fl">1.1</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_circular_compass</span>() <span class="sc">+</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_circular</span>(<span class="at">zero =</span> <span class="st">"north"</span>, <span class="at">direction =</span> <span class="st">"clockwise"</span>) <span class="sc">+</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">fill =</span> <span class="st">"density"</span>, <span class="at">title =</span> <span class="st">"Winter wind directions"</span>) <span class="sc">+</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_circular</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="ecosystem-map" class="level2">
+<h2 class="anchored" data-anchor-id="ecosystem-map">Ecosystem map</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A["Methodological research"] --&gt; B["R packages"]
+  B --&gt; C["Applications and diagnostics"]
+  C --&gt; D["Reproducible research repositories"]
+  D --&gt; E["Teaching resources"]
+  E --&gt; F["Open dissemination"]
+
+  A --&gt; A1["GLBFP"]
+  A --&gt; A2["Validation-SSF"]
+  B --&gt; B1["ggcircular"]
+  B --&gt; B2["CircularRegression"]
+  B --&gt; B3["gmov"]
+  C --&gt; C1["contextR"]
+  E --&gt; E1["donnees-bleues"]
+  E --&gt; E2["tutorizeR"]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section>
-<section id="what-is-ggcircular-for" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-ggcircular-for">What is ggcircular for?</h2>
-<ul>
-<li>creating rose diagrams and circular histograms;</li>
-<li>estimating and displaying circular densities;</li>
-<li>showing mean directions, confidence arcs, and theoretical distributions;</li>
-<li>producing reproducible <code>ggplot2</code> graphics for periodic, axial, or directional data.</li>
-</ul>
+<section id="featured-projects" class="level2">
+<h2 class="anchored" data-anchor-id="featured-projects">Featured projects</h2>
+<div class="research-axis-grid">
+<div class="research-card">
+<div class="eyebrow">
+<p>Densities and anomalies</p>
+</div>
+<section id="glbfp" class="level3">
+<h3 class="anchored" data-anchor-id="glbfp">GLBFP</h3>
+<p>R package for density estimation using the General Linear Blend Frequency Polygon approach. It is the methodological core of the density and atypical-observation axis.</p>
+<div class="link-list">
+<p><a href="https://github.com/AurelienNicosiaULaval/GLBFP" class="btn btn-outline-dark">GitHub repository</a></p>
+</div>
+</section>
+</div>
+<div class="research-card">
+<div class="eyebrow">
+<p>Directional data</p>
+</div>
+<section id="ggcircular" class="level3">
+<h3 class="anchored" data-anchor-id="ggcircular">ggcircular</h3>
+<p><code>ggplot2</code> extension for visualizing circular, axial, and directional data. It supports graphical communication for methods involving angular data.</p>
+<div class="link-list">
+<p><a href="https://github.com/AurelienNicosiaULaval/ggcircular" class="btn btn-outline-dark">GitHub repository</a> <a href="https://aureliennicosiaulaval.github.io/ggcircular/" class="btn btn-outline-dark">Documentation</a></p>
+</div>
+</section>
+</div>
+<div class="research-card">
+<div class="eyebrow">
+<p>Directional data</p>
+</div>
+<section id="circularregression" class="level3">
+<h3 class="anchored" data-anchor-id="circularregression">CircularRegression</h3>
+<p>R package for fitting circular-linear regression models, especially for directional and trajectory-related data.</p>
+<div class="link-list">
+<p><a href="https://github.com/AurelienNicosiaULaval/CircularRegression" class="btn btn-outline-dark">GitHub repository</a> <a href="../en/packages/circularregression.html" class="btn btn-outline-dark">Site page</a></p>
+</div>
+</section>
+</div>
+<div class="research-card">
+<div class="eyebrow">
+<p>Animal movement</p>
+</div>
+<section id="validation-ssf" class="level3">
+<h3 class="anchored" data-anchor-id="validation-ssf">Validation-SSF</h3>
+<p>Reproducible research repository for generative validation of step-selection functions, including simulations, empirical analyses, and sensitivity analyses.</p>
+<div class="link-list">
+<p><a href="https://github.com/AurelienNicosiaULaval/Validation-SSF" class="btn btn-outline-dark">GitHub repository</a></p>
+</div>
+</section>
+</div>
+<div class="research-card">
+<div class="eyebrow">
+<p>Animal movement</p>
+</div>
+<section id="gmov" class="level3">
+<h3 class="anchored" data-anchor-id="gmov">gmov</h3>
+<p>Generative validation and diagnostic tools for SSF and iSSF movement models. The project connects methodological work with practical movement-model diagnostics.</p>
+<div class="link-list">
+<p><a href="https://github.com/AurelienNicosiaULaval/gmov" class="btn btn-outline-dark">GitHub repository</a></p>
+</div>
+</section>
+</div>
+<div class="research-card">
+<div class="eyebrow">
+<p>Data and pedagogy</p>
+</div>
+<section id="donnees-bleues" class="level3">
+<h3 class="anchored" data-anchor-id="donnees-bleues">donnees-bleues</h3>
+<p>Open educational platform of Québec datasets for statistics and data science. It provides realistic data for teaching and reproducible exercises.</p>
+<div class="link-list">
+<p><a href="https://github.com/AurelienNicosiaULaval/donnees-bleues" class="btn btn-outline-dark">GitHub repository</a> <a href="https://aureliennicosiaulaval.github.io/donnees-bleues/" class="btn btn-outline-dark">Website</a></p>
+</div>
+</section>
+</div>
+<div class="research-card">
+<div class="eyebrow">
+<p>Open pedagogy</p>
+</div>
+<section id="tutorizer" class="level3">
+<h3 class="anchored" data-anchor-id="tutorizer">tutorizeR</h3>
+<p>R package for converting R Markdown and Quarto documents into interactive <code>learnr</code> tutorials with exercises, solutions, and optional quizzes.</p>
+<div class="link-list">
+<p><a href="https://github.com/AurelienNicosiaULaval/tutorizeR" class="btn btn-outline-dark">GitHub repository</a> <a href="../en/packages/tutorizeR.html" class="btn btn-outline-dark">Site page</a></p>
+</div>
+</section>
+</div>
+<div class="research-card">
+<div class="eyebrow">
+<p>Emerging project</p>
+</div>
+<section id="contextr" class="level3">
+<h3 class="anchored" data-anchor-id="contextr">contextR</h3>
+<p>Emerging project around contextualized statistical explanations in R, with S3 structures, safeguards, and links to AI-assisted statistical interpretation.</p>
+<div class="link-list">
+<p><a href="https://github.com/AurelienNicosiaULaval/contextR" class="btn btn-outline-dark">GitHub repository</a></p>
+</div>
+</section>
+</div>
+</div>
+</section>
+<section id="scientific-software" class="level2">
+<h2 class="anchored" data-anchor-id="scientific-software">Scientific software</h2>
+<p>The R packages form a central layer of the ecosystem. They turn methodological ideas into tools that can be tested, documented, and reused. <code>GLBFP</code>, <code>ggcircular</code>, <code>CircularRegression</code>, <code>gmov</code>, <code>tutorizeR</code>, and <code>contextR</code> cover density estimation, circular visualization, circular-response modeling, generative movement validation, interactive tutorial production, and contextualized statistical interpretation.</p>
+</section>
+<section id="data-and-pedagogy" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-pedagogy">Data and pedagogy</h2>
+<p>The teaching resources support open, realistic, and reproducible training in statistics and data science.</p>
+<div class="resource-grid">
+<section id="datasets" class="level3 resource-card">
+<h3 class="anchored" data-anchor-id="datasets">Datasets</h3>
+<p><code>donnees-bleues</code> gathers Québec datasets for courses, exercises, and projects.</p>
+<div class="link-list">
+<p><a href="https://aureliennicosiaulaval.github.io/donnees-bleues/" class="btn btn-outline-dark">donnees-bleues</a></p>
+</div>
+</section>
+<section id="courses-and-modules" class="level3 resource-card">
+<h3 class="anchored" data-anchor-id="courses-and-modules">Courses and modules</h3>
+<p>The course and resource sites structure content in statistics, R, and data science.</p>
+<div class="link-list">
+<p><a href="https://github.com/AurelienNicosiaULaval/STT-1100_notes_de_cours" class="btn btn-outline-dark">STT-1100</a> <a href="https://github.com/AurelienNicosiaULaval/programmation-pour-la-science-des-donnees" class="btn btn-outline-dark">Programming for data science</a> <a href="https://aureliennicosiaulaval.github.io/site_ressources_SSD/" class="btn btn-outline-dark">SSD resources</a></p>
+</div>
+</section>
+<section id="interactive-tutorials" class="level3 resource-card">
+<h3 class="anchored" data-anchor-id="interactive-tutorials">Interactive tutorials</h3>
+<p><code>tutorizeR</code> supports the conversion of reproducible documents into interactive teaching resources.</p>
+<div class="link-list">
+<p><a href="https://github.com/AurelienNicosiaULaval/tutorizeR" class="btn btn-outline-dark">tutorizeR</a></p>
+</div>
+</section>
+</div>
+</section>
+<section id="reproducible-research" class="level2">
+<h2 class="anchored" data-anchor-id="reproducible-research">Reproducible research</h2>
+<p>Reproducible research repositories document code, analyses, figures, simulations, and materials associated with scientific work. This layer makes results easier to verify and reuse by collaborators, students, article readers, and scientific software users.</p>
+</section>
+<section id="collaborations-and-contact" class="level2">
+<h2 class="anchored" data-anchor-id="collaborations-and-contact">Collaborations and contact</h2>
+<p>Collaborations are welcome on statistical methods, R software, movement ecology applications, directional data, statistical pedagogy, and reproducible data science.</p>
+<div class="link-list">
+<p><a href="mailto:aurelien.nicosia@mat.ulaval.ca" class="btn btn-outline-dark">Email</a> <a href="https://orcid.org/0000-0002-0974-9988" class="btn btn-outline-dark">ORCID</a> <a href="https://www.linkedin.com/in/aur%C3%A9lien-nicosia-6a52487b/" class="btn btn-outline-dark">LinkedIn</a></p>
+</div>
 
 
 </section>
@@ -843,7 +995,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/en/packages/ggcircular.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/edit/main/en/research-lab.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/AurelienNicosiaUlaval/web_site/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p><a href="https://github.com/AurelienNicosiaULaval">GitHub</a> • <a href="https://www.linkedin.com/in/aur%C3%A9lien-nicosia-6a52487b/">LinkedIn</a> • <a href="https://www.researchgate.net/profile/Aurelien-Nicosia-2?ev=prf_overview">ResearchGate</a> • <a href="https://orcid.org/0000-0002-0974-9988">ORCID</a></p>
 </div>
@@ -853,5 +1005,5 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

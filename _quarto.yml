@@ -17,6 +17,8 @@ website:
         text: Enseignement
       - href: recherche.qmd
         text: Recherche
+      - href: research-lab.qmd
+        text: Research Lab
       - href: packages.qmd
         text: Packages R
       - href: innovation.qmd

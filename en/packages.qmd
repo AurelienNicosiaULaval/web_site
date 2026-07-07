@@ -219,27 +219,6 @@ Datasets and helper functions for introductory data science teaching at Universi
 ::: {.g-col-12 .g-col-lg-6}
 ::: {.package-card .github-package-card}
 <div class="package-card-header">
-<span class="package-card-fallback">HR</span>
-<div>
-<h3>HMMSSFGenerativeRepair</h3>
-<div class="package-card-meta">R package • v0.1.0</div>
-</div>
-</div>
-
-<span class="package-card-tag">HMM-SSF</span>
-
-A development prototype for simulation, compatibility, sharpness, and interpretation diagnostics for HMM-SSF and HMM-iSSA models.
-
-::: {.link-list}
-[GitHub](https://github.com/AurelienNicosiaULaval/HMMSSFGenerativeRepair){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[Documentation](https://aureliennicosiaulaval.github.io/HMMSSFGenerativeRepair/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-:::
-:::
-:::
-
-::: {.g-col-12 .g-col-lg-6}
-::: {.package-card .github-package-card}
-<div class="package-card-header">
 <span class="package-card-fallback">EH</span>
 <div>
 <h3>evalue-HMM</h3>
@@ -254,26 +233,6 @@ Predictive e-diagnostics for hidden Markov models applied to animal movement dat
 ::: {.link-list}
 [GitHub](https://github.com/AurelienNicosiaULaval/evalue-HMM){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 [Documentation](https://aureliennicosiaulaval.github.io/evalue-HMM/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-:::
-:::
-:::
-
-::: {.g-col-12 .g-col-lg-6}
-::: {.package-card .github-package-card}
-<div class="package-card-header">
-<span class="package-card-fallback">HS</span>
-<div>
-<h3>hsmmHmmApproximation</h3>
-<div class="package-card-meta">R compendium • v0.0.0.9000</div>
-</div>
-</div>
-
-<span class="package-card-tag">HSMM</span>
-
-A research compendium for finite-horizon HMM approximations to hidden semi-Markov models.
-
-::: {.link-list}
-[GitHub](https://github.com/AurelienNicosiaULaval/hsmm-finite-horizon-code-data){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 :::
 :::
 :::

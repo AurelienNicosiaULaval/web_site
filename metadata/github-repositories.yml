@@ -52,7 +52,7 @@ repositories:
       - "teaching"
       - "statistics-education"
       - "data-science-education"
-      - "statistical-modelling"
+      - "statistical-modeling"
     current_homepage: "https://aureliennicosiaulaval.github.io/MQT-2101/"
     proposed_homepage: "https://aureliennicosiaulaval.github.io/MQT-2101/"
     maturity: "course site"
@@ -263,6 +263,7 @@ repositories:
     proposed_topics:
       - "r"
       - "learnr"
+      - "learnr-tutorial"
       - "teaching"
       - "statistics-education"
       - "reproducible-research"

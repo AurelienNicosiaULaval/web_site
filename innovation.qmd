@@ -80,17 +80,6 @@ Package R qui automatise la conversion de documents `.qmd` ou `.Rmd` en tutoriel
 :::
 :::
 
-::: {.resource-card}
-::: {.eyebrow}
-Exploration
-:::
-
-### ZeroWasteData
-
-Projet en développement visant à encourager la réutilisation pédagogique des jeux de données. L’application suggère de nouvelles analyses possibles à partir d’un jeu de données déjà utilisé, en les associant à des concepts statistiques ou de science des données.
-
-[GitHub](https://github.com/AurelienNicosiaULaval/ZeroWasteData){.btn .btn-outline-dark}
-:::
 :::
 
 ## Tutoriels interactifs

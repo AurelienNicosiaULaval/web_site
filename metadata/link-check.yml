@@ -1,0 +1,146 @@
+settings:
+  timeout_seconds: 20
+  user_agent: "AurelienNicosiaULaval-web-site-link-check/1.0"
+
+links:
+  - name: "Personal website"
+    category: core_site
+    url: "https://aureliennicosiaulaval.github.io/web_site/"
+    required: true
+
+  - name: "Research Lab page"
+    category: core_site
+    url: "https://aureliennicosiaulaval.github.io/web_site/research-lab.html"
+    required: true
+
+  - name: "GitHub profile"
+    category: profiles
+    url: "https://github.com/AurelienNicosiaULaval"
+    required: true
+
+  - name: "ORCID profile"
+    category: profiles
+    url: "https://orcid.org/0000-0002-0974-9988"
+    required: true
+
+  - name: "LinkedIn profile"
+    category: optional_external
+    url: "https://www.linkedin.com/in/aur%C3%A9lien-nicosia-6a52487b/"
+    required: false
+    warning_statuses: [401, 403, 429, 999]
+    notes: "LinkedIn may block automated checks."
+
+  - name: "donnees-bleues GitHub Pages"
+    category: github_pages
+    url: "https://aureliennicosiaulaval.github.io/donnees-bleues/"
+    required: true
+
+  - name: "ggcircular pkgdown"
+    category: github_pages
+    url: "https://aureliennicosiaulaval.github.io/ggcircular/"
+    required: true
+
+  - name: "GLBFP pkgdown"
+    category: github_pages
+    url: "https://aureliennicosiaulaval.github.io/GLBFP/"
+    required: true
+
+  - name: "DonutMap GitHub Pages"
+    category: github_pages
+    url: "https://aureliennicosiaulaval.github.io/DonutMap/"
+    required: true
+
+  - name: "learnrTrackR GitHub Pages"
+    category: github_pages
+    url: "https://aureliennicosiaulaval.github.io/learnrTrackR/"
+    required: true
+
+  - name: "gmov GitHub Pages"
+    category: github_pages
+    url: "https://aureliennicosiaulaval.github.io/gmov/"
+    required: true
+
+  - name: "MQT-2101 course site"
+    category: teaching
+    url: "https://aureliennicosiaulaval.github.io/MQT-2101/"
+    required: true
+
+  - name: "Programmation pour la science des donnees"
+    category: teaching
+    url: "https://aureliennicosiaulaval.github.io/programmation-pour-la-science-des-donnees/"
+    required: true
+
+  - name: "Ressources SSD"
+    category: teaching
+    url: "https://aureliennicosiaulaval.github.io/site_ressources_SSD/"
+    required: true
+
+  - name: "STT-1100 notes de cours"
+    category: teaching
+    url: "https://aureliennicosiaulaval.github.io/STT-1100_notes_de_cours/"
+    required: true
+
+  - name: "SSC 2026 AI teaching gallery"
+    category: teaching
+    url: "https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/"
+    required: true
+
+  - name: "GLBFP repository"
+    category: repositories
+    url: "https://github.com/AurelienNicosiaULaval/GLBFP"
+    required: true
+
+  - name: "ggcircular repository"
+    category: repositories
+    url: "https://github.com/AurelienNicosiaULaval/ggcircular"
+    required: true
+
+  - name: "CircularRegression repository"
+    category: repositories
+    url: "https://github.com/AurelienNicosiaULaval/CircularRegression"
+    required: true
+
+  - name: "Validation-SSF repository"
+    category: repositories
+    url: "https://github.com/AurelienNicosiaULaval/Validation-SSF"
+    required: true
+
+  - name: "gmov repository"
+    category: repositories
+    url: "https://github.com/AurelienNicosiaULaval/gmov"
+    required: true
+
+  - name: "donnees-bleues repository"
+    category: repositories
+    url: "https://github.com/AurelienNicosiaULaval/donnees-bleues"
+    required: true
+
+  - name: "tutorizeR repository"
+    category: repositories
+    url: "https://github.com/AurelienNicosiaULaval/tutorizeR"
+    required: true
+
+  - name: "contextR repository"
+    category: repositories
+    url: "https://github.com/AurelienNicosiaULaval/contextR"
+    required: true
+
+  - name: "DonutMap repository"
+    category: repositories
+    url: "https://github.com/AurelienNicosiaULaval/DonutMap"
+    required: true
+
+  - name: "Zenodo DOI 19485572"
+    category: doi
+    url: "https://doi.org/10.5281/zenodo.19485572"
+    required: true
+
+  - name: "Zenodo DOI 17771142"
+    category: doi
+    url: "https://doi.org/10.5281/zenodo.17771142"
+    required: true
+
+  - name: "Zenodo DOI 18010064"
+    category: doi
+    url: "https://doi.org/10.5281/zenodo.18010064"
+    required: true

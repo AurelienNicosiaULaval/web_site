@@ -31,6 +31,7 @@ These repositories are public, non-sensitive according to the current plan, and 
 | `ulaval-template` | Quarto templates for statistics and data science teaching material at Université Laval. | `quarto`, `teaching`, `statistics-education`, `data-science-education`, `template` | none |
 | `learnrTrackR` | R package prototype for tracking learnr tutorial attempts in teaching contexts. | `r`, `r-package`, `learnr`, `teaching`, `statistics-education`, `teaching-tools` | `https://aureliennicosiaulaval.github.io/learnrTrackR/` |
 | `gmov` | R package for generative validation and diagnostics of SSF and iSSF movement models. | `r`, `r-package`, `movement-ecology`, `hidden-markov-models`, `step-selection-functions`, `simulation`, `reproducible-research` | `https://aureliennicosiaulaval.github.io/gmov/` |
+| `donnees-bleues` | Plateforme pédagogique ouverte de jeux de données québécois pour la statistique et la science des données | `data-science`, `open-data`, `quarto`, `quebec`, `r`, `statistics-education`, `teaching` | `https://aureliennicosiaulaval.github.io/donnees-bleues/` |
 | `contextR` | Emerging R package for contextual interpretation of statistical analyses. | `r`, `r-package`, `statistics`, `statistical-interpretation`, `computational-statistics`, `reproducible-research` | none |
 
 ## Repositories Requiring Manual Review

@@ -363,6 +363,41 @@ repositories:
       github_pages_http_status: 200
     rationale: "The description is already close; adding topics and the existing public Pages URL would improve discoverability."
 
+  - name: "donnees-bleues"
+    category: "teaching-data-platform"
+    current_description: "Plateforme pédagogique ouverte de jeux de données québécois pour la statistique et la science des données"
+    proposed_description: "Plateforme pédagogique ouverte de jeux de données québécois pour la statistique et la science des données"
+    current_topics:
+      - "data-science"
+      - "open-data"
+      - "quarto"
+      - "quebec"
+      - "r"
+      - "statistics-education"
+      - "teaching"
+    proposed_topics:
+      - "data-science"
+      - "open-data"
+      - "quarto"
+      - "quebec"
+      - "r"
+      - "statistics-education"
+      - "teaching"
+    current_homepage: "https://aureliennicosiaulaval.github.io/donnees-bleues/"
+    proposed_homepage: "https://aureliennicosiaulaval.github.io/donnees-bleues/"
+    maturity: "pedagogical data platform"
+    public_visibility: "public"
+    sensitive: false
+    action: "metadata_applied"
+    repository_status:
+      archived: false
+      readme_present: true
+      license_detected_by_github: null
+      github_pages_enabled: true
+      github_pages_url: "https://aureliennicosiaulaval.github.io/donnees-bleues/"
+      github_pages_http_status: 200
+    rationale: "The README and GitHub metadata have been updated separately. This entry documents the topics actually applied to the public repository; it does not request any additional live GitHub metadata change."
+
   - name: "contextR"
     category: "r-package"
     current_description: "contextR package: S3 contextual statistical explanations with safety checks and ggcontext"

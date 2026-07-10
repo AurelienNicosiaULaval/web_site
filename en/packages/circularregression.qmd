@@ -17,14 +17,14 @@ CRAN version: 0.5.1, published on June 10, 2026.
 :::
 :::
 
-![CircularRegression hex logo](../../assets/packages/circularregression-logo.svg){.package-logo}
+![](../../assets/packages/circularregression-logo.svg){fig-alt="CircularRegression hex logo" fig-cap="CircularRegression hex logo" .package-logo}
 :::
 
 ## Visual preview
 
 The illustration below is produced from the `bison` data included in the package. The left panel compares observed directions with model-fitted directions, and the right panel summarizes angular residuals.
 
-![Illustration of a CircularRegression fit on bison movement directions.](../../assets/packages/circularregression-bison-fit-en.png){.package-example}
+![](../../assets/packages/circularregression-bison-fit-en.png){fig-alt="Illustration of a CircularRegression fit on bison movement directions." fig-cap="Illustration of a CircularRegression fit on bison movement directions." .package-example}
 
 ## Usage example
 

@@ -462,6 +462,21 @@ body:has(.home-hero) #title-block-header {
   margin: 0;
 }
 
+.cv-identity {
+  background: linear-gradient(90deg, rgba(184, 32, 47, 0.08), rgba(11, 114, 133, 0.08));
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  display: grid;
+  gap: 0.25rem;
+  margin: 1.2rem 0 2rem;
+  padding: 1rem 1.2rem;
+}
+
+.cv-identity p {
+  margin: 0;
+  max-width: none;
+}
+
 .callout {
   border-radius: 8px;
 }
@@ -531,9 +546,7 @@ body:has(.home-hero) #title-block-header {
 
 @media (max-width: 900px) {
   .home-hero {
-    background:
-      linear-gradient(180deg, rgba(13, 29, 39, 0.96), rgba(13, 29, 39, 0.82)),
-      url("packages/donutmap-example.png");
+    background: linear-gradient(180deg, rgba(13, 29, 39, 0.96), rgba(13, 29, 39, 0.82));
     background-position: center;
     background-size: cover;
     margin-top: -1rem;

@@ -16,7 +16,7 @@ Version CRAN : 0.4.5, publiée le 11 juin 2026.
 :::
 :::
 
-![Logo hexagonal tutorizeR](../assets/packages/tutorizeR-logo.png){.package-logo}
+![](../assets/packages/tutorizeR-logo.png){fig-alt="Logo hexagonal tutorizeR" fig-cap="Logo hexagonal tutorizeR" .package-logo}
 :::
 
 ## Aperçu visuel

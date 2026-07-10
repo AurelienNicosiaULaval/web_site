@@ -112,6 +112,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     { fr: "index.html", en: "index.html", frLabel: "Accueil", enLabel: "Home" },
     { fr: "enseignement.html", en: "enseignement.html", frLabel: "Enseignement", enLabel: "Teaching" },
     { fr: "recherche.html", en: "recherche.html", frLabel: "Recherche", enLabel: "Research" },
+    { fr: "research-lab.html", en: "research-lab.html", frLabel: "Research Lab", enLabel: "Research Lab" },
     { fr: "packages.html", en: "packages.html", frLabel: "Packages R", enLabel: "R packages" },
     { fr: "innovation.html", en: "innovation.html", frLabel: "Innovation Pédagogique", enLabel: "Educational innovation" },
     { fr: "ressources.html", en: "ressources.html", frLabel: "Autres", enLabel: "Resources" },
@@ -123,10 +124,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "index.html",
     "enseignement.html",
     "recherche.html",
+    "research-lab.html",
     "packages.html",
     "packages/circularregression.html",
     "packages/donutmap.html",
     "packages/ggcircular.html",
+    "packages/tutorizeR.html",
     "innovation.html",
     "ressources.html",
     "a-propos.html",
@@ -261,6 +264,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta property="og:image" content="https://AurelienNicosiaUlaval.github.io/web_site/assets/packages/donutmap-logo.svg">
 <meta property="og:site_name" content="Aurélien Nicosia">
 <meta property="og:locale" content="fr_CA">
+<meta property="og:image:alt" content="DonutMap hex logo">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -376,22 +380,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><a href="https://cran.r-project.org/web/packages/DonutMap/index.html" class="btn btn-outline-dark rounded-pill shadow-sm">CRAN</a> <a href="https://github.com/AurelienNicosiaULaval/DonutMap" class="btn btn-outline-dark rounded-pill shadow-sm">GitHub</a> <a href="https://aureliennicosiaulaval.github.io/DonutMap/" class="btn btn-outline-dark rounded-pill shadow-sm">Documentation</a> <a href="https://aureliennicosiaulaval.github.io/DonutMap/articles/donut-maps.html" class="btn btn-outline-dark rounded-pill shadow-sm">Vignette</a></p>
 </div>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../assets/packages/donutmap-logo.svg" class="package-logo img-fluid figure-img"></p>
-<figcaption>DonutMap hex logo</figcaption>
-</figure>
-</div>
+<p><img src="../../assets/packages/donutmap-logo.svg" class="package-logo img-fluid" data-fig-cap="DonutMap hex logo" alt="DonutMap hex logo"></p>
 </div>
 <section id="visual-preview" class="level2">
 <h2 class="anchored" data-anchor-id="visual-preview">Visual preview</h2>
 <p>The image below comes from the package example gallery and shows a static map with curved links and arrows.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../assets/packages/donutmap-example.png" class="package-example img-fluid figure-img"></p>
-<figcaption>Example DonutMap map with curved links coloured by corridor.</figcaption>
-</figure>
-</div>
+<p><img src="../../assets/packages/donutmap-example.png" class="package-example img-fluid" data-fig-cap="Example DonutMap map with curved links coloured by corridor." alt="Example DonutMap map with curved links coloured by corridor."></p>
 </section>
 <section id="usage-example" class="level2">
 <h2 class="anchored" data-anchor-id="usage-example">Usage example</h2>

@@ -16,7 +16,7 @@ Version CRAN : 0.1.0, publiée le 4 juin 2026.
 :::
 :::
 
-![Logo hexagonal ggcircular](../assets/packages/ggcircular-logo.svg){.package-logo}
+![](../assets/packages/ggcircular-logo.svg){fig-alt="Logo hexagonal ggcircular" fig-cap="Logo hexagonal ggcircular" .package-logo}
 :::
 
 ## Aperçu visuel

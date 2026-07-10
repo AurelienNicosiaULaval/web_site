@@ -17,7 +17,7 @@ CRAN version: 0.4.5, published on June 11, 2026.
 :::
 :::
 
-![tutorizeR hex logo](../../assets/packages/tutorizeR-logo.png){.package-logo}
+![](../../assets/packages/tutorizeR-logo.png){fig-alt="tutorizeR hex logo" fig-cap="tutorizeR hex logo" .package-logo}
 :::
 
 ## Visual preview

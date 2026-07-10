@@ -17,7 +17,7 @@ CRAN version: 0.1.0, published on June 4, 2026.
 :::
 :::
 
-![ggcircular hex logo](../../assets/packages/ggcircular-logo.svg){.package-logo}
+![](../../assets/packages/ggcircular-logo.svg){fig-alt="ggcircular hex logo" fig-cap="ggcircular hex logo" .package-logo}
 :::
 
 ## Visual preview

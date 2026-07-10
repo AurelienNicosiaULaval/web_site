@@ -16,14 +16,14 @@ Version CRAN : 0.1.0, publiée le 8 juin 2026.
 :::
 :::
 
-![Logo hexagonal DonutMap](../assets/packages/donutmap-logo.svg){.package-logo}
+![](../assets/packages/donutmap-logo.svg){fig-alt="Logo hexagonal DonutMap" fig-cap="Logo hexagonal DonutMap" .package-logo}
 :::
 
 ## Aperçu visuel
 
 L’image ci-dessous provient de la galerie d’exemples du package et montre une carte statique avec liens courbés et flèches.
 
-![Exemple de carte DonutMap avec liens courbés colorés par corridor.](../assets/packages/donutmap-example.png){.package-example}
+![](../assets/packages/donutmap-example.png){fig-alt="Exemple de carte DonutMap avec liens courbés colorés par corridor." fig-cap="Exemple de carte DonutMap avec liens courbés colorés par corridor." .package-example}
 
 ## Exemple d’utilisation
 

@@ -17,14 +17,14 @@ CRAN version: 0.1.0, published on June 8, 2026.
 :::
 :::
 
-![DonutMap hex logo](../../assets/packages/donutmap-logo.svg){.package-logo}
+![](../../assets/packages/donutmap-logo.svg){fig-alt="DonutMap hex logo" fig-cap="DonutMap hex logo" .package-logo}
 :::
 
 ## Visual preview
 
 The image below comes from the package example gallery and shows a static map with curved links and arrows.
 
-![Example DonutMap map with curved links coloured by corridor.](../../assets/packages/donutmap-example.png){.package-example}
+![](../../assets/packages/donutmap-example.png){fig-alt="Example DonutMap map with curved links coloured by corridor." fig-cap="Example DonutMap map with curved links coloured by corridor." .package-example}
 
 ## Usage example
 

@@ -16,14 +16,14 @@ Version CRAN : 0.5.1, publiée le 10 juin 2026.
 :::
 :::
 
-![Logo hexagonal CircularRegression](../assets/packages/circularregression-logo.svg){.package-logo}
+![](../assets/packages/circularregression-logo.svg){fig-alt="Logo hexagonal CircularRegression" fig-cap="Logo hexagonal CircularRegression" .package-logo}
 :::
 
 ## Aperçu visuel
 
 L’illustration ci-dessous est produite à partir des données `bison` incluses dans le package. Le panneau de gauche compare les directions observées aux directions ajustées par le modèle ; le panneau de droite résume les résidus angulaires.
 
-![Illustration d’un ajustement CircularRegression sur des directions de mouvement de bisons.](../assets/packages/circularregression-bison-fit-fr.png){.package-example}
+![](../assets/packages/circularregression-bison-fit-fr.png){fig-alt="Illustration d’un ajustement CircularRegression sur des directions de mouvement de bisons." fig-cap="Illustration d’un ajustement CircularRegression sur des directions de mouvement de bisons." .package-example}
 
 ## Exemple d’utilisation
 

@@ -87,11 +87,12 @@ Publications
 
 ### Animal movement
 
-An article is published in Methods in Ecology and Evolution, and a bioRxiv preprint focuses on behavioural-state inference using Markovian step-selection functions.
+An article is published in Methods in Ecology and Evolution, and two bioRxiv preprints focus on behavioural-state inference and sequential predictive diagnostics for hidden Markov models of animal movement.
 
 ::: {.link-list}
 [MEE article](https://doi.org/10.1111/2041-210X.70313){.btn .btn-outline-dark}
-[bioRxiv preprint](https://doi.org/10.64898/2026.02.05.704063){.btn .btn-outline-dark}
+[HMM preprint](https://doi.org/10.64898/2026.07.07.737005){.btn .btn-outline-dark}
+[SSF preprint](https://doi.org/10.64898/2026.02.05.704063){.btn .btn-outline-dark}
 :::
 :::
 :::

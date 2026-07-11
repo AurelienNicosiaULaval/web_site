@@ -33,6 +33,7 @@ Researcher and instructor in **statistics and data science**, interested in comp
 ## Selected publications
 
 - *Beyond the next step: A multi-criteria generative validation framework for step selection functions*, *Methods in Ecology and Evolution*, 2026.
+- *Sequential predictive e-diagnostics for hidden Markov models of animal movement*, bioRxiv, 2026.
 - *Behavioural state inference from movement and environmental data using Markovian step selection functions*, bioRxiv, 2026.
 - *A Multi-State Conditional Logistic Regression Model for Animal Movement*, *Annals of Applied Statistics*, 2017.
 - *A General Angular Regression Model for Data on Animal Movement*, *JRSS-C*, 2015.

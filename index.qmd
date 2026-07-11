@@ -86,11 +86,12 @@ Publications
 
 ### Mouvement animalier
 
-Un article est publié dans Methods in Ecology and Evolution et une prépublication bioRxiv porte sur l’inférence des états comportementaux à partir de fonctions de sélection de pas markoviennes.
+Un article est publié dans Methods in Ecology and Evolution et deux prépublications bioRxiv portent sur l’inférence des états comportementaux et les diagnostics prédictifs séquentiels pour les modèles de Markov cachés appliqués au mouvement animalier.
 
 ::: {.link-list}
 [Article MEE](https://doi.org/10.1111/2041-210X.70313){.btn .btn-outline-dark}
-[Prépublication bioRxiv](https://doi.org/10.64898/2026.02.05.704063){.btn .btn-outline-dark}
+[Prépublication HMM](https://doi.org/10.64898/2026.07.07.737005){.btn .btn-outline-dark}
+[Prépublication SSF](https://doi.org/10.64898/2026.02.05.704063){.btn .btn-outline-dark}
 :::
 :::
 :::

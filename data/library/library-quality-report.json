@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-07-13",
+  "generated_on": "2026-07-14",
   "record_count": 467,
   "raw_record_count": 467,
   "manual_override_count": 18,
@@ -15,6 +15,18 @@
     "publication_year": 1,
     "publisher": 1,
     "title": 1
+  },
+  "cover_record_count": 260,
+  "cover_record_rate": 0.5567,
+  "cover_providers": {
+    "Google Books": 41,
+    "Open Library": 219
+  },
+  "cover_match_methods": {
+    "exact_isbn": 241,
+    "exact_isbn_search": 1,
+    "title_author_year_publisher": 12,
+    "title_author_year_publisher_work": 6
   },
   "isbn_status": {
     "missing_1970_or_later": 12,

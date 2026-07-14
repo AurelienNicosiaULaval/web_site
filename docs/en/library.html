@@ -5196,13 +5196,19 @@ line-height: 1.15;
 .library-method-note,
 .library-cover-note,
 .library-source-note {
-align-items: flex-start;
 color: var(--library-muted);
-display: flex;
 font-size: 0.82rem;
-gap: 0.55rem;
 line-height: 1.55;
 margin: 1.15rem 0 0;
+}
+.library-method-note {
+align-items: flex-start;
+display: flex;
+gap: 0.55rem;
+}
+.library-cover-note,
+.library-source-note {
+display: block;
 }
 .library-method-note i {
 color: var(--library-navy);
@@ -6228,7 +6234,7 @@ Five early volumes whose metadata is complete enough to support a transparent ra
 
 </div>
 <p class="library-rarity-method">
-<i class="bi bi-shield-check" aria-hidden="true"></i>This reproducible ranking selects the five oldest complete records published before 1970 without an ISBN and without an exact edition match linked in the <a href="https://openlibrary.org/" target="_blank" rel="noopener noreferrer">Open Library</a> snapshot. It measures documentary rarity within this catalogue, not market value or the number of surviving copies. <span data-rarity-excluded>3</span> older but incomplete records remain outside the ranking.
+<i class="bi bi-shield-check" aria-hidden="true"></i>This reproducible ranking selects the five oldest complete records published before 1970 without an ISBN. It measures documentary rarity within this catalogue, not market value or the number of surviving copies. <span data-rarity-excluded>3</span> older but incomplete records remain outside the ranking.
 </p>
 </div>
 </div>
@@ -6274,10 +6280,10 @@ Show 24 more books
 </button>
 </div>
 <p class="library-cover-note">
-When available by ISBN, the published cover is supplied by <a href="https://openlibrary.org/" target="_blank" rel="noopener noreferrer">Open Library</a>. Otherwise, a typographic composition based on the catalogue metadata is displayed.
+<span data-cover-count>260</span> books, or <span data-cover-rate>55.7</span>% of the catalogue, now have a cover supplied by <a href="https://openlibrary.org/" target="_blank" rel="noopener noreferrer">Open Library</a> or <a href="https://books.google.com/" target="_blank" rel="noopener noreferrer">Google Books</a>. Exact ISBN matches take priority; books without an ISBN require a strict title, author, year, and publisher match.
 </p>
 <p class="library-source-note">
-Primary source: CLZ Books export dated July 13, 2026. Empty fields were completed through exact ISBN matches with <a href="https://openlibrary.org/" target="_blank" rel="noopener noreferrer">Open Library</a>. Corrections to existing values rely on verified bibliographic records and are documented in the catalogue provenance.
+Primary source: CLZ Books export dated July 13, 2026. Empty bibliographic fields were completed through exact ISBN matches with Open Library. Each external cover retains its provider, matching method, and provenance link in the catalogue.
 </p>
 </div>
 </div>
@@ -6318,11 +6324,13 @@ The catalogue cannot be loaded right now.
       date: "Date de publication",
       coverAlt: (title) => `Couverture de ${title}`,
       openLibrary: "Voir cette édition sur Open Library",
+      coverSource: (provider) => `Voir la couverture sur ${provider}`,
       chartDecades: "Répartition des livres par décennie",
       chartPublishers: "Classement des éditeurs les plus présents",
       rarityAge: (count) => `${count} ans`,
       rarityPreIsbn: "Avant l’ISBN",
-      rarityNoMatch: "Aucune édition exacte reliée",
+      rarityCoverFound: "Couverture retrouvée",
+      rarityCoverMissing: "Couverture non retrouvée",
       more: (count) => `Afficher ${count} ${count === 1 ? "livre" : "livres"} de plus`,
       searchPlaceholder: (count) => `Rechercher dans ${formatNumber(count)} livres`,
       result: (count) => `${formatNumber(count)} ${count === 1 ? "livre" : "livres"}`,
@@ -6345,11 +6353,13 @@ The catalogue cannot be loaded right now.
       date: "Publication date",
       coverAlt: (title) => `Cover of ${title}`,
       openLibrary: "View this edition on Open Library",
+      coverSource: (provider) => `View the cover on ${provider}`,
       chartDecades: "Distribution of books by decade",
       chartPublishers: "Ranking of the most represented publishers",
       rarityAge: (count) => `${count} years old`,
       rarityPreIsbn: "Predates ISBN",
-      rarityNoMatch: "No exact edition linked",
+      rarityCoverFound: "Cover located",
+      rarityCoverMissing: "Cover not located",
       more: (count) => `Show ${count} more ${count === 1 ? "book" : "books"}`,
       searchPlaceholder: (count) => `Search ${formatNumber(count)} books`,
       result: (count) => `${formatNumber(count)} ${count === 1 ? "book" : "books"}`,
@@ -6484,9 +6494,9 @@ The catalogue cannot be loaded right now.
     return `https://openlibrary.org/isbn/${encodeURIComponent(isbn)}`;
   }
 
-  function openLibraryCoverFor(record, size = "M") {
+  function coverImageFor(record, size = "M") {
     const sizeKey = { S: "small", M: "medium", L: "large" }[size] || "medium";
-    return record.openlibrary?.cover?.[sizeKey] || "";
+    return record.cover?.images?.[sizeKey] || record.openlibrary?.cover?.[sizeKey] || "";
   }
 
   function canonicalPublisher(values) {
@@ -6529,7 +6539,7 @@ The catalogue cannot be loaded right now.
 
     cover.append(title, author);
 
-    const imageUrl = openLibraryCoverFor(record, imageSize);
+    const imageUrl = coverImageFor(record, imageSize);
     if (imageUrl) {
       const image = document.createElement("img");
       image.className = "book-cover-image";
@@ -6564,6 +6574,8 @@ The catalogue cannot be loaded right now.
     const reviewIsbn = records.filter((record) =>
       ["missing_1970_or_later", "missing_unknown_year", "invalid"].includes(record.isbn_status)
     ).length;
+    const coverCount = records.filter((record) => Boolean(coverImageFor(record))).length;
+    const coverRate = records.length ? Math.round(1000 * coverCount / records.length) / 10 : 0;
 
     document.querySelectorAll("[data-total-books]").forEach((node) => {
       node.textContent = formatNumber(records.length);
@@ -6588,6 +6600,12 @@ The catalogue cannot be loaded right now.
     });
     document.querySelectorAll("[data-review-isbn-count]").forEach((node) => {
       node.textContent = formatNumber(reviewIsbn);
+    });
+    document.querySelectorAll("[data-cover-count]").forEach((node) => {
+      node.textContent = formatNumber(coverCount);
+    });
+    document.querySelectorAll("[data-cover-rate]").forEach((node) => {
+      node.textContent = new Intl.NumberFormat(locale, { maximumFractionDigits: 1 }).format(coverRate);
     });
 
     elements.search.placeholder = copy.searchPlaceholder(records.length);
@@ -6728,7 +6746,6 @@ The catalogue cannot be loaded right now.
         return year !== null
           && year < 1970
           && record.isbn_status === "missing_pre_1970"
-          && !record.openlibrary?.key
           && Boolean(record.title && record.author && publisherFor(record));
       })
       .slice()
@@ -6788,7 +6805,10 @@ The catalogue cannot be loaded right now.
 
       const signals = document.createElement("div");
       signals.className = "library-rarity-signals";
-      [copy.rarityAge(age), copy.rarityPreIsbn, copy.rarityNoMatch].forEach((label) => {
+      const coverSignal = coverImageFor(record)
+        ? copy.rarityCoverFound
+        : copy.rarityCoverMissing;
+      [copy.rarityAge(age), copy.rarityPreIsbn, coverSignal].forEach((label) => {
         const signal = document.createElement("span");
         signal.textContent = label;
         signals.append(signal);
@@ -6918,14 +6938,18 @@ The catalogue cannot be loaded right now.
     elements.dialogContent.append(head, details);
 
     const isbn = isbnForCover(record);
-    if (isbn) {
-      const openLibraryLink = document.createElement("a");
-      openLibraryLink.className = "library-dialog-external";
-      openLibraryLink.href = openLibraryBookUrl(isbn);
-      openLibraryLink.target = "_blank";
-      openLibraryLink.rel = "noopener noreferrer";
-      openLibraryLink.innerHTML = `<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i><span>${copy.openLibrary}</span>`;
-      elements.dialogContent.append(openLibraryLink);
+    const coverSourceUrl = record.cover?.source_url || "";
+    if (coverSourceUrl || isbn) {
+      const externalLink = document.createElement("a");
+      externalLink.className = "library-dialog-external";
+      externalLink.href = coverSourceUrl || openLibraryBookUrl(isbn);
+      externalLink.target = "_blank";
+      externalLink.rel = "noopener noreferrer";
+      const linkLabel = coverSourceUrl
+        ? copy.coverSource(record.cover?.provider || "Open Library")
+        : copy.openLibrary;
+      externalLink.innerHTML = `<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i><span>${linkLabel}</span>`;
+      elements.dialogContent.append(externalLink);
     }
 
     if (typeof elements.dialog.showModal === "function") {

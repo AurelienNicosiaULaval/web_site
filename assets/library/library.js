@@ -26,11 +26,13 @@
       date: "Date de publication",
       coverAlt: (title) => `Couverture de ${title}`,
       openLibrary: "Voir cette édition sur Open Library",
+      coverSource: (provider) => `Voir la couverture sur ${provider}`,
       chartDecades: "Répartition des livres par décennie",
       chartPublishers: "Classement des éditeurs les plus présents",
       rarityAge: (count) => `${count} ans`,
       rarityPreIsbn: "Avant l’ISBN",
-      rarityNoMatch: "Aucune édition exacte reliée",
+      rarityCoverFound: "Couverture retrouvée",
+      rarityCoverMissing: "Couverture non retrouvée",
       more: (count) => `Afficher ${count} ${count === 1 ? "livre" : "livres"} de plus`,
       searchPlaceholder: (count) => `Rechercher dans ${formatNumber(count)} livres`,
       result: (count) => `${formatNumber(count)} ${count === 1 ? "livre" : "livres"}`,
@@ -53,11 +55,13 @@
       date: "Publication date",
       coverAlt: (title) => `Cover of ${title}`,
       openLibrary: "View this edition on Open Library",
+      coverSource: (provider) => `View the cover on ${provider}`,
       chartDecades: "Distribution of books by decade",
       chartPublishers: "Ranking of the most represented publishers",
       rarityAge: (count) => `${count} years old`,
       rarityPreIsbn: "Predates ISBN",
-      rarityNoMatch: "No exact edition linked",
+      rarityCoverFound: "Cover located",
+      rarityCoverMissing: "Cover not located",
       more: (count) => `Show ${count} more ${count === 1 ? "book" : "books"}`,
       searchPlaceholder: (count) => `Search ${formatNumber(count)} books`,
       result: (count) => `${formatNumber(count)} ${count === 1 ? "book" : "books"}`,
@@ -192,9 +196,9 @@
     return `https://openlibrary.org/isbn/${encodeURIComponent(isbn)}`;
   }
 
-  function openLibraryCoverFor(record, size = "M") {
+  function coverImageFor(record, size = "M") {
     const sizeKey = { S: "small", M: "medium", L: "large" }[size] || "medium";
-    return record.openlibrary?.cover?.[sizeKey] || "";
+    return record.cover?.images?.[sizeKey] || record.openlibrary?.cover?.[sizeKey] || "";
   }
 
   function canonicalPublisher(values) {
@@ -237,7 +241,7 @@
 
     cover.append(title, author);
 
-    const imageUrl = openLibraryCoverFor(record, imageSize);
+    const imageUrl = coverImageFor(record, imageSize);
     if (imageUrl) {
       const image = document.createElement("img");
       image.className = "book-cover-image";
@@ -272,6 +276,8 @@
     const reviewIsbn = records.filter((record) =>
       ["missing_1970_or_later", "missing_unknown_year", "invalid"].includes(record.isbn_status)
     ).length;
+    const coverCount = records.filter((record) => Boolean(coverImageFor(record))).length;
+    const coverRate = records.length ? Math.round(1000 * coverCount / records.length) / 10 : 0;
 
     document.querySelectorAll("[data-total-books]").forEach((node) => {
       node.textContent = formatNumber(records.length);
@@ -296,6 +302,12 @@
     });
     document.querySelectorAll("[data-review-isbn-count]").forEach((node) => {
       node.textContent = formatNumber(reviewIsbn);
+    });
+    document.querySelectorAll("[data-cover-count]").forEach((node) => {
+      node.textContent = formatNumber(coverCount);
+    });
+    document.querySelectorAll("[data-cover-rate]").forEach((node) => {
+      node.textContent = new Intl.NumberFormat(locale, { maximumFractionDigits: 1 }).format(coverRate);
     });
 
     elements.search.placeholder = copy.searchPlaceholder(records.length);
@@ -436,7 +448,6 @@
         return year !== null
           && year < 1970
           && record.isbn_status === "missing_pre_1970"
-          && !record.openlibrary?.key
           && Boolean(record.title && record.author && publisherFor(record));
       })
       .slice()
@@ -496,7 +507,10 @@
 
       const signals = document.createElement("div");
       signals.className = "library-rarity-signals";
-      [copy.rarityAge(age), copy.rarityPreIsbn, copy.rarityNoMatch].forEach((label) => {
+      const coverSignal = coverImageFor(record)
+        ? copy.rarityCoverFound
+        : copy.rarityCoverMissing;
+      [copy.rarityAge(age), copy.rarityPreIsbn, coverSignal].forEach((label) => {
         const signal = document.createElement("span");
         signal.textContent = label;
         signals.append(signal);
@@ -626,14 +640,18 @@
     elements.dialogContent.append(head, details);
 
     const isbn = isbnForCover(record);
-    if (isbn) {
-      const openLibraryLink = document.createElement("a");
-      openLibraryLink.className = "library-dialog-external";
-      openLibraryLink.href = openLibraryBookUrl(isbn);
-      openLibraryLink.target = "_blank";
-      openLibraryLink.rel = "noopener noreferrer";
-      openLibraryLink.innerHTML = `<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i><span>${copy.openLibrary}</span>`;
-      elements.dialogContent.append(openLibraryLink);
+    const coverSourceUrl = record.cover?.source_url || "";
+    if (coverSourceUrl || isbn) {
+      const externalLink = document.createElement("a");
+      externalLink.className = "library-dialog-external";
+      externalLink.href = coverSourceUrl || openLibraryBookUrl(isbn);
+      externalLink.target = "_blank";
+      externalLink.rel = "noopener noreferrer";
+      const linkLabel = coverSourceUrl
+        ? copy.coverSource(record.cover?.provider || "Open Library")
+        : copy.openLibrary;
+      externalLink.innerHTML = `<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i><span>${linkLabel}</span>`;
+      elements.dialogContent.append(externalLink);
     }
 
     if (typeof elements.dialog.showModal === "function") {

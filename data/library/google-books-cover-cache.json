@@ -1,0 +1,1221 @@
+{
+  "books": {
+    "9780023182853": {
+      "bib_key": "ISBN:9780023182853",
+      "info_url": "https://books.google.com/books?id=7qlhQgAACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=7qlhQgAACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780023557101": {
+      "bib_key": "ISBN:9780023557101",
+      "info_url": "https://books.google.com/books?id=OZYQAQAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=OZYQAQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780023558108": {
+      "bib_key": "ISBN:9780023558108",
+      "info_url": "https://books.google.com/books?id=7xPvAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=7xPvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780024241504": {
+      "bib_key": "ISBN:9780024241504",
+      "info_url": "https://books.google.com/books?id=ls9FAQAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=ls9FAQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780028520001": {
+      "bib_key": "ISBN:9780028520001",
+      "info_url": "https://books.google.com/books?id=x7QZAQAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=x7QZAQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780070251090": {
+      "bib_key": "ISBN:9780070251090",
+      "info_url": "https://books.google.com/books?id=DohQAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=DohQAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780070381315": {
+      "bib_key": "ISBN:9780070381315",
+      "info_url": "https://books.google.com/books?id=B-9QAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=B-9QAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780070435001": {
+      "bib_key": "ISBN:9780070435001",
+      "info_url": "https://books.google.com/books?id=mb4-AAAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=mb4-AAAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780070542259": {
+      "bib_key": "ISBN:9780070542259",
+      "info_url": "https://books.google.com/books?id=ehzvAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=ehzvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780070721883": {
+      "bib_key": "ISBN:9780070721883",
+      "info_url": "https://books.google.com/books?id=-flQAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=-flQAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780071416504": {
+      "bib_key": "ISBN:9780071416504",
+      "info_url": "https://books.google.com/books?id=13CDvrZ8HYIC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=13CDvrZ8HYIC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780073383156": {
+      "bib_key": "ISBN:9780073383156",
+      "info_url": "https://books.google.com/books?id=Ck_PQwAACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=Ck_PQwAACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780120790623": {
+      "bib_key": "ISBN:9780120790623",
+      "info_url": "https://books.google.com/books?id=KgkSAQAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=KgkSAQAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780120802500": {
+      "bib_key": "ISBN:9780120802500",
+      "info_url": "https://books.google.com/books?id=qNxQAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=qNxQAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780122146909": {
+      "bib_key": "ISBN:9780122146909",
+      "info_url": "https://books.google.com/books?id=1mIL9ig-xQUC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=1mIL9ig-xQUC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780125984218": {
+      "bib_key": "ISBN:9780125984218",
+      "info_url": "https://books.google.com/books?id=ofC9dQKXHqsC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=ofC9dQKXHqsC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780130223234": {
+      "bib_key": "ISBN:9780130223234",
+      "info_url": "https://books.google.com/books?id=QZgpAQAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=QZgpAQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780130352187": {
+      "bib_key": "ISBN:9780130352187",
+      "info_url": "https://books.google.com/books?id=nrEZAQAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=nrEZAQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780131038059": {
+      "bib_key": "ISBN:9780131038059",
+      "info_url": "https://books.google.com/books?id=CUVeMwAACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=CUVeMwAACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780131648555": {
+      "bib_key": "ISBN:9780131648555",
+      "info_url": "https://books.google.com/books?id=VVcrAAAAYAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=VVcrAAAAYAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780133634655": {
+      "bib_key": "ISBN:9780133634655",
+      "info_url": "https://books.google.com/books?id=0wzzuKzrRxkC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=0wzzuKzrRxkC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780134980898": {
+      "bib_key": "ISBN:9780134980898",
+      "info_url": "https://books.google.com/books?id=UNZQAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=UNZQAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780135627020": {
+      "bib_key": "ISBN:9780135627020",
+      "info_url": "https://books.google.com/books?id=pwQpAQAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=pwQpAQAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780136042594": {
+      "bib_key": "ISBN:9780136042594",
+      "info_url": "https://books.google.com/books?id=8jZBksh-bUMC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=8jZBksh-bUMC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780192868923": {
+      "bib_key": "ISBN:9780192868923",
+      "info_url": "https://books.google.com/books?id=BhmQzwEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=BhmQzwEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780198505594": {
+      "bib_key": "ISBN:9780198505594",
+      "info_url": "https://books.google.com/books?id=MN92QgAACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=MN92QgAACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780198536895": {
+      "bib_key": "ISBN:9780198536895",
+      "info_url": "https://books.google.com/books?id=UeSEAAJrEgkC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=UeSEAAJrEgkC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780201113662": {
+      "bib_key": "ISBN:9780201113662",
+      "info_url": "https://books.google.com/books?id=OPpQAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=OPpQAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780201526752": {
+      "bib_key": "ISBN:9780201526752",
+      "info_url": "https://books.google.com/books?id=XRJ_QgAACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=XRJ_QgAACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780262018029": {
+      "bib_key": "ISBN:9780262018029",
+      "info_url": "https://books.google.com/books?id=NZP6AQAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=NZP6AQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780262170055": {
+      "bib_key": "ISBN:9780262170055",
+      "info_url": "https://books.google.com/books?id=qJ0jEAAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=qJ0jEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780385020886": {
+      "bib_key": "ISBN:9780385020886",
+      "info_url": "https://books.google.com/books?id=AY0YDW6gGyIC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=AY0YDW6gGyIC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780385023559": {
+      "bib_key": "ISBN:9780385023559",
+      "info_url": "https://books.google.com/books?id=4qwj-BzoGiEC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=4qwj-BzoGiEC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780387008943": {
+      "bib_key": "ISBN:9780387008943",
+      "info_url": "https://books.google.com/books?id=EC2w1SaPb7YC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=EC2w1SaPb7YC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780387310732": {
+      "bib_key": "ISBN:9780387310732",
+      "info_url": "https://books.google.com/books?id=qWPwnQEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=qWPwnQEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780387367873": {
+      "bib_key": "ISBN:9780387367873",
+      "info_url": "https://books.google.com/books?id=RdKetAEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=RdKetAEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780387402727": {
+      "bib_key": "ISBN:9780387402727",
+      "info_url": "https://books.google.com/books?id=th3fbFI1DaMC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=th3fbFI1DaMC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780387900629": {
+      "bib_key": "ISBN:9780387900629",
+      "info_url": "https://books.google.com/books?id=mDDvAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=mDDvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780387942339": {
+      "bib_key": "ISBN:9780387942339",
+      "info_url": "https://books.google.com/books?id=OionAQAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=OionAQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780387960494": {
+      "bib_key": "ISBN:9780387960494",
+      "info_url": "https://books.google.com/books?id=8MBPAQAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=8MBPAQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780387966663": {
+      "bib_key": "ISBN:9780387966663",
+      "info_url": "https://books.google.com/books?id=Nw4jt9HIa7AC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=Nw4jt9HIa7AC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780387972237": {
+      "bib_key": "ISBN:9780387972237",
+      "info_url": "https://books.google.com/books?id=AnGmAAAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=AnGmAAAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780387973692": {
+      "bib_key": "ISBN:9780387973692",
+      "info_url": "https://books.google.com/books?id=WFCiysWGG18C&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=WFCiysWGG18C&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780387973722": {
+      "bib_key": "ISBN:9780387973722",
+      "info_url": "https://books.google.com/books?id=-RAKuoDEVMsC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=-RAKuoDEVMsC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780387978949": {
+      "bib_key": "ISBN:9780387978949",
+      "info_url": "https://books.google.com/books?id=USWV3PP3b08C&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=USWV3PP3b08C&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780387981345": {
+      "bib_key": "ISBN:9780387981345",
+      "info_url": "https://books.google.com/books?id=UDeUDAEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=UDeUDAEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780393347777": {
+      "bib_key": "ISBN:9780393347777",
+      "info_url": "https://books.google.com/books?id=QFqNEAAAQBAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=QFqNEAAAQBAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780394015637": {
+      "bib_key": "ISBN:9780394015637",
+      "info_url": "https://books.google.com/books?id=fRfvAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=fRfvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780412042317": {
+      "bib_key": "ISBN:9780412042317",
+      "info_url": "https://books.google.com/books?id=gLlpIUxRntoC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=gLlpIUxRntoC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780412098109": {
+      "bib_key": "ISBN:9780412098109",
+      "info_url": "https://books.google.com/books?id=pOvuAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=pOvuAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780412295706": {
+      "bib_key": "ISBN:9780412295706",
+      "info_url": "https://books.google.com/books?id=QMhcb8P8WyQC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=QMhcb8P8WyQC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780412306204": {
+      "bib_key": "ISBN:9780412306204",
+      "info_url": "https://books.google.com/books?id=0R8J71LCLXsC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=0R8J71LCLXsC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780412311000": {
+      "bib_key": "ISBN:9780412311000",
+      "info_url": "https://books.google.com/books?id=QiTvAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=QiTvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780412317606": {
+      "bib_key": "ISBN:9780412317606",
+      "info_url": "https://books.google.com/books?id=h9kFH2_FfBkC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=h9kFH2_FfBkC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780412343902": {
+      "bib_key": "ISBN:9780412343902",
+      "info_url": "https://books.google.com/books?id=qa29r1Ze1coC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=qa29r1Ze1coC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780412987717": {
+      "bib_key": "ISBN:9780412987717",
+      "info_url": "https://books.google.com/books?id=lvvNO6rtAVMC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=lvvNO6rtAVMC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780415070485": {
+      "bib_key": "ISBN:9780415070485",
+      "info_url": "https://books.google.com/books?id=lNkDxdIK72AC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=lNkDxdIK72AC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780470270394": {
+      "bib_key": "ISBN:9780470270394",
+      "info_url": "https://books.google.com/books?id=IN60AAAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=IN60AAAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780470533314": {
+      "bib_key": "ISBN:9780470533314",
+      "info_url": "https://books.google.com/books?id=bCJx53VQS7IC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=bCJx53VQS7IC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780471026402": {
+      "bib_key": "ISBN:9780471026402",
+      "info_url": "https://books.google.com/books?id=8Xq4AAAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=8Xq4AAAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780471028673": {
+      "bib_key": "ISBN:9780471028673",
+      "info_url": "https://books.google.com/books?id=m54s2puW_5AC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=m54s2puW_5AC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780471029007": {
+      "bib_key": "ISBN:9780471029007",
+      "info_url": "https://books.google.com/books?id=pT5MAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=pT5MAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780471032946": {
+      "bib_key": "ISBN:9780471032946",
+      "info_url": "https://books.google.com/books?id=SlcZAQAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=SlcZAQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780471059097": {
+      "bib_key": "ISBN:9780471059097",
+      "info_url": "https://books.google.com/books?id=UxPvAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=UxPvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780471082675": {
+      "bib_key": "ISBN:9780471082675",
+      "info_url": "https://books.google.com/books?id=ng2oAAAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=ng2oAAAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780471104209": {
+      "bib_key": "ISBN:9780471104209",
+      "info_url": "https://books.google.com/books?id=5CrvAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=5CrvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780471120629": {
+      "bib_key": "ISBN:9780471120629",
+      "info_url": "https://books.google.com/books?id=qiLdCQAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=qiLdCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780471128441": {
+      "bib_key": "ISBN:9780471128441",
+      "info_url": "https://books.google.com/books?id=Zp_BEQAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=Zp_BEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780471154969": {
+      "bib_key": "ISBN:9780471154969",
+      "info_url": "https://books.google.com/books?id=Xfo_AQAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=Xfo_AQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780471163862": {
+      "bib_key": "ISBN:9780471163862",
+      "info_url": "https://books.google.com/books?id=OrBpAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=OrBpAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780471548973": {
+      "bib_key": "ISBN:9780471548973",
+      "info_url": "https://books.google.com/books?id=nttQAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=nttQAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780471553809": {
+      "bib_key": "ISBN:9780471553809",
+      "info_url": "https://books.google.com/books?id=kZL3RAAACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=kZL3RAAACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780471584940": {
+      "bib_key": "ISBN:9780471584940",
+      "info_url": "https://books.google.com/books?id=BTANEAAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=BTANEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780471584957": {
+      "bib_key": "ISBN:9780471584957",
+      "info_url": "https://books.google.com/books?id=pp3BEQAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=pp3BEQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780471615538": {
+      "bib_key": "ISBN:9780471615538",
+      "info_url": "https://books.google.com/books?id=-p5qAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=-p5qAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780471751700": {
+      "bib_key": "ISBN:9780471751700",
+      "info_url": "https://books.google.com/books?id=JwXvAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=JwXvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780471828259": {
+      "bib_key": "ISBN:9780471828259",
+      "info_url": "https://books.google.com/books?id=2IEpAQAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=2IEpAQAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780471903277": {
+      "bib_key": "ISBN:9780471903277",
+      "info_url": "https://books.google.com/books?id=T6qCAAAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=T6qCAAAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780486281520": {
+      "bib_key": "ISBN:9780486281520",
+      "info_url": "https://books.google.com/books?id=KttFDwAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=KttFDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780486402581": {
+      "bib_key": "ISBN:9780486402581",
+      "info_url": "https://books.google.com/books?id=cDY-joeCGoIC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=cDY-joeCGoIC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780486406800": {
+      "bib_key": "ISBN:9780486406800",
+      "info_url": "https://books.google.com/books?id=D9FcNMs3-58C&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=D9FcNMs3-58C&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780486635187": {
+      "bib_key": "ISBN:9780486635187",
+      "info_url": "https://books.google.com/books?id=5U6loPxlvQkC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=5U6loPxlvQkC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780486635446": {
+      "bib_key": "ISBN:9780486635446",
+      "info_url": "https://books.google.com/books?id=jKKctfJHtwYC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=jKKctfJHtwYC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780486637174": {
+      "bib_key": "ISBN:9780486637174",
+      "info_url": "https://books.google.com/books?id=A6TPi6fp-uoC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=A6TPi6fp-uoC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780486646862": {
+      "bib_key": "ISBN:9780486646862",
+      "info_url": "https://books.google.com/books?id=Gz1BFdM-fe0C&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=Gz1BFdM-fe0C&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780486653556": {
+      "bib_key": "ISBN:9780486653556",
+      "info_url": "https://books.google.com/books?id=sQr5AAAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=sQr5AAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780486656090": {
+      "bib_key": "ISBN:9780486656090",
+      "info_url": "https://books.google.com/books?id=TIXg4hSXmFAC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=TIXg4hSXmFAC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780486663418": {
+      "bib_key": "ISBN:9780486663418",
+      "info_url": "https://books.google.com/books?id=dT2KAAAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=dT2KAAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780486663524": {
+      "bib_key": "ISBN:9780486663524",
+      "info_url": "https://books.google.com/books?id=vQPwuxcVABYC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=vQPwuxcVABYC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780486685021": {
+      "bib_key": "ISBN:9780486685021",
+      "info_url": "https://books.google.com/books?id=8WfHLKz1s0YC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=8WfHLKz1s0YC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780486691312": {
+      "bib_key": "ISBN:9780486691312",
+      "info_url": "https://books.google.com/books?id=YkyizIcJdK0C&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=YkyizIcJdK0C&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780486801544": {
+      "bib_key": "ISBN:9780486801544",
+      "info_url": "https://books.google.com/books?id=ZQFYCwAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=ZQFYCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780521094122": {
+      "bib_key": "ISBN:9780521094122",
+      "info_url": "https://books.google.com/books?id=jO03AAAAIAAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=jO03AAAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780521247627": {
+      "bib_key": "ISBN:9780521247627",
+      "info_url": "https://books.google.com/books?id=DPk8AAAAIAAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=DPk8AAAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780521455916": {
+      "bib_key": "ISBN:9780521455916",
+      "info_url": "https://books.google.com/books?id=usNi8cU8s3kC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=usNi8cU8s3kC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780521534109": {
+      "bib_key": "ISBN:9780521534109",
+      "info_url": "https://books.google.com/books?id=BdAbcje-TZUC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=BdAbcje-TZUC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780521791687": {
+      "bib_key": "ISBN:9780521791687",
+      "info_url": "https://books.google.com/books?id=O0YoPJNWZbcC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=O0YoPJNWZbcC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780521795401": {
+      "bib_key": "ISBN:9780521795401",
+      "info_url": "https://books.google.com/books?id=BjKs86kosqgC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=BjKs86kosqgC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780534012748": {
+      "bib_key": "ISBN:9780534012748",
+      "info_url": "https://books.google.com/books?id=_OkeAQAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=_OkeAQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780534055684": {
+      "bib_key": "ISBN:9780534055684",
+      "info_url": "https://books.google.com/books?id=aBrvAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=aBrvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780534100506": {
+      "bib_key": "ISBN:9780534100506",
+      "info_url": "https://books.google.com/books?id=BkTYAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=BkTYAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780534921774": {
+      "bib_key": "ISBN:9780534921774",
+      "info_url": "https://books.google.com/books?id=9k8ZAQAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=9k8ZAQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780674031456": {
+      "bib_key": "ISBN:9780674031456",
+      "info_url": "https://books.google.com/books?id=vjOCAAAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=vjOCAAAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780691118802": {
+      "bib_key": "ISBN:9780691118802",
+      "info_url": "https://books.google.com/books?id=GLumDwAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=GLumDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780697097385": {
+      "bib_key": "ISBN:9780697097385",
+      "info_url": "https://books.google.com/books?id=qXspAQAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=qXspAQAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780735405769": {
+      "bib_key": "ISBN:9780735405769",
+      "info_url": "https://books.google.com/books?id=Ads-PQAACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=Ads-PQAACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780761160960": {
+      "bib_key": "ISBN:9780761160960",
+      "info_url": "https://books.google.com/books?id=91wbDAAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=91wbDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780761470694": {
+      "bib_key": "ISBN:9780761470694",
+      "info_url": "https://books.google.com/books?id=tsNUAAAAYAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=tsNUAAAAYAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780792302162": {
+      "bib_key": "ISBN:9780792302162",
+      "info_url": "https://books.google.com/books?id=NyU1S5UaGdYC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=NyU1S5UaGdYC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780801869822": {
+      "bib_key": "ISBN:9780801869822",
+      "info_url": "https://books.google.com/books?id=dcNpAUU6ACgC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=dcNpAUU6ACgC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780801896941": {
+      "bib_key": "ISBN:9780801896941",
+      "info_url": "https://books.google.com/books?id=nfL5mAEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=nfL5mAEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780803911659": {
+      "bib_key": "ISBN:9780803911659",
+      "info_url": "https://books.google.com/books?id=0BySLTuM1EkC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=0BySLTuM1EkC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780803973749": {
+      "bib_key": "ISBN:9780803973749",
+      "info_url": "https://books.google.com/books?id=CHvSWpAyhdIC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=CHvSWpAyhdIC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780805840186": {
+      "bib_key": "ISBN:9780805840186",
+      "info_url": "https://books.google.com/books?id=Hu9EZhJS2S4C&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=Hu9EZhJS2S4C&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780805859737": {
+      "bib_key": "ISBN:9780805859737",
+      "info_url": "https://books.google.com/books?id=WVsQAQAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=WVsQAQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780813815619": {
+      "bib_key": "ISBN:9780813815619",
+      "info_url": "https://books.google.com/books?id=f8EOBjMJMZcC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=f8EOBjMJMZcC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780817635916": {
+      "bib_key": "ISBN:9780817635916",
+      "info_url": "https://books.google.com/books?id=YGjTl8iX-HsC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=YGjTl8iX-HsC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780824714451": {
+      "bib_key": "ISBN:9780824714451",
+      "info_url": "https://books.google.com/books?id=h1HvAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=h1HvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780824793371": {
+      "bib_key": "ISBN:9780824793371",
+      "info_url": "https://books.google.com/books?id=T1Jrv88TuH8C&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=T1Jrv88TuH8C&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780873531702": {
+      "bib_key": "ISBN:9780873531702",
+      "info_url": "https://books.google.com/books?id=X9juAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=X9juAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780883855195": {
+      "bib_key": "ISBN:9780883855195",
+      "info_url": "https://books.google.com/books?id=u6yHcVUkjhEC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=u6yHcVUkjhEC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780883856154": {
+      "bib_key": "ISBN:9780883856154",
+      "info_url": "https://books.google.com/books?id=IOO0s7-ScZEC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=IOO0s7-ScZEC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780883856208": {
+      "bib_key": "ISBN:9780883856208",
+      "info_url": "https://books.google.com/books?id=M_zuAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=M_zuAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780883856246": {
+      "bib_key": "ISBN:9780883856246",
+      "info_url": "https://books.google.com/books?id=-UMZAQAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=-UMZAQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780898714753": {
+      "bib_key": "ISBN:9780898714753",
+      "info_url": "https://books.google.com/books?id=TwyO9t8lCX8C&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=TwyO9t8lCX8C&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9780899255101": {
+      "bib_key": "ISBN:9780899255101",
+      "info_url": "https://books.google.com/books?id=cf_uAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=cf_uAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780914098775": {
+      "bib_key": "ISBN:9780914098775",
+      "info_url": "https://books.google.com/books?id=-mwPAQAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=-mwPAQAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780940600690": {
+      "bib_key": "ISBN:9780940600690",
+      "info_url": "https://books.google.com/books?id=WyvvAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=WyvvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780961408800": {
+      "bib_key": "ISBN:9780961408800",
+      "info_url": "https://books.google.com/books?id=--snAQAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=--snAQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780996167130": {
+      "bib_key": "ISBN:9780996167130",
+      "info_url": "https://books.google.com/books?id=8Wa_zQEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=8Wa_zQEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9780996167154": {
+      "bib_key": "ISBN:9780996167154",
+      "info_url": "https://books.google.com/books?id=OWf3zgEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=OWf3zgEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9781032462141": {
+      "bib_key": "ISBN:9781032462141",
+      "info_url": "https://books.google.com/books?id=8vDXzwEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=8vDXzwEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9781108415194": {
+      "bib_key": "ISBN:9781108415194",
+      "info_url": "https://books.google.com/books?id=NDdqDwAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=NDdqDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9781108455145": {
+      "bib_key": "ISBN:9781108455145",
+      "info_url": "https://books.google.com/books?id=xNmfxAEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=xNmfxAEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9781108488082": {
+      "bib_key": "ISBN:9781108488082",
+      "info_url": "https://books.google.com/books?id=jdsCEAAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=jdsCEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9781108498029": {
+      "bib_key": "ISBN:9781108498029",
+      "info_url": "https://books.google.com/books?id=IluHDwAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=IluHDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9781119002253": {
+      "bib_key": "ISBN:9781119002253",
+      "info_url": "https://books.google.com/books?id=retRCgAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=retRCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9781119621492": {
+      "bib_key": "ISBN:9781119621492",
+      "info_url": "https://books.google.com/books?id=aGatDwAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=aGatDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9781439803295": {
+      "bib_key": "ISBN:9781439803295",
+      "info_url": "https://books.google.com/books?id=wKwhmAEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=wKwhmAEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9781453854938": {
+      "bib_key": "ISBN:9781453854938",
+      "info_url": "https://books.google.com/books?id=oxhJYgEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=oxhJYgEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9781461436140": {
+      "bib_key": "ISBN:9781461436140",
+      "info_url": "https://books.google.com/books?id=9b-PtwAACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=9b-PtwAACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9781461471370": {
+      "bib_key": "ISBN:9781461471370",
+      "info_url": "https://books.google.com/books?id=at1bmAEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=at1bmAEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9781470464899": {
+      "bib_key": "ISBN:9781470464899",
+      "info_url": "https://books.google.com/books?id=6X0wEAAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=6X0wEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9781482236231": {
+      "bib_key": "ISBN:9781482236231",
+      "info_url": "https://books.google.com/books?id=0GbvAgAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=0GbvAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9781491957660": {
+      "bib_key": "ISBN:9781491957660",
+      "info_url": "https://books.google.com/books?id=2BYfvgAACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=2BYfvgAACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9781492072942": {
+      "bib_key": "ISBN:9781492072942",
+      "info_url": "https://books.google.com/books?id=xdEMywEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=xdEMywEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9781512065916": {
+      "bib_key": "ISBN:9781512065916",
+      "info_url": "https://books.google.com/books?id=7MdEjgEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=7MdEjgEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9781544830087": {
+      "bib_key": "ISBN:9781544830087",
+      "info_url": "https://books.google.com/books?id=fVhPswEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=fVhPswEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9781584883548": {
+      "bib_key": "ISBN:9781584883548",
+      "info_url": "https://books.google.com/books?id=1rWEJz0qwJsC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=1rWEJz0qwJsC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9781584885801": {
+      "bib_key": "ISBN:9781584885801",
+      "info_url": "https://books.google.com/books?id=cSUEyszDN9gC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=cSUEyszDN9gC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9781584889052": {
+      "bib_key": "ISBN:9781584889052",
+      "info_url": "https://books.google.com/books?id=S_m3mAEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=S_m3mAEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9781625423474": {
+      "bib_key": "ISBN:9781625423474",
+      "info_url": "https://books.google.com/books?id=H9-_AwAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=H9-_AwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9781943450077": {
+      "bib_key": "ISBN:9781943450077",
+      "info_url": "https://books.google.com/books?id=hAlexQEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=hAlexQEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9782212553819": {
+      "bib_key": "ISBN:9782212553819",
+      "info_url": "https://books.google.com/books?id=cW0AIMGebYMC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=cW0AIMGebYMC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9782225843853": {
+      "bib_key": "ISBN:9782225843853",
+      "info_url": "https://books.google.com/books?id=zUPxAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=zUPxAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9782416001048": {
+      "bib_key": "ISBN:9782416001048",
+      "info_url": "https://books.google.com/books?id=LNsmEAAAQBAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=LNsmEAAAQBAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9782705656584": {
+      "bib_key": "ISBN:9782705656584",
+      "info_url": "https://books.google.com/books?id=0VrvAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=0VrvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9782705658700": {
+      "bib_key": "ISBN:9782705658700",
+      "info_url": "https://books.google.com/books?id=hezuAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=hezuAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9782738104427": {
+      "bib_key": "ISBN:9782738104427",
+      "info_url": "https://books.google.com/books?id=3_y67A1u4rQC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=3_y67A1u4rQC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9782748341393": {
+      "bib_key": "ISBN:9782748341393",
+      "info_url": "https://books.google.com/books?id=R2sAlcWDqQEC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=R2sAlcWDqQEC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9782759803736": {
+      "bib_key": "ISBN:9782759803736",
+      "info_url": "https://books.google.com/books?id=dMaair9Q3ksC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=dMaair9Q3ksC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9782759823406": {
+      "bib_key": "ISBN:9782759823406",
+      "info_url": "https://books.google.com/books?id=HBglyQEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=HBglyQEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9782763773117": {
+      "bib_key": "ISBN:9782763773117",
+      "info_url": "https://books.google.com/books?id=cyTvAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=cyTvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9782807302624": {
+      "bib_key": "ISBN:9782807302624",
+      "info_url": "https://books.google.com/books?id=yDGtDQAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=yDGtDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9782807315624": {
+      "bib_key": "ISBN:9782807315624",
+      "info_url": "https://books.google.com/books?id=nM5aDwAAQBAJ&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=nM5aDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9782817801117": {
+      "bib_key": "ISBN:9782817801117",
+      "info_url": "https://books.google.com/books?id=YNXlRgAACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=YNXlRgAACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9782868839312": {
+      "bib_key": "ISBN:9782868839312",
+      "info_url": "https://books.google.com/books?id=rD3ytFgZ4GMC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=rD3ytFgZ4GMC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9782868839749": {
+      "bib_key": "ISBN:9782868839749",
+      "info_url": "https://books.google.com/books?id=IcLHAP1DIrEC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=IcLHAP1DIrEC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9782891132787": {
+      "bib_key": "ISBN:9782891132787",
+      "info_url": "https://books.google.com/books?id=IR1bAAAACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=IR1bAAAACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9782921120012": {
+      "bib_key": "ISBN:9782921120012",
+      "info_url": "https://books.google.com/books?id=pUnvAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=pUnvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9783030573355": {
+      "bib_key": "ISBN:9783030573355",
+      "info_url": "https://books.google.com/books?id=r76nzQEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=r76nzQEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9783319242750": {
+      "bib_key": "ISBN:9783319242750",
+      "info_url": "https://books.google.com/books?id=RTMFswEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=RTMFswEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9783540047582": {
+      "bib_key": "ISBN:9783540047582",
+      "info_url": "https://books.google.com/books?id=VgQDWyihxKYC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=VgQDWyihxKYC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "9783540066811": {
+      "bib_key": "ISBN:9783540066811",
+      "info_url": "https://books.google.com/books?id=y1fvAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=y1fvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9783540669135": {
+      "bib_key": "ISBN:9783540669135",
+      "info_url": "https://books.google.com/books?id=a71RqnKeAEkC&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=a71RqnKeAEkC&printsec=frontcover&img=1&zoom=5"
+    },
+    "9783540961116": {
+      "bib_key": "ISBN:9783540961116",
+      "info_url": "https://books.google.com/books?id=egKjAAAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=egKjAAAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9783662572641": {
+      "bib_key": "ISBN:9783662572641",
+      "info_url": "https://books.google.com/books?id=FfZutgEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=FfZutgEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9788847023208": {
+      "bib_key": "ISBN:9788847023208",
+      "info_url": "https://books.google.com/books?id=OloMfAEACAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=OloMfAEACAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "9789001607012": {
+      "bib_key": "ISBN:9789001607012",
+      "info_url": "https://books.google.com/books?id=WsOLds7xSnwC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=WsOLds7xSnwC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    }
+  },
+  "cover_count": 179,
+  "external_books": {
+    "LCCN:02027793": {
+      "bib_key": "LCCN:02027793",
+      "info_url": "https://books.google.com/books?id=nEan_dJbv-YC&source=gbs_ViewAPI",
+      "preview": "full",
+      "thumbnail_url": "https://books.google.com/books/content?id=nEan_dJbv-YC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "LCCN:64023826": {
+      "bib_key": "LCCN:64023826",
+      "info_url": "https://books.google.com/books?id=u-xQAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=u-xQAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "LCCN:65023658": {
+      "bib_key": "LCCN:65023658",
+      "info_url": "https://books.google.com/books?id=uf1QAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=uf1QAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "LCCN:66013991": {
+      "bib_key": "LCCN:66013991",
+      "info_url": "https://books.google.com/books?id=gNkQAQAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=gNkQAQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "LCCN:66014466": {
+      "bib_key": "LCCN:66014466",
+      "info_url": "https://books.google.com/books?id=-THvAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=-THvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "LCCN:67090685": {
+      "bib_key": "LCCN:67090685",
+      "info_url": "https://books.google.com/books?id=P_ZQAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=P_ZQAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "LCCN:68092263": {
+      "bib_key": "LCCN:68092263",
+      "info_url": "https://books.google.com/books?id=JeRQAAAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=JeRQAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "LCCN:69016131": {
+      "bib_key": "LCCN:69016131",
+      "info_url": "https://books.google.com/books?id=5Qk7WwXePuQC&source=gbs_ViewAPI",
+      "preview": "partial",
+      "thumbnail_url": "https://books.google.com/books/content?id=5Qk7WwXePuQC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "OCLC:12481": {
+      "bib_key": "OCLC:12481",
+      "info_url": "https://books.google.com/books?id=2IEpAQAAMAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=2IEpAQAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "OCLC:2502643": {
+      "bib_key": "OCLC:2502643",
+      "info_url": "https://books.google.com/books?id=nEan_dJbv-YC&source=gbs_ViewAPI",
+      "preview": "full",
+      "thumbnail_url": "https://books.google.com/books/content?id=nEan_dJbv-YC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "OCLC:529707": {
+      "bib_key": "OCLC:529707",
+      "info_url": "https://books.google.com/books?id=gNkQAQAAIAAJ&source=gbs_ViewAPI",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=gNkQAQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    }
+  },
+  "external_cover_count": 11,
+  "match_method": "exact_isbn",
+  "provider": "Google Books Dynamic Links",
+  "record_identifier_cover_count": 8,
+  "record_matches": {
+    "book-0044": {
+      "bib_key": "LCCN:66014466",
+      "info_url": "https://books.google.com/books?id=-THvAAAAMAAJ&source=gbs_ViewAPI",
+      "match_method": "title_author_year_publisher",
+      "openlibrary_source_url": "https://openlibrary.org/books/OL5984835M",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=-THvAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "book-0050": {
+      "bib_key": "LCCN:64023826",
+      "info_url": "https://books.google.com/books?id=u-xQAAAAMAAJ&source=gbs_ViewAPI",
+      "match_method": "title_author_year_publisher",
+      "openlibrary_source_url": "https://openlibrary.org/books/OL5920007M",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=u-xQAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "book-0118": {
+      "bib_key": "OCLC:2502643",
+      "info_url": "https://books.google.com/books?id=nEan_dJbv-YC&source=gbs_ViewAPI",
+      "match_method": "title_author_year_publisher",
+      "openlibrary_source_url": "https://openlibrary.org/books/OL7054519M",
+      "preview": "full",
+      "thumbnail_url": "https://books.google.com/books/content?id=nEan_dJbv-YC&printsec=frontcover&img=1&zoom=5&edge=curl"
+    },
+    "book-0144": {
+      "bib_key": "LCCN:68092263",
+      "info_url": "https://books.google.com/books?id=JeRQAAAAMAAJ&source=gbs_ViewAPI",
+      "match_method": "title_author_year_publisher",
+      "openlibrary_source_url": "https://openlibrary.org/books/OL14523032M",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=JeRQAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "book-0146": {
+      "bib_key": "LCCN:67090685",
+      "info_url": "https://books.google.com/books?id=P_ZQAAAAMAAJ&source=gbs_ViewAPI",
+      "match_method": "title_author_year_publisher",
+      "openlibrary_source_url": "https://openlibrary.org/books/OL26726558M",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=P_ZQAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "book-0209": {
+      "bib_key": "LCCN:65023658",
+      "info_url": "https://books.google.com/books?id=uf1QAAAAMAAJ&source=gbs_ViewAPI",
+      "match_method": "title_author_year_publisher",
+      "openlibrary_source_url": "https://openlibrary.org/books/OL21524678M",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=uf1QAAAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "book-0416": {
+      "bib_key": "OCLC:529707",
+      "info_url": "https://books.google.com/books?id=gNkQAQAAIAAJ&source=gbs_ViewAPI",
+      "match_method": "title_author_year_publisher",
+      "openlibrary_source_url": "https://openlibrary.org/books/OL5984447M",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=gNkQAQAAIAAJ&printsec=frontcover&img=1&zoom=5"
+    },
+    "book-0431": {
+      "bib_key": "OCLC:12481",
+      "info_url": "https://books.google.com/books?id=2IEpAQAAMAAJ&source=gbs_ViewAPI",
+      "match_method": "title_author_year_publisher",
+      "openlibrary_source_url": "https://openlibrary.org/books/OL5684428M",
+      "preview": "noview",
+      "thumbnail_url": "https://books.google.com/books/content?id=2IEpAQAAMAAJ&printsec=frontcover&img=1&zoom=5"
+    }
+  },
+  "requested_external_identifier_count": 14,
+  "requested_isbn_count": 360,
+  "requested_isbn_identifier_count": 714,
+  "retrieved_on": "2026-07-14"
+}

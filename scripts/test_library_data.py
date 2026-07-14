@@ -44,6 +44,12 @@ def main() -> None:
             assert set(value.split(",")) <= source_ids
         if record.get("curation"):
             assert set(record["curation"]["sources"]) <= source_ids
+        if record.get("cover"):
+            cover = record["cover"]
+            assert cover["source_id"] in source_ids
+            assert cover["confidence"] == "high"
+            assert cover["source_url"].startswith("https://")
+            assert cover["images"]["medium"].startswith("https://")
 
     status_counts = Counter(record["isbn_status"] for record in records)
     assert status_counts == {
@@ -56,11 +62,20 @@ def main() -> None:
     assert report["unique_valid_isbn_count"] == 360
     assert report["openlibrary_unique_isbn_match_count"] == 238
     assert report["manual_override_count"] == len(curation["overrides"])
+    assert report["cover_record_count"] == 260
+    assert report["cover_record_rate"] == 0.5567
+    assert report["cover_providers"] == {
+        "Google Books": 41,
+        "Open Library": 219,
+    }
+    assert sum(report["cover_match_methods"].values()) == 260
 
     by_id = {record["id"]: record for record in records}
     for override in curation["overrides"]:
         for field, value in override["changes"].items():
             assert by_id[override["id"]][field] == value
+    assert by_id["book-0118"]["cover"]["provider"] == "Google Books"
+    assert by_id["book-0118"]["cover"]["match_method"] == "title_author_year_publisher"
 
     record_order = {record["id"]: index for index, record in enumerate(records)}
     rarity_candidates = sorted(
@@ -68,7 +83,6 @@ def main() -> None:
             record
             for record in records
             if record.get("isbn_status") == "missing_pre_1970"
-            and not record.get("openlibrary", {}).get("key")
             and record.get("title")
             and record.get("author")
             and record.get("publisher_normalized")

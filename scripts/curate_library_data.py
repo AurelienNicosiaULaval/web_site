@@ -27,6 +27,9 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_RAW = ROOT / "data/library/clz-library-raw.json"
 DEFAULT_CACHE = ROOT / "data/library/openlibrary-isbn-cache.json"
+DEFAULT_DIRECT_COVER_CACHE = ROOT / "data/library/openlibrary-direct-cover-cache.json"
+DEFAULT_OPENLIBRARY_COVER_SEARCH = ROOT / "data/library/openlibrary-cover-search-cache.json"
+DEFAULT_GOOGLE_COVER_CACHE = ROOT / "data/library/google-books-cover-cache.json"
 DEFAULT_CURATION = ROOT / "data/library/library-curation.json"
 DEFAULT_OUTPUT = ROOT / "assets/library/library-data.json"
 DEFAULT_REPORT = ROOT / "data/library/library-quality-report.json"
@@ -149,6 +152,41 @@ def openlibrary_summary(entry: dict[str, Any], retrieved_on: str) -> dict[str, A
             for size in ("small", "medium", "large")
             if cover.get(size)
         },
+    }
+
+
+def cover_summary(
+    provider: str,
+    source_id: str,
+    retrieved_on: str,
+    match_method: str,
+    source_url: str,
+    images: dict[str, str],
+    confidence: str = "high",
+) -> dict[str, Any]:
+    return {
+        "provider": provider,
+        "source_id": source_id,
+        "retrieved_on": retrieved_on,
+        "match_method": match_method,
+        "confidence": confidence,
+        "source_url": str(source_url).replace("http://", "https://"),
+        "images": {
+            size: str(url).replace("http://", "https://")
+            for size, url in images.items()
+            if url
+        },
+    }
+
+
+def google_cover_images(thumbnail_url: str) -> dict[str, str]:
+    thumbnail = str(thumbnail_url).replace("http://", "https://")
+    if not thumbnail:
+        return {}
+    return {
+        "small": thumbnail,
+        "medium": re.sub(r"([?&])zoom=5(?=&|$)", r"\1zoom=2", thumbnail),
+        "large": re.sub(r"([?&])zoom=5(?=&|$)", r"\1zoom=3", thumbnail),
     }
 
 
@@ -316,6 +354,17 @@ def build_quality_report(
         for record in raw_records
         if str(record.get("publisher", "")).strip()
     }
+    cover_providers = Counter(
+        record.get("cover", {}).get("provider", "")
+        for record in records
+        if record.get("cover", {}).get("images", {}).get("medium")
+    )
+    cover_match_methods = Counter(
+        record.get("cover", {}).get("match_method", "")
+        for record in records
+        if record.get("cover", {}).get("images", {}).get("medium")
+    )
+    cover_record_count = sum(cover_providers.values())
     return {
         "generated_on": curated_on,
         "record_count": len(records),
@@ -328,6 +377,10 @@ def build_quality_report(
         "openlibrary_unique_isbn_match_count": len(matched_isbns),
         "openlibrary_unique_isbn_match_rate": round(len(matched_isbns) / len(valid_isbns), 4),
         "openlibrary_filled_fields": dict(sorted(openlibrary_fills.items())),
+        "cover_record_count": cover_record_count,
+        "cover_record_rate": round(cover_record_count / len(records), 4),
+        "cover_providers": dict(sorted(cover_providers.items())),
+        "cover_match_methods": dict(sorted(cover_match_methods.items())),
         "isbn_status": dict(sorted(isbn_status.items())),
         "raw_missing_fields": raw_missing_fields,
         "missing_fields": missing_fields,
@@ -364,6 +417,21 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--raw", type=Path, default=DEFAULT_RAW)
     parser.add_argument("--cache", type=Path, default=DEFAULT_CACHE)
+    parser.add_argument(
+        "--direct-cover-cache",
+        type=Path,
+        default=DEFAULT_DIRECT_COVER_CACHE,
+    )
+    parser.add_argument(
+        "--openlibrary-cover-search",
+        type=Path,
+        default=DEFAULT_OPENLIBRARY_COVER_SEARCH,
+    )
+    parser.add_argument(
+        "--google-cover-cache",
+        type=Path,
+        default=DEFAULT_GOOGLE_COVER_CACHE,
+    )
     parser.add_argument("--curation", type=Path, default=DEFAULT_CURATION)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--report", type=Path, default=DEFAULT_REPORT)
@@ -374,6 +442,9 @@ def main() -> None:
     args = parse_args()
     raw_payload = read_json(args.raw)
     openlibrary_cache = read_json(args.cache)
+    direct_cover_cache = read_json(args.direct_cover_cache)
+    openlibrary_cover_search = read_json(args.openlibrary_cover_search)
+    google_cover_cache = read_json(args.google_cover_cache)
     curation = read_json(args.curation)
     records = copy.deepcopy(raw_payload["records"])
     curated_on = str(curation.get("curated_on") or date.today().isoformat())
@@ -393,6 +464,62 @@ def main() -> None:
             for field in fill_from_openlibrary(record, entry, provenance):
                 openlibrary_fills[field] += 1
             record["openlibrary"] = openlibrary_summary(entry, curated_on)
+
+        openlibrary_images = record.get("openlibrary", {}).get("cover", {})
+        if openlibrary_images.get("medium"):
+            record["cover"] = cover_summary(
+                provider="Open Library",
+                source_id="openlibrary_exact",
+                retrieved_on=curated_on,
+                match_method="exact_isbn",
+                source_url=record["openlibrary"].get("url", ""),
+                images=openlibrary_images,
+            )
+
+        direct_cover = direct_cover_cache.get("books", {}).get(isbn)
+        if not record.get("cover") and direct_cover:
+            record["cover"] = cover_summary(
+                provider="Open Library",
+                source_id="openlibrary_covers",
+                retrieved_on=direct_cover_cache.get("retrieved_on", curated_on),
+                match_method=direct_cover_cache.get("match_method", "exact_isbn"),
+                source_url=direct_cover.get("source_url", ""),
+                images=direct_cover.get("cover", {}),
+            )
+
+        google_isbn_cover = google_cover_cache.get("books", {}).get(isbn)
+        if not record.get("cover") and google_isbn_cover:
+            record["cover"] = cover_summary(
+                provider="Google Books",
+                source_id="google_books_dynamic",
+                retrieved_on=google_cover_cache.get("retrieved_on", curated_on),
+                match_method="exact_isbn",
+                source_url=google_isbn_cover.get("info_url", ""),
+                images=google_cover_images(google_isbn_cover.get("thumbnail_url", "")),
+            )
+
+        openlibrary_search_cover = openlibrary_cover_search.get("matches", {}).get(record["id"])
+        if not record.get("cover") and openlibrary_search_cover:
+            record["cover"] = cover_summary(
+                provider="Open Library",
+                source_id="openlibrary_cover_search",
+                retrieved_on=openlibrary_search_cover.get("retrieved_on", curated_on),
+                match_method=openlibrary_search_cover.get("match_method", ""),
+                source_url=openlibrary_search_cover.get("source_url", ""),
+                images=openlibrary_search_cover.get("cover", {}),
+                confidence=openlibrary_search_cover.get("confidence", "high"),
+            )
+
+        google_identifier_cover = google_cover_cache.get("record_matches", {}).get(record["id"])
+        if not record.get("cover") and google_identifier_cover:
+            record["cover"] = cover_summary(
+                provider="Google Books",
+                source_id="google_books_dynamic",
+                retrieved_on=google_cover_cache.get("retrieved_on", curated_on),
+                match_method=google_identifier_cover.get("match_method", ""),
+                source_url=google_identifier_cover.get("info_url", ""),
+                images=google_cover_images(google_identifier_cover.get("thumbnail_url", "")),
+            )
         if not provenance:
             record.pop("data_provenance", None)
 
@@ -406,6 +533,9 @@ def main() -> None:
             "raw_catalogue": str(args.raw.relative_to(ROOT)),
             "curation_rules": str(args.curation.relative_to(ROOT)),
             "openlibrary_snapshot": str(args.cache.relative_to(ROOT)),
+            "openlibrary_direct_cover_snapshot": str(args.direct_cover_cache.relative_to(ROOT)),
+            "openlibrary_cover_search_snapshot": str(args.openlibrary_cover_search.relative_to(ROOT)),
+            "google_books_cover_snapshot": str(args.google_cover_cache.relative_to(ROOT)),
             "manual_override_count": len(applied),
             "policy": curation["policy"],
             "sources": curation["sources"],

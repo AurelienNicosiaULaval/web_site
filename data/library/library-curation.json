@@ -1,11 +1,12 @@
 {
-  "curated_on": "2026-07-13",
+  "curated_on": "2026-07-14",
   "policy": {
     "confidence_threshold": "high",
     "missing_isbn_before_1970": "expected",
     "missing_isbn_from_1970": "review",
     "duplicate_records": "preserve because distinct physical copies cannot be ruled out",
-    "external_metadata": "use exact ISBN matches only; never replace a non-empty CLZ value without a manual, sourced override"
+    "external_metadata": "use exact ISBN matches only; never replace a non-empty CLZ value without a manual, sourced override",
+    "cover_metadata": "prefer exact ISBN matches; otherwise require a strict title-author-year-publisher edition match and preserve provider provenance"
   },
   "sources": {
     "clz_sibling": {
@@ -19,6 +20,18 @@
     "openlibrary_search": {
       "title": "Open Library title-author search snapshot",
       "url": "data/library/openlibrary-missing-isbn-candidates.json"
+    },
+    "openlibrary_covers": {
+      "title": "Open Library Covers API exact-ISBN snapshot",
+      "url": "data/library/openlibrary-direct-cover-cache.json"
+    },
+    "openlibrary_cover_search": {
+      "title": "Open Library grouped cover and edition search snapshot",
+      "url": "data/library/openlibrary-cover-search-cache.json"
+    },
+    "google_books_dynamic": {
+      "title": "Google Books Dynamic Links exact-identifier cover snapshot",
+      "url": "data/library/google-books-cover-cache.json"
     },
     "enp_group_theory": {
       "title": "École nationale polytechnique catalogue, Éléments de la théorie des groupes",

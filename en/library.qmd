@@ -103,7 +103,7 @@ resources:
 
 <div id="library-rarity-grid" class="library-rarity-grid"></div>
 
-<p class="library-rarity-method"><i class="bi bi-shield-check" aria-hidden="true"></i>This reproducible ranking selects the five oldest complete records published before 1970 without an ISBN and without an exact edition match linked in the <a href="https://openlibrary.org/" target="_blank" rel="noopener noreferrer">Open Library</a> snapshot. It measures documentary rarity within this catalogue, not market value or the number of surviving copies. <span data-rarity-excluded>3</span> older but incomplete records remain outside the ranking.</p>
+<p class="library-rarity-method"><i class="bi bi-shield-check" aria-hidden="true"></i>This reproducible ranking selects the five oldest complete records published before 1970 without an ISBN. It measures documentary rarity within this catalogue, not market value or the number of surviving copies. <span data-rarity-excluded>3</span> older but incomplete records remain outside the ranking.</p>
 :::
 :::
 
@@ -151,8 +151,8 @@ resources:
 <button id="library-load-more" class="library-button library-button-secondary" type="button">Show 24 more books</button>
 :::
 
-<p class="library-cover-note">When available by ISBN, the published cover is supplied by <a href="https://openlibrary.org/" target="_blank" rel="noopener noreferrer">Open Library</a>. Otherwise, a typographic composition based on the catalogue metadata is displayed.</p>
-<p class="library-source-note">Primary source: CLZ Books export dated July 13, 2026. Empty fields were completed through exact ISBN matches with <a href="https://openlibrary.org/" target="_blank" rel="noopener noreferrer">Open Library</a>. Corrections to existing values rely on verified bibliographic records and are documented in the catalogue provenance.</p>
+<p class="library-cover-note"><span data-cover-count>260</span> books, or <span data-cover-rate>55.7</span>% of the catalogue, now have a cover supplied by <a href="https://openlibrary.org/" target="_blank" rel="noopener noreferrer">Open Library</a> or <a href="https://books.google.com/" target="_blank" rel="noopener noreferrer">Google Books</a>. Exact ISBN matches take priority; books without an ISBN require a strict title, author, year, and publisher match.</p>
+<p class="library-source-note">Primary source: CLZ Books export dated July 13, 2026. Empty bibliographic fields were completed through exact ISBN matches with Open Library. Each external cover retains its provider, matching method, and provenance link in the catalogue.</p>
 :::
 :::
 

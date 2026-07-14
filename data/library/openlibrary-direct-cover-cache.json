@@ -1,0 +1,39 @@
+{
+  "provider": "Open Library Covers API",
+  "retrieved_on": "2026-07-14",
+  "match_method": "exact_isbn",
+  "books": {
+    "9780486646862": {
+      "source_url": "https://openlibrary.org/isbn/9780486646862",
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/isbn/9780486646862-S.jpg?default=false",
+        "medium": "https://covers.openlibrary.org/b/isbn/9780486646862-M.jpg?default=false",
+        "large": "https://covers.openlibrary.org/b/isbn/9780486646862-L.jpg?default=false"
+      }
+    },
+    "9780521534109": {
+      "source_url": "https://openlibrary.org/isbn/9780521534109",
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/isbn/9780521534109-S.jpg?default=false",
+        "medium": "https://covers.openlibrary.org/b/isbn/9780521534109-M.jpg?default=false",
+        "large": "https://covers.openlibrary.org/b/isbn/9780521534109-L.jpg?default=false"
+      }
+    },
+    "9780873531702": {
+      "source_url": "https://openlibrary.org/isbn/9780873531702",
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/isbn/9780873531702-S.jpg?default=false",
+        "medium": "https://covers.openlibrary.org/b/isbn/9780873531702-M.jpg?default=false",
+        "large": "https://covers.openlibrary.org/b/isbn/9780873531702-L.jpg?default=false"
+      }
+    },
+    "9782761300391": {
+      "source_url": "https://openlibrary.org/isbn/9782761300391",
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/isbn/9782761300391-S.jpg?default=false",
+        "medium": "https://covers.openlibrary.org/b/isbn/9782761300391-M.jpg?default=false",
+        "large": "https://covers.openlibrary.org/b/isbn/9782761300391-L.jpg?default=false"
+      }
+    }
+  }
+}

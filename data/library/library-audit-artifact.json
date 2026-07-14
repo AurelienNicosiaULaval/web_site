@@ -5,17 +5,22 @@
     "surface": "report",
     "title": "Audit de qualité de la bibliothèque",
     "description": "État de la base CLZ après validation, enrichissement bibliographique et normalisation.",
-    "generatedAt": "2026-07-13",
+    "generatedAt": "2026-07-14",
     "cards": [
       {
         "id": "catalogue_size",
-        "description": "Taille de la collection conservée après curation.",
+        "description": "Taille de la collection après regroupement des doublons traçables.",
         "dataset": "summary",
         "sourceId": "summary_sql",
         "metrics": [
           {
-            "label": "Notices conservées",
+            "label": "Éditions distinctes",
             "field": "records",
+            "format": "number"
+          },
+          {
+            "label": "Notices CLZ sources",
+            "field": "source_records",
             "format": "number"
           }
         ]
@@ -74,7 +79,7 @@
       {
         "id": "isbn_status_chart",
         "title": "Statut des ISBN dans le catalogue curé",
-        "subtitle": "Parmi les 99 ISBN absents, 86 concernent des publications antérieures à 1970 et 13 cas restent à examiner.",
+        "subtitle": "Parmi les 94 ISBN absents, 82 concernent des publications antérieures à 1970 et 12 cas restent à examiner.",
         "question": "Comment la complétude des ISBN se répartit-elle selon la période de publication?",
         "rationale": "Un diagramme en barres compare directement les quatre statuts sur une base zéro.",
         "type": "bar",
@@ -106,7 +111,7 @@
         "dataset": "missing_fields",
         "sourceId": "missing_fields_sql",
         "defaultSort": {
-          "field": "resolved",
+          "field": "curated_missing_rate",
           "direction": "desc"
         },
         "density": "dense",
@@ -122,14 +127,19 @@
             "format": "number"
           },
           {
+            "field": "raw_missing_rate",
+            "label": "Taux brut",
+            "format": "percent"
+          },
+          {
             "field": "curated_missing",
             "label": "Manquants, curé",
             "format": "number"
           },
           {
-            "field": "resolved",
-            "label": "Complétés",
-            "format": "number"
+            "field": "curated_missing_rate",
+            "label": "Taux curé",
+            "format": "percent"
           }
         ]
       },
@@ -224,9 +234,9 @@
         "query": {
           "engine": "SQLite",
           "language": "sql",
-          "executed_at": "2026-07-13",
+          "executed_at": "2026-07-14",
           "description": "Calcule les indicateurs synthétiques à partir des notices brutes, curées et du journal de corrections.",
-          "sql": "SELECT\n      COUNT(*) AS records,\n      SUM(CASE WHEN isbn_status = 'valid' THEN 1 ELSE 0 END) AS valid_isbn,\n      1.0 * SUM(CASE WHEN isbn_status = 'valid' THEN 1 ELSE 0 END) / COUNT(*) AS valid_isbn_share,\n      SUM(CASE WHEN isbn_status = 'missing_pre_1970' THEN 1 ELSE 0 END) AS expected_pre1970_missing,\n      SUM(CASE WHEN isbn_status IN ('missing_1970_or_later', 'missing_unknown_year') THEN 1 ELSE 0 END) AS isbn_to_review,\n      (SELECT COUNT(*) FROM corrections) AS corrected_records,\n      (SELECT SUM(change_count) FROM corrections) AS changed_fields,\n      1.0 * COUNT(DISTINCT CASE WHEN isbn_status = 'valid' AND has_openlibrary = 1 THEN isbn END)\n        / COUNT(DISTINCT CASE WHEN isbn_status = 'valid' THEN isbn END) AS external_isbn_coverage,\n      (SELECT COUNT(DISTINCT publisher) FROM raw_records WHERE TRIM(publisher) <> '') AS raw_publishers,\n      COUNT(DISTINCT CASE WHEN TRIM(publisher_normalized) <> '' THEN publisher_normalized END) AS normalized_publishers\n    FROM records",
+          "sql": "SELECT\n      COUNT(*) AS records,\n      SUM(source_record_count) AS source_records,\n      SUM(CASE WHEN isbn_status = 'valid' THEN 1 ELSE 0 END) AS valid_isbn,\n      1.0 * SUM(CASE WHEN isbn_status = 'valid' THEN 1 ELSE 0 END) / COUNT(*) AS valid_isbn_share,\n      SUM(CASE WHEN isbn_status = 'missing_pre_1970' THEN 1 ELSE 0 END) AS expected_pre1970_missing,\n      SUM(CASE WHEN isbn_status IN ('missing_1970_or_later', 'missing_unknown_year') THEN 1 ELSE 0 END) AS isbn_to_review,\n      (SELECT COUNT(*) FROM corrections) AS corrected_records,\n      (SELECT SUM(change_count) FROM corrections) AS changed_fields,\n      1.0 * COUNT(DISTINCT CASE WHEN isbn_status = 'valid' AND has_openlibrary = 1 THEN isbn END)\n        / COUNT(DISTINCT CASE WHEN isbn_status = 'valid' THEN isbn END) AS external_isbn_coverage,\n      (SELECT COUNT(DISTINCT publisher) FROM raw_records WHERE TRIM(publisher) <> '') AS raw_publishers,\n      COUNT(DISTINCT CASE WHEN TRIM(publisher_normalized) <> '' THEN publisher_normalized END) AS normalized_publishers,\n      COUNT(DISTINCT CASE WHEN TRIM(author_normalized) <> '' THEN author_normalized END) AS normalized_author_labels\n    FROM records",
           "tables_used": [
             "records",
             "raw_records",
@@ -245,7 +255,7 @@
         "query": {
           "engine": "SQLite",
           "language": "sql",
-          "executed_at": "2026-07-13",
+          "executed_at": "2026-07-14",
           "description": "Compte les notices dans chacun des quatre statuts ISBN.",
           "sql": "WITH status_labels(status_key, status, review_required, sort_order) AS (\n      VALUES\n        ('valid', 'ISBN valide', 'Non', 1),\n        ('missing_pre_1970', 'Absent, avant 1970', 'Non', 2),\n        ('missing_1970_or_later', 'Absent, 1970 ou après', 'Oui', 3),\n        ('missing_unknown_year', 'Absent, année inconnue', 'Oui', 4)\n    )\n    SELECT labels.status, COUNT(records.id) AS count, labels.review_required\n    FROM status_labels AS labels\n    LEFT JOIN records ON records.isbn_status = labels.status_key\n    GROUP BY labels.status_key, labels.status, labels.review_required, labels.sort_order\n    ORDER BY labels.sort_order",
           "tables_used": [
@@ -262,15 +272,16 @@
         "query": {
           "engine": "SQLite",
           "language": "sql",
-          "executed_at": "2026-07-13",
-          "description": "Compare les valeurs vides dans l’extraction CLZ et dans le catalogue curé.",
-          "sql": "WITH fields(field_key, field, sort_order) AS (\n      VALUES\n        ('author', 'Auteur', 1),\n        ('title', 'Titre', 2),\n        ('isbn', 'ISBN', 3),\n        ('publisher', 'Éditeur', 4),\n        ('publication_date', 'Date de publication', 5),\n        ('publication_year', 'Année', 6),\n        ('genre', 'Genre CLZ', 7),\n        ('series', 'Collection', 8)\n    ), counts AS (\n      SELECT 'author' AS field_key,\n             (SELECT SUM(TRIM(author) = '') FROM raw_records) AS raw_missing,\n             (SELECT SUM(TRIM(author) = '') FROM records) AS curated_missing\n      UNION ALL SELECT 'title', (SELECT SUM(TRIM(title) = '') FROM raw_records), (SELECT SUM(TRIM(title) = '') FROM records)\n      UNION ALL SELECT 'isbn', (SELECT SUM(TRIM(isbn) = '') FROM raw_records), (SELECT SUM(TRIM(isbn) = '') FROM records)\n      UNION ALL SELECT 'publisher', (SELECT SUM(TRIM(publisher) = '') FROM raw_records), (SELECT SUM(TRIM(publisher) = '') FROM records)\n      UNION ALL SELECT 'publication_date', (SELECT SUM(TRIM(publication_date) = '') FROM raw_records), (SELECT SUM(TRIM(publication_date) = '') FROM records)\n      UNION ALL SELECT 'publication_year', (SELECT SUM(TRIM(publication_year) = '') FROM raw_records), (SELECT SUM(TRIM(publication_year) = '') FROM records)\n      UNION ALL SELECT 'genre', (SELECT SUM(TRIM(genre) = '') FROM raw_records), (SELECT SUM(TRIM(genre) = '') FROM records)\n      UNION ALL SELECT 'series', (SELECT SUM(TRIM(series) = '') FROM raw_records), (SELECT SUM(TRIM(series) = '') FROM records)\n    )\n    SELECT fields.field, counts.raw_missing, counts.curated_missing,\n           counts.raw_missing - counts.curated_missing AS resolved\n    FROM fields\n    JOIN counts USING (field_key)\n    ORDER BY fields.sort_order",
+          "executed_at": "2026-07-14",
+          "description": "Compare les nombres et taux de valeurs vides dans l’extraction CLZ et dans le catalogue regroupé.",
+          "sql": "WITH fields(field_key, field, sort_order) AS (\n      VALUES\n        ('author', 'Auteur', 1),\n        ('title', 'Titre', 2),\n        ('isbn', 'ISBN', 3),\n        ('publisher', 'Éditeur', 4),\n        ('publication_date', 'Date de publication', 5),\n        ('publication_year', 'Année', 6),\n        ('genre', 'Genre CLZ', 7),\n        ('series', 'Collection', 8)\n    ), counts AS (\n      SELECT 'author' AS field_key,\n             (SELECT SUM(TRIM(author) = '') FROM raw_records) AS raw_missing,\n             (SELECT SUM(TRIM(author_normalized) = '') FROM records) AS curated_missing\n      UNION ALL SELECT 'title', (SELECT SUM(TRIM(title) = '') FROM raw_records), (SELECT SUM(TRIM(title) = '') FROM records)\n      UNION ALL SELECT 'isbn', (SELECT SUM(TRIM(isbn) = '') FROM raw_records), (SELECT SUM(TRIM(isbn) = '') FROM records)\n      UNION ALL SELECT 'publisher', (SELECT SUM(TRIM(publisher) = '') FROM raw_records), (SELECT SUM(TRIM(publisher_normalized) = '') FROM records)\n      UNION ALL SELECT 'publication_date', (SELECT SUM(TRIM(publication_date) = '') FROM raw_records), (SELECT SUM(TRIM(publication_date) = '') FROM records)\n      UNION ALL SELECT 'publication_year', (SELECT SUM(TRIM(publication_year) = '') FROM raw_records), (SELECT SUM(TRIM(publication_year) = '') FROM records)\n      UNION ALL SELECT 'genre', (SELECT SUM(TRIM(genre) = '') FROM raw_records), (SELECT SUM(TRIM(genre) = '') FROM records)\n      UNION ALL SELECT 'series', (SELECT SUM(TRIM(series) = '') FROM raw_records), (SELECT SUM(TRIM(series) = '') FROM records)\n    )\n    SELECT fields.field, counts.raw_missing,\n           ROUND(1.0 * counts.raw_missing / (SELECT COUNT(*) FROM raw_records), 4) AS raw_missing_rate,\n           counts.curated_missing,\n           ROUND(1.0 * counts.curated_missing / (SELECT COUNT(*) FROM records), 4) AS curated_missing_rate\n    FROM fields\n    JOIN counts USING (field_key)\n    ORDER BY fields.sort_order",
           "tables_used": [
             "raw_records",
             "records"
           ],
           "metric_definitions": [
-            "Complétés: nombre brut de valeurs vides moins le nombre curé."
+            "Taux brut: valeurs vides divisées par 560 notices sources.",
+            "Taux curé: valeurs vides divisées par les éditions distinctes après regroupement."
           ]
         }
       },
@@ -280,9 +291,9 @@
         "query": {
           "engine": "SQLite",
           "language": "sql",
-          "executed_at": "2026-07-13",
+          "executed_at": "2026-07-14",
           "description": "Liste les publications de 1970 ou après sans ISBN et les publications sans année ni ISBN.",
-          "sql": "SELECT\n      id,\n      CASE WHEN TRIM(publication_year) = '' THEN 'Inconnue' ELSE publication_year END AS year,\n      CASE WHEN TRIM(title) = '' THEN 'Titre non renseigné' ELSE title END AS title,\n      CASE WHEN TRIM(author) = '' THEN 'Auteur non renseigné' ELSE author END AS author,\n      CASE isbn_status\n        WHEN 'missing_1970_or_later' THEN 'Absent, 1970 ou après'\n        WHEN 'missing_unknown_year' THEN 'Absent, année inconnue'\n      END AS reason\n    FROM records\n    WHERE isbn_status IN ('missing_1970_or_later', 'missing_unknown_year')\n    ORDER BY CASE WHEN publication_year = '' THEN 9999 ELSE CAST(publication_year AS INTEGER) END, id",
+          "sql": "SELECT\n      id,\n      CASE WHEN TRIM(publication_year) = '' THEN 'Inconnue' ELSE publication_year END AS year,\n      CASE WHEN TRIM(title) = '' THEN 'Titre non renseigné' ELSE title END AS title,\n      CASE WHEN TRIM(author_normalized) = '' THEN 'Auteur non renseigné' ELSE author_normalized END AS author,\n      CASE isbn_status\n        WHEN 'missing_1970_or_later' THEN 'Absent, 1970 ou après'\n        WHEN 'missing_unknown_year' THEN 'Absent, année inconnue'\n      END AS reason\n    FROM records\n    WHERE isbn_status IN ('missing_1970_or_later', 'missing_unknown_year')\n    ORDER BY CASE WHEN publication_year = '' THEN 9999 ELSE CAST(publication_year AS INTEGER) END, id",
           "tables_used": [
             "records"
           ]
@@ -294,7 +305,7 @@
         "query": {
           "engine": "SQLite",
           "language": "sql",
-          "executed_at": "2026-07-13",
+          "executed_at": "2026-07-14",
           "description": "Liste les champs réellement changés et le nombre de sources pour chaque notice corrigée.",
           "sql": "SELECT id, title, changed_fields, source_count, sources\n    FROM corrections\n    ORDER BY id",
           "tables_used": [
@@ -306,6 +317,11 @@
         "id": "curation_rules",
         "label": "Corrections manuelles et provenance bibliographique",
         "path": "data/library/library-curation.json"
+      },
+      {
+        "id": "normalization_rules",
+        "label": "Alias d’auteurs, regroupements d’éditeurs et politique de doublons",
+        "path": "data/library/library-normalization.json"
       },
       {
         "id": "isbn_agency",
@@ -323,7 +339,7 @@
         "id": "executive_summary",
         "type": "markdown",
         "sourceId": "quality_pipeline",
-        "body": "## Executive Summary\n\nLa base conserve les 560 notices CLZ et ne contient aucun ISBN invalide. 19 notices ont reçu des corrections manuelles à confiance élevée, soit 55 champs réellement modifiés. Après curation, 461 notices ont un ISBN valide. Parmi les 99 ISBN absents, 86 sont associés à des ouvrages publiés avant 1970; les 13 autres cas restent explicitement signalés plutôt que complétés avec une édition incertaine."
+        "body": "## Executive Summary\n\nLa base conserve les 560 notices CLZ comme preuve brute et les présente sous la forme de 546 éditions distinctes issues de 560 notices sources. Les 14 groupes de doublons restent entièrement traçables et aucun ISBN invalide n’est présent. 26 notices ont reçu des corrections manuelles à confiance élevée, soit 63 champs réellement modifiés. Après curation, 452 notices ont un ISBN valide. Parmi les 94 ISBN absents, 82 sont associés à des ouvrages publiés avant 1970; les 12 autres cas restent explicitement signalés plutôt que complétés avec une édition incertaine."
       },
       {
         "id": "metrics",
@@ -345,7 +361,7 @@
         "id": "quality_improvements",
         "type": "markdown",
         "sourceId": "quality_pipeline",
-        "body": "## Améliorations mesurables\n\nLes valeurs manquantes ont diminué pour les auteurs, titres, ISBN, éditeurs, dates et collections. La normalisation analytique ramène 257 libellés d’éditeur à 240 maisons d’édition, tout en conservant le libellé CLZ original dans chaque notice."
+        "body": "## Améliorations mesurables\n\nLes valeurs manquantes ont diminué pour les auteurs, titres, ISBN, éditeurs, dates et collections. La normalisation analytique ramène 257 libellés d’éditeur à 163 maisons d’édition, normalise 29 notices d’auteur et conserve les libellés CLZ originaux."
       },
       {
         "id": "missing_fields",
@@ -357,7 +373,7 @@
         "id": "remaining_cases",
         "type": "markdown",
         "sourceId": "isbn_agency",
-        "body": "## Cas restant à examiner\n\nLa règle de travail classe l’absence d’ISBN avant 1970 comme attendue. Le SBN a commencé au Royaume-Uni en 1967 et la norme internationale ISBN a été approuvée en 1970. Pour les publications ultérieures, l’absence peut encore être légitime selon l’édition; une vérification de la page de copyright du livre physique serait nécessaire pour trancher les 13 cas signalés."
+        "body": "## Cas restant à examiner\n\nLa règle de travail classe l’absence d’ISBN avant 1970 comme attendue. Le SBN a commencé au Royaume-Uni en 1967 et la norme internationale ISBN a été approuvée en 1970. Pour les publications ultérieures, l’absence peut encore être légitime selon l’édition; une vérification de la page de copyright du livre physique serait nécessaire pour trancher les 12 cas signalés."
       },
       {
         "id": "review_cases",
@@ -369,7 +385,7 @@
         "id": "corrections",
         "type": "markdown",
         "sourceId": "curation_rules",
-        "body": "## Corrections appliquées\n\nLes changements majeurs comprennent deux ISBN nettoyés, deux titres qui ne correspondaient pas à leur ISBN, quatre années d’édition corrigées, des auteurs complétés et la rectification du nom Gérard A. Philippin. Les doublons possibles sont conservés, car ils peuvent représenter plusieurs exemplaires physiques."
+        "body": "## Corrections appliquées\n\nLes corrections manuelles sont limitées aux correspondances bibliographiques à confiance élevée. La normalisation des auteurs et des éditeurs est définie dans une table distincte. Les 14 groupes de doublons sont représentés par une notice canonique et la liste complète des identifiants sources. Le nombre de notices sources ne préjuge pas du nombre d’exemplaires physiques."
       },
       {
         "id": "correction_log",
@@ -380,39 +396,41 @@
       {
         "id": "methodology",
         "type": "markdown",
-        "sourceId": "curation_rules",
-        "body": "## Méthodologie et limites\n\nLa couche CLZ brute est immuable. Open Library ne complète que les champs vides après une correspondance exacte par ISBN. Une valeur existante n’est remplacée que par une règle manuelle à confiance élevée et sourcée. Les couvertures reposent soit sur un identifiant d’édition exact, soit sur une correspondance stricte du titre, de l’auteur, de l’année et de la maison d’édition. Les images génériques qui ne représentent pas la couverture véritable sont exclues. Les sujets externes sont conservés comme information secondaire, mais le genre CLZ n’est pas imputé automatiquement, car les vocabulaires ne sont pas comparables."
+        "sourceId": "normalization_rules",
+        "body": "## Méthodologie et limites\n\nLa couche CLZ brute est immuable. Open Library ne complète que les champs vides après une correspondance exacte par ISBN. Une valeur existante n’est remplacée que par une règle manuelle à confiance élevée et sourcée. Les doublons partageant un ISBN valide sont regroupés; sans ISBN, le titre et les auteurs doivent être compatibles et aucun conflit d’année, d’éditeur ou de collection n’est permis. Deux ISBN valides distincts ne sont jamais fusionnés. Les couvertures reposent soit sur un identifiant d’édition exact, soit sur une correspondance bibliographique stricte. Les images génériques sont exclues."
       }
     ]
   },
   "snapshot": {
     "version": 1,
-    "generatedAt": "2026-07-13",
+    "generatedAt": "2026-07-14",
     "status": "ready",
     "datasets": {
       "summary": [
         {
-          "records": 560,
-          "valid_isbn": 461,
-          "valid_isbn_share": 0.8232142857142857,
-          "expected_pre1970_missing": 86,
-          "isbn_to_review": 13,
-          "corrected_records": 19,
-          "changed_fields": 55,
+          "records": 546,
+          "source_records": 560,
+          "valid_isbn": 452,
+          "valid_isbn_share": 0.8278388278388278,
+          "expected_pre1970_missing": 82,
+          "isbn_to_review": 12,
+          "corrected_records": 26,
+          "changed_fields": 63,
           "external_isbn_coverage": 0.7013274336283186,
           "raw_publishers": 257,
-          "normalized_publishers": 240
+          "normalized_publishers": 163,
+          "normalized_author_labels": 476
         }
       ],
       "isbn_status": [
         {
           "status": "ISBN valide",
-          "count": 461,
+          "count": 452,
           "review_required": "Non"
         },
         {
           "status": "Absent, avant 1970",
-          "count": 86,
+          "count": 82,
           "review_required": "Non"
         },
         {
@@ -422,7 +440,7 @@
         },
         {
           "status": "Absent, année inconnue",
-          "count": 1,
+          "count": 0,
           "review_required": "Oui"
         }
       ],
@@ -430,50 +448,58 @@
         {
           "field": "Auteur",
           "raw_missing": 9,
+          "raw_missing_rate": 0.0161,
           "curated_missing": 3,
-          "resolved": 6
+          "curated_missing_rate": 0.0055
         },
         {
           "field": "Titre",
           "raw_missing": 0,
+          "raw_missing_rate": 0.0,
           "curated_missing": 0,
-          "resolved": 0
+          "curated_missing_rate": 0.0
         },
         {
           "field": "ISBN",
           "raw_missing": 103,
-          "curated_missing": 99,
-          "resolved": 4
+          "raw_missing_rate": 0.1839,
+          "curated_missing": 94,
+          "curated_missing_rate": 0.1722
         },
         {
           "field": "Éditeur",
           "raw_missing": 21,
-          "curated_missing": 17,
-          "resolved": 4
+          "raw_missing_rate": 0.0375,
+          "curated_missing": 16,
+          "curated_missing_rate": 0.0293
         },
         {
           "field": "Date de publication",
           "raw_missing": 1,
-          "curated_missing": 1,
-          "resolved": 0
+          "raw_missing_rate": 0.0018,
+          "curated_missing": 0,
+          "curated_missing_rate": 0.0
         },
         {
           "field": "Année",
           "raw_missing": 1,
-          "curated_missing": 1,
-          "resolved": 0
+          "raw_missing_rate": 0.0018,
+          "curated_missing": 0,
+          "curated_missing_rate": 0.0
         },
         {
           "field": "Genre CLZ",
           "raw_missing": 556,
-          "curated_missing": 556,
-          "resolved": 0
+          "raw_missing_rate": 0.9929,
+          "curated_missing": 542,
+          "curated_missing_rate": 0.9927
         },
         {
           "field": "Collection",
           "raw_missing": 558,
-          "curated_missing": 552,
-          "resolved": 6
+          "raw_missing_rate": 0.9964,
+          "curated_missing": 538,
+          "curated_missing_rate": 0.9853
         }
       ],
       "review_cases": [
@@ -502,7 +528,7 @@
           "id": "book-0184",
           "year": "1971",
           "title": "éléments de topologie algébrique",
-          "author": "Claude godbillon",
+          "author": "Claude Godbillon",
           "reason": "Absent, 1970 ou après"
         },
         {
@@ -560,13 +586,6 @@
           "title": "éléments de la théorie des groupes",
           "author": "M. Kargapolov | Iou. Merzliakov",
           "reason": "Absent, 1970 ou après"
-        },
-        {
-          "id": "book-0013",
-          "year": "Inconnue",
-          "title": "programmation linéaire",
-          "author": "s. Achmanov",
-          "reason": "Absent, année inconnue"
         }
       ],
       "correction_log": [
@@ -634,6 +653,13 @@
           "sources": "ulaval_schoolbooks"
         },
         {
+          "id": "book-0133",
+          "title": "Abrégé D'histoire Des Mathématiques 1700-1900. I. Algèbre, Analyse Classique, Théorie Des Nombres. Ii. Fonctions Elliptiques, Analyse Fonctionnelle, Géométrie Différentielle, Topologie Algébrique, Probabilités, Logique Mathématique. Avec La Collaboration",
+          "changed_fields": "Auteur, Éditeur",
+          "source_count": 1,
+          "sources": "openlibrary_exact"
+        },
+        {
           "id": "book-0178",
           "title": "Bayesian Methods for Finite Population Sampling",
           "changed_fields": "Titre, Éditeur, Date de publication, Année",
@@ -669,6 +695,13 @@
           "sources": "worldcat_leroux, openlibrary_exact"
         },
         {
+          "id": "book-0304",
+          "title": "Modélisation et évaluation quantitative des risques en actuariat: Modèles sur une période (Statistique et probabilités appliquées) (French Edition)",
+          "changed_fields": "Auteur",
+          "source_count": 1,
+          "sources": "springer_marceau"
+        },
+        {
           "id": "book-0320",
           "title": "La cuisine aux épices (classes prépas économiques et commerciales)",
           "changed_fields": "Auteur, Titre, Date de publication, Année, Collection",
@@ -690,6 +723,34 @@
           "sources": "bnaq_philippin, scholarvox_philippin"
         },
         {
+          "id": "book-0377",
+          "title": "Le cours de mathématiques - Tome 4 - 3e éd.: Séries et équations différentielles",
+          "changed_fields": "Auteur",
+          "source_count": 1,
+          "sources": "dunod_ramis"
+        },
+        {
+          "id": "book-0378",
+          "title": "Cours de mathématiques - Tome 2 - 3e éd: Algèbre et applications à la géométrie",
+          "changed_fields": "Auteur",
+          "source_count": 1,
+          "sources": "dunod_ramis"
+        },
+        {
+          "id": "book-0379",
+          "title": "Le cours de mathématiques - T3 Topologie et éléments d'analyse",
+          "changed_fields": "Auteur",
+          "source_count": 1,
+          "sources": "dunod_ramis"
+        },
+        {
+          "id": "book-0380",
+          "title": "Le cours de mathématiques Tome 1- Algèbre",
+          "changed_fields": "Auteur",
+          "source_count": 1,
+          "sources": "dunod_ramis"
+        },
+        {
           "id": "book-0385",
           "title": "Ondes, optique et physique moderne",
           "changed_fields": "ISBN",
@@ -702,6 +763,13 @@
           "changed_fields": "Auteur, Titre, ISBN, Éditeur",
           "source_count": 2,
           "sources": "clz_sibling, openlibrary_search"
+        },
+        {
+          "id": "book-0554",
+          "title": "Probabilités et statistique pour ingénieurs",
+          "changed_fields": "Auteur",
+          "source_count": 2,
+          "sources": "polypublie_hines, cheneliere_hines"
         }
       ]
     }
@@ -723,9 +791,9 @@
       "query": {
         "engine": "SQLite",
         "language": "sql",
-        "executed_at": "2026-07-13",
+        "executed_at": "2026-07-14",
         "description": "Calcule les indicateurs synthétiques à partir des notices brutes, curées et du journal de corrections.",
-        "sql": "SELECT\n      COUNT(*) AS records,\n      SUM(CASE WHEN isbn_status = 'valid' THEN 1 ELSE 0 END) AS valid_isbn,\n      1.0 * SUM(CASE WHEN isbn_status = 'valid' THEN 1 ELSE 0 END) / COUNT(*) AS valid_isbn_share,\n      SUM(CASE WHEN isbn_status = 'missing_pre_1970' THEN 1 ELSE 0 END) AS expected_pre1970_missing,\n      SUM(CASE WHEN isbn_status IN ('missing_1970_or_later', 'missing_unknown_year') THEN 1 ELSE 0 END) AS isbn_to_review,\n      (SELECT COUNT(*) FROM corrections) AS corrected_records,\n      (SELECT SUM(change_count) FROM corrections) AS changed_fields,\n      1.0 * COUNT(DISTINCT CASE WHEN isbn_status = 'valid' AND has_openlibrary = 1 THEN isbn END)\n        / COUNT(DISTINCT CASE WHEN isbn_status = 'valid' THEN isbn END) AS external_isbn_coverage,\n      (SELECT COUNT(DISTINCT publisher) FROM raw_records WHERE TRIM(publisher) <> '') AS raw_publishers,\n      COUNT(DISTINCT CASE WHEN TRIM(publisher_normalized) <> '' THEN publisher_normalized END) AS normalized_publishers\n    FROM records",
+        "sql": "SELECT\n      COUNT(*) AS records,\n      SUM(source_record_count) AS source_records,\n      SUM(CASE WHEN isbn_status = 'valid' THEN 1 ELSE 0 END) AS valid_isbn,\n      1.0 * SUM(CASE WHEN isbn_status = 'valid' THEN 1 ELSE 0 END) / COUNT(*) AS valid_isbn_share,\n      SUM(CASE WHEN isbn_status = 'missing_pre_1970' THEN 1 ELSE 0 END) AS expected_pre1970_missing,\n      SUM(CASE WHEN isbn_status IN ('missing_1970_or_later', 'missing_unknown_year') THEN 1 ELSE 0 END) AS isbn_to_review,\n      (SELECT COUNT(*) FROM corrections) AS corrected_records,\n      (SELECT SUM(change_count) FROM corrections) AS changed_fields,\n      1.0 * COUNT(DISTINCT CASE WHEN isbn_status = 'valid' AND has_openlibrary = 1 THEN isbn END)\n        / COUNT(DISTINCT CASE WHEN isbn_status = 'valid' THEN isbn END) AS external_isbn_coverage,\n      (SELECT COUNT(DISTINCT publisher) FROM raw_records WHERE TRIM(publisher) <> '') AS raw_publishers,\n      COUNT(DISTINCT CASE WHEN TRIM(publisher_normalized) <> '' THEN publisher_normalized END) AS normalized_publishers,\n      COUNT(DISTINCT CASE WHEN TRIM(author_normalized) <> '' THEN author_normalized END) AS normalized_author_labels\n    FROM records",
         "tables_used": [
           "records",
           "raw_records",
@@ -744,7 +812,7 @@
       "query": {
         "engine": "SQLite",
         "language": "sql",
-        "executed_at": "2026-07-13",
+        "executed_at": "2026-07-14",
         "description": "Compte les notices dans chacun des quatre statuts ISBN.",
         "sql": "WITH status_labels(status_key, status, review_required, sort_order) AS (\n      VALUES\n        ('valid', 'ISBN valide', 'Non', 1),\n        ('missing_pre_1970', 'Absent, avant 1970', 'Non', 2),\n        ('missing_1970_or_later', 'Absent, 1970 ou après', 'Oui', 3),\n        ('missing_unknown_year', 'Absent, année inconnue', 'Oui', 4)\n    )\n    SELECT labels.status, COUNT(records.id) AS count, labels.review_required\n    FROM status_labels AS labels\n    LEFT JOIN records ON records.isbn_status = labels.status_key\n    GROUP BY labels.status_key, labels.status, labels.review_required, labels.sort_order\n    ORDER BY labels.sort_order",
         "tables_used": [
@@ -761,15 +829,16 @@
       "query": {
         "engine": "SQLite",
         "language": "sql",
-        "executed_at": "2026-07-13",
-        "description": "Compare les valeurs vides dans l’extraction CLZ et dans le catalogue curé.",
-        "sql": "WITH fields(field_key, field, sort_order) AS (\n      VALUES\n        ('author', 'Auteur', 1),\n        ('title', 'Titre', 2),\n        ('isbn', 'ISBN', 3),\n        ('publisher', 'Éditeur', 4),\n        ('publication_date', 'Date de publication', 5),\n        ('publication_year', 'Année', 6),\n        ('genre', 'Genre CLZ', 7),\n        ('series', 'Collection', 8)\n    ), counts AS (\n      SELECT 'author' AS field_key,\n             (SELECT SUM(TRIM(author) = '') FROM raw_records) AS raw_missing,\n             (SELECT SUM(TRIM(author) = '') FROM records) AS curated_missing\n      UNION ALL SELECT 'title', (SELECT SUM(TRIM(title) = '') FROM raw_records), (SELECT SUM(TRIM(title) = '') FROM records)\n      UNION ALL SELECT 'isbn', (SELECT SUM(TRIM(isbn) = '') FROM raw_records), (SELECT SUM(TRIM(isbn) = '') FROM records)\n      UNION ALL SELECT 'publisher', (SELECT SUM(TRIM(publisher) = '') FROM raw_records), (SELECT SUM(TRIM(publisher) = '') FROM records)\n      UNION ALL SELECT 'publication_date', (SELECT SUM(TRIM(publication_date) = '') FROM raw_records), (SELECT SUM(TRIM(publication_date) = '') FROM records)\n      UNION ALL SELECT 'publication_year', (SELECT SUM(TRIM(publication_year) = '') FROM raw_records), (SELECT SUM(TRIM(publication_year) = '') FROM records)\n      UNION ALL SELECT 'genre', (SELECT SUM(TRIM(genre) = '') FROM raw_records), (SELECT SUM(TRIM(genre) = '') FROM records)\n      UNION ALL SELECT 'series', (SELECT SUM(TRIM(series) = '') FROM raw_records), (SELECT SUM(TRIM(series) = '') FROM records)\n    )\n    SELECT fields.field, counts.raw_missing, counts.curated_missing,\n           counts.raw_missing - counts.curated_missing AS resolved\n    FROM fields\n    JOIN counts USING (field_key)\n    ORDER BY fields.sort_order",
+        "executed_at": "2026-07-14",
+        "description": "Compare les nombres et taux de valeurs vides dans l’extraction CLZ et dans le catalogue regroupé.",
+        "sql": "WITH fields(field_key, field, sort_order) AS (\n      VALUES\n        ('author', 'Auteur', 1),\n        ('title', 'Titre', 2),\n        ('isbn', 'ISBN', 3),\n        ('publisher', 'Éditeur', 4),\n        ('publication_date', 'Date de publication', 5),\n        ('publication_year', 'Année', 6),\n        ('genre', 'Genre CLZ', 7),\n        ('series', 'Collection', 8)\n    ), counts AS (\n      SELECT 'author' AS field_key,\n             (SELECT SUM(TRIM(author) = '') FROM raw_records) AS raw_missing,\n             (SELECT SUM(TRIM(author_normalized) = '') FROM records) AS curated_missing\n      UNION ALL SELECT 'title', (SELECT SUM(TRIM(title) = '') FROM raw_records), (SELECT SUM(TRIM(title) = '') FROM records)\n      UNION ALL SELECT 'isbn', (SELECT SUM(TRIM(isbn) = '') FROM raw_records), (SELECT SUM(TRIM(isbn) = '') FROM records)\n      UNION ALL SELECT 'publisher', (SELECT SUM(TRIM(publisher) = '') FROM raw_records), (SELECT SUM(TRIM(publisher_normalized) = '') FROM records)\n      UNION ALL SELECT 'publication_date', (SELECT SUM(TRIM(publication_date) = '') FROM raw_records), (SELECT SUM(TRIM(publication_date) = '') FROM records)\n      UNION ALL SELECT 'publication_year', (SELECT SUM(TRIM(publication_year) = '') FROM raw_records), (SELECT SUM(TRIM(publication_year) = '') FROM records)\n      UNION ALL SELECT 'genre', (SELECT SUM(TRIM(genre) = '') FROM raw_records), (SELECT SUM(TRIM(genre) = '') FROM records)\n      UNION ALL SELECT 'series', (SELECT SUM(TRIM(series) = '') FROM raw_records), (SELECT SUM(TRIM(series) = '') FROM records)\n    )\n    SELECT fields.field, counts.raw_missing,\n           ROUND(1.0 * counts.raw_missing / (SELECT COUNT(*) FROM raw_records), 4) AS raw_missing_rate,\n           counts.curated_missing,\n           ROUND(1.0 * counts.curated_missing / (SELECT COUNT(*) FROM records), 4) AS curated_missing_rate\n    FROM fields\n    JOIN counts USING (field_key)\n    ORDER BY fields.sort_order",
         "tables_used": [
           "raw_records",
           "records"
         ],
         "metric_definitions": [
-          "Complétés: nombre brut de valeurs vides moins le nombre curé."
+          "Taux brut: valeurs vides divisées par 560 notices sources.",
+          "Taux curé: valeurs vides divisées par les éditions distinctes après regroupement."
         ]
       }
     },
@@ -779,9 +848,9 @@
       "query": {
         "engine": "SQLite",
         "language": "sql",
-        "executed_at": "2026-07-13",
+        "executed_at": "2026-07-14",
         "description": "Liste les publications de 1970 ou après sans ISBN et les publications sans année ni ISBN.",
-        "sql": "SELECT\n      id,\n      CASE WHEN TRIM(publication_year) = '' THEN 'Inconnue' ELSE publication_year END AS year,\n      CASE WHEN TRIM(title) = '' THEN 'Titre non renseigné' ELSE title END AS title,\n      CASE WHEN TRIM(author) = '' THEN 'Auteur non renseigné' ELSE author END AS author,\n      CASE isbn_status\n        WHEN 'missing_1970_or_later' THEN 'Absent, 1970 ou après'\n        WHEN 'missing_unknown_year' THEN 'Absent, année inconnue'\n      END AS reason\n    FROM records\n    WHERE isbn_status IN ('missing_1970_or_later', 'missing_unknown_year')\n    ORDER BY CASE WHEN publication_year = '' THEN 9999 ELSE CAST(publication_year AS INTEGER) END, id",
+        "sql": "SELECT\n      id,\n      CASE WHEN TRIM(publication_year) = '' THEN 'Inconnue' ELSE publication_year END AS year,\n      CASE WHEN TRIM(title) = '' THEN 'Titre non renseigné' ELSE title END AS title,\n      CASE WHEN TRIM(author_normalized) = '' THEN 'Auteur non renseigné' ELSE author_normalized END AS author,\n      CASE isbn_status\n        WHEN 'missing_1970_or_later' THEN 'Absent, 1970 ou après'\n        WHEN 'missing_unknown_year' THEN 'Absent, année inconnue'\n      END AS reason\n    FROM records\n    WHERE isbn_status IN ('missing_1970_or_later', 'missing_unknown_year')\n    ORDER BY CASE WHEN publication_year = '' THEN 9999 ELSE CAST(publication_year AS INTEGER) END, id",
         "tables_used": [
           "records"
         ]
@@ -793,7 +862,7 @@
       "query": {
         "engine": "SQLite",
         "language": "sql",
-        "executed_at": "2026-07-13",
+        "executed_at": "2026-07-14",
         "description": "Liste les champs réellement changés et le nombre de sources pour chaque notice corrigée.",
         "sql": "SELECT id, title, changed_fields, source_count, sources\n    FROM corrections\n    ORDER BY id",
         "tables_used": [
@@ -805,6 +874,11 @@
       "id": "curation_rules",
       "label": "Corrections manuelles et provenance bibliographique",
       "path": "data/library/library-curation.json"
+    },
+    {
+      "id": "normalization_rules",
+      "label": "Alias d’auteurs, regroupements d’éditeurs et politique de doublons",
+      "path": "data/library/library-normalization.json"
     },
     {
       "id": "isbn_agency",

@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CATALOGUE = ROOT / "assets/library/library-data.json"
 QUALITY = ROOT / "data/library/library-quality-report.json"
 OUTPUT = ROOT / "data/library/library-audit-artifact.json"
-GENERATED_AT = "2026-07-13"
+GENERATED_AT = "2026-07-14"
 
 
 def read_json(path: Path):
@@ -36,6 +36,11 @@ def main() -> None:
     catalogue = read_json(CATALOGUE)
     quality = read_json(QUALITY)
     records_by_id = {record["id"]: record for record in catalogue["records"]}
+    records_by_source_id = {
+        source_id: record
+        for record in catalogue["records"]
+        for source_id in record.get("source_record_ids", [record["id"]])
+    }
 
     field_labels = {
         "author": "Auteur",
@@ -49,7 +54,7 @@ def main() -> None:
     }
     correction_rows = []
     for applied in quality["applied_overrides"]:
-        record = records_by_id[applied["id"]]
+        record = records_by_source_id[applied["id"]]
         correction_rows.append({
             "id": applied["id"],
             "title": record["title"],
@@ -65,6 +70,7 @@ def main() -> None:
         CREATE TABLE records (
           id TEXT PRIMARY KEY,
           author TEXT,
+          author_normalized TEXT,
           title TEXT,
           isbn TEXT,
           publisher TEXT,
@@ -74,6 +80,7 @@ def main() -> None:
           series TEXT,
           isbn_status TEXT,
           publisher_normalized TEXT,
+          source_record_count INTEGER,
           has_openlibrary INTEGER
         )
         """
@@ -106,12 +113,12 @@ def main() -> None:
         """
     )
     record_fields = [
-        "id", "author", "title", "isbn", "publisher", "publication_date",
+        "id", "author", "author_normalized", "title", "isbn", "publisher", "publication_date",
         "publication_year", "genre", "series", "isbn_status",
-        "publisher_normalized",
+        "publisher_normalized", "source_record_count",
     ]
     connection.executemany(
-        "INSERT INTO records VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        "INSERT INTO records VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
         [
             tuple(record.get(field, "") for field in record_fields)
             + (1 if record.get("openlibrary") else 0,)
@@ -135,6 +142,7 @@ def main() -> None:
     summary_sql = """
     SELECT
       COUNT(*) AS records,
+      SUM(source_record_count) AS source_records,
       SUM(CASE WHEN isbn_status = 'valid' THEN 1 ELSE 0 END) AS valid_isbn,
       1.0 * SUM(CASE WHEN isbn_status = 'valid' THEN 1 ELSE 0 END) / COUNT(*) AS valid_isbn_share,
       SUM(CASE WHEN isbn_status = 'missing_pre_1970' THEN 1 ELSE 0 END) AS expected_pre1970_missing,
@@ -144,7 +152,8 @@ def main() -> None:
       1.0 * COUNT(DISTINCT CASE WHEN isbn_status = 'valid' AND has_openlibrary = 1 THEN isbn END)
         / COUNT(DISTINCT CASE WHEN isbn_status = 'valid' THEN isbn END) AS external_isbn_coverage,
       (SELECT COUNT(DISTINCT publisher) FROM raw_records WHERE TRIM(publisher) <> '') AS raw_publishers,
-      COUNT(DISTINCT CASE WHEN TRIM(publisher_normalized) <> '' THEN publisher_normalized END) AS normalized_publishers
+      COUNT(DISTINCT CASE WHEN TRIM(publisher_normalized) <> '' THEN publisher_normalized END) AS normalized_publishers,
+      COUNT(DISTINCT CASE WHEN TRIM(author_normalized) <> '' THEN author_normalized END) AS normalized_author_labels
     FROM records
     """.strip()
     isbn_status_sql = """
@@ -175,17 +184,19 @@ def main() -> None:
     ), counts AS (
       SELECT 'author' AS field_key,
              (SELECT SUM(TRIM(author) = '') FROM raw_records) AS raw_missing,
-             (SELECT SUM(TRIM(author) = '') FROM records) AS curated_missing
+             (SELECT SUM(TRIM(author_normalized) = '') FROM records) AS curated_missing
       UNION ALL SELECT 'title', (SELECT SUM(TRIM(title) = '') FROM raw_records), (SELECT SUM(TRIM(title) = '') FROM records)
       UNION ALL SELECT 'isbn', (SELECT SUM(TRIM(isbn) = '') FROM raw_records), (SELECT SUM(TRIM(isbn) = '') FROM records)
-      UNION ALL SELECT 'publisher', (SELECT SUM(TRIM(publisher) = '') FROM raw_records), (SELECT SUM(TRIM(publisher) = '') FROM records)
+      UNION ALL SELECT 'publisher', (SELECT SUM(TRIM(publisher) = '') FROM raw_records), (SELECT SUM(TRIM(publisher_normalized) = '') FROM records)
       UNION ALL SELECT 'publication_date', (SELECT SUM(TRIM(publication_date) = '') FROM raw_records), (SELECT SUM(TRIM(publication_date) = '') FROM records)
       UNION ALL SELECT 'publication_year', (SELECT SUM(TRIM(publication_year) = '') FROM raw_records), (SELECT SUM(TRIM(publication_year) = '') FROM records)
       UNION ALL SELECT 'genre', (SELECT SUM(TRIM(genre) = '') FROM raw_records), (SELECT SUM(TRIM(genre) = '') FROM records)
       UNION ALL SELECT 'series', (SELECT SUM(TRIM(series) = '') FROM raw_records), (SELECT SUM(TRIM(series) = '') FROM records)
     )
-    SELECT fields.field, counts.raw_missing, counts.curated_missing,
-           counts.raw_missing - counts.curated_missing AS resolved
+    SELECT fields.field, counts.raw_missing,
+           ROUND(1.0 * counts.raw_missing / (SELECT COUNT(*) FROM raw_records), 4) AS raw_missing_rate,
+           counts.curated_missing,
+           ROUND(1.0 * counts.curated_missing / (SELECT COUNT(*) FROM records), 4) AS curated_missing_rate
     FROM fields
     JOIN counts USING (field_key)
     ORDER BY fields.sort_order
@@ -195,7 +206,7 @@ def main() -> None:
       id,
       CASE WHEN TRIM(publication_year) = '' THEN 'Inconnue' ELSE publication_year END AS year,
       CASE WHEN TRIM(title) = '' THEN 'Titre non renseigné' ELSE title END AS title,
-      CASE WHEN TRIM(author) = '' THEN 'Auteur non renseigné' ELSE author END AS author,
+      CASE WHEN TRIM(author_normalized) = '' THEN 'Auteur non renseigné' ELSE author_normalized END AS author,
       CASE isbn_status
         WHEN 'missing_1970_or_later' THEN 'Absent, 1970 ou après'
         WHEN 'missing_unknown_year' THEN 'Absent, année inconnue'
@@ -269,10 +280,13 @@ def main() -> None:
                 "engine": "SQLite",
                 "language": "sql",
                 "executed_at": GENERATED_AT,
-                "description": "Compare les valeurs vides dans l’extraction CLZ et dans le catalogue curé.",
+                "description": "Compare les nombres et taux de valeurs vides dans l’extraction CLZ et dans le catalogue regroupé.",
                 "sql": missing_fields_sql,
                 "tables_used": ["raw_records", "records"],
-                "metric_definitions": ["Complétés: nombre brut de valeurs vides moins le nombre curé."],
+                "metric_definitions": [
+                    "Taux brut: valeurs vides divisées par 560 notices sources.",
+                    "Taux curé: valeurs vides divisées par les éditions distinctes après regroupement.",
+                ],
             },
         },
         {
@@ -305,6 +319,11 @@ def main() -> None:
             "path": "data/library/library-curation.json",
         },
         {
+            "id": "normalization_rules",
+            "label": "Alias d’auteurs, regroupements d’éditeurs et politique de doublons",
+            "path": "data/library/library-normalization.json",
+        },
+        {
             "id": "isbn_agency",
             "label": "International ISBN Agency, historique du SBN et de l’ISBN",
             "href": "https://www.isbn-international.org/sites/default/files/BIC%20Bites%20International%20Standard%20Book%20Number_FINAL.pdf",
@@ -320,10 +339,13 @@ def main() -> None:
         "cards": [
             {
                 "id": "catalogue_size",
-                "description": "Taille de la collection conservée après curation.",
+                "description": "Taille de la collection après regroupement des doublons traçables.",
                 "dataset": "summary",
                 "sourceId": "summary_sql",
-                "metrics": [{"label": "Notices conservées", "field": "records", "format": "number"}],
+                "metrics": [
+                    {"label": "Éditions distinctes", "field": "records", "format": "number"},
+                    {"label": "Notices CLZ sources", "field": "source_records", "format": "number"},
+                ],
             },
             {
                 "id": "isbn_validity",
@@ -384,13 +406,14 @@ def main() -> None:
                 "subtitle": "Les genres CLZ restent volontairement inchangés, car la taxonomie externe n’est pas homogène.",
                 "dataset": "missing_fields",
                 "sourceId": "missing_fields_sql",
-                "defaultSort": {"field": "resolved", "direction": "desc"},
+                "defaultSort": {"field": "curated_missing_rate", "direction": "desc"},
                 "density": "dense",
                 "columns": [
                     {"field": "field", "label": "Champ", "type": "text"},
                     {"field": "raw_missing", "label": "Manquants, brut", "format": "number"},
+                    {"field": "raw_missing_rate", "label": "Taux brut", "format": "percent"},
                     {"field": "curated_missing", "label": "Manquants, curé", "format": "number"},
-                    {"field": "resolved", "label": "Complétés", "format": "number"},
+                    {"field": "curated_missing_rate", "label": "Taux curé", "format": "percent"},
                 ],
             },
             {
@@ -434,8 +457,11 @@ def main() -> None:
                 "sourceId": "quality_pipeline",
                 "body": (
                     "## Executive Summary\n\n"
-                    f"La base conserve les {summary_row['records']} notices CLZ "
-                    "et ne contient aucun ISBN invalide. "
+                    f"La base conserve les {summary_row['source_records']} notices CLZ "
+                    f"comme preuve brute et les présente sous la forme de {summary_row['records']} "
+                    f"éditions distinctes issues de {summary_row['source_records']} notices sources. "
+                    f"Les {quality['duplicate_group_count']} groupes de doublons restent entièrement "
+                    "traçables et aucun ISBN invalide n’est présent. "
                     f"{summary_row['corrected_records']} notices ont reçu des "
                     "corrections manuelles à confiance élevée, soit "
                     f"{summary_row['changed_fields']} champs réellement modifiés. "
@@ -460,7 +486,8 @@ def main() -> None:
                     "collections. La normalisation analytique ramène "
                     f"{summary_row['raw_publishers']} libellés d’éditeur à "
                     f"{summary_row['normalized_publishers']} maisons d’édition, "
-                    "tout en conservant le libellé CLZ original dans chaque notice."
+                    f"normalise {quality['normalization']['author_record_change_count']} "
+                    "notices d’auteur et conserve les libellés CLZ originaux."
                 ),
             },
             {"id": "missing_fields", "type": "table", "tableId": "missing_fields_table", "layout": "full"},
@@ -468,21 +495,21 @@ def main() -> None:
                 "id": "remaining_cases",
                 "type": "markdown",
                 "sourceId": "isbn_agency",
-                "body": "## Cas restant à examiner\n\nLa règle de travail classe l’absence d’ISBN avant 1970 comme attendue. Le SBN a commencé au Royaume-Uni en 1967 et la norme internationale ISBN a été approuvée en 1970. Pour les publications ultérieures, l’absence peut encore être légitime selon l’édition; une vérification de la page de copyright du livre physique serait nécessaire pour trancher les 13 cas signalés.",
+                "body": f"## Cas restant à examiner\n\nLa règle de travail classe l’absence d’ISBN avant 1970 comme attendue. Le SBN a commencé au Royaume-Uni en 1967 et la norme internationale ISBN a été approuvée en 1970. Pour les publications ultérieures, l’absence peut encore être légitime selon l’édition; une vérification de la page de copyright du livre physique serait nécessaire pour trancher les {summary_row['isbn_to_review']} cas signalés.",
             },
             {"id": "review_cases", "type": "table", "tableId": "review_cases_table", "layout": "full"},
             {
                 "id": "corrections",
                 "type": "markdown",
                 "sourceId": "curation_rules",
-                "body": "## Corrections appliquées\n\nLes changements majeurs comprennent deux ISBN nettoyés, deux titres qui ne correspondaient pas à leur ISBN, quatre années d’édition corrigées, des auteurs complétés et la rectification du nom Gérard A. Philippin. Les doublons possibles sont conservés, car ils peuvent représenter plusieurs exemplaires physiques.",
+                "body": f"## Corrections appliquées\n\nLes corrections manuelles sont limitées aux correspondances bibliographiques à confiance élevée. La normalisation des auteurs et des éditeurs est définie dans une table distincte. Les {quality['duplicate_group_count']} groupes de doublons sont représentés par une notice canonique et la liste complète des identifiants sources. Le nombre de notices sources ne préjuge pas du nombre d’exemplaires physiques.",
             },
             {"id": "correction_log", "type": "table", "tableId": "correction_log_table", "layout": "full"},
             {
                 "id": "methodology",
                 "type": "markdown",
-                "sourceId": "curation_rules",
-                "body": "## Méthodologie et limites\n\nLa couche CLZ brute est immuable. Open Library ne complète que les champs vides après une correspondance exacte par ISBN. Une valeur existante n’est remplacée que par une règle manuelle à confiance élevée et sourcée. Les couvertures reposent soit sur un identifiant d’édition exact, soit sur une correspondance stricte du titre, de l’auteur, de l’année et de la maison d’édition. Les images génériques qui ne représentent pas la couverture véritable sont exclues. Les sujets externes sont conservés comme information secondaire, mais le genre CLZ n’est pas imputé automatiquement, car les vocabulaires ne sont pas comparables.",
+                "sourceId": "normalization_rules",
+                "body": "## Méthodologie et limites\n\nLa couche CLZ brute est immuable. Open Library ne complète que les champs vides après une correspondance exacte par ISBN. Une valeur existante n’est remplacée que par une règle manuelle à confiance élevée et sourcée. Les doublons partageant un ISBN valide sont regroupés; sans ISBN, le titre et les auteurs doivent être compatibles et aucun conflit d’année, d’éditeur ou de collection n’est permis. Deux ISBN valides distincts ne sont jamais fusionnés. Les couvertures reposent soit sur un identifiant d’édition exact, soit sur une correspondance bibliographique stricte. Les images génériques sont exclues.",
             },
         ],
     }

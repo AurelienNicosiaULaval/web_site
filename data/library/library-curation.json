@@ -4,7 +4,7 @@
     "confidence_threshold": "high",
     "missing_isbn_before_1970": "expected",
     "missing_isbn_from_1970": "review",
-    "duplicate_records": "preserve because distinct physical copies cannot be ruled out",
+    "duplicate_records": "group records sharing the same valid ISBN or fully compatible bibliographic metadata; preserve every source record through source_record_ids and source_record_count without inferring a physical copy count",
     "external_metadata": "use exact ISBN matches only; never replace a non-empty CLZ value without a manual, sourced override",
     "cover_metadata": "prefer exact ISBN matches; otherwise require a strict title-author-year-publisher edition match and preserve provider provenance"
   },
@@ -116,6 +116,22 @@
     "scholarvox_philippin": {
       "title": "ScholarVox, Éléments de mathématiques appliquées à la physique",
       "url": "https://uiz.scholarvox.com/catalog/book/45006870?_locale=fr"
+    },
+    "springer_marceau": {
+      "title": "Springer, Modélisation et évaluation quantitative des risques en actuariat",
+      "url": "https://link.springer.com/book/10.1007/978-2-8178-0112-4"
+    },
+    "dunod_ramis": {
+      "title": "Dunod, bibliographie d’Edmond Ramis et série Le cours de mathématiques",
+      "url": "https://www.dunod.com/livres-edmond-ramis"
+    },
+    "polypublie_hines": {
+      "title": "PolyPublie, Probabilités et statistique pour ingénieurs, ISBN 2765102457",
+      "url": "https://publications.polymtl.ca/24481/"
+    },
+    "cheneliere_hines": {
+      "title": "Chenelière, Probabilités et statistique pour ingénieurs",
+      "url": "https://www.cheneliere.ca/en/higher-education/mathematics/probability-and-statistics.html"
     }
   },
   "overrides": [
@@ -326,6 +342,70 @@
         "title": "Ondes, optique et physique moderne",
         "isbn": "9782761300391",
         "publisher": "Éditions du Renouveau Pédagogique Inc."
+      }
+    },
+    {
+      "id": "book-0133",
+      "confidence": "high",
+      "reason": "The exact-ISBN record identifies Jean Alexandre Dieudonné as the author and Hermann as the publisher; the CLZ author field was fragmented.",
+      "sources": ["openlibrary_exact"],
+      "changes": {
+        "author": "Jean Alexandre Dieudonné",
+        "publisher": "Hermann"
+      }
+    },
+    {
+      "id": "book-0304",
+      "confidence": "high",
+      "reason": "The Springer book page identifies Étienne Marceau as the sole author of this exact edition.",
+      "sources": ["springer_marceau"],
+      "changes": {
+        "author": "Étienne Marceau"
+      }
+    },
+    {
+      "id": "book-0377",
+      "confidence": "high",
+      "reason": "The official Dunod series page identifies the three authors of this volume.",
+      "sources": ["dunod_ramis"],
+      "changes": {
+        "author": "Edmond Ramis | Claude Deschamps | Jacques Odoux"
+      }
+    },
+    {
+      "id": "book-0378",
+      "confidence": "high",
+      "reason": "The official Dunod series page identifies the three authors of this volume.",
+      "sources": ["dunod_ramis"],
+      "changes": {
+        "author": "Edmond Ramis | Claude Deschamps | Jacques Odoux"
+      }
+    },
+    {
+      "id": "book-0379",
+      "confidence": "high",
+      "reason": "The official Dunod series page identifies the three authors of this volume.",
+      "sources": ["dunod_ramis"],
+      "changes": {
+        "author": "Edmond Ramis | Claude Deschamps | Jacques Odoux"
+      }
+    },
+    {
+      "id": "book-0380",
+      "confidence": "high",
+      "reason": "The official Dunod series page identifies the three authors of this volume.",
+      "sources": ["dunod_ramis"],
+      "changes": {
+        "author": "Edmond Ramis | Claude Deschamps | Jacques Odoux"
+      }
+    },
+    {
+      "id": "book-0554",
+      "confidence": "high",
+      "reason": "The institutional exact-edition record and the official publisher catalogue identify the authors; the CLZ value was the sentinel Unknown.",
+      "sources": ["polypublie_hines", "cheneliere_hines"],
+      "changes": {
+        "author": "Luc Adjengue | J. P. Carmichael | William W. Hines | Douglas C. Montgomery | David M. Goldsman | Connie M. Borror"
       }
     }
   ]

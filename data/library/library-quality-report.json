@@ -1,17 +1,418 @@
 {
   "generated_on": "2026-07-14",
-  "record_count": 560,
+  "record_count": 546,
   "raw_record_count": 560,
-  "manual_override_count": 19,
-  "manual_field_change_count": 55,
-  "openlibrary_exact_match_count": 326,
-  "openlibrary_exact_match_rate": 0.5821,
+  "source_record_count": 560,
+  "unique_catalogue_record_count": 546,
+  "duplicate_group_count": 14,
+  "duplicate_source_record_count": 28,
+  "duplicate_records_collapsed_count": 14,
+  "duplicate_reason_counts": {
+    "compatible_bibliographic_metadata": 5,
+    "same_valid_isbn": 9
+  },
+  "duplicate_groups": [
+    {
+      "canonical_record_id": "book-0014",
+      "source_record_ids": [
+        "book-0013",
+        "book-0014"
+      ],
+      "source_record_count": 2,
+      "reason": "compatible_bibliographic_metadata",
+      "isbn": "",
+      "title": "Programmation linéaire",
+      "author_normalized": "s. Achmanov",
+      "publisher_normalized": "Éditions Mir",
+      "publication_year": "1984"
+    },
+    {
+      "canonical_record_id": "book-0042",
+      "source_record_ids": [
+        "book-0042",
+        "book-0043"
+      ],
+      "source_record_count": 2,
+      "reason": "compatible_bibliographic_metadata",
+      "isbn": "",
+      "title": "Cours de mathématiques",
+      "author_normalized": "J. Bass",
+      "publisher_normalized": "Masson",
+      "publication_year": "1964"
+    },
+    {
+      "canonical_record_id": "book-0089",
+      "source_record_ids": [
+        "book-0482",
+        "book-0089"
+      ],
+      "source_record_count": 2,
+      "reason": "same_valid_isbn",
+      "isbn": "9782891051828",
+      "title": "La statistique: Démarche pédagogique programmée",
+      "author_normalized": "Howard B. Christensen",
+      "publisher_normalized": "Gaëtan Morin",
+      "publication_year": "1986"
+    },
+    {
+      "canonical_record_id": "book-0111",
+      "source_record_ids": [
+        "book-0111",
+        "book-0207"
+      ],
+      "source_record_count": 2,
+      "reason": "compatible_bibliographic_metadata",
+      "isbn": "",
+      "title": "Stationary and Related Stochastic Processes",
+      "author_normalized": "Harald Cramér | M. R. Leadbetter",
+      "publisher_normalized": "Wiley",
+      "publication_year": "1967"
+    },
+    {
+      "canonical_record_id": "book-0163",
+      "source_record_ids": [
+        "book-0162",
+        "book-0163"
+      ],
+      "source_record_count": 2,
+      "reason": "compatible_bibliographic_metadata",
+      "isbn": "",
+      "title": "Probability theory and mathematical statistics.",
+      "author_normalized": "Marek Fisz",
+      "publisher_normalized": "Wiley",
+      "publication_year": "1963"
+    },
+    {
+      "canonical_record_id": "book-0173",
+      "source_record_ids": [
+        "book-0173",
+        "book-0174"
+      ],
+      "source_record_count": 2,
+      "reason": "same_valid_isbn",
+      "isbn": "9782290352113",
+      "title": "FORMULAIRE DE MATHEMATIQUES",
+      "author_normalized": "Alain Gastineau",
+      "publisher_normalized": "J'ai lu",
+      "publication_year": "2006"
+    },
+    {
+      "canonical_record_id": "book-0263",
+      "source_record_ids": [
+        "book-0511",
+        "book-0263"
+      ],
+      "source_record_count": 2,
+      "reason": "same_valid_isbn",
+      "isbn": "9780471553809",
+      "title": "Advanced Engineering Mathematics, 7th Edition",
+      "author_normalized": "Erwin Kreyszig",
+      "publisher_normalized": "Wiley",
+      "publication_year": "1992"
+    },
+    {
+      "canonical_record_id": "book-0279",
+      "source_record_ids": [
+        "book-0279",
+        "book-0280"
+      ],
+      "source_record_count": 2,
+      "reason": "same_valid_isbn",
+      "isbn": "9782891132015",
+      "title": "Algèbre linéaire : une approche matricielle",
+      "author_normalized": "Pierre Leroux",
+      "publisher_normalized": "Modulo",
+      "publication_year": "1983"
+    },
+    {
+      "canonical_record_id": "book-0294",
+      "source_record_ids": [
+        "book-0293",
+        "book-0294"
+      ],
+      "source_record_count": 2,
+      "reason": "compatible_bibliographic_metadata",
+      "isbn": "",
+      "title": "Advanced Calculus",
+      "author_normalized": "Lynn H. Loomis | Shlomo Sternberg",
+      "publisher_normalized": "Addison-Wesley",
+      "publication_year": "1968"
+    },
+    {
+      "canonical_record_id": "book-0327",
+      "source_record_ids": [
+        "book-0327",
+        "book-0328"
+      ],
+      "source_record_count": 2,
+      "reason": "same_valid_isbn",
+      "isbn": "9780486653556",
+      "title": "Fifty Challenging Problems in Probability with Solutions",
+      "author_normalized": "Frederick Mosteller",
+      "publisher_normalized": "Courier Corporation",
+      "publication_year": "1987"
+    },
+    {
+      "canonical_record_id": "book-0360",
+      "source_record_ids": [
+        "book-0360",
+        "book-0361"
+      ],
+      "source_record_count": 2,
+      "reason": "same_valid_isbn",
+      "isbn": "9782729855529",
+      "title": "Cours d'algèbre (Agrégation)",
+      "author_normalized": "Daniel Perrin",
+      "publisher_normalized": "Ellipses",
+      "publication_year": "1996"
+    },
+    {
+      "canonical_record_id": "book-0385",
+      "source_record_ids": [
+        "book-0385",
+        "book-0387"
+      ],
+      "source_record_count": 2,
+      "reason": "same_valid_isbn",
+      "isbn": "9782761300391",
+      "title": "Ondes, optique et physique moderne",
+      "author_normalized": "Robert Resnick | David Halliday",
+      "publisher_normalized": "ERPI",
+      "publication_year": "1980"
+    },
+    {
+      "canonical_record_id": "book-0408",
+      "source_record_ids": [
+        "book-0408",
+        "book-0409"
+      ],
+      "source_record_count": 2,
+      "reason": "same_valid_isbn",
+      "isbn": "9780471751700",
+      "title": "An Introduction to Linear Algebra (Wiley Medical Publication)",
+      "author_normalized": "Hans Samelson",
+      "publisher_normalized": "Wiley",
+      "publication_year": "1974"
+    },
+    {
+      "canonical_record_id": "book-0462",
+      "source_record_ids": [
+        "book-0462",
+        "book-0463"
+      ],
+      "source_record_count": 2,
+      "reason": "same_valid_isbn",
+      "isbn": "9780070721883",
+      "title": "Advanced engineering mathematics",
+      "author_normalized": "C.R. Wylie",
+      "publisher_normalized": "McGraw-Hill",
+      "publication_year": "1982"
+    }
+  ],
+  "preserved_distinct_isbn_group_count": 16,
+  "preserved_distinct_isbn_groups": [
+    {
+      "title": "Calcul intégral",
+      "record_ids": [
+        "book-0019",
+        "book-0077",
+        "book-0493"
+      ],
+      "isbns": [
+        "9782765062479",
+        "9782766157426",
+        "9782842250539"
+      ]
+    },
+    {
+      "title": "Introduction à la statistique",
+      "record_ids": [
+        "book-0475",
+        "book-0529"
+      ],
+      "isbns": [
+        "9782880743727",
+        "9782891051125"
+      ]
+    },
+    {
+      "title": "Equations différentielles",
+      "record_ids": [
+        "book-0054",
+        "book-0479"
+      ],
+      "isbns": [
+        "9782842252298",
+        "9782894617151"
+      ]
+    },
+    {
+      "title": "Le Frido 2021",
+      "record_ids": [
+        "book-0091",
+        "book-0092",
+        "book-0093",
+        "book-0094"
+      ],
+      "isbns": [
+        "9791097085261",
+        "9791097085278",
+        "9791097085285",
+        "9791097085292"
+      ]
+    },
+    {
+      "title": "ALGEBRE",
+      "record_ids": [
+        "book-0100",
+        "book-0221",
+        "book-0269",
+        "book-0373"
+      ],
+      "isbns": [
+        "9782100814718",
+        "9782100856176",
+        "9782606012052"
+      ]
+    },
+    {
+      "title": "Linear Algebra",
+      "record_ids": [
+        "book-0164",
+        "book-0226",
+        "book-0417"
+      ],
+      "isbns": [
+        "9780201526752",
+        "9780486635187"
+      ]
+    },
+    {
+      "title": "Astronomical Algorithms",
+      "record_ids": [
+        "book-0218",
+        "book-0314"
+      ],
+      "isbns": [
+        "9780943396613",
+        "9780943396637"
+      ]
+    },
+    {
+      "title": "Probabilités et statistique pour ingénieurs",
+      "record_ids": [
+        "book-0502",
+        "book-0554"
+      ],
+      "isbns": [
+        "9782765051886",
+        "9782765102458"
+      ]
+    },
+    {
+      "title": "MATHEMATIQUES: leur contenu, leurs méthodes, leur signification (Mathématiques, par Alexandrov, Kolmogorov et Lavrentiev) (French Edition)",
+      "record_ids": [
+        "book-0255",
+        "book-0256",
+        "book-0257"
+      ],
+      "isbns": [
+        "9782957239115",
+        "9782957239122",
+        "9782957239139"
+      ]
+    },
+    {
+      "title": "Introduction aux mathématiques de l'ingénieur",
+      "record_ids": [
+        "book-0508",
+        "book-0509"
+      ],
+      "isbns": [
+        "9782921180801",
+        "9782924601020"
+      ]
+    },
+    {
+      "title": "Graphs, Models and Finite Mathematics",
+      "record_ids": [
+        "book-0300",
+        "book-0301"
+      ],
+      "isbns": [
+        "9780133633900",
+        "9780133634655"
+      ]
+    },
+    {
+      "title": "Fonctions de plusieurs variables",
+      "record_ids": [
+        "book-0524",
+        "book-0318"
+      ],
+      "isbns": [
+        "9782894612606",
+        "9782921120364"
+      ]
+    },
+    {
+      "title": "Design and Analysis of Experiments",
+      "record_ids": [
+        "book-0324",
+        "book-0527"
+      ],
+      "isbns": [
+        "9780471157465",
+        "9780471520009"
+      ]
+    },
+    {
+      "title": "Probabilités et statistique",
+      "record_ids": [
+        "book-0530",
+        "book-0546"
+      ],
+      "isbns": [
+        "9782880741488",
+        "9782897320430"
+      ]
+    },
+    {
+      "title": "Cours d'analyse à l'usage des ingénieurs",
+      "record_ids": [
+        "book-0538",
+        "book-0539"
+      ],
+      "isbns": [
+        "9782760616103",
+        "9782760616424"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence A Modern Approach",
+      "record_ids": [
+        "book-0404",
+        "book-0405"
+      ],
+      "isbns": [
+        "9780131038059",
+        "9780136042594"
+      ]
+    }
+  ],
+  "manual_override_count": 26,
+  "manual_field_change_count": 63,
+  "openlibrary_exact_match_count": 317,
+  "openlibrary_exact_match_rate": 0.5806,
   "unique_valid_isbn_count": 452,
   "openlibrary_unique_isbn_match_count": 317,
   "openlibrary_unique_isbn_match_rate": 0.7013,
-  "openlibrary_filled_fields": {},
-  "cover_record_count": 463,
-  "cover_record_rate": 0.8268,
+  "openlibrary_filled_fields": {
+    "author": 1,
+    "publisher": 1
+  },
+  "cover_record_count": 453,
+  "cover_record_rate": 0.8297,
   "cover_providers": {
     "AbeBooks": 43,
     "Anticariat.net": 1,
@@ -20,20 +421,19 @@
     "Internet Archive": 1,
     "LaLibrairie.com": 55,
     "Mir Titles": 1,
-    "Open Library": 278,
+    "Open Library": 268,
     "Éditions Ellipses": 21
   },
   "cover_match_methods": {
-    "exact_isbn": 441,
+    "exact_isbn": 432,
     "exact_isbn_search": 1,
     "title_author_year_publisher": 15,
-    "title_author_year_publisher_work": 6
+    "title_author_year_publisher_work": 5
   },
   "isbn_status": {
     "missing_1970_or_later": 12,
-    "missing_pre_1970": 86,
-    "missing_unknown_year": 1,
-    "valid": 461
+    "missing_pre_1970": 82,
+    "valid": 452
   },
   "raw_missing_fields": {
     "author": 9,
@@ -48,23 +448,27 @@
   "missing_fields": {
     "author": 3,
     "title": 0,
-    "isbn": 99,
-    "publisher": 17,
-    "publication_date": 1,
-    "publication_year": 1,
-    "genre": 556,
-    "series": 552
+    "isbn": 94,
+    "publisher": 16,
+    "publication_date": 0,
+    "publication_year": 0,
+    "genre": 542,
+    "series": 538
   },
   "raw_publisher_label_count": 257,
-  "normalized_publisher_count": 240,
+  "normalized_publisher_count": 163,
+  "raw_author_label_count": 654,
+  "normalized_author_count": 640,
+  "normalization": {
+    "author_record_change_count": 29,
+    "publisher_record_change_count": 248,
+    "duplicate_author_name_count_removed": 1
+  },
   "quality_flags": {
     "missing_author": 3,
     "missing_isbn_1970_or_later": 12,
-    "missing_isbn_unknown_year": 1,
-    "missing_or_invalid_year": 1,
-    "missing_publisher": 17,
-    "same_title_author_possible_multiple_copy": 35,
-    "shared_isbn_possible_multiple_copy": 18
+    "missing_publisher": 16,
+    "same_title_author_related_editions": 17
   },
   "remaining_review_records": [
     {
@@ -118,27 +522,13 @@
       ]
     },
     {
-      "id": "book-0013",
-      "author": "s. Achmanov",
-      "title": "programmation linéaire",
-      "publication_year": "",
-      "isbn_status": "missing_unknown_year",
-      "quality_flags": [
-        "missing_isbn_unknown_year",
-        "missing_publisher",
-        "missing_or_invalid_year",
-        "same_title_author_possible_multiple_copy"
-      ]
-    },
-    {
       "id": "book-0014",
       "author": "s. Achmanov",
       "title": "Programmation linéaire",
       "publication_year": "1984",
       "isbn_status": "missing_1970_or_later",
       "quality_flags": [
-        "missing_isbn_1970_or_later",
-        "same_title_author_possible_multiple_copy"
+        "missing_isbn_1970_or_later"
       ]
     },
     {
@@ -548,6 +938,93 @@
       "sources": [
         "clz_sibling",
         "openlibrary_search"
+      ]
+    },
+    {
+      "id": "book-0133",
+      "before": {
+        "author": "DieudonnÉ | Jean | Al. Et",
+        "publisher": "Paris: Hermann, 1978."
+      },
+      "after": {
+        "author": "Jean Alexandre Dieudonné",
+        "publisher": "Hermann"
+      },
+      "sources": [
+        "openlibrary_exact"
+      ]
+    },
+    {
+      "id": "book-0304",
+      "before": {
+        "author": "Marceau | Etienne"
+      },
+      "after": {
+        "author": "Étienne Marceau"
+      },
+      "sources": [
+        "springer_marceau"
+      ]
+    },
+    {
+      "id": "book-0377",
+      "before": {
+        "author": "Edmon Ramis"
+      },
+      "after": {
+        "author": "Edmond Ramis | Claude Deschamps | Jacques Odoux"
+      },
+      "sources": [
+        "dunod_ramis"
+      ]
+    },
+    {
+      "id": "book-0378",
+      "before": {
+        "author": "Edmond Ramis"
+      },
+      "after": {
+        "author": "Edmond Ramis | Claude Deschamps | Jacques Odoux"
+      },
+      "sources": [
+        "dunod_ramis"
+      ]
+    },
+    {
+      "id": "book-0379",
+      "before": {
+        "author": "Edmond Ramis"
+      },
+      "after": {
+        "author": "Edmond Ramis | Claude Deschamps | Jacques Odoux"
+      },
+      "sources": [
+        "dunod_ramis"
+      ]
+    },
+    {
+      "id": "book-0380",
+      "before": {
+        "author": "Edmond Ramis"
+      },
+      "after": {
+        "author": "Edmond Ramis | Claude Deschamps | Jacques Odoux"
+      },
+      "sources": [
+        "dunod_ramis"
+      ]
+    },
+    {
+      "id": "book-0554",
+      "before": {
+        "author": "Unknown"
+      },
+      "after": {
+        "author": "Luc Adjengue | J. P. Carmichael | William W. Hines | Douglas C. Montgomery | David M. Goldsman | Connie M. Borror"
+      },
+      "sources": [
+        "polypublie_hines",
+        "cheneliere_hines"
       ]
     }
   ]

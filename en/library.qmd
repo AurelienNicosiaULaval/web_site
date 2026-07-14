@@ -18,7 +18,7 @@ resources:
 ::: {.library-hero-copy}
 <h1 id="library-title">My library</h1>
 
-<p class="library-lead">A living collection of <span data-total-books>560</span> books spanning mathematics classics, statistics, data science, and scientific curiosities.</p>
+<p class="library-lead">A living collection of <span data-total-books>546</span> distinct editions derived from <span data-total-source-records>560</span> CLZ records, spanning mathematics classics, statistics, data science, and scientific curiosities.</p>
 
 ::: {.library-actions}
 <button class="library-button library-button-primary" id="library-explore" type="button"><i class="bi bi-book" aria-hidden="true"></i>Explore the catalogue</button>
@@ -28,8 +28,8 @@ resources:
 ::: {.library-hero-metrics aria-label="Collection overview"}
 ::: {.library-hero-metric}
 <i class="bi bi-bookshelf" aria-hidden="true"></i>
-<span class="library-metric-value" data-total-books>560</span>
-<span class="library-metric-label">books</span>
+<span class="library-metric-value" data-total-books>546</span>
+<span class="library-metric-label">editions · <span data-total-source-records>560</span> source records</span>
 :::
 ::: {.library-hero-metric}
 <i class="bi bi-calendar3" aria-hidden="true"></i>
@@ -38,7 +38,7 @@ resources:
 :::
 ::: {.library-hero-metric}
 <i class="bi bi-building" aria-hidden="true"></i>
-<span class="library-metric-value" data-publisher-count>240</span>
+<span class="library-metric-value" data-publisher-count>163</span>
 <span class="library-metric-label">publishers</span>
 :::
 :::
@@ -70,7 +70,7 @@ resources:
 ::: {.library-insight}
 <i class="bi bi-calendar-check" aria-hidden="true"></i>
 <span>Median year</span>
-<strong data-median-year>1996</strong>
+<strong data-median-year>1997</strong>
 :::
 ::: {.library-insight}
 <i class="bi bi-calendar-range" aria-hidden="true"></i>
@@ -80,16 +80,16 @@ resources:
 ::: {.library-insight}
 <i class="bi bi-book" aria-hidden="true"></i>
 <span>Year recorded</span>
-<strong><span data-known-year-count>559</span> books</strong>
+<strong><span data-known-year-count>546</span> editions</strong>
 :::
 ::: {.library-insight}
 <i class="bi bi-upc-scan" aria-hidden="true"></i>
 <span>ISBN to review</span>
-<strong><span data-review-isbn-count>13</span> entries</strong>
+<strong><span data-review-isbn-count>12</span> entries</strong>
 :::
 :::
 
-<p class="library-method-note"><i class="bi bi-info-circle" aria-hidden="true"></i>The <span data-pre1970-missing-isbn-count>86</span> books published before 1970 without an ISBN are classified as expected. Publisher variants are grouped through a normalization table that preserves the original CLZ label.</p>
+<p class="library-method-note"><i class="bi bi-info-circle" aria-hidden="true"></i>The <span data-pre1970-missing-isbn-count>82</span> editions published before 1970 without an ISBN are classified as expected. Author and publisher variants are grouped through an explicit normalization table that preserves the original CLZ labels.</p>
 :::
 :::
 
@@ -115,7 +115,7 @@ resources:
 ::: {.library-search-wrap}
 <i class="bi bi-search" aria-hidden="true"></i>
 <label class="visually-hidden" for="library-search">Search the catalogue</label>
-<input id="library-search" type="search" placeholder="Search 560 books" autocomplete="off">
+<input id="library-search" type="search" placeholder="Search 546 books" autocomplete="off">
 :::
 
 ::: {.library-filter-rail}
@@ -141,7 +141,7 @@ resources:
 :::
 
 ::: {.library-result-head}
-<p id="library-result-count" aria-live="polite">560 books</p>
+<p id="library-result-count" aria-live="polite">546 books</p>
 :::
 
 <div id="library-book-grid" class="library-book-grid"></div>
@@ -151,8 +151,8 @@ resources:
 <button id="library-load-more" class="library-button library-button-secondary" type="button">Show 24 more books</button>
 :::
 
-<p class="library-cover-note"><span data-cover-count>463</span> books, or <span data-cover-rate>82.7</span>% of the catalogue, now have a cover supplied by bibliographic indexes, publishers, booksellers, or digitized collections. Exact ISBN matches take priority; books without an ISBN require a strict title, author, year, and publisher match.</p>
-<p class="library-source-note">Primary source: CLZ Books export dated July 14, 2026. Empty bibliographic fields were completed through exact ISBN matches with Open Library. Generic images that do not represent the actual cover are excluded. Each external cover retains its provider, matching method, and provenance link in the catalogue.</p>
+<p class="library-cover-note"><span data-cover-count>453</span> editions, or <span data-cover-rate>83.0</span>% of the catalogue, now have a cover supplied by bibliographic indexes, publishers, booksellers, or digitized collections. Exact ISBN matches take priority; books without an ISBN require a strict title, author, year, and publisher match.</p>
+<p class="library-source-note">Primary source: CLZ Books export dated July 14, 2026. All 560 source records remain traceable; 14 duplicate groups are presented as 546 editions. Grouped source records do not establish the number of physical copies. Empty bibliographic fields were completed through exact ISBN matches with Open Library. Generic images that do not represent the actual cover are excluded. Each external cover retains its provider, matching method, and provenance link in the catalogue.</p>
 :::
 :::
 

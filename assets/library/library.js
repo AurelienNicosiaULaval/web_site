@@ -21,6 +21,7 @@
       unknownValue: "Non renseigné",
       author: "Auteur",
       publisher: "Éditeur",
+      sourceRecords: "Notices CLZ regroupées",
       year: "Année",
       isbn: "ISBN",
       date: "Date de publication",
@@ -50,6 +51,7 @@
       unknownValue: "Not recorded",
       author: "Author",
       publisher: "Publisher",
+      sourceRecords: "Grouped CLZ records",
       year: "Year",
       isbn: "ISBN",
       date: "Publication date",
@@ -131,6 +133,10 @@
     return record.publisher_normalized || record.publisher || "";
   }
 
+  function authorFor(record) {
+    return record.author_normalized || record.author || copy.unknownAuthor;
+  }
+
   function numericYear(record) {
     const value = String(record.publication_year || "").trim();
     return /^(18|19|20)\d{2}$/.test(value) ? Number(value) : null;
@@ -146,7 +152,7 @@
   }
 
   function paletteFor(record) {
-    return colors[hashString(`${record.title}|${record.author}|${record.id}`) % colors.length];
+    return colors[hashString(`${record.title}|${authorFor(record)}|${record.id}`) % colors.length];
   }
 
   function setCoverVariables(element, record) {
@@ -161,21 +167,13 @@
     return record.title || copy.untitled;
   }
 
-  function authorFor(record) {
-    return record.author || copy.unknownAuthor;
-  }
-
   function coverImageFor(record, size = "M") {
     const sizeKey = { S: "small", M: "medium", L: "large" }[size] || "medium";
     return record.cover?.images?.[sizeKey] || record.openlibrary?.cover?.[sizeKey] || "";
   }
 
   function canonicalPublisher(values) {
-    const mixedCase = values.find((value) => value !== value.toLocaleUpperCase(locale));
-    if (mixedCase) return mixedCase;
-    return values[0]
-      .toLocaleLowerCase(locale)
-      .replace(/(^|[\s/.-])\p{L}/gu, (match) => match.toLocaleUpperCase(locale));
+    return values[0] || "";
   }
 
   function publisherGroups(records) {
@@ -247,9 +245,13 @@
     ).length;
     const coverCount = records.filter((record) => Boolean(coverImageFor(record))).length;
     const coverRate = records.length ? Math.round(1000 * coverCount / records.length) / 10 : 0;
+    const sourceRecordCount = records.reduce((total, record) => total + Number(record.source_record_count || 1), 0);
 
     document.querySelectorAll("[data-total-books]").forEach((node) => {
       node.textContent = formatNumber(records.length);
+    });
+    document.querySelectorAll("[data-total-source-records]").forEach((node) => {
+      node.textContent = formatNumber(sourceRecordCount);
     });
     document.querySelectorAll("[data-year-range]").forEach((node) => {
       node.textContent = range;
@@ -417,7 +419,7 @@
         return year !== null
           && year < 1970
           && record.isbn_status === "missing_pre_1970"
-          && Boolean(record.title && record.author && publisherFor(record));
+          && Boolean(record.title && (record.author_normalized || record.author) && publisherFor(record));
       })
       .slice()
       .sort((a, b) => numericYear(a) - numericYear(b) || a._index - b._index);
@@ -515,7 +517,7 @@
     const query = normalize(state.query);
     let records = state.records.filter((record) => {
       const year = numericYear(record);
-      const matchesQuery = !query || normalize([record.title, record.author, record.isbn, record.publisher, publisherFor(record)].join(" ")).includes(query);
+      const matchesQuery = !query || normalize([record.title, record.author, authorFor(record), record.isbn, record.publisher, publisherFor(record)].join(" ")).includes(query);
       const matchesDecade = !state.decade || (year !== null && Math.floor(year / 10) * 10 === Number(state.decade));
       const matchesPublisher = !state.publisher || publisherKey(publisherFor(record)) === state.publisher;
       return matchesQuery && matchesDecade && matchesPublisher;
@@ -523,7 +525,7 @@
 
     const compareText = (field) => (a, b) => normalize(a[field]).localeCompare(normalize(b[field]), locale, { sensitivity: "base" }) || a._index - b._index;
     if (state.sort === "title") records = records.slice().sort(compareText("title"));
-    if (state.sort === "author") records = records.slice().sort(compareText("author"));
+    if (state.sort === "author") records = records.slice().sort((a, b) => normalize(authorFor(a)).localeCompare(normalize(authorFor(b)), locale, { sensitivity: "base" }) || a._index - b._index);
     if (state.sort === "newest") records = records.slice().sort((a, b) => (numericYear(b) || -Infinity) - (numericYear(a) || -Infinity) || a._index - b._index);
     if (state.sort === "oldest") records = records.slice().sort((a, b) => (numericYear(a) || Infinity) - (numericYear(b) || Infinity) || a._index - b._index);
     return records;
@@ -599,13 +601,17 @@
 
     const details = document.createElement("dl");
     details.className = "library-dialog-details";
-    details.append(
-      detailRow(copy.author, record.author),
+    const detailRows = [
+      detailRow(copy.author, authorFor(record)),
       detailRow(copy.publisher, publisherFor(record)),
       detailRow(copy.year, record.publication_year),
       detailRow(copy.date, record.publication_date),
       detailRow(copy.isbn, record.isbn)
-    );
+    ];
+    if (Number(record.source_record_count || 1) > 1) {
+      detailRows.push(detailRow(copy.sourceRecords, String(record.source_record_count)));
+    }
+    details.append(...detailRows);
     elements.dialogContent.append(head, details);
 
     const coverSourceUrl = record.cover?.source_url || "";

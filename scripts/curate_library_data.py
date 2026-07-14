@@ -3,8 +3,9 @@
 
 The pipeline reads the immutable PDF extraction, fills only empty fields from
 exact-ISBN Open Library records, applies manually sourced high-confidence
-overrides, normalizes publisher labels for analysis, and emits both the public
-catalogue and a machine-readable quality report.
+overrides, normalizes author and publisher labels, groups conservative duplicate
+records, and emits both the public catalogue and a machine-readable quality
+report.
 
 Run from the project root:
 
@@ -35,33 +36,9 @@ DEFAULT_DUNOD_COVER_CACHE = ROOT / "data/library/dunod-cover-cache.json"
 DEFAULT_LALIBRAIRIE_COVER_CACHE = ROOT / "data/library/lalibrairie-cover-cache.json"
 DEFAULT_VERIFIED_COVER_CACHE = ROOT / "data/library/verified-cover-cache.json"
 DEFAULT_CURATION = ROOT / "data/library/library-curation.json"
+DEFAULT_NORMALIZATION = ROOT / "data/library/library-normalization.json"
 DEFAULT_OUTPUT = ROOT / "assets/library/library-data.json"
 DEFAULT_REPORT = ROOT / "data/library/library-quality-report.json"
-
-PUBLISHER_ALIASES = {
-    "belin": "Belin",
-    "calvage et mounet": "Calvage & Mounet",
-    "calvage mounet": "Calvage & Mounet",
-    "cassini": "Cassini",
-    "de boeck sup": "De Boeck Supérieur",
-    "dunod": "Dunod",
-    "editions mir": "Éditions Mir",
-    "edp sciences": "EDP Sciences",
-    "ellipses": "Ellipses",
-    "erpi": "ERPI",
-    "flammarion": "Flammarion",
-    "j ai lu": "J'ai lu",
-    "les presses de l universite laval": "Presses de l’Université Laval",
-    "modulo": "Modulo",
-    "pearson": "Pearson",
-    "presses de l universite laval": "Presses de l’Université Laval",
-    "presses universitaires de france": "Presses Universitaires de France",
-    "presses universitaires de france puf": "Presses Universitaires de France",
-    "puf": "Presses Universitaires de France",
-    "que sais je": "Que sais-je?",
-    "rba": "RBA",
-    "rba france": "RBA",
-}
 
 
 def read_json(path: Path) -> Any:
@@ -109,11 +86,86 @@ def parse_year(value: str) -> int | None:
     return int(match.group(0)) if match else None
 
 
-def publisher_normalized(value: str) -> str:
-    if not value:
+def build_alias_map(values: dict[str, str], label: str) -> dict[str, str]:
+    aliases: dict[str, str] = {}
+    for raw_value, canonical_value in values.items():
+        key = normalize_text(raw_value)
+        canonical = re.sub(r"\s+", " ", canonical_value).strip()
+        if not key or not canonical:
+            raise RuntimeError(f"Empty {label} normalization rule refused.")
+        if key in aliases and aliases[key] != canonical:
+            raise RuntimeError(
+                f"Conflicting {label} normalization rule for {raw_value!r}."
+            )
+        aliases[key] = canonical
+        aliases.setdefault(normalize_text(canonical), canonical)
+    return aliases
+
+
+def canonical_label(value: str, aliases: dict[str, str]) -> str:
+    cleaned = re.sub(r"\s+", " ", value or "").strip()
+    if not cleaned:
         return ""
-    key = normalize_text(value)
-    return PUBLISHER_ALIASES.get(key, re.sub(r"\s+", " ", value).strip())
+    return aliases.get(normalize_text(cleaned), cleaned)
+
+
+def split_authors(value: str) -> list[str]:
+    return [
+        re.sub(r"\s+", " ", author).strip()
+        for author in re.split(r"\s*\|\s*", value or "")
+        if author.strip()
+    ]
+
+
+def canonical_authors(value: str, aliases: dict[str, str]) -> tuple[str, int]:
+    names: list[str] = []
+    seen: set[str] = set()
+    removed_duplicates = 0
+    for raw_name in split_authors(value):
+        canonical = canonical_label(raw_name, aliases)
+        key = normalize_text(canonical)
+        if key in seen:
+            removed_duplicates += 1
+            continue
+        seen.add(key)
+        names.append(canonical)
+    return " | ".join(names), removed_duplicates
+
+
+def normalize_entities(
+    records: list[dict[str, Any]],
+    normalization: dict[str, Any],
+) -> dict[str, int]:
+    author_aliases = build_alias_map(
+        normalization.get("author_aliases", {}),
+        "author",
+    )
+    publisher_aliases = build_alias_map(
+        normalization.get("publisher_aliases", {}),
+        "publisher",
+    )
+    author_changes = 0
+    publisher_changes = 0
+    duplicate_authors_removed = 0
+    for record in records:
+        author = str(record.get("author", ""))
+        author_normalized, removed = canonical_authors(author, author_aliases)
+        record["author_normalized"] = author_normalized
+        duplicate_authors_removed += removed
+        if author_normalized and author_normalized != author:
+            author_changes += 1
+
+        publisher = str(record.get("publisher", ""))
+        normalized_publisher = canonical_label(publisher, publisher_aliases)
+        record["publisher_normalized"] = normalized_publisher
+        if normalized_publisher and normalized_publisher != publisher:
+            publisher_changes += 1
+
+    return {
+        "author_record_change_count": author_changes,
+        "publisher_record_change_count": publisher_changes,
+        "duplicate_author_name_count_removed": duplicate_authors_removed,
+    }
 
 
 def authors_from_openlibrary(entry: dict[str, Any]) -> str:
@@ -271,7 +323,9 @@ def classify_records(records: list[dict[str, Any]]) -> None:
             isbn_groups[isbn].append(record["id"])
         title_author_key = (
             normalize_text(str(record.get("title", ""))),
-            normalize_text(str(record.get("author", ""))),
+            normalize_text(
+                str(record.get("author_normalized") or record.get("author", ""))
+            ),
         )
         if all(title_author_key):
             title_author_groups[title_author_key].append(record["id"])
@@ -306,18 +360,231 @@ def classify_records(records: list[dict[str, Any]]) -> None:
         if year is None:
             flags.append("missing_or_invalid_year")
 
-        record["publisher_normalized"] = publisher_normalized(str(record.get("publisher", "")))
+        record.setdefault(
+            "publisher_normalized",
+            re.sub(r"\s+", " ", str(record.get("publisher", ""))).strip(),
+        )
         valid_record_isbn = record["isbn"] if record["isbn_status"] == "valid" else ""
         if valid_record_isbn and len(isbn_groups[valid_record_isbn]) > 1:
             flags.append("shared_isbn_possible_multiple_copy")
 
         title_author_key = (
             normalize_text(str(record.get("title", ""))),
-            normalize_text(str(record.get("author", ""))),
+            normalize_text(
+                str(record.get("author_normalized") or record.get("author", ""))
+            ),
         )
         if all(title_author_key) and len(title_author_groups[title_author_key]) > 1:
-            flags.append("same_title_author_possible_multiple_copy")
+            flags.append("same_title_author_related_editions")
         record["quality_flags"] = flags
+
+
+def author_identity_set(record: dict[str, Any]) -> set[str]:
+    value = str(record.get("author_normalized") or record.get("author", ""))
+    return {normalize_text(name) for name in split_authors(value) if normalize_text(name)}
+
+
+def normalized_nonempty_values(
+    records: list[dict[str, Any]],
+    field: str,
+) -> set[str]:
+    return {
+        normalize_text(str(record.get(field, "")))
+        for record in records
+        if str(record.get(field, "")).strip()
+    }
+
+
+def compatible_duplicate_component(records: list[dict[str, Any]]) -> bool:
+    valid_isbns = {
+        normalize_isbn(str(record.get("isbn", "")))
+        for record in records
+        if valid_isbn(normalize_isbn(str(record.get("isbn", ""))))
+    }
+    if len(valid_isbns) > 1:
+        return False
+    for field in ("publication_year", "publisher_normalized", "series"):
+        if len(normalized_nonempty_values(records, field)) > 1:
+            return False
+
+    author_sets = [author_identity_set(record) for record in records]
+    if any(not authors for authors in author_sets):
+        return False
+    for index, left in enumerate(author_sets):
+        for right in author_sets[index + 1:]:
+            if not (left <= right or right <= left):
+                return False
+
+    shared_evidence = any(
+        sum(bool(str(record.get(field, "")).strip()) for record in records) > 1
+        and len(normalized_nonempty_values(records, field)) == 1
+        for field in ("isbn", "publication_year", "publisher_normalized", "series")
+    )
+    sparse_record = any(
+        sum(
+            bool(str(record.get(field, "")).strip())
+            for field in ("isbn", "publication_year", "publisher_normalized", "series")
+        ) == 0
+        for record in records
+    )
+    return shared_evidence or sparse_record
+
+
+def record_id_number(record: dict[str, Any]) -> int:
+    match = re.search(r"(\d+)$", str(record.get("id", "")))
+    return int(match.group(1)) if match else 10**9
+
+
+def canonical_record_score(record: dict[str, Any]) -> tuple[int, ...]:
+    return (
+        1 if record.get("curation") else 0,
+        1 if record.get("cover") else 0,
+        sum(
+            bool(record.get(field))
+            for field in (
+                "author", "title", "isbn", "publisher", "publication_date",
+                "publication_year", "genre", "series",
+            )
+        ),
+        len(author_identity_set(record)),
+        len(str(record.get("title", ""))),
+        len(str(record.get("author_normalized") or record.get("author", ""))),
+        -record_id_number(record),
+    )
+
+
+def merge_duplicate_group(
+    group: list[dict[str, Any]],
+    reason: str,
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    ranked = sorted(group, key=canonical_record_score, reverse=True)
+    merged = copy.deepcopy(ranked[0])
+    mergeable_fields = (
+        "author", "author_normalized", "title", "isbn", "publisher",
+        "publisher_normalized", "publication_date", "publication_year",
+        "genre", "series", "cover", "openlibrary", "data_provenance",
+        "curation",
+    )
+    for candidate in ranked[1:]:
+        for field in mergeable_fields:
+            if not merged.get(field) and candidate.get(field):
+                merged[field] = copy.deepcopy(candidate[field])
+
+    source_record_ids = [record["id"] for record in group]
+    source_pages = sorted({
+        page
+        for record in group
+        for page in record.get("source_pages", [])
+    })
+    merged["source_record_count"] = sum(
+        int(record.get("source_record_count", 1)) for record in group
+    )
+    merged["source_record_ids"] = source_record_ids
+    merged["source_pages"] = source_pages
+    merged["duplicate_group"] = {
+        "reason": reason,
+        "canonical_record_id": merged["id"],
+        "source_record_ids": source_record_ids,
+    }
+    summary = {
+        "canonical_record_id": merged["id"],
+        "source_record_ids": source_record_ids,
+        "source_record_count": merged["source_record_count"],
+        "reason": reason,
+        "isbn": merged.get("isbn", ""),
+        "title": merged.get("title", ""),
+        "author_normalized": merged.get("author_normalized", ""),
+        "publisher_normalized": merged.get("publisher_normalized", ""),
+        "publication_year": merged.get("publication_year", ""),
+    }
+    return merged, summary
+
+
+def deduplicate_records(
+    records: list[dict[str, Any]],
+    policy: dict[str, Any],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    parents = list(range(len(records)))
+
+    def find(index: int) -> int:
+        while parents[index] != index:
+            parents[index] = parents[parents[index]]
+            index = parents[index]
+        return index
+
+    def component(index: int) -> list[int]:
+        root = find(index)
+        return [candidate for candidate in range(len(records)) if find(candidate) == root]
+
+    def union(left: int, right: int) -> None:
+        left_root = find(left)
+        right_root = find(right)
+        if left_root != right_root:
+            parents[right_root] = left_root
+
+    if policy.get("merge_same_valid_isbn", True):
+        isbn_groups: dict[str, list[int]] = defaultdict(list)
+        for index, record in enumerate(records):
+            isbn = normalize_isbn(str(record.get("isbn", "")))
+            if valid_isbn(isbn):
+                isbn_groups[isbn].append(index)
+        for indices in isbn_groups.values():
+            for index in indices[1:]:
+                union(indices[0], index)
+
+    if policy.get("merge_compatible_records", True):
+        title_groups: dict[str, list[int]] = defaultdict(list)
+        for index, record in enumerate(records):
+            title = normalize_text(str(record.get("title", "")))
+            if title:
+                title_groups[title].append(index)
+        for indices in title_groups.values():
+            if len(indices) < 2:
+                continue
+            for left_position, left in enumerate(indices):
+                for right in indices[left_position + 1:]:
+                    if find(left) == find(right):
+                        continue
+                    combined_indices = sorted(set(component(left) + component(right)))
+                    combined = [records[index] for index in combined_indices]
+                    if compatible_duplicate_component(combined):
+                        union(left, right)
+
+    grouped_indices: dict[int, list[int]] = defaultdict(list)
+    for index in range(len(records)):
+        grouped_indices[find(index)].append(index)
+
+    output: list[dict[str, Any]] = []
+    duplicate_groups: list[dict[str, Any]] = []
+    for indices in sorted(grouped_indices.values(), key=min):
+        group = [records[index] for index in indices]
+        if len(group) == 1:
+            record = copy.deepcopy(group[0])
+            record["source_record_count"] = int(
+                record.get("source_record_count", 1)
+            )
+            record["source_record_ids"] = [record["id"]]
+            output.append(record)
+            continue
+
+        valid_isbns = {
+            normalize_isbn(str(record.get("isbn", "")))
+            for record in group
+            if valid_isbn(normalize_isbn(str(record.get("isbn", ""))))
+        }
+        reason = (
+            "same_valid_isbn"
+            if len(valid_isbns) == 1 and all(
+                normalize_isbn(str(record.get("isbn", ""))) in valid_isbns
+                for record in group
+            )
+            else "compatible_bibliographic_metadata"
+        )
+        merged, summary = merge_duplicate_group(group, reason)
+        output.append(merged)
+        duplicate_groups.append(summary)
+
+    return output, duplicate_groups
 
 
 def build_quality_report(
@@ -326,6 +593,8 @@ def build_quality_report(
     applied: list[dict[str, Any]],
     openlibrary_matches: int,
     openlibrary_fills: Counter[str],
+    normalization_stats: dict[str, int],
+    duplicate_groups: list[dict[str, Any]],
     curated_on: str,
 ) -> dict[str, Any]:
     isbn_status = Counter(record["isbn_status"] for record in records)
@@ -358,6 +627,20 @@ def build_quality_report(
         for record in raw_records
         if str(record.get("publisher", "")).strip()
     }
+    raw_author_labels = {
+        normalize_text(author)
+        for record in raw_records
+        for author in split_authors(str(record.get("author", "")))
+        if normalize_text(author)
+    }
+    normalized_author_labels = {
+        normalize_text(author)
+        for record in records
+        for author in split_authors(
+            str(record.get("author_normalized") or record.get("author", ""))
+        )
+        if normalize_text(author)
+    }
     cover_providers = Counter(
         record.get("cover", {}).get("provider", "")
         for record in records
@@ -369,10 +652,47 @@ def build_quality_report(
         if record.get("cover", {}).get("images", {}).get("medium")
     )
     cover_record_count = sum(cover_providers.values())
+    duplicate_reason_counts = Counter(
+        group["reason"] for group in duplicate_groups
+    )
+    source_record_count = sum(
+        int(record.get("source_record_count", 1)) for record in records
+    )
+    title_groups: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for record in records:
+        title_key = normalize_text(str(record.get("title", "")))
+        if title_key:
+            title_groups[title_key].append(record)
+    preserved_distinct_isbn_groups = []
+    for title_group in title_groups.values():
+        distinct_isbns = sorted({
+            record["isbn"]
+            for record in title_group
+            if record.get("isbn_status") == "valid"
+        })
+        if len(distinct_isbns) > 1:
+            preserved_distinct_isbn_groups.append({
+                "title": title_group[0].get("title", ""),
+                "record_ids": [record["id"] for record in title_group],
+                "isbns": distinct_isbns,
+            })
     return {
         "generated_on": curated_on,
         "record_count": len(records),
         "raw_record_count": len(raw_records),
+        "source_record_count": source_record_count,
+        "unique_catalogue_record_count": len(records),
+        "duplicate_group_count": len(duplicate_groups),
+        "duplicate_source_record_count": sum(
+            len(group["source_record_ids"]) for group in duplicate_groups
+        ),
+        "duplicate_records_collapsed_count": source_record_count - len(records),
+        "duplicate_reason_counts": dict(sorted(duplicate_reason_counts.items())),
+        "duplicate_groups": duplicate_groups,
+        "preserved_distinct_isbn_group_count": len(
+            preserved_distinct_isbn_groups
+        ),
+        "preserved_distinct_isbn_groups": preserved_distinct_isbn_groups,
         "manual_override_count": len(applied),
         "manual_field_change_count": sum(len(item["after"]) for item in applied),
         "openlibrary_exact_match_count": openlibrary_matches,
@@ -390,6 +710,9 @@ def build_quality_report(
         "missing_fields": missing_fields,
         "raw_publisher_label_count": len(raw_publisher_labels),
         "normalized_publisher_count": len(publisher_values),
+        "raw_author_label_count": len(raw_author_labels),
+        "normalized_author_count": len(normalized_author_labels),
+        "normalization": normalization_stats,
         "quality_flags": dict(sorted(quality_flags.items())),
         "remaining_review_records": [
             {
@@ -457,6 +780,11 @@ def parse_args() -> argparse.Namespace:
         default=DEFAULT_VERIFIED_COVER_CACHE,
     )
     parser.add_argument("--curation", type=Path, default=DEFAULT_CURATION)
+    parser.add_argument(
+        "--normalization",
+        type=Path,
+        default=DEFAULT_NORMALIZATION,
+    )
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--report", type=Path, default=DEFAULT_REPORT)
     return parser.parse_args()
@@ -487,11 +815,11 @@ def main() -> None:
         else {"books": {}, "record_matches": {}}
     )
     curation = read_json(args.curation)
+    normalization = read_json(args.normalization)
     records = copy.deepcopy(raw_payload["records"])
     curated_on = str(curation.get("curated_on") or date.today().isoformat())
     applied = apply_overrides(records, curation)
 
-    openlibrary_matches = 0
     openlibrary_fills: Counter[str] = Counter()
     for record in records:
         provenance = record.setdefault("data_provenance", {})
@@ -502,7 +830,6 @@ def main() -> None:
                 isbn = prefix
         entry = openlibrary_cache.get(f"ISBN:{isbn}") if valid_isbn(isbn) else None
         if entry:
-            openlibrary_matches += 1
             for field in fill_from_openlibrary(record, entry, provenance):
                 openlibrary_fills[field] += 1
             record["openlibrary"] = openlibrary_summary(entry, curated_on)
@@ -622,7 +949,20 @@ def main() -> None:
         if not provenance:
             record.pop("data_provenance", None)
 
+    normalization_stats = normalize_entities(records, normalization)
     classify_records(records)
+    records, duplicate_groups = deduplicate_records(
+        records,
+        normalization.get("policy", {}),
+    )
+    classify_records(records)
+    openlibrary_matches = sum(bool(record.get("openlibrary")) for record in records)
+    openlibrary_fills = Counter(
+        field
+        for record in records
+        for field, source in record.get("data_provenance", {}).items()
+        if source == "openlibrary_exact"
+    )
 
     payload = {
         "source": raw_payload["source"],
@@ -630,6 +970,7 @@ def main() -> None:
             "curated_on": curated_on,
             "raw_catalogue": str(args.raw.relative_to(ROOT)),
             "curation_rules": str(args.curation.relative_to(ROOT)),
+            "normalization_rules": str(args.normalization.relative_to(ROOT)),
             "openlibrary_snapshot": str(args.cache.relative_to(ROOT)),
             "openlibrary_direct_cover_snapshot": str(args.direct_cover_cache.relative_to(ROOT)),
             "openlibrary_cover_search_snapshot": str(args.openlibrary_cover_search.relative_to(ROOT)),
@@ -639,7 +980,14 @@ def main() -> None:
             "lalibrairie_cover_snapshot": str(args.lalibrairie_cover_cache.relative_to(ROOT)),
             "verified_cover_snapshot": str(args.verified_cover_cache.relative_to(ROOT)),
             "manual_override_count": len(applied),
+            "raw_source_record_count": len(raw_payload["records"]),
+            "catalogue_record_count": len(records),
+            "source_record_count": sum(
+                int(record.get("source_record_count", 1)) for record in records
+            ),
+            "duplicate_group_count": len(duplicate_groups),
             "policy": curation["policy"],
+            "normalization_policy": normalization["policy"],
             "sources": curation["sources"],
         },
         "records": records,
@@ -650,12 +998,16 @@ def main() -> None:
         applied,
         openlibrary_matches,
         openlibrary_fills,
+        normalization_stats,
+        duplicate_groups,
         curated_on,
     )
     write_json(args.output, payload)
     write_json(args.report, report)
     print(
-        f"Curated {len(records)} records; {len(applied)} manual overrides; "
+        f"Curated {len(records)} unique catalogue records from "
+        f"{len(raw_payload['records'])} source records; "
+        f"{len(duplicate_groups)} duplicate groups; {len(applied)} manual overrides; "
         f"{openlibrary_matches} exact Open Library matches."
     )
 

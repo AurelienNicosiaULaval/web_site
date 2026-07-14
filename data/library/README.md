@@ -1,10 +1,11 @@
 # Données de la bibliothèque
 
-La base publique est reconstruite de façon reproductible à partir de trois couches.
+La base publique est reconstruite de façon reproductible à partir de quatre couches.
 
 1. `clz-library-raw.json` conserve sans modification l’extraction du PDF CLZ.
 2. Les caches Open Library, Google Books, éditeurs et libraires conservent les réponses externes utilisées pour les métadonnées et les couvertures.
 3. `library-curation.json` décrit chaque correction manuelle, son niveau de confiance et ses sources.
+4. `library-normalization.json` définit les alias d’auteurs et d’éditeurs ainsi que la politique de regroupement des doublons.
 
 La commande suivante produit `assets/library/library-data.json` et le rapport de qualité `library-quality-report.json`.
 
@@ -52,6 +53,19 @@ Règles de curation:
 - une absence d’ISBN à partir de 1970 est signalée pour examen, mais n’est pas remplie avec l’ISBN d’une réimpression;
 - les métadonnées Open Library ne remplissent que des champs CLZ vides et seulement après une correspondance exacte par ISBN;
 - une valeur CLZ non vide n’est remplacée que par une correction manuelle à confiance élevée et sourcée;
-- les entrées pouvant représenter plusieurs exemplaires physiques sont conservées.
+- les champs CLZ d’origine restent disponibles dans `author` et `publisher`;
+- les libellés d’affichage et d’analyse sont produits dans `author_normalized` et `publisher_normalized`;
+- les auteurs répétés dans une même notice sont supprimés après normalisation;
+- les notices partageant le même ISBN valide sont regroupées;
+- deux notices sans ISBN distinct sont regroupées seulement si leur titre normalisé et leurs auteurs sont compatibles, sans conflit d’année, d’éditeur ni de collection;
+- deux ISBN valides distincts ne sont jamais regroupés, même si le titre est identique;
+- chaque regroupement conserve `source_record_ids`, `source_pages` et `source_record_count`, afin qu’aucune notice source ne soit perdue;
+- le nombre de notices sources ne doit pas être interprété comme un nombre confirmé d’exemplaires physiques.
+
+Le pipeline est validé par des tests de traçabilité, d’unicité et de déterminisme:
+
+```bash
+python3 scripts/test_library_data.py
+```
 
 Le cache Open Library est un instantané de travail et non une autorité bibliographique unique. Les corrections importantes reposent aussi sur les pages d’éditeurs, BAnQ, Springer, SIAM ou WorldCat indiquées dans `library-curation.json`.

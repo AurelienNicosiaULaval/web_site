@@ -4,8 +4,10 @@
 from __future__ import annotations
 
 import json
+import re
 import subprocess
 import tempfile
+import unicodedata
 from collections import Counter
 from pathlib import Path
 
@@ -13,8 +15,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data/library/clz-library-raw.json"
 CURATION = ROOT / "data/library/library-curation.json"
+NORMALIZATION = ROOT / "data/library/library-normalization.json"
 OUTPUT = ROOT / "assets/library/library-data.json"
 REPORT = ROOT / "data/library/library-quality-report.json"
+AUDIT = ROOT / "data/library/library-audit-artifact.json"
 FRONTEND = ROOT / "assets/library/library.js"
 ELLIPSES_COVERS = ROOT / "data/library/ellipses-cover-cache.json"
 DUNOD_COVERS = ROOT / "data/library/dunod-cover-cache.json"
@@ -26,11 +30,23 @@ def read_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def normalized_key(value: str) -> str:
+    ascii_value = unicodedata.normalize("NFKD", value)
+    ascii_value = "".join(
+        character
+        for character in ascii_value
+        if not unicodedata.combining(character)
+    ).casefold()
+    return re.sub(r"[^a-z0-9]+", " ", ascii_value).strip()
+
+
 def main() -> None:
     raw = read_json(RAW)
     curation = read_json(CURATION)
+    normalization = read_json(NORMALIZATION)
     curated = read_json(OUTPUT)
     report = read_json(REPORT)
+    audit = read_json(AUDIT)
     ellipses_covers = read_json(ELLIPSES_COVERS)
     dunod_covers = read_json(DUNOD_COVERS)
     lalibrairie_covers = read_json(LALIBRAIRIE_COVERS)
@@ -39,9 +55,18 @@ def main() -> None:
 
     raw_records = raw["records"]
     records = curated["records"]
-    assert len(raw_records) == len(records) == 560
-    assert [record["id"] for record in raw_records] == [record["id"] for record in records]
-    assert len({record["id"] for record in records}) == 560
+    assert len(raw_records) == 560
+    assert len(records) == 546
+    assert len({record["id"] for record in records}) == 546
+    assert sum(record["source_record_count"] for record in records) == 560
+    source_record_ids = [
+        source_id
+        for record in records
+        for source_id in record["source_record_ids"]
+    ]
+    assert len(source_record_ids) == len(set(source_record_ids)) == 560
+    assert set(source_record_ids) == {record["id"] for record in raw_records}
+    assert all(record["id"] in record["source_record_ids"] for record in records)
     assert raw["source"]["name"] == "pdf_book_2026-07-14_17-55-30.pdf"
     assert raw["source"]["pages"] == 41
     assert raw["source"]["previous_catalogue"] == (
@@ -55,7 +80,10 @@ def main() -> None:
     assert all(record["title"] for record in records)
     assert all(record["isbn_status"] != "invalid" for record in records)
     assert all("publisher_normalized" in record for record in records)
+    assert all("author_normalized" in record for record in records)
     assert all(record["source_pages"] for record in records)
+    assert normalization["version"] == 1
+    assert normalization["policy"]["preserve_distinct_valid_isbn"] is True
 
     source_ids = set(curation["sources"])
     for record in records:
@@ -73,17 +101,51 @@ def main() -> None:
 
     status_counts = Counter(record["isbn_status"] for record in records)
     assert status_counts == {
-        "valid": 461,
-        "missing_pre_1970": 86,
+        "valid": 452,
+        "missing_pre_1970": 82,
         "missing_1970_or_later": 12,
-        "missing_unknown_year": 1,
     }
-    assert report["record_count"] == 560
+    assert report["raw_record_count"] == 560
+    assert report["record_count"] == 546
+    assert report["source_record_count"] == 560
+    assert report["duplicate_group_count"] == 14
+    assert report["duplicate_records_collapsed_count"] == 14
+    assert report["duplicate_reason_counts"] == {
+        "compatible_bibliographic_metadata": 5,
+        "same_valid_isbn": 9,
+    }
+    actual_duplicate_groups = {
+        (frozenset(group["source_record_ids"]), group["reason"])
+        for group in report["duplicate_groups"]
+    }
+    expected_duplicate_groups = {
+        (frozenset({"book-0013", "book-0014"}), "compatible_bibliographic_metadata"),
+        (frozenset({"book-0042", "book-0043"}), "compatible_bibliographic_metadata"),
+        (frozenset({"book-0089", "book-0482"}), "same_valid_isbn"),
+        (frozenset({"book-0111", "book-0207"}), "compatible_bibliographic_metadata"),
+        (frozenset({"book-0162", "book-0163"}), "compatible_bibliographic_metadata"),
+        (frozenset({"book-0173", "book-0174"}), "same_valid_isbn"),
+        (frozenset({"book-0263", "book-0511"}), "same_valid_isbn"),
+        (frozenset({"book-0279", "book-0280"}), "same_valid_isbn"),
+        (frozenset({"book-0293", "book-0294"}), "compatible_bibliographic_metadata"),
+        (frozenset({"book-0327", "book-0328"}), "same_valid_isbn"),
+        (frozenset({"book-0360", "book-0361"}), "same_valid_isbn"),
+        (frozenset({"book-0385", "book-0387"}), "same_valid_isbn"),
+        (frozenset({"book-0408", "book-0409"}), "same_valid_isbn"),
+        (frozenset({"book-0462", "book-0463"}), "same_valid_isbn"),
+    }
+    assert actual_duplicate_groups == expected_duplicate_groups
+    assert report["normalized_publisher_count"] == 163
+    assert report["normalization"] == {
+        "author_record_change_count": 29,
+        "publisher_record_change_count": 248,
+        "duplicate_author_name_count_removed": 1,
+    }
     assert report["unique_valid_isbn_count"] == 452
     assert report["openlibrary_unique_isbn_match_count"] == 317
     assert report["manual_override_count"] == len(curation["overrides"])
-    assert report["cover_record_count"] == 463
-    assert report["cover_record_rate"] == 0.8268
+    assert report["cover_record_count"] == 453
+    assert report["cover_record_rate"] == 0.8297
     assert report["cover_providers"] == {
         "AbeBooks": 43,
         "Anticariat.net": 1,
@@ -92,10 +154,10 @@ def main() -> None:
         "Internet Archive": 1,
         "LaLibrairie.com": 55,
         "Mir Titles": 1,
-        "Open Library": 278,
+        "Open Library": 268,
         "Éditions Ellipses": 21,
     }
-    assert sum(report["cover_match_methods"].values()) == 463
+    assert sum(report["cover_match_methods"].values()) == 453
     assert ellipses_covers["requested_isbn_count"] == 28
     assert ellipses_covers["cover_count"] == 27
     assert not ellipses_covers["misses"]
@@ -129,9 +191,74 @@ def main() -> None:
     assert "openLibraryBookUrl" not in frontend
 
     by_id = {record["id"]: record for record in records}
+    by_source_id = {
+        source_id: record
+        for record in records
+        for source_id in record["source_record_ids"]
+    }
     for override in curation["overrides"]:
         for field, value in override["changes"].items():
-            assert by_id[override["id"]][field] == value
+            assert by_source_id[override["id"]][field] == value
+    valid_isbns = [
+        record["isbn"] for record in records if record["isbn_status"] == "valid"
+    ]
+    assert len(valid_isbns) == len(set(valid_isbns)) == 452
+    assert all(
+        len({
+            author.casefold().strip()
+            for author in record["author_normalized"].split("|")
+            if author.strip()
+        })
+        == len([
+            author for author in record["author_normalized"].split("|")
+            if author.strip()
+        ])
+        for record in records
+    )
+    canonical_labels: dict[tuple[str, str], str] = {}
+    for record in records:
+        entity_values = {
+            "author": record["author_normalized"].split("|"),
+            "publisher": [record["publisher_normalized"]],
+        }
+        for entity_type, values in entity_values.items():
+            for value in values:
+                label = value.strip()
+                if not label:
+                    continue
+                key = (entity_type, normalized_key(label))
+                assert canonical_labels.get(key, label) == label
+                canonical_labels[key] = label
+    assert by_id["book-0021"]["author_normalized"] == "Theodore W. Anderson"
+    assert by_id["book-0022"]["author_normalized"] == "Theodore W. Anderson"
+    assert by_id["book-0212"]["author_normalized"] == (
+        "Trevor Hastie | Robert Tibshirani"
+    )
+    assert by_id["book-0243"]["author_normalized"] == "Jean-Étienne Rombaldi"
+    assert by_id["book-0304"]["author_normalized"] == "Étienne Marceau"
+    assert by_id["book-0475"]["author_normalized"] == (
+        "Jean-Pierre Bélisle | Jacques Desrosiers"
+    )
+    assert by_id["book-0554"]["author_normalized"].startswith("Luc Adjengue |")
+    assert by_id["book-0089"]["publisher_normalized"] == "Gaëtan Morin"
+    assert by_id["book-0377"]["publisher_normalized"] == "Dunod"
+    assert by_id["book-0432"]["publisher_normalized"] == "Wiley"
+    assert by_id["book-0089"]["source_record_count"] == 2
+    assert by_id["book-0089"]["source_record_ids"] == ["book-0482", "book-0089"]
+    assert by_id["book-0279"]["source_record_count"] == 2
+    assert by_id["book-0279"]["source_record_ids"] == ["book-0279", "book-0280"]
+    assert by_id["book-0014"]["duplicate_group"]["reason"] == (
+        "compatible_bibliographic_metadata"
+    )
+    frido_records = [record for record in records if record["title"] == "Le Frido 2021"]
+    assert len(frido_records) == 4
+    assert len({record["isbn"] for record in frido_records}) == 4
+    assert report["preserved_distinct_isbn_group_count"] == 16
+    audit_summary = audit["snapshot"]["datasets"]["summary"][0]
+    assert audit_summary["records"] == 546
+    assert audit_summary["source_records"] == 560
+    assert audit_summary["normalized_publishers"] == 163
+    assert len(audit["snapshot"]["datasets"]["review_cases"]) == 12
     assert by_id["book-0118"]["cover"]["provider"] == "Google Books"
     assert by_id["book-0118"]["cover"]["match_method"] == "title_author_year_publisher"
     assert by_id["book-0065"]["cover"]["provider"] == "Éditions Ellipses"
@@ -140,18 +267,24 @@ def main() -> None:
     assert by_id["book-0014"]["cover"]["provider"] == "Anticariat.net"
     assert by_id["book-0158"]["cover"]["provider"] == "AbeBooks"
     assert by_id["book-0441"]["cover"]["provider"] == "Internet Archive"
-    assert sum(not record.get("cover") for record in records) == 97
+    assert sum(not record.get("cover") for record in records) == 93
     assert sum(
         not record.get("cover") and record["isbn_status"] == "valid"
         for record in records
     ) == 19
     assert "book-0001" not in by_id
     assert by_id["book-0034"]["title"] == "Probabilité (L3M1)"
+    new_source_ids = {
+        source_id
+        for record in records
+        for source_id in record["source_record_ids"]
+        if int(source_id.split("-")[1]) >= 468
+    }
+    assert len(new_source_ids) == 94
     new_records = [
         record for record in records
-        if int(record["id"].split("-")[1]) >= 468
+        if any(source_id in new_source_ids for source_id in record["source_record_ids"])
     ]
-    assert len(new_records) == 94
     assert sum(bool(record.get("cover")) for record in new_records) == 87
     assert by_id["book-0215"]["title"] == "Biographie des grands théorèmes"
     assert all(

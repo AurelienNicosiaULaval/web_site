@@ -132,6 +132,22 @@
     "cheneliere_hines": {
       "title": "Chenelière, Probabilités et statistique pour ingénieurs",
       "url": "https://www.cheneliere.ca/en/higher-education/mathematics/probability-and-statistics.html"
+    },
+    "saskatchewan_lexique": {
+      "title": "Saskatchewan Education, secondary mathematics resource catalogue",
+      "url": "https://webtk12.sasked.gov.sk.ca/docs/francais/biblio/frmath/secmath/resmath2.html"
+    },
+    "nantilus_brodeau": {
+      "title": "Nantes Université catalogue, Mathématiques pour l’informatique. 4, Probabilités",
+      "url": "https://nantilus.univ-nantes.fr/vufind/Record/in00000040506/Details"
+    },
+    "google_books_glaeser": {
+      "title": "Google Books, Mathématiques pour l’élève professeur",
+      "url": "https://books.google.com/books/about/Math%C3%A9matiques_pour_l_%C3%A9l%C3%A8ve_professeur.html?id=dkNblfhmIBMC"
+    },
+    "clz_latest_export": {
+      "title": "Latest CLZ Books PDF export",
+      "url": "data/library/clz-library-raw.json"
     }
   },
   "overrides": [
@@ -406,6 +422,42 @@
       "sources": ["polypublie_hines", "cheneliere_hines"],
       "changes": {
         "author": "Luc Adjengue | J. P. Carmichael | William W. Hines | Douglas C. Montgomery | David M. Goldsman | Connie M. Borror"
+      }
+    },
+    {
+      "id": "book-0562",
+      "confidence": "high",
+      "reason": "The university catalogue matches the title, authors, publisher and year and supplies the collection statement.",
+      "sources": ["nantilus_brodeau"],
+      "changes": {
+        "series": "U. Informatique ; 3"
+      }
+    },
+    {
+      "id": "book-0563",
+      "confidence": "high",
+      "reason": "The official educational resource catalogue identifies the 1994 edition and its valid ISBN-10; the CLZ value has an invalid check digit.",
+      "sources": ["saskatchewan_lexique"],
+      "changes": {
+        "isbn": "9782894220078"
+      }
+    },
+    {
+      "id": "book-0565",
+      "confidence": "high",
+      "reason": "The PDF table line wrapping inserted a space after the hyphen.",
+      "sources": ["clz_latest_export"],
+      "changes": {
+        "title": "Cours d’électricité. Tome 1 : Lois générales des régimes stationnaires et quasi-stationnaires"
+      }
+    },
+    {
+      "id": "book-0571",
+      "confidence": "high",
+      "reason": "The PDF table line wrapping inserted spaces after the hyphens in the place name.",
+      "sources": ["clz_latest_export"],
+      "changes": {
+        "publisher": "Fonds de rayonnement pédagogique, Cégep Saint-Jean-sur-Richelieu"
       }
     }
   ]

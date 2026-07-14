@@ -336,12 +336,14 @@ def select_matches(
     responses: list[dict[str, Any]],
     retrieved_on: str,
 ) -> dict[str, Any]:
-    by_id = {record["id"]: record for record in records}
+    by_id = records_by_source_id(records)
     matches: dict[str, Any] = {}
     for response in responses:
         docs = response.get("docs", [])
         for record_id in response.get("record_ids", []):
-            record = by_id[record_id]
+            record = by_id.get(record_id)
+            if record is None:
+                continue
             candidates = [
                 candidate
                 for doc in docs
@@ -364,12 +366,14 @@ def select_identifiers(
     records: list[dict[str, Any]],
     responses: list[dict[str, Any]],
 ) -> dict[str, Any]:
-    by_id = {record["id"]: record for record in records}
+    by_id = records_by_source_id(records)
     identifiers: dict[str, Any] = {}
     for response in responses:
         docs = response.get("docs", [])
         for record_id in response.get("record_ids", []):
-            record = by_id[record_id]
+            record = by_id.get(record_id)
+            if record is None:
+                continue
             candidates = [
                 candidate
                 for doc in docs
@@ -386,6 +390,22 @@ def select_identifiers(
             if len(tied_sources) == 1:
                 identifiers[record_id] = top
     return identifiers
+
+
+def records_by_source_id(
+    records: list[dict[str, Any]],
+) -> dict[str, dict[str, Any]]:
+    by_id: dict[str, dict[str, Any]] = {}
+    for record in records:
+        source_ids = record.get("source_record_ids", [record["id"]])
+        for record_id in {record["id"], *source_ids}:
+            existing = by_id.get(record_id)
+            if existing is not None and existing["id"] != record["id"]:
+                raise RuntimeError(
+                    f"Source record ID {record_id} maps to multiple catalogue records."
+                )
+            by_id[record_id] = record
+    return by_id
 
 
 def parse_args() -> argparse.Namespace:

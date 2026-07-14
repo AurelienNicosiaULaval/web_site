@@ -1,9 +1,9 @@
 {
   "generated_on": "2026-07-14",
-  "record_count": 546,
-  "raw_record_count": 560,
-  "source_record_count": 560,
-  "unique_catalogue_record_count": 546,
+  "record_count": 557,
+  "raw_record_count": 571,
+  "source_record_count": 571,
+  "unique_catalogue_record_count": 557,
   "duplicate_group_count": 14,
   "duplicate_source_record_count": 28,
   "duplicate_records_collapsed_count": 14,
@@ -400,24 +400,24 @@
       ]
     }
   ],
-  "manual_override_count": 26,
-  "manual_field_change_count": 63,
+  "manual_override_count": 30,
+  "manual_field_change_count": 67,
   "openlibrary_exact_match_count": 317,
-  "openlibrary_exact_match_rate": 0.5806,
-  "unique_valid_isbn_count": 452,
+  "openlibrary_exact_match_rate": 0.5691,
+  "unique_valid_isbn_count": 454,
   "openlibrary_unique_isbn_match_count": 317,
-  "openlibrary_unique_isbn_match_rate": 0.7013,
+  "openlibrary_unique_isbn_match_rate": 0.6982,
   "openlibrary_filled_fields": {
     "author": 1,
     "publisher": 1
   },
-  "cover_record_count": 453,
-  "cover_record_rate": 0.8297,
+  "cover_record_count": 454,
+  "cover_record_rate": 0.8151,
   "cover_providers": {
     "AbeBooks": 43,
     "Anticariat.net": 1,
     "Dunod": 13,
-    "Google Books": 50,
+    "Google Books": 51,
     "Internet Archive": 1,
     "LaLibrairie.com": 55,
     "Mir Titles": 1,
@@ -427,38 +427,38 @@
   "cover_match_methods": {
     "exact_isbn": 432,
     "exact_isbn_search": 1,
-    "title_author_year_publisher": 15,
+    "title_author_year_publisher": 16,
     "title_author_year_publisher_work": 5
   },
   "isbn_status": {
-    "missing_1970_or_later": 12,
-    "missing_pre_1970": 82,
-    "valid": 452
+    "missing_1970_or_later": 19,
+    "missing_pre_1970": 84,
+    "valid": 454
   },
   "raw_missing_fields": {
     "author": 9,
     "title": 0,
-    "isbn": 103,
+    "isbn": 112,
     "publisher": 21,
     "publication_date": 1,
     "publication_year": 1,
-    "genre": 556,
-    "series": 558
+    "genre": 567,
+    "series": 569
   },
   "missing_fields": {
     "author": 3,
     "title": 0,
-    "isbn": 94,
+    "isbn": 103,
     "publisher": 16,
     "publication_date": 0,
     "publication_year": 0,
-    "genre": 542,
-    "series": 538
+    "genre": 553,
+    "series": 548
   },
-  "raw_publisher_label_count": 257,
-  "normalized_publisher_count": 163,
-  "raw_author_label_count": 654,
-  "normalized_author_count": 640,
+  "raw_publisher_label_count": 261,
+  "normalized_publisher_count": 167,
+  "raw_author_label_count": 670,
+  "normalized_author_count": 656,
   "normalization": {
     "author_record_change_count": 29,
     "publisher_record_change_count": 248,
@@ -466,7 +466,7 @@
   },
   "quality_flags": {
     "missing_author": 3,
-    "missing_isbn_1970_or_later": 12,
+    "missing_isbn_1970_or_later": 19,
     "missing_publisher": 16,
     "same_title_author_related_editions": 17
   },
@@ -563,6 +563,36 @@
       ]
     },
     {
+      "id": "book-0562",
+      "author": "François Brodeau | Guy Romier",
+      "title": "Mathématiques pour l’informatique. 4, Probabilités",
+      "publication_year": "1973",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ]
+    },
+    {
+      "id": "book-0564",
+      "author": "J. Desabie",
+      "title": "Théorie et pratique des sondages",
+      "publication_year": "1971",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ]
+    },
+    {
+      "id": "book-0567",
+      "author": "Georges Glaeser",
+      "title": "Mathématiques pour l’élève professeur",
+      "publication_year": "1971",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ]
+    },
+    {
       "id": "book-0184",
       "author": "Claude godbillon",
       "title": "éléments de topologie algébrique",
@@ -594,6 +624,16 @@
       ]
     },
     {
+      "id": "book-0568",
+      "author": "Lambert H. Koopmans",
+      "title": "Solutions Manual for An Introduction to Contemporary Statistics",
+      "publication_year": "1981",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ]
+    },
+    {
       "id": "book-0315",
       "author": "Jean menard",
       "title": "mathématiques nouvelles",
@@ -605,6 +645,16 @@
       ]
     },
     {
+      "id": "book-0569",
+      "author": "W. Mendenhall | R. Schaeffer | Barbara M. Beaver",
+      "title": "Solutions Manual for Mathematical Statistics with Applications",
+      "publication_year": "1974",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ]
+    },
+    {
       "id": "book-0359",
       "author": "F. Pecastaings | J. Sevin",
       "title": "chemins vers l’algèbre",
@@ -613,6 +663,26 @@
       "quality_flags": [
         "missing_isbn_1970_or_later",
         "missing_publisher"
+      ]
+    },
+    {
+      "id": "book-0570",
+      "author": "G. Philippeau",
+      "title": "Théorie des plans d’expérience : application à l’agronomie",
+      "publication_year": "1989",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ]
+    },
+    {
+      "id": "book-0571",
+      "author": "Serge Robert",
+      "title": "Initiation aux statistiques",
+      "publication_year": "1988",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
       ]
     },
     {
@@ -1025,6 +1095,54 @@
       "sources": [
         "polypublie_hines",
         "cheneliere_hines"
+      ]
+    },
+    {
+      "id": "book-0562",
+      "before": {
+        "series": ""
+      },
+      "after": {
+        "series": "U. Informatique ; 3"
+      },
+      "sources": [
+        "nantilus_brodeau"
+      ]
+    },
+    {
+      "id": "book-0563",
+      "before": {
+        "isbn": "9782894220072"
+      },
+      "after": {
+        "isbn": "9782894220078"
+      },
+      "sources": [
+        "saskatchewan_lexique"
+      ]
+    },
+    {
+      "id": "book-0565",
+      "before": {
+        "title": "Cours d’électricité. Tome 1 : Lois générales des régimes stationnaires et quasi- stationnaires"
+      },
+      "after": {
+        "title": "Cours d’électricité. Tome 1 : Lois générales des régimes stationnaires et quasi-stationnaires"
+      },
+      "sources": [
+        "clz_latest_export"
+      ]
+    },
+    {
+      "id": "book-0571",
+      "before": {
+        "publisher": "Fonds de rayonnement pédagogique, Cégep Saint- Jean-sur- Richelieu"
+      },
+      "after": {
+        "publisher": "Fonds de rayonnement pédagogique, Cégep Saint-Jean-sur-Richelieu"
+      },
+      "sources": [
+        "clz_latest_export"
       ]
     }
   ]

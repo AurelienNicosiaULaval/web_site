@@ -1,5 +1,5 @@
 {
-  "identifier_match_count": 11,
+  "identifier_match_count": 12,
   "identifiers": {
     "book-0044": {
       "lccn": [
@@ -105,6 +105,15 @@
       ],
       "score": 95,
       "source_url": "https://openlibrary.org/books/OL5684428M"
+    },
+    "book-0567": {
+      "lccn": [
+        "75576196"
+      ],
+      "match_method": "title_author_year_publisher",
+      "oclc": [],
+      "score": 95,
+      "source_url": "https://openlibrary.org/books/OL4837557M"
     }
   },
   "match_count": 17,
@@ -565,7 +574,7 @@
     }
   },
   "provider": "Open Library Search API",
-  "request_count": 51,
+  "request_count": 54,
   "responses": [
     {
       "docs": [
@@ -12292,8 +12301,112 @@
         "book-0552",
         "book-0560"
       ]
+    },
+    {
+      "docs": [
+        {
+          "author_name": [
+            "J. Desabie"
+          ],
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "key": "/books/OL6004680M",
+                "lccn": [
+                  "66050819"
+                ],
+                "publish_date": [
+                  "1965"
+                ],
+                "publisher": [
+                  "Dunod"
+                ],
+                "title": "Théorie et pratique des sondages"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 1965,
+          "key": "/works/OL7404578W",
+          "publish_year": [
+            1965
+          ],
+          "publisher": [
+            "Dunod"
+          ],
+          "title": "Théorie et pratique des sondages"
+        }
+      ],
+      "num_found": 1,
+      "query": "(title:\"Mathématiques pour l’informatique. 4, Probabilités\" AND author:\"François Brodeau\") OR (title:\"Lexique mathématique : enseignement secondaire\" AND author:\"Denis de Champlain\") OR (title:\"Théorie et pratique des sondages\" AND author:\"J. Desabie\") OR (title:\"Cours d’électricité. Tome 1 : Lois générales des régimes stationnaires et quasi- stationnaires\" AND author:\"A. Frühling\") OR (title:\"Cours d’électricité. Tome 2 : Régimes sinusoïdaux. Propagation. Électricité particulière\" AND author:\"A. Frühling\")",
+      "record_ids": [
+        "book-0562",
+        "book-0563",
+        "book-0564",
+        "book-0565",
+        "book-0566"
+      ]
+    },
+    {
+      "docs": [
+        {
+          "author_name": [
+            "Georges Glaeser"
+          ],
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "key": "/books/OL4837557M",
+                "lccn": [
+                  "75576196"
+                ],
+                "publish_date": [
+                  "1971"
+                ],
+                "publisher": [
+                  "Hermann"
+                ],
+                "title": "Mathématiques pour l'élève professeur."
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 1971,
+          "key": "/works/OL6600109W",
+          "publish_year": [
+            1971
+          ],
+          "publisher": [
+            "Hermann"
+          ],
+          "title": "Mathématiques pour l'élève professeur"
+        }
+      ],
+      "num_found": 1,
+      "query": "(title:\"Mathématiques pour l’élève professeur\" AND author:\"Georges Glaeser\") OR (title:\"Solutions Manual for An Introduction to Contemporary Statistics\" AND author:\"Lambert H. Koopmans\") OR (title:\"Solutions Manual for Mathematical Statistics with Applications\" AND author:\"W. Mendenhall\") OR (title:\"Théorie des plans d’expérience : application à l’agronomie\" AND author:\"G. Philippeau\") OR (title:\"Initiation aux statistiques\" AND author:\"Serge Robert\")",
+      "record_ids": [
+        "book-0567",
+        "book-0568",
+        "book-0569",
+        "book-0570",
+        "book-0571"
+      ]
+    },
+    {
+      "docs": [],
+      "num_found": 0,
+      "query": "(title:\"Approximate planning under uncertainty in partially observable environments\" AND author:\"Matthijs Theodor Jan Spaan\")",
+      "record_ids": [
+        "book-0572"
+      ]
     }
   ],
   "retrieved_on": "2026-07-14",
-  "target_record_count": 248
+  "target_record_count": 254
 }

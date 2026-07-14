@@ -17,7 +17,7 @@ resources:
 ::: {.library-hero-copy}
 <h1 id="library-title">Ma bibliothèque</h1>
 
-<p class="library-lead">Une collection vivante de <span data-total-books>546</span> éditions distinctes issues de <span data-total-source-records>560</span> notices CLZ, entre classiques des mathématiques, statistique, science des données et curiosités scientifiques.</p>
+<p class="library-lead">Une collection vivante de <span data-total-books>557</span> éditions distinctes issues de <span data-total-source-records>571</span> notices CLZ, entre classiques des mathématiques, statistique, science des données et curiosités scientifiques.</p>
 
 ::: {.library-actions}
 <button class="library-button library-button-primary" id="library-explore" type="button"><i class="bi bi-book" aria-hidden="true"></i>Explorer le catalogue</button>
@@ -27,8 +27,8 @@ resources:
 ::: {.library-hero-metrics aria-label="Aperçu de la collection"}
 ::: {.library-hero-metric}
 <i class="bi bi-bookshelf" aria-hidden="true"></i>
-<span class="library-metric-value" data-total-books>546</span>
-<span class="library-metric-label">éditions · <span data-total-source-records>560</span> notices sources</span>
+<span class="library-metric-value" data-total-books>557</span>
+<span class="library-metric-label">éditions · <span data-total-source-records>571</span> notices sources</span>
 :::
 ::: {.library-hero-metric}
 <i class="bi bi-calendar3" aria-hidden="true"></i>
@@ -37,7 +37,7 @@ resources:
 :::
 ::: {.library-hero-metric}
 <i class="bi bi-building" aria-hidden="true"></i>
-<span class="library-metric-value" data-publisher-count>163</span>
+<span class="library-metric-value" data-publisher-count>167</span>
 <span class="library-metric-label">maisons d’édition</span>
 :::
 :::
@@ -69,7 +69,7 @@ resources:
 ::: {.library-insight}
 <i class="bi bi-calendar-check" aria-hidden="true"></i>
 <span>Année médiane</span>
-<strong data-median-year>1997</strong>
+<strong data-median-year>1996</strong>
 :::
 ::: {.library-insight}
 <i class="bi bi-calendar-range" aria-hidden="true"></i>
@@ -79,16 +79,16 @@ resources:
 ::: {.library-insight}
 <i class="bi bi-book" aria-hidden="true"></i>
 <span>Année renseignée</span>
-<strong><span data-known-year-count>546</span> éditions</strong>
+<strong><span data-known-year-count>557</span> éditions</strong>
 :::
 ::: {.library-insight}
 <i class="bi bi-upc-scan" aria-hidden="true"></i>
 <span>ISBN à vérifier</span>
-<strong><span data-review-isbn-count>12</span> entrées</strong>
+<strong><span data-review-isbn-count>19</span> entrées</strong>
 :::
 :::
 
-<p class="library-method-note"><i class="bi bi-info-circle" aria-hidden="true"></i>Les <span data-pre1970-missing-isbn-count>82</span> éditions sans ISBN publiées avant 1970 sont classées comme attendues. Les variantes d’auteurs et de maisons d’édition sont regroupées par une table explicite qui conserve les libellés CLZ originaux.</p>
+<p class="library-method-note"><i class="bi bi-info-circle" aria-hidden="true"></i>Les <span data-pre1970-missing-isbn-count>84</span> éditions sans ISBN publiées avant 1970 sont classées comme attendues. Les variantes d’auteurs et de maisons d’édition sont regroupées par une table explicite qui conserve les libellés CLZ originaux.</p>
 :::
 :::
 
@@ -114,7 +114,7 @@ resources:
 ::: {.library-search-wrap}
 <i class="bi bi-search" aria-hidden="true"></i>
 <label class="visually-hidden" for="library-search">Rechercher dans le catalogue</label>
-<input id="library-search" type="search" placeholder="Rechercher dans 546 livres" autocomplete="off">
+<input id="library-search" type="search" placeholder="Rechercher dans 557 livres" autocomplete="off">
 :::
 
 ::: {.library-filter-rail}
@@ -140,7 +140,7 @@ resources:
 :::
 
 ::: {.library-result-head}
-<p id="library-result-count" aria-live="polite">546 livres</p>
+<p id="library-result-count" aria-live="polite">557 livres</p>
 :::
 
 <div id="library-book-grid" class="library-book-grid"></div>
@@ -150,8 +150,8 @@ resources:
 <button id="library-load-more" class="library-button library-button-secondary" type="button">Afficher 24 livres de plus</button>
 :::
 
-<p class="library-cover-note"><span data-cover-count>453</span> éditions, soit <span data-cover-rate>83,0</span> % du catalogue, possèdent maintenant une couverture provenant d'index bibliographiques, de maisons d'édition, de libraires ou de collections numérisées. La priorité est donnée aux correspondances exactes d'ISBN; les livres sans ISBN exigent une correspondance stricte du titre, de l'auteur, de l'année et de la maison d'édition.</p>
-<p class="library-source-note">Source principale: export CLZ Books du 14 juillet 2026. Les 560 notices sources restent traçables; 14 groupes de doublons sont présentés comme 546 éditions. Le nombre de notices regroupées ne permet pas de conclure au nombre d’exemplaires physiques. Les champs bibliographiques vides ont été complétés par correspondance exacte d'ISBN avec Open Library. Les images génériques qui ne représentent pas la véritable couverture sont exclues. Chaque couverture externe conserve son fournisseur, sa méthode d'appariement et son lien de provenance dans le catalogue.</p>
+<p class="library-cover-note"><span data-cover-count>454</span> éditions, soit <span data-cover-rate>81,5</span> % du catalogue, possèdent maintenant une couverture provenant d'index bibliographiques, de maisons d'édition, de libraires ou de collections numérisées. La priorité est donnée aux correspondances exactes d'ISBN; les livres sans ISBN exigent une correspondance stricte du titre, de l'auteur, de l'année et de la maison d'édition.</p>
+<p class="library-source-note">Source principale: export CLZ Books du 14 juillet 2026. Les 571 notices sources restent traçables; 14 groupes de doublons sont présentés comme 557 éditions. Le nombre de notices regroupées ne permet pas de conclure au nombre d’exemplaires physiques. Les champs bibliographiques vides ont été complétés par correspondance exacte d'ISBN avec Open Library. Les images génériques qui ne représentent pas la véritable couverture sont exclues. Chaque couverture externe conserve son fournisseur, sa méthode d'appariement et son lien de provenance dans le catalogue.</p>
 :::
 :::
 

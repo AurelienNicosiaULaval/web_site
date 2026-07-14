@@ -758,11 +758,6 @@
       "title": "Mathématiques de l'intérêt"
     },
     {
-      "id": "book-0483",
-      "isbn": "9780075498223",
-      "title": "Les statistiques une approche nouvelle"
-    },
-    {
       "id": "book-0301",
       "isbn": "9780133633900",
       "title": "Graphs, Models, and Finite Mathematics"
@@ -793,34 +788,9 @@
       "title": "Automatic Differentiation of Algorithms: Theory, Implementation, and Application (Siam Proceedings Series)"
     },
     {
-      "id": "book-0444",
-      "isbn": "9781942911142",
-      "title": "Torbeck's Statistical Cookbook for Scientists and Engineers"
-    },
-    {
-      "id": "book-0492",
-      "isbn": "9782553016806",
-      "title": "Analyse numérique pour ingénieurs"
-    },
-    {
-      "id": "book-0477",
-      "isbn": "9782706103674",
-      "title": "Mathématiques pour les sciences de la nature et de la vie"
-    },
-    {
-      "id": "book-0551",
-      "isbn": "9782744501197",
-      "title": "Analyse concepts et contextes. Fonctions de plusieurs variables"
-    },
-    {
       "id": "book-0538",
       "isbn": "9782760616424",
       "title": "Cours d'analyse à l'usage des ingénieurs"
-    },
-    {
-      "id": "book-0498",
-      "isbn": "9782761354875",
-      "title": "Calcul différentiel"
     },
     {
       "id": "book-0470",
@@ -828,49 +798,9 @@
       "title": "Introduction à l'algèbre linéaire et à ses applications"
     },
     {
-      "id": "book-0493",
-      "isbn": "9782765062479",
-      "title": "Calcul intégral"
-    },
-    {
-      "id": "book-0546",
-      "isbn": "9782880741488",
-      "title": "Probabilités et statistique"
-    },
-    {
-      "id": "book-0529",
-      "isbn": "9782880743727",
-      "title": "Introduction à la statistique"
-    },
-    {
       "id": "book-0520",
       "isbn": "9782891050081",
       "title": "Probabilités en gestion et en économie"
-    },
-    {
-      "id": "book-0535",
-      "isbn": "9782894430552",
-      "title": "Statistique et probabilités"
-    },
-    {
-      "id": "book-0524",
-      "isbn": "9782894612606",
-      "title": "Fonctions de plusieurs variables"
-    },
-    {
-      "id": "book-0530",
-      "isbn": "9782897320430",
-      "title": "Probabilités et statistique"
-    },
-    {
-      "id": "book-0543",
-      "isbn": "9782897320492",
-      "title": "Mathématiques appliquées aux technologies du bâtiment et du territoire"
-    },
-    {
-      "id": "book-0487",
-      "isbn": "9782897326128",
-      "title": "Probabilités et statistiques - Sciences"
     },
     {
       "id": "book-0354",
@@ -881,11 +811,6 @@
       "id": "book-0318",
       "isbn": "9782921120364",
       "title": "Fonctions De Plusieurs Variables"
-    },
-    {
-      "id": "book-0508",
-      "isbn": "9782921180801",
-      "title": "Introduction aux mathématiques de l'ingénieur"
     },
     {
       "id": "book-0560",
@@ -901,6 +826,11 @@
       "id": "book-0509",
       "isbn": "9782924601020",
       "title": "Introduction Aux Mathématiques de L'ingénieur"
+    },
+    {
+      "id": "book-0572",
+      "isbn": "9789074840798",
+      "title": "Approximate planning under uncertainty in partially observable environments"
     },
     {
       "id": "book-0093",
@@ -923,8 +853,8 @@
       "title": "Le Frido 2021"
     }
   ],
-  "new_cover_count": 6,
+  "new_cover_count": 0,
   "provider": "LaLibrairie.com",
-  "requested_isbn_count": 40,
+  "requested_isbn_count": 20,
   "retrieved_on": "2026-07-14"
 }

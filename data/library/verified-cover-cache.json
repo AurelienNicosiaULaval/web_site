@@ -561,7 +561,7 @@
     }
   },
   "isbn_cover_count": 43,
-  "record_cover_count": 3,
+  "record_cover_count": 4,
   "record_matches": {
     "book-0005": {
       "images": {
@@ -616,6 +616,24 @@
       "record_id": "book-0441",
       "source_id": "internet_archive_cover",
       "source_url": "https://archive.org/details/analysenumerique0000unse"
+    },
+    "book-0567": {
+      "images": {
+        "large": "https://books.google.com/books/content?id=dkNblfhmIBMC&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+        "medium": "https://books.google.com/books/content?id=dkNblfhmIBMC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "small": "https://books.google.com/books/content?id=dkNblfhmIBMC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "match": {
+        "author": "Georges Glaeser",
+        "publication_year": "1971",
+        "publisher_normalized": "Hermann",
+        "title": "Mathématiques pour l’élève professeur"
+      },
+      "match_method": "title_author_year_publisher",
+      "provider": "Google Books",
+      "record_id": "book-0567",
+      "source_id": "google_books_glaeser",
+      "source_url": "https://books.google.com/books/about/Math%C3%A9matiques_pour_l_%C3%A9l%C3%A8ve_professeur.html?id=dkNblfhmIBMC"
     }
   },
   "retrieved_on": "2026-07-14",

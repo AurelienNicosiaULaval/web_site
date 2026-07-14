@@ -227,7 +227,7 @@
         "small": "https://www.editions-ellipses.fr/45264-home_default/cours-d-algebre-agregation.jpg"
       },
       "isbn": "9782729855529",
-      "record_id": "book-0361",
+      "record_id": "book-0360",
       "source_url": "https://www.editions-ellipses.fr/fr/accueil/7778-18110-cours-d-algebre-agregation-9782729855529.html",
       "title": "Cours d'algèbre (Agrégation)"
     },
@@ -302,6 +302,6 @@
   "match_method": "exact_isbn",
   "misses": [],
   "provider": "Éditions Ellipses",
-  "requested_isbn_count": 28,
+  "requested_isbn_count": 27,
   "retrieved_on": "2026-07-14"
 }

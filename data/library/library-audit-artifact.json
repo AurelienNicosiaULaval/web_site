@@ -79,7 +79,7 @@
       {
         "id": "isbn_status_chart",
         "title": "Statut des ISBN dans le catalogue curé",
-        "subtitle": "Parmi les 94 ISBN absents, 82 concernent des publications antérieures à 1970 et 12 cas restent à examiner.",
+        "subtitle": "Parmi les 103 ISBN absents, 84 concernent des publications antérieures à 1970 et 19 cas restent à examiner.",
         "question": "Comment la complétude des ISBN se répartit-elle selon la période de publication?",
         "rationale": "Un diagramme en barres compare directement les quatre statuts sur une base zéro.",
         "type": "bar",
@@ -339,7 +339,7 @@
         "id": "executive_summary",
         "type": "markdown",
         "sourceId": "quality_pipeline",
-        "body": "## Executive Summary\n\nLa base conserve les 560 notices CLZ comme preuve brute et les présente sous la forme de 546 éditions distinctes issues de 560 notices sources. Les 14 groupes de doublons restent entièrement traçables et aucun ISBN invalide n’est présent. 26 notices ont reçu des corrections manuelles à confiance élevée, soit 63 champs réellement modifiés. Après curation, 452 notices ont un ISBN valide. Parmi les 94 ISBN absents, 82 sont associés à des ouvrages publiés avant 1970; les 12 autres cas restent explicitement signalés plutôt que complétés avec une édition incertaine."
+        "body": "## Executive Summary\n\nLa base conserve les 571 notices CLZ comme preuve brute et les présente sous la forme de 557 éditions distinctes issues de 571 notices sources. Les 14 groupes de doublons restent entièrement traçables et aucun ISBN invalide n’est présent. 30 notices ont reçu des corrections manuelles à confiance élevée, soit 67 champs réellement modifiés. Après curation, 454 notices ont un ISBN valide. Parmi les 103 ISBN absents, 84 sont associés à des ouvrages publiés avant 1970; les 19 autres cas restent explicitement signalés plutôt que complétés avec une édition incertaine."
       },
       {
         "id": "metrics",
@@ -361,7 +361,7 @@
         "id": "quality_improvements",
         "type": "markdown",
         "sourceId": "quality_pipeline",
-        "body": "## Améliorations mesurables\n\nLes valeurs manquantes ont diminué pour les auteurs, titres, ISBN, éditeurs, dates et collections. La normalisation analytique ramène 257 libellés d’éditeur à 163 maisons d’édition, normalise 29 notices d’auteur et conserve les libellés CLZ originaux."
+        "body": "## Améliorations mesurables\n\nLes valeurs manquantes ont diminué pour les auteurs, titres, ISBN, éditeurs, dates et collections. La normalisation analytique ramène 261 libellés d’éditeur à 167 maisons d’édition, normalise 29 notices d’auteur et conserve les libellés CLZ originaux."
       },
       {
         "id": "missing_fields",
@@ -373,7 +373,7 @@
         "id": "remaining_cases",
         "type": "markdown",
         "sourceId": "isbn_agency",
-        "body": "## Cas restant à examiner\n\nLa règle de travail classe l’absence d’ISBN avant 1970 comme attendue. Le SBN a commencé au Royaume-Uni en 1967 et la norme internationale ISBN a été approuvée en 1970. Pour les publications ultérieures, l’absence peut encore être légitime selon l’édition; une vérification de la page de copyright du livre physique serait nécessaire pour trancher les 12 cas signalés."
+        "body": "## Cas restant à examiner\n\nLa règle de travail classe l’absence d’ISBN avant 1970 comme attendue. Le SBN a commencé au Royaume-Uni en 1967 et la norme internationale ISBN a été approuvée en 1970. Pour les publications ultérieures, l’absence peut encore être légitime selon l’édition; une vérification de la page de copyright du livre physique serait nécessaire pour trancher les 19 cas signalés."
       },
       {
         "id": "review_cases",
@@ -408,34 +408,34 @@
     "datasets": {
       "summary": [
         {
-          "records": 546,
-          "source_records": 560,
-          "valid_isbn": 452,
-          "valid_isbn_share": 0.8278388278388278,
-          "expected_pre1970_missing": 82,
-          "isbn_to_review": 12,
-          "corrected_records": 26,
-          "changed_fields": 63,
-          "external_isbn_coverage": 0.7013274336283186,
-          "raw_publishers": 257,
-          "normalized_publishers": 163,
-          "normalized_author_labels": 476
+          "records": 557,
+          "source_records": 571,
+          "valid_isbn": 454,
+          "valid_isbn_share": 0.8150807899461401,
+          "expected_pre1970_missing": 84,
+          "isbn_to_review": 19,
+          "corrected_records": 30,
+          "changed_fields": 67,
+          "external_isbn_coverage": 0.698237885462555,
+          "raw_publishers": 261,
+          "normalized_publishers": 167,
+          "normalized_author_labels": 486
         }
       ],
       "isbn_status": [
         {
           "status": "ISBN valide",
-          "count": 452,
+          "count": 454,
           "review_required": "Non"
         },
         {
           "status": "Absent, avant 1970",
-          "count": 82,
+          "count": 84,
           "review_required": "Non"
         },
         {
           "status": "Absent, 1970 ou après",
-          "count": 12,
+          "count": 19,
           "review_required": "Oui"
         },
         {
@@ -448,9 +448,9 @@
         {
           "field": "Auteur",
           "raw_missing": 9,
-          "raw_missing_rate": 0.0161,
+          "raw_missing_rate": 0.0158,
           "curated_missing": 3,
-          "curated_missing_rate": 0.0055
+          "curated_missing_rate": 0.0054
         },
         {
           "field": "Titre",
@@ -461,17 +461,17 @@
         },
         {
           "field": "ISBN",
-          "raw_missing": 103,
-          "raw_missing_rate": 0.1839,
-          "curated_missing": 94,
-          "curated_missing_rate": 0.1722
+          "raw_missing": 112,
+          "raw_missing_rate": 0.1961,
+          "curated_missing": 103,
+          "curated_missing_rate": 0.1849
         },
         {
           "field": "Éditeur",
           "raw_missing": 21,
-          "raw_missing_rate": 0.0375,
+          "raw_missing_rate": 0.0368,
           "curated_missing": 16,
-          "curated_missing_rate": 0.0293
+          "curated_missing_rate": 0.0287
         },
         {
           "field": "Date de publication",
@@ -489,17 +489,17 @@
         },
         {
           "field": "Genre CLZ",
-          "raw_missing": 556,
-          "raw_missing_rate": 0.9929,
-          "curated_missing": 542,
-          "curated_missing_rate": 0.9927
+          "raw_missing": 567,
+          "raw_missing_rate": 0.993,
+          "curated_missing": 553,
+          "curated_missing_rate": 0.9928
         },
         {
           "field": "Collection",
-          "raw_missing": 558,
-          "raw_missing_rate": 0.9964,
-          "curated_missing": 538,
-          "curated_missing_rate": 0.9853
+          "raw_missing": 569,
+          "raw_missing_rate": 0.9965,
+          "curated_missing": 548,
+          "curated_missing_rate": 0.9838
         }
       ],
       "review_cases": [
@@ -553,6 +553,34 @@
           "reason": "Absent, 1970 ou après"
         },
         {
+          "id": "book-0564",
+          "year": "1971",
+          "title": "Théorie et pratique des sondages",
+          "author": "J. Desabie",
+          "reason": "Absent, 1970 ou après"
+        },
+        {
+          "id": "book-0567",
+          "year": "1971",
+          "title": "Mathématiques pour l’élève professeur",
+          "author": "Georges Glaeser",
+          "reason": "Absent, 1970 ou après"
+        },
+        {
+          "id": "book-0562",
+          "year": "1973",
+          "title": "Mathématiques pour l’informatique. 4, Probabilités",
+          "author": "François Brodeau | Guy Romier",
+          "reason": "Absent, 1970 ou après"
+        },
+        {
+          "id": "book-0569",
+          "year": "1974",
+          "title": "Solutions Manual for Mathematical Statistics with Applications",
+          "author": "W. Mendenhall | R. Schaeffer | Barbara M. Beaver",
+          "reason": "Absent, 1970 ou après"
+        },
+        {
           "id": "book-0051",
           "year": "1975",
           "title": "Les mathématiques du consommateur : livre du maître",
@@ -574,6 +602,13 @@
           "reason": "Absent, 1970 ou après"
         },
         {
+          "id": "book-0568",
+          "year": "1981",
+          "title": "Solutions Manual for An Introduction to Contemporary Statistics",
+          "author": "Lambert H. Koopmans",
+          "reason": "Absent, 1970 ou après"
+        },
+        {
           "id": "book-0014",
           "year": "1984",
           "title": "Programmation linéaire",
@@ -585,6 +620,20 @@
           "year": "1985",
           "title": "éléments de la théorie des groupes",
           "author": "M. Kargapolov | Iou. Merzliakov",
+          "reason": "Absent, 1970 ou après"
+        },
+        {
+          "id": "book-0571",
+          "year": "1988",
+          "title": "Initiation aux statistiques",
+          "author": "Serge Robert",
+          "reason": "Absent, 1970 ou après"
+        },
+        {
+          "id": "book-0570",
+          "year": "1989",
+          "title": "Théorie des plans d’expérience : application à l’agronomie",
+          "author": "G. Philippeau",
           "reason": "Absent, 1970 ou après"
         }
       ],
@@ -770,6 +819,34 @@
           "changed_fields": "Auteur",
           "source_count": 2,
           "sources": "polypublie_hines, cheneliere_hines"
+        },
+        {
+          "id": "book-0562",
+          "title": "Mathématiques pour l’informatique. 4, Probabilités",
+          "changed_fields": "Collection",
+          "source_count": 1,
+          "sources": "nantilus_brodeau"
+        },
+        {
+          "id": "book-0563",
+          "title": "Lexique mathématique : enseignement secondaire",
+          "changed_fields": "ISBN",
+          "source_count": 1,
+          "sources": "saskatchewan_lexique"
+        },
+        {
+          "id": "book-0565",
+          "title": "Cours d’électricité. Tome 1 : Lois générales des régimes stationnaires et quasi-stationnaires",
+          "changed_fields": "Titre",
+          "source_count": 1,
+          "sources": "clz_latest_export"
+        },
+        {
+          "id": "book-0571",
+          "title": "Initiation aux statistiques",
+          "changed_fields": "Éditeur",
+          "source_count": 1,
+          "sources": "clz_latest_export"
         }
       ]
     }

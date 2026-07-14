@@ -1,13 +1,13 @@
 {
   "source": {
-    "name": "pdf_book_2026-07-14_17-55-30.pdf",
+    "name": "pdf_book_2026-07-14_21-30-54.pdf",
     "format": "CLZ Books PDF export",
     "pages": 41,
-    "previous_catalogue": "pdf_book_2026-07-13_21-08-03.pdf",
+    "previous_catalogue": "pdf_book_2026-07-14_17-55-30.pdf",
     "reconciliation": {
-      "retained": 466,
-      "added": 94,
-      "removed": 1
+      "retained": 560,
+      "added": 11,
+      "removed": 0
     }
   },
   "curation": {
@@ -23,10 +23,10 @@
     "dunod_cover_snapshot": "data/library/dunod-cover-cache.json",
     "lalibrairie_cover_snapshot": "data/library/lalibrairie-cover-cache.json",
     "verified_cover_snapshot": "data/library/verified-cover-cache.json",
-    "manual_override_count": 26,
-    "raw_source_record_count": 560,
-    "catalogue_record_count": 546,
-    "source_record_count": 560,
+    "manual_override_count": 30,
+    "raw_source_record_count": 571,
+    "catalogue_record_count": 557,
+    "source_record_count": 571,
     "duplicate_group_count": 14,
     "policy": {
       "confidence_threshold": "high",
@@ -167,6 +167,22 @@
       "cheneliere_hines": {
         "title": "Chenelière, Probabilités et statistique pour ingénieurs",
         "url": "https://www.cheneliere.ca/en/higher-education/mathematics/probability-and-statistics.html"
+      },
+      "saskatchewan_lexique": {
+        "title": "Saskatchewan Education, secondary mathematics resource catalogue",
+        "url": "https://webtk12.sasked.gov.sk.ca/docs/francais/biblio/frmath/secmath/resmath2.html"
+      },
+      "nantilus_brodeau": {
+        "title": "Nantes Université catalogue, Mathématiques pour l’informatique. 4, Probabilités",
+        "url": "https://nantilus.univ-nantes.fr/vufind/Record/in00000040506/Details"
+      },
+      "google_books_glaeser": {
+        "title": "Google Books, Mathématiques pour l’élève professeur",
+        "url": "https://books.google.com/books/about/Math%C3%A9matiques_pour_l_%C3%A9l%C3%A8ve_professeur.html?id=dkNblfhmIBMC"
+      },
+      "clz_latest_export": {
+        "title": "Latest CLZ Books PDF export",
+        "url": "data/library/clz-library-raw.json"
       }
     }
   },
@@ -3620,6 +3636,46 @@
       ]
     },
     {
+      "author": "François Brodeau | Guy Romier",
+      "title": "Mathématiques pour l’informatique. 4, Probabilités",
+      "isbn": "",
+      "publisher": "Librairie Armand Colin",
+      "publication_date": "1973",
+      "genre": "",
+      "publication_year": "1973",
+      "series": "U. Informatique ; 3",
+      "source_pages": [
+        6
+      ],
+      "id": "book-0562",
+      "data_provenance": {
+        "series": "nantilus_brodeau"
+      },
+      "curation": {
+        "confidence": "high",
+        "reason": "The university catalogue matches the title, authors, publisher and year and supplies the collection statement.",
+        "sources": [
+          "nantilus_brodeau"
+        ],
+        "changed_fields": [
+          "series"
+        ],
+        "verified_fields": [
+          "series"
+        ]
+      },
+      "author_normalized": "François Brodeau | Guy Romier",
+      "publisher_normalized": "Librairie Armand Colin",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ],
+      "source_record_count": 1,
+      "source_record_ids": [
+        "book-0562"
+      ]
+    },
+    {
       "author": "Peter Bruce",
       "title": "Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python",
       "isbn": "9781492072942",
@@ -4450,6 +4506,44 @@
       ]
     },
     {
+      "author": "Denis de Champlain | Pierre Mathieu | Paul Patenaude | Hélène Tessier",
+      "title": "Lexique mathématique : enseignement secondaire",
+      "isbn": "9782894220078",
+      "publisher": "Les Éditions du Triangle d'Or",
+      "publication_date": "1994",
+      "genre": "",
+      "publication_year": "1994",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0563",
+      "data_provenance": {
+        "isbn": "saskatchewan_lexique"
+      },
+      "curation": {
+        "confidence": "high",
+        "reason": "The official educational resource catalogue identifies the 1994 edition and its valid ISBN-10; the CLZ value has an invalid check digit.",
+        "sources": [
+          "saskatchewan_lexique"
+        ],
+        "changed_fields": [
+          "isbn"
+        ],
+        "verified_fields": [
+          "isbn"
+        ]
+      },
+      "author_normalized": "Denis de Champlain | Pierre Mathieu | Paul Patenaude | Hélène Tessier",
+      "publisher_normalized": "Les Éditions du Triangle d'Or",
+      "isbn_status": "valid",
+      "quality_flags": [],
+      "source_record_count": 1,
+      "source_record_ids": [
+        "book-0563"
+      ]
+    },
+    {
       "author": "Gilles Charron",
       "title": "Algèbre linéaire et géométrie vectorielle",
       "isbn": "9782761626927",
@@ -4658,7 +4752,8 @@
       "publication_year": "1932",
       "series": "",
       "source_pages": [
-        7
+        7,
+        8
       ],
       "id": "book-0088",
       "author_normalized": "Les Frères de l’Instruction Chrétienne",
@@ -4680,7 +4775,7 @@
       "publication_year": "1986",
       "series": "",
       "source_pages": [
-        7
+        8
       ],
       "id": "book-0089",
       "openlibrary": {
@@ -5376,7 +5471,7 @@
       "publication_year": "1980",
       "series": "",
       "source_pages": [
-        8
+        9
       ],
       "id": "book-0105",
       "openlibrary": {
@@ -5436,7 +5531,7 @@
       "publication_year": "1973",
       "series": "",
       "source_pages": [
-        8
+        9
       ],
       "id": "book-0106",
       "openlibrary": {
@@ -6248,7 +6343,7 @@
       "publication_year": "1960",
       "series": "",
       "source_pages": [
-        9
+        10
       ],
       "id": "book-0119",
       "author_normalized": "Harold T. Davis",
@@ -6270,7 +6365,7 @@
       "publication_year": "1975",
       "series": "",
       "source_pages": [
-        9
+        10
       ],
       "id": "book-0120",
       "openlibrary": {
@@ -6740,6 +6835,30 @@
       ]
     },
     {
+      "author": "J. Desabie",
+      "title": "Théorie et pratique des sondages",
+      "isbn": "",
+      "publisher": "Dunod",
+      "publication_date": "1971",
+      "genre": "",
+      "publication_year": "1971",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0564",
+      "author_normalized": "J. Desabie",
+      "publisher_normalized": "Dunod",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ],
+      "source_record_count": 1,
+      "source_record_ids": [
+        "book-0564"
+      ]
+    },
+    {
       "author": "Claude Deschamps | François Moulin | Nathalie Cleirec | Yoann Gentric | François Lussier | Chloé Mullaert | Serge Nicolas | Michel Volcker",
       "title": "Maths MP-MP* - Tout-en-un - 5e éd",
       "isbn": "9782100801220",
@@ -6749,7 +6868,8 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        10
+        10,
+        11
       ],
       "id": "book-0129",
       "openlibrary": {
@@ -6811,7 +6931,7 @@
       "publication_year": "2025",
       "series": "",
       "source_pages": [
-        10
+        11
       ],
       "id": "book-0487",
       "cover": {
@@ -6846,7 +6966,7 @@
       "publication_year": "1987",
       "series": "",
       "source_pages": [
-        10
+        11
       ],
       "id": "book-0488",
       "openlibrary": {
@@ -7561,7 +7681,7 @@
       "publication_year": "1965",
       "series": "",
       "source_pages": [
-        11
+        12
       ],
       "id": "book-0140",
       "author_normalized": "René Dussaud",
@@ -7583,7 +7703,7 @@
       "publication_year": "2007",
       "series": "",
       "source_pages": [
-        11
+        12
       ],
       "id": "book-0141",
       "openlibrary": {
@@ -8193,7 +8313,7 @@
       "publication_year": "1998",
       "series": "",
       "source_pages": [
-        12
+        13
       ],
       "id": "book-0491",
       "openlibrary": {
@@ -8892,7 +9012,8 @@
       "publication_year": "2015",
       "series": "",
       "source_pages": [
-        13
+        13,
+        14
       ],
       "id": "book-0166",
       "cover": {
@@ -8927,7 +9048,7 @@
       "publication_year": "1980",
       "series": "",
       "source_pages": [
-        13
+        14
       ],
       "id": "book-0494",
       "openlibrary": {
@@ -9070,6 +9191,66 @@
       "source_record_count": 1,
       "source_record_ids": [
         "book-0168"
+      ]
+    },
+    {
+      "author": "A. Frühling",
+      "title": "Cours d’électricité. Tome 1 : Lois générales des régimes stationnaires et quasi-stationnaires",
+      "isbn": "",
+      "publisher": "Dunod",
+      "publication_date": "1966",
+      "genre": "",
+      "publication_year": "1966",
+      "series": "",
+      "source_pages": [
+        14
+      ],
+      "id": "book-0565",
+      "data_provenance": {
+        "title": "clz_latest_export"
+      },
+      "curation": {
+        "confidence": "high",
+        "reason": "The PDF table line wrapping inserted a space after the hyphen.",
+        "sources": [
+          "clz_latest_export"
+        ],
+        "changed_fields": [
+          "title"
+        ],
+        "verified_fields": [
+          "title"
+        ]
+      },
+      "author_normalized": "A. Frühling",
+      "publisher_normalized": "Dunod",
+      "isbn_status": "missing_pre_1970",
+      "quality_flags": [],
+      "source_record_count": 1,
+      "source_record_ids": [
+        "book-0565"
+      ]
+    },
+    {
+      "author": "A. Frühling",
+      "title": "Cours d’électricité. Tome 2 : Régimes sinusoïdaux. Propagation. Électricité particulière",
+      "isbn": "",
+      "publisher": "Dunod",
+      "publication_date": "1966",
+      "genre": "",
+      "publication_year": "1966",
+      "series": "",
+      "source_pages": [
+        14
+      ],
+      "id": "book-0566",
+      "author_normalized": "A. Frühling",
+      "publisher_normalized": "Dunod",
+      "isbn_status": "missing_pre_1970",
+      "quality_flags": [],
+      "source_record_count": 1,
+      "source_record_ids": [
+        "book-0566"
       ]
     },
     {
@@ -9474,7 +9655,7 @@
       "publication_year": "2000",
       "series": "",
       "source_pages": [
-        14
+        15
       ],
       "id": "book-0495",
       "openlibrary": {
@@ -9540,7 +9721,7 @@
       "publication_year": "1997",
       "series": "",
       "source_pages": [
-        14
+        15
       ],
       "id": "book-0178",
       "data_provenance": {
@@ -9634,7 +9815,7 @@
       "publication_year": "2003",
       "series": "",
       "source_pages": [
-        14
+        15
       ],
       "id": "book-0179",
       "openlibrary": {
@@ -9836,6 +10017,43 @@
       "source_record_count": 1,
       "source_record_ids": [
         "book-0183"
+      ]
+    },
+    {
+      "author": "Georges Glaeser",
+      "title": "Mathématiques pour l’élève professeur",
+      "isbn": "",
+      "publisher": "Hermann",
+      "publication_date": "1971",
+      "genre": "",
+      "publication_year": "1971",
+      "series": "",
+      "source_pages": [
+        15
+      ],
+      "id": "book-0567",
+      "cover": {
+        "provider": "Google Books",
+        "source_id": "google_books_glaeser",
+        "retrieved_on": "2026-07-14",
+        "match_method": "title_author_year_publisher",
+        "confidence": "high",
+        "source_url": "https://books.google.com/books/about/Math%C3%A9matiques_pour_l_%C3%A9l%C3%A8ve_professeur.html?id=dkNblfhmIBMC",
+        "images": {
+          "large": "https://books.google.com/books/content?id=dkNblfhmIBMC&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+          "medium": "https://books.google.com/books/content?id=dkNblfhmIBMC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "small": "https://books.google.com/books/content?id=dkNblfhmIBMC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        }
+      },
+      "author_normalized": "Georges Glaeser",
+      "publisher_normalized": "Hermann",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ],
+      "source_record_count": 1,
+      "source_record_ids": [
+        "book-0567"
       ]
     },
     {
@@ -10127,7 +10345,7 @@
       "publication_year": "2009",
       "series": "",
       "source_pages": [
-        15
+        16
       ],
       "id": "book-0191",
       "cover": {
@@ -10162,7 +10380,7 @@
       "publication_year": "2011",
       "series": "",
       "source_pages": [
-        15
+        16
       ],
       "id": "book-0192",
       "cover": {
@@ -10197,7 +10415,7 @@
       "publication_year": "1971",
       "series": "",
       "source_pages": [
-        15
+        16
       ],
       "id": "book-0193",
       "openlibrary": {
@@ -10248,7 +10466,7 @@
       "publication_year": "1981",
       "series": "",
       "source_pages": [
-        15
+        16
       ],
       "id": "book-0194",
       "openlibrary": {
@@ -10306,7 +10524,7 @@
       "publication_year": "2008",
       "series": "",
       "source_pages": [
-        15
+        16
       ],
       "id": "book-0195",
       "openlibrary": {
@@ -10361,7 +10579,6 @@
       "publication_year": "1992",
       "series": "",
       "source_pages": [
-        15,
         16
       ],
       "id": "book-0196",
@@ -10803,7 +11020,7 @@
       "publication_year": "2016",
       "series": "",
       "source_pages": [
-        16
+        17
       ],
       "id": "book-0203",
       "openlibrary": {
@@ -10871,7 +11088,7 @@
       "publication_year": "1962",
       "series": "",
       "source_pages": [
-        16
+        17
       ],
       "id": "book-0204",
       "author_normalized": "H. S. Hall | S. R. Knight",
@@ -11333,7 +11550,8 @@
       "publication_year": "2009",
       "series": "",
       "source_pages": [
-        17
+        17,
+        18
       ],
       "id": "book-0213",
       "data_provenance": {
@@ -11426,7 +11644,7 @@
       "publication_year": "2001",
       "series": "",
       "source_pages": [
-        17
+        18
       ],
       "id": "book-0214",
       "openlibrary": {
@@ -11483,7 +11701,7 @@
       "publication_year": "2023",
       "series": "",
       "source_pages": [
-        17
+        18
       ],
       "id": "book-0215",
       "data_provenance": {
@@ -11534,7 +11752,7 @@
       "publication_year": "2007",
       "series": "",
       "source_pages": [
-        17
+        18
       ],
       "id": "book-0216",
       "openlibrary": {
@@ -11943,7 +12161,7 @@
       "publication_year": "2003",
       "series": "",
       "source_pages": [
-        18
+        19
       ],
       "id": "book-0501",
       "openlibrary": {
@@ -12004,7 +12222,7 @@
       "publication_year": "2017",
       "series": "",
       "source_pages": [
-        18
+        19
       ],
       "id": "book-0502",
       "openlibrary": {
@@ -12066,7 +12284,7 @@
       "publication_year": "2009",
       "series": "",
       "source_pages": [
-        18
+        19
       ],
       "id": "book-0224",
       "openlibrary": {
@@ -12689,7 +12907,7 @@
       "publication_year": "1999",
       "series": "",
       "source_pages": [
-        19
+        20
       ],
       "id": "book-0503",
       "openlibrary": {
@@ -12750,7 +12968,7 @@
       "publication_year": "2001",
       "series": "",
       "source_pages": [
-        19
+        20
       ],
       "id": "book-0237",
       "cover": {
@@ -12785,7 +13003,7 @@
       "publication_year": "2013",
       "series": "",
       "source_pages": [
-        19
+        20
       ],
       "id": "book-0238",
       "openlibrary": {
@@ -13160,7 +13378,8 @@
       "publication_year": "1995",
       "series": "",
       "source_pages": [
-        20
+        20,
+        21
       ],
       "id": "book-0248",
       "openlibrary": {
@@ -13220,7 +13439,7 @@
       "publication_year": "1997",
       "series": "",
       "source_pages": [
-        20
+        21
       ],
       "id": "book-0249",
       "openlibrary": {
@@ -13778,7 +13997,7 @@
       "publication_year": "2015",
       "series": "",
       "source_pages": [
-        21
+        22
       ],
       "id": "book-0254",
       "openlibrary": {
@@ -13846,7 +14065,7 @@
       "publication_year": "2021",
       "series": "",
       "source_pages": [
-        21
+        22
       ],
       "id": "book-0255",
       "cover": {
@@ -13883,7 +14102,7 @@
       "publication_year": "2021",
       "series": "",
       "source_pages": [
-        21
+        22
       ],
       "id": "book-0256",
       "cover": {
@@ -14102,6 +14321,30 @@
       "source_record_count": 1,
       "source_record_ids": [
         "book-0509"
+      ]
+    },
+    {
+      "author": "Lambert H. Koopmans",
+      "title": "Solutions Manual for An Introduction to Contemporary Statistics",
+      "isbn": "",
+      "publisher": "Duxbury Press",
+      "publication_date": "1981",
+      "genre": "",
+      "publication_year": "1981",
+      "series": "",
+      "source_pages": [
+        22
+      ],
+      "id": "book-0568",
+      "author_normalized": "Lambert H. Koopmans",
+      "publisher_normalized": "Duxbury Press",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ],
+      "source_record_count": 1,
+      "source_record_ids": [
+        "book-0568"
       ]
     },
     {
@@ -14411,7 +14654,7 @@
       "publication_year": "1992",
       "series": "",
       "source_pages": [
-        22
+        23
       ],
       "id": "book-0263",
       "openlibrary": {
@@ -14488,7 +14731,7 @@
       "publication_year": "1998",
       "series": "",
       "source_pages": [
-        22
+        23
       ],
       "id": "book-0264",
       "openlibrary": {
@@ -14556,7 +14799,7 @@
       "publication_year": "1969",
       "series": "",
       "source_pages": [
-        22
+        23
       ],
       "id": "book-0265",
       "author_normalized": "Jean-Louis Krivine",
@@ -14578,7 +14821,7 @@
       "publication_year": "2003",
       "series": "",
       "source_pages": [
-        22
+        23
       ],
       "id": "book-0266",
       "openlibrary": {
@@ -14640,7 +14883,6 @@
       "publication_year": "1927",
       "series": "",
       "source_pages": [
-        22,
         23
       ],
       "id": "book-0267",
@@ -15161,7 +15403,8 @@
       "publication_year": "2017",
       "series": "",
       "source_pages": [
-        23
+        23,
+        24
       ],
       "id": "book-0514",
       "cover": {
@@ -15196,7 +15439,7 @@
       "publication_year": "2012",
       "series": "",
       "source_pages": [
-        23
+        24
       ],
       "id": "book-0515",
       "openlibrary": {
@@ -15252,7 +15495,7 @@
       "publication_year": "1990",
       "series": "",
       "source_pages": [
-        23
+        24
       ],
       "id": "book-0276",
       "openlibrary": {
@@ -15311,7 +15554,7 @@
       "publication_year": "2024",
       "series": "",
       "source_pages": [
-        23
+        24
       ],
       "id": "book-0277",
       "cover": {
@@ -15346,7 +15589,7 @@
       "publication_year": "2025",
       "series": "",
       "source_pages": [
-        23
+        24
       ],
       "id": "book-0278",
       "cover": {
@@ -15381,7 +15624,7 @@
       "publication_year": "1983",
       "series": "",
       "source_pages": [
-        23
+        24
       ],
       "id": "book-0279",
       "data_provenance": {
@@ -15480,7 +15723,6 @@
       "publication_year": "2023",
       "series": "",
       "source_pages": [
-        23,
         24
       ],
       "id": "book-0281",
@@ -16070,7 +16312,7 @@
       "publication_year": "2023",
       "series": "",
       "source_pages": [
-        24
+        25
       ],
       "id": "book-0291",
       "openlibrary": {
@@ -16121,7 +16363,7 @@
       "publication_year": "1983",
       "series": "",
       "source_pages": [
-        24
+        25
       ],
       "id": "book-0292",
       "openlibrary": {
@@ -16178,7 +16420,7 @@
       "publication_year": "1968",
       "series": "",
       "source_pages": [
-        24
+        25
       ],
       "id": "book-0294",
       "cover": {
@@ -16222,7 +16464,7 @@
       "publication_year": "1944",
       "series": "",
       "source_pages": [
-        24
+        25
       ],
       "id": "book-0295",
       "cover": {
@@ -16713,7 +16955,7 @@
       "publication_year": "2013",
       "series": "",
       "source_pages": [
-        25
+        26
       ],
       "id": "book-0304",
       "data_provenance": {
@@ -16764,7 +17006,7 @@
       "publication_year": "2004",
       "series": "",
       "source_pages": [
-        25
+        26
       ],
       "id": "book-0305",
       "cover": {
@@ -16799,7 +17041,7 @@
       "publication_year": "2007",
       "series": "",
       "source_pages": [
-        25
+        26
       ],
       "id": "book-0306",
       "openlibrary": {
@@ -16860,7 +17102,6 @@
       "publication_year": "2007",
       "series": "",
       "source_pages": [
-        25,
         26
       ],
       "id": "book-0307",
@@ -17196,7 +17437,7 @@
       "publication_year": "1996",
       "series": "",
       "source_pages": [
-        26
+        27
       ],
       "id": "book-0311",
       "openlibrary": {
@@ -17253,7 +17494,7 @@
       "publication_year": "1998",
       "series": "",
       "source_pages": [
-        26
+        27
       ],
       "id": "book-0523",
       "openlibrary": {
@@ -17314,7 +17555,7 @@
       "publication_year": "1999",
       "series": "",
       "source_pages": [
-        26
+        27
       ],
       "id": "book-0524",
       "openlibrary": {
@@ -17641,6 +17882,30 @@
       ]
     },
     {
+      "author": "W. Mendenhall | R. Schaeffer | Barbara M. Beaver",
+      "title": "Solutions Manual for Mathematical Statistics with Applications",
+      "isbn": "",
+      "publisher": "Duxbury Press",
+      "publication_date": "1974",
+      "genre": "",
+      "publication_year": "1974",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0569",
+      "author_normalized": "W. Mendenhall | R. Schaeffer | Barbara M. Beaver",
+      "publisher_normalized": "Duxbury Press",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ],
+      "source_record_count": 1,
+      "source_record_ids": [
+        "book-0569"
+      ]
+    },
+    {
       "author": "William Mendenhall | Richard L. Scheaffer",
       "title": "Mathematical statistics with applications",
       "isbn": "9780871509390",
@@ -17919,7 +18184,7 @@
       "publication_year": "2025",
       "series": "",
       "source_pages": [
-        27
+        28
       ],
       "id": "book-0321",
       "cover": {
@@ -17954,7 +18219,7 @@
       "publication_year": "1998",
       "series": "",
       "source_pages": [
-        27
+        28
       ],
       "id": "book-0526",
       "openlibrary": {
@@ -18013,7 +18278,7 @@
       "publication_year": "2001",
       "series": "",
       "source_pages": [
-        27
+        28
       ],
       "id": "book-0322",
       "openlibrary": {
@@ -18080,7 +18345,7 @@
       "publication_year": "1986",
       "series": "",
       "source_pages": [
-        27
+        28
       ],
       "id": "book-0323",
       "openlibrary": {
@@ -18131,7 +18396,7 @@
       "publication_year": "1991",
       "series": "",
       "source_pages": [
-        27
+        28
       ],
       "id": "book-0324",
       "openlibrary": {
@@ -18443,7 +18708,8 @@
       "publication_year": "1987",
       "series": "",
       "source_pages": [
-        28
+        28,
+        29
       ],
       "id": "book-0327",
       "openlibrary": {
@@ -18517,7 +18783,7 @@
       "publication_year": "1963",
       "series": "",
       "source_pages": [
-        28
+        29
       ],
       "id": "book-0329",
       "openlibrary": {
@@ -18568,7 +18834,7 @@
       "publication_year": "2021",
       "series": "",
       "source_pages": [
-        28
+        29
       ],
       "id": "book-0330",
       "cover": {
@@ -18603,7 +18869,6 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        28,
         29
       ],
       "id": "book-0331",
@@ -18939,7 +19204,7 @@
       "publication_year": "2024",
       "series": "",
       "source_pages": [
-        29
+        30
       ],
       "id": "book-0335",
       "cover": {
@@ -18974,7 +19239,7 @@
       "publication_year": "2022",
       "series": "",
       "source_pages": [
-        29
+        30
       ],
       "id": "book-0336",
       "openlibrary": {
@@ -19030,7 +19295,7 @@
       "publication_year": "1977",
       "series": "",
       "source_pages": [
-        29
+        30
       ],
       "id": "book-0337",
       "openlibrary": {
@@ -19088,7 +19353,7 @@
       "publication_year": "2014",
       "series": "",
       "source_pages": [
-        29
+        30
       ],
       "id": "book-0532",
       "cover": {
@@ -19123,7 +19388,7 @@
       "publication_year": "1995",
       "series": "",
       "source_pages": [
-        29
+        30
       ],
       "id": "book-0533",
       "openlibrary": {
@@ -19423,7 +19688,7 @@
       "publication_year": "1944",
       "series": "",
       "source_pages": [
-        30
+        31
       ],
       "id": "book-0343",
       "author_normalized": "Kaj L. Nielsen | John H. Vanlonkhuyzen",
@@ -19445,7 +19710,7 @@
       "publication_year": "1974",
       "series": "",
       "source_pages": [
-        30
+        31
       ],
       "id": "book-0344",
       "openlibrary": {
@@ -19513,7 +19778,7 @@
       "publication_year": "2017",
       "series": "",
       "source_pages": [
-        30
+        31
       ],
       "id": "book-0345",
       "cover": {
@@ -19548,7 +19813,7 @@
       "publication_year": "1964",
       "series": "",
       "source_pages": [
-        30
+        31
       ],
       "id": "book-0346",
       "openlibrary": {
@@ -19608,7 +19873,7 @@
       "publication_year": "1975",
       "series": "",
       "source_pages": [
-        30
+        31
       ],
       "id": "book-0347",
       "openlibrary": {
@@ -19670,7 +19935,6 @@
       "publication_year": "1998",
       "series": "",
       "source_pages": [
-        30,
         31
       ],
       "id": "book-0348",
@@ -20182,7 +20446,8 @@
       "publication_year": "2010",
       "series": "",
       "source_pages": [
-        31
+        31,
+        32
       ],
       "id": "book-0355",
       "openlibrary": {
@@ -20246,7 +20511,7 @@
       "publication_year": "1966",
       "series": "",
       "source_pages": [
-        31
+        32
       ],
       "id": "book-0356",
       "author_normalized": "Lesser paley | Jacob weichsel",
@@ -20268,7 +20533,7 @@
       "publication_year": "1998",
       "series": "",
       "source_pages": [
-        31
+        32
       ],
       "id": "book-0357",
       "openlibrary": {
@@ -20329,7 +20594,7 @@
       "publication_year": "2001",
       "series": "",
       "source_pages": [
-        31
+        32
       ],
       "id": "book-0358",
       "openlibrary": {
@@ -20397,7 +20662,7 @@
       "publication_year": "2003",
       "series": "",
       "source_pages": [
-        31
+        32
       ],
       "id": "book-0536",
       "openlibrary": {
@@ -20741,6 +21006,30 @@
       ]
     },
     {
+      "author": "G. Philippeau",
+      "title": "Théorie des plans d’expérience : application à l’agronomie",
+      "isbn": "",
+      "publisher": "Service des Études Statistiques de l’I.T.C.F.",
+      "publication_date": "1989",
+      "genre": "",
+      "publication_year": "1989",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0570",
+      "author_normalized": "G. Philippeau",
+      "publisher_normalized": "Service des Études Statistiques de l’I.T.C.F.",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ],
+      "source_record_count": 1,
+      "source_record_ids": [
+        "book-0570"
+      ]
+    },
+    {
       "author": "Gérard A. Philippin",
       "title": "Cours d'analyse à l'usage des ingénieurs",
       "isbn": "9782760616424",
@@ -20788,7 +21077,7 @@
       "publication_year": "1993",
       "series": "",
       "source_pages": [
-        32
+        33
       ],
       "id": "book-0539",
       "openlibrary": {
@@ -20853,7 +21142,7 @@
       "publication_year": "1985",
       "series": "",
       "source_pages": [
-        32
+        33
       ],
       "id": "book-0540",
       "openlibrary": {
@@ -20914,7 +21203,7 @@
       "publication_year": "1966",
       "series": "",
       "source_pages": [
-        32
+        33
       ],
       "id": "book-0365",
       "author_normalized": "N. Piskounov",
@@ -20936,7 +21225,7 @@
       "publication_year": "1967",
       "series": "",
       "source_pages": [
-        32
+        33
       ],
       "id": "book-0366",
       "author_normalized": "Daniel Ponasse",
@@ -20958,7 +21247,7 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        32
+        33
       ],
       "id": "book-0367",
       "openlibrary": {
@@ -21012,7 +21301,7 @@
       "publication_year": "2025",
       "series": "",
       "source_pages": [
-        32
+        33
       ],
       "id": "book-0368",
       "cover": {
@@ -21047,7 +21336,7 @@
       "publication_year": "1964",
       "series": "",
       "source_pages": [
-        32
+        33
       ],
       "id": "book-0369",
       "author_normalized": "Murray H. Protter | Charles B. Morrey, Jr.",
@@ -21069,7 +21358,7 @@
       "publication_year": "1965",
       "series": "",
       "source_pages": [
-        32
+        33
       ],
       "id": "book-0370",
       "cover": {
@@ -21104,7 +21393,7 @@
       "publication_year": "2023",
       "series": "",
       "source_pages": [
-        32
+        33
       ],
       "id": "book-0371",
       "cover": {
@@ -21139,7 +21428,6 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        32,
         33
       ],
       "id": "book-0372",
@@ -21629,7 +21917,7 @@
       "publication_year": "1967",
       "series": "Berkeley Physics Course, Volume 5",
       "source_pages": [
-        33
+        34
       ],
       "id": "book-0384",
       "author_normalized": "F. Reif",
@@ -21651,7 +21939,7 @@
       "publication_year": "1980",
       "series": "",
       "source_pages": [
-        33
+        34
       ],
       "id": "book-0385",
       "data_provenance": {
@@ -21744,7 +22032,7 @@
       "publication_year": "1992",
       "series": "",
       "source_pages": [
-        33
+        34
       ],
       "id": "book-0386",
       "openlibrary": {
@@ -21807,7 +22095,7 @@
       "publication_year": "2012",
       "series": "",
       "source_pages": [
-        33
+        34
       ],
       "id": "book-0388",
       "openlibrary": {
@@ -21865,7 +22153,7 @@
       "publication_year": "1977",
       "series": "",
       "source_pages": [
-        33
+        34
       ],
       "id": "book-0541",
       "openlibrary": {
@@ -21923,7 +22211,7 @@
       "publication_year": "1959",
       "series": "",
       "source_pages": [
-        33
+        34
       ],
       "id": "book-0389",
       "author_normalized": "Frère Robert | Gaston Bertrand",
@@ -21938,6 +22226,46 @@
       ]
     },
     {
+      "author": "Serge Robert",
+      "title": "Initiation aux statistiques",
+      "isbn": "",
+      "publisher": "Fonds de rayonnement pédagogique, Cégep Saint-Jean-sur-Richelieu",
+      "publication_date": "1988",
+      "genre": "",
+      "publication_year": "1988",
+      "series": "",
+      "source_pages": [
+        34
+      ],
+      "id": "book-0571",
+      "data_provenance": {
+        "publisher": "clz_latest_export"
+      },
+      "curation": {
+        "confidence": "high",
+        "reason": "The PDF table line wrapping inserted spaces after the hyphens in the place name.",
+        "sources": [
+          "clz_latest_export"
+        ],
+        "changed_fields": [
+          "publisher"
+        ],
+        "verified_fields": [
+          "publisher"
+        ]
+      },
+      "author_normalized": "Serge Robert",
+      "publisher_normalized": "Fonds de rayonnement pédagogique, Cégep Saint-Jean-sur-Richelieu",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ],
+      "source_record_count": 1,
+      "source_record_ids": [
+        "book-0571"
+      ]
+    },
+    {
       "author": "Joseph P. Romano",
       "title": "Counterexamples in probability and statistics (The Wadsworth & Brooks/Cole statistics/probability series)",
       "isbn": "9780534055684",
@@ -21947,7 +22275,6 @@
       "publication_year": "1986",
       "series": "",
       "source_pages": [
-        33,
         34
       ],
       "id": "book-0390",
@@ -22242,7 +22569,7 @@
       "publication_year": "1994",
       "series": "",
       "source_pages": [
-        34
+        35
       ],
       "id": "book-0542",
       "openlibrary": {
@@ -22302,7 +22629,7 @@
       "publication_year": "2016",
       "series": "",
       "source_pages": [
-        34
+        35
       ],
       "id": "book-0543",
       "openlibrary": {
@@ -22353,7 +22680,7 @@
       "publication_year": "1987",
       "series": "",
       "source_pages": [
-        34
+        35
       ],
       "id": "book-0544",
       "openlibrary": {
@@ -22412,7 +22739,7 @@
       "publication_year": "2006",
       "series": "",
       "source_pages": [
-        34
+        35
       ],
       "id": "book-0545",
       "openlibrary": {
@@ -22476,7 +22803,7 @@
       "publication_year": "1995",
       "series": "",
       "source_pages": [
-        34
+        35
       ],
       "id": "book-0397",
       "openlibrary": {
@@ -22535,7 +22862,7 @@
       "publication_year": "1995",
       "series": "",
       "source_pages": [
-        34
+        35
       ],
       "id": "book-0398",
       "openlibrary": {
@@ -22594,7 +22921,7 @@
       "publication_year": "1984",
       "series": "",
       "source_pages": [
-        34
+        35
       ],
       "id": "book-0399",
       "openlibrary": {
@@ -22654,7 +22981,6 @@
       "publication_year": "1969",
       "series": "",
       "source_pages": [
-        34,
         35
       ],
       "id": "book-0400",
@@ -23062,7 +23388,8 @@
       "publication_year": "2022",
       "series": "",
       "source_pages": [
-        35
+        35,
+        36
       ],
       "id": "book-0407",
       "cover": {
@@ -23097,7 +23424,7 @@
       "publication_year": "1974",
       "series": "",
       "source_pages": [
-        35
+        36
       ],
       "id": "book-0408",
       "openlibrary": {
@@ -23164,7 +23491,7 @@
       "publication_year": "2014",
       "series": "",
       "source_pages": [
-        35
+        36
       ],
       "id": "book-0410",
       "cover": {
@@ -23199,7 +23526,7 @@
       "publication_year": "2013",
       "series": "",
       "source_pages": [
-        35
+        36
       ],
       "id": "book-0411",
       "cover": {
@@ -23234,7 +23561,7 @@
       "publication_year": "2004",
       "series": "",
       "source_pages": [
-        35
+        36
       ],
       "id": "book-0412",
       "openlibrary": {
@@ -23300,7 +23627,7 @@
       "publication_year": "1997",
       "series": "",
       "source_pages": [
-        35
+        36
       ],
       "id": "book-0413",
       "openlibrary": {
@@ -23621,7 +23948,7 @@
       "publication_year": "1981",
       "series": "",
       "source_pages": [
-        36
+        37
       ],
       "id": "book-0419",
       "openlibrary": {
@@ -23677,7 +24004,7 @@
       "publication_year": "1988",
       "series": "",
       "source_pages": [
-        36
+        37
       ],
       "id": "book-0547",
       "openlibrary": {
@@ -23717,7 +24044,7 @@
       "publication_year": "1988",
       "series": "",
       "source_pages": [
-        36
+        37
       ],
       "id": "book-0548",
       "openlibrary": {
@@ -23772,7 +24099,7 @@
       "publication_year": "1984",
       "series": "",
       "source_pages": [
-        36
+        37
       ],
       "id": "book-0420",
       "openlibrary": {
@@ -23826,7 +24153,7 @@
       "publication_year": "1998",
       "series": "",
       "source_pages": [
-        36
+        37
       ],
       "id": "book-0421",
       "openlibrary": {
@@ -23889,7 +24216,6 @@
       "publication_year": "2008",
       "series": "",
       "source_pages": [
-        36,
         37
       ],
       "id": "book-0422",
@@ -24138,6 +24464,28 @@
       ]
     },
     {
+      "author": "Matthijs Theodor Jan Spaan",
+      "title": "Approximate planning under uncertainty in partially observable environments",
+      "isbn": "9789074840798",
+      "publisher": "University of Amsterdam",
+      "publication_date": "2006",
+      "genre": "",
+      "publication_year": "2006",
+      "series": "",
+      "source_pages": [
+        37
+      ],
+      "id": "book-0572",
+      "author_normalized": "Matthijs Theodor Jan Spaan",
+      "publisher_normalized": "University of Amsterdam",
+      "isbn_status": "valid",
+      "quality_flags": [],
+      "source_record_count": 1,
+      "source_record_ids": [
+        "book-0572"
+      ]
+    },
+    {
       "author": "Abraham Sperling Phd",
       "title": "MATHEMATICS Made Simple",
       "isbn": "9780385020886",
@@ -24147,7 +24495,7 @@
       "publication_year": "1943",
       "series": "",
       "source_pages": [
-        37
+        38
       ],
       "id": "book-0427",
       "openlibrary": {
@@ -24202,7 +24550,7 @@
       "publication_year": "1980",
       "series": "",
       "source_pages": [
-        37
+        38
       ],
       "id": "book-0428",
       "openlibrary": {
@@ -24269,7 +24617,7 @@
       "publication_year": "1994",
       "series": "",
       "source_pages": [
-        37
+        38
       ],
       "id": "book-0550",
       "openlibrary": {
@@ -24329,7 +24677,7 @@
       "publication_year": "1965",
       "series": "",
       "source_pages": [
-        37
+        38
       ],
       "id": "book-0429",
       "author_normalized": "Ralph G. Stanton | Kenneth D. Fryer",
@@ -24351,7 +24699,7 @@
       "publication_year": "2022",
       "series": "",
       "source_pages": [
-        37
+        38
       ],
       "id": "book-0430",
       "openlibrary": {
@@ -24398,7 +24746,7 @@
       "publication_year": "2001",
       "series": "",
       "source_pages": [
-        37
+        38
       ],
       "id": "book-0551",
       "cover": {
@@ -24433,7 +24781,7 @@
       "publication_year": "2006",
       "series": "",
       "source_pages": [
-        37
+        38
       ],
       "id": "book-0552",
       "openlibrary": {
@@ -24484,7 +24832,7 @@
       "publication_year": "1969",
       "series": "",
       "source_pages": [
-        37
+        38
       ],
       "id": "book-0431",
       "cover": {
@@ -24519,7 +24867,7 @@
       "publication_year": "1969",
       "series": "",
       "source_pages": [
-        37
+        38
       ],
       "id": "book-0432",
       "openlibrary": {
@@ -24579,7 +24927,7 @@
       "publication_year": "2012",
       "series": "",
       "source_pages": [
-        37
+        38
       ],
       "id": "book-0433",
       "openlibrary": {
@@ -24854,7 +25202,8 @@
       "publication_year": "2012",
       "series": "",
       "source_pages": [
-        38
+        38,
+        39
       ],
       "id": "book-0438",
       "openlibrary": {
@@ -24913,7 +25262,7 @@
       "publication_year": "2023",
       "series": "",
       "source_pages": [
-        38
+        39
       ],
       "id": "book-0439",
       "cover": {
@@ -24948,7 +25297,7 @@
       "publication_year": "1958",
       "series": "",
       "source_pages": [
-        38
+        39
       ],
       "id": "book-0440",
       "author_normalized": "Angus Ellis Taylor",
@@ -24972,7 +25321,7 @@
       "publication_year": "1970",
       "series": "",
       "source_pages": [
-        38
+        39
       ],
       "id": "book-0441",
       "cover": {
@@ -25009,7 +25358,7 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        38
+        39
       ],
       "id": "book-0442",
       "cover": {
@@ -25044,7 +25393,7 @@
       "publication_year": "2008",
       "series": "",
       "source_pages": [
-        38
+        39
       ],
       "id": "book-0443",
       "openlibrary": {
@@ -25108,7 +25457,7 @@
       "publication_year": "2017",
       "series": "",
       "source_pages": [
-        38
+        39
       ],
       "id": "book-0444",
       "cover": {
@@ -25143,7 +25492,7 @@
       "publication_year": "2011",
       "series": "",
       "source_pages": [
-        38
+        39
       ],
       "id": "book-0445",
       "cover": {
@@ -25178,7 +25527,7 @@
       "publication_year": "2001",
       "series": "",
       "source_pages": [
-        38
+        39
       ],
       "id": "book-0553",
       "openlibrary": {
@@ -25239,7 +25588,6 @@
       "publication_year": "2004",
       "series": "",
       "source_pages": [
-        38,
         39
       ],
       "id": "book-0554",
@@ -25529,7 +25877,7 @@
       "publication_year": "2003",
       "series": "",
       "source_pages": [
-        39
+        40
       ],
       "id": "book-0558",
       "openlibrary": {
@@ -25597,7 +25945,7 @@
       "publication_year": "2018",
       "series": "",
       "source_pages": [
-        39
+        40
       ],
       "id": "book-0447",
       "openlibrary": {
@@ -25659,7 +26007,7 @@
       "publication_year": "2001",
       "series": "",
       "source_pages": [
-        39
+        40
       ],
       "id": "book-0448",
       "openlibrary": {
@@ -25714,7 +26062,7 @@
       "publication_year": "2025",
       "series": "",
       "source_pages": [
-        39
+        40
       ],
       "id": "book-0449",
       "cover": {
@@ -25749,7 +26097,7 @@
       "publication_year": "2012",
       "series": "",
       "source_pages": [
-        39
+        40
       ],
       "id": "book-0450",
       "openlibrary": {
@@ -25809,7 +26157,7 @@
       "publication_year": "1943",
       "series": "",
       "source_pages": [
-        39
+        40
       ],
       "id": "book-0451",
       "author_normalized": "Craig Homer Vincent",
@@ -25831,7 +26179,7 @@
       "publication_year": "2011",
       "series": "",
       "source_pages": [
-        39
+        40
       ],
       "id": "book-0452",
       "cover": {
@@ -25866,7 +26214,6 @@
       "publication_year": "2019",
       "series": "",
       "source_pages": [
-        39,
         40
       ],
       "id": "book-0453",
@@ -26175,7 +26522,7 @@
       "publication_year": "2014",
       "series": "",
       "source_pages": [
-        40
+        41
       ],
       "id": "book-0457",
       "openlibrary": {
@@ -26243,7 +26590,7 @@
       "publication_year": "1995",
       "series": "",
       "source_pages": [
-        40
+        41
       ],
       "id": "book-0560",
       "openlibrary": {
@@ -26283,7 +26630,7 @@
       "publication_year": "1966",
       "series": "",
       "source_pages": [
-        40
+        41
       ],
       "id": "book-0458",
       "cover": {
@@ -26318,7 +26665,7 @@
       "publication_year": "1950",
       "series": "",
       "source_pages": [
-        40
+        41
       ],
       "id": "book-0459",
       "author_normalized": "Samuel S. Wilks",
@@ -26342,7 +26689,7 @@
       "publication_year": "1991",
       "series": "",
       "source_pages": [
-        40
+        41
       ],
       "id": "book-0460",
       "openlibrary": {
@@ -26410,7 +26757,7 @@
       "publication_year": "2003",
       "series": "",
       "source_pages": [
-        40
+        41
       ],
       "id": "book-0561",
       "openlibrary": {
@@ -26466,7 +26813,7 @@
       "publication_year": "1974",
       "series": "",
       "source_pages": [
-        40
+        41
       ],
       "id": "book-0461",
       "openlibrary": {
@@ -26532,7 +26879,7 @@
       "publication_year": "1982",
       "series": "",
       "source_pages": [
-        40
+        41
       ],
       "id": "book-0462",
       "openlibrary": {

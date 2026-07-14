@@ -15,6 +15,7 @@ RAW = ROOT / "data/library/clz-library-raw.json"
 CURATION = ROOT / "data/library/library-curation.json"
 OUTPUT = ROOT / "assets/library/library-data.json"
 REPORT = ROOT / "data/library/library-quality-report.json"
+FRONTEND = ROOT / "assets/library/library.js"
 
 
 def read_json(path: Path):
@@ -26,6 +27,7 @@ def main() -> None:
     curation = read_json(CURATION)
     curated = read_json(OUTPUT)
     report = read_json(REPORT)
+    frontend = FRONTEND.read_text(encoding="utf-8")
 
     raw_records = raw["records"]
     records = curated["records"]
@@ -69,6 +71,8 @@ def main() -> None:
         "Open Library": 219,
     }
     assert sum(report["cover_match_methods"].values()) == 260
+    assert "const externalUrl = coverSourceUrl || verifiedEditionUrl;" in frontend
+    assert "openLibraryBookUrl" not in frontend
 
     by_id = {record["id"]: record for record in records}
     for override in curation["overrides"]:

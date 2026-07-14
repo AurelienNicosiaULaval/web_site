@@ -6463,37 +6463,6 @@ The catalogue cannot be loaded right now.
     return record.author || copy.unknownAuthor;
   }
 
-  function normalizedIsbn(value) {
-    return String(value || "").replace(/[^0-9Xx]/g, "").toUpperCase();
-  }
-
-  function validIsbn10(value) {
-    if (!/^\d{9}[\dX]$/.test(value)) return false;
-    const sum = Array.from(value).reduce((total, character, index) => {
-      const digit = character === "X" ? 10 : Number(character);
-      return total + digit * (10 - index);
-    }, 0);
-    return sum % 11 === 0;
-  }
-
-  function validIsbn13(value) {
-    if (!/^\d{13}$/.test(value)) return false;
-    const sum = Array.from(value.slice(0, 12)).reduce(
-      (total, character, index) => total + Number(character) * (index % 2 === 0 ? 1 : 3),
-      0
-    );
-    return (10 - (sum % 10)) % 10 === Number(value[12]);
-  }
-
-  function isbnForCover(record) {
-    const isbn = normalizedIsbn(record.isbn);
-    return validIsbn10(isbn) || validIsbn13(isbn) ? isbn : "";
-  }
-
-  function openLibraryBookUrl(isbn) {
-    return `https://openlibrary.org/isbn/${encodeURIComponent(isbn)}`;
-  }
-
   function coverImageFor(record, size = "M") {
     const sizeKey = { S: "small", M: "medium", L: "large" }[size] || "medium";
     return record.cover?.images?.[sizeKey] || record.openlibrary?.cover?.[sizeKey] || "";
@@ -6937,12 +6906,13 @@ The catalogue cannot be loaded right now.
     );
     elements.dialogContent.append(head, details);
 
-    const isbn = isbnForCover(record);
     const coverSourceUrl = record.cover?.source_url || "";
-    if (coverSourceUrl || isbn) {
+    const verifiedEditionUrl = record.openlibrary?.url || "";
+    const externalUrl = coverSourceUrl || verifiedEditionUrl;
+    if (externalUrl) {
       const externalLink = document.createElement("a");
       externalLink.className = "library-dialog-external";
-      externalLink.href = coverSourceUrl || openLibraryBookUrl(isbn);
+      externalLink.href = externalUrl;
       externalLink.target = "_blank";
       externalLink.rel = "noopener noreferrer";
       const linkLabel = coverSourceUrl

@@ -3,7 +3,7 @@
 La base publique est reconstruite de façon reproductible à partir de trois couches.
 
 1. `clz-library-raw.json` conserve sans modification l’extraction du PDF CLZ.
-2. Les caches Open Library, Google Books et Éditions Ellipses conservent les réponses externes utilisées pour les métadonnées et les couvertures.
+2. Les caches Open Library, Google Books, éditeurs et libraires conservent les réponses externes utilisées pour les métadonnées et les couvertures.
 3. `library-curation.json` décrit chaque correction manuelle, son niveau de confiance et ses sources.
 
 La commande suivante produit `assets/library/library-data.json` et le rapport de qualité `library-quality-report.json`.
@@ -24,6 +24,13 @@ Les couvertures Dunod et les couvertures françaises de repli sont également ac
 ```bash
 python3 scripts/fetch_dunod_covers.py
 python3 scripts/fetch_lalibrairie_covers.py
+python3 scripts/curate_library_data.py
+```
+
+Les couvertures supplémentaires vérifiées visuellement sont reconstruites dans un cache distinct. Les URL AbeBooks ne sont approuvées qu'après exclusion des images génériques portant la mention qu'elles ne représentent pas la véritable couverture. Les éditions sans ISBN exigent une concordance stricte du titre, de l'auteur, de l'année et de la maison d'édition:
+
+```bash
+python3 scripts/fetch_verified_covers.py
 python3 scripts/curate_library_data.py
 ```
 

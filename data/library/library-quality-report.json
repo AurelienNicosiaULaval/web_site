@@ -10,19 +10,23 @@
   "openlibrary_unique_isbn_match_count": 238,
   "openlibrary_unique_isbn_match_rate": 0.6611,
   "openlibrary_filled_fields": {},
-  "cover_record_count": 345,
-  "cover_record_rate": 0.7388,
+  "cover_record_count": 376,
+  "cover_record_rate": 0.8051,
   "cover_providers": {
+    "AbeBooks": 28,
+    "Anticariat.net": 1,
     "Dunod": 13,
     "Google Books": 41,
+    "Internet Archive": 1,
     "LaLibrairie.com": 49,
+    "Mir Titles": 1,
     "Open Library": 221,
     "Éditions Ellipses": 21
   },
   "cover_match_methods": {
-    "exact_isbn": 326,
+    "exact_isbn": 354,
     "exact_isbn_search": 1,
-    "title_author_year_publisher": 12,
+    "title_author_year_publisher": 15,
     "title_author_year_publisher_work": 6
   },
   "isbn_status": {

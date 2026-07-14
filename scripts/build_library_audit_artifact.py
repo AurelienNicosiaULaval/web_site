@@ -452,7 +452,7 @@ def main() -> None:
                 "id": "methodology",
                 "type": "markdown",
                 "sourceId": "curation_rules",
-                "body": "## Méthodologie et limites\n\nLa couche CLZ brute est immuable. Open Library ne complète que les champs vides après une correspondance exacte par ISBN. Une valeur existante n’est remplacée que par une règle manuelle à confiance élevée et sourcée. Le catalogue affiche maintenant 260 couvertures, soit 55,7 % des notices: 242 reposent sur un ISBN exact et 18 sur une correspondance stricte du titre, de l’auteur, de l’année et de la maison d’édition. Les sujets externes sont conservés comme information secondaire, mais le genre CLZ n’est pas imputé automatiquement, car les vocabulaires ne sont pas comparables.",
+                "body": "## Méthodologie et limites\n\nLa couche CLZ brute est immuable. Open Library ne complète que les champs vides après une correspondance exacte par ISBN. Une valeur existante n’est remplacée que par une règle manuelle à confiance élevée et sourcée. Les couvertures reposent soit sur un identifiant d’édition exact, soit sur une correspondance stricte du titre, de l’auteur, de l’année et de la maison d’édition. Les images génériques qui ne représentent pas la couverture véritable sont exclues. Les sujets externes sont conservés comme information secondaire, mais le genre CLZ n’est pas imputé automatiquement, car les vocabulaires ne sont pas comparables.",
             },
         ],
     }

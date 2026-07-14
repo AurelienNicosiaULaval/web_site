@@ -1,0 +1,428 @@
+{
+  "books": {
+    "9782030754665": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782030754665-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782030754665-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782030754665-us.jpg"
+      },
+      "isbn": "9782030754665",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0084",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782030754665/"
+    },
+    "9782130314363": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782130314363-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782130314363-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782130314363-us.jpg"
+      },
+      "isbn": "9782130314363",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0193",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782130314363/"
+    },
+    "9782130353911": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782130353911-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782130353911-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782130353911-us.jpg"
+      },
+      "isbn": "9782130353911",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0143",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782130353911/"
+    },
+    "9782130365327": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/inventory/31673988241.jpg",
+        "medium": "https://pictures.abebooks.com/inventory/31673988241.jpg",
+        "small": "https://pictures.abebooks.com/inventory/31673988241.jpg"
+      },
+      "isbn": "9782130365327",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0237",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782130365327/"
+    },
+    "9782130366027": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782130366027-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782130366027-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782130366027-us.jpg"
+      },
+      "isbn": "9782130366027",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0064",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782130366027/"
+    },
+    "9782200210410": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782200210410-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782200210410-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782200210410-us.jpg"
+      },
+      "isbn": "9782200210410",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0282",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782200210410/"
+    },
+    "9782704210046": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782704210046-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782704210046-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782704210046-us.jpg"
+      },
+      "isbn": "9782704210046",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0031",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782704210046/"
+    },
+    "9782711720279": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782711720279-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782711720279-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782711720279-us.jpg"
+      },
+      "isbn": "9782711720279",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0136",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782711720279/"
+    },
+    "9782733805855": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782733805855-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782733805855-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782733805855-us.jpg"
+      },
+      "isbn": "9782733805855",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0101",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782733805855/"
+    },
+    "9782743008260": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782743008260-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782743008260-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782743008260-us.jpg"
+      },
+      "isbn": "9782743008260",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0112",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782743008260/"
+    },
+    "9782763773636": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782763773636-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782763773636-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782763773636-us.jpg"
+      },
+      "isbn": "9782763773636",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0082",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782763773636/"
+    },
+    "9782765107552": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782765107552-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782765107552-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782765107552-us.jpg"
+      },
+      "isbn": "9782765107552",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0287",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782765107552/"
+    },
+    "9782766157426": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782766157426-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782766157426-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782766157426-us.jpg"
+      },
+      "isbn": "9782766157426",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0019",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782766157426/"
+    },
+    "9782815202374": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782815202374-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782815202374-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782815202374-us.jpg"
+      },
+      "isbn": "9782815202374",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0446",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782815202374/"
+    },
+    "9782815202381": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/inventory/30317561772.jpg",
+        "medium": "https://pictures.abebooks.com/inventory/30317561772.jpg",
+        "small": "https://pictures.abebooks.com/inventory/30317561772.jpg"
+      },
+      "isbn": "9782815202381",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0192",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782815202381/"
+    },
+    "9782815202398": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782815202398-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782815202398-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782815202398-us.jpg"
+      },
+      "isbn": "9782815202398",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0186",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782815202398/"
+    },
+    "9782870770658": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/inventory/19309486828.jpg",
+        "medium": "https://pictures.abebooks.com/inventory/19309486828.jpg",
+        "small": "https://pictures.abebooks.com/inventory/19309486828.jpg"
+      },
+      "isbn": "9782870770658",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0137",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782870770658/"
+    },
+    "9782890943377": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782890943377-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782890943377-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782890943377-us.jpg"
+      },
+      "isbn": "9782890943377",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0175",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782890943377/"
+    },
+    "9782892496017": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782892496017-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782892496017-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782892496017-us.jpg"
+      },
+      "isbn": "9782892496017",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0032",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782892496017/"
+    },
+    "9782894714270": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782894714270-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782894714270-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782894714270-us.jpg"
+      },
+      "isbn": "9782894714270",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0030",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782894714270/"
+    },
+    "9782957239115": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782957239115-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782957239115-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782957239115-us.jpg"
+      },
+      "isbn": "9782957239115",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0256",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782957239115/"
+    },
+    "9782957239122": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782957239122-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782957239122-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782957239122-us.jpg"
+      },
+      "isbn": "9782957239122",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0257",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782957239122/"
+    },
+    "9782957239139": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9782957239139-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9782957239139-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9782957239139-us.jpg"
+      },
+      "isbn": "9782957239139",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0255",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9782957239139/"
+    },
+    "9783540908999": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/inventory/22776042990.jpg",
+        "medium": "https://pictures.abebooks.com/inventory/22776042990.jpg",
+        "small": "https://pictures.abebooks.com/inventory/22776042990.jpg"
+      },
+      "isbn": "9783540908999",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0158",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9783540908999/"
+    },
+    "9785030007175": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9785030007175-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9785030007175-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9785030007175-us.jpg"
+      },
+      "isbn": "9785030007175",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0297",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9785030007175/"
+    },
+    "9786001417351": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9786001417351-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9786001417351-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9786001417351-us.jpg"
+      },
+      "isbn": "9786001417351",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0308",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9786001417351/"
+    },
+    "9798811583607": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9798811583607-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9798811583607-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9798811583607-us.jpg"
+      },
+      "isbn": "9798811583607",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0430",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9798811583607/"
+    },
+    "9798991493604": {
+      "cover": {
+        "large": "https://pictures.abebooks.com/isbn/9798991493604-us.jpg",
+        "medium": "https://pictures.abebooks.com/isbn/9798991493604-us.jpg",
+        "small": "https://pictures.abebooks.com/isbn/9798991493604-us.jpg"
+      },
+      "isbn": "9798991493604",
+      "match_method": "exact_isbn",
+      "provider": "AbeBooks",
+      "record_id": "book-0335",
+      "source_id": "abebooks_verified",
+      "source_url": "https://www.abebooks.com/book-search/isbn/9798991493604/"
+    }
+  },
+  "isbn_cover_count": 28,
+  "record_cover_count": 3,
+  "record_matches": {
+    "book-0005": {
+      "images": {
+        "large": "https://mirtitles.org/wp-content/uploads/2023/08/kargapolov-merzliakov-elements-de-la-theorie-des-groupes-mir-1985_0000.jpg",
+        "medium": "https://mirtitles.org/wp-content/uploads/2023/08/kargapolov-merzliakov-elements-de-la-theorie-des-groupes-mir-1985_0000.jpg?w=640",
+        "small": "https://mirtitles.org/wp-content/uploads/2023/08/kargapolov-merzliakov-elements-de-la-theorie-des-groupes-mir-1985_0000.jpg?w=320"
+      },
+      "match": {
+        "author": "M. Kargapolov | Iou. Merzliakov",
+        "publication_year": "1985",
+        "publisher_normalized": "Éditions Mir",
+        "title": "éléments de la théorie des groupes"
+      },
+      "match_method": "title_author_year_publisher",
+      "provider": "Mir Titles",
+      "record_id": "book-0005",
+      "source_id": "mirtitles_cover",
+      "source_url": "https://mirtitles.org/2023/09/04/elements-de-la-theorie-des-groupes-by-m-kargapolov-i-merzliakov/"
+    },
+    "book-0014": {
+      "images": {
+        "large": "https://www.anticariat.net/coperta/programmation-lineaire-achmanov-275443_full.jpg",
+        "medium": "https://www.anticariat.net/coperta/programmation-lineaire-achmanov-275443_full.jpg",
+        "small": "https://www.anticariat.net/coperta/programmation-lineaire-achmanov-275443_mid.jpg"
+      },
+      "match": {
+        "author": "s. Achmanov",
+        "publication_year": "1984",
+        "publisher_normalized": "Éditions Mir",
+        "title": "Programmation linéaire"
+      },
+      "match_method": "title_author_year_publisher",
+      "provider": "Anticariat.net",
+      "record_id": "book-0014",
+      "source_id": "anticariat_cover",
+      "source_url": "https://www.anticariat.net/p/275443/Programmation-lineaire-Achmanov-Achmanov"
+    },
+    "book-0441": {
+      "images": {
+        "large": "https://archive.org/services/img/analysenumerique0000unse",
+        "medium": "https://archive.org/services/img/analysenumerique0000unse",
+        "small": "https://archive.org/services/img/analysenumerique0000unse"
+      },
+      "match": {
+        "author": "Roger Temam",
+        "publication_year": "1970",
+        "publisher_normalized": "Presses Universitaires de France",
+        "title": "Analyse numérique"
+      },
+      "match_method": "title_author_year_publisher",
+      "provider": "Internet Archive",
+      "record_id": "book-0441",
+      "source_id": "internet_archive_cover",
+      "source_url": "https://archive.org/details/analysenumerique0000unse"
+    }
+  },
+  "retrieved_on": "2026-07-14",
+  "review_policy": "Every image was visually reviewed. Generic substitutes and images labelled as not being the actual cover were excluded."
+}

@@ -15,6 +15,7 @@
     "ellipses_cover_snapshot": "data/library/ellipses-cover-cache.json",
     "dunod_cover_snapshot": "data/library/dunod-cover-cache.json",
     "lalibrairie_cover_snapshot": "data/library/lalibrairie-cover-cache.json",
+    "verified_cover_snapshot": "data/library/verified-cover-cache.json",
     "manual_override_count": 19,
     "policy": {
       "confidence_threshold": "high",
@@ -60,6 +61,22 @@
       "lalibrairie_exact": {
         "title": "LaLibrairie.com exact-ISBN cover snapshot",
         "url": "data/library/lalibrairie-cover-cache.json"
+      },
+      "abebooks_verified": {
+        "title": "AbeBooks exact-ISBN covers, visually verified",
+        "url": "data/library/verified-cover-cache.json"
+      },
+      "mirtitles_cover": {
+        "title": "Mir Titles, Éléments de la théorie des groupes",
+        "url": "https://mirtitles.org/2023/09/04/elements-de-la-theorie-des-groupes-by-m-kargapolov-i-merzliakov/"
+      },
+      "anticariat_cover": {
+        "title": "Anticariat.net, Programmation linéaire by S. Achmanov",
+        "url": "https://www.anticariat.net/p/275443/Programmation-lineaire-Achmanov-Achmanov"
+      },
+      "internet_archive_cover": {
+        "title": "Internet Archive, Analyse numérique by Roger Temam",
+        "url": "https://archive.org/details/analysenumerique0000unse"
       },
       "enp_group_theory": {
         "title": "École nationale polytechnique catalogue, Éléments de la théorie des groupes",
@@ -292,6 +309,19 @@
           "publisher",
           "series"
         ]
+      },
+      "cover": {
+        "provider": "Mir Titles",
+        "source_id": "mirtitles_cover",
+        "retrieved_on": "2026-07-14",
+        "match_method": "title_author_year_publisher",
+        "confidence": "high",
+        "source_url": "https://mirtitles.org/2023/09/04/elements-de-la-theorie-des-groupes-by-m-kargapolov-i-merzliakov/",
+        "images": {
+          "large": "https://mirtitles.org/wp-content/uploads/2023/08/kargapolov-merzliakov-elements-de-la-theorie-des-groupes-mir-1985_0000.jpg",
+          "medium": "https://mirtitles.org/wp-content/uploads/2023/08/kargapolov-merzliakov-elements-de-la-theorie-des-groupes-mir-1985_0000.jpg?w=640",
+          "small": "https://mirtitles.org/wp-content/uploads/2023/08/kargapolov-merzliakov-elements-de-la-theorie-des-groupes-mir-1985_0000.jpg?w=320"
+        }
       },
       "isbn_status": "missing_1970_or_later",
       "publisher_normalized": "Éditions Mir",
@@ -683,6 +713,19 @@
         1
       ],
       "id": "book-0014",
+      "cover": {
+        "provider": "Anticariat.net",
+        "source_id": "anticariat_cover",
+        "retrieved_on": "2026-07-14",
+        "match_method": "title_author_year_publisher",
+        "confidence": "high",
+        "source_url": "https://www.anticariat.net/p/275443/Programmation-lineaire-Achmanov-Achmanov",
+        "images": {
+          "large": "https://www.anticariat.net/coperta/programmation-lineaire-achmanov-275443_full.jpg",
+          "medium": "https://www.anticariat.net/coperta/programmation-lineaire-achmanov-275443_full.jpg",
+          "small": "https://www.anticariat.net/coperta/programmation-lineaire-achmanov-275443_mid.jpg"
+        }
+      },
       "isbn_status": "missing_1970_or_later",
       "publisher_normalized": "Éditions Mir",
       "quality_flags": [
@@ -864,6 +907,19 @@
         1
       ],
       "id": "book-0019",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782766157426/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782766157426-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782766157426-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782766157426-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "ERPI",
       "quality_flags": []
@@ -1323,6 +1379,19 @@
         "subjects": [],
         "cover": {}
       },
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782894714270/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782894714270-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782894714270-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782894714270-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Septembre Canad",
       "quality_flags": []
@@ -1340,6 +1409,19 @@
         2
       ],
       "id": "book-0031",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782704210046/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782704210046-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782704210046-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782704210046-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ediscience",
       "quality_flags": []
@@ -1370,6 +1452,19 @@
         "publish_date": "1996-03-01",
         "subjects": [],
         "cover": {}
+      },
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782892496017/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782892496017-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782892496017-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782892496017-us.jpg"
+        }
       },
       "isbn_status": "valid",
       "publisher_normalized": "Trécarré",
@@ -2430,6 +2525,19 @@
         4
       ],
       "id": "book-0064",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782130366027/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782130366027-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782130366027-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782130366027-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Que sais-je?",
       "quality_flags": []
@@ -3192,6 +3300,19 @@
         6
       ],
       "id": "book-0082",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782763773636/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782763773636-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782763773636-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782763773636-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Presses de l’Université Laval",
       "quality_flags": []
@@ -3263,6 +3384,19 @@
         6
       ],
       "id": "book-0084",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782030754665/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782030754665-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782030754665-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782030754665-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Larousse",
       "quality_flags": []
@@ -3864,6 +3998,19 @@
         7
       ],
       "id": "book-0101",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782733805855/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782733805855-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782733805855-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782733805855-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Magnard",
       "quality_flags": []
@@ -4309,6 +4456,19 @@
         8
       ],
       "id": "book-0112",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782743008260/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782743008260-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782743008260-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782743008260-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "TECHNIQUE & DOC",
       "quality_flags": []
@@ -5389,6 +5549,19 @@
         10
       ],
       "id": "book-0136",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782711720279/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782711720279-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782711720279-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782711720279-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Libraire Vuibert",
       "quality_flags": []
@@ -5406,6 +5579,19 @@
         10
       ],
       "id": "book-0137",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782870770658/",
+        "images": {
+          "large": "https://pictures.abebooks.com/inventory/19309486828.jpg",
+          "medium": "https://pictures.abebooks.com/inventory/19309486828.jpg",
+          "small": "https://pictures.abebooks.com/inventory/19309486828.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Cabay",
       "quality_flags": []
@@ -5680,6 +5866,19 @@
           "Physique"
         ],
         "cover": {}
+      },
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782130353911/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782130353911-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782130353911-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782130353911-us.jpg"
+        }
       },
       "isbn_status": "valid",
       "publisher_normalized": "Presses Universitaires de France",
@@ -6234,6 +6433,19 @@
         11
       ],
       "id": "book-0158",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9783540908999/",
+        "images": {
+          "large": "https://pictures.abebooks.com/inventory/22776042990.jpg",
+          "medium": "https://pictures.abebooks.com/inventory/22776042990.jpg",
+          "small": "https://pictures.abebooks.com/inventory/22776042990.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "New York : Springer-verlag, C1983.",
       "quality_flags": []
@@ -6956,6 +7168,19 @@
         12
       ],
       "id": "book-0175",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782890943377/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782890943377-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782890943377-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782890943377-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "SMG EDITIONS",
       "quality_flags": []
@@ -7440,6 +7665,19 @@
         13
       ],
       "id": "book-0186",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782815202398/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782815202398-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782815202398-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782815202398-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "RBA",
       "quality_flags": []
@@ -7626,6 +7864,19 @@
         13
       ],
       "id": "book-0192",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782815202381/",
+        "images": {
+          "large": "https://pictures.abebooks.com/inventory/30317561772.jpg",
+          "medium": "https://pictures.abebooks.com/inventory/30317561772.jpg",
+          "small": "https://pictures.abebooks.com/inventory/30317561772.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "RBA",
       "quality_flags": []
@@ -7658,6 +7909,19 @@
         "publish_date": "May 1, 1971",
         "subjects": [],
         "cover": {}
+      },
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782130314363/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782130314363-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782130314363-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782130314363-us.jpg"
+        }
       },
       "isbn_status": "valid",
       "publisher_normalized": "Presses Universitaires de France",
@@ -9504,6 +9768,19 @@
         17
       ],
       "id": "book-0237",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782130365327/",
+        "images": {
+          "large": "https://pictures.abebooks.com/inventory/31673988241.jpg",
+          "medium": "https://pictures.abebooks.com/inventory/31673988241.jpg",
+          "small": "https://pictures.abebooks.com/inventory/31673988241.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Que sais-je?",
       "quality_flags": []
@@ -10255,6 +10532,19 @@
         18
       ],
       "id": "book-0255",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782957239139/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782957239139-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782957239139-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782957239139-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Les Éditions du Bec de l'Aigle",
       "quality_flags": [
@@ -10274,6 +10564,19 @@
         18
       ],
       "id": "book-0256",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782957239115/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782957239115-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782957239115-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782957239115-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Les Éditions du Bec de l'Aigle",
       "quality_flags": [
@@ -10294,6 +10597,19 @@
         19
       ],
       "id": "book-0257",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782957239122/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782957239122-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782957239122-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782957239122-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Les Éditions du Bec de l'Aigle",
       "quality_flags": [
@@ -11432,6 +11748,19 @@
         20
       ],
       "id": "book-0282",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782200210410/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782200210410-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782200210410-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782200210410-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "colin",
       "quality_flags": []
@@ -11578,6 +11907,19 @@
         20
       ],
       "id": "book-0287",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782765107552/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782765107552-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782765107552-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782765107552-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "CHENELIERE",
       "quality_flags": []
@@ -12002,6 +12344,19 @@
           "Analyse fonctionnelle"
         ],
         "cover": {}
+      },
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9785030007175/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9785030007175-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9785030007175-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9785030007175-us.jpg"
+        }
       },
       "isbn_status": "valid",
       "publisher_normalized": "Éditions Mir",
@@ -12453,6 +12808,19 @@
         "publish_date": "1965-01-01",
         "subjects": [],
         "cover": {}
+      },
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9786001417351/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9786001417351-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9786001417351-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9786001417351-us.jpg"
+        }
       },
       "isbn_status": "valid",
       "publisher_normalized": "Univ Of Ca/ princeton",
@@ -13716,6 +14084,19 @@
         24
       ],
       "id": "book-0335",
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9798991493604/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9798991493604-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9798991493604-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9798991493604-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Paramount Ridge Press",
       "quality_flags": []
@@ -17647,6 +18028,19 @@
         "subjects": [],
         "cover": {}
       },
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9798811583607/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9798811583607-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9798811583607-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9798811583607-us.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Independently published",
       "quality_flags": []
@@ -18102,6 +18496,19 @@
         32
       ],
       "id": "book-0441",
+      "cover": {
+        "provider": "Internet Archive",
+        "source_id": "internet_archive_cover",
+        "retrieved_on": "2026-07-14",
+        "match_method": "title_author_year_publisher",
+        "confidence": "high",
+        "source_url": "https://archive.org/details/analysenumerique0000unse",
+        "images": {
+          "large": "https://archive.org/services/img/analysenumerique0000unse",
+          "medium": "https://archive.org/services/img/analysenumerique0000unse",
+          "small": "https://archive.org/services/img/analysenumerique0000unse"
+        }
+      },
       "isbn_status": "missing_1970_or_later",
       "publisher_normalized": "Presses Universitaires de France",
       "quality_flags": [
@@ -18272,6 +18679,19 @@
         "publish_date": "2011",
         "subjects": [],
         "cover": {}
+      },
+      "cover": {
+        "provider": "AbeBooks",
+        "source_id": "abebooks_verified",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.abebooks.com/book-search/isbn/9782815202374/",
+        "images": {
+          "large": "https://pictures.abebooks.com/isbn/9782815202374-us.jpg",
+          "medium": "https://pictures.abebooks.com/isbn/9782815202374-us.jpg",
+          "small": "https://pictures.abebooks.com/isbn/9782815202374-us.jpg"
+        }
       },
       "isbn_status": "valid",
       "publisher_normalized": "RBA",

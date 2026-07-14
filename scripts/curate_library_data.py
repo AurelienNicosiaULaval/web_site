@@ -33,6 +33,7 @@ DEFAULT_GOOGLE_COVER_CACHE = ROOT / "data/library/google-books-cover-cache.json"
 DEFAULT_ELLIPSES_COVER_CACHE = ROOT / "data/library/ellipses-cover-cache.json"
 DEFAULT_DUNOD_COVER_CACHE = ROOT / "data/library/dunod-cover-cache.json"
 DEFAULT_LALIBRAIRIE_COVER_CACHE = ROOT / "data/library/lalibrairie-cover-cache.json"
+DEFAULT_VERIFIED_COVER_CACHE = ROOT / "data/library/verified-cover-cache.json"
 DEFAULT_CURATION = ROOT / "data/library/library-curation.json"
 DEFAULT_OUTPUT = ROOT / "assets/library/library-data.json"
 DEFAULT_REPORT = ROOT / "data/library/library-quality-report.json"
@@ -450,6 +451,11 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_LALIBRAIRIE_COVER_CACHE,
     )
+    parser.add_argument(
+        "--verified-cover-cache",
+        type=Path,
+        default=DEFAULT_VERIFIED_COVER_CACHE,
+    )
     parser.add_argument("--curation", type=Path, default=DEFAULT_CURATION)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--report", type=Path, default=DEFAULT_REPORT)
@@ -474,6 +480,11 @@ def main() -> None:
     lalibrairie_cover_cache = (
         read_json(args.lalibrairie_cover_cache)
         if args.lalibrairie_cover_cache.exists() else {"books": {}}
+    )
+    verified_cover_cache = (
+        read_json(args.verified_cover_cache)
+        if args.verified_cover_cache.exists()
+        else {"books": {}, "record_matches": {}}
     )
     curation = read_json(args.curation)
     records = copy.deepcopy(raw_payload["records"])
@@ -584,6 +595,30 @@ def main() -> None:
                 source_url=lalibrairie_cover.get("source_url", ""),
                 images=lalibrairie_cover.get("cover", {}),
             )
+
+        verified_isbn_cover = verified_cover_cache.get("books", {}).get(isbn)
+        if not record.get("cover") and verified_isbn_cover:
+            record["cover"] = cover_summary(
+                provider=verified_isbn_cover.get("provider", ""),
+                source_id=verified_isbn_cover.get("source_id", ""),
+                retrieved_on=verified_cover_cache.get("retrieved_on", curated_on),
+                match_method=verified_isbn_cover.get("match_method", "exact_isbn"),
+                source_url=verified_isbn_cover.get("source_url", ""),
+                images=verified_isbn_cover.get("cover", {}),
+            )
+
+        verified_record_cover = verified_cover_cache.get("record_matches", {}).get(record["id"])
+        if not record.get("cover") and verified_record_cover:
+            record["cover"] = cover_summary(
+                provider=verified_record_cover.get("provider", ""),
+                source_id=verified_record_cover.get("source_id", ""),
+                retrieved_on=verified_cover_cache.get("retrieved_on", curated_on),
+                match_method=verified_record_cover.get(
+                    "match_method", "title_author_year_publisher"
+                ),
+                source_url=verified_record_cover.get("source_url", ""),
+                images=verified_record_cover.get("images", {}),
+            )
         if not provenance:
             record.pop("data_provenance", None)
 
@@ -602,6 +637,7 @@ def main() -> None:
             "ellipses_cover_snapshot": str(args.ellipses_cover_cache.relative_to(ROOT)),
             "dunod_cover_snapshot": str(args.dunod_cover_cache.relative_to(ROOT)),
             "lalibrairie_cover_snapshot": str(args.lalibrairie_cover_cache.relative_to(ROOT)),
+            "verified_cover_snapshot": str(args.verified_cover_cache.relative_to(ROOT)),
             "manual_override_count": len(applied),
             "policy": curation["policy"],
             "sources": curation["sources"],

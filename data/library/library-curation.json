@@ -45,6 +45,22 @@
       "title": "LaLibrairie.com exact-ISBN cover snapshot",
       "url": "data/library/lalibrairie-cover-cache.json"
     },
+    "abebooks_verified": {
+      "title": "AbeBooks exact-ISBN covers, visually verified",
+      "url": "data/library/verified-cover-cache.json"
+    },
+    "mirtitles_cover": {
+      "title": "Mir Titles, Éléments de la théorie des groupes",
+      "url": "https://mirtitles.org/2023/09/04/elements-de-la-theorie-des-groupes-by-m-kargapolov-i-merzliakov/"
+    },
+    "anticariat_cover": {
+      "title": "Anticariat.net, Programmation linéaire by S. Achmanov",
+      "url": "https://www.anticariat.net/p/275443/Programmation-lineaire-Achmanov-Achmanov"
+    },
+    "internet_archive_cover": {
+      "title": "Internet Archive, Analyse numérique by Roger Temam",
+      "url": "https://archive.org/details/analysenumerique0000unse"
+    },
     "enp_group_theory": {
       "title": "École nationale polytechnique catalogue, Éléments de la théorie des groupes",
       "url": "https://acatalogue1.biblio.enp.edu.dz/opac_css/index.php?id=3693&lvl=indexint_see&main=0"

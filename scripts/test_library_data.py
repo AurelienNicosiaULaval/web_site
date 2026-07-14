@@ -19,6 +19,7 @@ FRONTEND = ROOT / "assets/library/library.js"
 ELLIPSES_COVERS = ROOT / "data/library/ellipses-cover-cache.json"
 DUNOD_COVERS = ROOT / "data/library/dunod-cover-cache.json"
 LALIBRAIRIE_COVERS = ROOT / "data/library/lalibrairie-cover-cache.json"
+VERIFIED_COVERS = ROOT / "data/library/verified-cover-cache.json"
 
 
 def read_json(path: Path):
@@ -33,6 +34,7 @@ def main() -> None:
     ellipses_covers = read_json(ELLIPSES_COVERS)
     dunod_covers = read_json(DUNOD_COVERS)
     lalibrairie_covers = read_json(LALIBRAIRIE_COVERS)
+    verified_covers = read_json(VERIFIED_COVERS)
     frontend = FRONTEND.read_text(encoding="utf-8")
 
     raw_records = raw["records"]
@@ -70,16 +72,20 @@ def main() -> None:
     assert report["unique_valid_isbn_count"] == 360
     assert report["openlibrary_unique_isbn_match_count"] == 238
     assert report["manual_override_count"] == len(curation["overrides"])
-    assert report["cover_record_count"] == 345
-    assert report["cover_record_rate"] == 0.7388
+    assert report["cover_record_count"] == 376
+    assert report["cover_record_rate"] == 0.8051
     assert report["cover_providers"] == {
+        "AbeBooks": 28,
+        "Anticariat.net": 1,
         "Dunod": 13,
         "Google Books": 41,
+        "Internet Archive": 1,
         "LaLibrairie.com": 49,
+        "Mir Titles": 1,
         "Open Library": 221,
         "Éditions Ellipses": 21,
     }
-    assert sum(report["cover_match_methods"].values()) == 345
+    assert sum(report["cover_match_methods"].values()) == 376
     assert ellipses_covers["requested_isbn_count"] == 21
     assert ellipses_covers["cover_count"] == 21
     assert not ellipses_covers["misses"]
@@ -97,6 +103,17 @@ def main() -> None:
         isbn == entry["isbn"] and isbn in entry["source_url"]
         for isbn, entry in lalibrairie_covers["books"].items()
     )
+    assert verified_covers["isbn_cover_count"] == 28
+    assert verified_covers["record_cover_count"] == 3
+    assert all(
+        isbn == entry["isbn"] and isbn in entry["source_url"]
+        for isbn, entry in verified_covers["books"].items()
+    )
+    assert set(verified_covers["record_matches"]) == {
+        "book-0005",
+        "book-0014",
+        "book-0441",
+    }
     assert "const externalUrl = coverSourceUrl || verifiedEditionUrl;" in frontend
     assert "openLibraryBookUrl" not in frontend
 
@@ -108,6 +125,15 @@ def main() -> None:
     assert by_id["book-0118"]["cover"]["match_method"] == "title_author_year_publisher"
     assert by_id["book-0065"]["cover"]["provider"] == "Éditions Ellipses"
     assert by_id["book-0065"]["cover"]["match_method"] == "exact_isbn"
+    assert by_id["book-0005"]["cover"]["provider"] == "Mir Titles"
+    assert by_id["book-0014"]["cover"]["provider"] == "Anticariat.net"
+    assert by_id["book-0158"]["cover"]["provider"] == "AbeBooks"
+    assert by_id["book-0441"]["cover"]["provider"] == "Internet Archive"
+    assert sum(not record.get("cover") for record in records) == 91
+    assert sum(
+        not record.get("cover") and record["isbn_status"] == "valid"
+        for record in records
+    ) == 13
     assert by_id["book-0215"]["title"] == "Biographie des grands théorèmes"
     assert all(
         record.get("cover")

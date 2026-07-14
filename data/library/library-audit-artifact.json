@@ -397,8 +397,8 @@
           "valid_isbn_share": 0.7880085653104925,
           "expected_pre1970_missing": 86,
           "isbn_to_review": 13,
-          "corrected_records": 18,
-          "changed_fields": 52,
+          "corrected_records": 19,
+          "changed_fields": 53,
           "external_isbn_coverage": 0.6611111111111111,
           "raw_publishers": 205,
           "normalized_publishers": 189
@@ -653,6 +653,13 @@
           "changed_fields": "Titre, Date de publication, Année",
           "source_count": 2,
           "sources": "springer_esl, openlibrary_exact"
+        },
+        {
+          "id": "book-0215",
+          "title": "Biographie des grands théorèmes",
+          "changed_fields": "Titre",
+          "source_count": 1,
+          "sources": "ellipses_official"
         },
         {
           "id": "book-0279",

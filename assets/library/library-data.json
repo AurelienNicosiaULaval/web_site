@@ -12,7 +12,8 @@
     "openlibrary_direct_cover_snapshot": "data/library/openlibrary-direct-cover-cache.json",
     "openlibrary_cover_search_snapshot": "data/library/openlibrary-cover-search-cache.json",
     "google_books_cover_snapshot": "data/library/google-books-cover-cache.json",
-    "manual_override_count": 18,
+    "ellipses_cover_snapshot": "data/library/ellipses-cover-cache.json",
+    "manual_override_count": 19,
     "policy": {
       "confidence_threshold": "high",
       "missing_isbn_before_1970": "expected",
@@ -45,6 +46,10 @@
       "google_books_dynamic": {
         "title": "Google Books Dynamic Links exact-identifier cover snapshot",
         "url": "data/library/google-books-cover-cache.json"
+      },
+      "ellipses_official": {
+        "title": "Éditions Ellipses official exact-ISBN cover snapshot",
+        "url": "data/library/ellipses-cover-cache.json"
       },
       "enp_group_theory": {
         "title": "École nationale polytechnique catalogue, Éléments de la théorie des groupes",
@@ -1177,6 +1182,19 @@
         2
       ],
       "id": "book-0028",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/802-11111-equations-differentielles-ordinaires-avec-applications-cours-et-exercices-corriges-9782340013049.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/23377-large_modale_produit/equations-differentielles-ordinaires-avec-applications-cours-et-exercices-corriges.jpg",
+          "medium": "https://www.editions-ellipses.fr/23377-home_default/equations-differentielles-ordinaires-avec-applications-cours-et-exercices-corriges.jpg",
+          "small": "https://www.editions-ellipses.fr/23377-home_default/equations-differentielles-ordinaires-avec-applications-cours-et-exercices-corriges.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -2136,6 +2154,19 @@
         4
       ],
       "id": "book-0060",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/1809-12119-fondements-des-equations-differentielles-ordinaires-analyse-qualitative-et-quantitative-des-solutions-9782340010024.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/24418-large_modale_produit/fondements-des-equations-differentielles-ordinaires-analyse-qualitative-et-quantitative-des-solutions.jpg",
+          "medium": "https://www.editions-ellipses.fr/24418-home_default/fondements-des-equations-differentielles-ordinaires-analyse-qualitative-et-quantitative-des-solutions.jpg",
+          "small": "https://www.editions-ellipses.fr/24418-home_default/fondements-des-equations-differentielles-ordinaires-analyse-qualitative-et-quantitative-des-solutions.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -2261,6 +2292,19 @@
         5
       ],
       "id": "book-0065",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/16111-30345-toutes-les-mathematiques-4e-edition-mpsi-mp2i-pcsi-et-ptsi-4e-edition-9782340108219.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/51934-large_modale_produit/toutes-les-mathematiques-4e-edition-mpsi-mp2i-pcsi-et-ptsi-4e-edition.jpg",
+          "medium": "https://www.editions-ellipses.fr/51934-home_default/toutes-les-mathematiques-4e-edition-mpsi-mp2i-pcsi-et-ptsi-4e-edition.jpg",
+          "small": "https://www.editions-ellipses.fr/51934-home_default/toutes-les-mathematiques-4e-edition-mpsi-mp2i-pcsi-et-ptsi-4e-edition.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -3015,6 +3059,19 @@
         6
       ],
       "id": "book-0085",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/2490-12800-lessentiel-du-programme-de-lagregation-de-mathematiques-algebre-analyse-9782340030176.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/33917-large_modale_produit/lessentiel-du-programme-de-lagregation-de-mathematiques-algebre-analyse.jpg",
+          "medium": "https://www.editions-ellipses.fr/33917-home_default/lessentiel-du-programme-de-lagregation-de-mathematiques-algebre-analyse.jpg",
+          "small": "https://www.editions-ellipses.fr/33917-home_default/lessentiel-du-programme-de-lagregation-de-mathematiques-algebre-analyse.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -3431,6 +3488,19 @@
         7
       ],
       "id": "book-0097",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/15299-28490-recueil-de-curiosites-mathematiques-2e-edition-9782340089372.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/48638-large_modale_produit/recueil-de-curiosites-mathematiques-2e-edition.jpg",
+          "medium": "https://www.editions-ellipses.fr/48638-home_default/recueil-de-curiosites-mathematiques-2e-edition.jpg",
+          "small": "https://www.editions-ellipses.fr/48638-home_default/recueil-de-curiosites-mathematiques-2e-edition.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -3448,6 +3518,19 @@
         7
       ],
       "id": "book-0098",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/15055-27947-16-problemes-inedits-de-mathematiques-mp-et-mpi-9782340083479.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/45213-large_modale_produit/16-problemes-inedits-de-mathematiques-mp-et-mpi.jpg",
+          "medium": "https://www.editions-ellipses.fr/45213-home_default/16-problemes-inedits-de-mathematiques-mp-et-mpi.jpg",
+          "small": "https://www.editions-ellipses.fr/45213-home_default/16-problemes-inedits-de-mathematiques-mp-et-mpi.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -6814,6 +6897,19 @@
         13
       ],
       "id": "book-0181",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/4757-15083-initiation-a-lanalyse-mathematique-cours-et-exercices-corriges-9782340003644.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/27460-large_modale_produit/initiation-a-lanalyse-mathematique-cours-et-exercices-corriges.jpg",
+          "medium": "https://www.editions-ellipses.fr/27460-home_default/initiation-a-lanalyse-mathematique-cours-et-exercices-corriges.jpg",
+          "small": "https://www.editions-ellipses.fr/27460-home_default/initiation-a-lanalyse-mathematique-cours-et-exercices-corriges.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -6831,6 +6927,19 @@
         13
       ],
       "id": "book-0182",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/4770-15096-initiation-a-la-mesure-et-a-lintegration-cours-et-exercices-corriges-9782340003651.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/27473-large_modale_produit/initiation-a-la-mesure-et-a-lintegration-cours-et-exercices-corriges.jpg",
+          "medium": "https://www.editions-ellipses.fr/27473-home_default/initiation-a-la-mesure-et-a-lintegration-cours-et-exercices-corriges.jpg",
+          "small": "https://www.editions-ellipses.fr/27473-home_default/initiation-a-la-mesure-et-a-lintegration-cours-et-exercices-corriges.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -7076,6 +7185,19 @@
         13
       ],
       "id": "book-0189",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/13722-25266-les-maths-en-tete-algebre-et-probabilites-3e-edition-9782340056763.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/39885-large_modale_produit/les-maths-en-tete-algebre-et-probabilites-3e-edition.jpg",
+          "medium": "https://www.editions-ellipses.fr/39885-home_default/les-maths-en-tete-algebre-et-probabilites-3e-edition.jpg",
+          "small": "https://www.editions-ellipses.fr/39885-home_default/les-maths-en-tete-algebre-et-probabilites-3e-edition.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -7093,6 +7215,19 @@
         13
       ],
       "id": "book-0190",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/10446-20819-les-maths-en-tete-analyse-3e-edition-9782340038561.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/39008-large_modale_produit/les-maths-en-tete-analyse-3e-edition.jpg",
+          "medium": "https://www.editions-ellipses.fr/39008-home_default/les-maths-en-tete-analyse-3e-edition.jpg",
+          "small": "https://www.editions-ellipses.fr/39008-home_default/les-maths-en-tete-analyse-3e-edition.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -7110,6 +7245,19 @@
         13
       ],
       "id": "book-0191",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/4897-15223-theorie-de-galois-niveau-l3-m1-2e-edition-9782729842772.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/27603-large_modale_produit/theorie-de-galois-niveau-l3-m1-2e-edition.jpg",
+          "medium": "https://www.editions-ellipses.fr/27603-home_default/theorie-de-galois-niveau-l3-m1-2e-edition.jpg",
+          "small": "https://www.editions-ellipses.fr/27603-home_default/theorie-de-galois-niveau-l3-m1-2e-edition.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -7385,6 +7533,19 @@
         14
       ],
       "id": "book-0199",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/5106-15432-mathematiques-polytechnique-1985-1988-tome-3-9782729889074.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/27819-large_modale_produit/mathematiques-polytechnique-1985-1988-tome-3.jpg",
+          "medium": "https://www.editions-ellipses.fr/27819-home_default/mathematiques-polytechnique-1985-1988-tome-3.jpg",
+          "small": "https://www.editions-ellipses.fr/27819-home_default/mathematiques-polytechnique-1985-1988-tome-3.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -8052,7 +8213,7 @@
     },
     {
       "author": "Bertrand Hauchecorne",
-      "title": "Bibliographie des grands théorèmes",
+      "title": "Biographie des grands théorèmes",
       "isbn": "9782340084742",
       "publisher": "ELLIPSES",
       "publication_date": "Jan 01, 2023",
@@ -8063,6 +8224,35 @@
         15
       ],
       "id": "book-0215",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/15102-28027-biographie-des-grands-theoremes-9782340084742.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/45498-large_modale_produit/biographie-des-grands-theoremes.jpg",
+          "medium": "https://www.editions-ellipses.fr/45498-home_default/biographie-des-grands-theoremes.jpg",
+          "small": "https://www.editions-ellipses.fr/45498-home_default/biographie-des-grands-theoremes.jpg"
+        }
+      },
+      "data_provenance": {
+        "title": "ellipses_official"
+      },
+      "curation": {
+        "confidence": "high",
+        "reason": "The official Éditions Ellipses product page for this exact ISBN identifies the title as Biographie des grands théorèmes.",
+        "sources": [
+          "ellipses_official"
+        ],
+        "changed_fields": [
+          "title"
+        ],
+        "verified_fields": [
+          "title"
+        ]
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -9023,6 +9213,19 @@
         17
       ],
       "id": "book-0240",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/5641-15967-elements-de-mathematiques-discretes-cours-exercices-resolus-implementations-avec-les-langages-python-et-ocaml-9782340014800.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/28364-large_modale_produit/elements-de-mathematiques-discretes-cours-exercices-resolus-implementations-avec-les-langages-python-et-ocaml.jpg",
+          "medium": "https://www.editions-ellipses.fr/28364-home_default/elements-de-mathematiques-discretes-cours-exercices-resolus-implementations-avec-les-langages-python-et-ocaml.jpg",
+          "small": "https://www.editions-ellipses.fr/28364-home_default/elements-de-mathematiques-discretes-cours-exercices-resolus-implementations-avec-les-langages-python-et-ocaml.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -9104,6 +9307,19 @@
         18
       ],
       "id": "book-0244",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/4583-14909-groupes-et-geometrie-pour-l-agregation-9782340028432.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/27277-large_modale_produit/groupes-et-geometrie-pour-l-agregation.jpg",
+          "medium": "https://www.editions-ellipses.fr/27277-home_default/groupes-et-geometrie-pour-l-agregation.jpg",
+          "small": "https://www.editions-ellipses.fr/27277-home_default/groupes-et-geometrie-pour-l-agregation.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -10235,6 +10451,19 @@
         19
       ],
       "id": "book-0270",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/6133-16460-promenades-mathematiques-histoire-fondements-applications-9782729814175.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/44357-large_modale_produit/promenades-mathematiques-histoire-fondements-applications.jpg",
+          "medium": "https://www.editions-ellipses.fr/44357-home_default/promenades-mathematiques-histoire-fondements-applications.jpg",
+          "small": "https://www.editions-ellipses.fr/44357-home_default/promenades-mathematiques-histoire-fondements-applications.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -10838,6 +11067,19 @@
         20
       ],
       "id": "book-0286",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/15591-29386-cours-danalyse-fonctionnelle-avec-200-exercices-corriges-2e-edition-9782340097995.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/49736-large_modale_produit/cours-danalyse-fonctionnelle-avec-200-exercices-corriges-2e-edition.jpg",
+          "medium": "https://www.editions-ellipses.fr/49736-home_default/cours-danalyse-fonctionnelle-avec-200-exercices-corriges-2e-edition.jpg",
+          "small": "https://www.editions-ellipses.fr/49736-home_default/cours-danalyse-fonctionnelle-avec-200-exercices-corriges-2e-edition.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -10872,6 +11114,19 @@
         20
       ],
       "id": "book-0288",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/15127-28052-le-dictionnaire-de-presque-tous-les-nombres-entiers-9782340085039.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/47814-large_modale_produit/le-dictionnaire-de-presque-tous-les-nombres-entiers.jpg",
+          "medium": "https://www.editions-ellipses.fr/47814-home_default/le-dictionnaire-de-presque-tous-les-nombres-entiers.jpg",
+          "small": "https://www.editions-ellipses.fr/47814-home_default/le-dictionnaire-de-presque-tous-les-nombres-entiers.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -12354,6 +12609,19 @@
         "publish_date": "May 5, 1998",
         "subjects": [],
         "cover": {}
+      },
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/12473-23124-methodes-ou-recettes-9782729886110.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/46943-large_modale_produit/methodes-ou-recettes.jpg",
+          "medium": "https://www.editions-ellipses.fr/46943-home_default/methodes-ou-recettes.jpg",
+          "small": "https://www.editions-ellipses.fr/46943-home_default/methodes-ou-recettes.jpg"
+        }
       },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
@@ -15726,6 +15994,19 @@
         29
       ],
       "id": "book-0410",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/9175-19508-trente-livres-de-mathematiques-qui-ont-change-le-monde-9782729884628.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/32013-large_modale_produit/trente-livres-de-mathematiques-qui-ont-change-le-monde.jpg",
+          "medium": "https://www.editions-ellipses.fr/32013-home_default/trente-livres-de-mathematiques-qui-ont-change-le-monde.jpg",
+          "small": "https://www.editions-ellipses.fr/32013-home_default/trente-livres-de-mathematiques-qui-ont-change-le-monde.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -17034,6 +17315,19 @@
         32
       ],
       "id": "book-0442",
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/379-10659-44-problemes-olympiens-de-mathematiques-de-la-mpsi-a-l-agregation-9782340036727.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/38318-large_modale_produit/44-problemes-olympiens-de-mathematiques-de-la-mpsi-a-l-agregation.jpg",
+          "medium": "https://www.editions-ellipses.fr/38318-home_default/44-problemes-olympiens-de-mathematiques-de-la-mpsi-a-l-agregation.jpg",
+          "small": "https://www.editions-ellipses.fr/38318-home_default/44-problemes-olympiens-de-mathematiques-de-la-mpsi-a-l-agregation.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []

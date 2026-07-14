@@ -30,6 +30,7 @@ DEFAULT_CACHE = ROOT / "data/library/openlibrary-isbn-cache.json"
 DEFAULT_DIRECT_COVER_CACHE = ROOT / "data/library/openlibrary-direct-cover-cache.json"
 DEFAULT_OPENLIBRARY_COVER_SEARCH = ROOT / "data/library/openlibrary-cover-search-cache.json"
 DEFAULT_GOOGLE_COVER_CACHE = ROOT / "data/library/google-books-cover-cache.json"
+DEFAULT_ELLIPSES_COVER_CACHE = ROOT / "data/library/ellipses-cover-cache.json"
 DEFAULT_CURATION = ROOT / "data/library/library-curation.json"
 DEFAULT_OUTPUT = ROOT / "assets/library/library-data.json"
 DEFAULT_REPORT = ROOT / "data/library/library-quality-report.json"
@@ -432,6 +433,11 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_GOOGLE_COVER_CACHE,
     )
+    parser.add_argument(
+        "--ellipses-cover-cache",
+        type=Path,
+        default=DEFAULT_ELLIPSES_COVER_CACHE,
+    )
     parser.add_argument("--curation", type=Path, default=DEFAULT_CURATION)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--report", type=Path, default=DEFAULT_REPORT)
@@ -445,6 +451,10 @@ def main() -> None:
     direct_cover_cache = read_json(args.direct_cover_cache)
     openlibrary_cover_search = read_json(args.openlibrary_cover_search)
     google_cover_cache = read_json(args.google_cover_cache)
+    ellipses_cover_cache = (
+        read_json(args.ellipses_cover_cache)
+        if args.ellipses_cover_cache.exists() else {"books": {}}
+    )
     curation = read_json(args.curation)
     records = copy.deepcopy(raw_payload["records"])
     curated_on = str(curation.get("curated_on") or date.today().isoformat())
@@ -520,6 +530,17 @@ def main() -> None:
                 source_url=google_identifier_cover.get("info_url", ""),
                 images=google_cover_images(google_identifier_cover.get("thumbnail_url", "")),
             )
+
+        ellipses_cover = ellipses_cover_cache.get("books", {}).get(isbn)
+        if not record.get("cover") and ellipses_cover:
+            record["cover"] = cover_summary(
+                provider="Éditions Ellipses",
+                source_id="ellipses_official",
+                retrieved_on=ellipses_cover_cache.get("retrieved_on", curated_on),
+                match_method="exact_isbn",
+                source_url=ellipses_cover.get("source_url", ""),
+                images=ellipses_cover.get("cover", {}),
+            )
         if not provenance:
             record.pop("data_provenance", None)
 
@@ -536,6 +557,7 @@ def main() -> None:
             "openlibrary_direct_cover_snapshot": str(args.direct_cover_cache.relative_to(ROOT)),
             "openlibrary_cover_search_snapshot": str(args.openlibrary_cover_search.relative_to(ROOT)),
             "google_books_cover_snapshot": str(args.google_cover_cache.relative_to(ROOT)),
+            "ellipses_cover_snapshot": str(args.ellipses_cover_cache.relative_to(ROOT)),
             "manual_override_count": len(applied),
             "policy": curation["policy"],
             "sources": curation["sources"],

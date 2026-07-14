@@ -16,6 +16,7 @@ CURATION = ROOT / "data/library/library-curation.json"
 OUTPUT = ROOT / "assets/library/library-data.json"
 REPORT = ROOT / "data/library/library-quality-report.json"
 FRONTEND = ROOT / "assets/library/library.js"
+ELLIPSES_COVERS = ROOT / "data/library/ellipses-cover-cache.json"
 
 
 def read_json(path: Path):
@@ -27,6 +28,7 @@ def main() -> None:
     curation = read_json(CURATION)
     curated = read_json(OUTPUT)
     report = read_json(REPORT)
+    ellipses_covers = read_json(ELLIPSES_COVERS)
     frontend = FRONTEND.read_text(encoding="utf-8")
 
     raw_records = raw["records"]
@@ -64,13 +66,21 @@ def main() -> None:
     assert report["unique_valid_isbn_count"] == 360
     assert report["openlibrary_unique_isbn_match_count"] == 238
     assert report["manual_override_count"] == len(curation["overrides"])
-    assert report["cover_record_count"] == 260
-    assert report["cover_record_rate"] == 0.5567
+    assert report["cover_record_count"] == 281
+    assert report["cover_record_rate"] == 0.6017
     assert report["cover_providers"] == {
         "Google Books": 41,
         "Open Library": 219,
+        "Éditions Ellipses": 21,
     }
-    assert sum(report["cover_match_methods"].values()) == 260
+    assert sum(report["cover_match_methods"].values()) == 281
+    assert ellipses_covers["requested_isbn_count"] == 21
+    assert ellipses_covers["cover_count"] == 21
+    assert not ellipses_covers["misses"]
+    assert all(
+        isbn == entry["isbn"] and isbn in entry["source_url"]
+        for isbn, entry in ellipses_covers["books"].items()
+    )
     assert "const externalUrl = coverSourceUrl || verifiedEditionUrl;" in frontend
     assert "openLibraryBookUrl" not in frontend
 
@@ -80,6 +90,9 @@ def main() -> None:
             assert by_id[override["id"]][field] == value
     assert by_id["book-0118"]["cover"]["provider"] == "Google Books"
     assert by_id["book-0118"]["cover"]["match_method"] == "title_author_year_publisher"
+    assert by_id["book-0065"]["cover"]["provider"] == "Éditions Ellipses"
+    assert by_id["book-0065"]["cover"]["match_method"] == "exact_isbn"
+    assert by_id["book-0215"]["title"] == "Biographie des grands théorèmes"
 
     record_order = {record["id"]: index for index, record in enumerate(records)}
     rarity_candidates = sorted(

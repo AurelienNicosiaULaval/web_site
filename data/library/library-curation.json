@@ -33,6 +33,10 @@
       "title": "Google Books Dynamic Links exact-identifier cover snapshot",
       "url": "data/library/google-books-cover-cache.json"
     },
+    "ellipses_official": {
+      "title": "Éditions Ellipses official exact-ISBN cover snapshot",
+      "url": "data/library/ellipses-cover-cache.json"
+    },
     "enp_group_theory": {
       "title": "École nationale polytechnique catalogue, Éléments de la théorie des groupes",
       "url": "https://acatalogue1.biblio.enp.edu.dz/opac_css/index.php?id=3693&lvl=indexint_see&main=0"
@@ -218,6 +222,15 @@
         "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Second Edition",
         "publication_date": "Feb 09, 2009",
         "publication_year": "2009"
+      }
+    },
+    {
+      "id": "book-0215",
+      "confidence": "high",
+      "reason": "The official Éditions Ellipses product page for this exact ISBN identifies the title as Biographie des grands théorèmes.",
+      "sources": ["ellipses_official"],
+      "changes": {
+        "title": "Biographie des grands théorèmes"
       }
     },
     {

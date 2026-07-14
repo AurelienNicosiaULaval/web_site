@@ -13,6 +13,8 @@
     "openlibrary_cover_search_snapshot": "data/library/openlibrary-cover-search-cache.json",
     "google_books_cover_snapshot": "data/library/google-books-cover-cache.json",
     "ellipses_cover_snapshot": "data/library/ellipses-cover-cache.json",
+    "dunod_cover_snapshot": "data/library/dunod-cover-cache.json",
+    "lalibrairie_cover_snapshot": "data/library/lalibrairie-cover-cache.json",
     "manual_override_count": 19,
     "policy": {
       "confidence_threshold": "high",
@@ -50,6 +52,14 @@
       "ellipses_official": {
         "title": "Éditions Ellipses official exact-ISBN cover snapshot",
         "url": "data/library/ellipses-cover-cache.json"
+      },
+      "dunod_official": {
+        "title": "Dunod official exact-ISBN cover snapshot",
+        "url": "data/library/dunod-cover-cache.json"
+      },
+      "lalibrairie_exact": {
+        "title": "LaLibrairie.com exact-ISBN cover snapshot",
+        "url": "data/library/lalibrairie-cover-cache.json"
       },
       "enp_group_theory": {
         "title": "École nationale polytechnique catalogue, Éléments de la théorie des groupes",
@@ -120,11 +130,33 @@
       ],
       "id": "book-0001",
       "data_provenance": {
-        "title": "clz_sibling,openlibrary_exact",
         "author": "clz_sibling,openlibrary_exact",
+        "title": "clz_sibling,openlibrary_exact",
         "publisher": "clz_sibling,openlibrary_exact",
         "publication_date": "clz_sibling,openlibrary_exact",
         "publication_year": "clz_sibling,openlibrary_exact"
+      },
+      "curation": {
+        "confidence": "high",
+        "reason": "The same ISBN appears in a complete CLZ record and in an exact Open Library edition record.",
+        "sources": [
+          "clz_sibling",
+          "openlibrary_exact"
+        ],
+        "changed_fields": [
+          "author",
+          "title",
+          "publisher",
+          "publication_date",
+          "publication_year"
+        ],
+        "verified_fields": [
+          "author",
+          "title",
+          "publisher",
+          "publication_date",
+          "publication_year"
+        ]
       },
       "openlibrary": {
         "provider": "Open Library",
@@ -161,26 +193,6 @@
           "medium": "https://covers.openlibrary.org/b/id/8709812-M.jpg",
           "large": "https://covers.openlibrary.org/b/id/8709812-L.jpg"
         }
-      },
-      "curation": {
-        "confidence": "high",
-        "reason": "The same ISBN appears in a complete CLZ record and in an exact Open Library edition record.",
-        "sources": [
-          "clz_sibling",
-          "openlibrary_exact"
-        ],
-        "changed_fields": [
-          "author",
-          "title",
-          "publication_date"
-        ],
-        "verified_fields": [
-          "author",
-          "title",
-          "publisher",
-          "publication_date",
-          "publication_year"
-        ]
       },
       "isbn_status": "valid",
       "publisher_normalized": "EDP Sciences",
@@ -374,6 +386,32 @@
         1
       ],
       "id": "book-0008",
+      "data_provenance": {
+        "author": "bnaq_benson,openlibrary_exact",
+        "title": "bnaq_benson,openlibrary_exact",
+        "publisher": "bnaq_benson,openlibrary_exact",
+        "series": "bnaq_benson,openlibrary_exact"
+      },
+      "curation": {
+        "confidence": "high",
+        "reason": "BAnQ identifies the volume, author, publisher, year and ISBN in the three-volume set.",
+        "sources": [
+          "bnaq_benson",
+          "openlibrary_exact"
+        ],
+        "changed_fields": [
+          "author",
+          "title",
+          "publisher",
+          "series"
+        ],
+        "verified_fields": [
+          "author",
+          "title",
+          "publisher",
+          "series"
+        ]
+      },
       "openlibrary": {
         "provider": "Open Library",
         "retrieved_on": "2026-07-14",
@@ -403,32 +441,6 @@
           "large": "https://covers.openlibrary.org/b/id/11527890-L.jpg"
         }
       },
-      "data_provenance": {
-        "author": "bnaq_benson,openlibrary_exact",
-        "title": "bnaq_benson,openlibrary_exact",
-        "publisher": "bnaq_benson,openlibrary_exact",
-        "series": "bnaq_benson,openlibrary_exact"
-      },
-      "curation": {
-        "confidence": "high",
-        "reason": "BAnQ identifies the volume, author, publisher, year and ISBN in the three-volume set.",
-        "sources": [
-          "bnaq_benson",
-          "openlibrary_exact"
-        ],
-        "changed_fields": [
-          "author",
-          "title",
-          "publisher",
-          "series"
-        ],
-        "verified_fields": [
-          "author",
-          "title",
-          "publisher",
-          "series"
-        ]
-      },
       "isbn_status": "valid",
       "publisher_normalized": "Pearson",
       "quality_flags": []
@@ -446,6 +458,34 @@
         1
       ],
       "id": "book-0009",
+      "data_provenance": {
+        "author": "bnaq_benson,openlibrary_exact",
+        "title": "bnaq_benson,openlibrary_exact",
+        "isbn": "bnaq_benson,openlibrary_exact",
+        "publisher": "bnaq_benson,openlibrary_exact",
+        "series": "bnaq_benson,openlibrary_exact"
+      },
+      "curation": {
+        "confidence": "high",
+        "reason": "The PDF value contains the valid ISBN followed by a spurious hyphen and check digit; BAnQ confirms the edition.",
+        "sources": [
+          "bnaq_benson",
+          "openlibrary_exact"
+        ],
+        "changed_fields": [
+          "author",
+          "title",
+          "isbn",
+          "series"
+        ],
+        "verified_fields": [
+          "author",
+          "title",
+          "isbn",
+          "publisher",
+          "series"
+        ]
+      },
       "openlibrary": {
         "provider": "Open Library",
         "retrieved_on": "2026-07-14",
@@ -475,34 +515,6 @@
           "large": "https://covers.openlibrary.org/b/id/11527792-L.jpg"
         }
       },
-      "data_provenance": {
-        "author": "bnaq_benson,openlibrary_exact",
-        "title": "bnaq_benson,openlibrary_exact",
-        "isbn": "bnaq_benson,openlibrary_exact",
-        "publisher": "bnaq_benson,openlibrary_exact",
-        "series": "bnaq_benson,openlibrary_exact"
-      },
-      "curation": {
-        "confidence": "high",
-        "reason": "The PDF value contains the valid ISBN followed by a spurious hyphen and check digit; BAnQ confirms the edition.",
-        "sources": [
-          "bnaq_benson",
-          "openlibrary_exact"
-        ],
-        "changed_fields": [
-          "author",
-          "title",
-          "isbn",
-          "series"
-        ],
-        "verified_fields": [
-          "author",
-          "title",
-          "isbn",
-          "publisher",
-          "series"
-        ]
-      },
       "isbn_status": "valid",
       "publisher_normalized": "Pearson",
       "quality_flags": []
@@ -526,6 +538,28 @@
         "isbn": "bnaq_benson,openlibrary_exact",
         "publisher": "bnaq_benson,openlibrary_exact",
         "series": "bnaq_benson,openlibrary_exact"
+      },
+      "curation": {
+        "confidence": "high",
+        "reason": "The PDF value contains the valid ISBN followed by a spurious hyphen and check digit; BAnQ confirms the edition.",
+        "sources": [
+          "bnaq_benson",
+          "openlibrary_exact"
+        ],
+        "changed_fields": [
+          "author",
+          "title",
+          "isbn",
+          "publisher",
+          "series"
+        ],
+        "verified_fields": [
+          "author",
+          "title",
+          "isbn",
+          "publisher",
+          "series"
+        ]
       },
       "openlibrary": {
         "provider": "Open Library",
@@ -563,27 +597,6 @@
           "large": "https://covers.openlibrary.org/b/id/11527707-L.jpg"
         }
       },
-      "curation": {
-        "confidence": "high",
-        "reason": "The PDF value contains the valid ISBN followed by a spurious hyphen and check digit; BAnQ confirms the edition.",
-        "sources": [
-          "bnaq_benson",
-          "openlibrary_exact"
-        ],
-        "changed_fields": [
-          "title",
-          "isbn",
-          "publisher",
-          "series"
-        ],
-        "verified_fields": [
-          "author",
-          "title",
-          "isbn",
-          "publisher",
-          "series"
-        ]
-      },
       "isbn_status": "valid",
       "publisher_normalized": "Pearson",
       "quality_flags": []
@@ -601,6 +614,19 @@
         1
       ],
       "id": "book-0011",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/027/9782493230027.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/027/9782493230027.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/027/9782493230027.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/027/9782493230027-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -677,6 +703,19 @@
         1
       ],
       "id": "book-0015",
+      "cover": {
+        "provider": "Dunod",
+        "source_id": "dunod_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.dunod.com/sciences-techniques/astronomie-astrophysique-0",
+        "images": {
+          "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100798582-001-X.jpeg",
+          "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100798582-001-X.jpeg",
+          "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100798582-001-X.jpeg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Dunod",
       "quality_flags": []
@@ -1118,6 +1157,19 @@
         2
       ],
       "id": "book-0025",
+      "cover": {
+        "provider": "Dunod",
+        "source_id": "dunod_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.dunod.com/sciences-techniques/echantillonnage-et-methodes-d-enquetes",
+        "images": {
+          "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100074778-T.jpg",
+          "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100074778-T.jpg",
+          "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100074778-T.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Dunod",
       "quality_flags": []
@@ -1135,6 +1187,19 @@
         2
       ],
       "id": "book-0026",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/978/9782916352978.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/978/9782916352978.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/978/9782916352978.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/978/9782916352978-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -1323,6 +1388,26 @@
         2
       ],
       "id": "book-0033",
+      "data_provenance": {
+        "publication_date": "siam_optical_science,openlibrary_exact",
+        "publication_year": "siam_optical_science,openlibrary_exact"
+      },
+      "curation": {
+        "confidence": "high",
+        "reason": "The SIAM edition page and the exact ISBN record both give 2001, not 1987.",
+        "sources": [
+          "siam_optical_science",
+          "openlibrary_exact"
+        ],
+        "changed_fields": [
+          "publication_date",
+          "publication_year"
+        ],
+        "verified_fields": [
+          "publication_date",
+          "publication_year"
+        ]
+      },
       "openlibrary": {
         "provider": "Open Library",
         "retrieved_on": "2026-07-14",
@@ -1358,26 +1443,6 @@
           "medium": "https://covers.openlibrary.org/b/id/8692034-M.jpg",
           "large": "https://covers.openlibrary.org/b/id/8692034-L.jpg"
         }
-      },
-      "data_provenance": {
-        "publication_date": "siam_optical_science,openlibrary_exact",
-        "publication_year": "siam_optical_science,openlibrary_exact"
-      },
-      "curation": {
-        "confidence": "high",
-        "reason": "The SIAM edition page and the exact ISBN record both give 2001, not 1987.",
-        "sources": [
-          "siam_optical_science",
-          "openlibrary_exact"
-        ],
-        "changed_fields": [
-          "publication_date",
-          "publication_year"
-        ],
-        "verified_fields": [
-          "publication_date",
-          "publication_year"
-        ]
       },
       "isbn_status": "valid",
       "publisher_normalized": "Society for Industrial and Applied Mathematics",
@@ -1506,6 +1571,19 @@
         2
       ],
       "id": "book-0036",
+      "cover": {
+        "provider": "Dunod",
+        "source_id": "dunod_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.dunod.com/prepas-concours/131-developpements-pour-oral-agregation-externe-mathematiquesinformatique",
+        "images": {
+          "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100795567-001-X.jpeg",
+          "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100795567-001-X.jpeg",
+          "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100795567-001-X.jpeg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Dunod",
       "quality_flags": []
@@ -1765,6 +1843,19 @@
         3
       ],
       "id": "book-0045",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/218/9782493230218.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/218/9782493230218.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/218/9782493230218.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/218/9782493230218-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -1857,6 +1948,19 @@
         3
       ],
       "id": "book-0049",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/924/9782914010924.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/924/9782914010924.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/924/9782914010924.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/924/9782914010924-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "H ET K",
       "quality_flags": []
@@ -1923,6 +2027,19 @@
         3
       ],
       "id": "book-0052",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/831/9782916352831.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/831/9782916352831.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/831/9782916352831.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/831/9782916352831-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -1940,6 +2057,19 @@
         3
       ],
       "id": "book-0053",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/298/9782803444298.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/298/9782803444298.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/298/9782803444298.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/298/9782803444298-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "CHANTECLER",
       "quality_flags": []
@@ -1957,6 +2087,19 @@
         3
       ],
       "id": "book-0054",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/298/9782842252298.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/298/9782842252298.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/298/9782842252298.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/298/9782842252298-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Cassini",
       "quality_flags": []
@@ -1974,6 +2117,19 @@
         4
       ],
       "id": "book-0055",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/193/9782701137193.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/193/9782701137193.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/193/9782701137193.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/193/9782701137193-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Belin",
       "quality_flags": []
@@ -2577,6 +2733,19 @@
         5
       ],
       "id": "book-0071",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/119/9782493230119.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/119/9782493230119.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/119/9782493230119.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/119/9782493230119-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -2594,6 +2763,19 @@
         5
       ],
       "id": "book-0072",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/619/9782916352619.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/619/9782916352619.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/619/9782916352619.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/619/9782916352619-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -2611,6 +2793,19 @@
         5
       ],
       "id": "book-0073",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/671/9782916352671.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/671/9782916352671.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/671/9782916352671.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/671/9782916352671-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -2628,6 +2823,19 @@
         5
       ],
       "id": "book-0074",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/034/9782493230034.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/034/9782493230034.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/034/9782493230034.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/034/9782493230034-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -2756,6 +2964,19 @@
         6
       ],
       "id": "book-0077",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/539/9782842250539.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/539/9782842250539.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/539/9782842250539.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/539/9782842250539-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Cassini",
       "quality_flags": []
@@ -3089,6 +3310,19 @@
         6
       ],
       "id": "book-0086",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/457/9782759834457.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/457/9782759834457.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/457/9782759834457.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/457/9782759834457-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "EDP Sciences",
       "quality_flags": []
@@ -3600,6 +3834,19 @@
         7
       ],
       "id": "book-0100",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/052/9782606012052.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/052/9782606012052.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/052/9782606012052.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/052/9782606012052-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "LEP",
       "quality_flags": []
@@ -3634,6 +3881,19 @@
         7
       ],
       "id": "book-0102",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/659/9782842251659.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/659/9782842251659.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/659/9782842251659.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/659/9782842251659-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Cassini",
       "quality_flags": []
@@ -3651,6 +3911,19 @@
         7
       ],
       "id": "book-0103",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/359/9782100501359.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/359/9782100501359.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/359/9782100501359.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/359/9782100501359-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Dunod",
       "quality_flags": []
@@ -3798,6 +4071,19 @@
         8
       ],
       "id": "book-0107",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/775/9782311002775.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/775/9782311002775.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/775/9782311002775.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/775/9782311002775-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "De Boeck Supérieur",
       "quality_flags": []
@@ -4312,19 +4598,6 @@
         8
       ],
       "id": "book-0118",
-      "cover": {
-        "provider": "Google Books",
-        "source_id": "google_books_dynamic",
-        "retrieved_on": "2026-07-14",
-        "match_method": "title_author_year_publisher",
-        "confidence": "high",
-        "source_url": "https://books.google.com/books?id=nEan_dJbv-YC&source=gbs_ViewAPI",
-        "images": {
-          "small": "https://books.google.com/books/content?id=nEan_dJbv-YC&printsec=frontcover&img=1&zoom=5&edge=curl",
-          "medium": "https://books.google.com/books/content?id=nEan_dJbv-YC&printsec=frontcover&img=1&zoom=2&edge=curl",
-          "large": "https://books.google.com/books/content?id=nEan_dJbv-YC&printsec=frontcover&img=1&zoom=3&edge=curl"
-        }
-      },
       "data_provenance": {
         "title": "worldcat_darboux"
       },
@@ -4340,6 +4613,19 @@
         "verified_fields": [
           "title"
         ]
+      },
+      "cover": {
+        "provider": "Google Books",
+        "source_id": "google_books_dynamic",
+        "retrieved_on": "2026-07-14",
+        "match_method": "title_author_year_publisher",
+        "confidence": "high",
+        "source_url": "https://books.google.com/books?id=nEan_dJbv-YC&source=gbs_ViewAPI",
+        "images": {
+          "small": "https://books.google.com/books/content?id=nEan_dJbv-YC&printsec=frontcover&img=1&zoom=5&edge=curl",
+          "medium": "https://books.google.com/books/content?id=nEan_dJbv-YC&printsec=frontcover&img=1&zoom=2&edge=curl",
+          "large": "https://books.google.com/books/content?id=nEan_dJbv-YC&printsec=frontcover&img=1&zoom=3&edge=curl"
+        }
       },
       "isbn_status": "missing_pre_1970",
       "publisher_normalized": "Gauthier-Villars",
@@ -4528,6 +4814,19 @@
         9
       ],
       "id": "book-0124",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/263/9782493230263.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/263/9782493230263.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/263/9782493230263.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/263/9782493230263-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -4847,6 +5146,19 @@
         9
       ],
       "id": "book-0131",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/336/9782916352336.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/336/9782916352336.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/336/9782916352336.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/336/9782916352336-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -5481,6 +5793,19 @@
         11
       ],
       "id": "book-0148",
+      "cover": {
+        "provider": "Dunod",
+        "source_id": "dunod_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.dunod.com/sciences-techniques/maths-licence-150-theoremes-d-analyse-incontournables-assimilez-demonstrations",
+        "images": {
+          "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100868193-001-X.jpeg",
+          "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100868193-001-X.jpeg",
+          "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100868193-001-X.jpeg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Dunod",
       "quality_flags": []
@@ -5660,6 +5985,19 @@
         11
       ],
       "id": "book-0153",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/694/9782100811694.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/694/9782100811694.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/694/9782100811694.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/694/9782100811694-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Dunod",
       "quality_flags": []
@@ -6254,6 +6592,19 @@
         12
       ],
       "id": "book-0166",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/864/9782842251864.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/864/9782842251864.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/864/9782842251864.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/864/9782842251864-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Cassini",
       "quality_flags": []
@@ -6736,6 +7087,32 @@
         13
       ],
       "id": "book-0178",
+      "data_provenance": {
+        "title": "openlibrary_exact,vitalsource_ghosh",
+        "publisher": "openlibrary_exact,vitalsource_ghosh",
+        "publication_date": "openlibrary_exact,vitalsource_ghosh",
+        "publication_year": "openlibrary_exact,vitalsource_ghosh"
+      },
+      "curation": {
+        "confidence": "high",
+        "reason": "The CLZ title is unrelated to the exact ISBN; two independent edition records identify the sampling monograph.",
+        "sources": [
+          "openlibrary_exact",
+          "vitalsource_ghosh"
+        ],
+        "changed_fields": [
+          "title",
+          "publisher",
+          "publication_date",
+          "publication_year"
+        ],
+        "verified_fields": [
+          "title",
+          "publisher",
+          "publication_date",
+          "publication_year"
+        ]
+      },
       "openlibrary": {
         "provider": "Open Library",
         "retrieved_on": "2026-07-14",
@@ -6781,32 +7158,6 @@
           "medium": "https://covers.openlibrary.org/b/id/13070877-M.jpg",
           "large": "https://covers.openlibrary.org/b/id/13070877-L.jpg"
         }
-      },
-      "data_provenance": {
-        "title": "openlibrary_exact,vitalsource_ghosh",
-        "publisher": "openlibrary_exact,vitalsource_ghosh",
-        "publication_date": "openlibrary_exact,vitalsource_ghosh",
-        "publication_year": "openlibrary_exact,vitalsource_ghosh"
-      },
-      "curation": {
-        "confidence": "high",
-        "reason": "The CLZ title is unrelated to the exact ISBN; two independent edition records identify the sampling monograph.",
-        "sources": [
-          "openlibrary_exact",
-          "vitalsource_ghosh"
-        ],
-        "changed_fields": [
-          "title",
-          "publisher",
-          "publication_date",
-          "publication_year"
-        ],
-        "verified_fields": [
-          "title",
-          "publisher",
-          "publication_date",
-          "publication_year"
-        ]
       },
       "isbn_status": "valid",
       "publisher_normalized": "Chapman & Hall",
@@ -7669,6 +8020,19 @@
         14
       ],
       "id": "book-0202",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/017/9782759810017.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/017/9782759810017.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/017/9782759810017.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/017/9782759810017-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "EDP Sciences",
       "quality_flags": []
@@ -8084,6 +8448,29 @@
         15
       ],
       "id": "book-0213",
+      "data_provenance": {
+        "title": "springer_esl,openlibrary_exact",
+        "publication_date": "springer_esl,openlibrary_exact",
+        "publication_year": "springer_esl,openlibrary_exact"
+      },
+      "curation": {
+        "confidence": "high",
+        "reason": "Springer identifies the hardcover edition associated with this ISBN as published on February 9, 2009.",
+        "sources": [
+          "springer_esl",
+          "openlibrary_exact"
+        ],
+        "changed_fields": [
+          "title",
+          "publication_date",
+          "publication_year"
+        ],
+        "verified_fields": [
+          "title",
+          "publication_date",
+          "publication_year"
+        ]
+      },
       "openlibrary": {
         "provider": "Open Library",
         "retrieved_on": "2026-07-14",
@@ -8131,29 +8518,6 @@
           "medium": "https://covers.openlibrary.org/b/id/8643961-M.jpg",
           "large": "https://covers.openlibrary.org/b/id/8643961-L.jpg"
         }
-      },
-      "data_provenance": {
-        "title": "springer_esl,openlibrary_exact",
-        "publication_date": "springer_esl,openlibrary_exact",
-        "publication_year": "springer_esl,openlibrary_exact"
-      },
-      "curation": {
-        "confidence": "high",
-        "reason": "Springer identifies the hardcover edition associated with this ISBN as published on February 9, 2009.",
-        "sources": [
-          "springer_esl",
-          "openlibrary_exact"
-        ],
-        "changed_fields": [
-          "title",
-          "publication_date",
-          "publication_year"
-        ],
-        "verified_fields": [
-          "title",
-          "publication_date",
-          "publication_year"
-        ]
       },
       "isbn_status": "valid",
       "publisher_normalized": "Springer",
@@ -8224,19 +8588,6 @@
         15
       ],
       "id": "book-0215",
-      "cover": {
-        "provider": "Éditions Ellipses",
-        "source_id": "ellipses_official",
-        "retrieved_on": "2026-07-14",
-        "match_method": "exact_isbn",
-        "confidence": "high",
-        "source_url": "https://www.editions-ellipses.fr/fr/accueil/15102-28027-biographie-des-grands-theoremes-9782340084742.html",
-        "images": {
-          "large": "https://www.editions-ellipses.fr/45498-large_modale_produit/biographie-des-grands-theoremes.jpg",
-          "medium": "https://www.editions-ellipses.fr/45498-home_default/biographie-des-grands-theoremes.jpg",
-          "small": "https://www.editions-ellipses.fr/45498-home_default/biographie-des-grands-theoremes.jpg"
-        }
-      },
       "data_provenance": {
         "title": "ellipses_official"
       },
@@ -8252,6 +8603,19 @@
         "verified_fields": [
           "title"
         ]
+      },
+      "cover": {
+        "provider": "Éditions Ellipses",
+        "source_id": "ellipses_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.editions-ellipses.fr/fr/accueil/15102-28027-biographie-des-grands-theoremes-9782340084742.html",
+        "images": {
+          "large": "https://www.editions-ellipses.fr/45498-large_modale_produit/biographie-des-grands-theoremes.jpg",
+          "medium": "https://www.editions-ellipses.fr/45498-home_default/biographie-des-grands-theoremes.jpg",
+          "small": "https://www.editions-ellipses.fr/45498-home_default/biographie-des-grands-theoremes.jpg"
+        }
       },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
@@ -8475,6 +8839,19 @@
         16
       ],
       "id": "book-0221",
+      "cover": {
+        "provider": "Dunod",
+        "source_id": "dunod_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.dunod.com/sciences-techniques/algebre-1",
+        "images": {
+          "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100856176-001-X.jpeg",
+          "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100856176-001-X.jpeg",
+          "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100856176-001-X.jpeg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Dunod",
       "quality_flags": []
@@ -9097,6 +9474,19 @@
         17
       ],
       "id": "book-0236",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/121/9782916352121.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/121/9782916352121.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/121/9782916352121.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/121/9782916352121-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -9196,6 +9586,19 @@
         17
       ],
       "id": "book-0239",
+      "cover": {
+        "provider": "Dunod",
+        "source_id": "dunod_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.dunod.com/sciences-techniques/calcul-differentiel-et-calcul-integral-0",
+        "images": {
+          "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100834068-001-X.jpeg",
+          "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100834068-001-X.jpeg",
+          "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100834068-001-X.jpeg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Dunod",
       "quality_flags": []
@@ -9243,6 +9646,19 @@
         17
       ],
       "id": "book-0241",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/456/9782344062456.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/456/9782344062456.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/456/9782344062456.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/456/9782344062456-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "GLENAT",
       "quality_flags": []
@@ -9912,6 +10328,19 @@
         "publish_date": "2008-11-11",
         "subjects": [],
         "cover": {}
+      },
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/658/9782894712658.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/658/9782894712658.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/658/9782894712658.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/658/9782894712658-xs.jpg"
+        }
       },
       "isbn_status": "valid",
       "publisher_normalized": "SEPTEMBRE INC.",
@@ -10768,6 +11197,19 @@
         20
       ],
       "id": "book-0277",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/713/9782080438713.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/713/9782080438713.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/713/9782080438713.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/713/9782080438713-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Flammarion",
       "quality_flags": []
@@ -10785,6 +11227,19 @@
         20
       ],
       "id": "book-0278",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/032/9782080148032.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/032/9782080148032.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/032/9782080148032.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/032/9782080148032-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Flammarion",
       "quality_flags": []
@@ -10802,6 +11257,35 @@
         20
       ],
       "id": "book-0279",
+      "data_provenance": {
+        "author": "worldcat_leroux,openlibrary_exact",
+        "title": "worldcat_leroux,openlibrary_exact",
+        "publisher": "worldcat_leroux,openlibrary_exact",
+        "publication_date": "worldcat_leroux,openlibrary_exact",
+        "publication_year": "worldcat_leroux,openlibrary_exact"
+      },
+      "curation": {
+        "confidence": "high",
+        "reason": "WorldCat and the exact ISBN record identify the 1983 Modulo edition.",
+        "sources": [
+          "worldcat_leroux",
+          "openlibrary_exact"
+        ],
+        "changed_fields": [
+          "author",
+          "title",
+          "publisher",
+          "publication_date",
+          "publication_year"
+        ],
+        "verified_fields": [
+          "author",
+          "title",
+          "publisher",
+          "publication_date",
+          "publication_year"
+        ]
+      },
       "openlibrary": {
         "provider": "Open Library",
         "retrieved_on": "2026-07-14",
@@ -10840,35 +11324,6 @@
           "medium": "https://covers.openlibrary.org/b/id/11041503-M.jpg",
           "large": "https://covers.openlibrary.org/b/id/11041503-L.jpg"
         }
-      },
-      "data_provenance": {
-        "author": "worldcat_leroux,openlibrary_exact",
-        "title": "worldcat_leroux,openlibrary_exact",
-        "publisher": "worldcat_leroux,openlibrary_exact",
-        "publication_date": "worldcat_leroux,openlibrary_exact",
-        "publication_year": "worldcat_leroux,openlibrary_exact"
-      },
-      "curation": {
-        "confidence": "high",
-        "reason": "WorldCat and the exact ISBN record identify the 1983 Modulo edition.",
-        "sources": [
-          "worldcat_leroux",
-          "openlibrary_exact"
-        ],
-        "changed_fields": [
-          "author",
-          "title",
-          "publisher",
-          "publication_date",
-          "publication_year"
-        ],
-        "verified_fields": [
-          "author",
-          "title",
-          "publisher",
-          "publication_date",
-          "publication_year"
-        ]
       },
       "isbn_status": "valid",
       "publisher_normalized": "Modulo",
@@ -10947,6 +11402,19 @@
         20
       ],
       "id": "book-0281",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/065/9782493230065.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/065/9782493230065.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/065/9782493230065.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/065/9782493230065-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -10998,6 +11466,19 @@
         20
       ],
       "id": "book-0284",
+      "cover": {
+        "provider": "Dunod",
+        "source_id": "dunod_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.dunod.com/sciences-techniques/mathematiques-pour-modelisation",
+        "images": {
+          "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100870363-001-X.jpeg",
+          "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100870363-001-X.jpeg",
+          "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100870363-001-X.jpeg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Dunod",
       "quality_flags": []
@@ -11725,6 +12206,19 @@
         21
       ],
       "id": "book-0302",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/450/9782226494450.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/450/9782226494450.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/450/9782226494450.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/450/9782226494450-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "ALBIN MICHEL",
       "quality_flags": []
@@ -11742,6 +12236,19 @@
         21
       ],
       "id": "book-0303",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/612/9782807336612.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/612/9782807336612.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/612/9782807336612.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/612/9782807336612-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "De Boeck Supérieur",
       "quality_flags": []
@@ -11789,6 +12296,19 @@
         22
       ],
       "id": "book-0305",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/306/9782012369306.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/306/9782012369306.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/306/9782012369306.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/306/9782012369306-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "HACHETTE PRATIQUE",
       "quality_flags": []
@@ -12436,37 +12956,6 @@
         23
       ],
       "id": "book-0320",
-      "openlibrary": {
-        "provider": "Open Library",
-        "retrieved_on": "2026-07-14",
-        "key": "/books/OL12593613M",
-        "url": "https://openlibrary.org/books/OL12593613M/La_Cuisine_aux_épices",
-        "title": "La Cuisine aux épices",
-        "authors": [],
-        "publishers": [
-          "Ellipses"
-        ],
-        "publish_date": "September 1, 2000",
-        "subjects": [],
-        "cover": {
-          "small": "https://covers.openlibrary.org/b/id/3124726-S.jpg",
-          "medium": "https://covers.openlibrary.org/b/id/3124726-M.jpg",
-          "large": "https://covers.openlibrary.org/b/id/3124726-L.jpg"
-        }
-      },
-      "cover": {
-        "provider": "Open Library",
-        "source_id": "openlibrary_exact",
-        "retrieved_on": "2026-07-14",
-        "match_method": "exact_isbn",
-        "confidence": "high",
-        "source_url": "https://openlibrary.org/books/OL12593613M/La_Cuisine_aux_épices",
-        "images": {
-          "small": "https://covers.openlibrary.org/b/id/3124726-S.jpg",
-          "medium": "https://covers.openlibrary.org/b/id/3124726-M.jpg",
-          "large": "https://covers.openlibrary.org/b/id/3124726-L.jpg"
-        }
-      },
       "data_provenance": {
         "author": "ellipses_merlin,openlibrary_exact",
         "title": "ellipses_merlin,openlibrary_exact",
@@ -12498,6 +12987,37 @@
           "series"
         ]
       },
+      "openlibrary": {
+        "provider": "Open Library",
+        "retrieved_on": "2026-07-14",
+        "key": "/books/OL12593613M",
+        "url": "https://openlibrary.org/books/OL12593613M/La_Cuisine_aux_épices",
+        "title": "La Cuisine aux épices",
+        "authors": [],
+        "publishers": [
+          "Ellipses"
+        ],
+        "publish_date": "September 1, 2000",
+        "subjects": [],
+        "cover": {
+          "small": "https://covers.openlibrary.org/b/id/3124726-S.jpg",
+          "medium": "https://covers.openlibrary.org/b/id/3124726-M.jpg",
+          "large": "https://covers.openlibrary.org/b/id/3124726-L.jpg"
+        }
+      },
+      "cover": {
+        "provider": "Open Library",
+        "source_id": "openlibrary_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://openlibrary.org/books/OL12593613M/La_Cuisine_aux_épices",
+        "images": {
+          "small": "https://covers.openlibrary.org/b/id/3124726-S.jpg",
+          "medium": "https://covers.openlibrary.org/b/id/3124726-M.jpg",
+          "large": "https://covers.openlibrary.org/b/id/3124726-L.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Ellipses",
       "quality_flags": []
@@ -12515,6 +13035,19 @@
         23
       ],
       "id": "book-0321",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/294/9782493230294.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/294/9782493230294.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/294/9782493230294.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/294/9782493230294-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -12957,6 +13490,19 @@
         24
       ],
       "id": "book-0330",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/462/9782100825462.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/462/9782100825462.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/462/9782100825462.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/462/9782100825462-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Dunod",
       "quality_flags": []
@@ -13030,6 +13576,19 @@
         24
       ],
       "id": "book-0332",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/697/9782842251697.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/697/9782842251697.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/697/9782842251697.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/697/9782842251697-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Cassini",
       "quality_flags": []
@@ -13569,6 +14128,19 @@
         25
       ],
       "id": "book-0345",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/473/9782916352473.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/473/9782916352473.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/473/9782916352473.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/473/9782916352473-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -14399,6 +14971,19 @@
         26
       ],
       "id": "book-0362",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/829/9782842250829.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/829/9782842250829.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/829/9782842250829.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/829/9782842250829-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Cassini",
       "quality_flags": []
@@ -14435,6 +15020,19 @@
           "author",
           "isbn"
         ]
+      },
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/795/9782921180795.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/795/9782921180795.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/795/9782921180795.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/795/9782921180795-xs.jpg"
+        }
       },
       "isbn_status": "valid",
       "publisher_normalized": "Loze-Dion éditeur inc.",
@@ -14574,6 +15172,19 @@
         27
       ],
       "id": "book-0368",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/397/9782080469397.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/397/9782080469397.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/397/9782080469397.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/397/9782080469397-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Flammarion",
       "quality_flags": []
@@ -14638,6 +15249,19 @@
         27
       ],
       "id": "book-0371",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/201/9782493230201.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/201/9782493230201.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/201/9782493230201.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/201/9782493230201-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -14655,6 +15279,19 @@
         27
       ],
       "id": "book-0372",
+      "cover": {
+        "provider": "Dunod",
+        "source_id": "dunod_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.dunod.com/prepas-concours/analyse-pour-agregation-agregationmaster-mathematiques",
+        "images": {
+          "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100811809-001-X.jpeg",
+          "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100811809-001-X.jpeg",
+          "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100811809-001-X.jpeg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Dunod",
       "quality_flags": []
@@ -14808,6 +15445,19 @@
         27
       ],
       "id": "book-0377",
+      "cover": {
+        "provider": "Dunod",
+        "source_id": "dunod_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.dunod.com/sciences-techniques/cours-mathematiques-series-et-equations-differentielles",
+        "images": {
+          "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100843077-001-X.jpeg",
+          "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100843077-001-X.jpeg",
+          "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100843077-001-X.jpeg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Dunod",
       "quality_flags": []
@@ -14825,6 +15475,19 @@
         27
       ],
       "id": "book-0378",
+      "cover": {
+        "provider": "Dunod",
+        "source_id": "dunod_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.dunod.com/sciences-techniques/cours-mathematiques-algebre-et-applications-geometrie",
+        "images": {
+          "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100843060-001-X.jpeg",
+          "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100843060-001-X.jpeg",
+          "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100843060-001-X.jpeg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Dunod",
       "quality_flags": []
@@ -14842,6 +15505,19 @@
         27
       ],
       "id": "book-0379",
+      "cover": {
+        "provider": "Dunod",
+        "source_id": "dunod_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.dunod.com/sciences-techniques/cours-mathematiques-t3-topologie-et-elements-d-analyse-0",
+        "images": {
+          "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100836635-001-X.jpeg",
+          "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100836635-001-X.jpeg",
+          "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100836635-001-X.jpeg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Dunod",
       "quality_flags": []
@@ -14859,6 +15535,19 @@
         27
       ],
       "id": "book-0380",
+      "cover": {
+        "provider": "Dunod",
+        "source_id": "dunod_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.dunod.com/sciences-techniques/cours-mathematiques-1-algebre-0",
+        "images": {
+          "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100815746-001-X.jpeg",
+          "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100815746-001-X.jpeg",
+          "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100815746-001-X.jpeg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Dunod",
       "quality_flags": []
@@ -14876,6 +15565,19 @@
         27
       ],
       "id": "book-0381",
+      "cover": {
+        "provider": "Dunod",
+        "source_id": "dunod_official",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.dunod.com/sciences-techniques/cours-mathematiques-tome-5-applications-analyse-geometrie",
+        "images": {
+          "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100851126-001-X.jpeg",
+          "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100851126-001-X.jpeg",
+          "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100851126-001-X.jpeg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Dunod",
       "quality_flags": []
@@ -14893,6 +15595,19 @@
         27
       ],
       "id": "book-0382",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/225/9782493230225.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/225/9782493230225.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/225/9782493230225.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/225/9782493230225-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -14961,6 +15676,19 @@
         "verified_fields": [
           "isbn"
         ]
+      },
+      "cover": {
+        "provider": "Open Library",
+        "source_id": "openlibrary_covers",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://openlibrary.org/isbn/9782761300391",
+        "images": {
+          "small": "https://covers.openlibrary.org/b/isbn/9782761300391-S.jpg?default=false",
+          "medium": "https://covers.openlibrary.org/b/isbn/9782761300391-M.jpg?default=false",
+          "large": "https://covers.openlibrary.org/b/isbn/9782761300391-L.jpg?default=false"
+        }
       },
       "isbn_status": "valid",
       "publisher_normalized": "Éditions du Renouveau Pédagogique Inc.",
@@ -15065,6 +15793,19 @@
           "isbn",
           "publisher"
         ]
+      },
+      "cover": {
+        "provider": "Open Library",
+        "source_id": "openlibrary_covers",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://openlibrary.org/isbn/9782761300391",
+        "images": {
+          "small": "https://covers.openlibrary.org/b/isbn/9782761300391-S.jpg?default=false",
+          "medium": "https://covers.openlibrary.org/b/isbn/9782761300391-M.jpg?default=false",
+          "large": "https://covers.openlibrary.org/b/isbn/9782761300391-L.jpg?default=false"
+        }
       },
       "isbn_status": "valid",
       "publisher_normalized": "Éditions du Renouveau Pédagogique Inc.",
@@ -15208,6 +15949,19 @@
         28
       ],
       "id": "book-0391",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/390/9782759823390.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/390/9782759823390.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/390/9782759823390.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/390/9782759823390-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "EDP Sciences",
       "quality_flags": []
@@ -15305,6 +16059,19 @@
         28
       ],
       "id": "book-0394",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/230/9782807349230.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/230/9782807349230.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/230/9782807349230.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/230/9782807349230-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "De Boeck Supérieur",
       "quality_flags": []
@@ -15865,6 +16632,19 @@
         29
       ],
       "id": "book-0407",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/893/9782916352893.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/893/9782916352893.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/893/9782916352893.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/893/9782916352893-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -17189,6 +17969,19 @@
         31
       ],
       "id": "book-0437",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/731/9782842252731.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/731/9782842252731.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/731/9782842252731.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/731/9782842252731-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Cassini",
       "quality_flags": []
@@ -17260,6 +18053,19 @@
         31
       ],
       "id": "book-0439",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/058/9782493230058.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/058/9782493230058.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/058/9782493230058.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/058/9782493230058-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Calvage & Mounet",
       "quality_flags": []
@@ -17421,6 +18227,19 @@
         32
       ],
       "id": "book-0445",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/941/9782701156941.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/941/9782701156941.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/941/9782701156941.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/941/9782701156941-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Belin",
       "quality_flags": []
@@ -17578,6 +18397,19 @@
         32
       ],
       "id": "book-0449",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/098/9782749184098.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/098/9782749184098.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/098/9782749184098.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/098/9782749184098-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Le Cherche Midi",
       "quality_flags": []
@@ -17667,6 +18499,19 @@
         32
       ],
       "id": "book-0452",
+      "cover": {
+        "provider": "LaLibrairie.com",
+        "source_id": "lalibrairie_exact",
+        "retrieved_on": "2026-07-14",
+        "match_method": "exact_isbn",
+        "confidence": "high",
+        "source_url": "https://www.lalibrairie.com/cache/img/livres/581/9782842251581.jpg",
+        "images": {
+          "large": "https://www.lalibrairie.com/cache/img/livres/581/9782842251581.jpg",
+          "medium": "https://www.lalibrairie.com/cache/img/livres/581/9782842251581.jpg",
+          "small": "https://www.lalibrairie.com/cache/img/livres/581/9782842251581-xs.jpg"
+        }
+      },
       "isbn_status": "valid",
       "publisher_normalized": "Cassini",
       "quality_flags": []

@@ -1,0 +1,169 @@
+{
+  "books": {
+    "9782100074778": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100074778-T.jpg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100074778-T.jpg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100074778-T.jpg"
+      },
+      "isbn": "9782100074778",
+      "record_id": "book-0025",
+      "source_url": "https://www.dunod.com/sciences-techniques/echantillonnage-et-methodes-d-enquetes",
+      "title": "Échantillonnage et méthodes d'enquêtes"
+    },
+    "9782100795567": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100795567-001-X.jpeg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100795567-001-X.jpeg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100795567-001-X.jpeg"
+      },
+      "isbn": "9782100795567",
+      "record_id": "book-0036",
+      "source_url": "https://www.dunod.com/prepas-concours/131-developpements-pour-oral-agregation-externe-mathematiquesinformatique",
+      "title": "131 développements pour l'oral"
+    },
+    "9782100798582": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100798582-001-X.jpeg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100798582-001-X.jpeg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100798582-001-X.jpeg"
+      },
+      "isbn": "9782100798582",
+      "record_id": "book-0015",
+      "source_url": "https://www.dunod.com/sciences-techniques/astronomie-astrophysique-0",
+      "title": "Astronomie Astrophysique"
+    },
+    "9782100811809": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100811809-001-X.jpeg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100811809-001-X.jpeg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100811809-001-X.jpeg"
+      },
+      "isbn": "9782100811809",
+      "record_id": "book-0372",
+      "source_url": "https://www.dunod.com/prepas-concours/analyse-pour-agregation-agregationmaster-mathematiques",
+      "title": "Analyse pour l'agrégation - Agrégation/Master Mathématiques"
+    },
+    "9782100815746": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100815746-001-X.jpeg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100815746-001-X.jpeg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100815746-001-X.jpeg"
+      },
+      "isbn": "9782100815746",
+      "record_id": "book-0380",
+      "source_url": "https://www.dunod.com/sciences-techniques/cours-mathematiques-1-algebre-0",
+      "title": "Le cours de mathématiques 1- Algèbre"
+    },
+    "9782100834068": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100834068-001-X.jpeg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100834068-001-X.jpeg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100834068-001-X.jpeg"
+      },
+      "isbn": "9782100834068",
+      "record_id": "book-0239",
+      "source_url": "https://www.dunod.com/sciences-techniques/calcul-differentiel-et-calcul-integral-0",
+      "title": "Calcul différentiel et calcul intégral"
+    },
+    "9782100836635": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100836635-001-X.jpeg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100836635-001-X.jpeg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100836635-001-X.jpeg"
+      },
+      "isbn": "9782100836635",
+      "record_id": "book-0379",
+      "source_url": "https://www.dunod.com/sciences-techniques/cours-mathematiques-t3-topologie-et-elements-d-analyse-0",
+      "title": "Le cours de mathématiques - T3 Topologie et éléments d'analyse"
+    },
+    "9782100843060": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100843060-001-X.jpeg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100843060-001-X.jpeg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100843060-001-X.jpeg"
+      },
+      "isbn": "9782100843060",
+      "record_id": "book-0378",
+      "source_url": "https://www.dunod.com/sciences-techniques/cours-mathematiques-algebre-et-applications-geometrie",
+      "title": "Le cours de mathématiques"
+    },
+    "9782100843077": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100843077-001-X.jpeg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100843077-001-X.jpeg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100843077-001-X.jpeg"
+      },
+      "isbn": "9782100843077",
+      "record_id": "book-0377",
+      "source_url": "https://www.dunod.com/sciences-techniques/cours-mathematiques-series-et-equations-differentielles",
+      "title": "Le cours de mathématiques"
+    },
+    "9782100851126": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100851126-001-X.jpeg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100851126-001-X.jpeg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100851126-001-X.jpeg"
+      },
+      "isbn": "9782100851126",
+      "record_id": "book-0381",
+      "source_url": "https://www.dunod.com/sciences-techniques/cours-mathematiques-tome-5-applications-analyse-geometrie",
+      "title": "Le cours de mathématiques - Tome 5"
+    },
+    "9782100856176": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100856176-001-X.jpeg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100856176-001-X.jpeg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100856176-001-X.jpeg"
+      },
+      "isbn": "9782100856176",
+      "record_id": "book-0221",
+      "source_url": "https://www.dunod.com/sciences-techniques/algebre-1",
+      "title": "Algèbre"
+    },
+    "9782100868193": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100868193-001-X.jpeg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100868193-001-X.jpeg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100868193-001-X.jpeg"
+      },
+      "isbn": "9782100868193",
+      "record_id": "book-0148",
+      "source_url": "https://www.dunod.com/sciences-techniques/maths-licence-150-theoremes-d-analyse-incontournables-assimilez-demonstrations",
+      "title": "Maths Licence Les 150 théorèmes d'analyse incontournables"
+    },
+    "9782100870363": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100870363-001-X.jpeg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100870363-001-X.jpeg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100870363-001-X.jpeg"
+      },
+      "isbn": "9782100870363",
+      "record_id": "book-0284",
+      "source_url": "https://www.dunod.com/sciences-techniques/mathematiques-pour-modelisation",
+      "title": "Mathématiques pour la modélisation"
+    }
+  },
+  "cover_count": 13,
+  "match_method": "exact_isbn",
+  "misses": [
+    {
+      "id": "book-0103",
+      "isbn": "9782100501359",
+      "title": "Calcul stochastique et modèles de diffusions (French Edition)"
+    },
+    {
+      "id": "book-0153",
+      "isbn": "9782100811694",
+      "title": "Toute l'analyse de la Licence - 2e éd.- Cours et exercices corrigés: Cours et exercices corrigés"
+    },
+    {
+      "id": "book-0330",
+      "isbn": "9782100825462",
+      "title": "Mathématiques Tout-en-un pour la Licence 3 - 2e éd.: Cours complet avec applications et 300 exercices corrigés"
+    }
+  ],
+  "provider": "Dunod",
+  "requested_isbn_count": 16,
+  "retrieved_on": "2026-07-14"
+}

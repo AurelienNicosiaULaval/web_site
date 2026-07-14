@@ -19,6 +19,14 @@ python3 scripts/fetch_ellipses_covers.py
 python3 scripts/curate_library_data.py
 ```
 
+Les couvertures Dunod et les couvertures françaises de repli sont également actualisées par ISBN exact:
+
+```bash
+python3 scripts/fetch_dunod_covers.py
+python3 scripts/fetch_lalibrairie_covers.py
+python3 scripts/curate_library_data.py
+```
+
 Règles de curation:
 
 - une absence d’ISBN avant 1970 est classée comme attendue;

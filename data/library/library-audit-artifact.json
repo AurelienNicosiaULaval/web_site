@@ -398,7 +398,7 @@
           "expected_pre1970_missing": 86,
           "isbn_to_review": 13,
           "corrected_records": 19,
-          "changed_fields": 53,
+          "changed_fields": 56,
           "external_isbn_coverage": 0.6611111111111111,
           "raw_publishers": 205,
           "normalized_publishers": 189
@@ -573,7 +573,7 @@
         {
           "id": "book-0001",
           "title": "Probabilité (L3M1)",
-          "changed_fields": "Auteur, Titre, Date de publication",
+          "changed_fields": "Auteur, Titre, Éditeur, Date de publication, Année",
           "source_count": 2,
           "sources": "clz_sibling, openlibrary_exact"
         },
@@ -615,7 +615,7 @@
         {
           "id": "book-0010",
           "title": "Physique 3 : ondes, optique et physique moderne",
-          "changed_fields": "Titre, ISBN, Éditeur, Collection",
+          "changed_fields": "Auteur, Titre, ISBN, Éditeur, Collection",
           "source_count": 2,
           "sources": "bnaq_benson, openlibrary_exact"
         },

@@ -37,6 +37,14 @@
       "title": "Éditions Ellipses official exact-ISBN cover snapshot",
       "url": "data/library/ellipses-cover-cache.json"
     },
+    "dunod_official": {
+      "title": "Dunod official exact-ISBN cover snapshot",
+      "url": "data/library/dunod-cover-cache.json"
+    },
+    "lalibrairie_exact": {
+      "title": "LaLibrairie.com exact-ISBN cover snapshot",
+      "url": "data/library/lalibrairie-cover-cache.json"
+    },
     "enp_group_theory": {
       "title": "École nationale polytechnique catalogue, Éléments de la théorie des groupes",
       "url": "https://acatalogue1.biblio.enp.edu.dz/opac_css/index.php?id=3693&lvl=indexint_see&main=0"

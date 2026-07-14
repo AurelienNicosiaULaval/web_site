@@ -3,28 +3,24 @@
   "record_count": 467,
   "raw_record_count": 467,
   "manual_override_count": 19,
-  "manual_field_change_count": 53,
+  "manual_field_change_count": 56,
   "openlibrary_exact_match_count": 245,
   "openlibrary_exact_match_rate": 0.5246,
   "unique_valid_isbn_count": 360,
   "openlibrary_unique_isbn_match_count": 238,
   "openlibrary_unique_isbn_match_rate": 0.6611,
-  "openlibrary_filled_fields": {
-    "author": 2,
-    "publication_date": 1,
-    "publication_year": 1,
-    "publisher": 1,
-    "title": 1
-  },
-  "cover_record_count": 281,
-  "cover_record_rate": 0.6017,
+  "openlibrary_filled_fields": {},
+  "cover_record_count": 345,
+  "cover_record_rate": 0.7388,
   "cover_providers": {
+    "Dunod": 13,
     "Google Books": 41,
-    "Open Library": 219,
+    "LaLibrairie.com": 49,
+    "Open Library": 221,
     "Éditions Ellipses": 21
   },
   "cover_match_methods": {
-    "exact_isbn": 262,
+    "exact_isbn": 326,
     "exact_isbn_search": 1,
     "title_author_year_publisher": 12,
     "title_author_year_publisher_work": 6
@@ -240,16 +236,18 @@
     {
       "id": "book-0001",
       "before": {
-        "author": "Philippe Barbe",
-        "title": "Probabilité",
-        "publisher": "EDP Sciences",
-        "publication_date": "2007",
-        "publication_year": "2007"
+        "author": "",
+        "title": "",
+        "publisher": "",
+        "publication_date": "",
+        "publication_year": ""
       },
       "after": {
         "author": "Philippe Barbé",
         "title": "Probabilité (L3M1)",
-        "publication_date": "Feb 01, 2007"
+        "publisher": "EDP Sciences",
+        "publication_date": "Feb 01, 2007",
+        "publication_year": "2007"
       },
       "sources": [
         "clz_sibling",
@@ -342,13 +340,14 @@
     {
       "id": "book-0010",
       "before": {
-        "author": "Harris Benson",
+        "author": "",
         "title": "Physique 3 ondes opt. 5e benson",
         "isbn": "9782761355018-8",
         "publisher": "",
         "series": ""
       },
       "after": {
+        "author": "Harris Benson",
         "title": "Physique 3 : ondes, optique et physique moderne",
         "isbn": "9782761355018",
         "publisher": "Pearson",

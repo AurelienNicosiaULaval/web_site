@@ -1,0 +1,908 @@
+{
+  "books": {
+    "9782012369306": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/306/9782012369306.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/306/9782012369306.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/306/9782012369306-xs.jpg"
+      },
+      "isbn": "9782012369306",
+      "record_id": "book-0305",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/306/9782012369306.jpg",
+      "title": "L'astronomie (French Edition)"
+    },
+    "9782080148032": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/032/9782080148032.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/032/9782080148032.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/032/9782080148032-xs.jpg"
+      },
+      "isbn": "9782080148032",
+      "record_id": "book-0278",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/032/9782080148032.jpg",
+      "title": "Toutes les mathématiques du monde"
+    },
+    "9782080438713": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/713/9782080438713.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/713/9782080438713.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/713/9782080438713-xs.jpg"
+      },
+      "isbn": "9782080438713",
+      "record_id": "book-0277",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/713/9782080438713.jpg",
+      "title": "Le livre des nombres"
+    },
+    "9782080469397": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/397/9782080469397.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/397/9782080469397.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/397/9782080469397-xs.jpg"
+      },
+      "isbn": "9782080469397",
+      "record_id": "book-0368",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/397/9782080469397.jpg",
+      "title": "La guerre des nombres premiers"
+    },
+    "9782100074778": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/778/9782100074778.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/778/9782100074778.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/778/9782100074778-xs.jpg"
+      },
+      "isbn": "9782100074778",
+      "record_id": "book-0025",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/778/9782100074778.jpg",
+      "title": "Échantillonnage et méthodes d'enquêtes"
+    },
+    "9782100501359": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/359/9782100501359.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/359/9782100501359.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/359/9782100501359-xs.jpg"
+      },
+      "isbn": "9782100501359",
+      "record_id": "book-0103",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/359/9782100501359.jpg",
+      "title": "Calcul stochastique et modèles de diffusions (French Edition)"
+    },
+    "9782100795567": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/567/9782100795567.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/567/9782100795567.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/567/9782100795567-xs.jpg"
+      },
+      "isbn": "9782100795567",
+      "record_id": "book-0036",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/567/9782100795567.jpg",
+      "title": "131 développements pour l'oral: Agrégation externe Mathématiques/Informatique"
+    },
+    "9782100798582": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/582/9782100798582.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/582/9782100798582.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/582/9782100798582-xs.jpg"
+      },
+      "isbn": "9782100798582",
+      "record_id": "book-0015",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/582/9782100798582.jpg",
+      "title": "Astronomie, astrophysique"
+    },
+    "9782100811694": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/694/9782100811694.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/694/9782100811694.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/694/9782100811694-xs.jpg"
+      },
+      "isbn": "9782100811694",
+      "record_id": "book-0153",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/694/9782100811694.jpg",
+      "title": "Toute l'analyse de la Licence - 2e éd.- Cours et exercices corrigés: Cours et exercices corrigés"
+    },
+    "9782100811809": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/809/9782100811809.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/809/9782100811809.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/809/9782100811809-xs.jpg"
+      },
+      "isbn": "9782100811809",
+      "record_id": "book-0372",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/809/9782100811809.jpg",
+      "title": "Analyse pour l'agrégation - Agrégation/Master Mathématiques- 5e éd."
+    },
+    "9782100815746": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/746/9782100815746.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/746/9782100815746.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/746/9782100815746-xs.jpg"
+      },
+      "isbn": "9782100815746",
+      "record_id": "book-0380",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/746/9782100815746.jpg",
+      "title": "Le cours de mathématiques Tome 1- Algèbre"
+    },
+    "9782100825462": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/462/9782100825462.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/462/9782100825462.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/462/9782100825462-xs.jpg"
+      },
+      "isbn": "9782100825462",
+      "record_id": "book-0330",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/462/9782100825462.jpg",
+      "title": "Mathématiques Tout-en-un pour la Licence 3 - 2e éd.: Cours complet avec applications et 300 exercices corrigés"
+    },
+    "9782100834068": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/068/9782100834068.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/068/9782100834068.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/068/9782100834068-xs.jpg"
+      },
+      "isbn": "9782100834068",
+      "record_id": "book-0239",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/068/9782100834068.jpg",
+      "title": "Calcul différentiel et calcul intégral - 2e éd."
+    },
+    "9782100836635": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/635/9782100836635.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/635/9782100836635.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/635/9782100836635-xs.jpg"
+      },
+      "isbn": "9782100836635",
+      "record_id": "book-0379",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/635/9782100836635.jpg",
+      "title": "Le cours de mathématiques - T3 Topologie et éléments d'analyse"
+    },
+    "9782100843060": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/060/9782100843060.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/060/9782100843060.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/060/9782100843060-xs.jpg"
+      },
+      "isbn": "9782100843060",
+      "record_id": "book-0378",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/060/9782100843060.jpg",
+      "title": "Cours de mathématiques - Tome 2 - 3e éd: Algèbre et applications à la géométrie"
+    },
+    "9782100843077": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/077/9782100843077.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/077/9782100843077.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/077/9782100843077-xs.jpg"
+      },
+      "isbn": "9782100843077",
+      "record_id": "book-0377",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/077/9782100843077.jpg",
+      "title": "Le cours de mathématiques - Tome 4 - 3e éd.: Séries et équations différentielles"
+    },
+    "9782100851126": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/126/9782100851126.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/126/9782100851126.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/126/9782100851126-xs.jpg"
+      },
+      "isbn": "9782100851126",
+      "record_id": "book-0381",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/126/9782100851126.jpg",
+      "title": "Le cours de mathématiques - Tome 5 - 2e éd: Applications de l'analyse à la géométrie"
+    },
+    "9782100856176": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/176/9782100856176.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/176/9782100856176.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/176/9782100856176-xs.jpg"
+      },
+      "isbn": "9782100856176",
+      "record_id": "book-0221",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/176/9782100856176.jpg",
+      "title": "Algèbre"
+    },
+    "9782100868193": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/193/9782100868193.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/193/9782100868193.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/193/9782100868193-xs.jpg"
+      },
+      "isbn": "9782100868193",
+      "record_id": "book-0148",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/193/9782100868193.jpg",
+      "title": "Maths Licence Les 150 théorèmes d'analyse incontournables: Assimilez les démonstrations et raisonnements par la pratique"
+    },
+    "9782100870363": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/363/9782100870363.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/363/9782100870363.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/363/9782100870363-xs.jpg"
+      },
+      "isbn": "9782100870363",
+      "record_id": "book-0284",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/363/9782100870363.jpg",
+      "title": "Mathématiques pour la modélisation"
+    },
+    "9782226494450": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/450/9782226494450.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/450/9782226494450.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/450/9782226494450-xs.jpg"
+      },
+      "isbn": "9782226494450",
+      "record_id": "book-0302",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/450/9782226494450.jpg",
+      "title": "Le Grand Almanach mathématique"
+    },
+    "9782311002775": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/775/9782311002775.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/775/9782311002775.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/775/9782311002775-xs.jpg"
+      },
+      "isbn": "9782311002775",
+      "record_id": "book-0107",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/775/9782311002775.jpg",
+      "title": "Théorie des groupes: Cours et exercices corrigés – L3 & Master"
+    },
+    "9782344062456": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/456/9782344062456.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/456/9782344062456.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/456/9782344062456-xs.jpg"
+      },
+      "isbn": "9782344062456",
+      "record_id": "book-0241",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/456/9782344062456.jpg",
+      "title": "La beauté des maths"
+    },
+    "9782493230027": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/027/9782493230027.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/027/9782493230027.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/027/9782493230027-xs.jpg"
+      },
+      "isbn": "9782493230027",
+      "record_id": "book-0011",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/027/9782493230027.jpg",
+      "title": "Modules sur un anneau et représentation linéaires des groupes finis"
+    },
+    "9782493230034": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/034/9782493230034.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/034/9782493230034.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/034/9782493230034-xs.jpg"
+      },
+      "isbn": "9782493230034",
+      "record_id": "book-0074",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/034/9782493230034.jpg",
+      "title": "Carnet de voyage en Algébrie: Nouvelle édition revue et enrichie"
+    },
+    "9782493230058": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/058/9782493230058.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/058/9782493230058.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/058/9782493230058-xs.jpg"
+      },
+      "isbn": "9782493230058",
+      "record_id": "book-0439",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/058/9782493230058.jpg",
+      "title": "Algèbre linéaire: Échappée décisive dans un territoire splendide"
+    },
+    "9782493230065": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/065/9782493230065.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/065/9782493230065.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/065/9782493230065-xs.jpg"
+      },
+      "isbn": "9782493230065",
+      "record_id": "book-0281",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/065/9782493230065.jpg",
+      "title": "Courbes algébriques complexes et/ou Surfaces de Riemann compactes"
+    },
+    "9782493230119": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/119/9782493230119.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/119/9782493230119.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/119/9782493230119-xs.jpg"
+      },
+      "isbn": "9782493230119",
+      "record_id": "book-0071",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/119/9782493230119.jpg",
+      "title": "Carnet de voyage en Analystan"
+    },
+    "9782493230201": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/201/9782493230201.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/201/9782493230201.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/201/9782493230201-xs.jpg"
+      },
+      "isbn": "9782493230201",
+      "record_id": "book-0371",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/201/9782493230201.jpg",
+      "title": "Analyse complexe et applications"
+    },
+    "9782493230218": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/218/9782493230218.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/218/9782493230218.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/218/9782493230218-xs.jpg"
+      },
+      "isbn": "9782493230218",
+      "record_id": "book-0045",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/218/9782493230218.jpg",
+      "title": "De l'Analyse fonctionnelle à la Théorie spectrale: Master, Agrégation"
+    },
+    "9782493230225": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/225/9782493230225.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/225/9782493230225.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/225/9782493230225-xs.jpg"
+      },
+      "isbn": "9782493230225",
+      "record_id": "book-0382",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/225/9782493230225.jpg",
+      "title": "Introduction aux espaces de Hilbert"
+    },
+    "9782493230263": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/263/9782493230263.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/263/9782493230263.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/263/9782493230263-xs.jpg"
+      },
+      "isbn": "9782493230263",
+      "record_id": "book-0124",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/263/9782493230263.jpg",
+      "title": "Groupes finis et treillis de leurs sous-groupes"
+    },
+    "9782493230294": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/294/9782493230294.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/294/9782493230294.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/294/9782493230294-xs.jpg"
+      },
+      "isbn": "9782493230294",
+      "record_id": "book-0321",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/294/9782493230294.jpg",
+      "title": "Séries et intégrales Cours et exercices corrigés - Agrégation interne et classes préparatoires"
+    },
+    "9782606012052": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/052/9782606012052.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/052/9782606012052.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/052/9782606012052-xs.jpg"
+      },
+      "isbn": "9782606012052",
+      "record_id": "book-0100",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/052/9782606012052.jpg",
+      "title": "ALGEBRE"
+    },
+    "9782701137193": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/193/9782701137193.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/193/9782701137193.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/193/9782701137193-xs.jpg"
+      },
+      "isbn": "9782701137193",
+      "record_id": "book-0055",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/193/9782701137193.jpg",
+      "title": "Pourquoi j'ai toujours été nul(le) en maths"
+    },
+    "9782701156941": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/941/9782701156941.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/941/9782701156941.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/941/9782701156941-xs.jpg"
+      },
+      "isbn": "9782701156941",
+      "record_id": "book-0445",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/941/9782701156941.jpg",
+      "title": "La formule secrète: le duel mathématique qui enflamma l'Italie de la Renaissance"
+    },
+    "9782749184098": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/098/9782749184098.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/098/9782749184098.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/098/9782749184098-xs.jpg"
+      },
+      "isbn": "9782749184098",
+      "record_id": "book-0449",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/098/9782749184098.jpg",
+      "title": "Leçons de mathématique joyeuse"
+    },
+    "9782759810017": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/017/9782759810017.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/017/9782759810017.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/017/9782759810017-xs.jpg"
+      },
+      "isbn": "9782759810017",
+      "record_id": "book-0202",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/017/9782759810017.jpg",
+      "title": "Anneaux, modules et algèbre multilinéaire"
+    },
+    "9782759823390": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/390/9782759823390.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/390/9782759823390.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/390/9782759823390-xs.jpg"
+      },
+      "isbn": "9782759823390",
+      "record_id": "book-0391",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/390/9782759823390.jpg",
+      "title": "ÉLÉMENTS D'ANALYSE RÉELLE: 2e édition"
+    },
+    "9782759834457": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/457/9782759834457.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/457/9782759834457.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/457/9782759834457-xs.jpg"
+      },
+      "isbn": "9782759834457",
+      "record_id": "book-0086",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/457/9782759834457.jpg",
+      "title": "Analyse fonctionnelle appliquée"
+    },
+    "9782803444298": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/298/9782803444298.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/298/9782803444298.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/298/9782803444298-xs.jpg"
+      },
+      "isbn": "9782803444298",
+      "record_id": "book-0053",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/298/9782803444298.jpg",
+      "title": "Astronomie"
+    },
+    "9782807336612": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/612/9782807336612.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/612/9782807336612.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/612/9782807336612-xs.jpg"
+      },
+      "isbn": "9782807336612",
+      "record_id": "book-0303",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/612/9782807336612.jpg",
+      "title": "Algèbre linéaire. Réduction des endomorphismes: Cours et exercices corrigés - Licence • Prépas • Capes • Agrégation"
+    },
+    "9782807349230": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/230/9782807349230.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/230/9782807349230.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/230/9782807349230-xs.jpg"
+      },
+      "isbn": "9782807349230",
+      "record_id": "book-0394",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/230/9782807349230.jpg",
+      "title": "Mathématiques pour l’agrégation. Analyse et probabilités: Cours, exercices et problèmes corrigés"
+    },
+    "9782842250539": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/539/9782842250539.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/539/9782842250539.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/539/9782842250539-xs.jpg"
+      },
+      "isbn": "9782842250539",
+      "record_id": "book-0077",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/539/9782842250539.jpg",
+      "title": "Calcul intégral"
+    },
+    "9782842250829": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/829/9782842250829.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/829/9782842250829.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/829/9782842250829-xs.jpg"
+      },
+      "isbn": "9782842250829",
+      "record_id": "book-0362",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/829/9782842250829.jpg",
+      "title": "Leçons de mathématiques d'aujourd'hui (volume 3)"
+    },
+    "9782842251581": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/581/9782842251581.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/581/9782842251581.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/581/9782842251581-xs.jpg"
+      },
+      "isbn": "9782842251581",
+      "record_id": "book-0452",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/581/9782842251581.jpg",
+      "title": "MATHEMATIQUES D'ECOLE 2e edt (cassini)"
+    },
+    "9782842251659": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/659/9782842251659.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/659/9782842251659.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/659/9782842251659-xs.jpg"
+      },
+      "isbn": "9782842251659",
+      "record_id": "book-0102",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/659/9782842251659.jpg",
+      "title": "Leçons de mathématiques d'aujourd'hui Tome 1"
+    },
+    "9782842251697": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/697/9782842251697.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/697/9782842251697.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/697/9782842251697-xs.jpg"
+      },
+      "isbn": "9782842251697",
+      "record_id": "book-0332",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/697/9782842251697.jpg",
+      "title": "Leçons de mathématiques d'aujourd'hui volume 5"
+    },
+    "9782842251864": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/864/9782842251864.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/864/9782842251864.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/864/9782842251864-xs.jpg"
+      },
+      "isbn": "9782842251864",
+      "record_id": "book-0166",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/864/9782842251864.jpg",
+      "title": "Petit guide de calcul différentiel"
+    },
+    "9782842252298": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/298/9782842252298.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/298/9782842252298.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/298/9782842252298-xs.jpg"
+      },
+      "isbn": "9782842252298",
+      "record_id": "book-0054",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/298/9782842252298.jpg",
+      "title": "Equations différentielles"
+    },
+    "9782842252731": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/731/9782842252731.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/731/9782842252731.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/731/9782842252731-xs.jpg"
+      },
+      "isbn": "9782842252731",
+      "record_id": "book-0437",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/731/9782842252731.jpg",
+      "title": "Algèbre, tome 3: Anneaux, polynômes, modules"
+    },
+    "9782894712658": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/658/9782894712658.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/658/9782894712658.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/658/9782894712658-xs.jpg"
+      },
+      "isbn": "9782894712658",
+      "record_id": "book-0258",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/658/9782894712658.jpg",
+      "title": "EN CHAIR ET EN MATHS T01"
+    },
+    "9782914010924": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/924/9782914010924.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/924/9782914010924.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/924/9782914010924-xs.jpg"
+      },
+      "isbn": "9782914010924",
+      "record_id": "book-0049",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/924/9782914010924.jpg",
+      "title": "Objectif agrégation: pour les mathématiques"
+    },
+    "9782916352121": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/121/9782916352121.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/121/9782916352121.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/121/9782916352121-xs.jpg"
+      },
+      "isbn": "9782916352121",
+      "record_id": "book-0236",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/121/9782916352121.jpg",
+      "title": "Coniques projectives, affines et métriques: Cours et exercices."
+    },
+    "9782916352336": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/336/9782916352336.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/336/9782916352336.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/336/9782916352336-xs.jpg"
+      },
+      "isbn": "9782916352336",
+      "record_id": "book-0131",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/336/9782916352336.jpg",
+      "title": "Modules sur les anneaux commutatifs: Cours et exercices."
+    },
+    "9782916352473": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/473/9782916352473.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/473/9782916352473.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/473/9782916352473-xs.jpg"
+      },
+      "isbn": "9782916352473",
+      "record_id": "book-0345",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/473/9782916352473.jpg",
+      "title": "Matrices et opérateurs de Toeplitz"
+    },
+    "9782916352619": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/619/9782916352619.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/619/9782916352619.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/619/9782916352619-xs.jpg"
+      },
+      "isbn": "9782916352619",
+      "record_id": "book-0072",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/619/9782916352619.jpg",
+      "title": "Nouvelles histoires hédonistes de groupes et de géométries - Tome 1: TOME I"
+    },
+    "9782916352671": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/671/9782916352671.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/671/9782916352671.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/671/9782916352671-xs.jpg"
+      },
+      "isbn": "9782916352671",
+      "record_id": "book-0073",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/671/9782916352671.jpg",
+      "title": "Nouvelles histoires hédonistes de groupes et de géométries - Tome second"
+    },
+    "9782916352831": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/831/9782916352831.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/831/9782916352831.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/831/9782916352831-xs.jpg"
+      },
+      "isbn": "9782916352831",
+      "record_id": "book-0052",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/831/9782916352831.jpg",
+      "title": "Algèbre : le grand combat: Cours et exercices"
+    },
+    "9782916352893": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/893/9782916352893.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/893/9782916352893.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/893/9782916352893-xs.jpg"
+      },
+      "isbn": "9782916352893",
+      "record_id": "book-0407",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/893/9782916352893.jpg",
+      "title": "Réussir l'agrégation: Dix-neuf problèmes inédits pour les épreuves écrites de mathématiques"
+    },
+    "9782916352978": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/978/9782916352978.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/978/9782916352978.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/978/9782916352978-xs.jpg"
+      },
+      "isbn": "9782916352978",
+      "record_id": "book-0026",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/978/9782916352978.jpg",
+      "title": "Introduction au langage catégorique"
+    },
+    "9782921180795": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/795/9782921180795.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/795/9782921180795.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/795/9782921180795-xs.jpg"
+      },
+      "isbn": "9782921180795",
+      "record_id": "book-0363",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/795/9782921180795.jpg",
+      "title": "Éléments de mathématiques appliquées : séries, EDP, transformées de Laplace et de Fourier"
+    }
+  },
+  "cover_count": 62,
+  "match_method": "exact_isbn",
+  "misses": [
+    {
+      "id": "book-0006",
+      "isbn": "9780039295516",
+      "title": "Mathématiques de l'intérêt"
+    },
+    {
+      "id": "book-0301",
+      "isbn": "9780133633900",
+      "title": "Graphs, Models, and Finite Mathematics"
+    },
+    {
+      "id": "book-0046",
+      "isbn": "9780774668019",
+      "title": "Calcul vectoriel et linéaire"
+    },
+    {
+      "id": "book-0418",
+      "isbn": "9780805308518",
+      "title": "A problem solving approach to mathematics for elementary school teachers"
+    },
+    {
+      "id": "book-0196",
+      "isbn": "9780898712841",
+      "title": "Automatic Differentiation of Algorithms: Theory, Implementation, and Application (Siam Proceedings Series)"
+    },
+    {
+      "id": "book-0444",
+      "isbn": "9781942911142",
+      "title": "Torbeck's Statistical Cookbook for Scientists and Engineers"
+    },
+    {
+      "id": "book-0084",
+      "isbn": "9782030754665",
+      "title": "Dictionnaire des mathématiques modernes"
+    },
+    {
+      "id": "book-0193",
+      "isbn": "9782130314363",
+      "title": "Topologie des surfaces, 1ère édition (MATHEMATICIEN (LE))"
+    },
+    {
+      "id": "book-0143",
+      "isbn": "9782130353911",
+      "title": "Les Équilibres en physique"
+    },
+    {
+      "id": "book-0237",
+      "isbn": "9782130365327",
+      "title": "Probabilites (les)"
+    },
+    {
+      "id": "book-0064",
+      "isbn": "9782130366027",
+      "title": "L'ALGEBRE LINEAIRE QSJ 1251 (QUE SAIS-JE ?)"
+    },
+    {
+      "id": "book-0282",
+      "isbn": "9782200210410",
+      "title": "Mathématiques : analyse"
+    },
+    {
+      "id": "book-0031",
+      "isbn": "9782704210046",
+      "title": "Distributions et transformation de Fourier : à l'usage des physiciens et des ingénieurs"
+    },
+    {
+      "id": "book-0136",
+      "isbn": "9782711720279",
+      "title": "Noveau cours de mathematiques - Tome 2: Polynomes et Algebre lineaire"
+    },
+    {
+      "id": "book-0101",
+      "isbn": "9782733805855",
+      "title": "Physique et chimie"
+    },
+    {
+      "id": "book-0112",
+      "isbn": "9782743008260",
+      "title": "Mathématiques, MPSI - 1re année"
+    },
+    {
+      "id": "book-0385",
+      "isbn": "9782761300391",
+      "title": "Ondes, optique et physique moderne"
+    },
+    {
+      "id": "book-0387",
+      "isbn": "9782761300391",
+      "title": "Ondes, optique et physique moderne"
+    },
+    {
+      "id": "book-0082",
+      "isbn": "9782763773636",
+      "title": "Introduction à l'analyse"
+    },
+    {
+      "id": "book-0287",
+      "isbn": "9782765107552",
+      "title": "Fondements de la comptabilité financière"
+    },
+    {
+      "id": "book-0019",
+      "isbn": "9782766157426",
+      "title": "Calcul intégral"
+    },
+    {
+      "id": "book-0446",
+      "isbn": "9782815202374",
+      "title": "Mathematiques, Espionnage Et Piratage Informatique - Codage Et Cryptographie"
+    },
+    {
+      "id": "book-0192",
+      "isbn": "9782815202381",
+      "title": "Les nombres premiers : Un long chemin vers l'infini"
+    },
+    {
+      "id": "book-0186",
+      "isbn": "9782815202398",
+      "title": "Le monde est mathématique Quand les droites deviennent courbes Les géométries non- euclidiennes"
+    },
+    {
+      "id": "book-0137",
+      "isbn": "9782870770658",
+      "title": "Notions de logique formelle"
+    },
+    {
+      "id": "book-0175",
+      "isbn": "9782890943377",
+      "title": "Probabilités et statistiques avec applications en technologie et ingénierie (1Cédérom)"
+    },
+    {
+      "id": "book-0032",
+      "isbn": "9782892496017",
+      "title": "Maths 103"
+    },
+    {
+      "id": "book-0030",
+      "isbn": "9782894714270",
+      "title": "Cette Science Qui Ne Cesse de Nous Etonner"
+    },
+    {
+      "id": "book-0354",
+      "isbn": "9782920210257",
+      "title": "Calcul: Théorie, exemples, problèmes"
+    },
+    {
+      "id": "book-0318",
+      "isbn": "9782921120364",
+      "title": "Fonctions De Plusieurs Variables"
+    },
+    {
+      "id": "book-0364",
+      "isbn": "9782923565071",
+      "title": "Éléments de mathématiques appliquées à la physique"
+    },
+    {
+      "id": "book-0256",
+      "isbn": "9782957239115",
+      "title": "MATHÉMATIQUES: leur contenu, leurs méthodes, leur signification (Mathématiques, par Alexandrov, Kolmogorov et Lavrentiev) (French Edition)"
+    },
+    {
+      "id": "book-0257",
+      "isbn": "9782957239122",
+      "title": "MATHÉMATIQUES: leur contenu, leurs méthodes, leur signification (Mathématiques, par Alexandrov, Kolmogorov et Lavrentiev) (French Edition)"
+    },
+    {
+      "id": "book-0255",
+      "isbn": "9782957239139",
+      "title": "MATHEMATIQUES: leur contenu, leurs méthodes, leur signification (Mathématiques, par Alexandrov, Kolmogorov et Lavrentiev) (French Edition)"
+    },
+    {
+      "id": "book-0158",
+      "isbn": "9783540908999",
+      "title": "Von Mises Calculus For Statistical Functionals"
+    },
+    {
+      "id": "book-0297",
+      "isbn": "9785030007175",
+      "title": "Précis d'analyse fonctionnelle"
+    },
+    {
+      "id": "book-0308",
+      "isbn": "9786001417351",
+      "title": "Introduction to Linear Algebra"
+    },
+    {
+      "id": "book-0093",
+      "isbn": "9791097085261",
+      "title": "Le Frido 2021"
+    },
+    {
+      "id": "book-0094",
+      "isbn": "9791097085278",
+      "title": "Le Frido 2021"
+    },
+    {
+      "id": "book-0091",
+      "isbn": "9791097085285",
+      "title": "Le Frido 2021"
+    },
+    {
+      "id": "book-0092",
+      "isbn": "9791097085292",
+      "title": "Le Frido 2021"
+    },
+    {
+      "id": "book-0430",
+      "isbn": "9798811583607",
+      "title": "The StatQuest Illustrated Guide To Machine Learning"
+    },
+    {
+      "id": "book-0335",
+      "isbn": "9798991493604",
+      "title": "A Study of Riemann's Zeta Function"
+    }
+  ],
+  "provider": "LaLibrairie.com",
+  "requested_isbn_count": 105,
+  "retrieved_on": "2026-07-14"
+}

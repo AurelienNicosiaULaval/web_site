@@ -31,6 +31,8 @@ DEFAULT_DIRECT_COVER_CACHE = ROOT / "data/library/openlibrary-direct-cover-cache
 DEFAULT_OPENLIBRARY_COVER_SEARCH = ROOT / "data/library/openlibrary-cover-search-cache.json"
 DEFAULT_GOOGLE_COVER_CACHE = ROOT / "data/library/google-books-cover-cache.json"
 DEFAULT_ELLIPSES_COVER_CACHE = ROOT / "data/library/ellipses-cover-cache.json"
+DEFAULT_DUNOD_COVER_CACHE = ROOT / "data/library/dunod-cover-cache.json"
+DEFAULT_LALIBRAIRIE_COVER_CACHE = ROOT / "data/library/lalibrairie-cover-cache.json"
 DEFAULT_CURATION = ROOT / "data/library/library-curation.json"
 DEFAULT_OUTPUT = ROOT / "assets/library/library-data.json"
 DEFAULT_REPORT = ROOT / "data/library/library-quality-report.json"
@@ -438,6 +440,16 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_ELLIPSES_COVER_CACHE,
     )
+    parser.add_argument(
+        "--dunod-cover-cache",
+        type=Path,
+        default=DEFAULT_DUNOD_COVER_CACHE,
+    )
+    parser.add_argument(
+        "--lalibrairie-cover-cache",
+        type=Path,
+        default=DEFAULT_LALIBRAIRIE_COVER_CACHE,
+    )
     parser.add_argument("--curation", type=Path, default=DEFAULT_CURATION)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--report", type=Path, default=DEFAULT_REPORT)
@@ -455,9 +467,18 @@ def main() -> None:
         read_json(args.ellipses_cover_cache)
         if args.ellipses_cover_cache.exists() else {"books": {}}
     )
+    dunod_cover_cache = (
+        read_json(args.dunod_cover_cache)
+        if args.dunod_cover_cache.exists() else {"books": {}}
+    )
+    lalibrairie_cover_cache = (
+        read_json(args.lalibrairie_cover_cache)
+        if args.lalibrairie_cover_cache.exists() else {"books": {}}
+    )
     curation = read_json(args.curation)
     records = copy.deepcopy(raw_payload["records"])
     curated_on = str(curation.get("curated_on") or date.today().isoformat())
+    applied = apply_overrides(records, curation)
 
     openlibrary_matches = 0
     openlibrary_fills: Counter[str] = Counter()
@@ -541,10 +562,31 @@ def main() -> None:
                 source_url=ellipses_cover.get("source_url", ""),
                 images=ellipses_cover.get("cover", {}),
             )
+
+        dunod_cover = dunod_cover_cache.get("books", {}).get(isbn)
+        if not record.get("cover") and dunod_cover:
+            record["cover"] = cover_summary(
+                provider="Dunod",
+                source_id="dunod_official",
+                retrieved_on=dunod_cover_cache.get("retrieved_on", curated_on),
+                match_method="exact_isbn",
+                source_url=dunod_cover.get("source_url", ""),
+                images=dunod_cover.get("cover", {}),
+            )
+
+        lalibrairie_cover = lalibrairie_cover_cache.get("books", {}).get(isbn)
+        if not record.get("cover") and lalibrairie_cover:
+            record["cover"] = cover_summary(
+                provider="LaLibrairie.com",
+                source_id="lalibrairie_exact",
+                retrieved_on=lalibrairie_cover_cache.get("retrieved_on", curated_on),
+                match_method="exact_isbn",
+                source_url=lalibrairie_cover.get("source_url", ""),
+                images=lalibrairie_cover.get("cover", {}),
+            )
         if not provenance:
             record.pop("data_provenance", None)
 
-    applied = apply_overrides(records, curation)
     classify_records(records)
 
     payload = {
@@ -558,6 +600,8 @@ def main() -> None:
             "openlibrary_cover_search_snapshot": str(args.openlibrary_cover_search.relative_to(ROOT)),
             "google_books_cover_snapshot": str(args.google_cover_cache.relative_to(ROOT)),
             "ellipses_cover_snapshot": str(args.ellipses_cover_cache.relative_to(ROOT)),
+            "dunod_cover_snapshot": str(args.dunod_cover_cache.relative_to(ROOT)),
+            "lalibrairie_cover_snapshot": str(args.lalibrairie_cover_cache.relative_to(ROOT)),
             "manual_override_count": len(applied),
             "policy": curation["policy"],
             "sources": curation["sources"],

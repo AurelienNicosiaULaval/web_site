@@ -1,24 +1,16 @@
 {
   "source": {
-    "name": "pdf_book_2026-07-13_21-08-03.pdf",
+    "name": "pdf_book_2026-07-14_17-55-30.pdf",
     "format": "CLZ Books PDF export",
-    "pages": 33
+    "pages": 41,
+    "previous_catalogue": "pdf_book_2026-07-13_21-08-03.pdf",
+    "reconciliation": {
+      "retained": 466,
+      "added": 94,
+      "removed": 1
+    }
   },
   "records": [
-    {
-      "author": "",
-      "title": "",
-      "isbn": "9782868839312",
-      "publisher": "",
-      "publication_date": "",
-      "genre": "",
-      "publication_year": "",
-      "series": "",
-      "source_pages": [
-        1
-      ],
-      "id": "book-0001"
-    },
     {
       "author": "",
       "title": "college algebra",
@@ -244,6 +236,34 @@
       "id": "book-0017"
     },
     {
+      "author": "Serge Alalouf | Denis Labelle",
+      "title": "Introduction à la statistique appliquée",
+      "isbn": "9780201507409",
+      "publisher": "Addison-Wesley",
+      "publication_date": "Jan 1990",
+      "genre": "",
+      "publication_year": "1990",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0468"
+    },
+    {
+      "author": "Jacques Allard",
+      "title": "Concepts fondamentaux de la statistique",
+      "isbn": "9780201564488",
+      "publisher": "Addison-Wesley Longman, Incorporated",
+      "publication_date": "Jan 1992",
+      "genre": "",
+      "publication_year": "1992",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0469"
+    },
+    {
       "author": "Linda J.S. Allen",
       "title": "An Introduction to Stochastic Processes with Biology Applications",
       "isbn": "9780130352187",
@@ -253,7 +273,8 @@
       "publication_year": "2003",
       "series": "",
       "source_pages": [
-        1
+        1,
+        2
       ],
       "id": "book-0018"
     },
@@ -267,9 +288,23 @@
       "publication_year": "2025",
       "series": "",
       "source_pages": [
-        1
+        2
       ],
       "id": "book-0019"
+    },
+    {
+      "author": "Luc Amyotte | Carole Côté | Josée Hamel",
+      "title": "Introduction à l'algèbre linéaire et à ses applications",
+      "isbn": "9782761392471",
+      "publisher": "Éditions du renouveau pédagogique",
+      "publication_date": "2015",
+      "genre": "",
+      "publication_year": "2015",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0470"
     },
     {
       "author": "Alan J.B. Anderson",
@@ -281,9 +316,23 @@
       "publication_year": "1989",
       "series": "",
       "source_pages": [
-        1
+        2
       ],
       "id": "book-0020"
+    },
+    {
+      "author": "David Ray Anderson | Dennis J. Sweeney | Thomas Arthur Williams",
+      "title": "Introduction to Statistics: Concepts and Applications",
+      "isbn": "9780314028136",
+      "publisher": "West Group",
+      "publication_date": "1994",
+      "genre": "",
+      "publication_year": "1994",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0471"
     },
     {
       "author": "Theodore Wilbur Anderson",
@@ -295,7 +344,6 @@
       "publication_year": "1971",
       "series": "",
       "source_pages": [
-        1,
         2
       ],
       "id": "book-0021"
@@ -327,6 +375,20 @@
         2
       ],
       "id": "book-0023"
+    },
+    {
+      "author": "Howard Anton",
+      "title": "Elementary Linear Algebra",
+      "isbn": "9780471053385",
+      "publisher": "Wiley",
+      "publication_date": "Jan 08, 1981",
+      "genre": "",
+      "publication_year": "1981",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0472"
     },
     {
       "author": "B. Apanasov",
@@ -399,6 +461,20 @@
       "id": "book-0028"
     },
     {
+      "author": "Bernard Aubry",
+      "title": "La loi dans \"Antigone\" de Sophocle La recherche du bonheur dans \"Lucien Leuwen\" de Stendhal",
+      "isbn": "9782729810030",
+      "publisher": "Éditions Marketing",
+      "publication_date": "Nov 15, 1977",
+      "genre": "",
+      "publication_year": "1977",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0473"
+    },
+    {
       "author": "Unknown Author",
       "title": "A Celebration of Statistics: The ISI Centenary Volume. A Volume to Celebrate the Founding of the International Statistical Institute in 1885",
       "isbn": "9783540961116",
@@ -450,9 +526,23 @@
       "publication_year": "1996",
       "series": "",
       "source_pages": [
-        2
+        3
       ],
       "id": "book-0032"
+    },
+    {
+      "author": "Gérald Baillargeon",
+      "title": "Introduction à l'inférence statistique : méthodes d'échantillonnage, estimation, tests d'hypothèses, corrélation linéaire, droite de régression et test du khi-deux avec applications diverses",
+      "isbn": "9782890940130",
+      "publisher": "Les Editions SMG",
+      "publication_date": "1982",
+      "genre": "",
+      "publication_year": "1982",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0474"
     },
     {
       "author": "Gang Bao | Lawrence Cowsar | Wen Masters",
@@ -464,7 +554,7 @@
       "publication_year": "1987",
       "series": "",
       "source_pages": [
-        2
+        3
       ],
       "id": "book-0033"
     },
@@ -478,7 +568,7 @@
       "publication_year": "2007",
       "series": "",
       "source_pages": [
-        2
+        3
       ],
       "id": "book-0034"
     },
@@ -492,7 +582,7 @@
       "publication_year": "1995",
       "series": "",
       "source_pages": [
-        2
+        3
       ],
       "id": "book-0035"
     },
@@ -506,7 +596,7 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        2
+        3
       ],
       "id": "book-0036"
     },
@@ -520,7 +610,7 @@
       "publication_year": "1988",
       "series": "",
       "source_pages": [
-        2
+        3
       ],
       "id": "book-0037"
     },
@@ -534,7 +624,6 @@
       "publication_year": "1971",
       "series": "",
       "source_pages": [
-        2,
         3
       ],
       "id": "book-0038"
@@ -661,12 +750,12 @@
       "publication_year": "1977",
       "series": "",
       "source_pages": [
-        3
+        4
       ],
       "id": "book-0047"
     },
     {
-      "author": "Gérard Beaudry | Auréa Sabourin | Roger Levasseur | M.-Joseph Demers",
+      "author": "Gérard Beaudry | Auréa Sabourin | Roger Levasseur | M.- Joseph Demers",
       "title": "Le Calcul Vivant",
       "isbn": "",
       "publisher": "Éditions Centre de Psychologie et de Pédagogie",
@@ -675,7 +764,7 @@
       "publication_year": "1950",
       "series": "",
       "source_pages": [
-        3
+        4
       ],
       "id": "book-0048"
     },
@@ -689,7 +778,7 @@
       "publication_year": "2005",
       "series": "",
       "source_pages": [
-        3
+        4
       ],
       "id": "book-0049"
     },
@@ -703,7 +792,7 @@
       "publication_year": "1964",
       "series": "",
       "source_pages": [
-        3
+        4
       ],
       "id": "book-0050"
     },
@@ -717,9 +806,23 @@
       "publication_year": "1975",
       "series": "",
       "source_pages": [
-        3
+        4
       ],
       "id": "book-0051"
+    },
+    {
+      "author": "Jean-Pierre Belisle | Jean-Pierre Bélisle | Jacques Desrosiers",
+      "title": "Introduction à la statistique",
+      "isbn": "9782891051125",
+      "publisher": "G. Morin",
+      "publication_date": "1983",
+      "genre": "",
+      "publication_year": "1983",
+      "series": "",
+      "source_pages": [
+        4
+      ],
+      "id": "book-0475"
     },
     {
       "author": "Grégory Berhuy",
@@ -731,7 +834,7 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        3
+        4
       ],
       "id": "book-0052"
     },
@@ -745,9 +848,23 @@
       "publication_year": "2005",
       "series": "",
       "source_pages": [
-        3
+        4
       ],
       "id": "book-0053"
+    },
+    {
+      "author": "Donald A. Berry | Bernard W. Lindgren",
+      "title": "Statistics: Theory and Methods",
+      "isbn": "9780534099428",
+      "publisher": "Brooks/Cole Pub Co",
+      "publication_date": "Mar 14, 1990",
+      "genre": "",
+      "publication_year": "1990",
+      "series": "",
+      "source_pages": [
+        4
+      ],
+      "id": "book-0476"
     },
     {
       "author": "Florent Berthelin",
@@ -759,9 +876,23 @@
       "publication_year": "2017",
       "series": "",
       "source_pages": [
-        3
+        4
       ],
       "id": "book-0054"
+    },
+    {
+      "author": "Françoise Bertrandias | Jean-Paul Bertrandias",
+      "title": "Mathématiques pour les sciences de la nature et de la vie",
+      "isbn": "9782706103674",
+      "publisher": "Presses universitaires de Grenoble",
+      "publication_date": "1990",
+      "genre": "",
+      "publication_year": "1990",
+      "series": "",
+      "source_pages": [
+        4
+      ],
+      "id": "book-0477"
     },
     {
       "author": "Albrecht Beutelspacher",
@@ -806,6 +937,20 @@
       "id": "book-0057"
     },
     {
+      "author": "Bisson;Lebacque;Oyon",
+      "title": "PUBLICATIONS MATHEMATIQUES DE BESANCON. ALGEBRE ET THEORIE DES NOMBRES, NUMERO 2024",
+      "isbn": "9782385491123",
+      "publisher": "PUFC",
+      "publication_date": "Oct 31, 2024",
+      "genre": "",
+      "publication_year": "2024",
+      "series": "",
+      "source_pages": [
+        5
+      ],
+      "id": "book-0478"
+    },
+    {
       "author": "Harald Bohr",
       "title": "Almost Periodic Functions",
       "isbn": "",
@@ -815,7 +960,7 @@
       "publication_year": "1947",
       "series": "",
       "source_pages": [
-        4
+        5
       ],
       "id": "book-0058"
     },
@@ -829,7 +974,7 @@
       "publication_year": "1969",
       "series": "",
       "source_pages": [
-        4
+        5
       ],
       "id": "book-0059"
     },
@@ -843,7 +988,7 @@
       "publication_year": "2016",
       "series": "",
       "source_pages": [
-        4
+        5
       ],
       "id": "book-0060"
     },
@@ -857,7 +1002,7 @@
       "publication_year": "1959",
       "series": "",
       "source_pages": [
-        4
+        5
       ],
       "id": "book-0061"
     },
@@ -871,7 +1016,7 @@
       "publication_year": "2006",
       "series": "",
       "source_pages": [
-        4
+        5
       ],
       "id": "book-0062"
     },
@@ -885,7 +1030,7 @@
       "publication_year": "1968",
       "series": "",
       "source_pages": [
-        4
+        5
       ],
       "id": "book-0063"
     },
@@ -899,7 +1044,7 @@
       "publication_year": "1980",
       "series": "",
       "source_pages": [
-        4
+        5
       ],
       "id": "book-0064"
     },
@@ -913,7 +1058,6 @@
       "publication_year": "2025",
       "series": "",
       "source_pages": [
-        4,
         5
       ],
       "id": "book-0065"
@@ -931,6 +1075,20 @@
         5
       ],
       "id": "book-0066"
+    },
+    {
+      "author": "William E. Boyce",
+      "title": "Équations différentielles",
+      "isbn": "9782894617151",
+      "publisher": "Chenelière/ McGraw-Hill",
+      "publication_date": "Oct 04, 2002",
+      "genre": "",
+      "publication_year": "2002",
+      "series": "",
+      "source_pages": [
+        5
+      ],
+      "id": "book-0479"
     },
     {
       "author": "Martin Braun",
@@ -970,7 +1128,7 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        5
+        6
       ],
       "id": "book-0069"
     },
@@ -984,7 +1142,7 @@
       "publication_year": "2010",
       "series": "",
       "source_pages": [
-        5
+        6
       ],
       "id": "book-0070"
     },
@@ -998,7 +1156,7 @@
       "publication_year": "2024",
       "series": "",
       "source_pages": [
-        5
+        6
       ],
       "id": "book-0071"
     },
@@ -1012,7 +1170,7 @@
       "publication_year": "2017",
       "series": "",
       "source_pages": [
-        5
+        6
       ],
       "id": "book-0072"
     },
@@ -1026,7 +1184,7 @@
       "publication_year": "2018",
       "series": "",
       "source_pages": [
-        5
+        6
       ],
       "id": "book-0073"
     },
@@ -1040,7 +1198,7 @@
       "publication_year": "2022",
       "series": "",
       "source_pages": [
-        5
+        6
       ],
       "id": "book-0074"
     },
@@ -1054,7 +1212,7 @@
       "publication_year": "1999",
       "series": "",
       "source_pages": [
-        5
+        6
       ],
       "id": "book-0075"
     },
@@ -1096,7 +1254,7 @@
       "publication_year": "2007",
       "series": "",
       "source_pages": [
-        6
+        7
       ],
       "id": "book-0078"
     },
@@ -1110,7 +1268,7 @@
       "publication_year": "2008",
       "series": "",
       "source_pages": [
-        6
+        7
       ],
       "id": "book-0079"
     },
@@ -1124,7 +1282,7 @@
       "publication_year": "1995",
       "series": "",
       "source_pages": [
-        6
+        7
       ],
       "id": "book-0080"
     },
@@ -1138,9 +1296,23 @@
       "publication_year": "1967",
       "series": "",
       "source_pages": [
-        6
+        7
       ],
       "id": "book-0081"
+    },
+    {
+      "author": "George Casella",
+      "title": "Statistical Inference",
+      "isbn": "9780495391876",
+      "publisher": "Duxbury Thomson Learning",
+      "publication_date": "Jun 07, 2002",
+      "genre": "",
+      "publication_year": "2002",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0480"
     },
     {
       "author": "Cassidy | Lavertu",
@@ -1152,7 +1324,7 @@
       "publication_year": "2000",
       "series": "",
       "source_pages": [
-        6
+        7
       ],
       "id": "book-0082"
     },
@@ -1166,7 +1338,7 @@
       "publication_year": "2021",
       "series": "",
       "source_pages": [
-        6
+        7
       ],
       "id": "book-0083"
     },
@@ -1180,9 +1352,23 @@
       "publication_year": "1969",
       "series": "",
       "source_pages": [
-        6
+        7
       ],
       "id": "book-0084"
+    },
+    {
+      "author": "Gilles Charron",
+      "title": "Algèbre linéaire et géométrie vectorielle",
+      "isbn": "9782761626927",
+      "publisher": "Beauchemin Chenelière Éducation",
+      "publication_date": "2005",
+      "genre": "",
+      "publication_year": "2005",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0481"
     },
     {
       "author": "Xavier Charvet",
@@ -1194,7 +1380,7 @@
       "publication_year": "2019",
       "series": "",
       "source_pages": [
-        6
+        7
       ],
       "id": "book-0085"
     },
@@ -1208,7 +1394,7 @@
       "publication_year": "2024",
       "series": "",
       "source_pages": [
-        6
+        7
       ],
       "id": "book-0086"
     },
@@ -1242,6 +1428,20 @@
     },
     {
       "author": "Howard B. Christensen",
+      "title": "La statistique démarche pédagogique programmée",
+      "isbn": "9782891051828",
+      "publisher": "Gaetan Morin Editeur Limitee",
+      "publication_date": "1986",
+      "genre": "",
+      "publication_year": "1986",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0482"
+    },
+    {
+      "author": "Howard B. Christensen",
       "title": "La statistique: Démarche pédagogique programmée",
       "isbn": "9782891051828",
       "publisher": "G. Morin",
@@ -1264,7 +1464,7 @@
       "publication_year": "1997",
       "series": "",
       "source_pages": [
-        7
+        8
       ],
       "id": "book-0090"
     },
@@ -1278,7 +1478,7 @@
       "publication_year": "2021",
       "series": "",
       "source_pages": [
-        7
+        8
       ],
       "id": "book-0091"
     },
@@ -1292,7 +1492,7 @@
       "publication_year": "2021",
       "series": "",
       "source_pages": [
-        7
+        8
       ],
       "id": "book-0092"
     },
@@ -1306,7 +1506,7 @@
       "publication_year": "2021",
       "series": "",
       "source_pages": [
-        7
+        8
       ],
       "id": "book-0093"
     },
@@ -1320,7 +1520,7 @@
       "publication_year": "2021",
       "series": "",
       "source_pages": [
-        7
+        8
       ],
       "id": "book-0094"
     },
@@ -1334,7 +1534,7 @@
       "publication_year": "2009",
       "series": "",
       "source_pages": [
-        7
+        8
       ],
       "id": "book-0095"
     },
@@ -1348,7 +1548,7 @@
       "publication_year": "1989",
       "series": "",
       "source_pages": [
-        7
+        8
       ],
       "id": "book-0096"
     },
@@ -1362,7 +1562,7 @@
       "publication_year": "2024",
       "series": "",
       "source_pages": [
-        7
+        8
       ],
       "id": "book-0097"
     },
@@ -1376,7 +1576,7 @@
       "publication_year": "2023",
       "series": "",
       "source_pages": [
-        7
+        8
       ],
       "id": "book-0098"
     },
@@ -1390,7 +1590,7 @@
       "publication_year": "1985",
       "series": "",
       "source_pages": [
-        7
+        8
       ],
       "id": "book-0099"
     },
@@ -1404,9 +1604,23 @@
       "publication_year": "2012",
       "series": "",
       "source_pages": [
-        7
+        8
       ],
       "id": "book-0100"
+    },
+    {
+      "author": "Collectif",
+      "title": "Les statistiques une approche nouvelle",
+      "isbn": "9780075498223",
+      "publisher": "McGraw-Hill",
+      "publication_date": "Dec 07, 1992",
+      "genre": "",
+      "publication_year": "1992",
+      "series": "",
+      "source_pages": [
+        8
+      ],
+      "id": "book-0483"
     },
     {
       "author": "Collectif",
@@ -1418,7 +1632,7 @@
       "publication_year": "2000",
       "series": "",
       "source_pages": [
-        7
+        8
       ],
       "id": "book-0101"
     },
@@ -1432,7 +1646,7 @@
       "publication_year": "2012",
       "series": "",
       "source_pages": [
-        7
+        8
       ],
       "id": "book-0102"
     },
@@ -1446,7 +1660,7 @@
       "publication_year": "2006",
       "series": "",
       "source_pages": [
-        7
+        8
       ],
       "id": "book-0103"
     },
@@ -1460,7 +1674,7 @@
       "publication_year": "1949",
       "series": "",
       "source_pages": [
-        7
+        8
       ],
       "id": "book-0104"
     },
@@ -1474,7 +1688,6 @@
       "publication_year": "1980",
       "series": "",
       "source_pages": [
-        7,
         8
       ],
       "id": "book-0105"
@@ -1503,7 +1716,7 @@
       "publication_year": "2011",
       "series": "",
       "source_pages": [
-        8
+        9
       ],
       "id": "book-0107"
     },
@@ -1517,7 +1730,7 @@
       "publication_year": "1989",
       "series": "",
       "source_pages": [
-        8
+        9
       ],
       "id": "book-0108"
     },
@@ -1531,7 +1744,7 @@
       "publication_year": "2002",
       "series": "",
       "source_pages": [
-        8
+        9
       ],
       "id": "book-0109"
     },
@@ -1545,7 +1758,7 @@
       "publication_year": "2001",
       "series": "",
       "source_pages": [
-        8
+        9
       ],
       "id": "book-0110"
     },
@@ -1559,9 +1772,23 @@
       "publication_year": "1967",
       "series": "",
       "source_pages": [
-        8
+        9
       ],
       "id": "book-0111"
+    },
+    {
+      "author": "Dan Crisan | Boris Rozovskii",
+      "title": "The Oxford Handbook of Nonlinear Filtering",
+      "isbn": "9780199532902",
+      "publisher": "OUP Oxford",
+      "publication_date": "Feb 17, 2011",
+      "genre": "",
+      "publication_year": "2011",
+      "series": "",
+      "source_pages": [
+        9
+      ],
+      "id": "book-0484"
     },
     {
       "author": "Philippe Crocy | Érick De Brauwère",
@@ -1573,7 +1800,7 @@
       "publication_year": "2005",
       "series": "",
       "source_pages": [
-        8
+        9
       ],
       "id": "book-0112"
     },
@@ -1587,7 +1814,7 @@
       "publication_year": "2016",
       "series": "",
       "source_pages": [
-        8
+        9
       ],
       "id": "book-0113"
     },
@@ -1601,12 +1828,26 @@
       "publication_year": "1994",
       "series": "",
       "source_pages": [
-        8
+        9
       ],
       "id": "book-0114"
     },
     {
-      "author": "Daryl J. Daley | David Vere- Jones | David A. Jones",
+      "author": "Pierre Dagnelie",
+      "title": "Principes d'expérimentation planification des expériences et analyse de leurs résultats",
+      "isbn": "9782870160695",
+      "publisher": "Presses Agronomiques de Gembloux",
+      "publication_date": "Nov 19, 2003",
+      "genre": "",
+      "publication_year": "2003",
+      "series": "",
+      "source_pages": [
+        9
+      ],
+      "id": "book-0485"
+    },
+    {
+      "author": "Daryl J. Daley | David Vere-Jones | David A. Jones",
       "title": "An Introduction to the Theory of Point Processes (Springer Series in Statistics)",
       "isbn": "9780387966663",
       "publisher": "Springer Verlag",
@@ -1615,7 +1856,7 @@
       "publication_year": "1988",
       "series": "",
       "source_pages": [
-        8
+        9
       ],
       "id": "book-0115"
     },
@@ -1629,7 +1870,7 @@
       "publication_year": "2016",
       "series": "",
       "source_pages": [
-        8
+        9
       ],
       "id": "book-0116"
     },
@@ -1643,7 +1884,7 @@
       "publication_year": "1998",
       "series": "",
       "source_pages": [
-        8
+        9
       ],
       "id": "book-0117"
     },
@@ -1657,7 +1898,7 @@
       "publication_year": "1887",
       "series": "",
       "source_pages": [
-        8
+        9
       ],
       "id": "book-0118"
     },
@@ -1671,7 +1912,7 @@
       "publication_year": "1960",
       "series": "",
       "source_pages": [
-        8
+        9
       ],
       "id": "book-0119"
     },
@@ -1685,7 +1926,7 @@
       "publication_year": "1975",
       "series": "",
       "source_pages": [
-        8
+        9
       ],
       "id": "book-0120"
     },
@@ -1699,8 +1940,7 @@
       "publication_year": "1989",
       "series": "",
       "source_pages": [
-        8,
-        9
+        10
       ],
       "id": "book-0121"
     },
@@ -1714,7 +1954,7 @@
       "publication_year": "1939",
       "series": "",
       "source_pages": [
-        9
+        10
       ],
       "id": "book-0122"
     },
@@ -1728,7 +1968,7 @@
       "publication_year": "1967",
       "series": "",
       "source_pages": [
-        9
+        10
       ],
       "id": "book-0123"
     },
@@ -1742,7 +1982,7 @@
       "publication_year": "2025",
       "series": "",
       "source_pages": [
-        9
+        10
       ],
       "id": "book-0124"
     },
@@ -1756,9 +1996,23 @@
       "publication_year": "1986",
       "series": "",
       "source_pages": [
-        9
+        10
       ],
       "id": "book-0125"
+    },
+    {
+      "author": "Morris H. DeGroot | Mark J. Schervish",
+      "title": "Probability and Statistics (Third Edition, 2002) ISBN: 9780201524888",
+      "isbn": "9780201524888",
+      "publisher": "Winzone Inc.",
+      "publication_date": "Oct 20, 2002",
+      "genre": "",
+      "publication_year": "2002",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0486"
     },
     {
       "author": "S. Dehaene",
@@ -1770,7 +2024,7 @@
       "publication_year": "1997",
       "series": "",
       "source_pages": [
-        9
+        10
       ],
       "id": "book-0126"
     },
@@ -1784,7 +2038,7 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        9
+        10
       ],
       "id": "book-0127"
     },
@@ -1798,7 +2052,7 @@
       "publication_year": "1957",
       "series": "",
       "source_pages": [
-        9
+        10
       ],
       "id": "book-0128"
     },
@@ -1812,9 +2066,51 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        9
+        10
       ],
       "id": "book-0129"
+    },
+    {
+      "author": "Elise Desgreniers",
+      "title": "Probabilités et statistiques - Sciences",
+      "isbn": "9782897326128",
+      "publisher": "Editions du Fleuve",
+      "publication_date": "Sep 24, 2025",
+      "genre": "",
+      "publication_year": "2025",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0487"
+    },
+    {
+      "author": "Jay L. Devore",
+      "title": "Probability and Statistics for Engineering and the Sciences",
+      "isbn": "9780534068288",
+      "publisher": "Brooks/Cole Publishing Company",
+      "publication_date": "Dec 1987",
+      "genre": "",
+      "publication_year": "1987",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0488"
+    },
+    {
+      "author": "Jay L. Devore | Roxy Peck",
+      "title": "Introductory Statistics :",
+      "isbn": "9780314027665",
+      "publisher": "Thomson Learning",
+      "publication_date": "1994",
+      "genre": "",
+      "publication_year": "1994",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0489"
     },
     {
       "author": "Sudhakar Waman Dharmadhikari",
@@ -1826,12 +2122,12 @@
       "publication_year": "1988",
       "series": "",
       "source_pages": [
-        9
+        11
       ],
       "id": "book-0130"
     },
     {
-      "author": "Gema-Maria Díaz-Toca",
+      "author": "Gema-Maria Díaz- Toca",
       "title": "Modules sur les anneaux commutatifs: Cours et exercices.",
       "isbn": "9782916352336",
       "publisher": "CALVAGE MOUNET",
@@ -1840,7 +2136,7 @@
       "publication_year": "2014",
       "series": "",
       "source_pages": [
-        9
+        11
       ],
       "id": "book-0131"
     },
@@ -1854,7 +2150,7 @@
       "publication_year": "1987",
       "series": "",
       "source_pages": [
-        10
+        11
       ],
       "id": "book-0132"
     },
@@ -1868,7 +2164,7 @@
       "publication_year": "1978",
       "series": "",
       "source_pages": [
-        10
+        11
       ],
       "id": "book-0133"
     },
@@ -1882,7 +2178,7 @@
       "publication_year": "2019",
       "series": "",
       "source_pages": [
-        10
+        11
       ],
       "id": "book-0134"
     },
@@ -1896,7 +2192,7 @@
       "publication_year": "1990",
       "series": "",
       "source_pages": [
-        10
+        11
       ],
       "id": "book-0135"
     },
@@ -1910,7 +2206,7 @@
       "publication_year": "1976",
       "series": "",
       "source_pages": [
-        10
+        11
       ],
       "id": "book-0136"
     },
@@ -1924,7 +2220,7 @@
       "publication_year": "1967",
       "series": "",
       "source_pages": [
-        10
+        11
       ],
       "id": "book-0137"
     },
@@ -1938,9 +2234,23 @@
       "publication_year": "2021",
       "series": "",
       "source_pages": [
-        10
+        11
       ],
       "id": "book-0138"
+    },
+    {
+      "author": "Jean-Jacques Droesbeke",
+      "title": "Eléments de statistique",
+      "isbn": "9782729841232",
+      "publisher": "Éditions de l'Université de Bruxelles",
+      "publication_date": "Nov 26, 1992",
+      "genre": "",
+      "publication_year": "1992",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0490"
     },
     {
       "author": "Richard M. Dudley",
@@ -1952,7 +2262,7 @@
       "publication_year": "1989",
       "series": "",
       "source_pages": [
-        10
+        11
       ],
       "id": "book-0139"
     },
@@ -1966,7 +2276,7 @@
       "publication_year": "1965",
       "series": "",
       "source_pages": [
-        10
+        11
       ],
       "id": "book-0140"
     },
@@ -1980,7 +2290,7 @@
       "publication_year": "2007",
       "series": "",
       "source_pages": [
-        10
+        11
       ],
       "id": "book-0141"
     },
@@ -1994,7 +2304,7 @@
       "publication_year": "1994",
       "series": "",
       "source_pages": [
-        10
+        12
       ],
       "id": "book-0142"
     },
@@ -2008,7 +2318,7 @@
       "publication_year": "1978",
       "series": "",
       "source_pages": [
-        10
+        12
       ],
       "id": "book-0143"
     },
@@ -2022,7 +2332,7 @@
       "publication_year": "1966",
       "series": "",
       "source_pages": [
-        10
+        12
       ],
       "id": "book-0144"
     },
@@ -2036,8 +2346,7 @@
       "publication_year": "1966",
       "series": "",
       "source_pages": [
-        10,
-        11
+        12
       ],
       "id": "book-0145"
     },
@@ -2051,7 +2360,7 @@
       "publication_year": "1966",
       "series": "",
       "source_pages": [
-        11
+        12
       ],
       "id": "book-0146"
     },
@@ -2065,7 +2374,7 @@
       "publication_year": "1966",
       "series": "",
       "source_pages": [
-        11
+        12
       ],
       "id": "book-0147"
     },
@@ -2079,7 +2388,7 @@
       "publication_year": "2025",
       "series": "",
       "source_pages": [
-        11
+        12
       ],
       "id": "book-0148"
     },
@@ -2093,7 +2402,7 @@
       "publication_year": "1964",
       "series": "",
       "source_pages": [
-        11
+        12
       ],
       "id": "book-0149"
     },
@@ -2107,7 +2416,7 @@
       "publication_year": "2015",
       "series": "",
       "source_pages": [
-        11
+        12
       ],
       "id": "book-0150"
     },
@@ -2121,7 +2430,7 @@
       "publication_year": "2017",
       "series": "",
       "source_pages": [
-        11
+        12
       ],
       "id": "book-0151"
     },
@@ -2135,7 +2444,7 @@
       "publication_year": "2001",
       "series": "",
       "source_pages": [
-        11
+        12
       ],
       "id": "book-0152"
     },
@@ -2149,7 +2458,7 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        11
+        12
       ],
       "id": "book-0153"
     },
@@ -2163,9 +2472,23 @@
       "publication_year": "1999",
       "series": "",
       "source_pages": [
-        11
+        12
       ],
       "id": "book-0154"
+    },
+    {
+      "author": "Professor Brian Everitt",
+      "title": "Cambridge Dictionary of Statistics",
+      "isbn": "9780521593465",
+      "publisher": "Cambridge University Press",
+      "publication_date": "Oct 08, 1998",
+      "genre": "",
+      "publication_year": "1998",
+      "series": "",
+      "source_pages": [
+        12
+      ],
+      "id": "book-0491"
     },
     {
       "author": "L. Fahrmeir",
@@ -2177,7 +2500,7 @@
       "publication_year": "1994",
       "series": "",
       "source_pages": [
-        11
+        13
       ],
       "id": "book-0155"
     },
@@ -2191,7 +2514,7 @@
       "publication_year": "1984",
       "series": "",
       "source_pages": [
-        11
+        13
       ],
       "id": "book-0156"
     },
@@ -2205,7 +2528,7 @@
       "publication_year": "2000",
       "series": "",
       "source_pages": [
-        11
+        13
       ],
       "id": "book-0157"
     },
@@ -2219,7 +2542,7 @@
       "publication_year": "1983",
       "series": "",
       "source_pages": [
-        11
+        13
       ],
       "id": "book-0158"
     },
@@ -2233,7 +2556,7 @@
       "publication_year": "1992",
       "series": "",
       "source_pages": [
-        11
+        13
       ],
       "id": "book-0159"
     },
@@ -2247,7 +2570,7 @@
       "publication_year": "1990",
       "series": "",
       "source_pages": [
-        11
+        13
       ],
       "id": "book-0160"
     },
@@ -2261,8 +2584,7 @@
       "publication_year": "1984",
       "series": "",
       "source_pages": [
-        11,
-        12
+        13
       ],
       "id": "book-0161"
     },
@@ -2276,7 +2598,7 @@
       "publication_year": "1963",
       "series": "",
       "source_pages": [
-        12
+        13
       ],
       "id": "book-0162"
     },
@@ -2290,9 +2612,37 @@
       "publication_year": "1963",
       "series": "",
       "source_pages": [
-        12
+        13
       ],
       "id": "book-0163"
+    },
+    {
+      "author": "André Fortin",
+      "title": "Analyse numérique pour ingénieurs",
+      "isbn": "9782553016806",
+      "publisher": "Presses internationales Polytechnique",
+      "publication_date": "2015",
+      "genre": "",
+      "publication_year": "2015",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0492"
+    },
+    {
+      "author": "Sylvie Fortin | Guillaume Poliquin",
+      "title": "Calcul intégral",
+      "isbn": "9782765062479",
+      "publisher": "Chenelière Education",
+      "publication_date": "Jan 24, 2025",
+      "genre": "",
+      "publication_year": "2025",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0493"
     },
     {
       "author": "John B. Fraleigh | Raymond A. Beauregard",
@@ -2304,7 +2654,7 @@
       "publication_year": "1994",
       "series": "",
       "source_pages": [
-        12
+        13
       ],
       "id": "book-0164"
     },
@@ -2318,7 +2668,7 @@
       "publication_year": "1999",
       "series": "",
       "source_pages": [
-        12
+        13
       ],
       "id": "book-0165"
     },
@@ -2332,9 +2682,23 @@
       "publication_year": "2015",
       "series": "",
       "source_pages": [
-        12
+        13
       ],
       "id": "book-0166"
+    },
+    {
+      "author": "David Freedman | Robert Pisani | Roger Purves",
+      "title": "Statistics",
+      "isbn": "9780393090765",
+      "publisher": "W.W. Norton",
+      "publication_date": "1980",
+      "genre": "",
+      "publication_year": "1980",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0494"
     },
     {
       "author": "Les frères des ecoles chretiennes",
@@ -2346,7 +2710,7 @@
       "publication_year": "1898",
       "series": "",
       "source_pages": [
-        12
+        14
       ],
       "id": "book-0167"
     },
@@ -2360,7 +2724,7 @@
       "publication_year": "1975",
       "series": "",
       "source_pages": [
-        12
+        14
       ],
       "id": "book-0168"
     },
@@ -2374,7 +2738,7 @@
       "publication_year": "1964",
       "series": "",
       "source_pages": [
-        12
+        14
       ],
       "id": "book-0169"
     },
@@ -2388,7 +2752,7 @@
       "publication_year": "1965",
       "series": "",
       "source_pages": [
-        12
+        14
       ],
       "id": "book-0170"
     },
@@ -2402,7 +2766,7 @@
       "publication_year": "1999",
       "series": "",
       "source_pages": [
-        12
+        14
       ],
       "id": "book-0171"
     },
@@ -2416,7 +2780,7 @@
       "publication_year": "1994",
       "series": "",
       "source_pages": [
-        12
+        14
       ],
       "id": "book-0172"
     },
@@ -2430,7 +2794,7 @@
       "publication_year": "2006",
       "series": "",
       "source_pages": [
-        12
+        14
       ],
       "id": "book-0173"
     },
@@ -2444,7 +2808,7 @@
       "publication_year": "2006",
       "series": "",
       "source_pages": [
-        12
+        14
       ],
       "id": "book-0174"
     },
@@ -2458,7 +2822,7 @@
       "publication_year": "2017",
       "series": "",
       "source_pages": [
-        12
+        14
       ],
       "id": "book-0175"
     },
@@ -2472,7 +2836,7 @@
       "publication_year": "1983",
       "series": "",
       "source_pages": [
-        12
+        14
       ],
       "id": "book-0176"
     },
@@ -2486,9 +2850,23 @@
       "publication_year": "2000",
       "series": "",
       "source_pages": [
-        13
+        14
       ],
       "id": "book-0177"
+    },
+    {
+      "author": "Saeed Ghahramani",
+      "title": "Fundamentals of Probability",
+      "isbn": "9780130113290",
+      "publisher": "Prentice Hall",
+      "publication_date": "Sep 02, 2000",
+      "genre": "",
+      "publication_year": "2000",
+      "series": "",
+      "source_pages": [
+        14
+      ],
+      "id": "book-0495"
     },
     {
       "author": "Malay Ghosh | Glen Meeden",
@@ -2500,7 +2878,7 @@
       "publication_year": "1998",
       "series": "",
       "source_pages": [
-        13
+        14
       ],
       "id": "book-0178"
     },
@@ -2514,7 +2892,7 @@
       "publication_year": "2003",
       "series": "",
       "source_pages": [
-        13
+        14
       ],
       "id": "book-0179"
     },
@@ -2528,7 +2906,7 @@
       "publication_year": "1967",
       "series": "",
       "source_pages": [
-        13
+        15
       ],
       "id": "book-0180"
     },
@@ -2542,7 +2920,7 @@
       "publication_year": "2015",
       "series": "",
       "source_pages": [
-        13
+        15
       ],
       "id": "book-0181"
     },
@@ -2556,7 +2934,7 @@
       "publication_year": "2015",
       "series": "",
       "source_pages": [
-        13
+        15
       ],
       "id": "book-0182"
     },
@@ -2570,7 +2948,7 @@
       "publication_year": "2012",
       "series": "",
       "source_pages": [
-        13
+        15
       ],
       "id": "book-0183"
     },
@@ -2584,7 +2962,7 @@
       "publication_year": "1971",
       "series": "",
       "source_pages": [
-        13
+        15
       ],
       "id": "book-0184"
     },
@@ -2598,7 +2976,7 @@
       "publication_year": "1969",
       "series": "",
       "source_pages": [
-        13
+        15
       ],
       "id": "book-0185"
     },
@@ -2612,7 +2990,7 @@
       "publication_year": "2011",
       "series": "",
       "source_pages": [
-        13
+        15
       ],
       "id": "book-0186"
     },
@@ -2626,7 +3004,7 @@
       "publication_year": "1968",
       "series": "",
       "source_pages": [
-        13
+        15
       ],
       "id": "book-0187"
     },
@@ -2640,7 +3018,7 @@
       "publication_year": "1984",
       "series": "",
       "source_pages": [
-        13
+        15
       ],
       "id": "book-0188"
     },
@@ -2654,7 +3032,7 @@
       "publication_year": "2021",
       "series": "",
       "source_pages": [
-        13
+        15
       ],
       "id": "book-0189"
     },
@@ -2668,7 +3046,7 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        13
+        15
       ],
       "id": "book-0190"
     },
@@ -2682,7 +3060,7 @@
       "publication_year": "2009",
       "series": "",
       "source_pages": [
-        13
+        15
       ],
       "id": "book-0191"
     },
@@ -2696,7 +3074,7 @@
       "publication_year": "2011",
       "series": "",
       "source_pages": [
-        13
+        15
       ],
       "id": "book-0192"
     },
@@ -2710,7 +3088,7 @@
       "publication_year": "1971",
       "series": "",
       "source_pages": [
-        14
+        15
       ],
       "id": "book-0193"
     },
@@ -2724,7 +3102,7 @@
       "publication_year": "1981",
       "series": "",
       "source_pages": [
-        14
+        15
       ],
       "id": "book-0194"
     },
@@ -2738,7 +3116,7 @@
       "publication_year": "2008",
       "series": "",
       "source_pages": [
-        14
+        15
       ],
       "id": "book-0195"
     },
@@ -2752,7 +3130,8 @@
       "publication_year": "1992",
       "series": "",
       "source_pages": [
-        14
+        15,
+        16
       ],
       "id": "book-0196"
     },
@@ -2766,7 +3145,7 @@
       "publication_year": "1965",
       "series": "",
       "source_pages": [
-        14
+        16
       ],
       "id": "book-0197"
     },
@@ -2780,7 +3159,7 @@
       "publication_year": "2022",
       "series": "",
       "source_pages": [
-        14
+        16
       ],
       "id": "book-0198"
     },
@@ -2794,7 +3173,7 @@
       "publication_year": "1989",
       "series": "",
       "source_pages": [
-        14
+        16
       ],
       "id": "book-0199"
     },
@@ -2808,7 +3187,7 @@
       "publication_year": "1977",
       "series": "",
       "source_pages": [
-        14
+        16
       ],
       "id": "book-0200"
     },
@@ -2822,7 +3201,7 @@
       "publication_year": "2008",
       "series": "",
       "source_pages": [
-        14
+        16
       ],
       "id": "book-0201"
     },
@@ -2836,9 +3215,37 @@
       "publication_year": "2013",
       "series": "",
       "source_pages": [
-        14
+        16
       ],
       "id": "book-0202"
+    },
+    {
+      "author": "Shelby J. Haberman",
+      "title": "Analysis of Qualitative Data: New developments",
+      "isbn": "9780123125019",
+      "publisher": "Academic Press",
+      "publication_date": "Dec 1978",
+      "genre": "",
+      "publication_year": "1978",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0496"
+    },
+    {
+      "author": "Shelby J. Haberman",
+      "title": "Analysis of Qualitative Data: New Developments (Volume 2)",
+      "isbn": "9780123125026",
+      "publisher": "Academic Press",
+      "publication_date": "Nov 11, 1979",
+      "genre": "",
+      "publication_year": "1979",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0497"
     },
     {
       "author": "Wickham Hadley",
@@ -2850,7 +3257,7 @@
       "publication_year": "2016",
       "series": "",
       "source_pages": [
-        14
+        16
       ],
       "id": "book-0203"
     },
@@ -2864,7 +3271,7 @@
       "publication_year": "1962",
       "series": "",
       "source_pages": [
-        14
+        16
       ],
       "id": "book-0204"
     },
@@ -2878,7 +3285,7 @@
       "publication_year": "1936",
       "series": "",
       "source_pages": [
-        15
+        17
       ],
       "id": "book-0205"
     },
@@ -2892,9 +3299,23 @@
       "publication_year": "1967",
       "series": "",
       "source_pages": [
-        15
+        17
       ],
       "id": "book-0206"
+    },
+    {
+      "author": "Josée Hamel | Luc Amyotte",
+      "title": "Calcul différentiel",
+      "isbn": "9782761354875",
+      "publisher": "ERPI Editions du Renouveau Pédagogique",
+      "publication_date": "2014",
+      "genre": "",
+      "publication_year": "2014",
+      "series": "",
+      "source_pages": [
+        17
+      ],
+      "id": "book-0498"
     },
     {
       "author": "Cramér, Harald,",
@@ -2906,7 +3327,7 @@
       "publication_year": "1967",
       "series": "",
       "source_pages": [
-        15
+        17
       ],
       "id": "book-0207"
     },
@@ -2920,9 +3341,23 @@
       "publication_year": "2002",
       "series": "",
       "source_pages": [
-        15
+        17
       ],
       "id": "book-0208"
+    },
+    {
+      "author": "Donald L. Harnett | Ken MacKenzie | James Jerome Murphy",
+      "title": "Statistical Analysis for Business and Economics",
+      "isbn": "9780201601787",
+      "publisher": "Addison-Wesley Longman, Limited",
+      "publication_date": "Dec 31, 1993",
+      "genre": "",
+      "publication_year": "1993",
+      "series": "",
+      "source_pages": [
+        17
+      ],
+      "id": "book-0499"
     },
     {
       "author": "Bernard Harris",
@@ -2934,7 +3369,7 @@
       "publication_year": "1966",
       "series": "Addison- Wesley Series in Statistics",
       "source_pages": [
-        15
+        17
       ],
       "id": "book-0209"
     },
@@ -2948,7 +3383,7 @@
       "publication_year": "1970",
       "series": "",
       "source_pages": [
-        15
+        17
       ],
       "id": "book-0210"
     },
@@ -2962,7 +3397,7 @@
       "publication_year": "1981",
       "series": "",
       "source_pages": [
-        15
+        17
       ],
       "id": "book-0211"
     },
@@ -2976,7 +3411,7 @@
       "publication_year": "1990",
       "series": "",
       "source_pages": [
-        15
+        17
       ],
       "id": "book-0212"
     },
@@ -2990,7 +3425,7 @@
       "publication_year": "2016",
       "series": "",
       "source_pages": [
-        15
+        17
       ],
       "id": "book-0213"
     },
@@ -3004,7 +3439,7 @@
       "publication_year": "2001",
       "series": "",
       "source_pages": [
-        15
+        17
       ],
       "id": "book-0214"
     },
@@ -3018,7 +3453,7 @@
       "publication_year": "2023",
       "series": "",
       "source_pages": [
-        15
+        17
       ],
       "id": "book-0215"
     },
@@ -3032,7 +3467,7 @@
       "publication_year": "2007",
       "series": "",
       "source_pages": [
-        15
+        17
       ],
       "id": "book-0216"
     },
@@ -3046,7 +3481,7 @@
       "publication_year": "1967",
       "series": "",
       "source_pages": [
-        15
+        18
       ],
       "id": "book-0217"
     },
@@ -3060,7 +3495,7 @@
       "publication_year": "1998",
       "series": "",
       "source_pages": [
-        16
+        18
       ],
       "id": "book-0218"
     },
@@ -3074,9 +3509,23 @@
       "publication_year": "1946",
       "series": "",
       "source_pages": [
-        16
+        18
       ],
       "id": "book-0219"
+    },
+    {
+      "author": "Alfred O. Hero",
+      "title": "Foundations and Applications of Sensor Management",
+      "isbn": "9780387278926",
+      "publisher": "Springer US",
+      "publication_date": "Nov 15, 2007",
+      "genre": "",
+      "publication_year": "2007",
+      "series": "",
+      "source_pages": [
+        18
+      ],
+      "id": "book-0500"
     },
     {
       "author": "I.N. Herstein",
@@ -3088,7 +3537,7 @@
       "publication_year": "1964",
       "series": "",
       "source_pages": [
-        16
+        18
       ],
       "id": "book-0220"
     },
@@ -3102,7 +3551,7 @@
       "publication_year": "2024",
       "series": "",
       "source_pages": [
-        16
+        18
       ],
       "id": "book-0221"
     },
@@ -3116,7 +3565,7 @@
       "publication_year": "1967",
       "series": "",
       "source_pages": [
-        16
+        18
       ],
       "id": "book-0222"
     },
@@ -3130,12 +3579,40 @@
       "publication_year": "2001",
       "series": "",
       "source_pages": [
-        16
+        18
       ],
       "id": "book-0223"
     },
     {
-      "author": "Jean-Baptiste Hiriart-Urruty",
+      "author": "William W. Hines | Douglas C. Montgomery | David M. Goldsman | Connie M. Borror",
+      "title": "Probability and Statistics in Engineering",
+      "isbn": "9780471240877",
+      "publisher": "Wiley",
+      "publication_date": "Jan 02, 2003",
+      "genre": "",
+      "publication_year": "2003",
+      "series": "",
+      "source_pages": [
+        18
+      ],
+      "id": "book-0501"
+    },
+    {
+      "author": "William W. Hines | Douglas C. Montgomery | David Morris Goldsman | Connie M. Borror",
+      "title": "Probabilités et statistique pour ingénieurs",
+      "isbn": "9782765051886",
+      "publisher": "Chenelière Education",
+      "publication_date": "2017",
+      "genre": "",
+      "publication_year": "2017",
+      "series": "",
+      "source_pages": [
+        18
+      ],
+      "id": "book-0502"
+    },
+    {
+      "author": "Jean-Baptiste Hiriart- Urruty",
       "title": "Optimisation et analyse convexe exercices et problèmes corrigés, avec rappels de cours",
       "isbn": "9782759803736",
       "publisher": "EDP sciences",
@@ -3144,7 +3621,7 @@
       "publication_year": "2009",
       "series": "",
       "source_pages": [
-        16
+        18
       ],
       "id": "book-0224"
     },
@@ -3158,7 +3635,7 @@
       "publication_year": "1962",
       "series": "",
       "source_pages": [
-        16
+        19
       ],
       "id": "book-0225"
     },
@@ -3172,7 +3649,7 @@
       "publication_year": "1965",
       "series": "",
       "source_pages": [
-        16
+        19
       ],
       "id": "book-0226"
     },
@@ -3186,7 +3663,7 @@
       "publication_year": "1978",
       "series": "",
       "source_pages": [
-        16
+        19
       ],
       "id": "book-0227"
     },
@@ -3200,7 +3677,7 @@
       "publication_year": "1967",
       "series": "",
       "source_pages": [
-        16
+        19
       ],
       "id": "book-0228"
     },
@@ -3214,7 +3691,7 @@
       "publication_year": "1988",
       "series": "",
       "source_pages": [
-        16
+        19
       ],
       "id": "book-0229"
     },
@@ -3228,7 +3705,7 @@
       "publication_year": "2012",
       "series": "",
       "source_pages": [
-        16
+        19
       ],
       "id": "book-0230"
     },
@@ -3242,7 +3719,7 @@
       "publication_year": "1998",
       "series": "",
       "source_pages": [
-        16
+        19
       ],
       "id": "book-0231"
     },
@@ -3256,7 +3733,7 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        16
+        19
       ],
       "id": "book-0232"
     },
@@ -3270,8 +3747,7 @@
       "publication_year": "1989",
       "series": "",
       "source_pages": [
-        16,
-        17
+        19
       ],
       "id": "book-0233"
     },
@@ -3285,7 +3761,7 @@
       "publication_year": "1995",
       "series": "",
       "source_pages": [
-        17
+        19
       ],
       "id": "book-0234"
     },
@@ -3299,7 +3775,7 @@
       "publication_year": "1999",
       "series": "",
       "source_pages": [
-        17
+        19
       ],
       "id": "book-0235"
     },
@@ -3313,9 +3789,23 @@
       "publication_year": "2011",
       "series": "",
       "source_pages": [
-        17
+        19
       ],
       "id": "book-0236"
+    },
+    {
+      "author": "Subramaniam Iyer | International Labour Office | International Social Security Association",
+      "title": "Actuarial Mathematics of Social Security Pensions",
+      "isbn": "9789221108665",
+      "publisher": "International Labour Organization",
+      "publication_date": "Dec 01, 1999",
+      "genre": "",
+      "publication_year": "1999",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0503"
     },
     {
       "author": "Albert Jacquard",
@@ -3327,7 +3817,7 @@
       "publication_year": "2001",
       "series": "",
       "source_pages": [
-        17
+        19
       ],
       "id": "book-0237"
     },
@@ -3341,7 +3831,7 @@
       "publication_year": "2013",
       "series": "",
       "source_pages": [
-        17
+        19
       ],
       "id": "book-0238"
     },
@@ -3355,7 +3845,7 @@
       "publication_year": "2022",
       "series": "",
       "source_pages": [
-        17
+        20
       ],
       "id": "book-0239"
     },
@@ -3369,7 +3859,7 @@
       "publication_year": "2016",
       "series": "",
       "source_pages": [
-        17
+        20
       ],
       "id": "book-0240"
     },
@@ -3383,7 +3873,7 @@
       "publication_year": "2024",
       "series": "",
       "source_pages": [
-        17
+        20
       ],
       "id": "book-0241"
     },
@@ -3397,7 +3887,7 @@
       "publication_year": "1967",
       "series": "",
       "source_pages": [
-        17
+        20
       ],
       "id": "book-0242"
     },
@@ -3411,12 +3901,12 @@
       "publication_year": "2019",
       "series": "",
       "source_pages": [
-        17
+        20
       ],
       "id": "book-0243"
     },
     {
-      "author": "Garnier Jean- Marc",
+      "author": "Garnier Jean-Marc",
       "title": "Groupes et géométrie pour l'agrégation",
       "isbn": "9782340028432",
       "publisher": "ELLIPSES",
@@ -3425,7 +3915,7 @@
       "publication_year": "2018",
       "series": "",
       "source_pages": [
-        18
+        20
       ],
       "id": "book-0244"
     },
@@ -3439,7 +3929,7 @@
       "publication_year": "1971",
       "series": "",
       "source_pages": [
-        18
+        20
       ],
       "id": "book-0245"
     },
@@ -3453,7 +3943,7 @@
       "publication_year": "1971",
       "series": "",
       "source_pages": [
-        18
+        20
       ],
       "id": "book-0246"
     },
@@ -3467,7 +3957,7 @@
       "publication_year": "1994",
       "series": "",
       "source_pages": [
-        18
+        20
       ],
       "id": "book-0247"
     },
@@ -3481,7 +3971,7 @@
       "publication_year": "1995",
       "series": "",
       "source_pages": [
-        18
+        20
       ],
       "id": "book-0248"
     },
@@ -3495,7 +3985,7 @@
       "publication_year": "1997",
       "series": "",
       "source_pages": [
-        18
+        20
       ],
       "id": "book-0249"
     },
@@ -3509,9 +3999,37 @@
       "publication_year": "1993",
       "series": "",
       "source_pages": [
-        18
+        21
       ],
       "id": "book-0250"
+    },
+    {
+      "author": "Philippe Jonnaert | Zita Antoun | Zakaria El- Mrabet",
+      "title": "Didactique de l'arithmétique au primaire manuel de formation des enseignantes et des enseignants du primaire et de l'adaptation scolaire",
+      "isbn": "9782761371971",
+      "publisher": "ERPI",
+      "publication_date": "2015",
+      "genre": "",
+      "publication_year": "2015",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0504"
+    },
+    {
+      "author": "Ralph L. Keeney | Howard Raiffa",
+      "title": "Decisions with Multiple Objectives Preferences and Value Trade-Offs",
+      "isbn": "9780521438834",
+      "publisher": "Cambridge University Press",
+      "publication_date": "Jul 01, 1993",
+      "genre": "",
+      "publication_year": "1993",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0505"
     },
     {
       "author": "E.S. Keeping",
@@ -3523,7 +4041,7 @@
       "publication_year": "1995",
       "series": "",
       "source_pages": [
-        18
+        21
       ],
       "id": "book-0251"
     },
@@ -3537,7 +4055,7 @@
       "publication_year": "1986",
       "series": "",
       "source_pages": [
-        18
+        21
       ],
       "id": "book-0252"
     },
@@ -3551,9 +4069,37 @@
       "publication_year": "1978",
       "series": "",
       "source_pages": [
-        18
+        21
       ],
       "id": "book-0253"
+    },
+    {
+      "author": "John Kinney",
+      "title": "Statistics for Science and Engineering",
+      "isbn": "9780201437201",
+      "publisher": "Addison Wesley",
+      "publication_date": "Nov 13, 2002",
+      "genre": "",
+      "publication_year": "2002",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0506"
+    },
+    {
+      "author": "Stuart A. Klugman",
+      "title": "Loss Models From Data to Decisions",
+      "isbn": "9780471215776",
+      "publisher": "Wiley",
+      "publication_date": "Aug 24, 2004",
+      "genre": "",
+      "publication_year": "2004",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0507"
     },
     {
       "author": "Cole Nussbaumer Knaflic",
@@ -3565,7 +4111,7 @@
       "publication_year": "2015",
       "series": "",
       "source_pages": [
-        18
+        21
       ],
       "id": "book-0254"
     },
@@ -3579,7 +4125,7 @@
       "publication_year": "2021",
       "series": "",
       "source_pages": [
-        18
+        21
       ],
       "id": "book-0255"
     },
@@ -3593,7 +4139,7 @@
       "publication_year": "2021",
       "series": "",
       "source_pages": [
-        18
+        21
       ],
       "id": "book-0256"
     },
@@ -3607,13 +4153,12 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        18,
-        19
+        22
       ],
       "id": "book-0257"
     },
     {
-      "author": "Jean- FRANï¿½JEAN- Marie De Koninck OIS CLICHE",
+      "author": "Jean-FRANï¿½JEAN- Marie De Koninck OIS CLICHE",
       "title": "EN CHAIR ET EN MATHS T01",
       "isbn": "9782894712658",
       "publisher": "SEPTEMBRE INC.",
@@ -3622,9 +4167,51 @@
       "publication_year": "2008",
       "series": "",
       "source_pages": [
-        19
+        22
       ],
       "id": "book-0258"
+    },
+    {
+      "author": "Jean-Marie De Koninck | Norbert Lacroix",
+      "title": "Introduction aux mathématiques de l'ingénieur",
+      "isbn": "9782921180801",
+      "publisher": "Loze-Dion éditeur",
+      "publication_date": "2004",
+      "genre": "",
+      "publication_year": "2004",
+      "series": "",
+      "source_pages": [
+        22
+      ],
+      "id": "book-0508"
+    },
+    {
+      "author": "Jean-Marie De Koninck | Norbert Lacroix",
+      "title": "Introduction Aux Mathématiques de L'ingénieur",
+      "isbn": "9782924601020",
+      "publisher": "Editeur Loze- Dion",
+      "publication_date": "Nov 2015",
+      "genre": "",
+      "publication_year": "2015",
+      "series": "",
+      "source_pages": [
+        22
+      ],
+      "id": "book-0509"
+    },
+    {
+      "author": "Lambert Herman Koopmans",
+      "title": "An introduction to contemporary statistics",
+      "isbn": "9780878722921",
+      "publisher": "Duxbury Press",
+      "publication_date": "Jan 01, 1981",
+      "genre": "",
+      "publication_year": "1981",
+      "series": "",
+      "source_pages": [
+        22
+      ],
+      "id": "book-0510"
     },
     {
       "author": "Helmut Kopka",
@@ -3636,7 +4223,7 @@
       "publication_year": "1993",
       "series": "",
       "source_pages": [
-        19
+        22
       ],
       "id": "book-0259"
     },
@@ -3650,7 +4237,7 @@
       "publication_year": "2007",
       "series": "",
       "source_pages": [
-        19
+        22
       ],
       "id": "book-0260"
     },
@@ -3664,7 +4251,7 @@
       "publication_year": "1978",
       "series": "",
       "source_pages": [
-        19
+        22
       ],
       "id": "book-0261"
     },
@@ -3678,9 +4265,23 @@
       "publication_year": "1989",
       "series": "",
       "source_pages": [
-        19
+        22
       ],
       "id": "book-0262"
+    },
+    {
+      "author": "Erwin Kreyszig",
+      "title": "Advanced Engineering Mathematics",
+      "isbn": "9780471553809",
+      "publisher": "Wiley",
+      "publication_date": "Aug 25, 1992",
+      "genre": "",
+      "publication_year": "1992",
+      "series": "",
+      "source_pages": [
+        22
+      ],
+      "id": "book-0511"
     },
     {
       "author": "Erwin Kreyszig",
@@ -3692,7 +4293,7 @@
       "publication_year": "1992",
       "series": "",
       "source_pages": [
-        19
+        22
       ],
       "id": "book-0263"
     },
@@ -3706,7 +4307,7 @@
       "publication_year": "1998",
       "series": "",
       "source_pages": [
-        19
+        22
       ],
       "id": "book-0264"
     },
@@ -3720,7 +4321,7 @@
       "publication_year": "1969",
       "series": "",
       "source_pages": [
-        19
+        22
       ],
       "id": "book-0265"
     },
@@ -3734,7 +4335,7 @@
       "publication_year": "2003",
       "series": "",
       "source_pages": [
-        19
+        22
       ],
       "id": "book-0266"
     },
@@ -3748,9 +4349,24 @@
       "publication_year": "1927",
       "series": "",
       "source_pages": [
-        19
+        22,
+        23
       ],
       "id": "book-0267"
+    },
+    {
+      "author": "Célyne Laliberté",
+      "title": "Probabilités et statistiques De la conception à la compréhension",
+      "isbn": "9782980859731",
+      "publisher": "ERPI",
+      "publication_date": "Sep 19, 2005",
+      "genre": "",
+      "publication_year": "2005",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0512"
     },
     {
       "author": "Saunders Mac Lane | Garrett Birkhoff",
@@ -3762,7 +4378,7 @@
       "publication_year": "1968",
       "series": "",
       "source_pages": [
-        19
+        23
       ],
       "id": "book-0268"
     },
@@ -3776,7 +4392,7 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        19
+        23
       ],
       "id": "book-0269"
     },
@@ -3790,9 +4406,23 @@
       "publication_year": "2003",
       "series": "",
       "source_pages": [
-        19
+        23
       ],
       "id": "book-0270"
+    },
+    {
+      "author": "Richard J. Larsen",
+      "title": "An Introduction to Mathematical Statistics and Its Applications",
+      "isbn": "9780134871745",
+      "publisher": "Prentice-Hall",
+      "publication_date": "Nov 01, 1986",
+      "genre": "",
+      "publication_year": "1986",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0513"
     },
     {
       "author": "Harold J. Larson",
@@ -3804,7 +4434,7 @@
       "publication_year": "1982",
       "series": "",
       "source_pages": [
-        19
+        23
       ],
       "id": "book-0271"
     },
@@ -3818,7 +4448,7 @@
       "publication_year": "1962",
       "series": "",
       "source_pages": [
-        19
+        23
       ],
       "id": "book-0272"
     },
@@ -3832,7 +4462,7 @@
       "publication_year": "2018",
       "series": "",
       "source_pages": [
-        19
+        23
       ],
       "id": "book-0273"
     },
@@ -3846,7 +4476,7 @@
       "publication_year": "2003",
       "series": "",
       "source_pages": [
-        19
+        23
       ],
       "id": "book-0274"
     },
@@ -3860,9 +4490,37 @@
       "publication_year": "2014",
       "series": "",
       "source_pages": [
-        20
+        23
       ],
       "id": "book-0275"
+    },
+    {
+      "author": "David Lay",
+      "title": "Algèbre linéaire et applications",
+      "isbn": "9782761376525",
+      "publisher": "Ed. du renouveau pédagogique",
+      "publication_date": "Jul 26, 2017",
+      "genre": "",
+      "publication_year": "2017",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0514"
+    },
+    {
+      "author": "David Lay",
+      "title": "Algèbre linéaire et applications + eText",
+      "isbn": "9782744075834",
+      "publisher": "Pearson",
+      "publication_date": "Jun 08, 2012",
+      "genre": "",
+      "publication_year": "2012",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0515"
     },
     {
       "author": "Lucien M. Le Cam",
@@ -3874,7 +4532,7 @@
       "publication_year": "1990",
       "series": "",
       "source_pages": [
-        20
+        23
       ],
       "id": "book-0276"
     },
@@ -3888,7 +4546,7 @@
       "publication_year": "2024",
       "series": "",
       "source_pages": [
-        20
+        23
       ],
       "id": "book-0277"
     },
@@ -3902,7 +4560,7 @@
       "publication_year": "2025",
       "series": "",
       "source_pages": [
-        20
+        23
       ],
       "id": "book-0278"
     },
@@ -3916,7 +4574,7 @@
       "publication_year": "1999",
       "series": "",
       "source_pages": [
-        20
+        23
       ],
       "id": "book-0279"
     },
@@ -3930,7 +4588,7 @@
       "publication_year": "1983",
       "series": "",
       "source_pages": [
-        20
+        23
       ],
       "id": "book-0280"
     },
@@ -3944,7 +4602,8 @@
       "publication_year": "2023",
       "series": "",
       "source_pages": [
-        20
+        23,
+        24
       ],
       "id": "book-0281"
     },
@@ -3958,7 +4617,7 @@
       "publication_year": "1967",
       "series": "",
       "source_pages": [
-        20
+        24
       ],
       "id": "book-0282"
     },
@@ -3972,9 +4631,37 @@
       "publication_year": "1967",
       "series": "",
       "source_pages": [
-        20
+        24
       ],
       "id": "book-0283"
+    },
+    {
+      "author": "Claude Lévesque",
+      "title": "Sur le sentier des mathématiques",
+      "isbn": "9782923565026",
+      "publisher": "Loze-Dion",
+      "publication_date": "2007",
+      "genre": "",
+      "publication_year": "2007",
+      "series": "",
+      "source_pages": [
+        24
+      ],
+      "id": "book-0516"
+    },
+    {
+      "author": "David M. Levine | Timothy C. Krehbiel | Mark L. Berenson",
+      "title": "Business Statistics A First Course",
+      "isbn": "9780130867544",
+      "publisher": "Prentice Hall",
+      "publication_date": "Dec 17, 2000",
+      "genre": "",
+      "publication_year": "2000",
+      "series": "",
+      "source_pages": [
+        24
+      ],
+      "id": "book-0517"
     },
     {
       "author": "Roger Lewandowski",
@@ -3986,7 +4673,7 @@
       "publication_year": "2025",
       "series": "",
       "source_pages": [
-        20
+        24
       ],
       "id": "book-0284"
     },
@@ -4000,7 +4687,7 @@
       "publication_year": "1989",
       "series": "",
       "source_pages": [
-        20
+        24
       ],
       "id": "book-0285"
     },
@@ -4014,7 +4701,7 @@
       "publication_year": "2024",
       "series": "",
       "source_pages": [
-        20
+        24
       ],
       "id": "book-0286"
     },
@@ -4028,7 +4715,7 @@
       "publication_year": "2016",
       "series": "",
       "source_pages": [
-        20
+        24
       ],
       "id": "book-0287"
     },
@@ -4042,7 +4729,7 @@
       "publication_year": "2023",
       "series": "",
       "source_pages": [
-        20
+        24
       ],
       "id": "book-0288"
     },
@@ -4056,9 +4743,23 @@
       "publication_year": "1999",
       "series": "",
       "source_pages": [
-        20
+        24
       ],
       "id": "book-0289"
+    },
+    {
+      "author": "Seymour Lipschutz",
+      "title": "Algèbre linéaire cours et problèmes",
+      "isbn": "9782704212828",
+      "publisher": "Ediscience International",
+      "publication_date": "Aug 03, 1994",
+      "genre": "",
+      "publication_year": "1994",
+      "series": "",
+      "source_pages": [
+        24
+      ],
+      "id": "book-0518"
     },
     {
       "author": "Chung L. Liu",
@@ -4070,7 +4771,7 @@
       "publication_year": "1977",
       "series": "",
       "source_pages": [
-        20
+        24
       ],
       "id": "book-0290"
     },
@@ -4084,7 +4785,7 @@
       "publication_year": "2023",
       "series": "",
       "source_pages": [
-        21
+        24
       ],
       "id": "book-0291"
     },
@@ -4098,7 +4799,7 @@
       "publication_year": "1983",
       "series": "",
       "source_pages": [
-        21
+        24
       ],
       "id": "book-0292"
     },
@@ -4112,7 +4813,7 @@
       "publication_year": "1968",
       "series": "",
       "source_pages": [
-        21
+        24
       ],
       "id": "book-0293"
     },
@@ -4126,7 +4827,7 @@
       "publication_year": "1968",
       "series": "",
       "source_pages": [
-        21
+        24
       ],
       "id": "book-0294"
     },
@@ -4140,7 +4841,7 @@
       "publication_year": "1944",
       "series": "",
       "source_pages": [
-        21
+        24
       ],
       "id": "book-0295"
     },
@@ -4154,7 +4855,7 @@
       "publication_year": "1973",
       "series": "",
       "source_pages": [
-        21
+        25
       ],
       "id": "book-0296"
     },
@@ -4168,7 +4869,7 @@
       "publication_year": "1989",
       "series": "",
       "source_pages": [
-        21
+        25
       ],
       "id": "book-0297"
     },
@@ -4182,7 +4883,7 @@
       "publication_year": "2011",
       "series": "",
       "source_pages": [
-        21
+        25
       ],
       "id": "book-0298"
     },
@@ -4196,7 +4897,7 @@
       "publication_year": "1974",
       "series": "",
       "source_pages": [
-        21
+        25
       ],
       "id": "book-0299"
     },
@@ -4210,7 +4911,7 @@
       "publication_year": "1974",
       "series": "",
       "source_pages": [
-        21
+        25
       ],
       "id": "book-0300"
     },
@@ -4224,9 +4925,23 @@
       "publication_year": "1974",
       "series": "",
       "source_pages": [
-        21
+        25
       ],
       "id": "book-0301"
+    },
+    {
+      "author": "Daniel Mandallaz",
+      "title": "Sampling Techniques for Forest Inventories",
+      "isbn": "9781584889762",
+      "publisher": "Taylor & Francis",
+      "publication_date": "Oct 26, 2007",
+      "genre": "",
+      "publication_year": "2007",
+      "series": "",
+      "source_pages": [
+        25
+      ],
+      "id": "book-0519"
     },
     {
       "author": "Roger Mansuy",
@@ -4238,7 +4953,7 @@
       "publication_year": "2025",
       "series": "",
       "source_pages": [
-        21
+        25
       ],
       "id": "book-0302"
     },
@@ -4252,7 +4967,7 @@
       "publication_year": "2022",
       "series": "",
       "source_pages": [
-        21
+        25
       ],
       "id": "book-0303"
     },
@@ -4266,7 +4981,7 @@
       "publication_year": "2013",
       "series": "",
       "source_pages": [
-        21
+        25
       ],
       "id": "book-0304"
     },
@@ -4280,7 +4995,7 @@
       "publication_year": "2004",
       "series": "",
       "source_pages": [
-        22
+        25
       ],
       "id": "book-0305"
     },
@@ -4294,12 +5009,12 @@
       "publication_year": "2007",
       "series": "",
       "source_pages": [
-        22
+        25
       ],
       "id": "book-0306"
     },
     {
-      "author": "Jean-Pierre Marco | Philippe Thieullen | Jacques-Arthur Weil | Joël Benoist | Laurent Lazzarini | Hassan Boualem | Robert Brouzet | Alexandre Cabot | Marie- Line Chabanol | Jacques Féjoz | Roger Manguy | Laurent Mesnager | Silhem Mesnager | Denis Pennequin | Alain Yger | Mohammed Zarrabi",
+      "author": "Jean-Pierre Marco | Philippe Thieullen | Jacques-Arthur Weil | Joël Benoist | Laurent Lazzarini | Hassan Boualem | Robert Brouzet | Alexandre Cabot | Marie-Line Chabanol | Jacques Féjoz | Roger Manguy | Laurent Mesnager | Silhem Mesnager | Denis Pennequin | Alain Yger | Mohammed Zarrabi",
       "title": "MATHEMATIQUES L2 COURS COMPLET AVEC 700 TESTS ET EXERCICES CORRIGES",
       "isbn": "9782744072253",
       "publisher": "PEARSON",
@@ -4308,7 +5023,8 @@
       "publication_year": "2007",
       "series": "",
       "source_pages": [
-        22
+        25,
+        26
       ],
       "id": "book-0307"
     },
@@ -4322,7 +5038,7 @@
       "publication_year": "1965",
       "series": "",
       "source_pages": [
-        22
+        26
       ],
       "id": "book-0308"
     },
@@ -4336,9 +5052,51 @@
       "publication_year": "1969",
       "series": "",
       "source_pages": [
-        22
+        26
       ],
       "id": "book-0309"
+    },
+    {
+      "author": "Jean M. Martel",
+      "title": "Probabilités en gestion et en économie",
+      "isbn": "9782891050081",
+      "publisher": "Gaëtan Morin",
+      "publication_date": "1980",
+      "genre": "",
+      "publication_year": "1980",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0520"
+    },
+    {
+      "author": "Vincent Martin | Mathieu Thibault | Laurent Theis",
+      "title": "Enseigner les premiers concepts de probabilités un monde de possibilités!",
+      "isbn": "9782760551671",
+      "publisher": "Presses de l'Université du Québec",
+      "publication_date": "2019",
+      "genre": "",
+      "publication_year": "2019",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0521"
+    },
+    {
+      "author": "Joanna O. Masingila | Frank K. Lester | Anne M. Raymond",
+      "title": "Mathematics for Elementary Teachers Via Problem Solving Student Activity Manual",
+      "isbn": "9780130173454",
+      "publisher": "Prentice Hall",
+      "publication_date": "Oct 03, 2002",
+      "genre": "",
+      "publication_year": "2002",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0522"
     },
     {
       "author": "Yozō Matsushima",
@@ -4350,7 +5108,7 @@
       "publication_year": "1972",
       "series": "",
       "source_pages": [
-        22
+        26
       ],
       "id": "book-0310"
     },
@@ -4364,9 +5122,37 @@
       "publication_year": "1996",
       "series": "",
       "source_pages": [
-        22
+        26
       ],
       "id": "book-0311"
+    },
+    {
+      "author": "Edward A. McBean",
+      "title": "Statistical Procedures for Analysis of Environmental Monitoring Data and Risk Assessment (Ptr Environmental Management and Engineering Series , Vol 3)",
+      "isbn": "9780136750185",
+      "publisher": "Prentice Hall",
+      "publication_date": "1998",
+      "genre": "",
+      "publication_year": "1998",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0523"
+    },
+    {
+      "author": "William Gordon McCallum",
+      "title": "Fonctions de plusieurs variables",
+      "isbn": "9782894612606",
+      "publisher": "Cheneliere/ McGraw-Hill",
+      "publication_date": "1999",
+      "genre": "",
+      "publication_year": "1999",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0524"
     },
     {
       "author": "P. McCullagh | John A. Nelder",
@@ -4378,7 +5164,7 @@
       "publication_year": "1989",
       "series": "",
       "source_pages": [
-        22
+        27
       ],
       "id": "book-0312"
     },
@@ -4392,7 +5178,7 @@
       "publication_year": "2017",
       "series": "",
       "source_pages": [
-        22
+        27
       ],
       "id": "book-0313"
     },
@@ -4406,7 +5192,7 @@
       "publication_year": "1998",
       "series": "",
       "source_pages": [
-        22
+        27
       ],
       "id": "book-0314"
     },
@@ -4420,7 +5206,7 @@
       "publication_year": "1971",
       "series": "",
       "source_pages": [
-        23
+        27
       ],
       "id": "book-0315"
     },
@@ -4434,9 +5220,23 @@
       "publication_year": "1990",
       "series": "",
       "source_pages": [
-        23
+        27
       ],
       "id": "book-0316"
+    },
+    {
+      "author": "William Mendenhall | Richard L. Scheaffer",
+      "title": "Mathematical statistics with applications",
+      "isbn": "9780871509390",
+      "publisher": "Duxbury Press",
+      "publication_date": "Mar 12, 1986",
+      "genre": "",
+      "publication_year": "1986",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0525"
     },
     {
       "author": "William Mendenhall | Terry L. Sincich",
@@ -4448,7 +5248,7 @@
       "publication_year": "2003",
       "series": "",
       "source_pages": [
-        23
+        27
       ],
       "id": "book-0317"
     },
@@ -4462,7 +5262,7 @@
       "publication_year": "2002",
       "series": "",
       "source_pages": [
-        23
+        27
       ],
       "id": "book-0318"
     },
@@ -4476,7 +5276,7 @@
       "publication_year": "2008",
       "series": "",
       "source_pages": [
-        23
+        27
       ],
       "id": "book-0319"
     },
@@ -4490,7 +5290,7 @@
       "publication_year": "2011",
       "series": "",
       "source_pages": [
-        23
+        27
       ],
       "id": "book-0320"
     },
@@ -4504,9 +5304,23 @@
       "publication_year": "2025",
       "series": "",
       "source_pages": [
-        23
+        27
       ],
       "id": "book-0321"
+    },
+    {
+      "author": "Amitava Mitra",
+      "title": "Fundamentals of Quality Control and Improvement (2nd Edition)",
+      "isbn": "9780136450863",
+      "publisher": "Prentice Hall",
+      "publication_date": "Jan 22, 1998",
+      "genre": "",
+      "publication_year": "1998",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0526"
     },
     {
       "author": "John F. Monahan",
@@ -4518,7 +5332,7 @@
       "publication_year": "2001",
       "series": "",
       "source_pages": [
-        23
+        27
       ],
       "id": "book-0322"
     },
@@ -4532,7 +5346,7 @@
       "publication_year": "1986",
       "series": "",
       "source_pages": [
-        23
+        27
       ],
       "id": "book-0323"
     },
@@ -4546,9 +5360,23 @@
       "publication_year": "1991",
       "series": "",
       "source_pages": [
-        23
+        27
       ],
       "id": "book-0324"
+    },
+    {
+      "author": "Douglas C. Montgomery",
+      "title": "Design and Analysis of Experiments",
+      "isbn": "9780471157465",
+      "publisher": "Wiley",
+      "publication_date": "Oct 31, 1996",
+      "genre": "",
+      "publication_year": "1996",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0527"
     },
     {
       "author": "A.W. Moore",
@@ -4560,9 +5388,37 @@
       "publication_year": "1991",
       "series": "",
       "source_pages": [
-        23
+        28
       ],
       "id": "book-0325"
+    },
+    {
+      "author": "David Sheldon Moore",
+      "title": "The Basic Practice of Statistics",
+      "isbn": "9780716736271",
+      "publisher": "W.H. Freeman and Company",
+      "publication_date": "Jul 15, 2000",
+      "genre": "",
+      "publication_year": "2000",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0528"
+    },
+    {
+      "author": "Stephan Morgenthaler",
+      "title": "Introduction à la statistique",
+      "isbn": "9782880743727",
+      "publisher": "Presses polytechniques et universitaires romandes",
+      "publication_date": "Dec 01, 1997",
+      "genre": "",
+      "publication_year": "1997",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0529"
     },
     {
       "author": "Hervé Morin",
@@ -4574,7 +5430,7 @@
       "publication_year": "1993",
       "series": "",
       "source_pages": [
-        23
+        28
       ],
       "id": "book-0326"
     },
@@ -4588,7 +5444,7 @@
       "publication_year": "1987",
       "series": "",
       "source_pages": [
-        23
+        28
       ],
       "id": "book-0327"
     },
@@ -4602,7 +5458,7 @@
       "publication_year": "1987",
       "series": "",
       "source_pages": [
-        23
+        28
       ],
       "id": "book-0328"
     },
@@ -4616,7 +5472,7 @@
       "publication_year": "1963",
       "series": "",
       "source_pages": [
-        24
+        28
       ],
       "id": "book-0329"
     },
@@ -4630,7 +5486,7 @@
       "publication_year": "2021",
       "series": "",
       "source_pages": [
-        24
+        28
       ],
       "id": "book-0330"
     },
@@ -4644,7 +5500,8 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        24
+        28,
+        29
       ],
       "id": "book-0331"
     },
@@ -4658,9 +5515,37 @@
       "publication_year": "2019",
       "series": "",
       "source_pages": [
-        24
+        29
       ],
       "id": "book-0332"
+    },
+    {
+      "author": "M'hammed Mountassir",
+      "title": "Probabilités et statistique",
+      "isbn": "9782897320430",
+      "publisher": "Modulo",
+      "publication_date": "2016",
+      "genre": "",
+      "publication_year": "2016",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0530"
+    },
+    {
+      "author": "Ralph O. Mueller",
+      "title": "Basic Principles of Structural Equation Modeling An Introduction to LISREL and EQS",
+      "isbn": "9780387945163",
+      "publisher": "Springer Science & Business Media",
+      "publication_date": "Jun 04, 1999",
+      "genre": "",
+      "publication_year": "1999",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0531"
     },
     {
       "author": "Kevin P. Murphy",
@@ -4672,7 +5557,7 @@
       "publication_year": "2012",
       "series": "",
       "source_pages": [
-        24
+        29
       ],
       "id": "book-0333"
     },
@@ -4686,7 +5571,7 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        24
+        29
       ],
       "id": "book-0334"
     },
@@ -4700,7 +5585,7 @@
       "publication_year": "2024",
       "series": "",
       "source_pages": [
-        24
+        29
       ],
       "id": "book-0335"
     },
@@ -4714,7 +5599,7 @@
       "publication_year": "2022",
       "series": "",
       "source_pages": [
-        24
+        29
       ],
       "id": "book-0336"
     },
@@ -4728,9 +5613,37 @@
       "publication_year": "1977",
       "series": "",
       "source_pages": [
-        24
+        29
       ],
       "id": "book-0337"
+    },
+    {
+      "author": "Stéphane Mussard | Françoise Seyte",
+      "title": "Inférence statistique et probabilités",
+      "isbn": "9782804183387",
+      "publisher": "De Boeck Supérieur",
+      "publication_date": "Jun 02, 2014",
+      "genre": "",
+      "publication_year": "2014",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0532"
+    },
+    {
+      "author": "Thomas L. Naps | Douglas W. Nance",
+      "title": "Introduction to Computer Science Programming, Problem Solving, and Data Structures",
+      "isbn": "9780314045652",
+      "publisher": "West Pub.",
+      "publication_date": "Mar 13, 1995",
+      "genre": "",
+      "publication_year": "1995",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0533"
     },
     {
       "author": "Raghavan Narasimhan",
@@ -4742,7 +5655,7 @@
       "publication_year": "1968",
       "series": "",
       "source_pages": [
-        24
+        30
       ],
       "id": "book-0338"
     },
@@ -4756,7 +5669,7 @@
       "publication_year": "2023",
       "series": "",
       "source_pages": [
-        24
+        30
       ],
       "id": "book-0339"
     },
@@ -4770,7 +5683,7 @@
       "publication_year": "2010",
       "series": "",
       "source_pages": [
-        24
+        30
       ],
       "id": "book-0340"
     },
@@ -4784,7 +5697,7 @@
       "publication_year": "1964",
       "series": "",
       "source_pages": [
-        25
+        30
       ],
       "id": "book-0341"
     },
@@ -4798,7 +5711,7 @@
       "publication_year": "2016",
       "series": "",
       "source_pages": [
-        25
+        30
       ],
       "id": "book-0342"
     },
@@ -4812,7 +5725,7 @@
       "publication_year": "1944",
       "series": "",
       "source_pages": [
-        25
+        30
       ],
       "id": "book-0343"
     },
@@ -4826,7 +5739,7 @@
       "publication_year": "1974",
       "series": "",
       "source_pages": [
-        25
+        30
       ],
       "id": "book-0344"
     },
@@ -4840,7 +5753,7 @@
       "publication_year": "2017",
       "series": "",
       "source_pages": [
-        25
+        30
       ],
       "id": "book-0345"
     },
@@ -4854,7 +5767,7 @@
       "publication_year": "1964",
       "series": "",
       "source_pages": [
-        25
+        30
       ],
       "id": "book-0346"
     },
@@ -4868,7 +5781,7 @@
       "publication_year": "1975",
       "series": "",
       "source_pages": [
-        25
+        30
       ],
       "id": "book-0347"
     },
@@ -4882,7 +5795,8 @@
       "publication_year": "1998",
       "series": "",
       "source_pages": [
-        25
+        30,
+        31
       ],
       "id": "book-0348"
     },
@@ -4896,7 +5810,7 @@
       "publication_year": "2019",
       "series": "",
       "source_pages": [
-        25
+        31
       ],
       "id": "book-0349"
     },
@@ -4910,7 +5824,7 @@
       "publication_year": "2014",
       "series": "",
       "source_pages": [
-        25
+        31
       ],
       "id": "book-0350"
     },
@@ -4924,7 +5838,7 @@
       "publication_year": "1967",
       "series": "",
       "source_pages": [
-        26
+        31
       ],
       "id": "book-0351"
     },
@@ -4938,7 +5852,7 @@
       "publication_year": "1988",
       "series": "",
       "source_pages": [
-        26
+        31
       ],
       "id": "book-0352"
     },
@@ -4952,9 +5866,23 @@
       "publication_year": "1992",
       "series": "",
       "source_pages": [
-        26
+        31
       ],
       "id": "book-0353"
+    },
+    {
+      "author": "Gilles Ouellet",
+      "title": "Calcul 2 théorie, exemples, problèmes",
+      "isbn": "9782920210134",
+      "publisher": "Le Griffon d'argile",
+      "publication_date": "1981",
+      "genre": "",
+      "publication_year": "1981",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0534"
     },
     {
       "author": "Gilles Ouellet",
@@ -4966,9 +5894,23 @@
       "publication_year": "1981",
       "series": "",
       "source_pages": [
-        26
+        31
       ],
       "id": "book-0354"
+    },
+    {
+      "author": "Gilles Ouellet",
+      "title": "Statistique et probabilités",
+      "isbn": "9782894430552",
+      "publisher": "Le Griffon d'argile",
+      "publication_date": "1998",
+      "genre": "",
+      "publication_year": "1998",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0535"
     },
     {
       "author": "Sankar K. Pal",
@@ -4980,7 +5922,7 @@
       "publication_year": "2010",
       "series": "",
       "source_pages": [
-        26
+        31
       ],
       "id": "book-0355"
     },
@@ -4994,7 +5936,7 @@
       "publication_year": "1966",
       "series": "",
       "source_pages": [
-        26
+        31
       ],
       "id": "book-0356"
     },
@@ -5008,7 +5950,7 @@
       "publication_year": "1998",
       "series": "",
       "source_pages": [
-        26
+        31
       ],
       "id": "book-0357"
     },
@@ -5022,9 +5964,23 @@
       "publication_year": "2001",
       "series": "",
       "source_pages": [
-        26
+        31
       ],
       "id": "book-0358"
+    },
+    {
+      "author": "Guy Parent | Louis Duchemin",
+      "title": "Méthodes quantitatives en sciences humaines",
+      "isbn": "9782761719629",
+      "publisher": "Les Ed. CEC",
+      "publication_date": "2003",
+      "genre": "",
+      "publication_year": "2003",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0536"
     },
     {
       "author": "F. Pecastaings | J. Sevin",
@@ -5036,7 +5992,7 @@
       "publication_year": "1980",
       "series": "",
       "source_pages": [
-        26
+        32
       ],
       "id": "book-0359"
     },
@@ -5050,7 +6006,7 @@
       "publication_year": "1996",
       "series": "",
       "source_pages": [
-        26
+        32
       ],
       "id": "book-0360"
     },
@@ -5064,7 +6020,7 @@
       "publication_year": "1996",
       "series": "",
       "source_pages": [
-        26
+        32
       ],
       "id": "book-0361"
     },
@@ -5078,9 +6034,23 @@
       "publication_year": "2007",
       "series": "",
       "source_pages": [
-        26
+        32
       ],
       "id": "book-0362"
+    },
+    {
+      "author": "Joseph D. Petruccelli | Balgobin Nandram | Minghui Chen",
+      "title": "Applied Statistics for Engineers and Scientists",
+      "isbn": "9780135659533",
+      "publisher": "Prentice Hall",
+      "publication_date": "Jan 05, 1999",
+      "genre": "",
+      "publication_year": "1999",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0537"
     },
     {
       "author": "Gérard A. Philippe",
@@ -5092,7 +6062,7 @@
       "publication_year": "2004",
       "series": "",
       "source_pages": [
-        26
+        32
       ],
       "id": "book-0363"
     },
@@ -5106,9 +6076,51 @@
       "publication_year": "2009",
       "series": "",
       "source_pages": [
-        26
+        32
       ],
       "id": "book-0364"
+    },
+    {
+      "author": "Gérard A. Philippin",
+      "title": "Cours d'analyse à l'usage des ingénieurs",
+      "isbn": "9782760616424",
+      "publisher": "Les Presses de l'université de Montréal",
+      "publication_date": "1994",
+      "genre": "",
+      "publication_year": "1994",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0538"
+    },
+    {
+      "author": "Gérard A. Philippin",
+      "title": "Cours d'analyse à l'usage des ingénieurs",
+      "isbn": "9782760616103",
+      "publisher": "Presses de l'Université de Montréal",
+      "publication_date": "1993",
+      "genre": "",
+      "publication_year": "1993",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0539"
+    },
+    {
+      "author": "Robert Pisani",
+      "title": "Statistics A Tutorial Workbook",
+      "isbn": "9780393954579",
+      "publisher": "Norton",
+      "publication_date": "Apr 17, 1985",
+      "genre": "",
+      "publication_year": "1985",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0540"
     },
     {
       "author": "N. Piskounov",
@@ -5120,7 +6132,7 @@
       "publication_year": "1966",
       "series": "",
       "source_pages": [
-        26
+        32
       ],
       "id": "book-0365"
     },
@@ -5134,7 +6146,7 @@
       "publication_year": "1967",
       "series": "",
       "source_pages": [
-        26
+        32
       ],
       "id": "book-0366"
     },
@@ -5148,7 +6160,7 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        26
+        32
       ],
       "id": "book-0367"
     },
@@ -5162,8 +6174,7 @@
       "publication_year": "2025",
       "series": "",
       "source_pages": [
-        26,
-        27
+        32
       ],
       "id": "book-0368"
     },
@@ -5177,7 +6188,7 @@
       "publication_year": "1964",
       "series": "",
       "source_pages": [
-        27
+        32
       ],
       "id": "book-0369"
     },
@@ -5191,7 +6202,7 @@
       "publication_year": "1965",
       "series": "",
       "source_pages": [
-        27
+        32
       ],
       "id": "book-0370"
     },
@@ -5205,7 +6216,7 @@
       "publication_year": "2023",
       "series": "",
       "source_pages": [
-        27
+        32
       ],
       "id": "book-0371"
     },
@@ -5219,7 +6230,8 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        27
+        32,
+        33
       ],
       "id": "book-0372"
     },
@@ -5233,7 +6245,7 @@
       "publication_year": "1964",
       "series": "",
       "source_pages": [
-        27
+        33
       ],
       "id": "book-0373"
     },
@@ -5247,7 +6259,7 @@
       "publication_year": "1955",
       "series": "",
       "source_pages": [
-        27
+        33
       ],
       "id": "book-0374"
     },
@@ -5261,7 +6273,7 @@
       "publication_year": "2008",
       "series": "",
       "source_pages": [
-        27
+        33
       ],
       "id": "book-0375"
     },
@@ -5275,7 +6287,7 @@
       "publication_year": "1981",
       "series": "",
       "source_pages": [
-        27
+        33
       ],
       "id": "book-0376"
     },
@@ -5289,7 +6301,7 @@
       "publication_year": "2022",
       "series": "",
       "source_pages": [
-        27
+        33
       ],
       "id": "book-0377"
     },
@@ -5303,7 +6315,7 @@
       "publication_year": "2022",
       "series": "",
       "source_pages": [
-        27
+        33
       ],
       "id": "book-0378"
     },
@@ -5317,7 +6329,7 @@
       "publication_year": "2021",
       "series": "",
       "source_pages": [
-        27
+        33
       ],
       "id": "book-0379"
     },
@@ -5331,7 +6343,7 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        27
+        33
       ],
       "id": "book-0380"
     },
@@ -5345,7 +6357,7 @@
       "publication_year": "2023",
       "series": "",
       "source_pages": [
-        27
+        33
       ],
       "id": "book-0381"
     },
@@ -5359,7 +6371,7 @@
       "publication_year": "2024",
       "series": "",
       "source_pages": [
-        27
+        33
       ],
       "id": "book-0382"
     },
@@ -5373,7 +6385,7 @@
       "publication_year": "1963",
       "series": "",
       "source_pages": [
-        27
+        33
       ],
       "id": "book-0383"
     },
@@ -5387,7 +6399,7 @@
       "publication_year": "1967",
       "series": "Berkeley Physics Course, Volume 5",
       "source_pages": [
-        27
+        33
       ],
       "id": "book-0384"
     },
@@ -5401,7 +6413,7 @@
       "publication_year": "1980",
       "series": "",
       "source_pages": [
-        27
+        33
       ],
       "id": "book-0385"
     },
@@ -5415,7 +6427,7 @@
       "publication_year": "1992",
       "series": "",
       "source_pages": [
-        27
+        33
       ],
       "id": "book-0386"
     },
@@ -5429,7 +6441,7 @@
       "publication_year": "1980",
       "series": "",
       "source_pages": [
-        28
+        33
       ],
       "id": "book-0387"
     },
@@ -5443,9 +6455,23 @@
       "publication_year": "2012",
       "series": "",
       "source_pages": [
-        28
+        33
       ],
       "id": "book-0388"
+    },
+    {
+      "author": "Odeh. Robert E.",
+      "title": "Pocket Book of Statistical Tables (Statistics : Textbooks and Monographs, Vol. 22)",
+      "isbn": "9780824765156",
+      "publisher": "Marcel Dekker Inc",
+      "publication_date": "1977",
+      "genre": "",
+      "publication_year": "1977",
+      "series": "",
+      "source_pages": [
+        33
+      ],
+      "id": "book-0541"
     },
     {
       "author": "Frère Robert | Gaston Bertrand",
@@ -5457,7 +6483,7 @@
       "publication_year": "1959",
       "series": "",
       "source_pages": [
-        28
+        33
       ],
       "id": "book-0389"
     },
@@ -5471,7 +6497,8 @@
       "publication_year": "1986",
       "series": "",
       "source_pages": [
-        28
+        33,
+        34
       ],
       "id": "book-0390"
     },
@@ -5485,7 +6512,7 @@
       "publication_year": "2019",
       "series": "",
       "source_pages": [
-        28
+        34
       ],
       "id": "book-0391"
     },
@@ -5499,7 +6526,7 @@
       "publication_year": "2018",
       "series": "",
       "source_pages": [
-        28
+        34
       ],
       "id": "book-0392"
     },
@@ -5513,7 +6540,7 @@
       "publication_year": "2021",
       "series": "",
       "source_pages": [
-        28
+        34
       ],
       "id": "book-0393"
     },
@@ -5527,7 +6554,7 @@
       "publication_year": "2023",
       "series": "",
       "source_pages": [
-        28
+        34
       ],
       "id": "book-0394"
     },
@@ -5541,7 +6568,7 @@
       "publication_year": "1997",
       "series": "",
       "source_pages": [
-        28
+        34
       ],
       "id": "book-0395"
     },
@@ -5555,9 +6582,65 @@
       "publication_year": "1963",
       "series": "",
       "source_pages": [
-        28
+        34
       ],
       "id": "book-0396"
+    },
+    {
+      "author": "Bernard A. Rosner",
+      "title": "Fundamentals of Biostatistics",
+      "isbn": "9780534209407",
+      "publisher": "Duxbury Press",
+      "publication_date": "Aug 24, 1994",
+      "genre": "",
+      "publication_year": "1994",
+      "series": "",
+      "source_pages": [
+        34
+      ],
+      "id": "book-0542"
+    },
+    {
+      "author": "André Ross",
+      "title": "Mathématiques appliquées aux technologies du bâtiment et du territoire",
+      "isbn": "9782897320492",
+      "publisher": "Modulo",
+      "publication_date": "2016",
+      "genre": "",
+      "publication_year": "2016",
+      "series": "",
+      "source_pages": [
+        34
+      ],
+      "id": "book-0543"
+    },
+    {
+      "author": "Sheldon M. Ross",
+      "title": "Initiation aux probabilités",
+      "isbn": "9782880741181",
+      "publisher": "Presses polytechniques romandes",
+      "publication_date": "1987",
+      "genre": "",
+      "publication_year": "1987",
+      "series": "",
+      "source_pages": [
+        34
+      ],
+      "id": "book-0544"
+    },
+    {
+      "author": "Sheldon M. Ross",
+      "title": "Introduction to Probability Models",
+      "isbn": "9780125980623",
+      "publisher": "Elsevier S & T",
+      "publication_date": "Nov 05, 2006",
+      "genre": "",
+      "publication_year": "2006",
+      "series": "",
+      "source_pages": [
+        34
+      ],
+      "id": "book-0545"
     },
     {
       "author": "Sheldon M. Ross",
@@ -5569,7 +6652,7 @@
       "publication_year": "1995",
       "series": "",
       "source_pages": [
-        28
+        34
       ],
       "id": "book-0397"
     },
@@ -5583,7 +6666,7 @@
       "publication_year": "1995",
       "series": "",
       "source_pages": [
-        28
+        34
       ],
       "id": "book-0398"
     },
@@ -5597,7 +6680,7 @@
       "publication_year": "1984",
       "series": "",
       "source_pages": [
-        28
+        34
       ],
       "id": "book-0399"
     },
@@ -5611,7 +6694,8 @@
       "publication_year": "1969",
       "series": "",
       "source_pages": [
-        28
+        34,
+        35
       ],
       "id": "book-0400"
     },
@@ -5625,7 +6709,7 @@
       "publication_year": "1977",
       "series": "",
       "source_pages": [
-        28
+        35
       ],
       "id": "book-0401"
     },
@@ -5639,7 +6723,7 @@
       "publication_year": "1973",
       "series": "",
       "source_pages": [
-        29
+        35
       ],
       "id": "book-0402"
     },
@@ -5653,9 +6737,23 @@
       "publication_year": "1964",
       "series": "",
       "source_pages": [
-        29
+        35
       ],
       "id": "book-0403"
+    },
+    {
+      "author": "Alan Ruegg",
+      "title": "Probabilités et statistique",
+      "isbn": "9782880741488",
+      "publisher": "Presses polytechniques romandes",
+      "publication_date": "1988",
+      "genre": "",
+      "publication_year": "1988",
+      "series": "",
+      "source_pages": [
+        35
+      ],
+      "id": "book-0546"
     },
     {
       "author": "Stuart J. Russell | Peter Norvig",
@@ -5667,7 +6765,7 @@
       "publication_year": "1995",
       "series": "",
       "source_pages": [
-        29
+        35
       ],
       "id": "book-0404"
     },
@@ -5681,12 +6779,12 @@
       "publication_year": "2009",
       "series": "",
       "source_pages": [
-        29
+        35
       ],
       "id": "book-0405"
     },
     {
-      "author": "Les Frères du Sacré-Cœur",
+      "author": "Les Frères du Sacré- Cœur",
       "title": "Arithmétique",
       "isbn": "",
       "publisher": "Les Frères du Sacré-Cœur",
@@ -5695,7 +6793,7 @@
       "publication_year": "1949",
       "series": "",
       "source_pages": [
-        29
+        35
       ],
       "id": "book-0406"
     },
@@ -5709,7 +6807,7 @@
       "publication_year": "2022",
       "series": "",
       "source_pages": [
-        29
+        35
       ],
       "id": "book-0407"
     },
@@ -5723,7 +6821,7 @@
       "publication_year": "1974",
       "series": "",
       "source_pages": [
-        29
+        35
       ],
       "id": "book-0408"
     },
@@ -5737,7 +6835,7 @@
       "publication_year": "1974",
       "series": "",
       "source_pages": [
-        29
+        35
       ],
       "id": "book-0409"
     },
@@ -5751,7 +6849,7 @@
       "publication_year": "2014",
       "series": "",
       "source_pages": [
-        29
+        35
       ],
       "id": "book-0410"
     },
@@ -5765,7 +6863,7 @@
       "publication_year": "2013",
       "series": "",
       "source_pages": [
-        29
+        35
       ],
       "id": "book-0411"
     },
@@ -5779,7 +6877,7 @@
       "publication_year": "2004",
       "series": "",
       "source_pages": [
-        29
+        35
       ],
       "id": "book-0412"
     },
@@ -5793,7 +6891,7 @@
       "publication_year": "1997",
       "series": "",
       "source_pages": [
-        29
+        35
       ],
       "id": "book-0413"
     },
@@ -5807,7 +6905,7 @@
       "publication_year": "1981",
       "series": "",
       "source_pages": [
-        29
+        36
       ],
       "id": "book-0414"
     },
@@ -5821,7 +6919,7 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        30
+        36
       ],
       "id": "book-0415"
     },
@@ -5835,7 +6933,7 @@
       "publication_year": "1966",
       "series": "",
       "source_pages": [
-        30
+        36
       ],
       "id": "book-0416"
     },
@@ -5849,7 +6947,7 @@
       "publication_year": "1977",
       "series": "",
       "source_pages": [
-        30
+        36
       ],
       "id": "book-0417"
     },
@@ -5863,7 +6961,7 @@
       "publication_year": "1981",
       "series": "",
       "source_pages": [
-        30
+        36
       ],
       "id": "book-0418"
     },
@@ -5877,9 +6975,37 @@
       "publication_year": "1981",
       "series": "",
       "source_pages": [
-        30
+        36
       ],
       "id": "book-0419"
+    },
+    {
+      "author": "Andrew F. Siegel",
+      "title": "Statistics and Data Analysis, Student Guide An Introduction",
+      "isbn": "9780471876601",
+      "publisher": "Wiley",
+      "publication_date": "Mar 03, 1988",
+      "genre": "",
+      "publication_year": "1988",
+      "series": "",
+      "source_pages": [
+        36
+      ],
+      "id": "book-0547"
+    },
+    {
+      "author": "Andrew F. Siegel",
+      "title": "Statistics and Data Analysis: An Introduction",
+      "isbn": "9780471876595",
+      "publisher": "Wiley",
+      "publication_date": "Jan 18, 1988",
+      "genre": "",
+      "publication_year": "1988",
+      "series": "",
+      "source_pages": [
+        36
+      ],
+      "id": "book-0548"
     },
     {
       "author": "Richard A. Silverman",
@@ -5891,7 +7017,7 @@
       "publication_year": "1984",
       "series": "",
       "source_pages": [
-        30
+        36
       ],
       "id": "book-0420"
     },
@@ -5905,7 +7031,7 @@
       "publication_year": "1998",
       "series": "",
       "source_pages": [
-        30
+        36
       ],
       "id": "book-0421"
     },
@@ -5919,9 +7045,24 @@
       "publication_year": "2008",
       "series": "",
       "source_pages": [
-        30
+        36,
+        37
       ],
       "id": "book-0422"
+    },
+    {
+      "author": "Terry Sincich",
+      "title": "Practical Statistics by Example Using Microsoft Excel",
+      "isbn": "9780130960832",
+      "publisher": "Prentice Hall",
+      "publication_date": "Feb 02, 1999",
+      "genre": "",
+      "publication_year": "1999",
+      "series": "",
+      "source_pages": [
+        37
+      ],
+      "id": "book-0549"
     },
     {
       "author": "V. Smirnov",
@@ -5933,7 +7074,7 @@
       "publication_year": "1969",
       "series": "",
       "source_pages": [
-        30
+        37
       ],
       "id": "book-0423"
     },
@@ -5947,7 +7088,7 @@
       "publication_year": "1968",
       "series": "",
       "source_pages": [
-        30
+        37
       ],
       "id": "book-0424"
     },
@@ -5961,7 +7102,7 @@
       "publication_year": "1991",
       "series": "",
       "source_pages": [
-        30
+        37
       ],
       "id": "book-0425"
     },
@@ -5975,7 +7116,7 @@
       "publication_year": "1956",
       "series": "",
       "source_pages": [
-        31
+        37
       ],
       "id": "book-0426"
     },
@@ -5989,7 +7130,7 @@
       "publication_year": "1943",
       "series": "",
       "source_pages": [
-        31
+        37
       ],
       "id": "book-0427"
     },
@@ -6003,9 +7144,23 @@
       "publication_year": "1980",
       "series": "",
       "source_pages": [
-        31
+        37
       ],
       "id": "book-0428"
+    },
+    {
+      "author": "Thomas A. Standish",
+      "title": "Data Structures, Algorithms, and Software Principles",
+      "isbn": "9780201528800",
+      "publisher": "Addison-Wesley",
+      "publication_date": "1994",
+      "genre": "",
+      "publication_year": "1994",
+      "series": "",
+      "source_pages": [
+        37
+      ],
+      "id": "book-0550"
     },
     {
       "author": "Ralph G. Stanton | Kenneth D. Fryer",
@@ -6017,7 +7172,7 @@
       "publication_year": "1965",
       "series": "",
       "source_pages": [
-        31
+        37
       ],
       "id": "book-0429"
     },
@@ -6031,9 +7186,37 @@
       "publication_year": "2022",
       "series": "",
       "source_pages": [
-        31
+        37
       ],
       "id": "book-0430"
+    },
+    {
+      "author": "James Stewart",
+      "title": "Analyse concepts et contextes. Fonctions de plusieurs variables",
+      "isbn": "9782744501197",
+      "publisher": "De Boeck",
+      "publication_date": "Jan 01, 2001",
+      "genre": "",
+      "publication_year": "2001",
+      "series": "",
+      "source_pages": [
+        37
+      ],
+      "id": "book-0551"
+    },
+    {
+      "author": "James Stewart",
+      "title": "Analyse. Concepts et contextes Volume 2. Fonctions de plusieurs variables",
+      "isbn": "9782804150310",
+      "publisher": "De Boeck Supérieur",
+      "publication_date": "Jun 12, 2006",
+      "genre": "",
+      "publication_year": "2006",
+      "series": "",
+      "source_pages": [
+        37
+      ],
+      "id": "book-0552"
     },
     {
       "author": "J. J. Stoker",
@@ -6045,7 +7228,7 @@
       "publication_year": "1969",
       "series": "",
       "source_pages": [
-        31
+        37
       ],
       "id": "book-0431"
     },
@@ -6059,7 +7242,7 @@
       "publication_year": "1969",
       "series": "",
       "source_pages": [
-        31
+        37
       ],
       "id": "book-0432"
     },
@@ -6073,7 +7256,7 @@
       "publication_year": "2012",
       "series": "",
       "source_pages": [
-        31
+        37
       ],
       "id": "book-0433"
     },
@@ -6087,7 +7270,7 @@
       "publication_year": "1986",
       "series": "",
       "source_pages": [
-        31
+        38
       ],
       "id": "book-0434"
     },
@@ -6101,7 +7284,7 @@
       "publication_year": "1988",
       "series": "",
       "source_pages": [
-        31
+        38
       ],
       "id": "book-0435"
     },
@@ -6115,7 +7298,7 @@
       "publication_year": "1978",
       "series": "",
       "source_pages": [
-        31
+        38
       ],
       "id": "book-0436"
     },
@@ -6129,7 +7312,7 @@
       "publication_year": "2023",
       "series": "",
       "source_pages": [
-        31
+        38
       ],
       "id": "book-0437"
     },
@@ -6143,7 +7326,7 @@
       "publication_year": "2012",
       "series": "",
       "source_pages": [
-        31
+        38
       ],
       "id": "book-0438"
     },
@@ -6157,7 +7340,7 @@
       "publication_year": "2023",
       "series": "",
       "source_pages": [
-        31
+        38
       ],
       "id": "book-0439"
     },
@@ -6171,7 +7354,7 @@
       "publication_year": "1958",
       "series": "",
       "source_pages": [
-        32
+        38
       ],
       "id": "book-0440"
     },
@@ -6185,7 +7368,7 @@
       "publication_year": "1970",
       "series": "",
       "source_pages": [
-        32
+        38
       ],
       "id": "book-0441"
     },
@@ -6199,7 +7382,7 @@
       "publication_year": "2020",
       "series": "",
       "source_pages": [
-        32
+        38
       ],
       "id": "book-0442"
     },
@@ -6213,7 +7396,7 @@
       "publication_year": "2008",
       "series": "",
       "source_pages": [
-        32
+        38
       ],
       "id": "book-0443"
     },
@@ -6227,7 +7410,7 @@
       "publication_year": "2017",
       "series": "",
       "source_pages": [
-        32
+        38
       ],
       "id": "book-0444"
     },
@@ -6241,9 +7424,38 @@
       "publication_year": "2011",
       "series": "",
       "source_pages": [
-        32
+        38
       ],
       "id": "book-0445"
+    },
+    {
+      "author": "Jean-Paul Tremblay | Grant A. Cheston",
+      "title": "Data Structures and Software Development in an Object- oriented Domain",
+      "isbn": "9780137879465",
+      "publisher": "Prentice Hall",
+      "publication_date": "Mar 08, 2001",
+      "genre": "",
+      "publication_year": "2001",
+      "series": "",
+      "source_pages": [
+        38
+      ],
+      "id": "book-0553"
+    },
+    {
+      "author": "Unknown",
+      "title": "Probabilités et statistique pour ingénieurs",
+      "isbn": "9782765102458",
+      "publisher": "Chenelière éducation",
+      "publication_date": "2004",
+      "genre": "",
+      "publication_year": "2004",
+      "series": "",
+      "source_pages": [
+        38,
+        39
+      ],
+      "id": "book-0554"
     },
     {
       "author": "Joan Gómez Urgellés",
@@ -6255,9 +7467,65 @@
       "publication_year": "2011",
       "series": "",
       "source_pages": [
-        32
+        39
       ],
       "id": "book-0446"
+    },
+    {
+      "author": "Jessica M. Utts | Robert F. Heckard",
+      "title": "Statistical Ideas and Methods",
+      "isbn": "9780495122500",
+      "publisher": "Cengage Learning",
+      "publication_date": "Jan 26, 2005",
+      "genre": "",
+      "publication_year": "2005",
+      "series": "",
+      "source_pages": [
+        39
+      ],
+      "id": "book-0555"
+    },
+    {
+      "author": "Stephen B. Vardeman | John Marcus Jobe",
+      "title": "Basic Engineering Data Collection and Analysis",
+      "isbn": "9780534369576",
+      "publisher": "Cengage Learning",
+      "publication_date": "Sep 19, 2000",
+      "genre": "",
+      "publication_year": "2000",
+      "series": "",
+      "source_pages": [
+        39
+      ],
+      "id": "book-0556"
+    },
+    {
+      "author": "Paul F. Velleman",
+      "title": "Applications, basics, and computing of exploratory data analysis",
+      "isbn": "9780878722730",
+      "publisher": "Duxbury Press",
+      "publication_date": "1981",
+      "genre": "",
+      "publication_year": "1981",
+      "series": "",
+      "source_pages": [
+        39
+      ],
+      "id": "book-0557"
+    },
+    {
+      "author": "W.N. Venables | B.D. Ripley",
+      "title": "Modern Applied Statistics with S",
+      "isbn": "9780387954578",
+      "publisher": "Springer Science & Business Media",
+      "publication_date": "Sep 02, 2003",
+      "genre": "",
+      "publication_year": "2003",
+      "series": "",
+      "source_pages": [
+        39
+      ],
+      "id": "book-0558"
     },
     {
       "author": "Roman Vershynin",
@@ -6269,7 +7537,7 @@
       "publication_year": "2018",
       "series": "",
       "source_pages": [
-        32
+        39
       ],
       "id": "book-0447"
     },
@@ -6283,7 +7551,7 @@
       "publication_year": "2001",
       "series": "",
       "source_pages": [
-        32
+        39
       ],
       "id": "book-0448"
     },
@@ -6297,7 +7565,7 @@
       "publication_year": "2025",
       "series": "",
       "source_pages": [
-        32
+        39
       ],
       "id": "book-0449"
     },
@@ -6311,7 +7579,7 @@
       "publication_year": "2012",
       "series": "",
       "source_pages": [
-        32
+        39
       ],
       "id": "book-0450"
     },
@@ -6325,7 +7593,7 @@
       "publication_year": "1943",
       "series": "",
       "source_pages": [
-        32
+        39
       ],
       "id": "book-0451"
     },
@@ -6339,7 +7607,7 @@
       "publication_year": "2011",
       "series": "",
       "source_pages": [
-        32
+        39
       ],
       "id": "book-0452"
     },
@@ -6353,7 +7621,8 @@
       "publication_year": "2019",
       "series": "",
       "source_pages": [
-        32
+        39,
+        40
       ],
       "id": "book-0453"
     },
@@ -6367,9 +7636,23 @@
       "publication_year": "1982",
       "series": "",
       "source_pages": [
-        32
+        40
       ],
       "id": "book-0454"
+    },
+    {
+      "author": "Ronald E. Walpole | Raymond H. Myers | Sharon L. Myers",
+      "title": "Probability and Statistics for Engineers and Scientists",
+      "isbn": "9780138402082",
+      "publisher": "Pearson College Div",
+      "publication_date": "Dec 31, 1997",
+      "genre": "",
+      "publication_year": "1997",
+      "series": "",
+      "source_pages": [
+        40
+      ],
+      "id": "book-0559"
     },
     {
       "author": "Seth Warner",
@@ -6381,7 +7664,7 @@
       "publication_year": "1990",
       "series": "",
       "source_pages": [
-        32
+        40
       ],
       "id": "book-0455"
     },
@@ -6395,7 +7678,7 @@
       "publication_year": "2004",
       "series": "",
       "source_pages": [
-        33
+        40
       ],
       "id": "book-0456"
     },
@@ -6409,9 +7692,23 @@
       "publication_year": "2014",
       "series": "",
       "source_pages": [
-        33
+        40
       ],
       "id": "book-0457"
+    },
+    {
+      "author": "Suzanne Wildi",
+      "title": "Calcul différentiel et intégral II pour l'étudiant avant tout",
+      "isbn": "9782922019001",
+      "publisher": "Les Editions Pythagore",
+      "publication_date": "1995",
+      "genre": "",
+      "publication_year": "1995",
+      "series": "",
+      "source_pages": [
+        40
+      ],
+      "id": "book-0560"
     },
     {
       "author": "M.V. Wilkes",
@@ -6423,7 +7720,7 @@
       "publication_year": "1966",
       "series": "",
       "source_pages": [
-        33
+        40
       ],
       "id": "book-0458"
     },
@@ -6437,7 +7734,7 @@
       "publication_year": "1950",
       "series": "",
       "source_pages": [
-        33
+        40
       ],
       "id": "book-0459"
     },
@@ -6451,9 +7748,23 @@
       "publication_year": "1991",
       "series": "",
       "source_pages": [
-        33
+        40
       ],
       "id": "book-0460"
+    },
+    {
+      "author": "Thomas H. Wonnacott",
+      "title": "Statistique : économie, gestion, sciences, médecine : (avec exercices d'application)",
+      "isbn": "9782717820720",
+      "publisher": "Presses Universitaires d'Aix-Marseille",
+      "publication_date": "Mar 10, 2003",
+      "genre": "",
+      "publication_year": "2003",
+      "series": "",
+      "source_pages": [
+        40
+      ],
+      "id": "book-0561"
     },
     {
       "author": "A.E.R. Woodcock",
@@ -6465,7 +7776,7 @@
       "publication_year": "1974",
       "series": "",
       "source_pages": [
-        33
+        40
       ],
       "id": "book-0461"
     },
@@ -6479,7 +7790,7 @@
       "publication_year": "1982",
       "series": "",
       "source_pages": [
-        33
+        40
       ],
       "id": "book-0462"
     },
@@ -6493,7 +7804,7 @@
       "publication_year": "1982",
       "series": "",
       "source_pages": [
-        33
+        40
       ],
       "id": "book-0463"
     },
@@ -6507,7 +7818,7 @@
       "publication_year": "1962",
       "series": "",
       "source_pages": [
-        33
+        41
       ],
       "id": "book-0464"
     },
@@ -6521,7 +7832,7 @@
       "publication_year": "1968",
       "series": "",
       "source_pages": [
-        33
+        41
       ],
       "id": "book-0465"
     },
@@ -6535,7 +7846,7 @@
       "publication_year": "1973",
       "series": "",
       "source_pages": [
-        33
+        41
       ],
       "id": "book-0466"
     },
@@ -6549,7 +7860,7 @@
       "publication_year": "1962",
       "series": "",
       "source_pages": [
-        33
+        41
       ],
       "id": "book-0467"
     }

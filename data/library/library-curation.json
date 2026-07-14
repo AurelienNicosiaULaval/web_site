@@ -101,6 +101,10 @@
       "title": "Éditions Ellipses, La cuisine aux épices",
       "url": "https://www.editions-ellipses.fr/fr/15-mathematiques?page=40&resultsPerPage=50"
     },
+    "leslibraires_en_chair": {
+      "title": "Leslibraires.ca, En chair et en maths, tome 1",
+      "url": "https://www.leslibraires.ca/livres/en-chair-et-en-maths-t-jean-marie-de-koninck-9782894712658.html"
+    },
     "bnaq_philippin": {
       "title": "Bibliothèque et Archives nationales du Québec, Gérard A. Philippin",
       "url": "https://www2.banq.qc.ca/ressources_en_ligne/bibliographie_quebec/refonte_2014/tdm500.html"
@@ -115,19 +119,6 @@
     }
   },
   "overrides": [
-    {
-      "id": "book-0001",
-      "confidence": "high",
-      "reason": "The same ISBN appears in a complete CLZ record and in an exact Open Library edition record.",
-      "sources": ["clz_sibling", "openlibrary_exact"],
-      "changes": {
-        "author": "Philippe Barbé",
-        "title": "Probabilité (L3M1)",
-        "publisher": "EDP Sciences",
-        "publication_date": "Feb 01, 2007",
-        "publication_year": "2007"
-      }
-    },
     {
       "id": "book-0005",
       "confidence": "high",
@@ -255,6 +246,18 @@
       "sources": ["ellipses_official"],
       "changes": {
         "title": "Biographie des grands théorèmes"
+      }
+    },
+    {
+      "id": "book-0258",
+      "confidence": "high",
+      "reason": "The exact ISBN page identifies the two authors and restores the title and publisher corrupted in the CLZ text export.",
+      "sources": ["leslibraires_en_chair"],
+      "changes": {
+        "author": "Jean-Marie De Koninck | Jean-François Cliche",
+        "title": "En chair et en maths, tome 1 : rencontre avec les mathématiques qui façonnent notre quotidien",
+        "publisher": "Septembre éditeur",
+        "series": "En chair et en maths"
       }
     },
     {

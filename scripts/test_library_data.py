@@ -39,9 +39,19 @@ def main() -> None:
 
     raw_records = raw["records"]
     records = curated["records"]
-    assert len(raw_records) == len(records) == 467
+    assert len(raw_records) == len(records) == 560
     assert [record["id"] for record in raw_records] == [record["id"] for record in records]
-    assert len({record["id"] for record in records}) == 467
+    assert len({record["id"] for record in records}) == 560
+    assert raw["source"]["name"] == "pdf_book_2026-07-14_17-55-30.pdf"
+    assert raw["source"]["pages"] == 41
+    assert raw["source"]["previous_catalogue"] == (
+        "pdf_book_2026-07-13_21-08-03.pdf"
+    )
+    assert raw["source"]["reconciliation"] == {
+        "retained": 466,
+        "added": 94,
+        "removed": 1,
+    }
     assert all(record["title"] for record in records)
     assert all(record["isbn_status"] != "invalid" for record in records)
     assert all("publisher_normalized" in record for record in records)
@@ -63,47 +73,48 @@ def main() -> None:
 
     status_counts = Counter(record["isbn_status"] for record in records)
     assert status_counts == {
-        "valid": 368,
+        "valid": 461,
         "missing_pre_1970": 86,
         "missing_1970_or_later": 12,
         "missing_unknown_year": 1,
     }
-    assert report["record_count"] == 467
-    assert report["unique_valid_isbn_count"] == 360
-    assert report["openlibrary_unique_isbn_match_count"] == 238
+    assert report["record_count"] == 560
+    assert report["unique_valid_isbn_count"] == 452
+    assert report["openlibrary_unique_isbn_match_count"] == 317
     assert report["manual_override_count"] == len(curation["overrides"])
-    assert report["cover_record_count"] == 376
-    assert report["cover_record_rate"] == 0.8051
+    assert report["cover_record_count"] == 463
+    assert report["cover_record_rate"] == 0.8268
     assert report["cover_providers"] == {
-        "AbeBooks": 28,
+        "AbeBooks": 43,
         "Anticariat.net": 1,
         "Dunod": 13,
-        "Google Books": 41,
+        "Google Books": 50,
         "Internet Archive": 1,
-        "LaLibrairie.com": 49,
+        "LaLibrairie.com": 55,
         "Mir Titles": 1,
-        "Open Library": 221,
+        "Open Library": 278,
         "Éditions Ellipses": 21,
     }
-    assert sum(report["cover_match_methods"].values()) == 376
-    assert ellipses_covers["requested_isbn_count"] == 21
-    assert ellipses_covers["cover_count"] == 21
+    assert sum(report["cover_match_methods"].values()) == 463
+    assert ellipses_covers["requested_isbn_count"] == 28
+    assert ellipses_covers["cover_count"] == 27
     assert not ellipses_covers["misses"]
     assert all(
         isbn == entry["isbn"] and isbn in entry["source_url"]
         for isbn, entry in ellipses_covers["books"].items()
     )
-    assert dunod_covers["requested_isbn_count"] == 16
-    assert dunod_covers["cover_count"] == 13
-    assert len(dunod_covers["misses"]) == 3
-    assert lalibrairie_covers["requested_isbn_count"] == 105
-    assert lalibrairie_covers["cover_count"] == 62
-    assert len(lalibrairie_covers["misses"]) == 43
+    assert dunod_covers["requested_isbn_count"] == 23
+    assert dunod_covers["cover_count"] == 17
+    assert len(dunod_covers["misses"]) == 6
+    assert lalibrairie_covers["requested_isbn_count"] == 40
+    assert lalibrairie_covers["cover_count"] == 68
+    assert lalibrairie_covers["new_cover_count"] == 6
+    assert len(lalibrairie_covers["misses"]) == 34
     assert all(
         isbn == entry["isbn"] and isbn in entry["source_url"]
         for isbn, entry in lalibrairie_covers["books"].items()
     )
-    assert verified_covers["isbn_cover_count"] == 28
+    assert verified_covers["isbn_cover_count"] == 43
     assert verified_covers["record_cover_count"] == 3
     assert all(
         isbn == entry["isbn"] and isbn in entry["source_url"]
@@ -129,11 +140,19 @@ def main() -> None:
     assert by_id["book-0014"]["cover"]["provider"] == "Anticariat.net"
     assert by_id["book-0158"]["cover"]["provider"] == "AbeBooks"
     assert by_id["book-0441"]["cover"]["provider"] == "Internet Archive"
-    assert sum(not record.get("cover") for record in records) == 91
+    assert sum(not record.get("cover") for record in records) == 97
     assert sum(
         not record.get("cover") and record["isbn_status"] == "valid"
         for record in records
-    ) == 13
+    ) == 19
+    assert "book-0001" not in by_id
+    assert by_id["book-0034"]["title"] == "Probabilité (L3M1)"
+    new_records = [
+        record for record in records
+        if int(record["id"].split("-")[1]) >= 468
+    ]
+    assert len(new_records) == 94
+    assert sum(bool(record.get("cover")) for record in new_records) == 87
     assert by_id["book-0215"]["title"] == "Biographie des grands théorèmes"
     assert all(
         record.get("cover")
@@ -181,7 +200,10 @@ def main() -> None:
         assert generated_output.read_bytes() == OUTPUT.read_bytes()
         assert generated_report.read_bytes() == REPORT.read_bytes()
 
-    print("Library data validation passed: 467 records, deterministic output, no invalid ISBN.")
+    print(
+        f"Library data validation passed: {len(records)} records, "
+        "deterministic output, no invalid ISBN."
+    )
 
 
 if __name__ == "__main__":

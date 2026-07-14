@@ -11,6 +11,17 @@
       "source_url": "https://www.dunod.com/sciences-techniques/echantillonnage-et-methodes-d-enquetes",
       "title": "Échantillonnage et méthodes d'enquêtes"
     },
+    "9782100521340": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100521340-T.jpg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100521340-T.jpg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100521340-T.jpg"
+      },
+      "isbn": "9782100521340",
+      "record_id": "book-0195",
+      "source_url": "https://www.dunod.com/sciences-techniques/petit-livre-grands-nombres",
+      "title": "Le petit livre des grands nombres"
+    },
     "9782100795567": {
       "cover": {
         "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100795567-001-X.jpeg",
@@ -44,6 +55,17 @@
       "source_url": "https://www.dunod.com/prepas-concours/analyse-pour-agregation-agregationmaster-mathematiques",
       "title": "Analyse pour l'agrégation - Agrégation/Master Mathématiques"
     },
+    "9782100814718": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100814718-001-X.jpeg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100814718-001-X.jpeg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100814718-001-X.jpeg"
+      },
+      "isbn": "9782100814718",
+      "record_id": "book-0269",
+      "source_url": "https://www.dunod.com/sciences-techniques/algebre-0",
+      "title": "Algèbre"
+    },
     "9782100815746": {
       "cover": {
         "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100815746-001-X.jpeg",
@@ -54,6 +76,28 @@
       "record_id": "book-0380",
       "source_url": "https://www.dunod.com/sciences-techniques/cours-mathematiques-1-algebre-0",
       "title": "Le cours de mathématiques 1- Algèbre"
+    },
+    "9782100820283": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100820283-001-X.jpeg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100820283-001-X.jpeg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100820283-001-X.jpeg"
+      },
+      "isbn": "9782100820283",
+      "record_id": "book-0068",
+      "source_url": "https://www.dunod.com/sciences-techniques/analyse-fonctionnelle-theorie-et-applications-0",
+      "title": "Analyse fonctionnelle"
+    },
+    "9782100821334": {
+      "cover": {
+        "large": "https://www.dunod.com/sites/default/files/styles/grand_desktop/public/thumbnails/image/9782100821334-001-X.jpeg",
+        "medium": "https://www.dunod.com/sites/default/files/styles/moyen_desktop/public/thumbnails/image/9782100821334-001-X.jpeg",
+        "small": "https://www.dunod.com/sites/default/files/styles/petit_desktop/public/thumbnails/image/9782100821334-001-X.jpeg"
+      },
+      "isbn": "9782100821334",
+      "record_id": "book-0232",
+      "source_url": "https://www.dunod.com/sciences-techniques/toutes-mathematiques-et-bases-informatique-0",
+      "title": "Toutes les mathématiques et les bases de l'informatique"
     },
     "9782100834068": {
       "cover": {
@@ -144,13 +188,23 @@
       "title": "Mathématiques pour la modélisation"
     }
   },
-  "cover_count": 13,
+  "cover_count": 17,
   "match_method": "exact_isbn",
   "misses": [
     {
       "id": "book-0103",
       "isbn": "9782100501359",
       "title": "Calcul stochastique et modèles de diffusions (French Edition)"
+    },
+    {
+      "id": "book-0331",
+      "isbn": "9782100800582",
+      "title": "Mathématiques - Tout-en-un pour la Licence 2 - 3e éd."
+    },
+    {
+      "id": "book-0129",
+      "isbn": "9782100801220",
+      "title": "Maths MP-MP* - Tout-en-un - 5e éd"
     },
     {
       "id": "book-0153",
@@ -161,9 +215,14 @@
       "id": "book-0330",
       "isbn": "9782100825462",
       "title": "Mathématiques Tout-en-un pour la Licence 3 - 2e éd.: Cours complet avec applications et 300 exercices corrigés"
+    },
+    {
+      "id": "book-0395",
+      "isbn": "9782225802058",
+      "title": "Vibrations des systemes mecaniques"
     }
   ],
   "provider": "Dunod",
-  "requested_isbn_count": 16,
+  "requested_isbn_count": 23,
   "retrieved_on": "2026-07-14"
 }

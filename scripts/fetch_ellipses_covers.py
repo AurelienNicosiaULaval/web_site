@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Cache official Éditions Ellipses covers matched by exact ISBN.
 
-The script targets Ellipses records that still have no cover after the Open
-Library and Google Books enrichment. Each retained result must contain the
-catalogue ISBN in the publisher's product card.
+The script checks every valid Ellipses ISBN so refreshing the catalogue never
+erases previously verified official covers. Each retained result must contain
+the catalogue ISBN in the publisher's product card.
 
 Run from the project root:
 
@@ -125,7 +125,6 @@ def main() -> None:
             for record in catalogue["records"]
             if record.get("publisher_normalized") == "Ellipses"
             and record.get("isbn_status") == "valid"
-            and not record.get("cover")
         ),
         key=lambda record: record["isbn"],
     )
@@ -157,7 +156,7 @@ def main() -> None:
     write_json(args.output, payload)
     print(
         f"Cached {len(books)} official Ellipses covers for {len(targets)} "
-        f"missing-cover ISBNs; {len(misses)} ISBNs were not found."
+        f"exact ISBNs; {len(misses)} ISBNs were not found."
     )
 
 

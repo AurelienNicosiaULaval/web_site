@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Cache official Dunod covers matched by exact ISBN.
 
+Every valid Dunod ISBN is checked so a catalogue refresh cannot erase an
+official cover merely because another provider already supplies an image.
+
 Run from the project root:
 
     python3 scripts/fetch_dunod_covers.py
@@ -107,7 +110,6 @@ def main() -> None:
             for record in catalogue["records"]
             if record.get("publisher_normalized") == "Dunod"
             and record.get("isbn_status") == "valid"
-            and not record.get("cover")
         ),
         key=lambda record: record["isbn"],
     )
@@ -139,7 +141,7 @@ def main() -> None:
     write_json(args.output, payload)
     print(
         f"Cached {len(books)} official Dunod covers for {len(targets)} "
-        f"missing-cover ISBNs; {len(misses)} ISBNs were not found."
+        f"exact ISBNs; {len(misses)} ISBNs were not found."
     )
 
 

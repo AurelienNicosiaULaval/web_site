@@ -565,7 +565,7 @@
     }
   },
   "provider": "Open Library Search API",
-  "request_count": 45,
+  "request_count": 51,
   "responses": [
     {
       "docs": [
@@ -11544,8 +11544,756 @@
         "book-0452",
         "book-0459"
       ]
+    },
+    {
+      "docs": [
+        {
+          "author_name": [
+            "Luc AMYOTTE"
+          ],
+          "cover_edition_key": "OL32884290M",
+          "cover_i": 11515891,
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "cover_i": 11515891,
+                "isbn": [
+                  "9782761310895",
+                  "2761310896"
+                ],
+                "key": "/books/OL32884290M",
+                "publish_date": [
+                  "May 20, 2003"
+                ],
+                "publisher": [
+                  "ERPI"
+                ],
+                "title": "INTRODUCTION A L'ALGEBRE LINEAIRE ET A SES APPLICATIONS"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 2003,
+          "isbn": [
+            "2761310896",
+            "9782761310895"
+          ],
+          "key": "/works/OL24765113W",
+          "publish_year": [
+            2003
+          ],
+          "publisher": [
+            "ERPI"
+          ],
+          "title": "INTRODUCTION A L'ALGEBRE LINEAIRE ET A SES APPLICATIONS"
+        },
+        {
+          "author_name": [
+            "Luc AMYOTTE"
+          ],
+          "cover_edition_key": "OL32884289M",
+          "cover_i": 11515890,
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "cover_i": 11515890,
+                "isbn": [
+                  "9782761310895",
+                  "2761310896"
+                ],
+                "key": "/books/OL32884289M",
+                "publish_date": [
+                  "May 20, 2003"
+                ],
+                "publisher": [
+                  "ERPI"
+                ],
+                "title": "INTRODUCTION A L'ALGEBRE LINEAIRE ET A SES APPLICATIONS"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 2003,
+          "isbn": [
+            "9782761310895",
+            "2761310896"
+          ],
+          "key": "/works/OL24765112W",
+          "publish_year": [
+            2003
+          ],
+          "publisher": [
+            "ERPI"
+          ],
+          "title": "INTRODUCTION A L'ALGEBRE LINEAIRE ET A SES APPLICATIONS"
+        },
+        {
+          "author_name": [
+            "Luc Amyotte"
+          ],
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "isbn": [
+                  "9782761311144",
+                  "2761311140"
+                ],
+                "key": "/books/OL45806664M",
+                "publish_date": [
+                  "1999-01-01"
+                ],
+                "publisher": [
+                  "Éditions du Renouveau pédagogique"
+                ],
+                "title": "Introduction à l'algèbre linéaire et à ses applications"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 1999,
+          "isbn": [
+            "2761311140",
+            "9782761311144"
+          ],
+          "key": "/works/OL33828747W",
+          "publish_year": [
+            1999
+          ],
+          "publisher": [
+            "Éditions du Renouveau pédagogique"
+          ],
+          "title": "Introduction à l'algèbre linéaire et à ses applications"
+        },
+        {
+          "author_name": [
+            "Luc AMYOTTE"
+          ],
+          "cover_edition_key": "OL32883903M",
+          "cover_i": 11515629,
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "cover_i": 11515629,
+                "isbn": [
+                  "9782761314282",
+                  "276131428X"
+                ],
+                "key": "/books/OL32883903M",
+                "publish_date": [
+                  "Nov 03, 2003"
+                ],
+                "publisher": [
+                  "ERPI"
+                ],
+                "title": "INTRODUCTION A L'ALGEBRE LINEAIRE ET A SES APPLICATIONS 2E EDITION"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 2003,
+          "isbn": [
+            "276131428X",
+            "9782761314282"
+          ],
+          "key": "/works/OL24764877W",
+          "publish_year": [
+            2003
+          ],
+          "publisher": [
+            "ERPI"
+          ],
+          "title": "INTRODUCTION A L'ALGEBRE LINEAIRE ET A SES APPLICATIONS 2E EDITION"
+        },
+        {
+          "author_name": [
+            "Jacques Allard"
+          ],
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "isbn": [
+                  "9780201564488",
+                  "0201564483"
+                ],
+                "key": "/books/OL10167975M",
+                "publish_date": [
+                  "January 1992"
+                ],
+                "publisher": [
+                  "Not Avail"
+                ],
+                "title": "Concepts Fondamentaux de La Statistique"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 1992,
+          "isbn": [
+            "9780201564488",
+            "0201564483"
+          ],
+          "key": "/works/OL6499502W",
+          "publish_year": [
+            1992
+          ],
+          "publisher": [
+            "Not Avail"
+          ],
+          "title": "Concepts Fondamentaux de La Statistique"
+        }
+      ],
+      "num_found": 5,
+      "query": "(title:\"Concepts fondamentaux de la statistique\" AND author:\"Jacques Allard\") OR (title:\"Introduction à l'algèbre linéaire et à ses applications\" AND author:\"Luc Amyotte\") OR (title:\"La loi dans \\\"Antigone\\\" de Sophocle La recherche du bonheur dans \\\"Lucien Leuwen\\\" de Stendhal\" AND author:\"Bernard Aubry\") OR (title:\"Mathématiques pour les sciences de la nature et de la vie\" AND author:\"Françoise Bertrandias\") OR (title:\"PUBLICATIONS MATHEMATIQUES DE BESANCON. ALGEBRE ET THEORIE DES NOMBRES, NUMERO 2024\" AND author:\"Bisson;Lebacque;Oyon\")",
+      "record_ids": [
+        "book-0469",
+        "book-0470",
+        "book-0473",
+        "book-0477",
+        "book-0478"
+      ]
+    },
+    {
+      "docs": [
+        {
+          "author_name": [
+            "André Fortin"
+          ],
+          "cover_edition_key": "OL12517390M",
+          "cover_i": 3113070,
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "cover_i": 3113070,
+                "isbn": [
+                  "9782553009365",
+                  "2553009364"
+                ],
+                "key": "/books/OL12517390M",
+                "publish_date": [
+                  "September 28, 2001"
+                ],
+                "publisher": [
+                  "Ecole Polytechnique Montreal"
+                ],
+                "title": "Analyse numérique pour ingénieurs"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 2001,
+          "isbn": [
+            "9782553009365",
+            "2553009364"
+          ],
+          "key": "/works/OL9965598W",
+          "publish_year": [
+            2001
+          ],
+          "publisher": [
+            "Ecole Polytechnique Montreal"
+          ],
+          "title": "Analyse numérique pour ingénieurs"
+        },
+        {
+          "author_name": [
+            "Josée Hamel"
+          ],
+          "cover_edition_key": "OL31911964M",
+          "cover_i": 10592621,
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "cover_i": 10592621,
+                "isbn": [
+                  "9782761317818",
+                  "9782761324045",
+                  "2761317815",
+                  "2761324048"
+                ],
+                "key": "/books/OL31911964M",
+                "publish_date": [
+                  "2007"
+                ],
+                "publisher": [
+                  "Éditions du renouveau pédagogique"
+                ],
+                "title": "Calcul différentiel"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 2007,
+          "isbn": [
+            "9782761317818",
+            "2761317815",
+            "9782761324045",
+            "2761324048"
+          ],
+          "key": "/works/OL24174093W",
+          "publish_year": [
+            2007
+          ],
+          "publisher": [
+            "Éditions du renouveau pédagogique"
+          ],
+          "title": "Calcul différentiel"
+        }
+      ],
+      "num_found": 2,
+      "query": "(title:\"Les statistiques une approche nouvelle\" AND author:\"Collectif\") OR (title:\"Probabilités et statistiques - Sciences\" AND author:\"Elise Desgreniers\") OR (title:\"Analyse numérique pour ingénieurs\" AND author:\"André Fortin\") OR (title:\"Calcul intégral\" AND author:\"Sylvie Fortin\") OR (title:\"Calcul différentiel\" AND author:\"Josée Hamel\")",
+      "record_ids": [
+        "book-0483",
+        "book-0487",
+        "book-0492",
+        "book-0493",
+        "book-0498"
+      ]
+    },
+    {
+      "docs": [
+        {
+          "author_name": [
+            "Jean-Marie De Koninck",
+            "Norbert Lacroix"
+          ],
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "isbn": [
+                  "9782924601020",
+                  "2924601029"
+                ],
+                "key": "/books/OL34395974M",
+                "publish_date": [
+                  "2015"
+                ],
+                "publisher": [
+                  "Editeur Loze-Dion"
+                ],
+                "title": "Introduction Aux Mathématiques de L'ingénieur"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 2015,
+          "isbn": [
+            "9782924601020",
+            "2924601029"
+          ],
+          "key": "/works/OL25630507W",
+          "publish_year": [
+            2015
+          ],
+          "publisher": [
+            "Editeur Loze-Dion"
+          ],
+          "title": "Introduction Aux Mathématiques de L'ingénieur"
+        },
+        {
+          "author_name": [
+            "David LAY"
+          ],
+          "cover_edition_key": "OL32723017M",
+          "cover_i": 11350102,
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "cover_i": 11350102,
+                "isbn": [
+                  "9782744075834",
+                  "2744075833"
+                ],
+                "key": "/books/OL32723017M",
+                "publish_date": [
+                  "Jun 07, 2012"
+                ],
+                "publisher": [
+                  "Pearson",
+                  "PEARSON"
+                ],
+                "title": "ALGEBRE LINEAIRE ET APPLICATIONS 4E ED + ETEXT"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 2012,
+          "isbn": [
+            "9782744075834",
+            "2744075833"
+          ],
+          "key": "/works/OL24657101W",
+          "publish_year": [
+            2012
+          ],
+          "publisher": [
+            "Pearson",
+            "PEARSON"
+          ],
+          "title": "ALGEBRE LINEAIRE ET APPLICATIONS 4E ED + ETEXT"
+        }
+      ],
+      "num_found": 2,
+      "query": "(title:\"Introduction aux mathématiques de l'ingénieur\" AND author:\"Jean-Marie De Koninck\") OR (title:\"Introduction Aux Mathématiques de L'ingénieur\" AND author:\"Jean-Marie De Koninck\") OR (title:\"Algèbre linéaire et applications\" AND author:\"David Lay\") OR (title:\"Probabilités en gestion et en économie\" AND author:\"Jean M. Martel\") OR (title:\"Enseigner les premiers concepts de probabilités un monde de possibilités!\" AND author:\"Vincent Martin\")",
+      "record_ids": [
+        "book-0508",
+        "book-0509",
+        "book-0514",
+        "book-0520",
+        "book-0521"
+      ]
+    },
+    {
+      "docs": [
+        {
+          "author_name": [
+            "M'hammed Mountassir"
+          ],
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "key": "/books/OL43168108M",
+                "publish_date": [
+                  "2014"
+                ],
+                "publisher": [
+                  "Afrique Orient"
+                ],
+                "title": "Probabilités et statistiques"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 2014,
+          "key": "/works/OL31504892W",
+          "publish_year": [
+            2014
+          ],
+          "publisher": [
+            "Afrique Orient"
+          ],
+          "title": "Probabilités et statistiques"
+        }
+      ],
+      "num_found": 1,
+      "query": "(title:\"Fonctions de plusieurs variables\" AND author:\"William Gordon McCallum\") OR (title:\"Introduction à la statistique\" AND author:\"Stephan Morgenthaler\") OR (title:\"Probabilités et statistique\" AND author:\"M'hammed Mountassir\") OR (title:\"Inférence statistique et probabilités\" AND author:\"Stéphane Mussard\") OR (title:\"Statistique et probabilités\" AND author:\"Gilles Ouellet\")",
+      "record_ids": [
+        "book-0524",
+        "book-0529",
+        "book-0530",
+        "book-0532",
+        "book-0535"
+      ]
+    },
+    {
+      "docs": [
+        {
+          "author_name": [
+            "André Ross"
+          ],
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "isbn": [
+                  "9782897320492",
+                  "2897320494"
+                ],
+                "key": "/books/OL44604366M",
+                "publish_date": [
+                  "Nov 30, 2016"
+                ],
+                "publisher": [
+                  "MODULO"
+                ],
+                "title": "Mathématiques appliquées aux technologies du bâtiment et du territoire"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 2016,
+          "isbn": [
+            "2897320494",
+            "9782897320492"
+          ],
+          "key": "/works/OL32782258W",
+          "publish_year": [
+            2016
+          ],
+          "publisher": [
+            "MODULO"
+          ],
+          "title": "Mathématiques appliquées aux technologies du bâtiment et du territoire"
+        },
+        {
+          "author_name": [
+            "Gérard A. Philippin"
+          ],
+          "cover_edition_key": "OL32742842M",
+          "cover_i": 11368858,
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "cover_i": 11368858,
+                "isbn": [
+                  "9782760616103",
+                  "276061610X"
+                ],
+                "key": "/books/OL32742842M",
+                "publish_date": [
+                  "1993"
+                ],
+                "publisher": [
+                  "Presses de l'Université de Montréal"
+                ],
+                "title": "Cours d'analyse à l'usage des ingénieurs"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 1993,
+          "isbn": [
+            "276061610X",
+            "9782760616103"
+          ],
+          "key": "/works/OL24669975W",
+          "publish_year": [
+            1993
+          ],
+          "publisher": [
+            "Presses de l'Université de Montréal"
+          ],
+          "title": "Cours d'analyse à l'usage des ingénieurs"
+        },
+        {
+          "author_name": [
+            "Alan Ruegg"
+          ],
+          "cover_edition_key": "OL12643528M",
+          "cover_i": 3157020,
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "cover_i": 3157020,
+                "isbn": [
+                  "9782880742867",
+                  "2880742862"
+                ],
+                "key": "/books/OL12643528M",
+                "publish_date": [
+                  "January 1, 1994"
+                ],
+                "publisher": [
+                  "Presses polytechniques et universitaires romandes"
+                ],
+                "title": "Probabilités et statistique, 4e édition"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 1994,
+          "isbn": [
+            "2880742862",
+            "9782880742867"
+          ],
+          "key": "/works/OL10007997W",
+          "publish_year": [
+            1994
+          ],
+          "publisher": [
+            "Presses polytechniques et universitaires romandes"
+          ],
+          "title": "Probabilités et statistique, 4e édition"
+        },
+        {
+          "author_name": [
+            "Alan Ruegg"
+          ],
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "isbn": [
+                  "2880741483",
+                  "9782880741488"
+                ],
+                "key": "/books/OL20097630M",
+                "publish_date": [
+                  "1989"
+                ],
+                "publisher": [
+                  "Presses Polytechniques Romandes",
+                  "Presses Polytechniques et Universitaires Romandes (PPUR)"
+                ],
+                "title": "Probabilités et statistique"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 1989,
+          "isbn": [
+            "2880741483",
+            "9782880741488"
+          ],
+          "key": "/works/OL10007996W",
+          "publish_year": [
+            1989
+          ],
+          "publisher": [
+            "Presses Polytechniques et Universitaires Romandes (PPUR)",
+            "Presses Polytechniques Romandes"
+          ],
+          "title": "Probabilités et statistique"
+        }
+      ],
+      "num_found": 4,
+      "query": "(title:\"Cours d'analyse à l'usage des ingénieurs\" AND author:\"Gérard A. Philippin\") OR (title:\"Mathématiques appliquées aux technologies du bâtiment et du territoire\" AND author:\"André Ross\") OR (title:\"Probabilités et statistique\" AND author:\"Alan Ruegg\") OR (title:\"Statistics and Data Analysis, Student Guide An Introduction\" AND author:\"Andrew F. Siegel\") OR (title:\"Analyse concepts et contextes. Fonctions de plusieurs variables\" AND author:\"James Stewart\")",
+      "record_ids": [
+        "book-0538",
+        "book-0543",
+        "book-0546",
+        "book-0547",
+        "book-0551"
+      ]
+    },
+    {
+      "docs": [
+        {
+          "author_name": [
+            "James Stewart"
+          ],
+          "cover_edition_key": "OL27644306M",
+          "cover_i": 9090044,
+          "edition_count": 2,
+          "editions": {
+            "docs": [
+              {
+                "cover_i": 9090044,
+                "isbn": [
+                  "9782804163273",
+                  "280416327X"
+                ],
+                "key": "/books/OL27644306M",
+                "publish_date": [
+                  "Sep 12, 2011"
+                ],
+                "publisher": [
+                  "De Boeck",
+                  "DE BOECK"
+                ],
+                "title": "Analyse concepts et contextes"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 2006,
+          "isbn": [
+            "9782804150303",
+            "2804150305",
+            "280416327X",
+            "9782804163273"
+          ],
+          "key": "/works/OL20423069W",
+          "publish_year": [
+            2011,
+            2006
+          ],
+          "publisher": [
+            "De Boeck",
+            "DE BOECK"
+          ],
+          "title": "Analyse concepts et contextes"
+        },
+        {
+          "author_name": [
+            "Suzanne Wildi"
+          ],
+          "edition_count": 1,
+          "editions": {
+            "docs": [
+              {
+                "isbn": [
+                  "9782920910201",
+                  "2920910205"
+                ],
+                "key": "/books/OL34390662M",
+                "publish_date": [
+                  "1994"
+                ],
+                "publisher": [
+                  "Cegep Francois-Xavier-Garneau"
+                ],
+                "title": "Calcul Differentiel et Integral II"
+              }
+            ],
+            "numFound": 1,
+            "numFoundExact": true,
+            "start": 0
+          },
+          "first_publish_year": 1994,
+          "isbn": [
+            "2920910205",
+            "9782920910201"
+          ],
+          "key": "/works/OL25626520W",
+          "publish_year": [
+            1994
+          ],
+          "publisher": [
+            "Cegep Francois-Xavier-Garneau"
+          ],
+          "title": "Calcul Differentiel et Integral II"
+        }
+      ],
+      "num_found": 2,
+      "query": "(title:\"Analyse. Concepts et contextes Volume 2. Fonctions de plusieurs variables\" AND author:\"James Stewart\") OR (title:\"Calcul différentiel et intégral II pour l'étudiant avant tout\" AND author:\"Suzanne Wildi\")",
+      "record_ids": [
+        "book-0552",
+        "book-0560"
+      ]
     }
   ],
   "retrieved_on": "2026-07-14",
-  "target_record_count": 223
+  "target_record_count": 248
 }

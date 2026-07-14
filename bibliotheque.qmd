@@ -17,7 +17,7 @@ resources:
 ::: {.library-hero-copy}
 <h1 id="library-title">Ma bibliothèque</h1>
 
-<p class="library-lead">Une collection vivante de <span data-total-books>467</span> livres, entre classiques des mathématiques, statistique, science des données et curiosités scientifiques.</p>
+<p class="library-lead">Une collection vivante de <span data-total-books>560</span> livres, entre classiques des mathématiques, statistique, science des données et curiosités scientifiques.</p>
 
 ::: {.library-actions}
 <button class="library-button library-button-primary" id="library-explore" type="button"><i class="bi bi-book" aria-hidden="true"></i>Explorer le catalogue</button>
@@ -27,7 +27,7 @@ resources:
 ::: {.library-hero-metrics aria-label="Aperçu de la collection"}
 ::: {.library-hero-metric}
 <i class="bi bi-bookshelf" aria-hidden="true"></i>
-<span class="library-metric-value" data-total-books>467</span>
+<span class="library-metric-value" data-total-books>560</span>
 <span class="library-metric-label">livres</span>
 :::
 ::: {.library-hero-metric}
@@ -37,7 +37,7 @@ resources:
 :::
 ::: {.library-hero-metric}
 <i class="bi bi-building" aria-hidden="true"></i>
-<span class="library-metric-value" data-publisher-count>189</span>
+<span class="library-metric-value" data-publisher-count>240</span>
 <span class="library-metric-label">maisons d’édition</span>
 :::
 :::
@@ -69,7 +69,7 @@ resources:
 ::: {.library-insight}
 <i class="bi bi-calendar-check" aria-hidden="true"></i>
 <span>Année médiane</span>
-<strong data-median-year>1995</strong>
+<strong data-median-year>1996</strong>
 :::
 ::: {.library-insight}
 <i class="bi bi-calendar-range" aria-hidden="true"></i>
@@ -79,7 +79,7 @@ resources:
 ::: {.library-insight}
 <i class="bi bi-book" aria-hidden="true"></i>
 <span>Année renseignée</span>
-<strong><span data-known-year-count>466</span> livres</strong>
+<strong><span data-known-year-count>559</span> livres</strong>
 :::
 ::: {.library-insight}
 <i class="bi bi-upc-scan" aria-hidden="true"></i>
@@ -114,7 +114,7 @@ resources:
 ::: {.library-search-wrap}
 <i class="bi bi-search" aria-hidden="true"></i>
 <label class="visually-hidden" for="library-search">Rechercher dans le catalogue</label>
-<input id="library-search" type="search" placeholder="Rechercher dans 467 livres" autocomplete="off">
+<input id="library-search" type="search" placeholder="Rechercher dans 560 livres" autocomplete="off">
 :::
 
 ::: {.library-filter-rail}
@@ -140,7 +140,7 @@ resources:
 :::
 
 ::: {.library-result-head}
-<p id="library-result-count" aria-live="polite">467 livres</p>
+<p id="library-result-count" aria-live="polite">560 livres</p>
 :::
 
 <div id="library-book-grid" class="library-book-grid"></div>
@@ -150,8 +150,8 @@ resources:
 <button id="library-load-more" class="library-button library-button-secondary" type="button">Afficher 24 livres de plus</button>
 :::
 
-<p class="library-cover-note"><span data-cover-count>376</span> livres, soit <span data-cover-rate>80,5</span> % du catalogue, possèdent maintenant une couverture provenant d'index bibliographiques, de maisons d'édition, de libraires ou de collections numérisées. La priorité est donnée aux correspondances exactes d'ISBN; les livres sans ISBN exigent une correspondance stricte du titre, de l'auteur, de l'année et de la maison d'édition.</p>
-<p class="library-source-note">Source principale: export CLZ Books du 13 juillet 2026. Les champs bibliographiques vides ont été complétés par correspondance exacte d'ISBN avec Open Library. Les images génériques qui ne représentent pas la véritable couverture sont exclues. Chaque couverture externe conserve son fournisseur, sa méthode d'appariement et son lien de provenance dans le catalogue.</p>
+<p class="library-cover-note"><span data-cover-count>463</span> livres, soit <span data-cover-rate>82,7</span> % du catalogue, possèdent maintenant une couverture provenant d'index bibliographiques, de maisons d'édition, de libraires ou de collections numérisées. La priorité est donnée aux correspondances exactes d'ISBN; les livres sans ISBN exigent une correspondance stricte du titre, de l'auteur, de l'année et de la maison d'édition.</p>
+<p class="library-source-note">Source principale: export CLZ Books du 14 juillet 2026. Les champs bibliographiques vides ont été complétés par correspondance exacte d'ISBN avec Open Library. Les images génériques qui ne représentent pas la véritable couverture sont exclues. Chaque couverture externe conserve son fournisseur, sa méthode d'appariement et son lien de provenance dans le catalogue.</p>
 :::
 :::
 

@@ -323,7 +323,7 @@
         "id": "executive_summary",
         "type": "markdown",
         "sourceId": "quality_pipeline",
-        "body": "## Executive Summary\n\nLa base conserve les 467 notices CLZ et ne contient plus aucun ISBN invalide. Dix-huit notices ont reçu des corrections manuelles à confiance élevée, soit 52 champs réellement modifiés. Après curation, 368 notices ont un ISBN valide. Parmi les 99 ISBN absents, 86 sont associés à des ouvrages publiés avant 1970; les 13 autres cas restent explicitement signalés plutôt que complétés avec une édition incertaine."
+        "body": "## Executive Summary\n\nLa base conserve les 560 notices CLZ et ne contient aucun ISBN invalide. 19 notices ont reçu des corrections manuelles à confiance élevée, soit 55 champs réellement modifiés. Après curation, 461 notices ont un ISBN valide. Parmi les 99 ISBN absents, 86 sont associés à des ouvrages publiés avant 1970; les 13 autres cas restent explicitement signalés plutôt que complétés avec une édition incertaine."
       },
       {
         "id": "metrics",
@@ -345,7 +345,7 @@
         "id": "quality_improvements",
         "type": "markdown",
         "sourceId": "quality_pipeline",
-        "body": "## Améliorations mesurables\n\nLes valeurs manquantes ont diminué pour les auteurs, titres, ISBN, éditeurs, dates et collections. La normalisation analytique ramène 205 libellés d’éditeur à 189 maisons d’édition, tout en conservant le libellé CLZ original dans chaque notice."
+        "body": "## Améliorations mesurables\n\nLes valeurs manquantes ont diminué pour les auteurs, titres, ISBN, éditeurs, dates et collections. La normalisation analytique ramène 257 libellés d’éditeur à 240 maisons d’édition, tout en conservant le libellé CLZ original dans chaque notice."
       },
       {
         "id": "missing_fields",
@@ -392,22 +392,22 @@
     "datasets": {
       "summary": [
         {
-          "records": 467,
-          "valid_isbn": 368,
-          "valid_isbn_share": 0.7880085653104925,
+          "records": 560,
+          "valid_isbn": 461,
+          "valid_isbn_share": 0.8232142857142857,
           "expected_pre1970_missing": 86,
           "isbn_to_review": 13,
           "corrected_records": 19,
-          "changed_fields": 56,
-          "external_isbn_coverage": 0.6611111111111111,
-          "raw_publishers": 205,
-          "normalized_publishers": 189
+          "changed_fields": 55,
+          "external_isbn_coverage": 0.7013274336283186,
+          "raw_publishers": 257,
+          "normalized_publishers": 240
         }
       ],
       "isbn_status": [
         {
           "status": "ISBN valide",
-          "count": 368,
+          "count": 461,
           "review_required": "Non"
         },
         {
@@ -429,15 +429,15 @@
       "missing_fields": [
         {
           "field": "Auteur",
-          "raw_missing": 10,
+          "raw_missing": 9,
           "curated_missing": 3,
-          "resolved": 7
+          "resolved": 6
         },
         {
           "field": "Titre",
-          "raw_missing": 1,
+          "raw_missing": 0,
           "curated_missing": 0,
-          "resolved": 1
+          "resolved": 0
         },
         {
           "field": "ISBN",
@@ -447,33 +447,33 @@
         },
         {
           "field": "Éditeur",
-          "raw_missing": 22,
+          "raw_missing": 21,
           "curated_missing": 17,
-          "resolved": 5
+          "resolved": 4
         },
         {
           "field": "Date de publication",
-          "raw_missing": 2,
+          "raw_missing": 1,
           "curated_missing": 1,
-          "resolved": 1
+          "resolved": 0
         },
         {
           "field": "Année",
-          "raw_missing": 2,
+          "raw_missing": 1,
           "curated_missing": 1,
-          "resolved": 1
+          "resolved": 0
         },
         {
           "field": "Genre CLZ",
-          "raw_missing": 463,
-          "curated_missing": 463,
+          "raw_missing": 556,
+          "curated_missing": 556,
           "resolved": 0
         },
         {
           "field": "Collection",
-          "raw_missing": 465,
-          "curated_missing": 460,
-          "resolved": 5
+          "raw_missing": 558,
+          "curated_missing": 552,
+          "resolved": 6
         }
       ],
       "review_cases": [
@@ -571,13 +571,6 @@
       ],
       "correction_log": [
         {
-          "id": "book-0001",
-          "title": "Probabilité (L3M1)",
-          "changed_fields": "Auteur, Titre, Éditeur, Date de publication, Année",
-          "source_count": 2,
-          "sources": "clz_sibling, openlibrary_exact"
-        },
-        {
           "id": "book-0005",
           "title": "éléments de la théorie des groupes",
           "changed_fields": "Auteur, Éditeur, Collection",
@@ -660,6 +653,13 @@
           "changed_fields": "Titre",
           "source_count": 1,
           "sources": "ellipses_official"
+        },
+        {
+          "id": "book-0258",
+          "title": "En chair et en maths, tome 1 : rencontre avec les mathématiques qui façonnent notre quotidien",
+          "changed_fields": "Auteur, Titre, Éditeur, Collection",
+          "source_count": 1,
+          "sources": "leslibraires_en_chair"
         },
         {
           "id": "book-0279",
@@ -813,7 +813,7 @@
     }
   ],
   "package_info": {
-    "root": "/private/tmp/web-site-covers-SJnNLT",
+    "root": "/private/tmp/web-site-library-refresh-FYKC2a/repo",
     "manifestPath": "data/library/library-audit-artifact.json",
     "snapshotPath": "data/library/library-audit-artifact.json"
   }

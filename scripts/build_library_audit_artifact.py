@@ -216,6 +216,10 @@ def main() -> None:
     review_rows = query_rows(connection, review_cases_sql)
     correction_rows = query_rows(connection, correction_log_sql)
     connection.close()
+    summary_row = summary[0]
+    missing_isbn_count = (
+        summary_row["expected_pre1970_missing"] + summary_row["isbn_to_review"]
+    )
 
     sources = [
         {
@@ -353,7 +357,12 @@ def main() -> None:
             {
                 "id": "isbn_status_chart",
                 "title": "Statut des ISBN dans le catalogue curé",
-                "subtitle": "Parmi les 99 ISBN absents, 86 concernent des publications antérieures à 1970 et 13 cas restent à examiner.",
+                "subtitle": (
+                    f"Parmi les {missing_isbn_count} ISBN absents, "
+                    f"{summary_row['expected_pre1970_missing']} concernent des "
+                    f"publications antérieures à 1970 et "
+                    f"{summary_row['isbn_to_review']} cas restent à examiner."
+                ),
                 "question": "Comment la complétude des ISBN se répartit-elle selon la période de publication?",
                 "rationale": "Un diagramme en barres compare directement les quatre statuts sur une base zéro.",
                 "type": "bar",
@@ -423,7 +432,21 @@ def main() -> None:
                 "id": "executive_summary",
                 "type": "markdown",
                 "sourceId": "quality_pipeline",
-                "body": "## Executive Summary\n\nLa base conserve les 467 notices CLZ et ne contient plus aucun ISBN invalide. Dix-huit notices ont reçu des corrections manuelles à confiance élevée, soit 52 champs réellement modifiés. Après curation, 368 notices ont un ISBN valide. Parmi les 99 ISBN absents, 86 sont associés à des ouvrages publiés avant 1970; les 13 autres cas restent explicitement signalés plutôt que complétés avec une édition incertaine.",
+                "body": (
+                    "## Executive Summary\n\n"
+                    f"La base conserve les {summary_row['records']} notices CLZ "
+                    "et ne contient aucun ISBN invalide. "
+                    f"{summary_row['corrected_records']} notices ont reçu des "
+                    "corrections manuelles à confiance élevée, soit "
+                    f"{summary_row['changed_fields']} champs réellement modifiés. "
+                    f"Après curation, {summary_row['valid_isbn']} notices ont un "
+                    f"ISBN valide. Parmi les {missing_isbn_count} ISBN absents, "
+                    f"{summary_row['expected_pre1970_missing']} sont associés à des "
+                    "ouvrages publiés avant 1970; les "
+                    f"{summary_row['isbn_to_review']} autres cas restent "
+                    "explicitement signalés plutôt que complétés avec une édition "
+                    "incertaine."
+                ),
             },
             {"id": "metrics", "type": "metric-strip", "cardIds": ["catalogue_size", "isbn_validity", "curation_changes", "remaining_review"]},
             {"id": "isbn_chart", "type": "chart", "chartId": "isbn_status_chart", "layout": "full"},
@@ -431,7 +454,14 @@ def main() -> None:
                 "id": "quality_improvements",
                 "type": "markdown",
                 "sourceId": "quality_pipeline",
-                "body": "## Améliorations mesurables\n\nLes valeurs manquantes ont diminué pour les auteurs, titres, ISBN, éditeurs, dates et collections. La normalisation analytique ramène 205 libellés d’éditeur à 189 maisons d’édition, tout en conservant le libellé CLZ original dans chaque notice.",
+                "body": (
+                    "## Améliorations mesurables\n\nLes valeurs manquantes ont "
+                    "diminué pour les auteurs, titres, ISBN, éditeurs, dates et "
+                    "collections. La normalisation analytique ramène "
+                    f"{summary_row['raw_publishers']} libellés d’éditeur à "
+                    f"{summary_row['normalized_publishers']} maisons d’édition, "
+                    "tout en conservant le libellé CLZ original dans chaque notice."
+                ),
             },
             {"id": "missing_fields", "type": "table", "tableId": "missing_fields_table", "layout": "full"},
             {

@@ -421,8 +421,22 @@ def main() -> None:
     else:
         partial_path = args.output.with_suffix(".partial.json")
         responses = (
+            read_json(args.output).get("responses", [])
+            if args.output.exists() else []
+        )
+        partial_responses = (
             read_json(partial_path).get("responses", [])
             if partial_path.exists() else []
+        )
+        completed_before_partial = {
+            record_id
+            for response in responses
+            for record_id in response.get("record_ids", [])
+        }
+        responses.extend(
+            response
+            for response in partial_responses
+            if not set(response.get("record_ids", [])) <= completed_before_partial
         )
         completed_ids = {
             record_id

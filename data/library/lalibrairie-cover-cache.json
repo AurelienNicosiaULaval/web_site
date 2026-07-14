@@ -253,6 +253,17 @@
       "source_url": "https://www.lalibrairie.com/cache/img/livres/456/9782344062456.jpg",
       "title": "La beauté des maths"
     },
+    "9782385491123": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/123/9782385491123.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/123/9782385491123.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/123/9782385491123-xs.jpg"
+      },
+      "isbn": "9782385491123",
+      "record_id": "book-0478",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/123/9782385491123.jpg",
+      "title": "PUBLICATIONS MATHEMATIQUES DE BESANCON. ALGEBRE ET THEORIE DES NOMBRES, NUMERO 2024"
+    },
     "9782493230027": {
       "cover": {
         "large": "https://www.lalibrairie.com/cache/img/livres/027/9782493230027.jpg",
@@ -396,6 +407,17 @@
       "source_url": "https://www.lalibrairie.com/cache/img/livres/941/9782701156941.jpg",
       "title": "La formule secrète: le duel mathématique qui enflamma l'Italie de la Renaissance"
     },
+    "9782729810030": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/030/9782729810030.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/030/9782729810030.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/030/9782729810030-xs.jpg"
+      },
+      "isbn": "9782729810030",
+      "record_id": "book-0473",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/030/9782729810030.jpg",
+      "title": "La loi dans \"Antigone\" de Sophocle La recherche du bonheur dans \"Lucien Leuwen\" de Stendhal"
+    },
     "9782749184098": {
       "cover": {
         "large": "https://www.lalibrairie.com/cache/img/livres/098/9782749184098.jpg",
@@ -440,6 +462,28 @@
       "source_url": "https://www.lalibrairie.com/cache/img/livres/457/9782759834457.jpg",
       "title": "Analyse fonctionnelle appliquée"
     },
+    "9782760551671": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/671/9782760551671.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/671/9782760551671.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/671/9782760551671-xs.jpg"
+      },
+      "isbn": "9782760551671",
+      "record_id": "book-0521",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/671/9782760551671.jpg",
+      "title": "Enseigner les premiers concepts de probabilités un monde de possibilités!"
+    },
+    "9782761376525": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/525/9782761376525.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/525/9782761376525.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/525/9782761376525-xs.jpg"
+      },
+      "isbn": "9782761376525",
+      "record_id": "book-0514",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/525/9782761376525.jpg",
+      "title": "Algèbre linéaire et applications"
+    },
     "9782803444298": {
       "cover": {
         "large": "https://www.lalibrairie.com/cache/img/livres/298/9782803444298.jpg",
@@ -450,6 +494,28 @@
       "record_id": "book-0053",
       "source_url": "https://www.lalibrairie.com/cache/img/livres/298/9782803444298.jpg",
       "title": "Astronomie"
+    },
+    "9782804150310": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/310/9782804150310.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/310/9782804150310.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/310/9782804150310-xs.jpg"
+      },
+      "isbn": "9782804150310",
+      "record_id": "book-0552",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/310/9782804150310.jpg",
+      "title": "Analyse. Concepts et contextes Volume 2. Fonctions de plusieurs variables"
+    },
+    "9782804183387": {
+      "cover": {
+        "large": "https://www.lalibrairie.com/cache/img/livres/387/9782804183387.jpg",
+        "medium": "https://www.lalibrairie.com/cache/img/livres/387/9782804183387.jpg",
+        "small": "https://www.lalibrairie.com/cache/img/livres/387/9782804183387-xs.jpg"
+      },
+      "isbn": "9782804183387",
+      "record_id": "book-0532",
+      "source_url": "https://www.lalibrairie.com/cache/img/livres/387/9782804183387.jpg",
+      "title": "Inférence statistique et probabilités"
     },
     "9782807336612": {
       "cover": {
@@ -683,7 +749,7 @@
       "title": "Éléments de mathématiques appliquées : séries, EDP, transformées de Laplace et de Fourier"
     }
   },
-  "cover_count": 62,
+  "cover_count": 68,
   "match_method": "exact_isbn",
   "misses": [
     {
@@ -692,9 +758,24 @@
       "title": "Mathématiques de l'intérêt"
     },
     {
+      "id": "book-0483",
+      "isbn": "9780075498223",
+      "title": "Les statistiques une approche nouvelle"
+    },
+    {
       "id": "book-0301",
       "isbn": "9780133633900",
       "title": "Graphs, Models, and Finite Mathematics"
+    },
+    {
+      "id": "book-0469",
+      "isbn": "9780201564488",
+      "title": "Concepts fondamentaux de la statistique"
+    },
+    {
+      "id": "book-0547",
+      "isbn": "9780471876601",
+      "title": "Statistics and Data Analysis, Student Guide An Introduction"
     },
     {
       "id": "book-0046",
@@ -717,114 +798,79 @@
       "title": "Torbeck's Statistical Cookbook for Scientists and Engineers"
     },
     {
-      "id": "book-0084",
-      "isbn": "9782030754665",
-      "title": "Dictionnaire des mathématiques modernes"
+      "id": "book-0492",
+      "isbn": "9782553016806",
+      "title": "Analyse numérique pour ingénieurs"
     },
     {
-      "id": "book-0193",
-      "isbn": "9782130314363",
-      "title": "Topologie des surfaces, 1ère édition (MATHEMATICIEN (LE))"
+      "id": "book-0477",
+      "isbn": "9782706103674",
+      "title": "Mathématiques pour les sciences de la nature et de la vie"
     },
     {
-      "id": "book-0143",
-      "isbn": "9782130353911",
-      "title": "Les Équilibres en physique"
+      "id": "book-0551",
+      "isbn": "9782744501197",
+      "title": "Analyse concepts et contextes. Fonctions de plusieurs variables"
     },
     {
-      "id": "book-0237",
-      "isbn": "9782130365327",
-      "title": "Probabilites (les)"
+      "id": "book-0538",
+      "isbn": "9782760616424",
+      "title": "Cours d'analyse à l'usage des ingénieurs"
     },
     {
-      "id": "book-0064",
-      "isbn": "9782130366027",
-      "title": "L'ALGEBRE LINEAIRE QSJ 1251 (QUE SAIS-JE ?)"
+      "id": "book-0498",
+      "isbn": "9782761354875",
+      "title": "Calcul différentiel"
     },
     {
-      "id": "book-0282",
-      "isbn": "9782200210410",
-      "title": "Mathématiques : analyse"
+      "id": "book-0470",
+      "isbn": "9782761392471",
+      "title": "Introduction à l'algèbre linéaire et à ses applications"
     },
     {
-      "id": "book-0031",
-      "isbn": "9782704210046",
-      "title": "Distributions et transformation de Fourier : à l'usage des physiciens et des ingénieurs"
-    },
-    {
-      "id": "book-0136",
-      "isbn": "9782711720279",
-      "title": "Noveau cours de mathematiques - Tome 2: Polynomes et Algebre lineaire"
-    },
-    {
-      "id": "book-0101",
-      "isbn": "9782733805855",
-      "title": "Physique et chimie"
-    },
-    {
-      "id": "book-0112",
-      "isbn": "9782743008260",
-      "title": "Mathématiques, MPSI - 1re année"
-    },
-    {
-      "id": "book-0385",
-      "isbn": "9782761300391",
-      "title": "Ondes, optique et physique moderne"
-    },
-    {
-      "id": "book-0387",
-      "isbn": "9782761300391",
-      "title": "Ondes, optique et physique moderne"
-    },
-    {
-      "id": "book-0082",
-      "isbn": "9782763773636",
-      "title": "Introduction à l'analyse"
-    },
-    {
-      "id": "book-0287",
-      "isbn": "9782765107552",
-      "title": "Fondements de la comptabilité financière"
-    },
-    {
-      "id": "book-0019",
-      "isbn": "9782766157426",
+      "id": "book-0493",
+      "isbn": "9782765062479",
       "title": "Calcul intégral"
     },
     {
-      "id": "book-0446",
-      "isbn": "9782815202374",
-      "title": "Mathematiques, Espionnage Et Piratage Informatique - Codage Et Cryptographie"
+      "id": "book-0546",
+      "isbn": "9782880741488",
+      "title": "Probabilités et statistique"
     },
     {
-      "id": "book-0192",
-      "isbn": "9782815202381",
-      "title": "Les nombres premiers : Un long chemin vers l'infini"
+      "id": "book-0529",
+      "isbn": "9782880743727",
+      "title": "Introduction à la statistique"
     },
     {
-      "id": "book-0186",
-      "isbn": "9782815202398",
-      "title": "Le monde est mathématique Quand les droites deviennent courbes Les géométries non- euclidiennes"
+      "id": "book-0520",
+      "isbn": "9782891050081",
+      "title": "Probabilités en gestion et en économie"
     },
     {
-      "id": "book-0137",
-      "isbn": "9782870770658",
-      "title": "Notions de logique formelle"
+      "id": "book-0535",
+      "isbn": "9782894430552",
+      "title": "Statistique et probabilités"
     },
     {
-      "id": "book-0175",
-      "isbn": "9782890943377",
-      "title": "Probabilités et statistiques avec applications en technologie et ingénierie (1Cédérom)"
+      "id": "book-0524",
+      "isbn": "9782894612606",
+      "title": "Fonctions de plusieurs variables"
     },
     {
-      "id": "book-0032",
-      "isbn": "9782892496017",
-      "title": "Maths 103"
+      "id": "book-0530",
+      "isbn": "9782897320430",
+      "title": "Probabilités et statistique"
     },
     {
-      "id": "book-0030",
-      "isbn": "9782894714270",
-      "title": "Cette Science Qui Ne Cesse de Nous Etonner"
+      "id": "book-0543",
+      "isbn": "9782897320492",
+      "title": "Mathématiques appliquées aux technologies du bâtiment et du territoire"
+    },
+    {
+      "id": "book-0487",
+      "isbn": "9782897326128",
+      "title": "Probabilités et statistiques - Sciences"
     },
     {
       "id": "book-0354",
@@ -837,39 +883,24 @@
       "title": "Fonctions De Plusieurs Variables"
     },
     {
+      "id": "book-0508",
+      "isbn": "9782921180801",
+      "title": "Introduction aux mathématiques de l'ingénieur"
+    },
+    {
+      "id": "book-0560",
+      "isbn": "9782922019001",
+      "title": "Calcul différentiel et intégral II pour l'étudiant avant tout"
+    },
+    {
       "id": "book-0364",
       "isbn": "9782923565071",
       "title": "Éléments de mathématiques appliquées à la physique"
     },
     {
-      "id": "book-0256",
-      "isbn": "9782957239115",
-      "title": "MATHÉMATIQUES: leur contenu, leurs méthodes, leur signification (Mathématiques, par Alexandrov, Kolmogorov et Lavrentiev) (French Edition)"
-    },
-    {
-      "id": "book-0257",
-      "isbn": "9782957239122",
-      "title": "MATHÉMATIQUES: leur contenu, leurs méthodes, leur signification (Mathématiques, par Alexandrov, Kolmogorov et Lavrentiev) (French Edition)"
-    },
-    {
-      "id": "book-0255",
-      "isbn": "9782957239139",
-      "title": "MATHEMATIQUES: leur contenu, leurs méthodes, leur signification (Mathématiques, par Alexandrov, Kolmogorov et Lavrentiev) (French Edition)"
-    },
-    {
-      "id": "book-0158",
-      "isbn": "9783540908999",
-      "title": "Von Mises Calculus For Statistical Functionals"
-    },
-    {
-      "id": "book-0297",
-      "isbn": "9785030007175",
-      "title": "Précis d'analyse fonctionnelle"
-    },
-    {
-      "id": "book-0308",
-      "isbn": "9786001417351",
-      "title": "Introduction to Linear Algebra"
+      "id": "book-0509",
+      "isbn": "9782924601020",
+      "title": "Introduction Aux Mathématiques de L'ingénieur"
     },
     {
       "id": "book-0093",
@@ -890,19 +921,10 @@
       "id": "book-0092",
       "isbn": "9791097085292",
       "title": "Le Frido 2021"
-    },
-    {
-      "id": "book-0430",
-      "isbn": "9798811583607",
-      "title": "The StatQuest Illustrated Guide To Machine Learning"
-    },
-    {
-      "id": "book-0335",
-      "isbn": "9798991493604",
-      "title": "A Study of Riemann's Zeta Function"
     }
   ],
+  "new_cover_count": 6,
   "provider": "LaLibrairie.com",
-  "requested_isbn_count": 105,
+  "requested_isbn_count": 40,
   "retrieved_on": "2026-07-14"
 }

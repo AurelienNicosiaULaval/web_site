@@ -176,6 +176,17 @@
       "source_url": "https://www.editions-ellipses.fr/fr/accueil/16111-30345-toutes-les-mathematiques-4e-edition-mpsi-mp2i-pcsi-et-ptsi-4e-edition-9782340108219.html",
       "title": "Toutes les mathématiques - MPSI, MP2I, PCSI, PTSI et TSI - 4e édition"
     },
+    "9782729808440": {
+      "cover": {
+        "large": "https://www.editions-ellipses.fr/32915-large_modale_produit/groupe-circulaire-rotations-et-quaternions-capes-et-agregation-de-mathematiques.jpg",
+        "medium": "https://www.editions-ellipses.fr/32915-home_default/groupe-circulaire-rotations-et-quaternions-capes-et-agregation-de-mathematiques.jpg",
+        "small": "https://www.editions-ellipses.fr/32915-home_default/groupe-circulaire-rotations-et-quaternions-capes-et-agregation-de-mathematiques.jpg"
+      },
+      "isbn": "9782729808440",
+      "record_id": "book-0448",
+      "source_url": "https://www.editions-ellipses.fr/fr/accueil/10046-20380-groupe-circulaire-rotations-et-quaternions-capes-et-agregation-de-mathematiques-9782729808440.html",
+      "title": "Groupe circulaire, rotations et quaternions - Capes et Agrégation de mathématiques"
+    },
     "9782729814175": {
       "cover": {
         "large": "https://www.editions-ellipses.fr/44357-large_modale_produit/promenades-mathematiques-histoire-fondements-applications.jpg",
@@ -187,6 +198,17 @@
       "source_url": "https://www.editions-ellipses.fr/fr/accueil/6133-16460-promenades-mathematiques-histoire-fondements-applications-9782729814175.html",
       "title": "Promenades mathématiques - Histoire, fondements, applications"
     },
+    "9782729834180": {
+      "cover": {
+        "large": "https://www.editions-ellipses.fr/40451-large_modale_produit/les-contre-exemples-en-mathematiques.jpg",
+        "medium": "https://www.editions-ellipses.fr/40451-home_default/les-contre-exemples-en-mathematiques.jpg",
+        "small": "https://www.editions-ellipses.fr/40451-home_default/les-contre-exemples-en-mathematiques.jpg"
+      },
+      "isbn": "9782729834180",
+      "record_id": "book-0216",
+      "source_url": "https://www.editions-ellipses.fr/fr/accueil/5328-15654-les-contre-exemples-en-mathematiques-9782729834180.html",
+      "title": "Les contre-exemples en mathématiques"
+    },
     "9782729842772": {
       "cover": {
         "large": "https://www.editions-ellipses.fr/27603-large_modale_produit/theorie-de-galois-niveau-l3-m1-2e-edition.jpg",
@@ -197,6 +219,28 @@
       "record_id": "book-0191",
       "source_url": "https://www.editions-ellipses.fr/fr/accueil/4897-15223-theorie-de-galois-niveau-l3-m1-2e-edition-9782729842772.html",
       "title": "Théorie de Galois - niveau L3-M1 - 2e édition"
+    },
+    "9782729855529": {
+      "cover": {
+        "large": "https://www.editions-ellipses.fr/45264-large_modale_produit/cours-d-algebre-agregation.jpg",
+        "medium": "https://www.editions-ellipses.fr/45264-home_default/cours-d-algebre-agregation.jpg",
+        "small": "https://www.editions-ellipses.fr/45264-home_default/cours-d-algebre-agregation.jpg"
+      },
+      "isbn": "9782729855529",
+      "record_id": "book-0361",
+      "source_url": "https://www.editions-ellipses.fr/fr/accueil/7778-18110-cours-d-algebre-agregation-9782729855529.html",
+      "title": "Cours d'algèbre (Agrégation)"
+    },
+    "9782729856632": {
+      "cover": {
+        "large": "https://www.editions-ellipses.fr/29816-large_modale_produit/la-cuisine-aux-epices-classes-prepas-economiques-et-commerciales.jpg",
+        "medium": "https://www.editions-ellipses.fr/29816-home_default/la-cuisine-aux-epices-classes-prepas-economiques-et-commerciales.jpg",
+        "small": "https://www.editions-ellipses.fr/29816-home_default/la-cuisine-aux-epices-classes-prepas-economiques-et-commerciales.jpg"
+      },
+      "isbn": "9782729856632",
+      "record_id": "book-0320",
+      "source_url": "https://www.editions-ellipses.fr/fr/accueil/7054-17383-la-cuisine-aux-epices-classes-prepas-economiques-et-commerciales-9782729856632.html",
+      "title": "La cuisine aux épices (classes prépas économiques et commerciales)"
     },
     "9782729884628": {
       "cover": {
@@ -230,12 +274,34 @@
       "record_id": "book-0199",
       "source_url": "https://www.editions-ellipses.fr/fr/accueil/5106-15432-mathematiques-polytechnique-1985-1988-tome-3-9782729889074.html",
       "title": "Mathématiques Polytechnique 1985-1988 - Tome 3"
+    },
+    "9782729894283": {
+      "cover": {
+        "large": "https://www.editions-ellipses.fr/25720-large_modale_produit/introduction-a-l-optimisation.jpg",
+        "medium": "https://www.editions-ellipses.fr/25720-home_default/introduction-a-l-optimisation.jpg",
+        "small": "https://www.editions-ellipses.fr/25720-home_default/introduction-a-l-optimisation.jpg"
+      },
+      "isbn": "9782729894283",
+      "record_id": "book-0114",
+      "source_url": "https://www.editions-ellipses.fr/fr/accueil/3070-13392-introduction-a-l-optimisation-9782729894283.html",
+      "title": "Introduction à l'optimisation"
+    },
+    "9782729895402": {
+      "cover": {
+        "large": "https://www.editions-ellipses.fr/44369-large_modale_produit/geometrie.jpg",
+        "medium": "https://www.editions-ellipses.fr/44369-home_default/geometrie.jpg",
+        "small": "https://www.editions-ellipses.fr/44369-home_default/geometrie.jpg"
+      },
+      "isbn": "9782729895402",
+      "record_id": "book-0080",
+      "source_url": "https://www.editions-ellipses.fr/fr/accueil/11328-21979-geometrie-9782729895402.html",
+      "title": "Géométrie"
     }
   },
-  "cover_count": 21,
+  "cover_count": 27,
   "match_method": "exact_isbn",
   "misses": [],
   "provider": "Éditions Ellipses",
-  "requested_isbn_count": 21,
+  "requested_isbn_count": 28,
   "retrieved_on": "2026-07-14"
 }

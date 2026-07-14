@@ -77,21 +77,30 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
     catalogue = read_json(args.catalogue)
-    targets = sorted(
-        (
-            {
-                "id": record["id"],
-                "isbn": str(record.get("isbn", "")).strip(),
-                "title": str(record.get("title", "")).strip(),
-            }
-            for record in catalogue["records"]
-            if record.get("isbn_status") == "valid"
-            and not record.get("cover")
-        ),
-        key=lambda record: record["isbn"],
-    )
+    valid_isbns = {
+        str(record.get("isbn", "")).strip()
+        for record in catalogue["records"]
+        if record.get("isbn_status") == "valid"
+    }
+    targets_by_isbn: dict[str, dict[str, str]] = {}
+    for record in catalogue["records"]:
+        isbn = str(record.get("isbn", "")).strip()
+        if record.get("isbn_status") != "valid" or record.get("cover"):
+            continue
+        targets_by_isbn.setdefault(isbn, {
+            "id": record["id"],
+            "isbn": isbn,
+            "title": str(record.get("title", "")).strip(),
+        })
+    targets = sorted(targets_by_isbn.values(), key=lambda record: record["isbn"])
 
-    books: dict[str, Any] = {}
+    existing = read_json(args.output) if args.output.exists() else {"books": {}}
+    books: dict[str, Any] = {
+        isbn: entry
+        for isbn, entry in existing.get("books", {}).items()
+        if isbn in valid_isbns
+    }
+    initial_cover_count = len(books)
     misses: list[dict[str, str]] = []
     for target in targets:
         images = cover_urls(target["isbn"])
@@ -112,13 +121,15 @@ def main() -> None:
         "match_method": "exact_isbn",
         "requested_isbn_count": len(targets),
         "cover_count": len(books),
+        "new_cover_count": len(books) - initial_cover_count,
         "books": books,
         "misses": misses,
     }
     write_json(args.output, payload)
     print(
-        f"Cached {len(books)} LaLibrairie.com covers for {len(targets)} "
-        f"missing-cover ISBNs; {len(misses)} ISBNs were not found."
+        f"Cache contains {len(books)} LaLibrairie.com covers; requested "
+        f"{len(targets)} missing-cover ISBNs; added "
+        f"{len(books) - initial_cover_count}; {len(misses)} were not found."
     )
 
 

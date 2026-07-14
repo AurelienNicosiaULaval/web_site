@@ -1,30 +1,30 @@
 {
   "generated_on": "2026-07-14",
-  "record_count": 467,
-  "raw_record_count": 467,
+  "record_count": 560,
+  "raw_record_count": 560,
   "manual_override_count": 19,
-  "manual_field_change_count": 56,
-  "openlibrary_exact_match_count": 245,
-  "openlibrary_exact_match_rate": 0.5246,
-  "unique_valid_isbn_count": 360,
-  "openlibrary_unique_isbn_match_count": 238,
-  "openlibrary_unique_isbn_match_rate": 0.6611,
+  "manual_field_change_count": 55,
+  "openlibrary_exact_match_count": 326,
+  "openlibrary_exact_match_rate": 0.5821,
+  "unique_valid_isbn_count": 452,
+  "openlibrary_unique_isbn_match_count": 317,
+  "openlibrary_unique_isbn_match_rate": 0.7013,
   "openlibrary_filled_fields": {},
-  "cover_record_count": 376,
-  "cover_record_rate": 0.8051,
+  "cover_record_count": 463,
+  "cover_record_rate": 0.8268,
   "cover_providers": {
-    "AbeBooks": 28,
+    "AbeBooks": 43,
     "Anticariat.net": 1,
     "Dunod": 13,
-    "Google Books": 41,
+    "Google Books": 50,
     "Internet Archive": 1,
-    "LaLibrairie.com": 49,
+    "LaLibrairie.com": 55,
     "Mir Titles": 1,
-    "Open Library": 221,
+    "Open Library": 278,
     "Éditions Ellipses": 21
   },
   "cover_match_methods": {
-    "exact_isbn": 354,
+    "exact_isbn": 441,
     "exact_isbn_search": 1,
     "title_author_year_publisher": 15,
     "title_author_year_publisher_work": 6
@@ -33,17 +33,17 @@
     "missing_1970_or_later": 12,
     "missing_pre_1970": 86,
     "missing_unknown_year": 1,
-    "valid": 368
+    "valid": 461
   },
   "raw_missing_fields": {
-    "author": 10,
-    "title": 1,
+    "author": 9,
+    "title": 0,
     "isbn": 103,
-    "publisher": 22,
-    "publication_date": 2,
-    "publication_year": 2,
-    "genre": 463,
-    "series": 465
+    "publisher": 21,
+    "publication_date": 1,
+    "publication_year": 1,
+    "genre": 556,
+    "series": 558
   },
   "missing_fields": {
     "author": 3,
@@ -52,19 +52,19 @@
     "publisher": 17,
     "publication_date": 1,
     "publication_year": 1,
-    "genre": 463,
-    "series": 460
+    "genre": 556,
+    "series": 552
   },
-  "raw_publisher_label_count": 205,
-  "normalized_publisher_count": 189,
+  "raw_publisher_label_count": 257,
+  "normalized_publisher_count": 240,
   "quality_flags": {
     "missing_author": 3,
     "missing_isbn_1970_or_later": 12,
     "missing_isbn_unknown_year": 1,
     "missing_or_invalid_year": 1,
     "missing_publisher": 17,
-    "same_title_author_possible_multiple_copy": 29,
-    "shared_isbn_possible_multiple_copy": 16
+    "same_title_author_possible_multiple_copy": 35,
+    "shared_isbn_possible_multiple_copy": 18
   },
   "remaining_review_records": [
     {
@@ -237,27 +237,6 @@
     }
   ],
   "applied_overrides": [
-    {
-      "id": "book-0001",
-      "before": {
-        "author": "",
-        "title": "",
-        "publisher": "",
-        "publication_date": "",
-        "publication_year": ""
-      },
-      "after": {
-        "author": "Philippe Barbé",
-        "title": "Probabilité (L3M1)",
-        "publisher": "EDP Sciences",
-        "publication_date": "Feb 01, 2007",
-        "publication_year": "2007"
-      },
-      "sources": [
-        "clz_sibling",
-        "openlibrary_exact"
-      ]
-    },
     {
       "id": "book-0005",
       "before": {
@@ -447,6 +426,24 @@
       },
       "sources": [
         "ellipses_official"
+      ]
+    },
+    {
+      "id": "book-0258",
+      "before": {
+        "author": "Jean-FRANï¿½JEAN- Marie De Koninck OIS CLICHE",
+        "title": "EN CHAIR ET EN MATHS T01",
+        "publisher": "SEPTEMBRE INC.",
+        "series": ""
+      },
+      "after": {
+        "author": "Jean-Marie De Koninck | Jean-François Cliche",
+        "title": "En chair et en maths, tome 1 : rencontre avec les mathématiques qui façonnent notre quotidien",
+        "publisher": "Septembre éditeur",
+        "series": "En chair et en maths"
+      },
+      "sources": [
+        "leslibraires_en_chair"
       ]
     },
     {

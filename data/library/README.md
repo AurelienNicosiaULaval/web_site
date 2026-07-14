@@ -12,6 +12,18 @@ La commande suivante produit `assets/library/library-data.json` et le rapport de
 python3 scripts/curate_library_data.py
 ```
 
+Lors d’un nouvel export CLZ, les identifiants des notices existantes sont préservés afin que les corrections manuelles et les couvertures sans ISBN restent associées au bon livre:
+
+```bash
+uv run --with pdfplumber python scripts/extract_clz_library.py \
+  /chemin/vers/export-clz.pdf \
+  data/library/clz-library-raw.json \
+  --previous data/library/clz-library-raw.json
+python3 scripts/curate_library_data.py
+python3 scripts/fetch_openlibrary_isbn.py
+python3 scripts/curate_library_data.py
+```
+
 Les couvertures officielles Ellipses manquantes sont actualisées par ISBN exact avant la reconstruction:
 
 ```bash

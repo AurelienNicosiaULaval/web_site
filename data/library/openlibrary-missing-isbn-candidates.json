@@ -1,0 +1,404 @@
+{
+  "book-0005": {
+    "query": {
+      "title": "éléments de la théorie des groupes",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key"
+    },
+    "numFound": 4,
+    "docs": [
+      {
+        "author_name": [
+          "J.-A. de Séguier"
+        ],
+        "edition_key": [
+          "OL22141176M"
+        ],
+        "first_publish_year": 1904,
+        "key": "/works/OL18388725W",
+        "publish_year": [
+          1904
+        ],
+        "publisher": [
+          "Gauthier-Villars"
+        ],
+        "title": "Eléments de la théorie des groups abstraits"
+      },
+      {
+        "author_name": [
+          "J. A. de Seguier"
+        ],
+        "edition_key": [
+          "OL58822192M"
+        ],
+        "first_publish_year": 1904,
+        "key": "/works/OL43190393W",
+        "publish_year": [
+          1904
+        ],
+        "publisher": [
+          "Gauteir-Villars"
+        ],
+        "title": "Elements de la Theorie des Groupes Abstraits"
+      },
+      {
+        "author_name": [
+          "Jean Armand Marie Joseph de 1 Séguier"
+        ],
+        "edition_key": [
+          "OL50860055M"
+        ],
+        "first_publish_year": 2023,
+        "isbn": [
+          "1021495549",
+          "9781021495549"
+        ],
+        "key": "/works/OL37709777W",
+        "publish_year": [
+          2023
+        ],
+        "publisher": [
+          "Creative Media Partners, LLC"
+        ],
+        "title": "Théorie des Groupes Finis. Éléments de la Théorie des Groupes Abstraits"
+      },
+      {
+        "author_name": [
+          "Réjean Landry"
+        ],
+        "edition_key": [
+          "OL21088890M"
+        ],
+        "first_publish_year": 1987,
+        "key": "/works/OL11197982W",
+        "publish_year": [
+          1987
+        ],
+        "publisher": [
+          "Université Laval, Laboratoire d'études politiques et administratives"
+        ],
+        "title": "Éléments pour une théorie de la demande d'interventions gouvernementales par les groupes d'intérêt"
+      }
+    ]
+  },
+  "book-0007": {
+    "query": {
+      "title": "Mathématiques Nouvelles 121 131",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key"
+    },
+    "numFound": 0,
+    "docs": []
+  },
+  "book-0013": {
+    "query": {
+      "title": "programmation linéaire",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key",
+      "author": "s. Achmanov"
+    },
+    "numFound": 0,
+    "docs": []
+  },
+  "book-0014": {
+    "query": {
+      "title": "Programmation linéaire",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key",
+      "author": "s. Achmanov"
+    },
+    "numFound": 0,
+    "docs": []
+  },
+  "book-0038": {
+    "query": {
+      "title": "Probability [by] Donald R. Barr [and] Peter W. Zehna",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key",
+      "author": "Donald Roy Barr"
+    },
+    "numFound": 1,
+    "docs": [
+      {
+        "author_name": [
+          "Donald Roy Barr"
+        ],
+        "edition_key": [
+          "OL17488943M"
+        ],
+        "first_publish_year": 1971,
+        "key": "/works/OL5903353W",
+        "publish_year": [
+          1971
+        ],
+        "publisher": [
+          "Brooks/Cole Pub. Co."
+        ],
+        "title": "Probability [by] Donald R. Barr [and] Peter W. Zehna"
+      }
+    ]
+  },
+  "book-0047": {
+    "query": {
+      "title": "Complément de mathématiques",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key",
+      "author": "Germain Beaudoin"
+    },
+    "numFound": 1,
+    "docs": [
+      {
+        "author_name": [
+          "Germain Beaudoin"
+        ],
+        "edition_key": [
+          "OL32087730M"
+        ],
+        "first_publish_year": 1979,
+        "isbn": [
+          "077466892X",
+          "276376892X",
+          "9782763768922",
+          "9780774668927"
+        ],
+        "key": "/works/OL24256263W",
+        "publish_year": [
+          1979
+        ],
+        "publisher": [
+          "Presses de lu̕niversité de Laval"
+        ],
+        "title": "Complément de mathématiques"
+      }
+    ]
+  },
+  "book-0051": {
+    "query": {
+      "title": "Les mathématiques du consommateur : livre du maître",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key",
+      "author": "Réal Béland"
+    },
+    "numFound": 0,
+    "docs": []
+  },
+  "book-0184": {
+    "query": {
+      "title": "éléments de topologie algébrique",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key",
+      "author": "Claude godbillon"
+    },
+    "numFound": 2,
+    "docs": [
+      {
+        "author_name": [
+          "Claude Godbillon"
+        ],
+        "edition_key": [
+          "OL12521830M"
+        ],
+        "first_publish_year": 1997,
+        "isbn": [
+          "9782705657031",
+          "2705657037"
+        ],
+        "key": "/works/OL4093304W",
+        "publish_year": [
+          1997
+        ],
+        "publisher": [
+          "Hermann"
+        ],
+        "title": "Eléments de topologie algébrique. Deuxième cycle"
+      },
+      {
+        "author_name": [
+          "Claude Godbillon"
+        ],
+        "edition_key": [
+          "OL16587595M",
+          "OL5029618M"
+        ],
+        "first_publish_year": 1971,
+        "key": "/works/OL4093307W",
+        "publish_year": [
+          1971
+        ],
+        "publisher": [
+          "Hermann"
+        ],
+        "title": "Éléments de topologie algébrique"
+      }
+    ]
+  },
+  "book-0245": {
+    "query": {
+      "title": "analytic number theory",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key",
+      "author": "Larry joel golstein"
+    },
+    "numFound": 0,
+    "docs": []
+  },
+  "book-0246": {
+    "query": {
+      "title": "Statistical Design and Analysis of Experiments",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key",
+      "author": "Peter W. M. John"
+    },
+    "numFound": 2,
+    "docs": [
+      {
+        "author_name": [
+          "Peter W. M. John"
+        ],
+        "edition_key": [
+          "OL43240271M"
+        ],
+        "first_publish_year": 1971,
+        "key": "/works/OL31569853W",
+        "publish_year": [
+          1971
+        ],
+        "publisher": [
+          "Macmillan"
+        ],
+        "title": "Statistical Design and Analysis of Experiments"
+      },
+      {
+        "author_name": [
+          "Peter W. M. John"
+        ],
+        "edition_key": [
+          "OL8271843M"
+        ],
+        "first_publish_year": 1999,
+        "isbn": [
+          "9780898714272",
+          "0898714273"
+        ],
+        "key": "/works/OL8643074W",
+        "publish_year": [
+          1999
+        ],
+        "publisher": [
+          "Society for Industrial  Mathematics"
+        ],
+        "title": "Statistical Design and Analysis of Experiments (Classics in Applied Mathematics No 22. ) (Classics in Applied Mathematics)"
+      }
+    ]
+  },
+  "book-0315": {
+    "query": {
+      "title": "mathématiques nouvelles",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key",
+      "author": "Jean menard"
+    },
+    "numFound": 0,
+    "docs": []
+  },
+  "book-0359": {
+    "query": {
+      "title": "chemins vers l’algèbre",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key",
+      "author": "F. Pecastaings"
+    },
+    "numFound": 0,
+    "docs": []
+  },
+  "book-0363": {
+    "query": {
+      "title": "Éléments de mathématiques appliquées : séries, EDP, transformées de Laplace et de Fourier",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key",
+      "author": "Gérard A. Philippe"
+    },
+    "numFound": 0,
+    "docs": []
+  },
+  "book-0364": {
+    "query": {
+      "title": "Éléments de mathématiques appliquées à la physique",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key",
+      "author": "Gérard A. Philippe"
+    },
+    "numFound": 0,
+    "docs": []
+  },
+  "book-0385": {
+    "query": {
+      "title": "Ondes, optique et physique moderne",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key",
+      "author": "Robert Resnick"
+    },
+    "numFound": 1,
+    "docs": [
+      {
+        "author_name": [
+          "Robert Resnick"
+        ],
+        "edition_key": [
+          "OL22224757M"
+        ],
+        "first_publish_year": 1980,
+        "isbn": [
+          "2761300394",
+          "9782761300391"
+        ],
+        "key": "/works/OL4103160W",
+        "publish_year": [
+          1980
+        ],
+        "publisher": [
+          "Editions du Renouveau pédagogique"
+        ],
+        "title": "Ondes, optique et physique moderne"
+      }
+    ]
+  },
+  "book-0387": {
+    "query": {
+      "title": "ondes, optique et physique moderne",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key",
+      "author": "Resnick/halliday"
+    },
+    "numFound": 0,
+    "docs": []
+  },
+  "book-0441": {
+    "query": {
+      "title": "Analyse numérique",
+      "limit": 5,
+      "fields": "key,title,author_name,first_publish_year,publish_year,isbn,publisher,edition_key",
+      "author": "Roger Temam"
+    },
+    "numFound": 1,
+    "docs": [
+      {
+        "author_name": [
+          "roger temam"
+        ],
+        "edition_key": [
+          "OL58556144M"
+        ],
+        "first_publish_year": 1970,
+        "key": "/works/OL42980533W",
+        "publish_year": [
+          1970
+        ],
+        "publisher": [
+          "Presses Universitaires de France"
+        ],
+        "title": "Analyse Numerique (Collection SUP Le Mathematicien, 3)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,505 @@
+{
+  "generated_on": "2026-07-13",
+  "record_count": 467,
+  "raw_record_count": 467,
+  "manual_override_count": 16,
+  "manual_field_change_count": 50,
+  "openlibrary_exact_match_count": 245,
+  "openlibrary_exact_match_rate": 0.5246,
+  "unique_valid_isbn_count": 360,
+  "openlibrary_unique_isbn_match_count": 238,
+  "openlibrary_unique_isbn_match_rate": 0.6611,
+  "openlibrary_filled_fields": {
+    "author": 2,
+    "publication_date": 1,
+    "publication_year": 1,
+    "publisher": 1,
+    "title": 1
+  },
+  "isbn_status": {
+    "missing_1970_or_later": 12,
+    "missing_pre_1970": 86,
+    "missing_unknown_year": 1,
+    "valid": 368
+  },
+  "raw_missing_fields": {
+    "author": 10,
+    "title": 1,
+    "isbn": 103,
+    "publisher": 22,
+    "publication_date": 2,
+    "publication_year": 2,
+    "genre": 463,
+    "series": 465
+  },
+  "missing_fields": {
+    "author": 3,
+    "title": 0,
+    "isbn": 99,
+    "publisher": 17,
+    "publication_date": 1,
+    "publication_year": 1,
+    "genre": 463,
+    "series": 460
+  },
+  "raw_publisher_label_count": 205,
+  "normalized_publisher_count": 189,
+  "quality_flags": {
+    "missing_author": 3,
+    "missing_isbn_1970_or_later": 12,
+    "missing_isbn_unknown_year": 1,
+    "missing_or_invalid_year": 1,
+    "missing_publisher": 17,
+    "same_title_author_possible_multiple_copy": 29,
+    "shared_isbn_possible_multiple_copy": 16
+  },
+  "remaining_review_records": [
+    {
+      "id": "book-0002",
+      "author": "",
+      "title": "college algebra",
+      "publication_year": "1887",
+      "isbn_status": "missing_pre_1970",
+      "quality_flags": [
+        "missing_author"
+      ]
+    },
+    {
+      "id": "book-0003",
+      "author": "",
+      "title": "cours de geometrie",
+      "publication_year": "1922",
+      "isbn_status": "missing_pre_1970",
+      "quality_flags": [
+        "missing_author"
+      ]
+    },
+    {
+      "id": "book-0004",
+      "author": "",
+      "title": "Cours de geometrie",
+      "publication_year": "1957",
+      "isbn_status": "missing_pre_1970",
+      "quality_flags": [
+        "missing_author"
+      ]
+    },
+    {
+      "id": "book-0005",
+      "author": "M. Kargapolov | Iou. Merzliakov",
+      "title": "éléments de la théorie des groupes",
+      "publication_year": "1985",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ]
+    },
+    {
+      "id": "book-0007",
+      "author": "Jean-Marie Labrie | Onil Hamel | Marcel Hébert",
+      "title": "Mathématiques nouvelles : cours secondaire 121, 131",
+      "publication_year": "1970",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ]
+    },
+    {
+      "id": "book-0013",
+      "author": "s. Achmanov",
+      "title": "programmation linéaire",
+      "publication_year": "",
+      "isbn_status": "missing_unknown_year",
+      "quality_flags": [
+        "missing_isbn_unknown_year",
+        "missing_publisher",
+        "missing_or_invalid_year",
+        "same_title_author_possible_multiple_copy"
+      ]
+    },
+    {
+      "id": "book-0014",
+      "author": "s. Achmanov",
+      "title": "Programmation linéaire",
+      "publication_year": "1984",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later",
+        "same_title_author_possible_multiple_copy"
+      ]
+    },
+    {
+      "id": "book-0038",
+      "author": "Donald Roy Barr",
+      "title": "Probability [by] Donald R. Barr [and] Peter W. Zehna",
+      "publication_year": "1971",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later",
+        "missing_publisher"
+      ]
+    },
+    {
+      "id": "book-0047",
+      "author": "Germain Beaudoin",
+      "title": "Complément de mathématiques",
+      "publication_year": "1977",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ]
+    },
+    {
+      "id": "book-0051",
+      "author": "Réal Béland | Réginald Dugré",
+      "title": "Les mathématiques du consommateur : livre du maître",
+      "publication_year": "1975",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ]
+    },
+    {
+      "id": "book-0184",
+      "author": "Claude godbillon",
+      "title": "éléments de topologie algébrique",
+      "publication_year": "1971",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later",
+        "missing_publisher"
+      ]
+    },
+    {
+      "id": "book-0245",
+      "author": "Larry joel golstein",
+      "title": "analytic number theory",
+      "publication_year": "1971",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ]
+    },
+    {
+      "id": "book-0246",
+      "author": "Peter W. M. John",
+      "title": "Statistical Design and Analysis of Experiments",
+      "publication_year": "1971",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ]
+    },
+    {
+      "id": "book-0315",
+      "author": "Jean menard",
+      "title": "mathématiques nouvelles",
+      "publication_year": "1971",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later",
+        "missing_publisher"
+      ]
+    },
+    {
+      "id": "book-0359",
+      "author": "F. Pecastaings | J. Sevin",
+      "title": "chemins vers l’algèbre",
+      "publication_year": "1980",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later",
+        "missing_publisher"
+      ]
+    },
+    {
+      "id": "book-0441",
+      "author": "Roger Temam",
+      "title": "Analyse numérique",
+      "publication_year": "1970",
+      "isbn_status": "missing_1970_or_later",
+      "quality_flags": [
+        "missing_isbn_1970_or_later"
+      ]
+    }
+  ],
+  "applied_overrides": [
+    {
+      "id": "book-0001",
+      "before": {
+        "author": "Philippe Barbe",
+        "title": "Probabilité",
+        "publisher": "EDP Sciences",
+        "publication_date": "2007",
+        "publication_year": "2007"
+      },
+      "after": {
+        "author": "Philippe Barbé",
+        "title": "Probabilité (L3M1)",
+        "publication_date": "Feb 01, 2007"
+      },
+      "sources": [
+        "clz_sibling",
+        "openlibrary_exact"
+      ]
+    },
+    {
+      "id": "book-0005",
+      "before": {
+        "author": "",
+        "publisher": "",
+        "series": ""
+      },
+      "after": {
+        "author": "M. Kargapolov | Iou. Merzliakov",
+        "publisher": "Éditions Mir",
+        "series": "Mathématiques"
+      },
+      "sources": [
+        "enp_group_theory"
+      ]
+    },
+    {
+      "id": "book-0006",
+      "before": {
+        "author": "",
+        "publisher": "HRW"
+      },
+      "after": {
+        "author": "Hugues Boisvert",
+        "publisher": "Les Éditions HRW"
+      },
+      "sources": [
+        "guelma_interest"
+      ]
+    },
+    {
+      "id": "book-0007",
+      "before": {
+        "author": "",
+        "title": "Mathématiques Nouvelles 121 131"
+      },
+      "after": {
+        "author": "Jean-Marie Labrie | Onil Hamel | Marcel Hébert",
+        "title": "Mathématiques nouvelles : cours secondaire 121, 131"
+      },
+      "sources": [
+        "ulaval_schoolbooks"
+      ]
+    },
+    {
+      "id": "book-0008",
+      "before": {
+        "author": "",
+        "title": "Physique 1 mécanique 5e benson",
+        "publisher": "",
+        "series": ""
+      },
+      "after": {
+        "author": "Harris Benson",
+        "title": "Physique 1 : mécanique",
+        "publisher": "Pearson",
+        "series": "Physique, 5e édition"
+      },
+      "sources": [
+        "bnaq_benson",
+        "openlibrary_exact"
+      ]
+    },
+    {
+      "id": "book-0009",
+      "before": {
+        "author": "",
+        "title": "Physique 2 électricité 5e benson",
+        "isbn": "9782761355001-1",
+        "publisher": "Pearson",
+        "series": ""
+      },
+      "after": {
+        "author": "Harris Benson",
+        "title": "Physique 2 : électricité et magnétisme",
+        "isbn": "9782761355001",
+        "series": "Physique, 5e édition"
+      },
+      "sources": [
+        "bnaq_benson",
+        "openlibrary_exact"
+      ]
+    },
+    {
+      "id": "book-0010",
+      "before": {
+        "author": "Harris Benson",
+        "title": "Physique 3 ondes opt. 5e benson",
+        "isbn": "9782761355018-8",
+        "publisher": "",
+        "series": ""
+      },
+      "after": {
+        "title": "Physique 3 : ondes, optique et physique moderne",
+        "isbn": "9782761355018",
+        "publisher": "Pearson",
+        "series": "Physique, 5e édition"
+      },
+      "sources": [
+        "bnaq_benson",
+        "openlibrary_exact"
+      ]
+    },
+    {
+      "id": "book-0033",
+      "before": {
+        "publication_date": "Jan 01, 1987",
+        "publication_year": "1987"
+      },
+      "after": {
+        "publication_date": "2001",
+        "publication_year": "2001"
+      },
+      "sources": [
+        "siam_optical_science",
+        "openlibrary_exact"
+      ]
+    },
+    {
+      "id": "book-0178",
+      "before": {
+        "title": "Headache in Clinical Practice",
+        "publisher": "CRC Press",
+        "publication_date": "Jan 15, 1998",
+        "publication_year": "1998"
+      },
+      "after": {
+        "title": "Bayesian Methods for Finite Population Sampling",
+        "publisher": "Chapman & Hall",
+        "publication_date": "1997",
+        "publication_year": "1997"
+      },
+      "sources": [
+        "openlibrary_exact",
+        "vitalsource_ghosh"
+      ]
+    },
+    {
+      "id": "book-0213",
+      "before": {
+        "title": "Elements of Statistical Learning Data Mining, Inference, and Prediction, Second Edition",
+        "publication_date": "Dec 03, 2016",
+        "publication_year": "2016"
+      },
+      "after": {
+        "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Second Edition",
+        "publication_date": "Feb 09, 2009",
+        "publication_year": "2009"
+      },
+      "sources": [
+        "springer_esl",
+        "openlibrary_exact"
+      ]
+    },
+    {
+      "id": "book-0279",
+      "before": {
+        "author": "P. Leroux",
+        "title": "ALGEBRE LINEAIRE LEROUX (MODULO)",
+        "publisher": "MODULO",
+        "publication_date": "Mar 12, 1999",
+        "publication_year": "1999"
+      },
+      "after": {
+        "author": "Pierre Leroux",
+        "title": "Algèbre linéaire : une approche matricielle",
+        "publisher": "Modulo",
+        "publication_date": "1983",
+        "publication_year": "1983"
+      },
+      "sources": [
+        "worldcat_leroux",
+        "openlibrary_exact"
+      ]
+    },
+    {
+      "id": "book-0320",
+      "before": {
+        "author": "Xavier Merlin",
+        "title": "Méthod'H méthodes mathématiques pour classes préparatoires économiques et commerciales",
+        "publisher": "Ellipses",
+        "publication_date": "Dec 15, 2011",
+        "publication_year": "2011",
+        "series": ""
+      },
+      "after": {
+        "author": "Xavier Merlin | Christian Leboeuf",
+        "title": "La cuisine aux épices (classes prépas économiques et commerciales)",
+        "publication_date": "Dec 15, 1996",
+        "publication_year": "1996",
+        "series": "Méthodix"
+      },
+      "sources": [
+        "ellipses_merlin",
+        "openlibrary_exact"
+      ]
+    },
+    {
+      "id": "book-0363",
+      "before": {
+        "author": "Gérard A. Philippe",
+        "isbn": ""
+      },
+      "after": {
+        "author": "Gérard A. Philippin",
+        "isbn": "9782921180795"
+      },
+      "sources": [
+        "bnaq_philippin",
+        "enp_philippin"
+      ]
+    },
+    {
+      "id": "book-0364",
+      "before": {
+        "author": "Gérard A. Philippe",
+        "isbn": ""
+      },
+      "after": {
+        "author": "Gérard A. Philippin",
+        "isbn": "9782923565071"
+      },
+      "sources": [
+        "bnaq_philippin",
+        "scholarvox_philippin"
+      ]
+    },
+    {
+      "id": "book-0385",
+      "before": {
+        "isbn": ""
+      },
+      "after": {
+        "isbn": "9782761300391"
+      },
+      "sources": [
+        "openlibrary_search"
+      ]
+    },
+    {
+      "id": "book-0387",
+      "before": {
+        "author": "Resnick/halliday",
+        "title": "ondes, optique et physique moderne",
+        "isbn": "",
+        "publisher": ""
+      },
+      "after": {
+        "author": "Robert Resnick | David Halliday",
+        "title": "Ondes, optique et physique moderne",
+        "isbn": "9782761300391",
+        "publisher": "Éditions du Renouveau Pédagogique Inc."
+      },
+      "sources": [
+        "clz_sibling",
+        "openlibrary_search"
+      ]
+    }
+  ]
+}

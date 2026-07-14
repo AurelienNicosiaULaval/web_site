@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "**/*.qmd"
 
 website:
   title: "Aurélien Nicosia"
@@ -23,8 +26,12 @@ website:
         text: Packages R
       - href: innovation.qmd
         text: Innovation Pédagogique
-      - href: ressources.qmd
-        text: Autres
+      - text: Autres
+        menu:
+          - href: ressources.qmd
+            text: Ressources
+          - href: bibliotheque.qmd
+            text: Bibliothèque
 #      - href: publications.qmd
 #        text: Média
       - href: a-propos.qmd

@@ -12,6 +12,15 @@
     { fr: "cv/index.html", en: "cv/index.html", frLabel: "CV", enLabel: "CV" }
   ];
 
+  const SUBNAV_ITEMS = [
+    { fr: "ressources.html", en: "ressources.html", frLabel: "Ressources", enLabel: "Resources" },
+    { fr: "bibliotheque.html", en: "library.html", frLabel: "Bibliothèque", enLabel: "My library" }
+  ];
+
+  const SPECIAL_PAGE_PAIRS = [
+    { fr: "bibliotheque.html", en: "library.html" }
+  ];
+
   const EN_PAGES = new Set([
     "index.html",
     "enseignement.html",
@@ -23,6 +32,7 @@
     "packages/ggcircular.html",
     "packages/tutorizeR.html",
     "innovation.html",
+    "library.html",
     "ressources.html",
     "a-propos.html",
     "publications.html",
@@ -103,14 +113,21 @@
   function updateSwitcher() {
     const relPath = asIndex(toSiteRelative(rawPath));
     const currentInEnglish = isEnglishPage(relPath);
-    const frPage = currentInEnglish ? relPath.replace(/^en\//, "") : relPath;
-    const targetRel = currentInEnglish
-      ? EN_PAGES.has(frPage)
-        ? frPage
-        : "index.html"
-      : EN_PAGES.has(frPage)
-        ? `en/${frPage}`
-        : "en/index.html";
+    const currentPage = currentInEnglish ? relPath.replace(/^en\//, "") : relPath;
+    const specialPair = SPECIAL_PAGE_PAIRS.find((pair) =>
+      currentInEnglish ? pair.en === currentPage : pair.fr === currentPage
+    );
+    const targetRel = specialPair
+      ? currentInEnglish
+        ? specialPair.fr
+        : `en/${specialPair.en}`
+      : currentInEnglish
+        ? EN_PAGES.has(currentPage)
+          ? currentPage
+          : "index.html"
+        : EN_PAGES.has(currentPage)
+          ? `en/${currentPage}`
+          : "en/index.html";
 
     const navLinks = Array.from(document.querySelectorAll(".navbar-nav .nav-link"));
     const switcher = findLanguageSwitcher(navLinks);
@@ -129,6 +146,19 @@
       const label = currentInEnglish ? item.enLabel : item.frLabel;
       link.href = toAbsolute(target);
       setMenuText(link, label);
+    });
+
+    const dropdownLinks = Array.from(document.querySelectorAll(".navbar .dropdown-item"));
+    SUBNAV_ITEMS.forEach((item) => {
+      const link = dropdownLinks.find((candidate) => {
+        const href = candidate.getAttribute("href") || "";
+        return href.endsWith(item.fr) || href.endsWith(item.en);
+      });
+      if (!link) {
+        return;
+      }
+      link.href = toAbsolute(currentInEnglish ? `en/${item.en}` : item.fr);
+      link.textContent = currentInEnglish ? item.enLabel : item.frLabel;
     });
 
     switcher.href = toAbsolute(targetRel);

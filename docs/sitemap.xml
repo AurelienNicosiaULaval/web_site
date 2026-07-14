@@ -1,151 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/innovation.html</loc>
-    <lastmod>2026-07-10T01:26:50.396Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/metadata/sensitive-repositories-review.html</loc>
-    <lastmod>2026-07-10T01:24:47.959Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/metadata/featured-projects-normalization.html</loc>
-    <lastmod>2026-07-10T01:24:47.958Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/packages.html</loc>
-    <lastmod>2026-07-10T01:26:50.396Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/ressources.html</loc>
-    <lastmod>2026-07-10T01:24:47.958Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/cv/index.html</loc>
-    <lastmod>2026-07-10T01:30:33.142Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/packages/donutmap.html</loc>
-    <lastmod>2026-07-10T01:30:14.032Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/packages/ggcircular.html</loc>
-    <lastmod>2026-07-10T01:30:14.032Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/enseignement.html</loc>
-    <lastmod>2026-07-10T01:24:47.956Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/publications.html</loc>
-    <lastmod>2026-07-10T01:24:47.957Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/a-propos.html</loc>
-    <lastmod>2026-07-10T01:24:47.956Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/cv/index.html</loc>
-    <lastmod>2026-07-10T01:30:33.142Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/packages/donutmap.html</loc>
-    <lastmod>2026-07-10T01:30:14.031Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/packages/ggcircular.html</loc>
-    <lastmod>2026-07-10T01:30:14.031Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/enseignement.html</loc>
-    <lastmod>2026-07-10T01:24:47.958Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/publications.html</loc>
-    <lastmod>2026-07-10T01:24:47.959Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/blog/posts/2025-10-09-cda.html</loc>
-    <lastmod>2026-07-10T01:24:47.933Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/index.html</loc>
-    <lastmod>2026-07-10T01:24:47.958Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/research-lab.html</loc>
-    <lastmod>2026-07-10T01:24:47.960Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/a-propos.html</loc>
-    <lastmod>2026-07-10T01:24:47.930Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/blog/posts/2025-10-09-bienvenue.html</loc>
-    <lastmod>2026-07-10T01:24:47.933Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/blog/index.html</loc>
-    <lastmod>2026-07-10T01:24:47.933Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/cda/index.html</loc>
-    <lastmod>2026-07-10T01:24:47.934Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/packages/tutorizeR.html</loc>
-    <lastmod>2026-07-10T01:30:14.031Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/packages/circularregression.html</loc>
-    <lastmod>2026-07-10T01:30:14.031Z</lastmod>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/ressources.html</loc>
+    <lastmod>2026-07-14T00:07:50.434Z</lastmod>
   </url>
   <url>
     <loc>https://AurelienNicosiaUlaval.github.io/web_site/recherche.html</loc>
-    <lastmod>2026-07-10T01:24:47.960Z</lastmod>
+    <lastmod>2026-07-14T00:07:50.434Z</lastmod>
   </url>
   <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/research-lab.html</loc>
-    <lastmod>2026-07-10T01:24:47.958Z</lastmod>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/packages/tutorizeR.html</loc>
+    <lastmod>2026-07-14T00:07:50.434Z</lastmod>
   </url>
   <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/index.html</loc>
-    <lastmod>2026-07-10T01:24:47.956Z</lastmod>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/packages/donutmap.html</loc>
+    <lastmod>2026-07-14T00:07:50.434Z</lastmod>
   </url>
   <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/cda/index.html</loc>
-    <lastmod>2026-07-10T01:24:47.956Z</lastmod>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/packages.html</loc>
+    <lastmod>2026-07-14T00:07:50.433Z</lastmod>
   </url>
   <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/packages/tutorizeR.html</loc>
-    <lastmod>2026-07-10T01:30:14.032Z</lastmod>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/index.html</loc>
+    <lastmod>2026-07-14T00:07:50.433Z</lastmod>
   </url>
   <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/packages/circularregression.html</loc>
-    <lastmod>2026-07-10T01:30:14.032Z</lastmod>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/ressources.html</loc>
+    <lastmod>2026-07-14T00:07:50.432Z</lastmod>
   </url>
   <url>
     <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/recherche.html</loc>
-    <lastmod>2026-07-10T01:24:47.957Z</lastmod>
+    <lastmod>2026-07-14T00:07:50.432Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/packages/tutorizeR.html</loc>
+    <lastmod>2026-07-14T00:07:50.432Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/packages/donutmap.html</loc>
+    <lastmod>2026-07-14T00:07:50.432Z</lastmod>
   </url>
   <url>
     <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/packages.html</loc>
-    <lastmod>2026-07-10T01:26:50.395Z</lastmod>
+    <lastmod>2026-07-14T00:07:50.431Z</lastmod>
   </url>
   <url>
     <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/innovation.html</loc>
-    <lastmod>2026-07-10T01:26:50.395Z</lastmod>
+    <lastmod>2026-07-14T00:07:50.431Z</lastmod>
   </url>
   <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/ressources.html</loc>
-    <lastmod>2026-07-10T01:24:47.960Z</lastmod>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/enseignement.html</loc>
+    <lastmod>2026-07-14T00:07:50.431Z</lastmod>
   </url>
   <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/metadata/link-check.html</loc>
-    <lastmod>2026-07-10T01:24:47.959Z</lastmod>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/cda/index.html</loc>
+    <lastmod>2026-07-14T00:07:50.431Z</lastmod>
   </url>
   <url>
-    <loc>https://AurelienNicosiaUlaval.github.io/web_site/metadata/github-repositories.html</loc>
-    <lastmod>2026-07-10T01:24:47.958Z</lastmod>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/cv/index.html</loc>
+    <lastmod>2026-07-14T00:07:50.413Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/blog/posts/2025-10-09-cda.html</loc>
+    <lastmod>2026-07-14T00:07:50.412Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/blog/index.html</loc>
+    <lastmod>2026-07-14T00:07:50.412Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/a-propos.html</loc>
+    <lastmod>2026-07-14T00:07:50.408Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/bibliotheque.html</loc>
+    <lastmod>2026-07-14T00:10:05.606Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/blog/posts/2025-10-09-bienvenue.html</loc>
+    <lastmod>2026-07-14T00:07:50.412Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/cda/index.html</loc>
+    <lastmod>2026-07-14T00:07:50.413Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/a-propos.html</loc>
+    <lastmod>2026-07-14T00:07:50.431Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/cv/index.html</loc>
+    <lastmod>2026-07-14T00:07:50.431Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/index.html</loc>
+    <lastmod>2026-07-14T00:07:50.431Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/library.html</loc>
+    <lastmod>2026-07-14T00:10:05.607Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/packages/circularregression.html</loc>
+    <lastmod>2026-07-14T00:07:50.432Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/packages/ggcircular.html</loc>
+    <lastmod>2026-07-14T00:07:50.432Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/publications.html</loc>
+    <lastmod>2026-07-14T00:07:50.432Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/en/research-lab.html</loc>
+    <lastmod>2026-07-14T00:07:50.432Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/enseignement.html</loc>
+    <lastmod>2026-07-14T00:07:50.432Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/innovation.html</loc>
+    <lastmod>2026-07-14T00:07:50.433Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/packages/circularregression.html</loc>
+    <lastmod>2026-07-14T00:07:50.434Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/packages/ggcircular.html</loc>
+    <lastmod>2026-07-14T00:07:50.434Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/publications.html</loc>
+    <lastmod>2026-07-14T00:07:50.434Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AurelienNicosiaUlaval.github.io/web_site/research-lab.html</loc>
+    <lastmod>2026-07-14T00:07:50.434Z</lastmod>
   </url>
 </urlset>

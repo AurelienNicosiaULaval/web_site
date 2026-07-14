@@ -1,0 +1,257 @@
+{
+  "curated_on": "2026-07-13",
+  "policy": {
+    "confidence_threshold": "high",
+    "missing_isbn_before_1970": "expected",
+    "missing_isbn_from_1970": "review",
+    "duplicate_records": "preserve because distinct physical copies cannot be ruled out",
+    "external_metadata": "use exact ISBN matches only; never replace a non-empty CLZ value without a manual, sourced override"
+  },
+  "sources": {
+    "clz_sibling": {
+      "title": "Another CLZ record with the same valid ISBN",
+      "url": "data/library/clz-library-raw.json"
+    },
+    "openlibrary_exact": {
+      "title": "Open Library exact-ISBN metadata snapshot",
+      "url": "data/library/openlibrary-isbn-cache.json"
+    },
+    "openlibrary_search": {
+      "title": "Open Library title-author search snapshot",
+      "url": "data/library/openlibrary-missing-isbn-candidates.json"
+    },
+    "enp_group_theory": {
+      "title": "École nationale polytechnique catalogue, Éléments de la théorie des groupes",
+      "url": "https://acatalogue1.biblio.enp.edu.dz/opac_css/index.php?id=3693&lvl=indexint_see&main=0"
+    },
+    "guelma_interest": {
+      "title": "Université 8 Mai 1945 Guelma catalogue, Mathématiques de l’intérêt",
+      "url": "https://pmb.univ-guelma.dz/pmbmism/opac_css/index.php?dcote=&id=27&lcote=0&location=1&lvl=section_see&main=&nb_per_page_custom=100&nbr_lignes=4936&nc=0&page=26&plettreaut=&ssub=0"
+    },
+    "ulaval_schoolbooks": {
+      "title": "Bibliothèque de l’Université Laval, Manuels scolaires québécois",
+      "url": "https://www.bibl.ulaval.ca/ress/manscol/editeurs/editeursf_freres_instruction_chretienne.html"
+    },
+    "bnaq_benson": {
+      "title": "Bibliothèque et Archives nationales du Québec, Physique collection in three volumes",
+      "url": "https://www2.banq.qc.ca/ressources_en_ligne/bibliographie_quebec/refonte_2016/atvs447790198939562.html"
+    },
+    "siam_optical_science": {
+      "title": "SIAM, Mathematical Modeling in Optical Science",
+      "url": "https://epubs.siam.org/doi/book/10.1137/1.9780898717594"
+    },
+    "vitalsource_ghosh": {
+      "title": "VitalSource, Bayesian Methods for Finite Population Sampling",
+      "url": "https://www.vitalsource.com/en-ca/products/bayesian-methods-for-finite-population-sampling-malay-ghosh-v9781351464413"
+    },
+    "springer_esl": {
+      "title": "Springer, The Elements of Statistical Learning",
+      "url": "https://link.springer.com/book/10.1007/978-0-387-84858-7"
+    },
+    "worldcat_leroux": {
+      "title": "WorldCat, Algèbre linéaire : une approche matricielle",
+      "url": "https://search.worldcat.org/fr/title/algebre-lineaire-une-approche-matricielle/oclc/15971240"
+    },
+    "ellipses_merlin": {
+      "title": "Éditions Ellipses, La cuisine aux épices",
+      "url": "https://www.editions-ellipses.fr/fr/15-mathematiques?page=40&resultsPerPage=50"
+    },
+    "bnaq_philippin": {
+      "title": "Bibliothèque et Archives nationales du Québec, Gérard A. Philippin",
+      "url": "https://www2.banq.qc.ca/ressources_en_ligne/bibliographie_quebec/refonte_2014/tdm500.html"
+    },
+    "enp_philippin": {
+      "title": "École nationale polytechnique catalogue, Éléments de mathématiques appliquées",
+      "url": "https://catalogue1.biblio.enp.edu.dz/index.php/index.php?dcote=&id=33&lcote=0&location=26&lvl=section_see&main=&nbr_lignes=501&nc=0&page=11&plettreaut=&ssub=0"
+    },
+    "scholarvox_philippin": {
+      "title": "ScholarVox, Éléments de mathématiques appliquées à la physique",
+      "url": "https://uiz.scholarvox.com/catalog/book/45006870?_locale=fr"
+    }
+  },
+  "overrides": [
+    {
+      "id": "book-0001",
+      "confidence": "high",
+      "reason": "The same ISBN appears in a complete CLZ record and in an exact Open Library edition record.",
+      "sources": ["clz_sibling", "openlibrary_exact"],
+      "changes": {
+        "author": "Philippe Barbé",
+        "title": "Probabilité (L3M1)",
+        "publisher": "EDP Sciences",
+        "publication_date": "Feb 01, 2007",
+        "publication_year": "2007"
+      }
+    },
+    {
+      "id": "book-0005",
+      "confidence": "high",
+      "reason": "The title and year align exactly with a library catalogue record that supplies the authors, publisher and series.",
+      "sources": ["enp_group_theory"],
+      "changes": {
+        "author": "M. Kargapolov | Iou. Merzliakov",
+        "publisher": "Éditions Mir",
+        "series": "Mathématiques"
+      }
+    },
+    {
+      "id": "book-0006",
+      "confidence": "high",
+      "reason": "The library record matches the exact ISBN, title, publisher and year and supplies the author.",
+      "sources": ["guelma_interest"],
+      "changes": {
+        "author": "Hugues Boisvert",
+        "publisher": "Les Éditions HRW"
+      }
+    },
+    {
+      "id": "book-0007",
+      "confidence": "high",
+      "reason": "The Université Laval schoolbook catalogue matches the course numbers, publisher and year and supplies the three authors.",
+      "sources": ["ulaval_schoolbooks"],
+      "changes": {
+        "author": "Jean-Marie Labrie | Onil Hamel | Marcel Hébert",
+        "title": "Mathématiques nouvelles : cours secondaire 121, 131"
+      }
+    },
+    {
+      "id": "book-0008",
+      "confidence": "high",
+      "reason": "BAnQ identifies the volume, author, publisher, year and ISBN in the three-volume set.",
+      "sources": ["bnaq_benson", "openlibrary_exact"],
+      "changes": {
+        "author": "Harris Benson",
+        "title": "Physique 1 : mécanique",
+        "publisher": "Pearson",
+        "series": "Physique, 5e édition"
+      }
+    },
+    {
+      "id": "book-0009",
+      "confidence": "high",
+      "reason": "The PDF value contains the valid ISBN followed by a spurious hyphen and check digit; BAnQ confirms the edition.",
+      "sources": ["bnaq_benson", "openlibrary_exact"],
+      "changes": {
+        "author": "Harris Benson",
+        "title": "Physique 2 : électricité et magnétisme",
+        "isbn": "9782761355001",
+        "publisher": "Pearson",
+        "series": "Physique, 5e édition"
+      }
+    },
+    {
+      "id": "book-0010",
+      "confidence": "high",
+      "reason": "The PDF value contains the valid ISBN followed by a spurious hyphen and check digit; BAnQ confirms the edition.",
+      "sources": ["bnaq_benson", "openlibrary_exact"],
+      "changes": {
+        "author": "Harris Benson",
+        "title": "Physique 3 : ondes, optique et physique moderne",
+        "isbn": "9782761355018",
+        "publisher": "Pearson",
+        "series": "Physique, 5e édition"
+      }
+    },
+    {
+      "id": "book-0033",
+      "confidence": "high",
+      "reason": "The SIAM edition page and the exact ISBN record both give 2001, not 1987.",
+      "sources": ["siam_optical_science", "openlibrary_exact"],
+      "changes": {
+        "publication_date": "2001",
+        "publication_year": "2001"
+      }
+    },
+    {
+      "id": "book-0178",
+      "confidence": "high",
+      "reason": "The CLZ title is unrelated to the exact ISBN; two independent edition records identify the sampling monograph.",
+      "sources": ["openlibrary_exact", "vitalsource_ghosh"],
+      "changes": {
+        "title": "Bayesian Methods for Finite Population Sampling",
+        "publisher": "Chapman & Hall",
+        "publication_date": "1997",
+        "publication_year": "1997"
+      }
+    },
+    {
+      "id": "book-0213",
+      "confidence": "high",
+      "reason": "Springer identifies the hardcover edition associated with this ISBN as published on February 9, 2009.",
+      "sources": ["springer_esl", "openlibrary_exact"],
+      "changes": {
+        "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Second Edition",
+        "publication_date": "Feb 09, 2009",
+        "publication_year": "2009"
+      }
+    },
+    {
+      "id": "book-0279",
+      "confidence": "high",
+      "reason": "WorldCat and the exact ISBN record identify the 1983 Modulo edition.",
+      "sources": ["worldcat_leroux", "openlibrary_exact"],
+      "changes": {
+        "author": "Pierre Leroux",
+        "title": "Algèbre linéaire : une approche matricielle",
+        "publisher": "Modulo",
+        "publication_date": "1983",
+        "publication_year": "1983"
+      }
+    },
+    {
+      "id": "book-0320",
+      "confidence": "high",
+      "reason": "The publisher catalogue shows that this ISBN belongs to La cuisine aux épices, not to the title recorded in CLZ.",
+      "sources": ["ellipses_merlin", "openlibrary_exact"],
+      "changes": {
+        "author": "Xavier Merlin | Christian Leboeuf",
+        "title": "La cuisine aux épices (classes prépas économiques et commerciales)",
+        "publisher": "Ellipses",
+        "publication_date": "Dec 15, 1996",
+        "publication_year": "1996",
+        "series": "Méthodix"
+      }
+    },
+    {
+      "id": "book-0363",
+      "confidence": "high",
+      "reason": "Two catalogues identify Gérard A. Philippin and the ISBN for volume 3.",
+      "sources": ["bnaq_philippin", "enp_philippin"],
+      "changes": {
+        "author": "Gérard A. Philippin",
+        "isbn": "9782921180795"
+      }
+    },
+    {
+      "id": "book-0364",
+      "confidence": "high",
+      "reason": "BAnQ and ScholarVox identify Gérard A. Philippin and the ISBN for volume 2.",
+      "sources": ["bnaq_philippin", "scholarvox_philippin"],
+      "changes": {
+        "author": "Gérard A. Philippin",
+        "isbn": "9782923565071"
+      }
+    },
+    {
+      "id": "book-0385",
+      "confidence": "high",
+      "reason": "Title, author, year and publisher align exactly with an Open Library edition carrying this ISBN.",
+      "sources": ["openlibrary_search"],
+      "changes": {
+        "isbn": "9782761300391"
+      }
+    },
+    {
+      "id": "book-0387",
+      "confidence": "high",
+      "reason": "This record matches the adjacent complete record on title and year; it is retained as a possible second physical copy.",
+      "sources": ["clz_sibling", "openlibrary_search"],
+      "changes": {
+        "author": "Robert Resnick | David Halliday",
+        "title": "Ondes, optique et physique moderne",
+        "isbn": "9782761300391",
+        "publisher": "Éditions du Renouveau Pédagogique Inc."
+      }
+    }
+  ]
+}

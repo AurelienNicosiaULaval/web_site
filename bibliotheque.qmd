@@ -1,0 +1,152 @@
+---
+title: "Ma bibliothèque"
+toc: false
+page-layout: full
+format:
+  html:
+    embed-resources: true
+    css: assets/library/library.css
+resources:
+  - assets/library/library-data.json
+---
+
+::: {#library-app .library-app data-lang="fr" data-source="assets/library/library-data.json"}
+
+::: {.library-hero aria-labelledby="library-title"}
+::: {.library-shell .library-hero-layout}
+::: {.library-hero-copy}
+<h1 id="library-title">Ma bibliothèque</h1>
+
+<p class="library-lead">Une collection vivante de <span data-total-books>467</span> livres, entre classiques des mathématiques, statistique, science des données et curiosités scientifiques.</p>
+
+::: {.library-actions}
+<button class="library-button library-button-primary" id="library-explore" type="button"><i class="bi bi-book" aria-hidden="true"></i>Explorer le catalogue</button>
+<button class="library-button library-button-secondary" id="library-random" type="button"><i class="bi bi-shuffle" aria-hidden="true"></i>Choisir un livre au hasard</button>
+:::
+
+::: {.library-hero-metrics aria-label="Aperçu de la collection"}
+::: {.library-hero-metric}
+<i class="bi bi-bookshelf" aria-hidden="true"></i>
+<span class="library-metric-value" data-total-books>467</span>
+<span class="library-metric-label">livres</span>
+:::
+::: {.library-hero-metric}
+<i class="bi bi-calendar3" aria-hidden="true"></i>
+<span class="library-metric-value" data-year-range>1887-2025</span>
+<span class="library-metric-label">années couvertes</span>
+:::
+::: {.library-hero-metric}
+<i class="bi bi-building" aria-hidden="true"></i>
+<span class="library-metric-value" data-publisher-count>189</span>
+<span class="library-metric-label">maisons d’édition</span>
+:::
+:::
+:::
+
+::: {.library-hero-visual}
+<div class="library-hero-shelf" id="library-hero-shelf" aria-label="Sélection de livres du catalogue"></div>
+:::
+:::
+:::
+
+::: {.library-analysis aria-labelledby="analysis-title"}
+::: {.library-shell}
+<h2 id="analysis-title">Ce que raconte la collection</h2>
+<p class="library-section-intro">Quelques repères descriptifs calculés à partir du catalogue CLZ vérifié et enrichi.</p>
+
+::: {.library-analysis-grid}
+::: {.library-chart-panel}
+<h3>Livres par décennie</h3>
+<div id="library-decade-chart" class="library-decade-chart"></div>
+:::
+::: {.library-chart-panel .library-publisher-panel}
+<h3>Éditeurs les plus présents</h3>
+<div id="library-publisher-chart" class="library-publisher-chart"></div>
+:::
+:::
+
+::: {.library-insight-strip aria-label="Indicateurs de qualité des données"}
+::: {.library-insight}
+<i class="bi bi-calendar-check" aria-hidden="true"></i>
+<span>Année médiane</span>
+<strong data-median-year>1995</strong>
+:::
+::: {.library-insight}
+<i class="bi bi-calendar-range" aria-hidden="true"></i>
+<span>Période</span>
+<strong data-year-range>1887-2025</strong>
+:::
+::: {.library-insight}
+<i class="bi bi-book" aria-hidden="true"></i>
+<span>Année renseignée</span>
+<strong><span data-known-year-count>466</span> livres</strong>
+:::
+::: {.library-insight}
+<i class="bi bi-upc-scan" aria-hidden="true"></i>
+<span>ISBN à vérifier</span>
+<strong><span data-review-isbn-count>13</span> entrées</strong>
+:::
+:::
+
+<p class="library-method-note"><i class="bi bi-info-circle" aria-hidden="true"></i>Les <span data-pre1970-missing-isbn-count>86</span> livres sans ISBN publiés avant 1970 sont classés comme attendus. Les maisons d’édition sont regroupées avec une table de normalisation conservant le libellé CLZ original.</p>
+:::
+:::
+
+::: {.library-catalogue aria-labelledby="catalogue-title"}
+::: {.library-shell}
+<h2 id="catalogue-title">Parcourir les rayons</h2>
+<p class="library-section-intro">Recherchez un titre, un auteur, un ISBN ou une maison d’édition.</p>
+
+::: {.library-search-wrap}
+<i class="bi bi-search" aria-hidden="true"></i>
+<label class="visually-hidden" for="library-search">Rechercher dans le catalogue</label>
+<input id="library-search" type="search" placeholder="Rechercher dans 467 livres" autocomplete="off">
+:::
+
+::: {.library-filter-rail}
+::: {.library-field}
+<label for="library-decade">Décennie</label>
+<select id="library-decade"><option value="">Toutes les décennies</option></select>
+:::
+::: {.library-field}
+<label for="library-publisher">Éditeur</label>
+<select id="library-publisher"><option value="">Tous les éditeurs</option></select>
+:::
+::: {.library-field}
+<label for="library-sort">Trier par</label>
+<select id="library-sort">
+  <option value="catalogue">Ordre du catalogue</option>
+  <option value="title">Titre, A à Z</option>
+  <option value="author">Auteur, A à Z</option>
+  <option value="newest">Année, plus récent</option>
+  <option value="oldest">Année, plus ancien</option>
+</select>
+:::
+<button id="library-reset" class="library-reset" type="button">Réinitialiser</button>
+:::
+
+::: {.library-result-head}
+<p id="library-result-count" aria-live="polite">467 livres</p>
+:::
+
+<div id="library-book-grid" class="library-book-grid"></div>
+<div id="library-empty" class="library-empty" hidden>Aucun livre ne correspond à ces critères.</div>
+
+::: {.library-load-wrap}
+<button id="library-load-more" class="library-button library-button-secondary" type="button">Afficher 24 livres de plus</button>
+:::
+
+<p class="library-cover-note">Lorsqu’elle est disponible par ISBN, la couverture éditoriale est fournie par <a href="https://openlibrary.org/" target="_blank" rel="noopener noreferrer">Open Library</a>. Sinon, une composition typographique fondée sur les métadonnées du catalogue est affichée.</p>
+<p class="library-source-note">Source principale: export CLZ Books du 13 juillet 2026. Les champs vides ont été complétés par correspondance exacte d’ISBN avec <a href="https://openlibrary.org/" target="_blank" rel="noopener noreferrer">Open Library</a>. Les corrections de valeurs existantes reposent sur des notices bibliographiques vérifiées et sont documentées dans la provenance du catalogue.</p>
+:::
+:::
+
+<dialog id="library-dialog" class="library-dialog" aria-labelledby="library-dialog-title">
+<button id="library-dialog-close" class="library-dialog-close" type="button" aria-label="Fermer la fiche"><i class="bi bi-x-lg" aria-hidden="true"></i></button>
+<div id="library-dialog-content"></div>
+</dialog>
+
+<div id="library-error" class="library-error" hidden>Le catalogue ne peut pas être chargé pour le moment.</div>
+:::
+
+<script src="assets/library/library.js" defer></script>

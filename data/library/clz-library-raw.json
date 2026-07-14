@@ -1,0 +1,6557 @@
+{
+  "source": {
+    "name": "pdf_book_2026-07-13_21-08-03.pdf",
+    "format": "CLZ Books PDF export",
+    "pages": 33
+  },
+  "records": [
+    {
+      "author": "",
+      "title": "",
+      "isbn": "9782868839312",
+      "publisher": "",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0001"
+    },
+    {
+      "author": "",
+      "title": "college algebra",
+      "isbn": "",
+      "publisher": "Harvard",
+      "publication_date": "Aug 11, 1887",
+      "genre": "",
+      "publication_year": "1887",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0002"
+    },
+    {
+      "author": "",
+      "title": "cours de geometrie",
+      "isbn": "",
+      "publisher": "Librairie générale Paris VI",
+      "publication_date": "Aug 10, 1922",
+      "genre": "",
+      "publication_year": "1922",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0003"
+    },
+    {
+      "author": "",
+      "title": "Cours de geometrie",
+      "isbn": "",
+      "publisher": "AD Wesmael.- Charlier",
+      "publication_date": "Jan 01, 1957",
+      "genre": "",
+      "publication_year": "1957",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0004"
+    },
+    {
+      "author": "",
+      "title": "éléments de la théorie des groupes",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "Aug 11, 1985",
+      "genre": "",
+      "publication_year": "1985",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0005"
+    },
+    {
+      "author": "",
+      "title": "Mathématiques de l'intérêt",
+      "isbn": "9780039295516",
+      "publisher": "HRW",
+      "publication_date": "1978",
+      "genre": "",
+      "publication_year": "1978",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0006"
+    },
+    {
+      "author": "",
+      "title": "Mathématiques Nouvelles 121 131",
+      "isbn": "",
+      "publisher": "Éditions F.I.C.",
+      "publication_date": "1970",
+      "genre": "",
+      "publication_year": "1970",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0007"
+    },
+    {
+      "author": "",
+      "title": "Physique 1 mécanique 5e benson",
+      "isbn": "9782761354998",
+      "publisher": "",
+      "publication_date": "Jan 01, 2015",
+      "genre": "",
+      "publication_year": "2015",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0008"
+    },
+    {
+      "author": "",
+      "title": "Physique 2 électricité 5e benson",
+      "isbn": "9782761355001-1",
+      "publisher": "Pearson",
+      "publication_date": "Jan 01, 2015",
+      "genre": "",
+      "publication_year": "2015",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0009"
+    },
+    {
+      "author": "",
+      "title": "Physique 3 ondes opt. 5e benson",
+      "isbn": "9782761355018-8",
+      "publisher": "",
+      "publication_date": "Jan 01, 2016",
+      "genre": "",
+      "publication_year": "2016",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0010"
+    },
+    {
+      "author": "Anna Cadoret )",
+      "title": "Modules sur un anneau et représentation linéaires des groupes finis",
+      "isbn": "9782493230027",
+      "publisher": "Calvage et Mounet",
+      "publication_date": "Aug 15, 2024",
+      "genre": "",
+      "publication_year": "2024",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0011"
+    },
+    {
+      "author": "Sinkov Abraham",
+      "title": "Elementary cryptanalysis;",
+      "isbn": "",
+      "publisher": "Random House",
+      "publication_date": "1968",
+      "genre": "",
+      "publication_year": "1968",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0012"
+    },
+    {
+      "author": "s. Achmanov",
+      "title": "programmation linéaire",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0013"
+    },
+    {
+      "author": "s. Achmanov",
+      "title": "Programmation linéaire",
+      "isbn": "",
+      "publisher": "Éditions Mir",
+      "publication_date": "1984",
+      "genre": "",
+      "publication_year": "1984",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0014"
+    },
+    {
+      "author": "Agnès Acker",
+      "title": "Astronomie, astrophysique",
+      "isbn": "9782100798582",
+      "publisher": "Dunod",
+      "publication_date": "Apr 17, 2019",
+      "genre": "",
+      "publication_year": "2019",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0015"
+    },
+    {
+      "author": "Lars V. Ahlfors",
+      "title": "Complex Analysis",
+      "isbn": "",
+      "publisher": "McGraw-Hill Book Company",
+      "publication_date": "1966",
+      "genre": "",
+      "publication_year": "1966",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0016"
+    },
+    {
+      "author": "Martin Aigner | Günter M. Ziegler",
+      "title": "Proofs from THE BOOK",
+      "isbn": "9783662572641",
+      "publisher": "Springer",
+      "publication_date": "Jul 06, 2018",
+      "genre": "",
+      "publication_year": "2018",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0017"
+    },
+    {
+      "author": "Linda J.S. Allen",
+      "title": "An Introduction to Stochastic Processes with Biology Applications",
+      "isbn": "9780130352187",
+      "publisher": "Pearson College Div",
+      "publication_date": "Apr 28, 2003",
+      "genre": "",
+      "publication_year": "2003",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0018"
+    },
+    {
+      "author": "Luc Amyotte",
+      "title": "Calcul intégral",
+      "isbn": "9782766157426",
+      "publisher": "ERPI",
+      "publication_date": "2025",
+      "genre": "",
+      "publication_year": "2025",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0019"
+    },
+    {
+      "author": "Alan J.B. Anderson",
+      "title": "Interpreting Data: A First Course in Statistics (Chapman & Hall/CRC Texts in Statistical Science)",
+      "isbn": "9780412295706",
+      "publisher": "Chapman and Hall/CRC",
+      "publication_date": "Jan 01, 1989",
+      "genre": "",
+      "publication_year": "1989",
+      "series": "",
+      "source_pages": [
+        1
+      ],
+      "id": "book-0020"
+    },
+    {
+      "author": "Theodore Wilbur Anderson",
+      "title": "The Statistical Analysis of Time Series (Wiley Series in Probability and Statistics)",
+      "isbn": "9780471029007",
+      "publisher": "Wiley",
+      "publication_date": "Jul 02, 1971",
+      "genre": "",
+      "publication_year": "1971",
+      "series": "",
+      "source_pages": [
+        1,
+        2
+      ],
+      "id": "book-0021"
+    },
+    {
+      "author": "Tw Anderson",
+      "title": "Introduction to Multivariate Statistical Analysis",
+      "isbn": "9780471026402",
+      "publisher": "John Wiley & Sons Canada, Limited",
+      "publication_date": "Jan 01, 1958",
+      "genre": "",
+      "publication_year": "1958",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0022"
+    },
+    {
+      "author": "William J. Anderson",
+      "title": "Continuous-Time Markov Chains: An Applications- Oriented Approach (Springer Series in Statistics)",
+      "isbn": "9780387973692",
+      "publisher": "Springer Verlag",
+      "publication_date": "1991",
+      "genre": "",
+      "publication_year": "1991",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0023"
+    },
+    {
+      "author": "B. Apanasov",
+      "title": "Discrete Groups in Space and Uniformization Problems",
+      "isbn": "9780792302162",
+      "publisher": "Springer Science & Business Media",
+      "publication_date": "Jun 30, 1991",
+      "genre": "",
+      "publication_year": "1991",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0024"
+    },
+    {
+      "author": "Pascal Ardilly",
+      "title": "Échantillonnage et méthodes d'enquêtes",
+      "isbn": "9782100074778",
+      "publisher": "DUNOD",
+      "publication_date": "Jun 01, 2004",
+      "genre": "",
+      "publication_year": "2004",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0025"
+    },
+    {
+      "author": "Ibrahim Assem",
+      "title": "Introduction au langage catégorique",
+      "isbn": "9782916352978",
+      "publisher": "CALVAGE MOUNET",
+      "publication_date": "Jul 14, 2022",
+      "genre": "",
+      "publication_year": "2022",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0026"
+    },
+    {
+      "author": "M. F. Atiyah | I. G. Macdonald",
+      "title": "Introduction to Commutative Algebra",
+      "isbn": "",
+      "publisher": "Addison-Wesley Publishing Company",
+      "publication_date": "1969",
+      "genre": "",
+      "publication_year": "1969",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0027"
+    },
+    {
+      "author": "Basem S. Attilli | Rima Cheaytou",
+      "title": "Équations différentielles ordinaires avec applications cours et exercices corrigés",
+      "isbn": "9782340013049",
+      "publisher": "Ellipses",
+      "publication_date": "2016",
+      "genre": "",
+      "publication_year": "2016",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0028"
+    },
+    {
+      "author": "Unknown Author",
+      "title": "A Celebration of Statistics: The ISI Centenary Volume. A Volume to Celebrate the Founding of the International Statistical Institute in 1885",
+      "isbn": "9783540961116",
+      "publisher": "Springer-Verlag Berlin and Heidelberg GmbH & Co. KG",
+      "publication_date": "1985",
+      "genre": "",
+      "publication_year": "1985",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0029"
+    },
+    {
+      "author": "Unknown Author",
+      "title": "Cette Science Qui Ne Cesse de Nous Etonner",
+      "isbn": "9782894714270",
+      "publisher": "Septembre Canad",
+      "publication_date": "Nov 02, 2011",
+      "genre": "",
+      "publication_year": "2011",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0030"
+    },
+    {
+      "author": "Unknown Author",
+      "title": "Distributions et transformation de Fourier : à l'usage des physiciens et des ingénieurs",
+      "isbn": "9782704210046",
+      "publisher": "Ediscience",
+      "publication_date": "1978",
+      "genre": "",
+      "publication_year": "1978",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0031"
+    },
+    {
+      "author": "Unknown Author",
+      "title": "Maths 103",
+      "isbn": "9782892496017",
+      "publisher": "Trécarré",
+      "publication_date": "Mar 01, 1996",
+      "genre": "",
+      "publication_year": "1996",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0032"
+    },
+    {
+      "author": "Gang Bao | Lawrence Cowsar | Wen Masters",
+      "title": "Mathematical Modeling in Optical Science (Frontiers in Applied Mathematics, Series Number 22)",
+      "isbn": "9780898714753",
+      "publisher": "Society for Industrial and Applied Mathematics",
+      "publication_date": "Jan 01, 1987",
+      "genre": "",
+      "publication_year": "1987",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0033"
+    },
+    {
+      "author": "Philippe Barbé",
+      "title": "Probabilité (L3M1)",
+      "isbn": "9782868839312",
+      "publisher": "EDP SCIENCES",
+      "publication_date": "Feb 01, 2007",
+      "genre": "",
+      "publication_year": "2007",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0034"
+    },
+    {
+      "author": "Edward J. Barbeau",
+      "title": "Five Hundred Mathematical Challenges",
+      "isbn": "9780883855195",
+      "publisher": "MAA",
+      "publication_date": "Jul 24, 1995",
+      "genre": "",
+      "publication_year": "1995",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0035"
+    },
+    {
+      "author": "Pierre Le Barbenchon | Didier Lesesvre | Pierre Montagnon | Théo Pierron",
+      "title": "131 développements pour l'oral: Agrégation externe Mathématiques/Informatique",
+      "isbn": "9782100795567",
+      "publisher": "DUNOD",
+      "publication_date": "Aug 19, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0036"
+    },
+    {
+      "author": "Michael Fielding Barnsley",
+      "title": "Fractals Everywhere: The First Course in Deterministic Fractal Geometry",
+      "isbn": "9780120790623",
+      "publisher": "Academic Press",
+      "publication_date": "Nov 1988",
+      "genre": "",
+      "publication_year": "1988",
+      "series": "",
+      "source_pages": [
+        2
+      ],
+      "id": "book-0037"
+    },
+    {
+      "author": "Donald Roy Barr",
+      "title": "Probability [by] Donald R. Barr [and] Peter W. Zehna",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "1971",
+      "genre": "",
+      "publication_year": "1971",
+      "series": "",
+      "source_pages": [
+        2,
+        3
+      ],
+      "id": "book-0038"
+    },
+    {
+      "author": "Vincent Barra | Antoine Cornuéjols | Laurent Miclet",
+      "title": "Apprentissage artificiel: Concepts et algorithmes - De Bayes et Hume au Deep Learning",
+      "isbn": "9782416001048",
+      "publisher": "EYROLLES",
+      "publication_date": "Mar 25, 2021",
+      "genre": "",
+      "publication_year": "2021",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0039"
+    },
+    {
+      "author": "Robert G. Bartle",
+      "title": "The Elements of Integration",
+      "isbn": "",
+      "publisher": "John Wiley & Sons, Inc.",
+      "publication_date": "1966",
+      "genre": "",
+      "publication_year": "1966",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0040"
+    },
+    {
+      "author": "Ishwar V. Basawa",
+      "title": "Statistical Inference for Stochastic Processes (PROBABILITY AND MATHEMATICAL STATISTICS)",
+      "isbn": "9780120802500",
+      "publisher": "Academic Press",
+      "publication_date": "Feb 11, 1980",
+      "genre": "",
+      "publication_year": "1980",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0041"
+    },
+    {
+      "author": "J. Bass",
+      "title": "Cours de mathématiques",
+      "isbn": "",
+      "publisher": "Masson et Cie",
+      "publication_date": "1964",
+      "genre": "",
+      "publication_year": "1964",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0042"
+    },
+    {
+      "author": "J. Bass",
+      "title": "Cours de mathématiques",
+      "isbn": "",
+      "publisher": "Masson et Cie",
+      "publication_date": "1964",
+      "genre": "",
+      "publication_year": "1964",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0043"
+    },
+    {
+      "author": "J. Bass",
+      "title": "Elements of Probability Theory",
+      "isbn": "",
+      "publisher": "Academic Press",
+      "publication_date": "1966",
+      "genre": "",
+      "publication_year": "1966",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0044"
+    },
+    {
+      "author": "Athanasios Batakis | Michel Zinsmeister",
+      "title": "De l'Analyse fonctionnelle à la Théorie spectrale: Master, Agrégation",
+      "isbn": "9782493230218",
+      "publisher": "CALVAGE MOUNET",
+      "publication_date": "Aug 15, 2024",
+      "genre": "",
+      "publication_year": "2024",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0045"
+    },
+    {
+      "author": "Germain Beaudoin",
+      "title": "Calcul vectoriel et linéaire",
+      "isbn": "9780774668019",
+      "publisher": "Presses de l'Université Laval",
+      "publication_date": "1976",
+      "genre": "",
+      "publication_year": "1976",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0046"
+    },
+    {
+      "author": "Germain Beaudoin",
+      "title": "Complément de mathématiques",
+      "isbn": "",
+      "publisher": "Les Presses de l’Université Laval",
+      "publication_date": "1977",
+      "genre": "",
+      "publication_year": "1977",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0047"
+    },
+    {
+      "author": "Gérard Beaudry | Auréa Sabourin | Roger Levasseur | M.-Joseph Demers",
+      "title": "Le Calcul Vivant",
+      "isbn": "",
+      "publisher": "Éditions Centre de Psychologie et de Pédagogie",
+      "publication_date": "1950",
+      "genre": "",
+      "publication_year": "1950",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0048"
+    },
+    {
+      "author": "Vincent Beck",
+      "title": "Objectif agrégation: pour les mathématiques",
+      "isbn": "9782914010924",
+      "publisher": "H ET K",
+      "publication_date": "Aug 22, 2005",
+      "genre": "",
+      "publication_year": "2005",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0049"
+    },
+    {
+      "author": "Edwin F. Beckenbach",
+      "title": "Applied combinatorial mathematics.",
+      "isbn": "",
+      "publisher": "J. Wiley",
+      "publication_date": "1964",
+      "genre": "",
+      "publication_year": "1964",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0050"
+    },
+    {
+      "author": "Réal Béland | Réginald Dugré",
+      "title": "Les mathématiques du consommateur : livre du maître",
+      "isbn": "",
+      "publisher": "Montréal : Editions du Renouveau pédagogique",
+      "publication_date": "1975",
+      "genre": "",
+      "publication_year": "1975",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0051"
+    },
+    {
+      "author": "Grégory Berhuy",
+      "title": "Algèbre : le grand combat: Cours et exercices",
+      "isbn": "9782916352831",
+      "publisher": "CALVAGE MOUNET",
+      "publication_date": "Feb 27, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0052"
+    },
+    {
+      "author": "Mackowiak Bernhard",
+      "title": "Astronomie",
+      "isbn": "9782803444298",
+      "publisher": "CHANTECLER",
+      "publication_date": "Aug 24, 2005",
+      "genre": "",
+      "publication_year": "2005",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0053"
+    },
+    {
+      "author": "Florent Berthelin",
+      "title": "Equations différentielles",
+      "isbn": "9782842252298",
+      "publisher": "CASSINI",
+      "publication_date": "Jun 23, 2017",
+      "genre": "",
+      "publication_year": "2017",
+      "series": "",
+      "source_pages": [
+        3
+      ],
+      "id": "book-0054"
+    },
+    {
+      "author": "Albrecht Beutelspacher",
+      "title": "Pourquoi j'ai toujours été nul(le) en maths",
+      "isbn": "9782701137193",
+      "publisher": "BELIN",
+      "publication_date": "May 04, 2007",
+      "genre": "",
+      "publication_year": "2007",
+      "series": "",
+      "source_pages": [
+        4
+      ],
+      "id": "book-0055"
+    },
+    {
+      "author": "Beyer",
+      "title": "CRC Standard Mathematical Tables and Formulae, 27th Edition (Discrete Mathematics and Its Applications)",
+      "isbn": "9780849306273",
+      "publisher": "CRC Press",
+      "publication_date": "Jun 25, 1984",
+      "genre": "",
+      "publication_year": "1984",
+      "series": "",
+      "source_pages": [
+        4
+      ],
+      "id": "book-0056"
+    },
+    {
+      "author": "Christopher M. Bishop",
+      "title": "Pattern Recognition and Machine Learning",
+      "isbn": "9780387310732",
+      "publisher": "Springer",
+      "publication_date": "Aug 17, 2006",
+      "genre": "",
+      "publication_year": "2006",
+      "series": "",
+      "source_pages": [
+        4
+      ],
+      "id": "book-0057"
+    },
+    {
+      "author": "Harald Bohr",
+      "title": "Almost Periodic Functions",
+      "isbn": "",
+      "publisher": "Chelsea Publishing Company",
+      "publication_date": "1947",
+      "genre": "",
+      "publication_year": "1947",
+      "series": "",
+      "source_pages": [
+        4
+      ],
+      "id": "book-0058"
+    },
+    {
+      "author": "Amar G. Bose | Kenneth N. Stevens",
+      "title": "Introduction à la théorie des réseaux électriques",
+      "isbn": "",
+      "publisher": "Les Presses de l’Université Laval",
+      "publication_date": "1969",
+      "genre": "",
+      "publication_year": "1969",
+      "series": "",
+      "source_pages": [
+        4
+      ],
+      "id": "book-0059"
+    },
+    {
+      "author": "Driss Boularas",
+      "title": "Fondements des équations différentielles ordinaires analyse qualitative et quantitative des solutions",
+      "isbn": "9782340010024",
+      "publisher": "Ellipses",
+      "publication_date": "2016",
+      "genre": "",
+      "publication_year": "2016",
+      "series": "",
+      "source_pages": [
+        4
+      ],
+      "id": "book-0060"
+    },
+    {
+      "author": "N. Bourbaki",
+      "title": "Éléments de mathématique",
+      "isbn": "",
+      "publisher": "Hermann",
+      "publication_date": "1959",
+      "genre": "",
+      "publication_year": "1959",
+      "series": "",
+      "source_pages": [
+        4
+      ],
+      "id": "book-0061"
+    },
+    {
+      "author": "N. Bourbaki",
+      "title": "Topologie gǸnǸrale. Chapitres 1 Çÿ 4",
+      "isbn": "9783540339366",
+      "publisher": "FisicalBook",
+      "publication_date": "Dec 12, 2006",
+      "genre": "",
+      "publication_year": "2006",
+      "series": "",
+      "source_pages": [
+        4
+      ],
+      "id": "book-0062"
+    },
+    {
+      "author": "Nicolas Bourbaki",
+      "title": "Groupes et algebres de Lie",
+      "isbn": "",
+      "publisher": "Hermann",
+      "publication_date": "1968",
+      "genre": "",
+      "publication_year": "1968",
+      "series": "",
+      "source_pages": [
+        4
+      ],
+      "id": "book-0063"
+    },
+    {
+      "author": "Jacques Bouteloup",
+      "title": "L'ALGEBRE LINEAIRE QSJ 1251 (QUE SAIS-JE ?)",
+      "isbn": "9782130366027",
+      "publisher": "QUE SAIS JE",
+      "publication_date": "Oct 01, 1980",
+      "genre": "",
+      "publication_year": "1980",
+      "series": "",
+      "source_pages": [
+        4
+      ],
+      "id": "book-0064"
+    },
+    {
+      "author": "Gilles Bouton | Pascale Bouton | Daniel Duverney | Gery Huvent",
+      "title": "Toutes les mathématiques: MPSI, MP2I, PCSI, PTSI et TSI",
+      "isbn": "9782340108219",
+      "publisher": "ELLIPSES",
+      "publication_date": "Sep 09, 2025",
+      "genre": "",
+      "publication_year": "2025",
+      "series": "",
+      "source_pages": [
+        4,
+        5
+      ],
+      "id": "book-0065"
+    },
+    {
+      "author": "Bruce L. Bowerman | Richard T. O'Connell",
+      "title": "Linear Statistical Models: An Applied Approach",
+      "isbn": "9780534921774",
+      "publisher": "Pws Pub Co",
+      "publication_date": "Feb 18, 1990",
+      "genre": "",
+      "publication_year": "1990",
+      "series": "",
+      "source_pages": [
+        5
+      ],
+      "id": "book-0066"
+    },
+    {
+      "author": "Martin Braun",
+      "title": "Differential Equations and Their Applications An Introduction to Applied Mathematics",
+      "isbn": "9780387978949",
+      "publisher": "Springer Science & Business Media",
+      "publication_date": "Dec 05, 1992",
+      "genre": "",
+      "publication_year": "1992",
+      "series": "",
+      "source_pages": [
+        5
+      ],
+      "id": "book-0067"
+    },
+    {
+      "author": "Haïm Brezis",
+      "title": "Analyse fonctionnelle - Théorie et applications: Théorie et applications",
+      "isbn": "9782100820283",
+      "publisher": "DUNOD",
+      "publication_date": "Sep 23, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        5
+      ],
+      "id": "book-0068"
+    },
+    {
+      "author": "Peter Bruce",
+      "title": "Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python",
+      "isbn": "9781492072942",
+      "publisher": "O'Reilly Media",
+      "publication_date": "Jun 16, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        5
+      ],
+      "id": "book-0069"
+    },
+    {
+      "author": "David M. Burton",
+      "title": "The History of Mathematics: An Introduction",
+      "isbn": "9780073383156",
+      "publisher": "McGraw Hill",
+      "publication_date": "Feb 09, 2010",
+      "genre": "",
+      "publication_year": "2010",
+      "series": "",
+      "source_pages": [
+        5
+      ],
+      "id": "book-0070"
+    },
+    {
+      "author": "Philippe Caldero",
+      "title": "Carnet de voyage en Analystan",
+      "isbn": "9782493230119",
+      "publisher": "CALVAGE MOUNET",
+      "publication_date": "Feb 08, 2024",
+      "genre": "",
+      "publication_year": "2024",
+      "series": "",
+      "source_pages": [
+        5
+      ],
+      "id": "book-0071"
+    },
+    {
+      "author": "Philippe Caldero | Jérôme Germoni",
+      "title": "Nouvelles histoires hédonistes de groupes et de géométries - Tome 1: TOME I",
+      "isbn": "9782916352619",
+      "publisher": "CALVAGE MOUNET",
+      "publication_date": "Apr 13, 2017",
+      "genre": "",
+      "publication_year": "2017",
+      "series": "",
+      "source_pages": [
+        5
+      ],
+      "id": "book-0072"
+    },
+    {
+      "author": "Philippe Caldero | Jérôme Germoni",
+      "title": "Nouvelles histoires hédonistes de groupes et de géométries - Tome second",
+      "isbn": "9782916352671",
+      "publisher": "CALVAGE MOUNET",
+      "publication_date": "Apr 12, 2018",
+      "genre": "",
+      "publication_year": "2018",
+      "series": "",
+      "source_pages": [
+        5
+      ],
+      "id": "book-0073"
+    },
+    {
+      "author": "Philippe Caldero | Marie Peronnier",
+      "title": "Carnet de voyage en Algébrie: Nouvelle édition revue et enrichie",
+      "isbn": "9782493230034",
+      "publisher": "CALVAGE MOUNET",
+      "publication_date": "Dec 01, 2022",
+      "genre": "",
+      "publication_year": "2022",
+      "series": "",
+      "source_pages": [
+        5
+      ],
+      "id": "book-0074"
+    },
+    {
+      "author": "Ronald S. Calinger",
+      "title": "A Contextual History of Mathematics To Euler",
+      "isbn": "9780023182853",
+      "publisher": "Prentice Hall",
+      "publication_date": "Jul 25, 1999",
+      "genre": "",
+      "publication_year": "1999",
+      "series": "",
+      "source_pages": [
+        5
+      ],
+      "id": "book-0075"
+    },
+    {
+      "author": "Stephen Camilli ASA | Ian Duncan Fsa Fia Fcia MAAA | Richard London FSA",
+      "title": "Models for Quantifying Risk, 6th Edition",
+      "isbn": "9781625423474",
+      "publisher": "ACTEX Publications",
+      "publication_date": "Jun 24, 2014",
+      "genre": "",
+      "publication_year": "2014",
+      "series": "",
+      "source_pages": [
+        6
+      ],
+      "id": "book-0076"
+    },
+    {
+      "author": "Bernard Candelpergher",
+      "title": "Calcul intégral",
+      "isbn": "9782842250539",
+      "publisher": "CASSINI",
+      "publication_date": "Nov 27, 2009",
+      "genre": "",
+      "publication_year": "2009",
+      "series": "",
+      "source_pages": [
+        6
+      ],
+      "id": "book-0077"
+    },
+    {
+      "author": "Xi-Ren Cao",
+      "title": "Stochastic Learning and Optimization: A Sensitivity- Based Approach",
+      "isbn": "9780387367873",
+      "publisher": "Springer",
+      "publication_date": "Oct 12, 2007",
+      "genre": "",
+      "publication_year": "2007",
+      "series": "",
+      "source_pages": [
+        6
+      ],
+      "id": "book-0078"
+    },
+    {
+      "author": "Noel A. Card | James P. Selig | Todd Little",
+      "title": "Modeling Dyadic and Interdependent Data in the Developmental and Behavioral Sciences",
+      "isbn": "9780805859737",
+      "publisher": "Routledge",
+      "publication_date": "Jul 11, 2008",
+      "genre": "",
+      "publication_year": "2008",
+      "series": "",
+      "source_pages": [
+        6
+      ],
+      "id": "book-0079"
+    },
+    {
+      "author": "Michel Carral",
+      "title": "Géométrie cours et plus de 300 exercices avec solutions",
+      "isbn": "9782729895402",
+      "publisher": "Ellipses",
+      "publication_date": "Apr 15, 1995",
+      "genre": "",
+      "publication_year": "1995",
+      "series": "",
+      "source_pages": [
+        6
+      ],
+      "id": "book-0080"
+    },
+    {
+      "author": "Henri Cartan",
+      "title": "Calcul différentiel",
+      "isbn": "",
+      "publisher": "Hermann",
+      "publication_date": "Jan 01, 1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "",
+      "source_pages": [
+        6
+      ],
+      "id": "book-0081"
+    },
+    {
+      "author": "Cassidy | Lavertu",
+      "title": "Introduction à l'analyse",
+      "isbn": "9782763773636",
+      "publisher": "LES PRESSES DE L'UNIVERSITÉ LAVAL",
+      "publication_date": "Jan 01, 2000",
+      "genre": "",
+      "publication_year": "2000",
+      "series": "",
+      "source_pages": [
+        6
+      ],
+      "id": "book-0082"
+    },
+    {
+      "author": "Mine Çetinkaya- Rundel | Johanna Hardin",
+      "title": "Introduction to Modern Statistics",
+      "isbn": "9781943450145",
+      "publisher": "OpenIntro, Inc.",
+      "publication_date": "Jun 12, 2021",
+      "genre": "",
+      "publication_year": "2021",
+      "series": "",
+      "source_pages": [
+        6
+      ],
+      "id": "book-0083"
+    },
+    {
+      "author": "Lucien Chambadal",
+      "title": "Dictionnaire des mathématiques modernes",
+      "isbn": "9782030754665",
+      "publisher": "Larousse",
+      "publication_date": "1969",
+      "genre": "",
+      "publication_year": "1969",
+      "series": "",
+      "source_pages": [
+        6
+      ],
+      "id": "book-0084"
+    },
+    {
+      "author": "Xavier Charvet",
+      "title": "L’essentiel du programme de l’agrégation de mathématiques - Algèbre & Analyse",
+      "isbn": "9782340030176",
+      "publisher": "ELLIPSES",
+      "publication_date": "May 28, 2019",
+      "genre": "",
+      "publication_year": "2019",
+      "series": "",
+      "source_pages": [
+        6
+      ],
+      "id": "book-0085"
+    },
+    {
+      "author": "Mourad Choulli",
+      "title": "Analyse fonctionnelle appliquée",
+      "isbn": "9782759834457",
+      "publisher": "EDP SCIENCES",
+      "publication_date": "Feb 22, 2024",
+      "genre": "",
+      "publication_year": "2024",
+      "series": "",
+      "source_pages": [
+        6
+      ],
+      "id": "book-0086"
+    },
+    {
+      "author": "Shein-Chung Chow",
+      "title": "Statistical Design and Analysis of Stability Studies (Chapman & Hall/CRC Biostatistics Series)",
+      "isbn": "9781584889052",
+      "publisher": "Chapman and Hall/CRC",
+      "publication_date": "May 30, 2007",
+      "genre": "",
+      "publication_year": "2007",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0087"
+    },
+    {
+      "author": "Les Frères de l’Instruction Chrétienne",
+      "title": "Notions de trigonométrie pratique",
+      "isbn": "",
+      "publisher": "Procure des Frères de l’Instruction Chrétienne",
+      "publication_date": "1932",
+      "genre": "",
+      "publication_year": "1932",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0088"
+    },
+    {
+      "author": "Howard B. Christensen",
+      "title": "La statistique: Démarche pédagogique programmée",
+      "isbn": "9782891051828",
+      "publisher": "G. Morin",
+      "publication_date": "1986",
+      "genre": "",
+      "publication_year": "1986",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0089"
+    },
+    {
+      "author": "Erhan Cinlar",
+      "title": "Introduction to Stochastic Processes",
+      "isbn": "9780134980898",
+      "publisher": "Pearson College Div",
+      "publication_date": "Jan 23, 1997",
+      "genre": "",
+      "publication_year": "1997",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0090"
+    },
+    {
+      "author": "Laurent Claessens",
+      "title": "Le Frido 2021",
+      "isbn": "9791097085285",
+      "publisher": "The BookEdition.com.",
+      "publication_date": "2021",
+      "genre": "",
+      "publication_year": "2021",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0091"
+    },
+    {
+      "author": "Laurent Claessens",
+      "title": "Le Frido 2021",
+      "isbn": "9791097085292",
+      "publisher": "The BookEdition.com.",
+      "publication_date": "2021",
+      "genre": "",
+      "publication_year": "2021",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0092"
+    },
+    {
+      "author": "Laurent Claessens",
+      "title": "Le Frido 2021",
+      "isbn": "9791097085261",
+      "publisher": "The BookEdition.com.",
+      "publication_date": "2021",
+      "genre": "",
+      "publication_year": "2021",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0093"
+    },
+    {
+      "author": "Laurent Claessens",
+      "title": "Le Frido 2021",
+      "isbn": "9791097085278",
+      "publisher": "The BookEdition.com.",
+      "publication_date": "2021",
+      "genre": "",
+      "publication_year": "2021",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0094"
+    },
+    {
+      "author": "Bertrand Clarke | Ernest Fokoue | Hao Helen Zhang",
+      "title": "Principles and Theory for Data Mining and Machine Learning (Springer Series in Statistics)",
+      "isbn": "9780387981345",
+      "publisher": "Springer",
+      "publication_date": "Jul 30, 2009",
+      "genre": "",
+      "publication_year": "2009",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0095"
+    },
+    {
+      "author": "Frank H. Clarke",
+      "title": "Optimization and Nonsmooth Analysis",
+      "isbn": "9782921120012",
+      "publisher": "Montreal: Centre de Recherches Mathematiques, Universite de Montreal",
+      "publication_date": "Jan 01, 1989",
+      "genre": "",
+      "publication_year": "1989",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0096"
+    },
+    {
+      "author": "Bertrand Cloez",
+      "title": "Recueil de curiosités mathématiques",
+      "isbn": "9782340089372",
+      "publisher": "ELLIPSES",
+      "publication_date": "2024",
+      "genre": "",
+      "publication_year": "2024",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0097"
+    },
+    {
+      "author": "Michel Cognet",
+      "title": "16 problèmes inédits de mathématiques - MP* et MPI*",
+      "isbn": "9782340083479",
+      "publisher": "ELLIPSES",
+      "publication_date": "Oct 17, 2023",
+      "genre": "",
+      "publication_year": "2023",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0098"
+    },
+    {
+      "author": "Harvey Cohn",
+      "title": "Introduction to the Construction of Class Fields (Cambridge Studies in Advanced Mathematics, Series Number 6)",
+      "isbn": "9780521247627",
+      "publisher": "Cambridge University Press",
+      "publication_date": "Aug 30, 1985",
+      "genre": "",
+      "publication_year": "1985",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0099"
+    },
+    {
+      "author": "K.W. Cole",
+      "title": "ALGEBRE",
+      "isbn": "9782606012052",
+      "publisher": "LEP",
+      "publication_date": "Aug 10, 2012",
+      "genre": "",
+      "publication_year": "2012",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0100"
+    },
+    {
+      "author": "Collectif",
+      "title": "Physique et chimie",
+      "isbn": "9782733805855",
+      "publisher": "Magnard",
+      "publication_date": "Aug 29, 2000",
+      "genre": "",
+      "publication_year": "2000",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0101"
+    },
+    {
+      "author": "Collectif | Eric Charpentier | Nicolas Nikolski",
+      "title": "Leçons de mathématiques d'aujourd'hui Tome 1",
+      "isbn": "9782842251659",
+      "publisher": "CASSINI",
+      "publication_date": "Sep 28, 2012",
+      "genre": "",
+      "publication_year": "2012",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0102"
+    },
+    {
+      "author": "Comets",
+      "title": "Calcul stochastique et modèles de diffusions (French Edition)",
+      "isbn": "9782100501359",
+      "publisher": "dunod",
+      "publication_date": "2006",
+      "genre": "",
+      "publication_year": "2006",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0103"
+    },
+    {
+      "author": "Chemical Rubber Company | Charles D. Hodgman",
+      "title": "Mathematical tables from handbook of chemistry and physics",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "1949",
+      "genre": "",
+      "publication_year": "1949",
+      "series": "",
+      "source_pages": [
+        7
+      ],
+      "id": "book-0104"
+    },
+    {
+      "author": "W.J. Conover",
+      "title": "Practical Nonparametric Statistics (Wiley Series in Probability and Statistics)",
+      "isbn": "9780471028673",
+      "publisher": "John Wiley & Sons",
+      "publication_date": "Sep 17, 1980",
+      "genre": "",
+      "publication_year": "1980",
+      "series": "",
+      "source_pages": [
+        7,
+        8
+      ],
+      "id": "book-0105"
+    },
+    {
+      "author": "John B. Conway",
+      "title": "Functions of One Complex Variable (Graduate Texts in Mathematics)",
+      "isbn": "9780387900629",
+      "publisher": "Springer",
+      "publication_date": "Nov 27, 1973",
+      "genre": "",
+      "publication_year": "1973",
+      "series": "",
+      "source_pages": [
+        8
+      ],
+      "id": "book-0106"
+    },
+    {
+      "author": "Anne Cortella",
+      "title": "Théorie des groupes: Cours et exercices corrigés – L3 & Master",
+      "isbn": "9782311002775",
+      "publisher": "DE BOECK SUP",
+      "publication_date": "Nov 03, 2011",
+      "genre": "",
+      "publication_year": "2011",
+      "series": "",
+      "source_pages": [
+        8
+      ],
+      "id": "book-0107"
+    },
+    {
+      "author": "David Roxbee Cox | E.J. Snell",
+      "title": "Analysis of Binary Data, Second Edition",
+      "isbn": "9780412306204",
+      "publisher": "CRC Press",
+      "publication_date": "May 15, 1989",
+      "genre": "",
+      "publication_year": "1989",
+      "series": "",
+      "source_pages": [
+        8
+      ],
+      "id": "book-0108"
+    },
+    {
+      "author": "David Roxbee Cox | P.J. Solomon",
+      "title": "Components of Variance",
+      "isbn": "9781584883548",
+      "publisher": "CRC Press",
+      "publication_date": "Jul 30, 2002",
+      "genre": "",
+      "publication_year": "2002",
+      "series": "",
+      "source_pages": [
+        8
+      ],
+      "id": "book-0109"
+    },
+    {
+      "author": "Richard T. Cox",
+      "title": "Algebra of Probable Inference",
+      "isbn": "9780801869822",
+      "publisher": "Johns Hopkins University Press",
+      "publication_date": "Dec 15, 2001",
+      "genre": "",
+      "publication_year": "2001",
+      "series": "",
+      "source_pages": [
+        8
+      ],
+      "id": "book-0110"
+    },
+    {
+      "author": "Harald Cramér | M. R. Leadbetter",
+      "title": "Stationary and Related Stochastic Processes",
+      "isbn": "",
+      "publisher": "John Wiley & Sons, Inc.",
+      "publication_date": "1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "",
+      "source_pages": [
+        8
+      ],
+      "id": "book-0111"
+    },
+    {
+      "author": "Philippe Crocy | Érick De Brauwère",
+      "title": "Mathématiques, MPSI - 1re année",
+      "isbn": "9782743008260",
+      "publisher": "TECHNIQUE & DOC",
+      "publication_date": "Sep 25, 2005",
+      "genre": "",
+      "publication_year": "2005",
+      "series": "",
+      "source_pages": [
+        8
+      ],
+      "id": "book-0112"
+    },
+    {
+      "author": "Fred H. Croom",
+      "title": "Principles of Topology (Dover Books on Mathematics)",
+      "isbn": "9780486801544",
+      "publisher": "Dover Publications",
+      "publication_date": "Feb 17, 2016",
+      "genre": "",
+      "publication_year": "2016",
+      "series": "",
+      "source_pages": [
+        8
+      ],
+      "id": "book-0113"
+    },
+    {
+      "author": "Jean-Christophe Culioli",
+      "title": "Introduction à l'optimisation",
+      "isbn": "9782729894283",
+      "publisher": "Ellipses",
+      "publication_date": "1994",
+      "genre": "",
+      "publication_year": "1994",
+      "series": "",
+      "source_pages": [
+        8
+      ],
+      "id": "book-0114"
+    },
+    {
+      "author": "Daryl J. Daley | David Vere- Jones | David A. Jones",
+      "title": "An Introduction to the Theory of Point Processes (Springer Series in Statistics)",
+      "isbn": "9780387966663",
+      "publisher": "Springer Verlag",
+      "publication_date": "Aug 11, 1988",
+      "genre": "",
+      "publication_year": "1988",
+      "series": "",
+      "source_pages": [
+        8
+      ],
+      "id": "book-0115"
+    },
+    {
+      "author": "Christine Dancey | John Reidy",
+      "title": "Statistiques sans maths pour psychologues: SPSS pour Windows - QCM et exercices corrigés",
+      "isbn": "9782807302624",
+      "publisher": "DE BOECK SUP",
+      "publication_date": "Dec 05, 2016",
+      "genre": "",
+      "publication_year": "2016",
+      "series": "",
+      "source_pages": [
+        8
+      ],
+      "id": "book-0116"
+    },
+    {
+      "author": "Wayne W. Daniel",
+      "title": "Biostatistics: A Foundation for Analysis in the Health Sciences (Wiley Series in Probability and Statistics)",
+      "isbn": "9780471163862",
+      "publisher": "Wiley",
+      "publication_date": "Aug 27, 1998",
+      "genre": "",
+      "publication_year": "1998",
+      "series": "",
+      "source_pages": [
+        8
+      ],
+      "id": "book-0117"
+    },
+    {
+      "author": "Gaston Darboux",
+      "title": "Lecons sur la theorie generale des surfaces et les applications geometriques du calcul infinitesimal",
+      "isbn": "",
+      "publisher": "Gauthier-Villars",
+      "publication_date": "Jan 01, 1887",
+      "genre": "",
+      "publication_year": "1887",
+      "series": "",
+      "source_pages": [
+        8
+      ],
+      "id": "book-0118"
+    },
+    {
+      "author": "Harold T. Davis",
+      "title": "Introduction to nonlinear differential and integral equations.",
+      "isbn": "",
+      "publisher": "U.S. Atomic Energy Commission",
+      "publication_date": "1960",
+      "genre": "",
+      "publication_year": "1960",
+      "series": "",
+      "source_pages": [
+        8
+      ],
+      "id": "book-0119"
+    },
+    {
+      "author": "Philip J. Davis",
+      "title": "The Lore of Large Numbers: 6",
+      "isbn": "9780883856062",
+      "publisher": "Mathematical Assn of Amer",
+      "publication_date": "Aug 30, 1975",
+      "genre": "",
+      "publication_year": "1975",
+      "series": "",
+      "source_pages": [
+        8
+      ],
+      "id": "book-0120"
+    },
+    {
+      "author": "J.M. De Koninck | Claude Lévesque",
+      "title": "Number Theory - Theorie Des Nombres: Proceedings of the International Number Theory Conference Held at Universite Laval in 1987 (English and French Edition)",
+      "isbn": "9780899255101",
+      "publisher": "Walter De Gruyter Inc",
+      "publication_date": "1989",
+      "genre": "",
+      "publication_year": "1989",
+      "series": "",
+      "source_pages": [
+        8,
+        9
+      ],
+      "id": "book-0121"
+    },
+    {
+      "author": "Reunion de professeurs",
+      "title": "Cours de Géométrie – Classes de 2e et de 1re – Livre du Maître",
+      "isbn": "",
+      "publisher": "Librairie Générale de l’Enseignement Libre",
+      "publication_date": "Aug 10, 1939",
+      "genre": "",
+      "publication_year": "1939",
+      "series": "",
+      "source_pages": [
+        9
+      ],
+      "id": "book-0122"
+    },
+    {
+      "author": "Burton V. Dean | Maurice W. Sasieni | Shiv K. Gupta",
+      "title": "Mathematics for Modern Management",
+      "isbn": "",
+      "publisher": "John Wiley & Sons, Inc.",
+      "publication_date": "1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "",
+      "source_pages": [
+        9
+      ],
+      "id": "book-0123"
+    },
+    {
+      "author": "Alain Debreil",
+      "title": "Groupes finis et treillis de leurs sous-groupes",
+      "isbn": "9782493230263",
+      "publisher": "CALVAGE MOUNET",
+      "publication_date": "Mar 06, 2025",
+      "genre": "",
+      "publication_year": "2025",
+      "series": "",
+      "source_pages": [
+        9
+      ],
+      "id": "book-0124"
+    },
+    {
+      "author": "Morris H. DeGroot",
+      "title": "Probability and Statistics (2nd Edition)",
+      "isbn": "9780201113662",
+      "publisher": "Addison-Wesley",
+      "publication_date": "Jan 01, 1986",
+      "genre": "",
+      "publication_year": "1986",
+      "series": "",
+      "source_pages": [
+        9
+      ],
+      "id": "book-0125"
+    },
+    {
+      "author": "S. Dehaene",
+      "title": "La bosse des maths (Sciences) (French Edition)",
+      "isbn": "9782738104427",
+      "publisher": "Editions O. Jacob",
+      "publication_date": "Dec 17, 1997",
+      "genre": "",
+      "publication_year": "1997",
+      "series": "",
+      "source_pages": [
+        9
+      ],
+      "id": "book-0126"
+    },
+    {
+      "author": "Marc Peter Deisenroth | A. Aldo Faisal | Cheng Soon Ong",
+      "title": "Mathematics for Machine Learning",
+      "isbn": "9781108455145",
+      "publisher": "Cambridge University Press",
+      "publication_date": "Apr 23, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        9
+      ],
+      "id": "book-0127"
+    },
+    {
+      "author": "André Delachet",
+      "title": "La géométrie contemporaine",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "1957",
+      "genre": "",
+      "publication_year": "1957",
+      "series": "",
+      "source_pages": [
+        9
+      ],
+      "id": "book-0128"
+    },
+    {
+      "author": "Claude Deschamps | François Moulin | Nathalie Cleirec | Yoann Gentric | François Lussier | Chloé Mullaert | Serge Nicolas | Michel Volcker",
+      "title": "Maths MP-MP* - Tout-en-un - 5e éd",
+      "isbn": "9782100801220",
+      "publisher": "DUNOD",
+      "publication_date": "Mar 04, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        9
+      ],
+      "id": "book-0129"
+    },
+    {
+      "author": "Sudhakar Waman Dharmadhikari",
+      "title": "Unimodality, Convexity, and Applications (Probability and Mathematical Statistics)",
+      "isbn": "9780122146909",
+      "publisher": "Academic Press",
+      "publication_date": "Aug 11, 1988",
+      "genre": "",
+      "publication_year": "1988",
+      "series": "",
+      "source_pages": [
+        9
+      ],
+      "id": "book-0130"
+    },
+    {
+      "author": "Gema-Maria Díaz-Toca",
+      "title": "Modules sur les anneaux commutatifs: Cours et exercices.",
+      "isbn": "9782916352336",
+      "publisher": "CALVAGE MOUNET",
+      "publication_date": "Oct 02, 2014",
+      "genre": "",
+      "publication_year": "2014",
+      "series": "",
+      "source_pages": [
+        9
+      ],
+      "id": "book-0131"
+    },
+    {
+      "author": "Jean Alexandre Dieudonne",
+      "title": "Pour l'honneur de l'esprit humain: Les mathématiques aujourd'hui (Collection Pluriel) (French Edition)",
+      "isbn": "9782010140006",
+      "publisher": "Hachette",
+      "publication_date": "Apr 01, 1987",
+      "genre": "",
+      "publication_year": "1987",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0132"
+    },
+    {
+      "author": "DieudonnÉ | Jean | Al. Et",
+      "title": "Abrégé D'histoire Des Mathématiques 1700-1900. I. Algèbre, Analyse Classique, Théorie Des Nombres. Ii. Fonctions Elliptiques, Analyse Fonctionnelle, Géométrie Différentielle, Topologie Algébrique, Probabilités, Logique Mathématique. Avec La Collaboration",
+      "isbn": "9782705658700",
+      "publisher": "Paris: Hermann, 1978.",
+      "publication_date": "1978",
+      "genre": "",
+      "publication_year": "1978",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0133"
+    },
+    {
+      "author": "David Diez",
+      "title": "OpenIntro Statistics: Fourth Edition",
+      "isbn": "9781943450077",
+      "publisher": "OpenIntro, Inc.",
+      "publication_date": "May 01, 2019",
+      "genre": "",
+      "publication_year": "2019",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0134"
+    },
+    {
+      "author": "Annette J. Dobson",
+      "title": "An Introduction to Generalized Linear Models",
+      "isbn": "9780412311000",
+      "publisher": "Springer",
+      "publication_date": "1990",
+      "genre": "",
+      "publication_year": "1990",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0135"
+    },
+    {
+      "author": "Alfred Doneddu",
+      "title": "Noveau cours de mathematiques - Tome 2: Polynomes et Algebre lineaire",
+      "isbn": "9782711720279",
+      "publisher": "Libraire Vuibert",
+      "publication_date": "1976",
+      "genre": "",
+      "publication_year": "1976",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0136"
+    },
+    {
+      "author": "Joseph Dopp",
+      "title": "Notions de logique formelle",
+      "isbn": "9782870770658",
+      "publisher": "Cabay",
+      "publication_date": "Jan 01, 1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0137"
+    },
+    {
+      "author": "Nicolas Doyon",
+      "title": "The Life of Primes in 37 Episodes",
+      "isbn": "9781470464899",
+      "publisher": "American Mathematical Society",
+      "publication_date": "May 18, 2021",
+      "genre": "",
+      "publication_year": "2021",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0138"
+    },
+    {
+      "author": "Richard M. Dudley",
+      "title": "Real Analysis and Probability",
+      "isbn": "9780534100506",
+      "publisher": "Springer US",
+      "publication_date": "Mar 02, 1989",
+      "genre": "",
+      "publication_year": "1989",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0139"
+    },
+    {
+      "author": "René Dussaud",
+      "title": "Éléments de calcul vectoriel et d’algèbre moderne",
+      "isbn": "",
+      "publisher": "Bordas",
+      "publication_date": "1965",
+      "genre": "",
+      "publication_year": "1965",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0140"
+    },
+    {
+      "author": "Morris L. Eaton",
+      "title": "Multivariate Statistics: A Vector Space Approach",
+      "isbn": "9780940600690",
+      "publisher": "Inst of Mathematical Statistic",
+      "publication_date": "Dec 31, 2007",
+      "genre": "",
+      "publication_year": "2007",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0141"
+    },
+    {
+      "author": "Bradley Efron",
+      "title": "An Introduction to the Bootstrap",
+      "isbn": "9780412042317",
+      "publisher": "CRC Press",
+      "publication_date": "May 15, 1994",
+      "genre": "",
+      "publication_year": "1994",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0142"
+    },
+    {
+      "author": "Gilbert Elkaïm",
+      "title": "Les Équilibres en physique",
+      "isbn": "9782130353911",
+      "publisher": "Puf",
+      "publication_date": "Jan 01, 1978",
+      "genre": "",
+      "publication_year": "1978",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0143"
+    },
+    {
+      "author": "H. Andrew Elliott | Kenneth D. Fryer | James C. Gardner | Norman J. Hill",
+      "title": "Algebraic Structures and Probability",
+      "isbn": "",
+      "publisher": "Holt, Rinehart and Winston of Canada, Limited",
+      "publication_date": "1966",
+      "genre": "",
+      "publication_year": "1966",
+      "series": "",
+      "source_pages": [
+        10
+      ],
+      "id": "book-0144"
+    },
+    {
+      "author": "H. Andrew Elliott | Kenneth D. Fryer | James C. Gardner | Norman J. Hill",
+      "title": "Calculus",
+      "isbn": "",
+      "publisher": "Holt, Rinehart and Winston of Canada, Limited",
+      "publication_date": "1966",
+      "genre": "",
+      "publication_year": "1966",
+      "series": "",
+      "source_pages": [
+        10,
+        11
+      ],
+      "id": "book-0145"
+    },
+    {
+      "author": "H. Andrew Elliott | Kenneth D. Fryer | James C. Gardner | Norman J. Hill",
+      "title": "Functions, Relations, and Transformations",
+      "isbn": "",
+      "publisher": "Holt, Rinehart and Winston of Canada, Limited",
+      "publication_date": "1966",
+      "genre": "",
+      "publication_year": "1966",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0146"
+    },
+    {
+      "author": "H. Andrew Elliott | Kenneth D. Fryer | James C. Gardner | Norman J. Hill",
+      "title": "Vectors and Matrices",
+      "isbn": "",
+      "publisher": "Holt, Rinehart and Winston of Canada, Limited",
+      "publication_date": "1966",
+      "genre": "",
+      "publication_year": "1966",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0147"
+    },
+    {
+      "author": "Franck Ellul",
+      "title": "Maths Licence Les 150 théorèmes d'analyse incontournables: Assimilez les démonstrations et raisonnements par la pratique",
+      "isbn": "9782100868193",
+      "publisher": "DUNOD",
+      "publication_date": "Jan 15, 2025",
+      "genre": "",
+      "publication_year": "2025",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0148"
+    },
+    {
+      "author": "Parzen Emanuel",
+      "title": "Stochastic processes.",
+      "isbn": "",
+      "publisher": "Holden-Day",
+      "publication_date": "1964",
+      "genre": "",
+      "publication_year": "1964",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0149"
+    },
+    {
+      "author": "Michael Enciso",
+      "title": "The True Beauty Of Math: Volume 1, The Foundations",
+      "isbn": "9781512065916",
+      "publisher": "CreateSpace Independent Publishing Platform",
+      "publication_date": "Oct 03, 2015",
+      "genre": "",
+      "publication_year": "2015",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0150"
+    },
+    {
+      "author": "Michael Enciso",
+      "title": "The True Beauty Of Math: Volume 2, Giving Life To Sets",
+      "isbn": "9781544830087",
+      "publisher": "CreateSpace Independent Publishing Platform",
+      "publication_date": "Jun 22, 2017",
+      "genre": "",
+      "publication_year": "2017",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0151"
+    },
+    {
+      "author": "Bjorn Engquist | Wilfried Schmid",
+      "title": "Mathematics Unlimited",
+      "isbn": "9783540669135",
+      "publisher": "Springer-Verlag",
+      "publication_date": "Jan 25, 2001",
+      "genre": "",
+      "publication_year": "2001",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0152"
+    },
+    {
+      "author": "Jean-Pierre Escofier",
+      "title": "Toute l'analyse de la Licence - 2e éd.- Cours et exercices corrigés: Cours et exercices corrigés",
+      "isbn": "9782100811694",
+      "publisher": "DUNOD",
+      "publication_date": "Aug 26, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0153"
+    },
+    {
+      "author": "Randall L. Eubank",
+      "title": "Nonparametric Regression and Spline Smoothing (Statistics: A Series of Textbooks and Monographs)",
+      "isbn": "9780824793371",
+      "publisher": "CRC Press",
+      "publication_date": "Feb 09, 1999",
+      "genre": "",
+      "publication_year": "1999",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0154"
+    },
+    {
+      "author": "L. Fahrmeir",
+      "title": "Multivariate Statistical Modelling Based on Generalized Linear Models (Springer Series in Statistics)",
+      "isbn": "9780387942339",
+      "publisher": "Springer",
+      "publication_date": "1994",
+      "genre": "",
+      "publication_year": "1994",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0155"
+    },
+    {
+      "author": "Roger H. Farrell",
+      "title": "Multivariate Calculation: Use of the Continuous Groups (Springer Series in Statistics)",
+      "isbn": "9780387960494",
+      "publisher": "Springer",
+      "publication_date": "Dec 03, 1984",
+      "genre": "",
+      "publication_year": "1984",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0156"
+    },
+    {
+      "author": "Bastien Fernandez",
+      "title": "Le Monde des nombres",
+      "isbn": "9782746500365",
+      "publisher": "POMMIER",
+      "publication_date": "Apr 05, 2000",
+      "genre": "",
+      "publication_year": "2000",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0157"
+    },
+    {
+      "author": "Luisa Turrin Fernholz",
+      "title": "Von Mises Calculus For Statistical Functionals",
+      "isbn": "9783540908999",
+      "publisher": "New York : Springer-verlag, C1983.",
+      "publication_date": "1983",
+      "genre": "",
+      "publication_year": "1983",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0158"
+    },
+    {
+      "author": "Michael J. Field BSc MD BS FRACP",
+      "title": "Symmetry in Chaos: A Search for Pattern in Mathematics, Art, and Nature",
+      "isbn": "9780198536895",
+      "publisher": "Oxford University Press",
+      "publication_date": "Dec 03, 1992",
+      "genre": "",
+      "publication_year": "1992",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0159"
+    },
+    {
+      "author": "Stephen E. Fienberg | D.C. Hoaglin | William H. Kruskal | Judith M. Tanur",
+      "title": "A Statistical Model: Frederick Mosteller’s Contributions to Statistics, Science, and Public Policy (Springer Series in Statistics)",
+      "isbn": "9780387972237",
+      "publisher": "Springer-Verlag New York, Incorporated",
+      "publication_date": "1990",
+      "genre": "",
+      "publication_year": "1990",
+      "series": "",
+      "source_pages": [
+        11
+      ],
+      "id": "book-0160"
+    },
+    {
+      "author": "R. Fildes | E. Parzen | Spyros G. Makridakis | A. Andersen | R. Carbone",
+      "title": "The Forecasting Accuracy of Major Time Series Methods",
+      "isbn": "9780471903277",
+      "publisher": "Wiley- Interscience",
+      "publication_date": "Apr 25, 1984",
+      "genre": "",
+      "publication_year": "1984",
+      "series": "",
+      "source_pages": [
+        11,
+        12
+      ],
+      "id": "book-0161"
+    },
+    {
+      "author": "Marek Fisz",
+      "title": "Probability Theory and Mathematical Statistics",
+      "isbn": "",
+      "publisher": "John Wiley & Sons, Inc.",
+      "publication_date": "1963",
+      "genre": "",
+      "publication_year": "1963",
+      "series": "",
+      "source_pages": [
+        12
+      ],
+      "id": "book-0162"
+    },
+    {
+      "author": "Marek Fisz",
+      "title": "Probability theory and mathematical statistics.",
+      "isbn": "",
+      "publisher": "Wiley",
+      "publication_date": "1963",
+      "genre": "",
+      "publication_year": "1963",
+      "series": "",
+      "source_pages": [
+        12
+      ],
+      "id": "book-0163"
+    },
+    {
+      "author": "John B. Fraleigh | Raymond A. Beauregard",
+      "title": "Linear Algebra",
+      "isbn": "9780201526752",
+      "publisher": "Addison-Wesley",
+      "publication_date": "Dec 31, 1994",
+      "genre": "",
+      "publication_year": "1994",
+      "series": "",
+      "source_pages": [
+        12
+      ],
+      "id": "book-0164"
+    },
+    {
+      "author": "Donald R. Franceschetti",
+      "title": "Biographical Encyclopedia of Mathematicians",
+      "isbn": "9780761470694",
+      "publisher": "Marshall Cavendish Corp",
+      "publication_date": "Jan 1999",
+      "genre": "",
+      "publication_year": "1999",
+      "series": "",
+      "source_pages": [
+        12
+      ],
+      "id": "book-0165"
+    },
+    {
+      "author": "Rouvière, François",
+      "title": "Petit guide de calcul différentiel",
+      "isbn": "9782842251864",
+      "publisher": "CASSINI",
+      "publication_date": "Feb 27, 2015",
+      "genre": "",
+      "publication_year": "2015",
+      "series": "",
+      "source_pages": [
+        12
+      ],
+      "id": "book-0166"
+    },
+    {
+      "author": "Les frères des ecoles chretiennes",
+      "title": "éléments de géométrie",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "Jan 01, 1898",
+      "genre": "",
+      "publication_year": "1898",
+      "series": "",
+      "source_pages": [
+        12
+      ],
+      "id": "book-0167"
+    },
+    {
+      "author": "K.O. Friedrichs",
+      "title": "From Pythagoras to Einstein",
+      "isbn": "9780883856161",
+      "publisher": "Mathematical Assn of Amer",
+      "publication_date": "1975",
+      "genre": "",
+      "publication_year": "1975",
+      "series": "",
+      "source_pages": [
+        12
+      ],
+      "id": "book-0168"
+    },
+    {
+      "author": "Kenneth Dudley Fryer | Ralph G. Stanton",
+      "title": "Topics in Modern Mathematics. Edited by Ralph G. Stanton [and] Kenneth D. Fryer. Contributing Authors",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "1964",
+      "genre": "",
+      "publication_year": "1964",
+      "series": "",
+      "source_pages": [
+        12
+      ],
+      "id": "book-0169"
+    },
+    {
+      "author": "G. Gagnac | E. Ramis | J. Commeau",
+      "title": "Nouveau cours de mathématiques spéciales - 3 geometrie",
+      "isbn": "",
+      "publisher": "Masson et Cie Éditeurs",
+      "publication_date": "Aug 10, 1965",
+      "genre": "",
+      "publication_year": "1965",
+      "series": "",
+      "source_pages": [
+        12
+      ],
+      "id": "book-0170"
+    },
+    {
+      "author": "Theodore W. Gamelin | Robert Everist Greene",
+      "title": "Introduction to Topology: Second Edition (Dover Books on Mathematics)",
+      "isbn": "9780486406800",
+      "publisher": "Dover Publications",
+      "publication_date": "Feb 16, 1999",
+      "genre": "",
+      "publication_year": "1999",
+      "series": "",
+      "source_pages": [
+        12
+      ],
+      "id": "book-0171"
+    },
+    {
+      "author": "Martin Gardner",
+      "title": "My Best Mathematical and Logic Puzzles",
+      "isbn": "9780486281520",
+      "publisher": "Courier Corporation",
+      "publication_date": "Nov 01, 1994",
+      "genre": "",
+      "publication_year": "1994",
+      "series": "",
+      "source_pages": [
+        12
+      ],
+      "id": "book-0172"
+    },
+    {
+      "author": "Alain Gastineau",
+      "title": "FORMULAIRE DE MATHEMATIQUES",
+      "isbn": "9782290352113",
+      "publisher": "J'AI LU",
+      "publication_date": "Mar 01, 2006",
+      "genre": "",
+      "publication_year": "2006",
+      "series": "",
+      "source_pages": [
+        12
+      ],
+      "id": "book-0173"
+    },
+    {
+      "author": "Alain Gastineau",
+      "title": "FORMULAIRE DE MATHEMATIQUES",
+      "isbn": "9782290352113",
+      "publisher": "J'AI LU",
+      "publication_date": "Mar 01, 2006",
+      "genre": "",
+      "publication_year": "2006",
+      "series": "",
+      "source_pages": [
+        12
+      ],
+      "id": "book-0174"
+    },
+    {
+      "author": "Baillargeon Gerald",
+      "title": "Probabilités et statistiques avec applications en technologie et ingénierie (1Cédérom)",
+      "isbn": "9782890943377",
+      "publisher": "SMG EDITIONS",
+      "publication_date": "Jan 06, 2017",
+      "genre": "",
+      "publication_year": "2017",
+      "series": "",
+      "source_pages": [
+        12
+      ],
+      "id": "book-0175"
+    },
+    {
+      "author": "James M. Gere",
+      "title": "Matrix algebra for engineers",
+      "isbn": "9780534012748",
+      "publisher": "Brooks/Cole Engineering Division",
+      "publication_date": "1983",
+      "genre": "",
+      "publication_year": "1983",
+      "series": "",
+      "source_pages": [
+        12
+      ],
+      "id": "book-0176"
+    },
+    {
+      "author": "Gélinas",
+      "title": "ELEMENTS D'ANALYSE COMPLEXE",
+      "isbn": "9782760504882",
+      "publisher": "PU QUEBEC",
+      "publication_date": "May 03, 2000",
+      "genre": "",
+      "publication_year": "2000",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0177"
+    },
+    {
+      "author": "Malay Ghosh | Glen Meeden",
+      "title": "Headache in Clinical Practice",
+      "isbn": "9780412987717",
+      "publisher": "CRC Press",
+      "publication_date": "Jan 15, 1998",
+      "genre": "",
+      "publication_year": "1998",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0178"
+    },
+    {
+      "author": "Stan Gibilisco",
+      "title": "Geometry Demystified",
+      "isbn": "9780071416504",
+      "publisher": "McGraw-Hill Professional",
+      "publication_date": "Jun 27, 2003",
+      "genre": "",
+      "publication_year": "2003",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0179"
+    },
+    {
+      "author": "J.-Ch. Gille | P. Decaulne | M. Pèlerin",
+      "title": "Dynamique de la commande linéaire",
+      "isbn": "",
+      "publisher": "Dunod",
+      "publication_date": "1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0180"
+    },
+    {
+      "author": "André Giroux",
+      "title": "Initiation à l'analyse mathématique cours et exercices corrigés",
+      "isbn": "9782340003644",
+      "publisher": "Ellipses",
+      "publication_date": "Mar 31, 2015",
+      "genre": "",
+      "publication_year": "2015",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0181"
+    },
+    {
+      "author": "André Giroux",
+      "title": "Initiation à la mesure et à l'intégration cours et exercices corrigés",
+      "isbn": "9782340003651",
+      "publisher": "Ellipses",
+      "publication_date": "Mar 31, 2015",
+      "genre": "",
+      "publication_year": "2015",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0182"
+    },
+    {
+      "author": "Geof H. Givens",
+      "title": "Computational Statistics",
+      "isbn": "9780470533314",
+      "publisher": "John Wiley & Sons",
+      "publication_date": "Nov 06, 2012",
+      "genre": "",
+      "publication_year": "2012",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0183"
+    },
+    {
+      "author": "Claude godbillon",
+      "title": "éléments de topologie algébrique",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "Aug 11, 1971",
+      "genre": "",
+      "publication_year": "1971",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0184"
+    },
+    {
+      "author": "Claude Godbillon",
+      "title": "Géométrie différentielle et mécanique analytique (HR.METHODES) (French Edition)",
+      "isbn": "9782705656584",
+      "publisher": "Hermann Glassin",
+      "publication_date": "Oct 04, 1969",
+      "genre": "",
+      "publication_year": "1969",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0185"
+    },
+    {
+      "author": "Joan Gomez",
+      "title": "Le monde est mathématique Quand les droites deviennent courbes Les géométries non- euclidiennes",
+      "isbn": "9782815202398",
+      "publisher": "RBA",
+      "publication_date": "2011",
+      "genre": "",
+      "publication_year": "2011",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0186"
+    },
+    {
+      "author": "A. W. Goodman",
+      "title": "Modern Calculus with Analytic Geometry",
+      "isbn": "",
+      "publisher": "The Macmillan Company",
+      "publication_date": "1968",
+      "genre": "",
+      "publication_year": "1968",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0187"
+    },
+    {
+      "author": "Leo A. Goodman",
+      "title": "The Analysis of Cross- Classified Data Having Ordered Categories",
+      "isbn": "9780674031456",
+      "publisher": "Harvard University Press",
+      "publication_date": "Jul 11, 1984",
+      "genre": "",
+      "publication_year": "1984",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0188"
+    },
+    {
+      "author": "Xavier Gourdon",
+      "title": "Les maths en tête. Algèbre et probabilités",
+      "isbn": "9782340056763",
+      "publisher": "ELLIPSES",
+      "publication_date": "Jul 13, 2021",
+      "genre": "",
+      "publication_year": "2021",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0189"
+    },
+    {
+      "author": "Xavier Gourdon",
+      "title": "Les maths en tête. Analyse - 3e édition",
+      "isbn": "9782340038561",
+      "publisher": "ELLIPSES",
+      "publication_date": "Apr 21, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0190"
+    },
+    {
+      "author": "Ivan Gozard",
+      "title": "Théorie de Galois - niveau L3-M1 - 2e édition",
+      "isbn": "9782729842772",
+      "publisher": "ELLIPSES",
+      "publication_date": "Apr 01, 2009",
+      "genre": "",
+      "publication_year": "2009",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0191"
+    },
+    {
+      "author": "Enrique Gracian",
+      "title": "Les nombres premiers : Un long chemin vers l'infini",
+      "isbn": "9782815202381",
+      "publisher": "Rba France",
+      "publication_date": "Aug 11, 2011",
+      "genre": "",
+      "publication_year": "2011",
+      "series": "",
+      "source_pages": [
+        13
+      ],
+      "id": "book-0192"
+    },
+    {
+      "author": "André Gramain",
+      "title": "Topologie des surfaces, 1ère édition (MATHEMATICIEN (LE))",
+      "isbn": "9782130314363",
+      "publisher": "Presses Universitaires de France - PUF",
+      "publication_date": "May 01, 1971",
+      "genre": "",
+      "publication_year": "1971",
+      "series": "",
+      "source_pages": [
+        14
+      ],
+      "id": "book-0193"
+    },
+    {
+      "author": "Ulf Grenander",
+      "title": "Abstract inference (Wiley series in probability and mathematical statistics)",
+      "isbn": "9780471082675",
+      "publisher": "John Wiley",
+      "publication_date": "Mar 1981",
+      "genre": "",
+      "publication_year": "1981",
+      "series": "",
+      "source_pages": [
+        14
+      ],
+      "id": "book-0194"
+    },
+    {
+      "author": "John Gribbin | Mary Gribbin",
+      "title": "Le petit livre des grands nombres",
+      "isbn": "9782100521340",
+      "publisher": "DUNOD",
+      "publication_date": "Nov 05, 2008",
+      "genre": "",
+      "publication_year": "2008",
+      "series": "",
+      "source_pages": [
+        14
+      ],
+      "id": "book-0195"
+    },
+    {
+      "author": "Andreas Griewank | George F. Corliss | Society for Industrial and Applied Mathematics",
+      "title": "Automatic Differentiation of Algorithms: Theory, Implementation, and Application (Siam Proceedings Series)",
+      "isbn": "9780898712841",
+      "publisher": "Society for Industrial & Applied",
+      "publication_date": "1992",
+      "genre": "",
+      "publication_year": "1992",
+      "series": "",
+      "source_pages": [
+        14
+      ],
+      "id": "book-0196"
+    },
+    {
+      "author": "Israel Grossman | Wilhelm Magnus",
+      "title": "Groups and Their Graphs",
+      "isbn": "",
+      "publisher": "Random House (New Mathematical Library 14)",
+      "publication_date": "Jan 01, 1965",
+      "genre": "",
+      "publication_year": "1965",
+      "series": "",
+      "source_pages": [
+        14
+      ],
+      "id": "book-0197"
+    },
+    {
+      "author": "Alexandre Grothendieck",
+      "title": "Récoltes et Semailles I, II: Réflexions et témoignage sur un passé de mathématicien",
+      "isbn": "9782072889752",
+      "publisher": "GALLIMARD",
+      "publication_date": "Jan 13, 2022",
+      "genre": "",
+      "publication_year": "2022",
+      "series": "",
+      "source_pages": [
+        14
+      ],
+      "id": "book-0198"
+    },
+    {
+      "author": "Benoît Gugger",
+      "title": "Mathématiques Polytechnique 1985-1988 - Tome 3",
+      "isbn": "9782729889074",
+      "publisher": "ELLIPSES",
+      "publication_date": "Mar 15, 1989",
+      "genre": "",
+      "publication_year": "1989",
+      "series": "",
+      "source_pages": [
+        14
+      ],
+      "id": "book-0199"
+    },
+    {
+      "author": "Silviu Guiașu",
+      "title": "Information Theory with Applications",
+      "isbn": "9780070251090",
+      "publisher": "McGraw-Hill Companies",
+      "publication_date": "Jan 1977",
+      "genre": "",
+      "publication_year": "1977",
+      "series": "",
+      "source_pages": [
+        14
+      ],
+      "id": "book-0200"
+    },
+    {
+      "author": "Daniel Guin",
+      "title": "Algèbre - Tome 1 (ENSEIGNEMENT SUP MATHEMATIQUES) (French Edition)",
+      "isbn": "9782868839749",
+      "publisher": "EDP SCIENCES",
+      "publication_date": "Nov 06, 2008",
+      "genre": "",
+      "publication_year": "2008",
+      "series": "",
+      "source_pages": [
+        14
+      ],
+      "id": "book-0201"
+    },
+    {
+      "author": "Daniel Guin",
+      "title": "Anneaux, modules et algèbre multilinéaire",
+      "isbn": "9782759810017",
+      "publisher": "EDP SCIENCES",
+      "publication_date": "Oct 24, 2013",
+      "genre": "",
+      "publication_year": "2013",
+      "series": "",
+      "source_pages": [
+        14
+      ],
+      "id": "book-0202"
+    },
+    {
+      "author": "Wickham Hadley",
+      "title": "ggplot2: Elegant Graphics for Data Analysis (Use R)",
+      "isbn": "9783319242750",
+      "publisher": "Springer",
+      "publication_date": "Jun 16, 2016",
+      "genre": "",
+      "publication_year": "2016",
+      "series": "",
+      "source_pages": [
+        14
+      ],
+      "id": "book-0203"
+    },
+    {
+      "author": "H. S. Hall | S. R. Knight",
+      "title": "Algèbre élémentaire",
+      "isbn": "",
+      "publisher": "Les Presses de l’Université Laval",
+      "publication_date": "1962",
+      "genre": "",
+      "publication_year": "1962",
+      "series": "",
+      "source_pages": [
+        14
+      ],
+      "id": "book-0204"
+    },
+    {
+      "author": "H. S. Hall | S. R. Knight",
+      "title": "Elementary Trigonometry",
+      "isbn": "",
+      "publisher": "Macmillan and Co., Limited",
+      "publication_date": "1936",
+      "genre": "",
+      "publication_year": "1936",
+      "series": "",
+      "source_pages": [
+        15
+      ],
+      "id": "book-0205"
+    },
+    {
+      "author": "David Halliday | Robert Resnick",
+      "title": "Physics",
+      "isbn": "",
+      "publisher": "John Wiley & Sons, Inc.",
+      "publication_date": "1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "",
+      "source_pages": [
+        15
+      ],
+      "id": "book-0206"
+    },
+    {
+      "author": "Cramér, Harald,",
+      "title": "Stationary and related stochastic processes;",
+      "isbn": "",
+      "publisher": "Wiley",
+      "publication_date": "1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "",
+      "source_pages": [
+        15
+      ],
+      "id": "book-0207"
+    },
+    {
+      "author": "James William Hardin | Joseph Hilbe",
+      "title": "Generalized Estimating Equations",
+      "isbn": "9781584883074",
+      "publisher": "Chapman and Hall/CRC",
+      "publication_date": "Jul 30, 2002",
+      "genre": "",
+      "publication_year": "2002",
+      "series": "",
+      "source_pages": [
+        15
+      ],
+      "id": "book-0208"
+    },
+    {
+      "author": "Bernard Harris",
+      "title": "Theory of Probability",
+      "isbn": "",
+      "publisher": "Addison-Wesley",
+      "publication_date": "1966",
+      "genre": "",
+      "publication_year": "1966",
+      "series": "Addison- Wesley Series in Statistics",
+      "source_pages": [
+        15
+      ],
+      "id": "book-0209"
+    },
+    {
+      "author": "B. Hartley | T.O. Hawkes",
+      "title": "Rings, Modules and Linear Algebra",
+      "isbn": "9780412098109",
+      "publisher": "Chapman and Hall/CRC",
+      "publication_date": "Sep 01, 1970",
+      "genre": "",
+      "publication_year": "1970",
+      "series": "",
+      "source_pages": [
+        15
+      ],
+      "id": "book-0210"
+    },
+    {
+      "author": "A.C. Harvey",
+      "title": "The Econometric Analysis of Time Series",
+      "isbn": "9780860031499",
+      "publisher": "Philip Allan",
+      "publication_date": "Jun 01, 1981",
+      "genre": "",
+      "publication_year": "1981",
+      "series": "",
+      "source_pages": [
+        15
+      ],
+      "id": "book-0211"
+    },
+    {
+      "author": "T.J. Hastie | R.J. Tibshirani",
+      "title": "Generalized Additive Models (Chapman & Hall/CRC Monographs on Statistics and Applied Probability)",
+      "isbn": "9780412343902",
+      "publisher": "Routledge",
+      "publication_date": "Jun 01, 1990",
+      "genre": "",
+      "publication_year": "1990",
+      "series": "",
+      "source_pages": [
+        15
+      ],
+      "id": "book-0212"
+    },
+    {
+      "author": "Trevor Hastie | Robert Tibshirani | Jerome Friedman",
+      "title": "Elements of Statistical Learning Data Mining, Inference, and Prediction, Second Edition",
+      "isbn": "9780387848570",
+      "publisher": "Springer",
+      "publication_date": "Dec 03, 2016",
+      "genre": "",
+      "publication_year": "2016",
+      "series": "",
+      "source_pages": [
+        15
+      ],
+      "id": "book-0213"
+    },
+    {
+      "author": "Allen Hatcher",
+      "title": "Algebraic Topology",
+      "isbn": "9780521795401",
+      "publisher": "Cambridge University Press",
+      "publication_date": "Dec 03, 2001",
+      "genre": "",
+      "publication_year": "2001",
+      "series": "",
+      "source_pages": [
+        15
+      ],
+      "id": "book-0214"
+    },
+    {
+      "author": "Bertrand Hauchecorne",
+      "title": "Bibliographie des grands théorèmes",
+      "isbn": "9782340084742",
+      "publisher": "ELLIPSES",
+      "publication_date": "Jan 01, 2023",
+      "genre": "",
+      "publication_year": "2023",
+      "series": "",
+      "source_pages": [
+        15
+      ],
+      "id": "book-0215"
+    },
+    {
+      "author": "Bertrand Hauchecorne",
+      "title": "Les contre-exemples en mathématiques",
+      "isbn": "9782729834180",
+      "publisher": "ELLIPSES",
+      "publication_date": "Jun 13, 2007",
+      "genre": "",
+      "publication_year": "2007",
+      "series": "",
+      "source_pages": [
+        15
+      ],
+      "id": "book-0216"
+    },
+    {
+      "author": "H.T. Hayslett Jr.",
+      "title": "Statistics Made Simple",
+      "isbn": "9780385023559",
+      "publisher": "Made Simple",
+      "publication_date": "Dec 05, 1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "",
+      "source_pages": [
+        15
+      ],
+      "id": "book-0217"
+    },
+    {
+      "author": "Paul J. Heafner",
+      "title": "Astronomical Algorithms",
+      "isbn": "9780943396637",
+      "publisher": "Willmann-Bell",
+      "publication_date": "May 1998",
+      "genre": "",
+      "publication_year": "1998",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0218"
+    },
+    {
+      "author": "Steen Frederick Henry",
+      "title": "Analytic geometry.",
+      "isbn": "",
+      "publisher": "Ginn and company",
+      "publication_date": "1946",
+      "genre": "",
+      "publication_year": "1946",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0219"
+    },
+    {
+      "author": "I.N. Herstein",
+      "title": "Topics in algebra.",
+      "isbn": "",
+      "publisher": "Blaisdell Pub. Co",
+      "publication_date": "1964",
+      "genre": "",
+      "publication_year": "1964",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0220"
+    },
+    {
+      "author": "Jean-Romain Heu | Viktoria Heu",
+      "title": "Algèbre",
+      "isbn": "9782100856176",
+      "publisher": "DUNOD",
+      "publication_date": "Jun 12, 2024",
+      "genre": "",
+      "publication_year": "2024",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0221"
+    },
+    {
+      "author": "R. Hill",
+      "title": "The Mathematical Theory of Plasticity",
+      "isbn": "",
+      "publisher": "Clarendon Press",
+      "publication_date": "1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0222"
+    },
+    {
+      "author": "Frederick S. Hillier",
+      "title": "Introduction to Operations Research",
+      "isbn": "9780072462395",
+      "publisher": "McGraw-Hill",
+      "publication_date": "Jun 2001",
+      "genre": "",
+      "publication_year": "2001",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0223"
+    },
+    {
+      "author": "Jean-Baptiste Hiriart-Urruty",
+      "title": "Optimisation et analyse convexe exercices et problèmes corrigés, avec rappels de cours",
+      "isbn": "9782759803736",
+      "publisher": "EDP sciences",
+      "publication_date": "Apr 09, 2009",
+      "genre": "",
+      "publication_year": "2009",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0224"
+    },
+    {
+      "author": "Charles D. Hodgman | Samuel M. Selby | Robert C. Weast",
+      "title": "C.R.C. Standard Mathematical Tables",
+      "isbn": "",
+      "publisher": "Chemical Rubber Publishing Company",
+      "publication_date": "1962",
+      "genre": "",
+      "publication_year": "1962",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0225"
+    },
+    {
+      "author": "Kenneth Hoffman | Ray Kunze",
+      "title": "Linear Algebra",
+      "isbn": "",
+      "publisher": "Prentice-Hall, Inc.",
+      "publication_date": "1965",
+      "genre": "",
+      "publication_year": "1965",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0226"
+    },
+    {
+      "author": "Robert V. Hogg | Allen T. Craig",
+      "title": "Introduction to mathematical statistics",
+      "isbn": "9780023557101",
+      "publisher": "Macmillan",
+      "publication_date": "Mar 01, 1978",
+      "genre": "",
+      "publication_year": "1978",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0227"
+    },
+    {
+      "author": "Robert V. Hogg | Allen T. Craig",
+      "title": "Introduction to Mathematical Statistics",
+      "isbn": "",
+      "publisher": "The Macmillan Company",
+      "publication_date": "1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0228"
+    },
+    {
+      "author": "Robert V. Hogg | Elliot A. Tanis",
+      "title": "Probability and statistical inference",
+      "isbn": "9780023558108",
+      "publisher": "Collier Macmillan",
+      "publication_date": "Feb 18, 1988",
+      "genre": "",
+      "publication_year": "1988",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0229"
+    },
+    {
+      "author": "Christian Hohmann",
+      "title": "Lean Management: Outils - Modes - retours d'expences - Questions/rnses (French Edition)",
+      "isbn": "9782212553819",
+      "publisher": "Editions D'Organisation",
+      "publication_date": "Apr 27, 2012",
+      "genre": "",
+      "publication_year": "2012",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0230"
+    },
+    {
+      "author": "Ross Honsberger",
+      "title": "Ingenuity in Mathematics (Anneli Lax New Mathematical Library, Series Number 23)",
+      "isbn": "9780883856239",
+      "publisher": "The Mathematical Association of America",
+      "publication_date": "Aug 27, 1998",
+      "genre": "",
+      "publication_year": "1998",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0231"
+    },
+    {
+      "author": "Stöcker, Horst",
+      "title": "Toutes les mathématiques et les bases de l'informatique",
+      "isbn": "9782100821334",
+      "publisher": "DUNOD",
+      "publication_date": "Dec 21, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        16
+      ],
+      "id": "book-0232"
+    },
+    {
+      "author": "David W. Hosmer",
+      "title": "Applied Logistic Regression (Wiley Series in Probability and Statistics - Applied Probability and Statistics Section)",
+      "isbn": "9780471615538",
+      "publisher": "Wiley- Interscience",
+      "publication_date": "Jul 1989",
+      "genre": "",
+      "publication_year": "1989",
+      "series": "",
+      "source_pages": [
+        16,
+        17
+      ],
+      "id": "book-0233"
+    },
+    {
+      "author": "Vincent Icke",
+      "title": "The Force of Symmetry",
+      "isbn": "9780521455916",
+      "publisher": "Cambridge University Press",
+      "publication_date": "Feb 24, 1995",
+      "genre": "",
+      "publication_year": "1995",
+      "series": "",
+      "source_pages": [
+        17
+      ],
+      "id": "book-0234"
+    },
+    {
+      "author": "Prigogine Ilya",
+      "title": "Lois du chaos (Les)",
+      "isbn": "9782080813695",
+      "publisher": "FLAMMARION",
+      "publication_date": "Jan 04, 1999",
+      "genre": "",
+      "publication_year": "1999",
+      "series": "",
+      "source_pages": [
+        17
+      ],
+      "id": "book-0235"
+    },
+    {
+      "author": "Bruno Ingrao",
+      "title": "Coniques projectives, affines et métriques: Cours et exercices.",
+      "isbn": "9782916352121",
+      "publisher": "CALVAGE MOUNET",
+      "publication_date": "Apr 29, 2011",
+      "genre": "",
+      "publication_year": "2011",
+      "series": "",
+      "source_pages": [
+        17
+      ],
+      "id": "book-0236"
+    },
+    {
+      "author": "Albert Jacquard",
+      "title": "Probabilites (les)",
+      "isbn": "9782130365327",
+      "publisher": "QUE SAIS JE",
+      "publication_date": "Apr 17, 2001",
+      "genre": "",
+      "publication_year": "2001",
+      "series": "",
+      "source_pages": [
+        17
+      ],
+      "id": "book-0237"
+    },
+    {
+      "author": "Gareth James",
+      "title": "An Introduction to Statistical Learning: with Applications in R (Springer Texts in Statistics)",
+      "isbn": "9781461471370",
+      "publisher": "Springer",
+      "publication_date": "Jun 25, 2013",
+      "genre": "Problems And Exercises",
+      "publication_year": "2013",
+      "series": "",
+      "source_pages": [
+        17
+      ],
+      "id": "book-0238"
+    },
+    {
+      "author": "Noureddine El Jaouhari",
+      "title": "Calcul différentiel et calcul intégral - 2e éd.",
+      "isbn": "9782100834068",
+      "publisher": "DUNOD",
+      "publication_date": "Jan 12, 2022",
+      "genre": "",
+      "publication_year": "2022",
+      "series": "",
+      "source_pages": [
+        17
+      ],
+      "id": "book-0239"
+    },
+    {
+      "author": "Mathieu Jaume | De Préface",
+      "title": "Éléments de mathématiques discrètes - Cours, exercices résolus, implémentations avec les langages Python et OCaml",
+      "isbn": "9782340014800",
+      "publisher": "ELLIPSES",
+      "publication_date": "Dec 12, 2016",
+      "genre": "",
+      "publication_year": "2016",
+      "series": "",
+      "source_pages": [
+        17
+      ],
+      "id": "book-0240"
+    },
+    {
+      "author": "Arbonés, Javier",
+      "title": "La beauté des maths",
+      "isbn": "9782344062456",
+      "publisher": "GLENAT",
+      "publication_date": "2024",
+      "genre": "",
+      "publication_year": "2024",
+      "series": "",
+      "source_pages": [
+        17
+      ],
+      "id": "book-0241"
+    },
+    {
+      "author": "Kuntzmann Jean",
+      "title": "Variable complexe ...",
+      "isbn": "",
+      "publisher": "Hermann",
+      "publication_date": "1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "",
+      "source_pages": [
+        17
+      ],
+      "id": "book-0242"
+    },
+    {
+      "author": "Rombaldi Jean- Etienne",
+      "title": "Thèmes pour l‘Agrégation de mathématiques: 2e édition (Enseignement Sup Math) (French Edition)",
+      "isbn": "9782759823406",
+      "publisher": "EDP Sciences",
+      "publication_date": "Sep 05, 2019",
+      "genre": "",
+      "publication_year": "2019",
+      "series": "",
+      "source_pages": [
+        17
+      ],
+      "id": "book-0243"
+    },
+    {
+      "author": "Garnier Jean- Marc",
+      "title": "Groupes et géométrie pour l'agrégation",
+      "isbn": "9782340028432",
+      "publisher": "ELLIPSES",
+      "publication_date": "Nov 20, 2018",
+      "genre": "",
+      "publication_year": "2018",
+      "series": "",
+      "source_pages": [
+        18
+      ],
+      "id": "book-0244"
+    },
+    {
+      "author": "Larry joel golstein",
+      "title": "analytic number theory",
+      "isbn": "",
+      "publisher": "Prentice-Hall",
+      "publication_date": "Aug 11, 1971",
+      "genre": "",
+      "publication_year": "1971",
+      "series": "",
+      "source_pages": [
+        18
+      ],
+      "id": "book-0245"
+    },
+    {
+      "author": "Peter W. M. John",
+      "title": "Statistical Design and Analysis of Experiments",
+      "isbn": "",
+      "publisher": "The Macmillan Company",
+      "publication_date": "1971",
+      "genre": "",
+      "publication_year": "1971",
+      "series": "",
+      "source_pages": [
+        18
+      ],
+      "id": "book-0246"
+    },
+    {
+      "author": "Norman L. Johnson",
+      "title": "Continuous Univariate Distributions, Volume 1",
+      "isbn": "9780471584957",
+      "publisher": "Wiley",
+      "publication_date": "Oct 28, 1994",
+      "genre": "",
+      "publication_year": "1994",
+      "series": "",
+      "source_pages": [
+        18
+      ],
+      "id": "book-0247"
+    },
+    {
+      "author": "Norman L. Johnson",
+      "title": "Continuous Univariate Distributions, Volume 2",
+      "isbn": "9780471584940",
+      "publisher": "John Wiley & Sons",
+      "publication_date": "May 08, 1995",
+      "genre": "",
+      "publication_year": "1995",
+      "series": "",
+      "source_pages": [
+        18
+      ],
+      "id": "book-0248"
+    },
+    {
+      "author": "Norman L. Johnson",
+      "title": "Discrete Multivariate Distributions",
+      "isbn": "9780471128441",
+      "publisher": "Wiley",
+      "publication_date": "Feb 07, 1997",
+      "genre": "",
+      "publication_year": "1997",
+      "series": "",
+      "source_pages": [
+        18
+      ],
+      "id": "book-0249"
+    },
+    {
+      "author": "Norman L. Johnson | Samuel Kotz | Adrienne W. Kemp",
+      "title": "Univariate Discrete Distributions (Wiley Series in Probability and Statistics)",
+      "isbn": "9780471548973",
+      "publisher": "Wiley- Interscience",
+      "publication_date": "Feb 22, 1993",
+      "genre": "",
+      "publication_year": "1993",
+      "series": "",
+      "source_pages": [
+        18
+      ],
+      "id": "book-0250"
+    },
+    {
+      "author": "E.S. Keeping",
+      "title": "Introduction to Statistical Inference",
+      "isbn": "9780486685021",
+      "publisher": "Courier Corporation",
+      "publication_date": "Jan 01, 1995",
+      "genre": "",
+      "publication_year": "1995",
+      "series": "",
+      "source_pages": [
+        18
+      ],
+      "id": "book-0251"
+    },
+    {
+      "author": "Brian W. Kernighan",
+      "title": "Le langage C",
+      "isbn": "9782225800689",
+      "publisher": "Masson",
+      "publication_date": "1986",
+      "genre": "",
+      "publication_year": "1986",
+      "series": "",
+      "source_pages": [
+        18
+      ],
+      "id": "book-0252"
+    },
+    {
+      "author": "Jae-On Kim | Charles W. Mueller",
+      "title": "Introduction to Factor Analysis: What It Is and How To Do It (Quantitative Applications in the Social Sciences)",
+      "isbn": "9780803911659",
+      "publisher": "SAGE Publications, Inc",
+      "publication_date": "Nov 01, 1978",
+      "genre": "",
+      "publication_year": "1978",
+      "series": "",
+      "source_pages": [
+        18
+      ],
+      "id": "book-0253"
+    },
+    {
+      "author": "Cole Nussbaumer Knaflic",
+      "title": "Storytelling with Data: A Data Visualization Guide for Business Professionals",
+      "isbn": "9781119002253",
+      "publisher": "Wiley",
+      "publication_date": "Nov 02, 2015",
+      "genre": "Electronic Books",
+      "publication_year": "2015",
+      "series": "",
+      "source_pages": [
+        18
+      ],
+      "id": "book-0254"
+    },
+    {
+      "author": "Andreï Kolmogorov",
+      "title": "MATHEMATIQUES: leur contenu, leurs méthodes, leur signification (Mathématiques, par Alexandrov, Kolmogorov et Lavrentiev) (French Edition)",
+      "isbn": "9782957239139",
+      "publisher": "Les Éditions du Bec de l'Aigle",
+      "publication_date": "Aug 05, 2021",
+      "genre": "",
+      "publication_year": "2021",
+      "series": "",
+      "source_pages": [
+        18
+      ],
+      "id": "book-0255"
+    },
+    {
+      "author": "Andreï Kolmogorov",
+      "title": "MATHÉMATIQUES: leur contenu, leurs méthodes, leur signification (Mathématiques, par Alexandrov, Kolmogorov et Lavrentiev) (French Edition)",
+      "isbn": "9782957239115",
+      "publisher": "Les Éditions du Bec de l'Aigle",
+      "publication_date": "Jan 25, 2021",
+      "genre": "",
+      "publication_year": "2021",
+      "series": "",
+      "source_pages": [
+        18
+      ],
+      "id": "book-0256"
+    },
+    {
+      "author": "Andreï Kolmogorov",
+      "title": "MATHÉMATIQUES: leur contenu, leurs méthodes, leur signification (Mathématiques, par Alexandrov, Kolmogorov et Lavrentiev) (French Edition)",
+      "isbn": "9782957239122",
+      "publisher": "Les Éditions du Bec de l'Aigle",
+      "publication_date": "Jul 01, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        18,
+        19
+      ],
+      "id": "book-0257"
+    },
+    {
+      "author": "Jean- FRANï¿½JEAN- Marie De Koninck OIS CLICHE",
+      "title": "EN CHAIR ET EN MATHS T01",
+      "isbn": "9782894712658",
+      "publisher": "SEPTEMBRE INC.",
+      "publication_date": "Nov 11, 2008",
+      "genre": "",
+      "publication_year": "2008",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0258"
+    },
+    {
+      "author": "Helmut Kopka",
+      "title": "Guide to LATEX, A: Document Preparation for Beginners and Advanced Users",
+      "isbn": "9780201568899",
+      "publisher": "U.S.A.: Addison- Wesley",
+      "publication_date": "Feb 28, 1993",
+      "genre": "",
+      "publication_year": "1993",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0259"
+    },
+    {
+      "author": "Steven G. Krantz",
+      "title": "Complex Variables",
+      "isbn": "9781584885801",
+      "publisher": "Chapman & Hall/ CRC",
+      "publication_date": "Sep 19, 2007",
+      "genre": "",
+      "publication_year": "2007",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0260"
+    },
+    {
+      "author": "Eugene F. Krause",
+      "title": "Mathematics for elementary teachers",
+      "isbn": "9780135627020",
+      "publisher": "Prentice-Hall",
+      "publication_date": "1978",
+      "genre": "",
+      "publication_year": "1978",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0261"
+    },
+    {
+      "author": "Paul Krée",
+      "title": "MATHEMATIQUES ANNEE 2 DEUG (SCIENCES MATHEMATIQUES)",
+      "isbn": "9782869110212",
+      "publisher": "ESKA",
+      "publication_date": "Dec 01, 1989",
+      "genre": "",
+      "publication_year": "1989",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0262"
+    },
+    {
+      "author": "Erwin Kreyszig",
+      "title": "Advanced Engineering Mathematics, 7th Edition",
+      "isbn": "9780471553809",
+      "publisher": "Wiley",
+      "publication_date": "Aug 11, 1992",
+      "genre": "",
+      "publication_year": "1992",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0263"
+    },
+    {
+      "author": "Erwin Kreyszig",
+      "title": "Advanced Engineering Mathematics, 8th Edition",
+      "isbn": "9780471154969",
+      "publisher": "John Wiley & Sons",
+      "publication_date": "Oct 23, 1998",
+      "genre": "",
+      "publication_year": "1998",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0264"
+    },
+    {
+      "author": "Jean Louis Krivine",
+      "title": "Théorie axiomatique des ensembles : Par Jean-Louis Krivine",
+      "isbn": "",
+      "publisher": "Presses universitaires de France",
+      "publication_date": "1969",
+      "genre": "",
+      "publication_year": "1969",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0265"
+    },
+    {
+      "author": "Harold J. Kushner | G. George Yin",
+      "title": "Stochastic Approximation and Recursive Algorithms and Applications (Stochastic Modelling and Applied Probability, 35)",
+      "isbn": "9780387008943",
+      "publisher": "Springer",
+      "publication_date": "Jul 17, 2003",
+      "genre": "",
+      "publication_year": "2003",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0266"
+    },
+    {
+      "author": "Maurice Laboureur",
+      "title": "Cours de calcul mathématique algébrique, différentiel et intégral",
+      "isbn": "",
+      "publisher": "Librairie Polytechnique Ch. Béranger",
+      "publication_date": "1927",
+      "genre": "",
+      "publication_year": "1927",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0267"
+    },
+    {
+      "author": "Saunders Mac Lane | Garrett Birkhoff",
+      "title": "Algebra",
+      "isbn": "",
+      "publisher": "The Macmillan Company",
+      "publication_date": "1968",
+      "genre": "",
+      "publication_year": "1968",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0268"
+    },
+    {
+      "author": "Serge Lang",
+      "title": "Algèbre",
+      "isbn": "9782100814718",
+      "publisher": "DUNOD",
+      "publication_date": "May 25, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0269"
+    },
+    {
+      "author": "Frédéric Laroche",
+      "title": "Promenades mathématiques - Histoire, fondements, applications",
+      "isbn": "9782729814175",
+      "publisher": "ELLIPSES",
+      "publication_date": "Jun 15, 2003",
+      "genre": "",
+      "publication_year": "2003",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0270"
+    },
+    {
+      "author": "Harold J. Larson",
+      "title": "Introduction to Probability Theory and Statistical Inference",
+      "isbn": "9780471059097",
+      "publisher": "John Wiley & Sons",
+      "publication_date": "Apr 23, 1982",
+      "genre": "",
+      "publication_year": "1982",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0271"
+    },
+    {
+      "author": "Alexandre Larue | Claude Gaulin",
+      "title": "Mathématiques générales",
+      "isbn": "",
+      "publisher": "Les Presses de l’Université Laval",
+      "publication_date": "1962",
+      "genre": "",
+      "publication_year": "1962",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0272"
+    },
+    {
+      "author": "Mickaël Launy",
+      "title": "Le grand roman des maths: De la préhistoire à nos jours",
+      "isbn": "9782290141809",
+      "publisher": "J'AI LU",
+      "publication_date": "Jan 03, 2018",
+      "genre": "",
+      "publication_year": "2018",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0273"
+    },
+    {
+      "author": "Niels Lauritzen",
+      "title": "Concrete Abstract Algebra: From Numbers to Gröbner Bases",
+      "isbn": "9780521534109",
+      "publisher": "Cambridge University Press",
+      "publication_date": "Oct 20, 2003",
+      "genre": "",
+      "publication_year": "2003",
+      "series": "",
+      "source_pages": [
+        19
+      ],
+      "id": "book-0274"
+    },
+    {
+      "author": "Jerald F. Lawless",
+      "title": "Statistics in Action: A Canadian Outlook",
+      "isbn": "9781482236231",
+      "publisher": "Chapman and Hall/CRC",
+      "publication_date": "Mar 03, 2014",
+      "genre": "",
+      "publication_year": "2014",
+      "series": "",
+      "source_pages": [
+        20
+      ],
+      "id": "book-0275"
+    },
+    {
+      "author": "Lucien M. Le Cam",
+      "title": "Asymptotics in Statistics: Some Basic Concepts (Springer Series in Statistics)",
+      "isbn": "9780387973722",
+      "publisher": "Springer-Verlag New York, Incorporated",
+      "publication_date": "1990",
+      "genre": "",
+      "publication_year": "1990",
+      "series": "",
+      "source_pages": [
+        20
+      ],
+      "id": "book-0276"
+    },
+    {
+      "author": "Hervé Lehning",
+      "title": "Le livre des nombres",
+      "isbn": "9782080438713",
+      "publisher": "Flammarion",
+      "publication_date": "Jan 10, 2024",
+      "genre": "",
+      "publication_year": "2024",
+      "series": "",
+      "source_pages": [
+        20
+      ],
+      "id": "book-0277"
+    },
+    {
+      "author": "Hervé Lehning",
+      "title": "Toutes les mathématiques du monde",
+      "isbn": "9782080148032",
+      "publisher": "Flammarion",
+      "publication_date": "Oct 13, 2025",
+      "genre": "",
+      "publication_year": "2025",
+      "series": "",
+      "source_pages": [
+        20
+      ],
+      "id": "book-0278"
+    },
+    {
+      "author": "P. Leroux",
+      "title": "ALGEBRE LINEAIRE LEROUX (MODULO)",
+      "isbn": "9782891132015",
+      "publisher": "MODULO",
+      "publication_date": "Mar 12, 1999",
+      "genre": "",
+      "publication_year": "1999",
+      "series": "",
+      "source_pages": [
+        20
+      ],
+      "id": "book-0279"
+    },
+    {
+      "author": "P. Leroux",
+      "title": "Algèbre linéaire une approche matricielle",
+      "isbn": "9782891132015",
+      "publisher": "Modulo",
+      "publication_date": "Mar 12, 1983",
+      "genre": "",
+      "publication_year": "1983",
+      "series": "",
+      "source_pages": [
+        20
+      ],
+      "id": "book-0280"
+    },
+    {
+      "author": "Ahmed Lesfari",
+      "title": "Courbes algébriques complexes et/ou Surfaces de Riemann compactes",
+      "isbn": "9782493230065",
+      "publisher": "CALVAGE MOUNET",
+      "publication_date": "Apr 06, 2023",
+      "genre": "",
+      "publication_year": "2023",
+      "series": "",
+      "source_pages": [
+        20
+      ],
+      "id": "book-0281"
+    },
+    {
+      "author": "Léonce Lesieur",
+      "title": "Mathématiques : analyse",
+      "isbn": "9782200210410",
+      "publisher": "colin",
+      "publication_date": "Jan 01, 1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "",
+      "source_pages": [
+        20
+      ],
+      "id": "book-0282"
+    },
+    {
+      "author": "Léonce Lesieur | Jean Lefebvre",
+      "title": "Mathématiques",
+      "isbn": "",
+      "publisher": "Librairie Armand Colin",
+      "publication_date": "1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "",
+      "source_pages": [
+        20
+      ],
+      "id": "book-0283"
+    },
+    {
+      "author": "Roger Lewandowski",
+      "title": "Mathématiques pour la modélisation",
+      "isbn": "9782100870363",
+      "publisher": "DUNOD",
+      "publication_date": "Feb 05, 2025",
+      "genre": "",
+      "publication_year": "2025",
+      "series": "",
+      "source_pages": [
+        20
+      ],
+      "id": "book-0284"
+    },
+    {
+      "author": "P.E. Lewis",
+      "title": "Vector Analysis for Engineers and Scientists (Modern Applications of Mathematics)",
+      "isbn": "9780201175776",
+      "publisher": "Addison-Wesley",
+      "publication_date": "1989",
+      "genre": "",
+      "publication_year": "1989",
+      "series": "",
+      "source_pages": [
+        20
+      ],
+      "id": "book-0285"
+    },
+    {
+      "author": "Daniel Li",
+      "title": "Cours d’analyse fonctionnelle Avec 200 exercices corrigés",
+      "isbn": "9782340097995",
+      "publisher": "Ellipses",
+      "publication_date": "Dec 10, 2024",
+      "genre": "",
+      "publication_year": "2024",
+      "series": "",
+      "source_pages": [
+        20
+      ],
+      "id": "book-0286"
+    },
+    {
+      "author": "Robert Libby",
+      "title": "Fondements de la comptabilité financière",
+      "isbn": "9782765107552",
+      "publisher": "CHENELIERE",
+      "publication_date": "Jun 10, 2016",
+      "genre": "",
+      "publication_year": "2016",
+      "series": "",
+      "source_pages": [
+        20
+      ],
+      "id": "book-0287"
+    },
+    {
+      "author": "Daniel Lignon",
+      "title": "Le dictionnaire de (presque) tous les nombres entiers",
+      "isbn": "9782340085039",
+      "publisher": "ELLIPSES",
+      "publication_date": "Dec 05, 2023",
+      "genre": "",
+      "publication_year": "2023",
+      "series": "",
+      "source_pages": [
+        20
+      ],
+      "id": "book-0288"
+    },
+    {
+      "author": "James K. Lindsey",
+      "title": "Models for Repeated Measurements",
+      "isbn": "9780198505594",
+      "publisher": "Oxford University Press",
+      "publication_date": "Sep 23, 1999",
+      "genre": "",
+      "publication_year": "1999",
+      "series": "",
+      "source_pages": [
+        20
+      ],
+      "id": "book-0289"
+    },
+    {
+      "author": "Chung L. Liu",
+      "title": "Elements of discrete mathematics (McGraw-Hill computer science series)",
+      "isbn": "9780070381315",
+      "publisher": "McGraw- Hill Book Company, New York",
+      "publication_date": "May 01, 1977",
+      "genre": "",
+      "publication_year": "1977",
+      "series": "",
+      "source_pages": [
+        20
+      ],
+      "id": "book-0290"
+    },
+    {
+      "author": "Mark Liu",
+      "title": "Machine Learning, Animated (Chapman & Hall/CRC Machine Learning & Pattern Recognition)",
+      "isbn": "9781032462141",
+      "publisher": "Chapman and Hall/CRC",
+      "publication_date": "2023",
+      "genre": "",
+      "publication_year": "2023",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0291"
+    },
+    {
+      "author": "J. Ll Morris",
+      "title": "Computational Methods in Elementary Numerical Analysis",
+      "isbn": "9780471104209",
+      "publisher": "Wiley",
+      "publication_date": "Feb 09, 1983",
+      "genre": "",
+      "publication_year": "1983",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0292"
+    },
+    {
+      "author": "Lynn H. Loomis",
+      "title": "Advanced calculus",
+      "isbn": "",
+      "publisher": "Addison-Wesley Pub. Co",
+      "publication_date": "1968",
+      "genre": "",
+      "publication_year": "1968",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0293"
+    },
+    {
+      "author": "Lynn H. Loomis | Shlomo Sternberg",
+      "title": "Advanced Calculus",
+      "isbn": "",
+      "publisher": "Addison-Wesley Publishing Company",
+      "publication_date": "1968",
+      "genre": "",
+      "publication_year": "1968",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0294"
+    },
+    {
+      "author": "A. E. H. Love",
+      "title": "A Treatise on the Mathematical Theory of Elasticity",
+      "isbn": "",
+      "publisher": "Dover Publications, Inc.",
+      "publication_date": "1944",
+      "genre": "",
+      "publication_year": "1944",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0295"
+    },
+    {
+      "author": "David G. Luenberger",
+      "title": "Introduction to Linear & Nonlinear Programming",
+      "isbn": "9780201043471",
+      "publisher": "Addison Wesley Publishing Company",
+      "publication_date": "Jan 1973",
+      "genre": "",
+      "publication_year": "1973",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0296"
+    },
+    {
+      "author": "V. Lusternik",
+      "title": "Précis d'analyse fonctionnelle",
+      "isbn": "9785030007175",
+      "publisher": "Editions Mir",
+      "publication_date": "1989",
+      "genre": "",
+      "publication_year": "1989",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0297"
+    },
+    {
+      "author": "Alan MacDonald",
+      "title": "Linear and Geometric Algebra (Geometric Algebra & Calculus)",
+      "isbn": "9781453854938",
+      "publisher": "CreateSpace Independent Publishing Platform",
+      "publication_date": "Jan 19, 2011",
+      "genre": "",
+      "publication_year": "2011",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0298"
+    },
+    {
+      "author": "Wilhelm Magnus",
+      "title": "Noneuclidean Tesselations and Their Groups (Pure and Applied Mathematics, Volume 61)",
+      "isbn": "9780124654501",
+      "publisher": "Academic Press",
+      "publication_date": "Jul 12, 1974",
+      "genre": "",
+      "publication_year": "1974",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0299"
+    },
+    {
+      "author": "Joseph Malkevitch",
+      "title": "Graphs, Models and Finite Mathematics",
+      "isbn": "9780133634655",
+      "publisher": "Pearson College Div",
+      "publication_date": "Dec 1974",
+      "genre": "",
+      "publication_year": "1974",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0300"
+    },
+    {
+      "author": "Joseph Malkevitch | Walter Meyer",
+      "title": "Graphs, Models, and Finite Mathematics",
+      "isbn": "9780133633900",
+      "publisher": "Prentice-Hall",
+      "publication_date": "1974",
+      "genre": "",
+      "publication_year": "1974",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0301"
+    },
+    {
+      "author": "Roger Mansuy",
+      "title": "Le Grand Almanach mathématique",
+      "isbn": "9782226494450",
+      "publisher": "ALBIN MICHEL",
+      "publication_date": "Oct 15, 2025",
+      "genre": "",
+      "publication_year": "2025",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0302"
+    },
+    {
+      "author": "Roger Mansuy | Rached Mneimné",
+      "title": "Algèbre linéaire. Réduction des endomorphismes: Cours et exercices corrigés - Licence • Prépas • Capes • Agrégation",
+      "isbn": "9782807336612",
+      "publisher": "DE BOECK SUP",
+      "publication_date": "Feb 09, 2022",
+      "genre": "",
+      "publication_year": "2022",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0303"
+    },
+    {
+      "author": "Marceau | Etienne",
+      "title": "Modélisation et évaluation quantitative des risques en actuariat: Modèles sur une période (Statistique et probabilités appliquées) (French Edition)",
+      "isbn": "9782817801117",
+      "publisher": "Springer",
+      "publication_date": "Feb 14, 2013",
+      "genre": "",
+      "publication_year": "2013",
+      "series": "",
+      "source_pages": [
+        21
+      ],
+      "id": "book-0304"
+    },
+    {
+      "author": "Michel Marcellin",
+      "title": "L'astronomie (French Edition)",
+      "isbn": "9782012369306",
+      "publisher": "HACHETTE PRATIQUE",
+      "publication_date": "Jun 25, 2004",
+      "genre": "",
+      "publication_year": "2004",
+      "series": "",
+      "source_pages": [
+        22
+      ],
+      "id": "book-0305"
+    },
+    {
+      "author": "Jean-Pierre Marco | Laurent Lazzarini",
+      "title": "MATHEMATIQUES L1 COURS COMPLET",
+      "isbn": "9782744072581",
+      "publisher": "PEARSON",
+      "publication_date": "Jun 13, 2007",
+      "genre": "",
+      "publication_year": "2007",
+      "series": "",
+      "source_pages": [
+        22
+      ],
+      "id": "book-0306"
+    },
+    {
+      "author": "Jean-Pierre Marco | Philippe Thieullen | Jacques-Arthur Weil | Joël Benoist | Laurent Lazzarini | Hassan Boualem | Robert Brouzet | Alexandre Cabot | Marie- Line Chabanol | Jacques Féjoz | Roger Manguy | Laurent Mesnager | Silhem Mesnager | Denis Pennequin | Alain Yger | Mohammed Zarrabi",
+      "title": "MATHEMATIQUES L2 COURS COMPLET AVEC 700 TESTS ET EXERCICES CORRIGES",
+      "isbn": "9782744072253",
+      "publisher": "PEARSON",
+      "publication_date": "Aug 22, 2007",
+      "genre": "",
+      "publication_year": "2007",
+      "series": "",
+      "source_pages": [
+        22
+      ],
+      "id": "book-0307"
+    },
+    {
+      "author": "Marvin Marcus",
+      "title": "Introduction to Linear Algebra",
+      "isbn": "9786001417351",
+      "publisher": "Univ Of Ca/ princeton",
+      "publication_date": "Jan 01, 1965",
+      "genre": "",
+      "publication_year": "1965",
+      "series": "",
+      "source_pages": [
+        22
+      ],
+      "id": "book-0308"
+    },
+    {
+      "author": "Marvin Marcus | Henryk Minc",
+      "title": "Introduction to Linear Algebra",
+      "isbn": "",
+      "publisher": "The Macmillan Company",
+      "publication_date": "1969",
+      "genre": "",
+      "publication_year": "1969",
+      "series": "",
+      "source_pages": [
+        22
+      ],
+      "id": "book-0309"
+    },
+    {
+      "author": "Yozō Matsushima",
+      "title": "Differentiable Manifolds (Pure and applied mathematics)",
+      "isbn": "9780824714451",
+      "publisher": "M. Dekker",
+      "publication_date": "1972",
+      "genre": "",
+      "publication_year": "1972",
+      "series": "",
+      "source_pages": [
+        22
+      ],
+      "id": "book-0310"
+    },
+    {
+      "author": "C.R.F. Maunder",
+      "title": "Algebraic Topology (Dover Books on Mathematics)",
+      "isbn": "9780486691312",
+      "publisher": "Dover Publications",
+      "publication_date": "Jun 14, 1996",
+      "genre": "",
+      "publication_year": "1996",
+      "series": "",
+      "source_pages": [
+        22
+      ],
+      "id": "book-0311"
+    },
+    {
+      "author": "P. McCullagh | John A. Nelder",
+      "title": "Generalized Linear Models, Second Edition",
+      "isbn": "9780412317606",
+      "publisher": "CRC Press",
+      "publication_date": "Aug 01, 1989",
+      "genre": "",
+      "publication_year": "1989",
+      "series": "",
+      "source_pages": [
+        22
+      ],
+      "id": "book-0312"
+    },
+    {
+      "author": "Wes McKinney",
+      "title": "Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython",
+      "isbn": "9781491957660",
+      "publisher": "O'Reilly Media",
+      "publication_date": "Nov 14, 2017",
+      "genre": "",
+      "publication_year": "2017",
+      "series": "",
+      "source_pages": [
+        22
+      ],
+      "id": "book-0313"
+    },
+    {
+      "author": "Jean Meeus",
+      "title": "Astronomical Algorithms",
+      "isbn": "9780943396613",
+      "publisher": "Willmann-Bell",
+      "publication_date": "Dec 31, 1998",
+      "genre": "",
+      "publication_year": "1998",
+      "series": "",
+      "source_pages": [
+        22
+      ],
+      "id": "book-0314"
+    },
+    {
+      "author": "Jean menard",
+      "title": "mathématiques nouvelles",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "Jan 01, 1971",
+      "genre": "",
+      "publication_year": "1971",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0315"
+    },
+    {
+      "author": "Bert Mendelson",
+      "title": "Introduction to Topology: Third Edition (Dover Books on Mathematics)",
+      "isbn": "9780486663524",
+      "publisher": "Dover Publications",
+      "publication_date": "Jul 01, 1990",
+      "genre": "",
+      "publication_year": "1990",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0316"
+    },
+    {
+      "author": "William Mendenhall | Terry L. Sincich",
+      "title": "A Second Course in Statistics: Regression Analysis",
+      "isbn": "9780130223234",
+      "publisher": "Pearson College Div",
+      "publication_date": "Mar 14, 2003",
+      "genre": "",
+      "publication_year": "2003",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0317"
+    },
+    {
+      "author": "Armel Mercier",
+      "title": "Fonctions De Plusieurs Variables",
+      "isbn": "9782921120364",
+      "publisher": "Montréal : Publications Crm",
+      "publication_date": "2002",
+      "genre": "",
+      "publication_year": "2002",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0318"
+    },
+    {
+      "author": "Dany-Jack Mercier",
+      "title": "Cours De Géométrie",
+      "isbn": "9782748341393",
+      "publisher": "Editions Publibook",
+      "publication_date": "2008",
+      "genre": "",
+      "publication_year": "2008",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0319"
+    },
+    {
+      "author": "Xavier Merlin",
+      "title": "Méthod'H méthodes mathématiques pour classes préparatoires économiques et commerciales",
+      "isbn": "9782729856632",
+      "publisher": "Ellipses",
+      "publication_date": "Dec 15, 2011",
+      "genre": "",
+      "publication_year": "2011",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0320"
+    },
+    {
+      "author": "Thierry Meyre",
+      "title": "Séries et intégrales Cours et exercices corrigés - Agrégation interne et classes préparatoires",
+      "isbn": "9782493230294",
+      "publisher": "Calvage et Mounet",
+      "publication_date": "May 08, 2025",
+      "genre": "",
+      "publication_year": "2025",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0321"
+    },
+    {
+      "author": "John F. Monahan",
+      "title": "Numerical Methods of Statistics",
+      "isbn": "9780521791687",
+      "publisher": "Cambridge University Press",
+      "publication_date": "Feb 05, 2001",
+      "genre": "",
+      "publication_year": "2001",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0322"
+    },
+    {
+      "author": "Monchamp",
+      "title": "METHODES OU RECETTES",
+      "isbn": "9782729886110",
+      "publisher": "ELLIPSES",
+      "publication_date": "May 15, 1986",
+      "genre": "",
+      "publication_year": "1986",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0323"
+    },
+    {
+      "author": "Douglas C. Montgomery",
+      "title": "Design and Analysis of Experiments",
+      "isbn": "9780471520009",
+      "publisher": "Wiley",
+      "publication_date": "Jan 16, 1991",
+      "genre": "",
+      "publication_year": "1991",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0324"
+    },
+    {
+      "author": "A.W. Moore",
+      "title": "The Infinite",
+      "isbn": "9780415070485",
+      "publisher": "Routledge",
+      "publication_date": "Oct 24, 1991",
+      "genre": "",
+      "publication_year": "1991",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0325"
+    },
+    {
+      "author": "Hervé Morin",
+      "title": "Théorie de l'échantillonnage",
+      "isbn": "9782763773117",
+      "publisher": "Presses de l'Université Laval",
+      "publication_date": "Jan 01, 1993",
+      "genre": "",
+      "publication_year": "1993",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0326"
+    },
+    {
+      "author": "Frederick Mosteller",
+      "title": "Fifty Challenging Problems in Probability with Solutions",
+      "isbn": "9780486653556",
+      "publisher": "Courier Corporation",
+      "publication_date": "Jan 01, 1987",
+      "genre": "",
+      "publication_year": "1987",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0327"
+    },
+    {
+      "author": "Frederick Mosteller",
+      "title": "Fifty Challenging Problems in Probability with Solutions",
+      "isbn": "9780486653556",
+      "publisher": "Courier Corporation",
+      "publication_date": "Jan 01, 1987",
+      "genre": "",
+      "publication_year": "1987",
+      "series": "",
+      "source_pages": [
+        23
+      ],
+      "id": "book-0328"
+    },
+    {
+      "author": "George D. Mostow | Joseph H. Samson | Jean-Pierre Meyer",
+      "title": "Fundamental structures of Algebra",
+      "isbn": "9780070435001",
+      "publisher": "McGraw-Hill",
+      "publication_date": "1963",
+      "genre": "",
+      "publication_year": "1963",
+      "series": "",
+      "source_pages": [
+        24
+      ],
+      "id": "book-0329"
+    },
+    {
+      "author": "François Moulin | Xavier Buff | Josselin Garnier | Jacques Sauloy | Monique Ramis",
+      "title": "Mathématiques Tout-en-un pour la Licence 3 - 2e éd.: Cours complet avec applications et 300 exercices corrigés",
+      "isbn": "9782100825462",
+      "publisher": "DUNOD",
+      "publication_date": "Aug 18, 2021",
+      "genre": "",
+      "publication_year": "2021",
+      "series": "",
+      "source_pages": [
+        24
+      ],
+      "id": "book-0330"
+    },
+    {
+      "author": "François Moulin | Xavier Buff | Emmanuel Halberstadt | Jacques Sauloy | Monique Ramis",
+      "title": "Mathématiques - Tout-en-un pour la Licence 2 - 3e éd.",
+      "isbn": "9782100800582",
+      "publisher": "DUNOD",
+      "publication_date": "Feb 05, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        24
+      ],
+      "id": "book-0331"
+    },
+    {
+      "author": "Pierre Mounoud",
+      "title": "Leçons de mathématiques d'aujourd'hui volume 5",
+      "isbn": "9782842251697",
+      "publisher": "CASSINI",
+      "publication_date": "Nov 29, 2019",
+      "genre": "",
+      "publication_year": "2019",
+      "series": "",
+      "source_pages": [
+        24
+      ],
+      "id": "book-0332"
+    },
+    {
+      "author": "Kevin P. Murphy",
+      "title": "Machine Learning A Probabilistic Perspective",
+      "isbn": "9780262018029",
+      "publisher": "MIT Press",
+      "publication_date": "Aug 24, 2012",
+      "genre": "",
+      "publication_year": "2012",
+      "series": "",
+      "source_pages": [
+        24
+      ],
+      "id": "book-0333"
+    },
+    {
+      "author": "Terence P. Murphy",
+      "title": "A Study of Bernhard Riemann's 1859 Paper",
+      "isbn": "9780996167130",
+      "publisher": "Paramount Ridge Press",
+      "publication_date": "Sep 18, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        24
+      ],
+      "id": "book-0334"
+    },
+    {
+      "author": "Terrence P. Murphy",
+      "title": "A Study of Riemann's Zeta Function",
+      "isbn": "9798991493604",
+      "publisher": "Paramount Ridge Press",
+      "publication_date": "Sep 10, 2024",
+      "genre": "",
+      "publication_year": "2024",
+      "series": "",
+      "source_pages": [
+        24
+      ],
+      "id": "book-0335"
+    },
+    {
+      "author": "Terrence P. Murphy",
+      "title": "Complex Analysis: a Self- Study Guide",
+      "isbn": "9780996167154",
+      "publisher": "Paramount Ridge Press",
+      "publication_date": "Mar 16, 2022",
+      "genre": "",
+      "publication_year": "2022",
+      "series": "",
+      "source_pages": [
+        24
+      ],
+      "id": "book-0336"
+    },
+    {
+      "author": "Nikolaĭ Ivanovich Muskhelishvili",
+      "title": "Some Basic Problems of the Mathematical Theory of Elasticity",
+      "isbn": "9789001607012",
+      "publisher": "Springer",
+      "publication_date": "Apr 30, 1977",
+      "genre": "",
+      "publication_year": "1977",
+      "series": "",
+      "source_pages": [
+        24
+      ],
+      "id": "book-0337"
+    },
+    {
+      "author": "Raghavan Narasimhan",
+      "title": "Analysis on Real and Complex Manifolds",
+      "isbn": "",
+      "publisher": "Masson & Cie; North-Holland Publishing Company",
+      "publication_date": "1968",
+      "genre": "",
+      "publication_year": "1968",
+      "series": "",
+      "source_pages": [
+        24
+      ],
+      "id": "book-0338"
+    },
+    {
+      "author": "Prof Tristan Needham",
+      "title": "Visual Complex Analysis: 25th Anniversary Edition",
+      "isbn": "9780192868923",
+      "publisher": "Oxford University Press",
+      "publication_date": "Feb 28, 2023",
+      "genre": "",
+      "publication_year": "2023",
+      "series": "",
+      "source_pages": [
+        24
+      ],
+      "id": "book-0339"
+    },
+    {
+      "author": "Dwight E. Neuenschwander",
+      "title": "Emmy Noether's Wonderful Theorem",
+      "isbn": "9780801896941",
+      "publisher": "Johns Hopkins University Press",
+      "publication_date": "Nov 16, 2010",
+      "genre": "",
+      "publication_year": "2010",
+      "series": "",
+      "source_pages": [
+        24
+      ],
+      "id": "book-0340"
+    },
+    {
+      "author": "Jacques Neveu",
+      "title": "Bases mathématiques du calcul des probabilités",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "1964",
+      "genre": "",
+      "publication_year": "1964",
+      "series": "",
+      "source_pages": [
+        25
+      ],
+      "id": "book-0341"
+    },
+    {
+      "author": "Ouida Newton | Altair Peterson",
+      "title": "Ace Math in One Big Fat Notebook: The Complete Middle School Study Guide (Big Fat Notebooks)",
+      "isbn": "9780761160960",
+      "publisher": "Workman Publishing Company",
+      "publication_date": "Aug 09, 2016",
+      "genre": "Juvenile Works | Study Guides",
+      "publication_year": "2016",
+      "series": "",
+      "source_pages": [
+        25
+      ],
+      "id": "book-0342"
+    },
+    {
+      "author": "Kaj L. Nielsen | John H. Vanlonkhuyzen",
+      "title": "An Outline of Plane and Spherical Trigonometry",
+      "isbn": "",
+      "publisher": "Barnes & Noble, Inc.",
+      "publication_date": "1944",
+      "genre": "",
+      "publication_year": "1944",
+      "series": "",
+      "source_pages": [
+        25
+      ],
+      "id": "book-0343"
+    },
+    {
+      "author": "Jurg Nievergelt",
+      "title": "Computer approaches to mathematical problems (Prentice-Hall series in automatic computation)",
+      "isbn": "9780131648555",
+      "publisher": "Prentice-Hall",
+      "publication_date": "Mar 1974",
+      "genre": "",
+      "publication_year": "1974",
+      "series": "",
+      "source_pages": [
+        25
+      ],
+      "id": "book-0344"
+    },
+    {
+      "author": "Nikolaï Nikolski",
+      "title": "Matrices et opérateurs de Toeplitz",
+      "isbn": "9782916352473",
+      "publisher": "CALVAGE MOUNET",
+      "publication_date": "Apr 06, 2017",
+      "genre": "",
+      "publication_year": "2017",
+      "series": "",
+      "source_pages": [
+        25
+      ],
+      "id": "book-0345"
+    },
+    {
+      "author": "Ivan Niven",
+      "title": "Numbers: Rational and Irrational",
+      "isbn": "9780883856017",
+      "publisher": "Mathematical Association of America",
+      "publication_date": "Aug 30, 1964",
+      "genre": "",
+      "publication_year": "1964",
+      "series": "",
+      "source_pages": [
+        25
+      ],
+      "id": "book-0346"
+    },
+    {
+      "author": "Ivan Morton Niven",
+      "title": "Mathematics of Choice: Or, How to Count Without Counting",
+      "isbn": "9780883856154",
+      "publisher": "Mathematical Assn of Amer",
+      "publication_date": "Jul 30, 1975",
+      "genre": "",
+      "publication_year": "1975",
+      "series": "",
+      "source_pages": [
+        25
+      ],
+      "id": "book-0347"
+    },
+    {
+      "author": "Michel Novi | Que Sais-Je?",
+      "title": "Pourcentages et Tableaux statistiques (QUE SAIS-JE ?)",
+      "isbn": "9782130488804",
+      "publisher": "Presses Universitaires de France - PUF",
+      "publication_date": "Aug 01, 1998",
+      "genre": "",
+      "publication_year": "1998",
+      "series": "",
+      "source_pages": [
+        25
+      ],
+      "id": "book-0348"
+    },
+    {
+      "author": "Knaflic Cole Nussbaumer",
+      "title": "Storytelling with Data: Let's Practice!",
+      "isbn": "9781119621492",
+      "publisher": "Wiley",
+      "publication_date": "Oct 22, 2019",
+      "genre": "",
+      "publication_year": "2019",
+      "series": "",
+      "source_pages": [
+        25
+      ],
+      "id": "book-0349"
+    },
+    {
+      "author": "Bernt Oksendal",
+      "title": "Stochastic Differential Equations: An Introduction with Applications",
+      "isbn": "9783540047582",
+      "publisher": "Springer-Verlag GmbH",
+      "publication_date": "Feb 04, 2014",
+      "genre": "",
+      "publication_year": "2014",
+      "series": "",
+      "source_pages": [
+        25
+      ],
+      "id": "book-0350"
+    },
+    {
+      "author": "Oystein Ore",
+      "title": "Invitation to Number Theory",
+      "isbn": "9780883856208",
+      "publisher": "American Mathematical Society",
+      "publication_date": "Dec 31, 1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0351"
+    },
+    {
+      "author": "Gilles Ouellet",
+      "title": "Calcul 1",
+      "isbn": "9782920922051",
+      "publisher": "Modulo-griffon",
+      "publication_date": "1988",
+      "genre": "",
+      "publication_year": "1988",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0352"
+    },
+    {
+      "author": "Gilles Ouellet",
+      "title": "Calcul 2",
+      "isbn": "9782920922853",
+      "publisher": "Le Griffon d'argile",
+      "publication_date": "1992",
+      "genre": "",
+      "publication_year": "1992",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0353"
+    },
+    {
+      "author": "Gilles Ouellet",
+      "title": "Calcul: Théorie, exemples, problèmes",
+      "isbn": "9782920210257",
+      "publisher": "Éditions du Griffon d'argile",
+      "publication_date": "Jan 01, 1981",
+      "genre": "",
+      "publication_year": "1981",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0354"
+    },
+    {
+      "author": "Sankar K. Pal",
+      "title": "Rough Fuzzy Image Analysis: Foundations and Methodologies (Chapman & Hall/CRC Mathematical and Computational Imaging Sciences Series)",
+      "isbn": "9781439803295",
+      "publisher": "CRC Press",
+      "publication_date": "May 04, 2010",
+      "genre": "",
+      "publication_year": "2010",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0355"
+    },
+    {
+      "author": "Lesser paley | Jacob weichsel",
+      "title": "A first course in abstract algebra",
+      "isbn": "",
+      "publisher": "Holt, Rinehart and Winston",
+      "publication_date": "1966",
+      "genre": "",
+      "publication_year": "1966",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0356"
+    },
+    {
+      "author": "Christos H. Papadimitriou | Kenneth Steiglitz",
+      "title": "Combinatorial Optimization Algorithms and Complexity",
+      "isbn": "9780486402581",
+      "publisher": "Courier Corporation",
+      "publication_date": "Jan 01, 1998",
+      "genre": "",
+      "publication_year": "1998",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0357"
+    },
+    {
+      "author": "Vincent Papillon",
+      "title": "VECTEUR MATRICES ET NOMBRES COMPLEXES PAPILLON (MODULO)",
+      "isbn": "9782891132787",
+      "publisher": "MODULO",
+      "publication_date": "Feb 01, 2001",
+      "genre": "",
+      "publication_year": "2001",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0358"
+    },
+    {
+      "author": "F. Pecastaings | J. Sevin",
+      "title": "chemins vers l’algèbre",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "Aug 11, 1980",
+      "genre": "",
+      "publication_year": "1980",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0359"
+    },
+    {
+      "author": "Daniel Perrin",
+      "title": "Cours d'algèbre (Agrégation)",
+      "isbn": "9782729855529",
+      "publisher": "ELLIPSES",
+      "publication_date": "Feb 15, 1996",
+      "genre": "",
+      "publication_year": "1996",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0360"
+    },
+    {
+      "author": "Daniel Perrin",
+      "title": "Cours d'algèbre (Agrégation)",
+      "isbn": "9782729855529",
+      "publisher": "ELLIPSES",
+      "publication_date": "Feb 15, 1996",
+      "genre": "",
+      "publication_year": "1996",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0361"
+    },
+    {
+      "author": "Benoît Perthame | Jeffrey Rauch | Nicole El Karoui | Marc Yor | Collectif",
+      "title": "Leçons de mathématiques d'aujourd'hui (volume 3)",
+      "isbn": "9782842250829",
+      "publisher": "CASSINI",
+      "publication_date": "Jan 15, 2007",
+      "genre": "",
+      "publication_year": "2007",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0362"
+    },
+    {
+      "author": "Gérard A. Philippe",
+      "title": "Éléments de mathématiques appliquées : séries, EDP, transformées de Laplace et de Fourier",
+      "isbn": "",
+      "publisher": "Loze-Dion éditeur inc.",
+      "publication_date": "2004",
+      "genre": "",
+      "publication_year": "2004",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0363"
+    },
+    {
+      "author": "Gérard A. Philippe",
+      "title": "Éléments de mathématiques appliquées à la physique",
+      "isbn": "",
+      "publisher": "Loze-Dion éditeur inc.",
+      "publication_date": "2009",
+      "genre": "",
+      "publication_year": "2009",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0364"
+    },
+    {
+      "author": "N. Piskounov",
+      "title": "Calcul differentiel et integral",
+      "isbn": "",
+      "publisher": "Editions Mir",
+      "publication_date": "Aug 11, 1966",
+      "genre": "",
+      "publication_year": "1966",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0365"
+    },
+    {
+      "author": "Daniel Ponasse",
+      "title": "Logique mathématique",
+      "isbn": "",
+      "publisher": "O.C.D.L.",
+      "publication_date": "1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0366"
+    },
+    {
+      "author": "Marc Potters",
+      "title": "A First Course in Random Matrix Theory",
+      "isbn": "9781108488082",
+      "publisher": "Cambridge University Press",
+      "publication_date": "Mar 12, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        26
+      ],
+      "id": "book-0367"
+    },
+    {
+      "author": "Yan Pradeau",
+      "title": "La guerre des nombres premiers",
+      "isbn": "9782080469397",
+      "publisher": "FLAMMARION",
+      "publication_date": "Sep 10, 2025",
+      "genre": "",
+      "publication_year": "2025",
+      "series": "",
+      "source_pages": [
+        26,
+        27
+      ],
+      "id": "book-0368"
+    },
+    {
+      "author": "Murray H. Protter | Charles B. Morrey, Jr.",
+      "title": "Calculus with Analytic Geometry",
+      "isbn": "",
+      "publisher": "Addison-Wesley Publishing Company",
+      "publication_date": "1964",
+      "genre": "",
+      "publication_year": "1964",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0369"
+    },
+    {
+      "author": "Edward M. Purcell",
+      "title": "Electricity and Magnetism",
+      "isbn": "",
+      "publisher": "McGraw-Hill Book Company",
+      "publication_date": "1965",
+      "genre": "",
+      "publication_year": "1965",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0370"
+    },
+    {
+      "author": "Hervé Queffélec | Martine Queffélec",
+      "title": "Analyse complexe et applications",
+      "isbn": "9782493230201",
+      "publisher": "CALVAGE MOUNET",
+      "publication_date": "Jan 01, 2023",
+      "genre": "",
+      "publication_year": "2023",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0371"
+    },
+    {
+      "author": "Hervé Queffélec | Claude Zuily",
+      "title": "Analyse pour l'agrégation - Agrégation/Master Mathématiques- 5e éd.",
+      "isbn": "9782100811809",
+      "publisher": "DUNOD",
+      "publication_date": "Aug 26, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0372"
+    },
+    {
+      "author": "Michel Queysanne",
+      "title": "Algèbre",
+      "isbn": "",
+      "publisher": "Librairie Armand Colin",
+      "publication_date": "1964",
+      "genre": "",
+      "publication_year": "1964",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0373"
+    },
+    {
+      "author": "Michel Queysanne | André Delachet",
+      "title": "L'algèbre moderne",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "1955",
+      "genre": "",
+      "publication_year": "1955",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0374"
+    },
+    {
+      "author": "J. QuinoneroCande",
+      "title": "Dataset Shift in Machine Learning (Neural Information Processing series)",
+      "isbn": "9780262170055",
+      "publisher": "The MIT Press",
+      "publication_date": "Dec 12, 2008",
+      "genre": "",
+      "publication_year": "2008",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0375"
+    },
+    {
+      "author": "B. Ramdas Bhat",
+      "title": "Modern Probability Theory: An Introductory Text Book",
+      "isbn": "9780470270394",
+      "publisher": "John Wiley & Sons",
+      "publication_date": "Jan 01, 1981",
+      "genre": "",
+      "publication_year": "1981",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0376"
+    },
+    {
+      "author": "Edmon Ramis",
+      "title": "Le cours de mathématiques - Tome 4 - 3e éd.: Séries et équations différentielles",
+      "isbn": "9782100843077",
+      "publisher": "DUNOD",
+      "publication_date": "Mar 24, 2022",
+      "genre": "",
+      "publication_year": "2022",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0377"
+    },
+    {
+      "author": "Edmond Ramis",
+      "title": "Cours de mathématiques - Tome 2 - 3e éd: Algèbre et applications à la géométrie",
+      "isbn": "9782100843060",
+      "publisher": "DUNOD",
+      "publication_date": "Apr 06, 2022",
+      "genre": "",
+      "publication_year": "2022",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0378"
+    },
+    {
+      "author": "Edmond Ramis",
+      "title": "Le cours de mathématiques - T3 Topologie et éléments d'analyse",
+      "isbn": "9782100836635",
+      "publisher": "DUNOD",
+      "publication_date": "Nov 24, 2021",
+      "genre": "",
+      "publication_year": "2021",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0379"
+    },
+    {
+      "author": "Edmond Ramis",
+      "title": "Le cours de mathématiques Tome 1- Algèbre",
+      "isbn": "9782100815746",
+      "publisher": "DUNOD",
+      "publication_date": "Sep 23, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0380"
+    },
+    {
+      "author": "Edmond Ramis | Claude Deschamps | Jacques Odoux",
+      "title": "Le cours de mathématiques - Tome 5 - 2e éd: Applications de l'analyse à la géométrie",
+      "isbn": "9782100851126",
+      "publisher": "DUNOD",
+      "publication_date": "Feb 02, 2023",
+      "genre": "",
+      "publication_year": "2023",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0381"
+    },
+    {
+      "author": "Bernard Randé",
+      "title": "Introduction aux espaces de Hilbert",
+      "isbn": "9782493230225",
+      "publisher": "CALVAGE MOUNET",
+      "publication_date": "Aug 15, 2024",
+      "genre": "",
+      "publication_year": "2024",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0382"
+    },
+    {
+      "author": "Elvira Rapaport",
+      "title": "Hungarian Problem Book I",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "1963",
+      "genre": "",
+      "publication_year": "1963",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0383"
+    },
+    {
+      "author": "F. Reif",
+      "title": "Statistical Physics",
+      "isbn": "",
+      "publisher": "Education Development Center, Inc.",
+      "publication_date": "1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "Berkeley Physics Course, Volume 5",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0384"
+    },
+    {
+      "author": "Robert Resnick | David Halliday",
+      "title": "Ondes, optique et physique moderne",
+      "isbn": "",
+      "publisher": "Éditions du Renouveau Pédagogique Inc.",
+      "publication_date": "1980",
+      "genre": "",
+      "publication_year": "1980",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0385"
+    },
+    {
+      "author": "Sidney I. Resnick",
+      "title": "Adventures in Stochastic Processes",
+      "isbn": "9780817635916",
+      "publisher": "Springer Science & Business Media",
+      "publication_date": "Sep 03, 1992",
+      "genre": "",
+      "publication_year": "1992",
+      "series": "",
+      "source_pages": [
+        27
+      ],
+      "id": "book-0386"
+    },
+    {
+      "author": "Resnick/halliday",
+      "title": "ondes, optique et physique moderne",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "Aug 11, 1980",
+      "genre": "",
+      "publication_year": "1980",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0387"
+    },
+    {
+      "author": "Durrett Richard",
+      "title": "Essentials of Stochastic Processes",
+      "isbn": "9781461436140",
+      "publisher": "Springer New York",
+      "publication_date": "May 23, 2012",
+      "genre": "",
+      "publication_year": "2012",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0388"
+    },
+    {
+      "author": "Frère Robert | Gaston Bertrand",
+      "title": "cours de géométrie analytique",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "Jan 01, 1959",
+      "genre": "",
+      "publication_year": "1959",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0389"
+    },
+    {
+      "author": "Joseph P. Romano",
+      "title": "Counterexamples in probability and statistics (The Wadsworth & Brooks/Cole statistics/probability series)",
+      "isbn": "9780534055684",
+      "publisher": "Kluwer Academic / Wadsworth & Brooks / Cole",
+      "publication_date": "1986",
+      "genre": "",
+      "publication_year": "1986",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0390"
+    },
+    {
+      "author": "Jean-Etienne Rombaldi",
+      "title": "ÉLÉMENTS D'ANALYSE RÉELLE: 2e édition",
+      "isbn": "9782759823390",
+      "publisher": "EDP SCIENCES",
+      "publication_date": "Jun 06, 2019",
+      "genre": "",
+      "publication_year": "2019",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0391"
+    },
+    {
+      "author": "Jean-Etienne Rombaldi",
+      "title": "Exercices et problèmes corrigés pour l'agrégation de mathématiques",
+      "isbn": "9782807315624",
+      "publisher": "DE BOECK SUP",
+      "publication_date": "May 29, 2018",
+      "genre": "",
+      "publication_year": "2018",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0392"
+    },
+    {
+      "author": "Jean-Étienne Rombaldi",
+      "title": "Mathématiques pour l'agrégation - Algèbre et géométrie: Éléments de cours avec près de 300 exercices corrigés",
+      "isbn": "9782807332201",
+      "publisher": "DE BOECK SUP",
+      "publication_date": "Apr 20, 2021",
+      "genre": "",
+      "publication_year": "2021",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0393"
+    },
+    {
+      "author": "Jean-Étienne Rombaldi",
+      "title": "Mathématiques pour l’agrégation. Analyse et probabilités: Cours, exercices et problèmes corrigés",
+      "isbn": "9782807349230",
+      "publisher": "DE BOECK SUP",
+      "publication_date": "Apr 19, 2023",
+      "genre": "",
+      "publication_year": "2023",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0394"
+    },
+    {
+      "author": "Roseau",
+      "title": "Vibrations des systemes mecaniques",
+      "isbn": "9782225802058",
+      "publisher": "Dunod",
+      "publication_date": "Dec 01, 1997",
+      "genre": "",
+      "publication_year": "1997",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0395"
+    },
+    {
+      "author": "Murray Rosenblatt",
+      "title": "Proceedings of the Symposium on Time Series Analysis",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "1963",
+      "genre": "",
+      "publication_year": "1963",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0396"
+    },
+    {
+      "author": "Sheldon M. Ross",
+      "title": "Introduction to Stochastic Dynamic Programming",
+      "isbn": "9780125984218",
+      "publisher": "Academic Press",
+      "publication_date": "Aug 11, 1995",
+      "genre": "",
+      "publication_year": "1995",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0397"
+    },
+    {
+      "author": "Sheldon M. Ross",
+      "title": "Stochastic Processes",
+      "isbn": "9780471120629",
+      "publisher": "John Wiley & Sons",
+      "publication_date": "Feb 28, 1995",
+      "genre": "",
+      "publication_year": "1995",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0398"
+    },
+    {
+      "author": "Shepley L. Ross",
+      "title": "Differential Equations 3e",
+      "isbn": "9780471032946",
+      "publisher": "John Wiley & Sons",
+      "publication_date": "Jan 23, 1984",
+      "genre": "",
+      "publication_year": "1984",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0399"
+    },
+    {
+      "author": "Bernard Roy",
+      "title": "Algebre moderne et theorie des graphes orientees vers les sciences economiques et sociales",
+      "isbn": "",
+      "publisher": "Dunod",
+      "publication_date": "1969",
+      "genre": "",
+      "publication_year": "1969",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0400"
+    },
+    {
+      "author": "Y.A. Rozanov",
+      "title": "Probability Theory A Concise Course",
+      "isbn": "9780486635446",
+      "publisher": "Courier Corporation",
+      "publication_date": "Jan 01, 1977",
+      "genre": "",
+      "publication_year": "1977",
+      "series": "",
+      "source_pages": [
+        28
+      ],
+      "id": "book-0401"
+    },
+    {
+      "author": "Walter Rudin",
+      "title": "Functional Analysis (McGraw- Hill Series in Higher Mathematics)",
+      "isbn": "9780070542259",
+      "publisher": "McGraw-Hill",
+      "publication_date": "Jan 01, 1973",
+      "genre": "",
+      "publication_year": "1973",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0402"
+    },
+    {
+      "author": "Walter Rudin",
+      "title": "Principles of Mathematical Analysis",
+      "isbn": "",
+      "publisher": "McGraw-Hill Book Company",
+      "publication_date": "1964",
+      "genre": "",
+      "publication_year": "1964",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0403"
+    },
+    {
+      "author": "Stuart J. Russell | Peter Norvig",
+      "title": "Artificial Intelligence A Modern Approach",
+      "isbn": "9780131038059",
+      "publisher": "Prentice Hall",
+      "publication_date": "Jan 15, 1995",
+      "genre": "",
+      "publication_year": "1995",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0404"
+    },
+    {
+      "author": "Stuart Russell | Peter Norvig",
+      "title": "Artificial Intelligence: A Modern Approach",
+      "isbn": "9780136042594",
+      "publisher": "Pearson",
+      "publication_date": "Dec 10, 2009",
+      "genre": "",
+      "publication_year": "2009",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0405"
+    },
+    {
+      "author": "Les Frères du Sacré-Cœur",
+      "title": "Arithmétique",
+      "isbn": "",
+      "publisher": "Les Frères du Sacré-Cœur",
+      "publication_date": "1949",
+      "genre": "",
+      "publication_year": "1949",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0406"
+    },
+    {
+      "author": "Makrem Salhi",
+      "title": "Réussir l'agrégation: Dix-neuf problèmes inédits pour les épreuves écrites de mathématiques",
+      "isbn": "9782916352893",
+      "publisher": "CALVAGE MOUNET",
+      "publication_date": "Oct 27, 2022",
+      "genre": "",
+      "publication_year": "2022",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0407"
+    },
+    {
+      "author": "Hans Samelson",
+      "title": "An Introduction to Linear Algebra (Wiley Medical Publication)",
+      "isbn": "9780471751700",
+      "publisher": "John Wiley & Sons Inc",
+      "publication_date": "1974",
+      "genre": "",
+      "publication_year": "1974",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0408"
+    },
+    {
+      "author": "Hans Samelson",
+      "title": "An Introduction to Linear Algebra (Wiley Medical Publication)",
+      "isbn": "9780471751700",
+      "publisher": "John Wiley & Sons Inc",
+      "publication_date": "1974",
+      "genre": "",
+      "publication_year": "1974",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0409"
+    },
+    {
+      "author": "Jean-Jacques Samueli",
+      "title": "Trente livres de mathématiques qui ont changé le monde (poche)",
+      "isbn": "9782729884628",
+      "publisher": "ELLIPSES",
+      "publication_date": "Feb 04, 2014",
+      "genre": "",
+      "publication_year": "2014",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0410"
+    },
+    {
+      "author": "Schmitt",
+      "title": "Morphologie mathématique",
+      "isbn": "9782225843853",
+      "publisher": "elsevier-masson",
+      "publication_date": "2013",
+      "genre": "",
+      "publication_year": "2013",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0411"
+    },
+    {
+      "author": "Randall E. Schumacker | Richard G. Lomax",
+      "title": "A Beginner's Guide to Structural Equation Modeling",
+      "isbn": "9780805840186",
+      "publisher": "Psychology Press",
+      "publication_date": "May 03, 2004",
+      "genre": "",
+      "publication_year": "2004",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0412"
+    },
+    {
+      "author": "J. Scott Long",
+      "title": "Regression Models for Categorical and Limited Dependent Variables (Advanced Quantitative Techniques in the Social Sciences)",
+      "isbn": "9780803973749",
+      "publisher": "SAGE Publications, Inc",
+      "publication_date": "Jan 09, 1997",
+      "genre": "",
+      "publication_year": "1997",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0413"
+    },
+    {
+      "author": "G.A.F. Seber",
+      "title": "Linear Hypothesis: a General Theory",
+      "isbn": "9780028520001",
+      "publisher": "Oxford University Press",
+      "publication_date": "1981",
+      "genre": "",
+      "publication_year": "1981",
+      "series": "",
+      "source_pages": [
+        29
+      ],
+      "id": "book-0414"
+    },
+    {
+      "author": "Diaraf Seck | Kinvi Kangni | Philibert Nang | Marie Salomon Sambou",
+      "title": "Nonlinear Analysis, Geometry and Applications: Proceedings of the First NLAGA-BIRS Symposium, Dakar, Senegal, June 24–28, 2019 (Trends in Mathematics)",
+      "isbn": "9783030573355",
+      "publisher": "Birkhäuser",
+      "publication_date": "Nov 21, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        30
+      ],
+      "id": "book-0415"
+    },
+    {
+      "author": "Robert T. Seeley",
+      "title": "An Introduction to Fourier Series and Integrals",
+      "isbn": "",
+      "publisher": "W. A. Benjamin, Inc.",
+      "publication_date": "1966",
+      "genre": "",
+      "publication_year": "1966",
+      "series": "",
+      "source_pages": [
+        30
+      ],
+      "id": "book-0416"
+    },
+    {
+      "author": "Georgi E. Shilov",
+      "title": "Linear Algebra",
+      "isbn": "9780486635187",
+      "publisher": "Courier Corporation",
+      "publication_date": "Jun 01, 1977",
+      "genre": "",
+      "publication_year": "1977",
+      "series": "",
+      "source_pages": [
+        30
+      ],
+      "id": "book-0417"
+    },
+    {
+      "author": "Libeskind Shlomo | Lott W. Johnny | Billstein Rick",
+      "title": "A problem solving approach to mathematics for elementary school teachers",
+      "isbn": "9780805308518",
+      "publisher": "Benjamin/ Cummings Pub. Co",
+      "publication_date": "Jan 01, 1981",
+      "genre": "",
+      "publication_year": "1981",
+      "series": "",
+      "source_pages": [
+        30
+      ],
+      "id": "book-0418"
+    },
+    {
+      "author": "Albert P. Shulte | James G. Smart",
+      "title": "Teaching Statistics and Probability : 1981 Yearbook [of The] National Council of Teachers of Mathematics",
+      "isbn": "9780873531702",
+      "publisher": "National Council of Teachers of Mathematics",
+      "publication_date": "1981",
+      "genre": "",
+      "publication_year": "1981",
+      "series": "",
+      "source_pages": [
+        30
+      ],
+      "id": "book-0419"
+    },
+    {
+      "author": "Richard A. Silverman",
+      "title": "introductory_complex_analysis",
+      "isbn": "9780486646862",
+      "publisher": "DOVER PUBN INC",
+      "publication_date": "May 01, 1984",
+      "genre": "",
+      "publication_year": "1984",
+      "series": "",
+      "source_pages": [
+        30
+      ],
+      "id": "book-0420"
+    },
+    {
+      "author": "Carl P. Simon",
+      "title": "Mathématiques pour économistes",
+      "isbn": "9782744500046",
+      "publisher": "DE BOECK SUP",
+      "publication_date": "Jan 01, 1998",
+      "genre": "",
+      "publication_year": "1998",
+      "series": "",
+      "source_pages": [
+        30
+      ],
+      "id": "book-0421"
+    },
+    {
+      "author": "Theodore E. Simos | Ch. Tsitouras | George Psihoyios",
+      "title": "Numerical Analysis and Applied Mathematics: International Conference on Numerical Analysis and Applied Mathematics 2008 (AIP Conference Proceedings (Numbered))",
+      "isbn": "9780735405769",
+      "publisher": "American Institute of Physics",
+      "publication_date": "Sep 01, 2008",
+      "genre": "",
+      "publication_year": "2008",
+      "series": "",
+      "source_pages": [
+        30
+      ],
+      "id": "book-0422"
+    },
+    {
+      "author": "V. Smirnov",
+      "title": "Cours de mathématiques supérieures",
+      "isbn": "",
+      "publisher": "Éditions Mir",
+      "publication_date": "1969",
+      "genre": "",
+      "publication_year": "1969",
+      "series": "",
+      "source_pages": [
+        30
+      ],
+      "id": "book-0423"
+    },
+    {
+      "author": "Percey Franklyn Smith | William Anthony Granville | William Raymond Longley",
+      "title": "Éléments de calcul différentiel et intégral",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "Jan 01, 1968",
+      "genre": "",
+      "publication_year": "1968",
+      "series": "",
+      "source_pages": [
+        30
+      ],
+      "id": "book-0424"
+    },
+    {
+      "author": "George W. Snedecor | William G. Cochran",
+      "title": "Statistical Methods",
+      "isbn": "9780813815619",
+      "publisher": "Wiley",
+      "publication_date": "Jan 16, 1991",
+      "genre": "",
+      "publication_year": "1991",
+      "series": "",
+      "source_pages": [
+        30
+      ],
+      "id": "book-0425"
+    },
+    {
+      "author": "I. S. Sokolnikoff",
+      "title": "Mathematical Theory of Elasticity",
+      "isbn": "",
+      "publisher": "McGraw-Hill Book Company, Inc.",
+      "publication_date": "1956",
+      "genre": "",
+      "publication_year": "1956",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0426"
+    },
+    {
+      "author": "Abraham Sperling Phd",
+      "title": "MATHEMATICS Made Simple",
+      "isbn": "9780385020886",
+      "publisher": "Doubleday & Company, Inc.",
+      "publication_date": "Jan 01, 1943",
+      "genre": "",
+      "publication_year": "1943",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0427"
+    },
+    {
+      "author": "Michael Spivak",
+      "title": "Calculus",
+      "isbn": "9780914098775",
+      "publisher": "Publish or Perish",
+      "publication_date": "1980",
+      "genre": "",
+      "publication_year": "1980",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0428"
+    },
+    {
+      "author": "Ralph G. Stanton | Kenneth D. Fryer",
+      "title": "Topics in Modern Mathematics",
+      "isbn": "",
+      "publisher": "Prentice-Hall, Inc.",
+      "publication_date": "1965",
+      "genre": "",
+      "publication_year": "1965",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0429"
+    },
+    {
+      "author": "Josh Starmer PhD",
+      "title": "The StatQuest Illustrated Guide To Machine Learning",
+      "isbn": "9798811583607",
+      "publisher": "Independently published",
+      "publication_date": "2022",
+      "genre": "",
+      "publication_year": "2022",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0430"
+    },
+    {
+      "author": "J. J. Stoker",
+      "title": "Differential Geometry",
+      "isbn": "",
+      "publisher": "Wiley- Interscience",
+      "publication_date": "1969",
+      "genre": "",
+      "publication_year": "1969",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0431"
+    },
+    {
+      "author": "J.J. Stoker",
+      "title": "Differential Geometry (Pure and Applied Mathematics Volume XX)",
+      "isbn": "9780471828259",
+      "publisher": "Wiley- Interscience",
+      "publication_date": "Jan 15, 1969",
+      "genre": "",
+      "publication_year": "1969",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0432"
+    },
+    {
+      "author": "Gilles Stoltz | Vincent Rivoirard",
+      "title": "Statistique mathématique en action: Cours et problèmes d'application corrigés – Master & Agrégation externe",
+      "isbn": "9782311007206",
+      "publisher": "DE BOECK SUP",
+      "publication_date": "Feb 24, 2012",
+      "genre": "",
+      "publication_year": "2012",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0433"
+    },
+    {
+      "author": "Gilbert Strang",
+      "title": "Introduction to Applied Mathematics",
+      "isbn": "9780961408800",
+      "publisher": "Wellesley- Cambridge Press",
+      "publication_date": "Jan 01, 1986",
+      "genre": "",
+      "publication_year": "1986",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0434"
+    },
+    {
+      "author": "Dirk J. Struik",
+      "title": "Lectures on Classical Differential Geometry: Second Edition (Dover Books on Mathematics)",
+      "isbn": "9780486656090",
+      "publisher": "Dover Publications",
+      "publication_date": "Apr 01, 1988",
+      "genre": "",
+      "publication_year": "1988",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0435"
+    },
+    {
+      "author": "A.A. Sveshnikov",
+      "title": "Problems in Probability Theory, Mathematical Statistics and Theory of Random Functions",
+      "isbn": "9780486637174",
+      "publisher": "Courier Corporation",
+      "publication_date": "Jan 01, 1978",
+      "genre": "",
+      "publication_year": "1978",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0436"
+    },
+    {
+      "author": "Aviva Szpirglas",
+      "title": "Algèbre, tome 3: Anneaux, polynômes, modules",
+      "isbn": "9782842252731",
+      "publisher": "CASSINI",
+      "publication_date": "Jun 13, 2023",
+      "genre": "",
+      "publication_year": "2023",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0437"
+    },
+    {
+      "author": "Tanfani",
+      "title": "Advanced Decision Making Methods Applied to Health Care",
+      "isbn": "9788847023208",
+      "publisher": "Springer Milan",
+      "publication_date": "Mar 20, 2012",
+      "genre": "Case Studies",
+      "publication_year": "2012",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0438"
+    },
+    {
+      "author": "Patrice Tauvel",
+      "title": "Algèbre linéaire: Échappée décisive dans un territoire splendide",
+      "isbn": "9782493230058",
+      "publisher": "CALVAGE MOUNET",
+      "publication_date": "Aug 24, 2023",
+      "genre": "",
+      "publication_year": "2023",
+      "series": "",
+      "source_pages": [
+        31
+      ],
+      "id": "book-0439"
+    },
+    {
+      "author": "Angus Ellis Taylor",
+      "title": "Introduction to functional analysis",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "1958",
+      "genre": "",
+      "publication_year": "1958",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0440"
+    },
+    {
+      "author": "Roger Temam",
+      "title": "Analyse numérique",
+      "isbn": "",
+      "publisher": "Presses Universitaires de France",
+      "publication_date": "1970",
+      "genre": "",
+      "publication_year": "1970",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0441"
+    },
+    {
+      "author": "Erik Thomas",
+      "title": "44 problèmes olympiens de mathématiques - De la MPSI à l'agrégation",
+      "isbn": "9782340036727",
+      "publisher": "ELLIPSES",
+      "publication_date": "Feb 25, 2020",
+      "genre": "",
+      "publication_year": "2020",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0442"
+    },
+    {
+      "author": "Gowers Timothy",
+      "title": "The Princeton Companion to Mathematics",
+      "isbn": "9780691118802",
+      "publisher": "Princeton University Press",
+      "publication_date": "Sep 28, 2008",
+      "genre": "",
+      "publication_year": "2008",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0443"
+    },
+    {
+      "author": "Lynn D. Torbeck",
+      "title": "Torbeck's Statistical Cookbook for Scientists and Engineers",
+      "isbn": "9781942911142",
+      "publisher": "PDA.DHI",
+      "publication_date": "Oct 2017",
+      "genre": "",
+      "publication_year": "2017",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0444"
+    },
+    {
+      "author": "Fabio Toscano",
+      "title": "La formule secrète: le duel mathématique qui enflamma l'Italie de la Renaissance",
+      "isbn": "9782701156941",
+      "publisher": "BELIN",
+      "publication_date": "Aug 28, 2011",
+      "genre": "",
+      "publication_year": "2011",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0445"
+    },
+    {
+      "author": "Joan Gómez Urgellés",
+      "title": "Mathematiques, Espionnage Et Piratage Informatique - Codage Et Cryptographie",
+      "isbn": "9782815202374",
+      "publisher": "RBA",
+      "publication_date": "2011",
+      "genre": "",
+      "publication_year": "2011",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0446"
+    },
+    {
+      "author": "Roman Vershynin",
+      "title": "High-Dimensional Probability: An Introduction with Applications in Data Science (Cambridge Series in Statistical and Probabilistic Mathematics, Series Number 47)",
+      "isbn": "9781108415194",
+      "publisher": "Cambridge University Press",
+      "publication_date": "Sep 27, 2018",
+      "genre": "",
+      "publication_year": "2018",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0447"
+    },
+    {
+      "author": "Romain Vidonne",
+      "title": "Groupe circulaire, rotations et quaternions - Capes et Agrégation de mathématiques",
+      "isbn": "9782729808440",
+      "publisher": "ELLIPSES",
+      "publication_date": "Nov 15, 2001",
+      "genre": "",
+      "publication_year": "2001",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0448"
+    },
+    {
+      "author": "Cédric Villani",
+      "title": "Leçons de mathématique joyeuse",
+      "isbn": "9782749184098",
+      "publisher": "Le Cherche Midi",
+      "publication_date": "Nov 06, 2025",
+      "genre": "",
+      "publication_year": "2025",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0449"
+    },
+    {
+      "author": "Cédric Villani",
+      "title": "Théorème vivant (Littérature Française) (French Edition)",
+      "isbn": "9782246798828",
+      "publisher": "GRASSET",
+      "publication_date": "Aug 22, 2012",
+      "genre": "",
+      "publication_year": "2012",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0450"
+    },
+    {
+      "author": "Craig Homer Vincent",
+      "title": "Vector and tensor analysis,",
+      "isbn": "",
+      "publisher": "McGraw-Hill book company, inc.",
+      "publication_date": "1943",
+      "genre": "",
+      "publication_year": "1943",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0451"
+    },
+    {
+      "author": "Vuibert",
+      "title": "MATHEMATIQUES D'ECOLE 2e edt (cassini)",
+      "isbn": "9782842251581",
+      "publisher": "Cassini",
+      "publication_date": "2011",
+      "genre": "",
+      "publication_year": "2011",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0452"
+    },
+    {
+      "author": "Martin J. Wainwright",
+      "title": "High-Dimensional Statistics: A Non-Asymptotic Viewpoint (Cambridge Series in Statistical and Probabilistic Mathematics, Series Number 48)",
+      "isbn": "9781108498029",
+      "publisher": "Cambridge University Press",
+      "publication_date": "Apr 11, 2019",
+      "genre": "",
+      "publication_year": "2019",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0453"
+    },
+    {
+      "author": "Ronald E. Walpole",
+      "title": "Introduction to Statistics",
+      "isbn": "9780024241504",
+      "publisher": "Macmillan Pub Co",
+      "publication_date": "Feb 1982",
+      "genre": "",
+      "publication_year": "1982",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0454"
+    },
+    {
+      "author": "Seth Warner",
+      "title": "Modern Algebra (Dover Books on Mathematics)",
+      "isbn": "9780486663418",
+      "publisher": "Dover Publications",
+      "publication_date": "Jun 01, 1990",
+      "genre": "",
+      "publication_year": "1990",
+      "series": "",
+      "source_pages": [
+        32
+      ],
+      "id": "book-0455"
+    },
+    {
+      "author": "L.A. Wasserman",
+      "title": "All of Statistics A Concise Course in Statistical Inference",
+      "isbn": "9780387402727",
+      "publisher": "Springer Science & Business Media",
+      "publication_date": "Sep 17, 2004",
+      "genre": "",
+      "publication_year": "2004",
+      "series": "",
+      "source_pages": [
+        33
+      ],
+      "id": "book-0456"
+    },
+    {
+      "author": "Charles Wheelan",
+      "title": "Naked Statistics: Stripping the Dread from the Data",
+      "isbn": "9780393347777",
+      "publisher": "W. W. Norton & Company",
+      "publication_date": "Jan 13, 2014",
+      "genre": "",
+      "publication_year": "2014",
+      "series": "",
+      "source_pages": [
+        33
+      ],
+      "id": "book-0457"
+    },
+    {
+      "author": "M.V. Wilkes",
+      "title": "A Short Introduction to Numerical Analysis",
+      "isbn": "9780521094122",
+      "publisher": "Cambridge University Press",
+      "publication_date": "Dec 16, 1966",
+      "genre": "",
+      "publication_year": "1966",
+      "series": "",
+      "source_pages": [
+        33
+      ],
+      "id": "book-0458"
+    },
+    {
+      "author": "Samuel S. Wilks",
+      "title": "Mathematical Statistics",
+      "isbn": "",
+      "publisher": "",
+      "publication_date": "1950",
+      "genre": "",
+      "publication_year": "1950",
+      "series": "",
+      "source_pages": [
+        33
+      ],
+      "id": "book-0459"
+    },
+    {
+      "author": "Gareth Williams",
+      "title": "Linear Algebra With Applications",
+      "isbn": "9780697097385",
+      "publisher": "William C Brown Pub",
+      "publication_date": "Jan 01, 1991",
+      "genre": "",
+      "publication_year": "1991",
+      "series": "",
+      "source_pages": [
+        33
+      ],
+      "id": "book-0460"
+    },
+    {
+      "author": "A.E.R. Woodcock",
+      "title": "A Geometrical Study of the Elementary Catastrophes (Lecture Notes in Mathematics, 373)",
+      "isbn": "9783540066811",
+      "publisher": "Springer",
+      "publication_date": "Apr 03, 1974",
+      "genre": "",
+      "publication_year": "1974",
+      "series": "",
+      "source_pages": [
+        33
+      ],
+      "id": "book-0461"
+    },
+    {
+      "author": "C.R. Wylie",
+      "title": "Advanced engineering mathematics",
+      "isbn": "9780070721883",
+      "publisher": "McGraw-Hill",
+      "publication_date": "Aug 1982",
+      "genre": "",
+      "publication_year": "1982",
+      "series": "",
+      "source_pages": [
+        33
+      ],
+      "id": "book-0462"
+    },
+    {
+      "author": "C.R. Wylie",
+      "title": "Advanced engineering mathematics",
+      "isbn": "9780070721883",
+      "publisher": "McGraw-Hill",
+      "publication_date": "Aug 1982",
+      "genre": "",
+      "publication_year": "1982",
+      "series": "",
+      "source_pages": [
+        33
+      ],
+      "id": "book-0463"
+    },
+    {
+      "author": "I.M. Yaglom",
+      "title": "Geometric Transformations I (Number 8)",
+      "isbn": "9780883856086",
+      "publisher": "American Mathematical Society",
+      "publication_date": "Dec 31, 1962",
+      "genre": "",
+      "publication_year": "1962",
+      "series": "",
+      "source_pages": [
+        33
+      ],
+      "id": "book-0464"
+    },
+    {
+      "author": "I.M. Yaglom",
+      "title": "Geometric Transformations II (NEW MATHEMATICAL LIBRARY)",
+      "isbn": "9780883856215",
+      "publisher": "Random House",
+      "publication_date": "Jun 01, 1968",
+      "genre": "",
+      "publication_year": "1968",
+      "series": "",
+      "source_pages": [
+        33
+      ],
+      "id": "book-0465"
+    },
+    {
+      "author": "I.M. Yaglom",
+      "title": "Geometric Transformations III (New Mathematical Library)",
+      "isbn": "9780883856246",
+      "publisher": "Mathematical Assn of Amer",
+      "publication_date": "Jun 1973",
+      "genre": "",
+      "publication_year": "1973",
+      "series": "",
+      "source_pages": [
+        33
+      ],
+      "id": "book-0466"
+    },
+    {
+      "author": "Leo Zippin",
+      "title": "Uses of Infinity",
+      "isbn": "9780394015637",
+      "publisher": "Mathematical Assn of Amer",
+      "publication_date": "Dec 31, 1962",
+      "genre": "",
+      "publication_year": "1962",
+      "series": "",
+      "source_pages": [
+        33
+      ],
+      "id": "book-0467"
+    }
+  ]
+}

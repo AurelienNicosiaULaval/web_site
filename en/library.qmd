@@ -93,6 +93,20 @@ resources:
 :::
 :::
 
+::: {.library-rarity aria-labelledby="rarity-title"}
+::: {.library-shell}
+::: {.library-rarity-heading}
+<p class="library-rarity-kicker"><i class="bi bi-gem" aria-hidden="true"></i>Documentary rarity</p>
+<h2 id="rarity-title">The 5 rarest books</h2>
+<p class="library-rarity-intro">Five early volumes whose metadata is complete enough to support a transparent ranking.</p>
+:::
+
+<div id="library-rarity-grid" class="library-rarity-grid"></div>
+
+<p class="library-rarity-method"><i class="bi bi-shield-check" aria-hidden="true"></i>This reproducible ranking selects the five oldest complete records published before 1970 without an ISBN and without an exact edition match linked in the <a href="https://openlibrary.org/" target="_blank" rel="noopener noreferrer">Open Library</a> snapshot. It measures documentary rarity within this catalogue, not market value or the number of surviving copies. <span data-rarity-excluded>3</span> older but incomplete records remain outside the ranking.</p>
+:::
+:::
+
 ::: {.library-catalogue aria-labelledby="catalogue-title"}
 ::: {.library-shell}
 <h2 id="catalogue-title">Browse the shelves</h2>

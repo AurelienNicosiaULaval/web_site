@@ -92,6 +92,20 @@ resources:
 :::
 :::
 
+::: {.library-rarity aria-labelledby="rarity-title"}
+::: {.library-shell}
+::: {.library-rarity-heading}
+<p class="library-rarity-kicker"><i class="bi bi-gem" aria-hidden="true"></i>Rareté documentaire</p>
+<h2 id="rarity-title">Les 5 livres les plus rares</h2>
+<p class="library-rarity-intro">Cinq pièces anciennes dont les métadonnées sont assez complètes pour soutenir un classement transparent.</p>
+:::
+
+<div id="library-rarity-grid" class="library-rarity-grid"></div>
+
+<p class="library-rarity-method"><i class="bi bi-shield-check" aria-hidden="true"></i>Ce classement reproductible retient les cinq notices complètes les plus anciennes, publiées avant 1970 sans ISBN et sans correspondance d’édition exacte reliée dans l’instantané <a href="https://openlibrary.org/" target="_blank" rel="noopener noreferrer">Open Library</a>. Il mesure la rareté documentaire dans ce catalogue, pas la valeur marchande ni le nombre d’exemplaires existants. <span data-rarity-excluded>3</span> notices plus anciennes, mais incomplètes, restent hors classement.</p>
+:::
+:::
+
 ::: {.library-catalogue aria-labelledby="catalogue-title"}
 ::: {.library-shell}
 <h2 id="catalogue-title">Parcourir les rayons</h2>

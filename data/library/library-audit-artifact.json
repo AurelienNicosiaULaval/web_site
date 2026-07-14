@@ -397,8 +397,8 @@
           "valid_isbn_share": 0.7880085653104925,
           "expected_pre1970_missing": 86,
           "isbn_to_review": 13,
-          "corrected_records": 16,
-          "changed_fields": 50,
+          "corrected_records": 18,
+          "changed_fields": 52,
           "external_isbn_coverage": 0.6611111111111111,
           "raw_publishers": 205,
           "normalized_publishers": 189
@@ -627,6 +627,20 @@
           "sources": "siam_optical_science, openlibrary_exact"
         },
         {
+          "id": "book-0118",
+          "title": "Leçons sur la théorie générale des surfaces et les applications géométriques du calcul infinitésimal",
+          "changed_fields": "Titre",
+          "source_count": 1,
+          "sources": "worldcat_darboux"
+        },
+        {
+          "id": "book-0122",
+          "title": "Cours de Géométrie – Classes de 2e et de 1re – Livre du Maître",
+          "changed_fields": "Auteur",
+          "source_count": 1,
+          "sources": "ulaval_schoolbooks"
+        },
+        {
           "id": "book-0178",
           "title": "Bayesian Methods for Finite Population Sampling",
           "changed_fields": "Titre, Éditeur, Date de publication, Année",
@@ -792,7 +806,7 @@
     }
   ],
   "package_info": {
-    "root": "/private/tmp/web-site-publish-MdHtsN",
+    "root": "/private/tmp/web-site-rarity-publish-JY5GBs",
     "manifestPath": "data/library/library-audit-artifact.json",
     "snapshotPath": "data/library/library-audit-artifact.json"
   }

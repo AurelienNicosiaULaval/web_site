@@ -62,6 +62,27 @@ def main() -> None:
         for field, value in override["changes"].items():
             assert by_id[override["id"]][field] == value
 
+    record_order = {record["id"]: index for index, record in enumerate(records)}
+    rarity_candidates = sorted(
+        (
+            record
+            for record in records
+            if record.get("isbn_status") == "missing_pre_1970"
+            and not record.get("openlibrary", {}).get("key")
+            and record.get("title")
+            and record.get("author")
+            and record.get("publisher_normalized")
+        ),
+        key=lambda record: (int(record["publication_year"]), record_order[record["id"]]),
+    )
+    assert [record["id"] for record in rarity_candidates[:5]] == [
+        "book-0118",
+        "book-0267",
+        "book-0088",
+        "book-0205",
+        "book-0122",
+    ]
+
     with tempfile.TemporaryDirectory() as directory:
         temporary = Path(directory)
         generated_output = temporary / "library-data.json"

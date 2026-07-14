@@ -156,6 +156,7 @@ body:has(#library-app) .page-columns {
 .library-button:focus-visible,
 .library-reset:focus-visible,
 .library-spine:focus-visible,
+.library-rarity-card:focus-visible,
 .book-card:focus-visible,
 .library-dialog-close:focus-visible,
 .library-search-wrap input:focus-visible,
@@ -585,6 +586,203 @@ body:has(#library-app) .page-columns {
 .library-method-note i {
   color: var(--library-navy);
   margin-top: 0.1rem;
+}
+
+.library-rarity {
+  background:
+    radial-gradient(circle at 8% 12%, rgba(213, 165, 63, 0.17), transparent 25rem),
+    radial-gradient(circle at 92% 88%, rgba(11, 114, 133, 0.2), transparent 30rem),
+    var(--library-navy-deep);
+  border-block: 1px solid rgba(213, 165, 63, 0.28);
+  color: #ffffff;
+  padding-block: clamp(4.5rem, 7vw, 7rem);
+  position: relative;
+}
+
+.library-rarity::before {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 34px 34px;
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.library-rarity .library-shell {
+  position: relative;
+  z-index: 1;
+}
+
+.library-rarity-heading {
+  max-width: 54rem;
+}
+
+.library-rarity-kicker {
+  align-items: center;
+  color: #f0c96a;
+  display: flex;
+  font-size: 0.78rem;
+  font-weight: 760;
+  gap: 0.55rem;
+  letter-spacing: 0.14em;
+  margin: 0 0 1rem;
+  text-transform: uppercase;
+}
+
+.library-rarity-kicker i {
+  font-size: 1rem;
+}
+
+.library-rarity h2 {
+  color: #ffffff;
+}
+
+.library-rarity-intro {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 1.08rem;
+  line-height: 1.65;
+  margin: 1rem 0 0;
+}
+
+.library-rarity-grid {
+  display: grid;
+  gap: clamp(1rem, 1.7vw, 1.5rem);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  margin-top: 3.3rem;
+}
+
+.library-rarity-card {
+  appearance: none;
+  background: rgba(255, 255, 255, 0.075);
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+  display: grid;
+  font-family: inherit;
+  gap: 1.2rem;
+  min-width: 0;
+  padding: 1.15rem;
+  position: relative;
+  text-align: left;
+  transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.library-rarity-card:hover {
+  background: rgba(255, 255, 255, 0.115);
+  border-color: rgba(240, 201, 106, 0.62);
+  box-shadow: 0 1.25rem 2.5rem rgba(0, 0, 0, 0.24);
+  transform: translateY(-7px);
+}
+
+.library-rarity-card:hover .library-rarity-cover {
+  box-shadow: 0 1rem 1.8rem rgba(0, 0, 0, 0.28);
+  transform: rotate(-1.2deg) translateY(-3px);
+}
+
+.library-rarity-rank {
+  color: rgba(240, 201, 106, 0.52);
+  font-size: clamp(2rem, 3vw, 3.2rem);
+  font-variant-numeric: tabular-nums;
+  font-weight: 780;
+  letter-spacing: -0.06em;
+  line-height: 1;
+  position: absolute;
+  right: 0.85rem;
+  top: 0.7rem;
+  z-index: 4;
+}
+
+.library-rarity-cover {
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.2);
+  justify-self: center;
+  max-width: 155px;
+  transition: box-shadow 180ms ease, transform 180ms ease;
+  width: min(100%, 155px);
+}
+
+.library-rarity-meta {
+  min-width: 0;
+}
+
+.library-rarity-year {
+  color: #f0c96a;
+  font-size: 0.74rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 780;
+  letter-spacing: 0.12em;
+  margin: 0 0 0.55rem;
+}
+
+.library-rarity-meta h3 {
+  color: #ffffff;
+  display: -webkit-box;
+  font-size: 1rem;
+  line-height: 1.25;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.library-rarity-author,
+.library-rarity-publisher {
+  color: rgba(255, 255, 255, 0.68);
+  display: -webkit-box;
+  font-size: 0.72rem;
+  line-height: 1.35;
+  margin: 0.55rem 0 0;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.library-rarity-publisher {
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 0.25rem;
+}
+
+.library-rarity-signals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.85rem;
+}
+
+.library-rarity-signals span {
+  background: rgba(240, 201, 106, 0.1);
+  border: 1px solid rgba(240, 201, 106, 0.3);
+  border-radius: 999px;
+  color: #f4d98f;
+  font-size: 0.6rem;
+  line-height: 1.2;
+  padding: 0.28rem 0.45rem;
+}
+
+.library-rarity-method {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.62);
+  display: block;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  margin: 2.4rem 0 0;
+  padding-top: 1rem;
+}
+
+.library-rarity-method i {
+  color: #f0c96a;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.library-rarity-method a {
+  color: #f4d98f;
+}
+
+.library-rarity-method a:hover,
+.library-rarity-method a:focus-visible {
+  color: #ffffff;
 }
 
 .library-catalogue {
@@ -1078,6 +1276,10 @@ body:has(#library-app) .page-columns {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
+  .library-rarity-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .library-spine {
     flex-basis: var(--spine-width-tablet, 72px);
   }
@@ -1105,6 +1307,10 @@ body:has(#library-app) .page-columns {
 
   .library-analysis-grid {
     grid-template-columns: 1fr;
+  }
+
+  .library-rarity-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .library-publisher-panel {
@@ -1243,6 +1449,32 @@ body:has(#library-app) .page-columns {
 
   .library-publisher-row {
     grid-template-columns: minmax(92px, 1.1fr) minmax(88px, 1.6fr) 1.5rem;
+  }
+
+  .library-rarity-grid {
+    grid-template-columns: 1fr;
+    margin-top: 2.2rem;
+  }
+
+  .library-rarity-card {
+    align-items: start;
+    gap: 1rem;
+    grid-template-columns: 88px minmax(0, 1fr);
+    padding: 1rem;
+  }
+
+  .library-rarity-cover {
+    grid-column: 1;
+    max-width: 88px;
+    width: 88px;
+  }
+
+  .library-rarity-meta {
+    grid-column: 2;
+  }
+
+  .library-rarity-rank {
+    font-size: 2rem;
   }
 
   .library-insight-strip,

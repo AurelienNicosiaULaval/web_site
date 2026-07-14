@@ -28,6 +28,9 @@
       openLibrary: "Voir cette édition sur Open Library",
       chartDecades: "Répartition des livres par décennie",
       chartPublishers: "Classement des éditeurs les plus présents",
+      rarityAge: (count) => `${count} ans`,
+      rarityPreIsbn: "Avant l’ISBN",
+      rarityNoMatch: "Aucune édition exacte reliée",
       more: (count) => `Afficher ${count} ${count === 1 ? "livre" : "livres"} de plus`,
       searchPlaceholder: (count) => `Rechercher dans ${formatNumber(count)} livres`,
       result: (count) => `${formatNumber(count)} ${count === 1 ? "livre" : "livres"}`,
@@ -52,6 +55,9 @@
       openLibrary: "View this edition on Open Library",
       chartDecades: "Distribution of books by decade",
       chartPublishers: "Ranking of the most represented publishers",
+      rarityAge: (count) => `${count} years old`,
+      rarityPreIsbn: "Predates ISBN",
+      rarityNoMatch: "No exact edition linked",
       more: (count) => `Show ${count} more ${count === 1 ? "book" : "books"}`,
       searchPlaceholder: (count) => `Search ${formatNumber(count)} books`,
       result: (count) => `${formatNumber(count)} ${count === 1 ? "book" : "books"}`,
@@ -75,7 +81,8 @@
     decade: "",
     publisher: "",
     sort: "catalogue",
-    visible: pageSize
+    visible: pageSize,
+    rarityReferenceYear: new Date().getFullYear()
   };
 
   const elements = {
@@ -93,6 +100,7 @@
     shelf: document.getElementById("library-hero-shelf"),
     decadeChart: document.getElementById("library-decade-chart"),
     publisherChart: document.getElementById("library-publisher-chart"),
+    rarityGrid: document.getElementById("library-rarity-grid"),
     dialog: document.getElementById("library-dialog"),
     dialogContent: document.getElementById("library-dialog-content"),
     dialogClose: document.getElementById("library-dialog-close"),
@@ -421,6 +429,86 @@
     });
   }
 
+  function rarityCandidates(records) {
+    return records
+      .filter((record) => {
+        const year = numericYear(record);
+        return year !== null
+          && year < 1970
+          && record.isbn_status === "missing_pre_1970"
+          && !record.openlibrary?.key
+          && Boolean(record.title && record.author && publisherFor(record));
+      })
+      .slice()
+      .sort((a, b) => numericYear(a) - numericYear(b) || a._index - b._index);
+  }
+
+  function renderRarity(records) {
+    if (!elements.rarityGrid) return;
+
+    const candidates = rarityCandidates(records);
+    const selected = candidates.slice(0, 5);
+    const cutoffYear = selected.length ? numericYear(selected[selected.length - 1]) : null;
+    const excludedOlder = cutoffYear === null
+      ? 0
+      : records.filter((record) => {
+          const year = numericYear(record);
+          return year !== null
+            && year < cutoffYear
+            && record.isbn_status === "missing_pre_1970"
+            && !candidates.includes(record);
+        }).length;
+
+    document.querySelectorAll("[data-rarity-excluded]").forEach((node) => {
+      node.textContent = formatNumber(excludedOlder);
+    });
+
+    elements.rarityGrid.replaceChildren(...selected.map((record, index) => {
+      const year = numericYear(record);
+      const age = Math.max(0, state.rarityReferenceYear - year);
+      const card = document.createElement("button");
+      card.className = "library-rarity-card";
+      card.type = "button";
+      card.setAttribute("aria-label", copy.openBook(titleFor(record)));
+
+      const rank = document.createElement("span");
+      rank.className = "library-rarity-rank";
+      rank.textContent = String(index + 1).padStart(2, "0");
+
+      const cover = coverElement(record, "book-cover library-rarity-cover", "M");
+      const meta = document.createElement("div");
+      meta.className = "library-rarity-meta";
+
+      const yearLabel = document.createElement("p");
+      yearLabel.className = "library-rarity-year";
+      yearLabel.textContent = String(year);
+
+      const title = document.createElement("h3");
+      title.textContent = titleFor(record);
+
+      const author = document.createElement("p");
+      author.className = "library-rarity-author";
+      author.textContent = authorFor(record).replace(/\s*\|\s*/g, " · ");
+
+      const publisher = document.createElement("p");
+      publisher.className = "library-rarity-publisher";
+      publisher.textContent = publisherFor(record);
+
+      const signals = document.createElement("div");
+      signals.className = "library-rarity-signals";
+      [copy.rarityAge(age), copy.rarityPreIsbn, copy.rarityNoMatch].forEach((label) => {
+        const signal = document.createElement("span");
+        signal.textContent = label;
+        signals.append(signal);
+      });
+
+      meta.append(yearLabel, title, author, publisher, signals);
+      card.append(rank, cover, meta);
+      card.addEventListener("click", () => openDialog(record));
+      return card;
+    }));
+  }
+
   function populateFilters(records) {
     const decades = Array.from(new Set(records.map(numericYear).filter((year) => year !== null).map((year) => Math.floor(year / 10) * 10))).sort((a, b) => a - b);
     decades.forEach((decade) => {
@@ -616,10 +704,12 @@
       if (!payload || !Array.isArray(payload.records)) throw new Error("Invalid catalogue payload");
 
       state.records = payload.records.map((record, index) => ({ ...record, _index: index }));
+      state.rarityReferenceYear = Number(String(payload.curation?.curated_on || "").slice(0, 4)) || state.rarityReferenceYear;
       updateMetrics(state.records);
       renderShelf(state.records);
       renderDecadeChart(state.records);
       renderPublisherChart(state.records);
+      renderRarity(state.records);
       populateFilters(state.records);
       renderCatalogue();
       bindEvents();

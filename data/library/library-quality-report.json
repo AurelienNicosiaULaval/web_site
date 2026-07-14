@@ -2,8 +2,8 @@
   "generated_on": "2026-07-13",
   "record_count": 467,
   "raw_record_count": 467,
-  "manual_override_count": 16,
-  "manual_field_change_count": 50,
+  "manual_override_count": 18,
+  "manual_field_change_count": 52,
   "openlibrary_exact_match_count": 245,
   "openlibrary_exact_match_rate": 0.5246,
   "unique_valid_isbn_count": 360,
@@ -359,6 +359,30 @@
       "sources": [
         "siam_optical_science",
         "openlibrary_exact"
+      ]
+    },
+    {
+      "id": "book-0118",
+      "before": {
+        "title": "Lecons sur la theorie generale des surfaces et les applications geometriques du calcul infinitesimal"
+      },
+      "after": {
+        "title": "Leçons sur la théorie générale des surfaces et les applications géométriques du calcul infinitésimal"
+      },
+      "sources": [
+        "worldcat_darboux"
+      ]
+    },
+    {
+      "id": "book-0122",
+      "before": {
+        "author": "Reunion de professeurs"
+      },
+      "after": {
+        "author": "Réunion de professeurs"
+      },
+      "sources": [
+        "ulaval_schoolbooks"
       ]
     },
     {

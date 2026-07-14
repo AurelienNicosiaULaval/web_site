@@ -9,7 +9,7 @@
     "raw_catalogue": "data/library/clz-library-raw.json",
     "curation_rules": "data/library/library-curation.json",
     "openlibrary_snapshot": "data/library/openlibrary-isbn-cache.json",
-    "manual_override_count": 16,
+    "manual_override_count": 18,
     "policy": {
       "confidence_threshold": "high",
       "missing_isbn_before_1970": "expected",
@@ -61,6 +61,10 @@
       "worldcat_leroux": {
         "title": "WorldCat, Algèbre linéaire : une approche matricielle",
         "url": "https://search.worldcat.org/fr/title/algebre-lineaire-une-approche-matricielle/oclc/15971240"
+      },
+      "worldcat_darboux": {
+        "title": "WorldCat, Leçons sur la théorie générale des surfaces et les applications géométriques du calcul infinitésimal",
+        "url": "https://search.worldcat.org/title/lecons-sur-la-theorie-generale-des-surfaces-et-les-applications-geometriques-du-calcul-infinitesimal/oclc/1048197347"
       },
       "ellipses_merlin": {
         "title": "Éditions Ellipses, La cuisine aux épices",
@@ -3509,7 +3513,7 @@
     },
     {
       "author": "Gaston Darboux",
-      "title": "Lecons sur la theorie generale des surfaces et les applications geometriques du calcul infinitesimal",
+      "title": "Leçons sur la théorie générale des surfaces et les applications géométriques du calcul infinitésimal",
       "isbn": "",
       "publisher": "Gauthier-Villars",
       "publication_date": "Jan 01, 1887",
@@ -3520,6 +3524,22 @@
         8
       ],
       "id": "book-0118",
+      "data_provenance": {
+        "title": "worldcat_darboux"
+      },
+      "curation": {
+        "confidence": "high",
+        "reason": "WorldCat confirms the author, publisher, year and accented French title of the 1887 work.",
+        "sources": [
+          "worldcat_darboux"
+        ],
+        "changed_fields": [
+          "title"
+        ],
+        "verified_fields": [
+          "title"
+        ]
+      },
       "isbn_status": "missing_pre_1970",
       "publisher_normalized": "Gauthier-Villars",
       "quality_flags": []
@@ -3619,7 +3639,7 @@
       "quality_flags": []
     },
     {
-      "author": "Reunion de professeurs",
+      "author": "Réunion de professeurs",
       "title": "Cours de Géométrie – Classes de 2e et de 1re – Livre du Maître",
       "isbn": "",
       "publisher": "Librairie Générale de l’Enseignement Libre",
@@ -3631,6 +3651,22 @@
         9
       ],
       "id": "book-0122",
+      "data_provenance": {
+        "author": "ulaval_schoolbooks"
+      },
+      "curation": {
+        "confidence": "high",
+        "reason": "The Université Laval schoolbook catalogue confirms the institutional author, title, publisher and year.",
+        "sources": [
+          "ulaval_schoolbooks"
+        ],
+        "changed_fields": [
+          "author"
+        ],
+        "verified_fields": [
+          "author"
+        ]
+      },
       "isbn_status": "missing_pre_1970",
       "publisher_normalized": "Librairie Générale de l’Enseignement Libre",
       "quality_flags": []

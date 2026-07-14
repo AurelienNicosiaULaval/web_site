@@ -52,6 +52,10 @@
       "title": "WorldCat, Algèbre linéaire : une approche matricielle",
       "url": "https://search.worldcat.org/fr/title/algebre-lineaire-une-approche-matricielle/oclc/15971240"
     },
+    "worldcat_darboux": {
+      "title": "WorldCat, Leçons sur la théorie générale des surfaces et les applications géométriques du calcul infinitésimal",
+      "url": "https://search.worldcat.org/title/lecons-sur-la-theorie-generale-des-surfaces-et-les-applications-geometriques-du-calcul-infinitesimal/oclc/1048197347"
+    },
     "ellipses_merlin": {
       "title": "Éditions Ellipses, La cuisine aux épices",
       "url": "https://www.editions-ellipses.fr/fr/15-mathematiques?page=40&resultsPerPage=50"
@@ -160,6 +164,24 @@
       "changes": {
         "publication_date": "2001",
         "publication_year": "2001"
+      }
+    },
+    {
+      "id": "book-0118",
+      "confidence": "high",
+      "reason": "WorldCat confirms the author, publisher, year and accented French title of the 1887 work.",
+      "sources": ["worldcat_darboux"],
+      "changes": {
+        "title": "Leçons sur la théorie générale des surfaces et les applications géométriques du calcul infinitésimal"
+      }
+    },
+    {
+      "id": "book-0122",
+      "confidence": "high",
+      "reason": "The Université Laval schoolbook catalogue confirms the institutional author, title, publisher and year.",
+      "sources": ["ulaval_schoolbooks"],
+      "changes": {
+        "author": "Réunion de professeurs"
       }
     },
     {

@@ -37,6 +37,7 @@ DEFAULT_LALIBRAIRIE_COVER_CACHE = ROOT / "data/library/lalibrairie-cover-cache.j
 DEFAULT_VERIFIED_COVER_CACHE = ROOT / "data/library/verified-cover-cache.json"
 DEFAULT_CURATION = ROOT / "data/library/library-curation.json"
 DEFAULT_NORMALIZATION = ROOT / "data/library/library-normalization.json"
+DEFAULT_THEMES = ROOT / "data/library/library-themes.json"
 DEFAULT_OUTPUT = ROOT / "assets/library/library-data.json"
 DEFAULT_REPORT = ROOT / "data/library/library-quality-report.json"
 
@@ -166,6 +167,48 @@ def normalize_entities(
         "publisher_record_change_count": publisher_changes,
         "duplicate_author_name_count_removed": duplicate_authors_removed,
     }
+
+
+def assign_themes(
+    records: list[dict[str, Any]],
+    theme_rules: dict[str, Any],
+) -> Counter[str]:
+    """Assign an evidence-backed theme without altering source metadata."""
+    policy = theme_rules.get("policy", {})
+    fields = policy.get("fields", [])
+    fallback = str(policy.get("fallback", "")).strip()
+    categories = theme_rules.get("categories", [])
+    if not fields or not fallback or not categories:
+        raise RuntimeError("Incomplete library theme rules refused.")
+
+    compiled_categories: list[tuple[str, list[re.Pattern[str]]]] = []
+    seen_names: set[str] = set()
+    for category in categories:
+        name = str(category.get("name", "")).strip()
+        patterns = category.get("patterns", [])
+        if not name or name in seen_names or not patterns:
+            raise RuntimeError("Invalid or duplicate library theme category refused.")
+        seen_names.add(name)
+        compiled_categories.append(
+            (name, [re.compile(str(pattern)) for pattern in patterns])
+        )
+
+    counts: Counter[str] = Counter()
+    for record in records:
+        evidence = " ".join(
+            normalize_text(str(record.get(field, "")))
+            for field in fields
+            if record.get(field)
+        )
+        theme = fallback
+        if evidence:
+            for name, patterns in compiled_categories:
+                if any(pattern.search(evidence) for pattern in patterns):
+                    theme = name
+                    break
+        record["theme"] = theme
+        counts[theme] += 1
+    return counts
 
 
 def authors_from_openlibrary(entry: dict[str, Any]) -> str:
@@ -785,6 +828,7 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_NORMALIZATION,
     )
+    parser.add_argument("--themes", type=Path, default=DEFAULT_THEMES)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--report", type=Path, default=DEFAULT_REPORT)
     return parser.parse_args()
@@ -816,6 +860,7 @@ def main() -> None:
     )
     curation = read_json(args.curation)
     normalization = read_json(args.normalization)
+    theme_rules = read_json(args.themes)
     records = copy.deepcopy(raw_payload["records"])
     curated_on = str(curation.get("curated_on") or date.today().isoformat())
     applied = apply_overrides(records, curation)
@@ -956,6 +1001,7 @@ def main() -> None:
         normalization.get("policy", {}),
     )
     classify_records(records)
+    theme_counts = assign_themes(records, theme_rules)
     openlibrary_matches = sum(bool(record.get("openlibrary")) for record in records)
     openlibrary_fills = Counter(
         field
@@ -971,6 +1017,7 @@ def main() -> None:
             "raw_catalogue": str(args.raw.relative_to(ROOT)),
             "curation_rules": str(args.curation.relative_to(ROOT)),
             "normalization_rules": str(args.normalization.relative_to(ROOT)),
+            "theme_rules": str(args.themes.relative_to(ROOT)),
             "openlibrary_snapshot": str(args.cache.relative_to(ROOT)),
             "openlibrary_direct_cover_snapshot": str(args.direct_cover_cache.relative_to(ROOT)),
             "openlibrary_cover_search_snapshot": str(args.openlibrary_cover_search.relative_to(ROOT)),
@@ -988,6 +1035,7 @@ def main() -> None:
             "duplicate_group_count": len(duplicate_groups),
             "policy": curation["policy"],
             "normalization_policy": normalization["policy"],
+            "theme_policy": theme_rules["policy"],
             "sources": curation["sources"],
         },
         "records": records,
@@ -1002,6 +1050,7 @@ def main() -> None:
         duplicate_groups,
         curated_on,
     )
+    report["theme_counts"] = dict(sorted(theme_counts.items()))
     write_json(args.output, payload)
     write_json(args.report, report)
     print(

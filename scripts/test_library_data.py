@@ -18,6 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data/library/clz-library-raw.json"
 CURATION = ROOT / "data/library/library-curation.json"
 NORMALIZATION = ROOT / "data/library/library-normalization.json"
+THEMES = ROOT / "data/library/library-themes.json"
 OUTPUT = ROOT / "assets/library/library-data.json"
 REPORT = ROOT / "data/library/library-quality-report.json"
 AUDIT = ROOT / "data/library/library-audit-artifact.json"
@@ -47,6 +48,7 @@ def main() -> None:
     raw = read_json(RAW)
     curation = read_json(CURATION)
     normalization = read_json(NORMALIZATION)
+    themes = read_json(THEMES)
     curated = read_json(OUTPUT)
     report = read_json(REPORT)
     audit = read_json(AUDIT)
@@ -88,6 +90,12 @@ def main() -> None:
     assert all(record["source_pages"] for record in records)
     assert normalization["version"] == 1
     assert normalization["policy"]["preserve_distinct_valid_isbn"] is True
+    theme_names = {category["name"] for category in themes["categories"]}
+    theme_names.add(themes["policy"]["fallback"])
+    assert all(record["theme"] in theme_names for record in records)
+    assert sum(report["theme_counts"].values()) == len(records)
+    assert Counter(record["theme"] for record in records) == report["theme_counts"]
+    assert curated["curation"]["theme_rules"] == "data/library/library-themes.json"
 
     source_ids = set(curation["sources"])
     for record in records:
@@ -273,6 +281,11 @@ def main() -> None:
     assert by_id["book-0158"]["cover"]["provider"] == "AbeBooks"
     assert by_id["book-0441"]["cover"]["provider"] == "Internet Archive"
     assert by_id["book-0567"]["cover"]["provider"] == "Google Books"
+    assert by_id["book-0291"]["theme"] == "Informatique et science des données"
+    assert by_id["book-0456"]["theme"] == "Statistique et probabilités"
+    assert by_id["book-0567"]["theme"] == "Enseignement"
+    assert by_id["book-0565"]["theme"] == "Physique et sciences"
+    assert by_id["book-0118"]["theme"] == "Mathématiques"
     assert sum(not record.get("cover") for record in records) == 103
     assert sum(
         not record.get("cover") and record["isbn_status"] == "valid"

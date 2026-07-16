@@ -92,6 +92,45 @@ resources:
 :::
 :::
 
+::: {.library-atlas aria-labelledby="atlas-title"}
+::: {.library-shell}
+::: {.library-section-heading}
+<p class="library-eyebrow">Cartographie thématique</p>
+<h2 id="atlas-title">L’atlas de la bibliothèque</h2>
+<p class="library-section-intro">Explorez les grands territoires intellectuels de la collection. La surface de chaque territoire est proportionnelle au nombre de livres.</p>
+:::
+
+::: {.library-atlas-layout}
+<div id="library-theme-map" class="library-theme-map" aria-label="Répartition interactive des livres par thème"></div>
+<aside id="library-theme-detail" class="library-theme-detail" aria-live="polite"></aside>
+:::
+
+<button id="library-theme-reset" class="library-inline-action" type="button"><i class="bi bi-arrow-counterclockwise" aria-hidden="true"></i>Vue d’ensemble</button>
+<p class="library-method-note"><i class="bi bi-info-circle" aria-hidden="true"></i>La classification applique des règles reproductibles aux champs titre, genre et série. Une notice sans indice explicite demeure dans « À classer ».</p>
+:::
+:::
+
+::: {.library-timeline aria-labelledby="timeline-title"}
+::: {.library-shell}
+::: {.library-section-heading .library-section-heading-row}
+::: {}
+<p class="library-eyebrow">1887 à 2025</p>
+<h2 id="timeline-title">La collection au fil du temps</h2>
+<p class="library-section-intro">Choisissez une décennie pour voir son poids dans la collection et ouvrir quelques livres de cette période.</p>
+:::
+<button id="library-timeline-reset" class="library-inline-action" type="button"><i class="bi bi-arrows-fullscreen" aria-hidden="true"></i>Toute la période</button>
+:::
+
+<p id="library-timeline-status" class="library-viz-status" aria-live="polite"></p>
+<div id="library-timeline-chart" class="library-timeline-chart" aria-label="Chronologie interactive des livres par décennie"></div>
+::: {.library-timeline-nav aria-label="Navigation entre les décennies"}
+<button id="library-timeline-prev" type="button"><i class="bi bi-arrow-left" aria-hidden="true"></i><span>Décennie précédente</span></button>
+<button id="library-timeline-next" type="button"><span>Décennie suivante</span><i class="bi bi-arrow-right" aria-hidden="true"></i></button>
+:::
+<div id="library-timeline-books" class="library-timeline-books"></div>
+:::
+:::
+
 ::: {.library-rarity aria-labelledby="rarity-title"}
 ::: {.library-shell}
 ::: {.library-rarity-heading}
@@ -103,6 +142,66 @@ resources:
 <div id="library-rarity-grid" class="library-rarity-grid"></div>
 
 <p class="library-rarity-method"><i class="bi bi-shield-check" aria-hidden="true"></i>Ce classement reproductible retient les cinq notices complètes les plus anciennes, publiées avant 1970 sans ISBN. Il mesure la rareté documentaire dans ce catalogue, pas la valeur marchande ni le nombre d’exemplaires existants. <span data-rarity-excluded>3</span> notices plus anciennes, mais incomplètes, restent hors classement.</p>
+:::
+:::
+
+::: {.library-network aria-labelledby="network-title"}
+::: {.library-shell}
+::: {.library-section-heading}
+<p class="library-eyebrow">Connexions</p>
+<h2 id="network-title">Le réseau de la collection</h2>
+<p class="library-section-intro">Découvrez comment les thèmes relient les auteurs et les maisons d’édition. Sélectionnez un nœud pour isoler son voisinage.</p>
+:::
+
+::: {.library-network-toolbar}
+::: {.library-search-wrap .library-network-search-wrap}
+<i class="bi bi-search" aria-hidden="true"></i>
+<label class="visually-hidden" for="library-network-search">Rechercher un auteur ou un éditeur dans le réseau</label>
+<input id="library-network-search" type="search" placeholder="Rechercher un auteur ou un éditeur" autocomplete="off">
+:::
+<button id="library-network-recenter" class="library-inline-action" type="button"><i class="bi bi-bullseye" aria-hidden="true"></i>Recentrer</button>
+<button id="library-network-all" class="library-inline-action" type="button"><i class="bi bi-diagram-3" aria-hidden="true"></i>Vue d’ensemble</button>
+:::
+
+::: {.library-network-layout}
+<div id="library-network-canvas" class="library-network-canvas" aria-label="Réseau interactif des thèmes, auteurs et éditeurs"></div>
+<aside id="library-network-detail" class="library-network-detail" aria-live="polite"></aside>
+:::
+
+::: {.library-network-legend aria-label="Légende du réseau"}
+<span><i class="library-legend-theme" aria-hidden="true"></i>Thème</span>
+<span><i class="library-legend-author" aria-hidden="true"></i>Auteur</span>
+<span><i class="library-legend-publisher" aria-hidden="true"></i>Éditeur</span>
+<span><i class="library-legend-selected" aria-hidden="true"></i>Sélection</span>
+:::
+<p class="library-method-note"><i class="bi bi-info-circle" aria-hidden="true"></i>Une connexion indique qu’au moins un livre associe les deux nœuds. Son épaisseur représente le nombre de livres concernés; aucun lien n’est inféré au-delà du catalogue.</p>
+:::
+:::
+
+::: {.library-cover-wall aria-labelledby="cover-wall-title"}
+::: {.library-shell}
+::: {.library-section-heading}
+<p class="library-eyebrow">Galerie visuelle</p>
+<h2 id="cover-wall-title">Le mur des couvertures</h2>
+<p class="library-section-intro">Une lecture visuelle de la collection, couverture par couverture.</p>
+:::
+
+::: {.library-wall-toolbar}
+::: {.library-field}
+<label for="library-wall-decade">Décennie</label>
+<select id="library-wall-decade"><option value="">Toutes les décennies</option></select>
+:::
+::: {.library-field}
+<label for="library-wall-theme">Thème</label>
+<select id="library-wall-theme"><option value="">Tous les thèmes</option></select>
+:::
+<button id="library-wall-shuffle" class="library-inline-action" type="button"><i class="bi bi-shuffle" aria-hidden="true"></i>Mélanger</button>
+:::
+<p id="library-wall-status" class="library-viz-status" aria-live="polite"></p>
+<div id="library-cover-wall-grid" class="library-cover-wall-grid"></div>
+::: {.library-load-wrap}
+<button id="library-wall-more" class="library-button library-button-secondary" type="button">Afficher davantage de couvertures</button>
+:::
 :::
 :::
 

@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "policy": {
+    "description_fr": "La première règle correspondante est appliquée aux seuls champs titre, genre et série. Les notices sans indice explicite restent dans À classer.",
+    "description_en": "The first matching rule is applied using only the title, genre, and series fields. Records without explicit evidence remain in To classify.",
+    "fields": [
+      "title",
+      "genre",
+      "series"
+    ],
+    "fallback": "À classer"
+  },
+  "categories": [
+    {
+      "name": "Enseignement",
+      "patterns": [
+        "enseignement",
+        "pedagog",
+        "didact",
+        "education",
+        "teacher",
+        "classroom",
+        "eleve professeur",
+        "school mathematics",
+        "mathematical education",
+        "cours secondaire",
+        "lexique mathematique"
+      ]
+    },
+    {
+      "name": "Informatique et science des données",
+      "patterns": [
+        "machine learning",
+        "deep learning",
+        "data science",
+        "science des donnees",
+        "data mining",
+        "programmation",
+        "programming",
+        "algorithm",
+        "informat",
+        "computer",
+        "python",
+        "(^| )sql( |$)",
+        "language r",
+        "logiciel r",
+        "artificial intelligence",
+        "intelligence artificielle",
+        "neural network",
+        "reseaux de neurones"
+      ]
+    },
+    {
+      "name": "Physique et sciences",
+      "patterns": [
+        "physique",
+        "physics",
+        "mecanique",
+        "mechanics",
+        "electric",
+        "electro",
+        "optique",
+        "optical",
+        "astronom",
+        "thermodynam",
+        "quantum",
+        "chimie",
+        "chemistry",
+        "biolog",
+        "ondes"
+      ]
+    },
+    {
+      "name": "Histoire et culture scientifique",
+      "patterns": [
+        "histoire",
+        "history",
+        "biograph",
+        "recreations? mathematiques?",
+        "recreational mathematics",
+        "culture mathem",
+        "mathematiciens?",
+        "mathematicians?"
+      ]
+    },
+    {
+      "name": "Statistique et probabilités",
+      "patterns": [
+        "statist",
+        "probab",
+        "stochast",
+        "regression",
+        "bayes",
+        "sampling",
+        "sondage",
+        "inference",
+        "econometr",
+        "time series",
+        "series? temporelles?",
+        "design of experiments?",
+        "plans? d experiences?",
+        "actuari",
+        "markov",
+        "random variables?",
+        "processus aleatoire",
+        "multivariat",
+        "(^| )anova( |$)",
+        "bootstrap",
+        "density estimation"
+      ]
+    },
+    {
+      "name": "Mathématiques",
+      "patterns": [
+        "mathem",
+        "algebr",
+        "calculus",
+        "calcul differentiel",
+        "analyse",
+        "analysis",
+        "geometr",
+        "topolog",
+        "theorie des nombres",
+        "number theory",
+        "equations?",
+        "matrix",
+        "matrice",
+        "complex",
+        "integration",
+        "integral",
+        "differential",
+        "optimization",
+        "optimisation",
+        "linear programming",
+        "programmation lineaire",
+        "measure theory",
+        "theoreme",
+        "theorem",
+        "preuve",
+        "proof",
+        "trigonom",
+        "fonctions?",
+        "functions?",
+        "graph theory",
+        "group theory",
+        "theorie des groupes"
+      ]
+    }
+  ]
+}

@@ -93,6 +93,45 @@ resources:
 :::
 :::
 
+::: {.library-atlas aria-labelledby="atlas-title"}
+::: {.library-shell}
+::: {.library-section-heading}
+<p class="library-eyebrow">Thematic map</p>
+<h2 id="atlas-title">The library atlas</h2>
+<p class="library-section-intro">Explore the collection’s main intellectual territories. Each territory’s area is proportional to its number of books.</p>
+:::
+
+::: {.library-atlas-layout}
+<div id="library-theme-map" class="library-theme-map" aria-label="Interactive distribution of books by theme"></div>
+<aside id="library-theme-detail" class="library-theme-detail" aria-live="polite"></aside>
+:::
+
+<button id="library-theme-reset" class="library-inline-action" type="button"><i class="bi bi-arrow-counterclockwise" aria-hidden="true"></i>Overview</button>
+<p class="library-method-note"><i class="bi bi-info-circle" aria-hidden="true"></i>The classification applies reproducible rules to title, genre, and series fields. A record without explicit evidence remains in “To classify.”</p>
+:::
+:::
+
+::: {.library-timeline aria-labelledby="timeline-title"}
+::: {.library-shell}
+::: {.library-section-heading .library-section-heading-row}
+::: {}
+<p class="library-eyebrow">1887 to 2025</p>
+<h2 id="timeline-title">The collection through time</h2>
+<p class="library-section-intro">Choose a decade to see its weight in the collection and open a few books from that period.</p>
+:::
+<button id="library-timeline-reset" class="library-inline-action" type="button"><i class="bi bi-arrows-fullscreen" aria-hidden="true"></i>Full period</button>
+:::
+
+<p id="library-timeline-status" class="library-viz-status" aria-live="polite"></p>
+<div id="library-timeline-chart" class="library-timeline-chart" aria-label="Interactive timeline of books by decade"></div>
+::: {.library-timeline-nav aria-label="Navigate between decades"}
+<button id="library-timeline-prev" type="button"><i class="bi bi-arrow-left" aria-hidden="true"></i><span>Previous decade</span></button>
+<button id="library-timeline-next" type="button"><span>Next decade</span><i class="bi bi-arrow-right" aria-hidden="true"></i></button>
+:::
+<div id="library-timeline-books" class="library-timeline-books"></div>
+:::
+:::
+
 ::: {.library-rarity aria-labelledby="rarity-title"}
 ::: {.library-shell}
 ::: {.library-rarity-heading}
@@ -104,6 +143,66 @@ resources:
 <div id="library-rarity-grid" class="library-rarity-grid"></div>
 
 <p class="library-rarity-method"><i class="bi bi-shield-check" aria-hidden="true"></i>This reproducible ranking selects the five oldest complete records published before 1970 without an ISBN. It measures documentary rarity within this catalogue, not market value or the number of surviving copies. <span data-rarity-excluded>3</span> older but incomplete records remain outside the ranking.</p>
+:::
+:::
+
+::: {.library-network aria-labelledby="network-title"}
+::: {.library-shell}
+::: {.library-section-heading}
+<p class="library-eyebrow">Connections</p>
+<h2 id="network-title">The collection network</h2>
+<p class="library-section-intro">See how themes connect authors and publishers. Select a node to isolate its neighbourhood.</p>
+:::
+
+::: {.library-network-toolbar}
+::: {.library-search-wrap .library-network-search-wrap}
+<i class="bi bi-search" aria-hidden="true"></i>
+<label class="visually-hidden" for="library-network-search">Search for an author or publisher in the network</label>
+<input id="library-network-search" type="search" placeholder="Search for an author or publisher" autocomplete="off">
+:::
+<button id="library-network-recenter" class="library-inline-action" type="button"><i class="bi bi-bullseye" aria-hidden="true"></i>Recenter</button>
+<button id="library-network-all" class="library-inline-action" type="button"><i class="bi bi-diagram-3" aria-hidden="true"></i>Overview</button>
+:::
+
+::: {.library-network-layout}
+<div id="library-network-canvas" class="library-network-canvas" aria-label="Interactive network of themes, authors, and publishers"></div>
+<aside id="library-network-detail" class="library-network-detail" aria-live="polite"></aside>
+:::
+
+::: {.library-network-legend aria-label="Network legend"}
+<span><i class="library-legend-theme" aria-hidden="true"></i>Theme</span>
+<span><i class="library-legend-author" aria-hidden="true"></i>Author</span>
+<span><i class="library-legend-publisher" aria-hidden="true"></i>Publisher</span>
+<span><i class="library-legend-selected" aria-hidden="true"></i>Selection</span>
+:::
+<p class="library-method-note"><i class="bi bi-info-circle" aria-hidden="true"></i>A connection means that at least one book links the two nodes. Its width represents the number of books involved; no relationship is inferred beyond the catalogue.</p>
+:::
+:::
+
+::: {.library-cover-wall aria-labelledby="cover-wall-title"}
+::: {.library-shell}
+::: {.library-section-heading}
+<p class="library-eyebrow">Visual gallery</p>
+<h2 id="cover-wall-title">The cover wall</h2>
+<p class="library-section-intro">A visual reading of the collection, one cover at a time.</p>
+:::
+
+::: {.library-wall-toolbar}
+::: {.library-field}
+<label for="library-wall-decade">Decade</label>
+<select id="library-wall-decade"><option value="">All decades</option></select>
+:::
+::: {.library-field}
+<label for="library-wall-theme">Theme</label>
+<select id="library-wall-theme"><option value="">All themes</option></select>
+:::
+<button id="library-wall-shuffle" class="library-inline-action" type="button"><i class="bi bi-shuffle" aria-hidden="true"></i>Shuffle</button>
+:::
+<p id="library-wall-status" class="library-viz-status" aria-live="polite"></p>
+<div id="library-cover-wall-grid" class="library-cover-wall-grid"></div>
+::: {.library-load-wrap}
+<button id="library-wall-more" class="library-button library-button-secondary" type="button">Show more covers</button>
+:::
 :::
 :::
 

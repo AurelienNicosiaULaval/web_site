@@ -1145,5 +1145,14 @@
         "clz_latest_export"
       ]
     }
-  ]
+  ],
+  "theme_counts": {
+    "Enseignement": 11,
+    "Histoire et culture scientifique": 11,
+    "Informatique et science des données": 32,
+    "Mathématiques": 264,
+    "Physique et sciences": 21,
+    "Statistique et probabilités": 138,
+    "À classer": 80
+  }
 }

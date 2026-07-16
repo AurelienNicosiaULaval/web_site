@@ -38,7 +38,23 @@
       searchPlaceholder: (count) => `Rechercher dans ${formatNumber(count)} livres`,
       result: (count) => `${formatNumber(count)} ${count === 1 ? "livre" : "livres"}`,
       decadeOption: (decade) => `Années ${decade}`,
-      openBook: (title) => `Ouvrir la fiche de ${title}`
+      openBook: (title) => `Ouvrir la fiche de ${title}`,
+      themeCount: (count) => `${formatNumber(count)} ${count === 1 ? "livre" : "livres"}`,
+      fullCollection: "Collection complète",
+      themeOverview: (themes, books) => `${formatNumber(books)} livres répartis dans ${formatNumber(themes)} territoires thématiques.`,
+      themeSelection: "Quelques livres de ce territoire",
+      wallForTheme: "Voir les couvertures de ce thème",
+      timelineAll: (count, first, last) => `${formatNumber(count)} livres publiés de ${first} à ${last}`,
+      timelineDecade: (count, decade) => `${formatNumber(count)} livres publiés dans les années ${decade}`,
+      wallStatus: (shown, total) => `${formatNumber(shown)} couvertures affichées sur ${formatNumber(total)}`,
+      networkOverview: "Vue d’ensemble",
+      networkOverviewText: (themes, authors, publishers) => `${formatNumber(themes)} thèmes, ${formatNumber(authors)} auteurs et ${formatNumber(publishers)} éditeurs sont représentés dans cette vue condensée.`,
+      networkTheme: "Thème",
+      networkAuthor: "Auteur",
+      networkPublisher: "Éditeur",
+      networkBooks: (count) => `${formatNumber(count)} ${count === 1 ? "livre associé" : "livres associés"}`,
+      networkConnections: "Principales connexions",
+      networkSearchNone: "Aucun auteur ou éditeur ne correspond à cette recherche."
     },
     en: {
       book: "book",
@@ -68,7 +84,23 @@
       searchPlaceholder: (count) => `Search ${formatNumber(count)} books`,
       result: (count) => `${formatNumber(count)} ${count === 1 ? "book" : "books"}`,
       decadeOption: (decade) => `${decade}s`,
-      openBook: (title) => `Open details for ${title}`
+      openBook: (title) => `Open details for ${title}`,
+      themeCount: (count) => `${formatNumber(count)} ${count === 1 ? "book" : "books"}`,
+      fullCollection: "Full collection",
+      themeOverview: (themes, books) => `${formatNumber(books)} books distributed across ${formatNumber(themes)} thematic territories.`,
+      themeSelection: "A few books from this territory",
+      wallForTheme: "View this theme’s covers",
+      timelineAll: (count, first, last) => `${formatNumber(count)} books published from ${first} to ${last}`,
+      timelineDecade: (count, decade) => `${formatNumber(count)} books published in the ${decade}s`,
+      wallStatus: (shown, total) => `${formatNumber(shown)} covers shown out of ${formatNumber(total)}`,
+      networkOverview: "Overview",
+      networkOverviewText: (themes, authors, publishers) => `${formatNumber(themes)} themes, ${formatNumber(authors)} authors, and ${formatNumber(publishers)} publishers are represented in this condensed view.`,
+      networkTheme: "Theme",
+      networkAuthor: "Author",
+      networkPublisher: "Publisher",
+      networkBooks: (count) => `${formatNumber(count)} associated ${count === 1 ? "book" : "books"}`,
+      networkConnections: "Main connections",
+      networkSearchNone: "No author or publisher matches this search."
     }
   }[lang];
 
@@ -88,7 +120,16 @@
     publisher: "",
     sort: "catalogue",
     visible: pageSize,
-    rarityReferenceYear: new Date().getFullYear()
+    rarityReferenceYear: new Date().getFullYear(),
+    selectedTheme: "",
+    timelineDecade: "",
+    wallDecade: "",
+    wallTheme: "",
+    wallVisible: 32,
+    wallSeed: 1,
+    networkGraph: null,
+    networkSelected: "",
+    networkOverview: false
   };
 
   const elements = {
@@ -106,7 +147,27 @@
     shelf: document.getElementById("library-hero-shelf"),
     decadeChart: document.getElementById("library-decade-chart"),
     publisherChart: document.getElementById("library-publisher-chart"),
+    themeMap: document.getElementById("library-theme-map"),
+    themeDetail: document.getElementById("library-theme-detail"),
+    themeReset: document.getElementById("library-theme-reset"),
+    timelineChart: document.getElementById("library-timeline-chart"),
+    timelineStatus: document.getElementById("library-timeline-status"),
+    timelineBooks: document.getElementById("library-timeline-books"),
+    timelineReset: document.getElementById("library-timeline-reset"),
+    timelinePrev: document.getElementById("library-timeline-prev"),
+    timelineNext: document.getElementById("library-timeline-next"),
     rarityGrid: document.getElementById("library-rarity-grid"),
+    networkCanvas: document.getElementById("library-network-canvas"),
+    networkDetail: document.getElementById("library-network-detail"),
+    networkSearch: document.getElementById("library-network-search"),
+    networkRecenter: document.getElementById("library-network-recenter"),
+    networkAll: document.getElementById("library-network-all"),
+    wallDecade: document.getElementById("library-wall-decade"),
+    wallTheme: document.getElementById("library-wall-theme"),
+    wallShuffle: document.getElementById("library-wall-shuffle"),
+    wallStatus: document.getElementById("library-wall-status"),
+    wallGrid: document.getElementById("library-cover-wall-grid"),
+    wallMore: document.getElementById("library-wall-more"),
     dialog: document.getElementById("library-dialog"),
     dialogContent: document.getElementById("library-dialog-content"),
     dialogClose: document.getElementById("library-dialog-close"),
@@ -135,6 +196,52 @@
 
   function authorFor(record) {
     return record.author_normalized || record.author || copy.unknownAuthor;
+  }
+
+  const themeLabels = {
+    "Mathématiques": lang === "en" ? "Mathematics" : "Mathématiques",
+    "Statistique et probabilités": lang === "en" ? "Statistics and probability" : "Statistique et probabilités",
+    "Informatique et science des données": lang === "en" ? "Computing and data science" : "Informatique et science des données",
+    "Physique et sciences": lang === "en" ? "Physics and science" : "Physique et sciences",
+    "Histoire et culture scientifique": lang === "en" ? "History and scientific culture" : "Histoire et culture scientifique",
+    "Enseignement": lang === "en" ? "Teaching" : "Enseignement",
+    "À classer": lang === "en" ? "To classify" : "À classer"
+  };
+
+  const themePalette = {
+    "Mathématiques": "#0b7285",
+    "Statistique et probabilités": "#102f3f",
+    "Informatique et science des données": "#b7791f",
+    "Physique et sciences": "#467b88",
+    "Histoire et culture scientifique": "#8d6544",
+    "Enseignement": "#6a7781",
+    "À classer": "#a7afb4"
+  };
+
+  function themeFor(record) {
+    return record.theme || "À classer";
+  }
+
+  function themeLabel(theme) {
+    return themeLabels[theme] || theme;
+  }
+
+  function splitRecordAuthors(record) {
+    return authorFor(record)
+      .split(/\s*\|\s*/)
+      .map((author) => author.trim())
+      .filter((author) => author && author !== copy.unknownAuthor);
+  }
+
+  function themeGroups(records) {
+    const groups = new Map();
+    records.forEach((record) => {
+      const theme = themeFor(record);
+      if (!groups.has(theme)) groups.set(theme, []);
+      groups.get(theme).push(record);
+    });
+    return Array.from(groups, ([theme, books]) => ({ theme, books, count: books.length }))
+      .sort((a, b) => b.count - a.count || themeLabel(a.theme).localeCompare(themeLabel(b.theme), locale));
   }
 
   function numericYear(record) {
@@ -412,6 +519,502 @@
     });
   }
 
+  function compactBookButton(record, className) {
+    const button = document.createElement("button");
+    button.className = className;
+    button.type = "button";
+    button.setAttribute("aria-label", copy.openBook(titleFor(record)));
+
+    const cover = coverElement(record, "book-cover", "M");
+    const meta = document.createElement("span");
+    meta.className = "library-compact-book-meta";
+    const title = document.createElement("strong");
+    title.textContent = titleFor(record);
+    const byline = document.createElement("span");
+    byline.textContent = `${authorFor(record).replace(/\s*\|\s*/g, " · ")} · ${record.publication_year || copy.unknownValue}`;
+    meta.append(title, byline);
+    button.append(cover, meta);
+    button.addEventListener("click", () => openDialog(record));
+    return button;
+  }
+
+  function renderThemeAtlas(records) {
+    if (!elements.themeMap || !elements.themeDetail) return;
+    const groups = themeGroups(records);
+    const total = records.length;
+    elements.themeMap.replaceChildren();
+
+    groups.forEach((group, index) => {
+      const territory = document.createElement("button");
+      territory.className = "library-theme-territory";
+      territory.type = "button";
+      territory.dataset.theme = group.theme;
+      territory.setAttribute("aria-pressed", String(state.selectedTheme === group.theme));
+      territory.setAttribute("aria-label", `${themeLabel(group.theme)}, ${copy.themeCount(group.count)}`);
+      territory.style.setProperty("--theme-color", themePalette[group.theme] || colors[index % colors.length].bg);
+      territory.style.setProperty("--theme-share", String(Math.max(1, Math.round(100 * group.count / total))));
+      territory.style.setProperty("--theme-rank", String(index));
+
+      const label = document.createElement("strong");
+      label.textContent = themeLabel(group.theme);
+      const count = document.createElement("span");
+      count.textContent = copy.themeCount(group.count);
+      territory.append(label, count);
+      territory.addEventListener("click", () => {
+        state.selectedTheme = group.theme;
+        renderThemeAtlas(records);
+      });
+      elements.themeMap.append(territory);
+    });
+
+    elements.themeDetail.replaceChildren();
+    if (!state.selectedTheme) {
+      const title = document.createElement("h3");
+      title.textContent = copy.fullCollection;
+      const summary = document.createElement("p");
+      summary.className = "library-theme-summary";
+      summary.textContent = copy.themeOverview(groups.length, total);
+      const list = document.createElement("ol");
+      list.className = "library-theme-ranking";
+      groups.forEach((group) => {
+        const item = document.createElement("li");
+        const button = document.createElement("button");
+        button.type = "button";
+        const label = document.createElement("span");
+        label.textContent = themeLabel(group.theme);
+        const count = document.createElement("strong");
+        count.textContent = formatNumber(group.count);
+        button.append(label, count);
+        button.addEventListener("click", () => {
+          state.selectedTheme = group.theme;
+          renderThemeAtlas(records);
+        });
+        item.append(button);
+        list.append(item);
+      });
+      elements.themeDetail.append(title, summary, list);
+      return;
+    }
+
+    const group = groups.find((item) => item.theme === state.selectedTheme) || groups[0];
+    const title = document.createElement("h3");
+    title.textContent = themeLabel(group.theme);
+    const summary = document.createElement("p");
+    summary.className = "library-theme-summary";
+    summary.textContent = copy.themeCount(group.count);
+    const subhead = document.createElement("p");
+    subhead.className = "library-detail-label";
+    subhead.textContent = copy.themeSelection;
+    const books = document.createElement("div");
+    books.className = "library-theme-books";
+    group.books
+      .slice()
+      .sort((a, b) => Number(Boolean(coverImageFor(b))) - Number(Boolean(coverImageFor(a))) || a._index - b._index)
+      .slice(0, 3)
+      .forEach((record) => books.append(compactBookButton(record, "library-theme-book")));
+    const wallLink = document.createElement("button");
+    wallLink.className = "library-detail-action";
+    wallLink.type = "button";
+    wallLink.textContent = copy.wallForTheme;
+    wallLink.addEventListener("click", () => {
+      state.wallTheme = group.theme;
+      state.wallVisible = 32;
+      if (elements.wallTheme) elements.wallTheme.value = group.theme;
+      renderCoverWall(records);
+      document.getElementById("cover-wall-title")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+    elements.themeDetail.append(title, summary, subhead, books, wallLink);
+  }
+
+  function decadeGroups(records) {
+    const groups = new Map();
+    records.forEach((record) => {
+      const year = numericYear(record);
+      if (year === null) return;
+      const decade = Math.floor(year / 10) * 10;
+      if (!groups.has(decade)) groups.set(decade, []);
+      groups.get(decade).push(record);
+    });
+    return Array.from(groups, ([decade, books]) => ({ decade, books, count: books.length }))
+      .sort((a, b) => a.decade - b.decade);
+  }
+
+  function timelineBookSelection(records, limit = 5) {
+    const covered = records.filter((record) => coverImageFor(record)).sort((a, b) => (numericYear(a) || 0) - (numericYear(b) || 0) || a._index - b._index);
+    const pool = covered.length >= limit ? covered : records;
+    if (pool.length <= limit) return pool;
+    const selected = [];
+    for (let index = 0; index < limit; index += 1) {
+      const position = Math.round(index * (pool.length - 1) / (limit - 1));
+      if (!selected.includes(pool[position])) selected.push(pool[position]);
+    }
+    return selected;
+  }
+
+  function renderTimeline(records) {
+    if (!elements.timelineChart || !elements.timelineStatus || !elements.timelineBooks) return;
+    const groups = decadeGroups(records);
+    const max = Math.max(...groups.map((group) => group.count));
+    const years = records.map(numericYear).filter((year) => year !== null);
+    const selected = groups.find((group) => String(group.decade) === String(state.timelineDecade));
+
+    elements.timelineChart.replaceChildren();
+    groups.forEach((group) => {
+      const button = document.createElement("button");
+      button.className = "library-timeline-decade";
+      button.type = "button";
+      button.setAttribute("aria-pressed", String(Boolean(selected && selected.decade === group.decade)));
+      button.setAttribute("aria-label", `${copy.decadeOption(group.decade)}, ${copy.themeCount(group.count)}`);
+      button.style.setProperty("--timeline-height", `${Math.max(10, Math.round(100 * group.count / max))}%`);
+      const count = document.createElement("strong");
+      count.textContent = formatNumber(group.count);
+      const bar = document.createElement("span");
+      bar.className = "library-timeline-spine";
+      const label = document.createElement("span");
+      label.className = "library-timeline-decade-label";
+      label.textContent = String(group.decade);
+      button.append(count, bar, label);
+      button.addEventListener("click", () => {
+        state.timelineDecade = String(group.decade);
+        renderTimeline(records);
+        elements.timelineChart.querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest", inline: "center" });
+      });
+      elements.timelineChart.append(button);
+    });
+
+    const activeRecords = selected ? selected.books : records;
+    elements.timelineStatus.textContent = selected
+      ? copy.timelineDecade(selected.count, selected.decade)
+      : copy.timelineAll(records.length, Math.min(...years), Math.max(...years));
+    elements.timelineBooks.replaceChildren(
+      ...timelineBookSelection(activeRecords).map((record) => compactBookButton(record, "library-timeline-book"))
+    );
+    const selectedIndex = selected ? groups.indexOf(selected) : -1;
+    elements.timelinePrev.disabled = selectedIndex <= 0;
+    elements.timelineNext.disabled = selectedIndex < 0 || selectedIndex >= groups.length - 1;
+  }
+
+  function populateExplorationFilters(records) {
+    const groups = decadeGroups(records);
+    groups.forEach((group) => {
+      const option = document.createElement("option");
+      option.value = String(group.decade);
+      option.textContent = copy.decadeOption(group.decade);
+      elements.wallDecade?.append(option);
+    });
+    themeGroups(records).forEach((group) => {
+      const option = document.createElement("option");
+      option.value = group.theme;
+      option.textContent = `${themeLabel(group.theme)} (${formatNumber(group.count)})`;
+      elements.wallTheme?.append(option);
+    });
+  }
+
+  function wallRecords(records) {
+    return records
+      .filter((record) => {
+        const year = numericYear(record);
+        return Boolean(coverImageFor(record))
+          && (!state.wallDecade || (year !== null && Math.floor(year / 10) * 10 === Number(state.wallDecade)))
+          && (!state.wallTheme || themeFor(record) === state.wallTheme);
+      })
+      .slice()
+      .sort((a, b) => hashString(`${state.wallSeed}|${a.id}`) - hashString(`${state.wallSeed}|${b.id}`));
+  }
+
+  function renderCoverWall(records) {
+    if (!elements.wallGrid || !elements.wallStatus) return;
+    const filtered = wallRecords(records);
+    const visible = filtered.slice(0, state.wallVisible);
+    elements.wallGrid.replaceChildren(...visible.map((record) => {
+      const button = document.createElement("button");
+      button.className = "library-wall-cover";
+      button.type = "button";
+      button.setAttribute("aria-label", copy.openBook(titleFor(record)));
+      const image = document.createElement("img");
+      image.src = coverImageFor(record, "M");
+      image.alt = copy.coverAlt(titleFor(record));
+      image.loading = "lazy";
+      image.decoding = "async";
+      image.referrerPolicy = "no-referrer";
+      const caption = document.createElement("span");
+      caption.textContent = titleFor(record);
+      button.append(image, caption);
+      button.addEventListener("click", () => openDialog(record));
+      return button;
+    }));
+    elements.wallStatus.textContent = copy.wallStatus(visible.length, filtered.length);
+    const remaining = Math.max(0, filtered.length - visible.length);
+    elements.wallMore.hidden = remaining === 0;
+    if (remaining > 0) elements.wallMore.textContent = copy.more(Math.min(32, remaining));
+  }
+
+  function buildNetworkGraph(records) {
+    const nodes = new Map();
+    const edgeCounts = new Map();
+    const nodeId = (type, label) => `${type}:${normalize(label)}`;
+    const touchNode = (type, label) => {
+      const id = nodeId(type, label);
+      if (!nodes.has(id)) nodes.set(id, { id, type, label, count: 0 });
+      nodes.get(id).count += 1;
+      return id;
+    };
+    const touchEdge = (source, target) => {
+      const id = `${source}|${target}`;
+      edgeCounts.set(id, (edgeCounts.get(id) || 0) + 1);
+    };
+
+    records.forEach((record) => {
+      const theme = themeFor(record);
+      const themeId = touchNode("theme", theme);
+      new Set(splitRecordAuthors(record)).forEach((author) => {
+        const authorId = touchNode("author", author);
+        touchEdge(themeId, authorId);
+      });
+      const publisher = publisherFor(record);
+      if (publisher) {
+        const publisherId = touchNode("publisher", publisher);
+        touchEdge(themeId, publisherId);
+      }
+    });
+
+    const edges = Array.from(edgeCounts, ([id, count]) => {
+      const [source, target] = id.split("|");
+      return { id, source, target, count };
+    });
+    return { nodes, edges };
+  }
+
+  function networkTypeLabel(type) {
+    return {
+      theme: copy.networkTheme,
+      author: copy.networkAuthor,
+      publisher: copy.networkPublisher
+    }[type] || type;
+  }
+
+  function networkVisibleGraph(graph) {
+    const allNodes = Array.from(graph.nodes.values());
+    if (state.networkOverview) {
+      const themes = allNodes.filter((node) => node.type === "theme");
+      const authors = allNodes.filter((node) => node.type === "author")
+        .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, locale)).slice(0, 8);
+      const publishers = allNodes.filter((node) => node.type === "publisher")
+        .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, locale)).slice(0, 8);
+      const nodes = [...themes, ...authors, ...publishers];
+      const ids = new Set(nodes.map((node) => node.id));
+      const edges = graph.edges.filter((edge) => ids.has(edge.source) && ids.has(edge.target));
+      return { nodes, edges };
+    }
+
+    const selected = graph.nodes.get(state.networkSelected) || allNodes.find((node) => node.type === "theme");
+    state.networkSelected = selected?.id || "";
+    const incident = graph.edges
+      .filter((edge) => edge.source === state.networkSelected || edge.target === state.networkSelected)
+      .sort((a, b) => b.count - a.count)
+      .slice(0, window.matchMedia("(max-width: 700px)").matches ? 8 : 11);
+    const ids = new Set([state.networkSelected]);
+    incident.forEach((edge) => {
+      ids.add(edge.source);
+      ids.add(edge.target);
+    });
+    return {
+      nodes: Array.from(ids).map((id) => graph.nodes.get(id)).filter(Boolean),
+      edges: incident
+    };
+  }
+
+  function networkPositions(nodes, width, height, overview) {
+    const positions = new Map();
+    const distribute = (items, x, top, bottom) => {
+      items.forEach((node, index) => {
+        const y = items.length === 1 ? (top + bottom) / 2 : top + index * (bottom - top) / (items.length - 1);
+        positions.set(node.id, { x, y });
+      });
+    };
+
+    if (overview) {
+      distribute(nodes.filter((node) => node.type === "author"), width * 0.14, 48, height - 48);
+      distribute(nodes.filter((node) => node.type === "theme"), width * 0.5, 45, height - 45);
+      distribute(nodes.filter((node) => node.type === "publisher"), width * 0.86, 48, height - 48);
+      return positions;
+    }
+
+    const selected = nodes.find((node) => node.id === state.networkSelected) || nodes[0];
+    positions.set(selected.id, { x: width / 2, y: height / 2 });
+    const neighbours = nodes.filter((node) => node.id !== selected.id);
+    const radiusX = width * (width < 500 ? 0.37 : 0.39);
+    const radiusY = height * 0.38;
+    neighbours.forEach((node, index) => {
+      const angle = -Math.PI / 2 + index * 2 * Math.PI / Math.max(1, neighbours.length);
+      positions.set(node.id, {
+        x: width / 2 + Math.cos(angle) * radiusX,
+        y: height / 2 + Math.sin(angle) * radiusY
+      });
+    });
+    return positions;
+  }
+
+  function renderNetworkDetail(graph, visible) {
+    elements.networkDetail.replaceChildren();
+    if (state.networkOverview) {
+      const title = document.createElement("h3");
+      title.textContent = copy.networkOverview;
+      const counts = Object.fromEntries(["theme", "author", "publisher"].map((type) => [type, visible.nodes.filter((node) => node.type === type).length]));
+      const text = document.createElement("p");
+      text.className = "library-network-summary";
+      text.textContent = copy.networkOverviewText(counts.theme, counts.author, counts.publisher);
+      elements.networkDetail.append(title, text);
+      return;
+    }
+
+    const node = graph.nodes.get(state.networkSelected);
+    if (!node) return;
+    const type = document.createElement("p");
+    type.className = "library-detail-label";
+    type.textContent = networkTypeLabel(node.type);
+    const title = document.createElement("h3");
+    title.textContent = node.type === "theme" ? themeLabel(node.label) : node.label;
+    const count = document.createElement("p");
+    count.className = "library-network-summary";
+    count.textContent = copy.networkBooks(node.count);
+    const subhead = document.createElement("p");
+    subhead.className = "library-detail-label";
+    subhead.textContent = copy.networkConnections;
+    const list = document.createElement("div");
+    list.className = "library-network-connections";
+    graph.edges
+      .filter((edge) => edge.source === node.id || edge.target === node.id)
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 7)
+      .forEach((edge) => {
+        const neighbourId = edge.source === node.id ? edge.target : edge.source;
+        const neighbour = graph.nodes.get(neighbourId);
+        const button = document.createElement("button");
+        button.type = "button";
+        const label = document.createElement("span");
+        label.textContent = neighbour.type === "theme" ? themeLabel(neighbour.label) : neighbour.label;
+        const count = document.createElement("strong");
+        count.textContent = formatNumber(edge.count);
+        button.append(label, count);
+        button.addEventListener("click", () => {
+          state.networkSelected = neighbour.id;
+          state.networkOverview = false;
+          renderNetwork();
+        });
+        list.append(button);
+      });
+    elements.networkDetail.append(type, title, count, subhead, list);
+  }
+
+  function renderNetwork() {
+    if (!elements.networkCanvas || !elements.networkDetail || !state.networkGraph) return;
+    const graph = state.networkGraph;
+    const visible = networkVisibleGraph(graph);
+    const mobile = window.matchMedia("(max-width: 700px)").matches;
+    const width = mobile ? 380 : 760;
+    const height = mobile ? 500 : 510;
+    const positions = networkPositions(visible.nodes, width, height, state.networkOverview);
+    const maxEdge = Math.max(1, ...visible.edges.map((edge) => edge.count));
+    const ns = "http://www.w3.org/2000/svg";
+    const svg = document.createElementNS(ns, "svg");
+    svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+    svg.setAttribute("role", "group");
+    svg.setAttribute("aria-label", elements.networkCanvas.getAttribute("aria-label"));
+    const title = document.createElementNS(ns, "title");
+    title.textContent = elements.networkCanvas.getAttribute("aria-label");
+    svg.append(title);
+
+    const edgeLayer = document.createElementNS(ns, "g");
+    edgeLayer.setAttribute("class", "library-network-edges");
+    visible.edges.forEach((edge) => {
+      const source = positions.get(edge.source);
+      const target = positions.get(edge.target);
+      if (!source || !target) return;
+      const line = document.createElementNS(ns, "line");
+      line.setAttribute("x1", source.x);
+      line.setAttribute("y1", source.y);
+      line.setAttribute("x2", target.x);
+      line.setAttribute("y2", target.y);
+      line.setAttribute("stroke-width", String(1.2 + 5.2 * edge.count / maxEdge));
+      const edgeTitle = document.createElementNS(ns, "title");
+      edgeTitle.textContent = copy.networkBooks(edge.count);
+      line.append(edgeTitle);
+      edgeLayer.append(line);
+    });
+    svg.append(edgeLayer);
+
+    const nodeLayer = document.createElementNS(ns, "g");
+    nodeLayer.setAttribute("class", "library-network-nodes");
+    const maxNode = Math.max(1, ...visible.nodes.map((node) => node.count));
+    visible.nodes.forEach((node) => {
+      const position = positions.get(node.id);
+      const selected = !state.networkOverview && node.id === state.networkSelected;
+      const radius = Math.max(10, Math.min(selected ? 31 : 24, 9 + 20 * Math.sqrt(node.count / maxNode)));
+      const group = document.createElementNS(ns, "g");
+      group.setAttribute("class", `library-network-node is-${node.type}${selected ? " is-selected" : ""}`);
+      group.setAttribute("transform", `translate(${position.x} ${position.y})`);
+      group.setAttribute("role", "button");
+      group.setAttribute("tabindex", "0");
+      group.setAttribute("aria-label", `${networkTypeLabel(node.type)}: ${node.type === "theme" ? themeLabel(node.label) : node.label}, ${copy.networkBooks(node.count)}`);
+      let shape;
+      if (node.type === "publisher") {
+        shape = document.createElementNS(ns, "rect");
+        shape.setAttribute("x", String(-radius));
+        shape.setAttribute("y", String(-radius));
+        shape.setAttribute("width", String(radius * 2));
+        shape.setAttribute("height", String(radius * 2));
+        shape.setAttribute("rx", "3");
+      } else {
+        shape = document.createElementNS(ns, "circle");
+        shape.setAttribute("r", String(radius));
+      }
+      const label = document.createElementNS(ns, "text");
+      label.setAttribute("y", String(radius + (mobile ? 14 : 16)));
+      label.setAttribute("text-anchor", "middle");
+      const displayLabel = node.type === "theme" ? themeLabel(node.label) : node.label;
+      label.textContent = displayLabel.length > (mobile ? 19 : 24) ? `${displayLabel.slice(0, mobile ? 17 : 22)}…` : displayLabel;
+      const nodeTitle = document.createElementNS(ns, "title");
+      nodeTitle.textContent = displayLabel;
+      group.append(shape, label, nodeTitle);
+      const selectNode = () => {
+        state.networkSelected = node.id;
+        state.networkOverview = false;
+        renderNetwork();
+      };
+      group.addEventListener("click", selectNode);
+      group.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          selectNode();
+        }
+      });
+      nodeLayer.append(group);
+    });
+    svg.append(nodeLayer);
+    elements.networkCanvas.replaceChildren(svg);
+    renderNetworkDetail(graph, visible);
+  }
+
+  function selectNetworkSearchResult() {
+    const query = normalize(elements.networkSearch.value);
+    if (!query || !state.networkGraph) return;
+    const match = Array.from(state.networkGraph.nodes.values())
+      .filter((node) => node.type !== "theme" && normalize(node.label).includes(query))
+      .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, locale))[0];
+    if (!match) {
+      elements.networkDetail.replaceChildren();
+      const message = document.createElement("p");
+      message.className = "library-network-empty";
+      message.textContent = copy.networkSearchNone;
+      elements.networkDetail.append(message);
+      return;
+    }
+    state.networkSelected = match.id;
+    state.networkOverview = false;
+    renderNetwork();
+  }
+
   function rarityCandidates(records) {
     return records
       .filter((record) => {
@@ -604,6 +1207,7 @@
     const detailRows = [
       detailRow(copy.author, authorFor(record)),
       detailRow(copy.publisher, publisherFor(record)),
+      detailRow(copy.networkTheme, themeLabel(themeFor(record))),
       detailRow(copy.year, record.publication_year),
       detailRow(copy.date, record.publication_date),
       detailRow(copy.isbn, record.isbn)
@@ -688,6 +1292,72 @@
     elements.dialog.addEventListener("click", (event) => {
       if (event.target === elements.dialog) elements.dialog.close();
     });
+    elements.themeReset?.addEventListener("click", () => {
+      state.selectedTheme = "";
+      renderThemeAtlas(state.records);
+    });
+    elements.timelineReset?.addEventListener("click", () => {
+      state.timelineDecade = "";
+      renderTimeline(state.records);
+    });
+    elements.timelinePrev?.addEventListener("click", () => {
+      const groups = decadeGroups(state.records);
+      const index = groups.findIndex((group) => String(group.decade) === String(state.timelineDecade));
+      if (index > 0) {
+        state.timelineDecade = String(groups[index - 1].decade);
+        renderTimeline(state.records);
+      }
+    });
+    elements.timelineNext?.addEventListener("click", () => {
+      const groups = decadeGroups(state.records);
+      const index = groups.findIndex((group) => String(group.decade) === String(state.timelineDecade));
+      if (index >= 0 && index < groups.length - 1) {
+        state.timelineDecade = String(groups[index + 1].decade);
+        renderTimeline(state.records);
+      }
+    });
+    elements.wallDecade?.addEventListener("change", (event) => {
+      state.wallDecade = event.target.value;
+      state.wallVisible = 32;
+      renderCoverWall(state.records);
+    });
+    elements.wallTheme?.addEventListener("change", (event) => {
+      state.wallTheme = event.target.value;
+      state.wallVisible = 32;
+      renderCoverWall(state.records);
+    });
+    elements.wallShuffle?.addEventListener("click", () => {
+      state.wallSeed += 1;
+      state.wallVisible = 32;
+      renderCoverWall(state.records);
+    });
+    elements.wallMore?.addEventListener("click", () => {
+      state.wallVisible += 32;
+      renderCoverWall(state.records);
+    });
+    elements.networkRecenter?.addEventListener("click", () => {
+      const largestTheme = themeGroups(state.records)[0]?.theme || "À classer";
+      state.networkSelected = `theme:${normalize(largestTheme)}`;
+      state.networkOverview = false;
+      elements.networkSearch.value = "";
+      renderNetwork();
+    });
+    elements.networkAll?.addEventListener("click", () => {
+      state.networkOverview = true;
+      renderNetwork();
+    });
+    elements.networkSearch?.addEventListener("search", selectNetworkSearchResult);
+    elements.networkSearch?.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        selectNetworkSearchResult();
+      }
+    });
+    let resizeTimer;
+    window.addEventListener("resize", () => {
+      window.clearTimeout(resizeTimer);
+      resizeTimer = window.setTimeout(renderNetwork, 160);
+    });
   }
 
   async function init() {
@@ -699,11 +1369,22 @@
 
       state.records = payload.records.map((record, index) => ({ ...record, _index: index }));
       state.rarityReferenceYear = Number(String(payload.curation?.curated_on || "").slice(0, 4)) || state.rarityReferenceYear;
+      const themes = themeGroups(state.records);
+      const decades = decadeGroups(state.records);
+      state.selectedTheme = themes[0]?.theme || "";
+      state.timelineDecade = String(decades.slice().sort((a, b) => b.count - a.count)[0]?.decade || "");
+      state.networkGraph = buildNetworkGraph(state.records);
+      state.networkSelected = `theme:${normalize(state.selectedTheme || "À classer")}`;
       updateMetrics(state.records);
       renderShelf(state.records);
       renderDecadeChart(state.records);
       renderPublisherChart(state.records);
+      renderThemeAtlas(state.records);
+      renderTimeline(state.records);
       renderRarity(state.records);
+      populateExplorationFilters(state.records);
+      renderNetwork();
+      renderCoverWall(state.records);
       populateFilters(state.records);
       renderCatalogue();
       bindEvents();

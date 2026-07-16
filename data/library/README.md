@@ -1,11 +1,12 @@
 # Données de la bibliothèque
 
-La base publique est reconstruite de façon reproductible à partir de quatre couches.
+La base publique est reconstruite de façon reproductible à partir de cinq couches.
 
 1. `clz-library-raw.json` conserve sans modification l’extraction du PDF CLZ.
 2. Les caches Open Library, Google Books, éditeurs et libraires conservent les réponses externes utilisées pour les métadonnées et les couvertures.
 3. `library-curation.json` décrit chaque correction manuelle, son niveau de confiance et ses sources.
 4. `library-normalization.json` définit les alias d’auteurs et d’éditeurs ainsi que la politique de regroupement des doublons.
+5. `library-themes.json` définit la classification thématique ordonnée appliquée aux seuls champs titre, genre et série, avec une catégorie de repli explicite.
 
 La commande suivante produit `assets/library/library-data.json` et le rapport de qualité `library-quality-report.json`.
 
@@ -55,6 +56,7 @@ Règles de curation:
 - une valeur CLZ non vide n’est remplacée que par une correction manuelle à confiance élevée et sourcée;
 - les champs CLZ d’origine restent disponibles dans `author` et `publisher`;
 - les libellés d’affichage et d’analyse sont produits dans `author_normalized` et `publisher_normalized`;
+- le thème est attribué par une règle versionnée; une notice sans indice explicite reste dans `À classer`;
 - les auteurs répétés dans une même notice sont supprimés après normalisation;
 - les notices partageant le même ISBN valide sont regroupées;
 - deux notices sans ISBN distinct sont regroupées seulement si leur titre normalisé et leurs auteurs sont compatibles, sans conflit d’année, d’éditeur ni de collection;

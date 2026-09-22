@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="../../../assets/logo.svg">
+  <meta name="description" content="Au-delà du prompt : séminaire d’Aurélien Nicosia, OSD, Université Laval, 18 septembre 2026.">
+  <title>Au-delà du prompt | Aurélien Nicosia</title>
+  <style>
+    *{box-sizing:border-box}html,body{margin:0;min-height:100%;font:16px/1.4 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#182435;background:#e9edf2}
+    body{display:flex;flex-direction:column;min-height:100dvh}header{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:10px 14px;background:#fff;border-bottom:1px solid #ccd5df}
+    button,select,a{font:inherit}button,select{border:1px solid #c3cdd8;border-radius:5px;background:#fff;color:inherit;padding:8px;min-height:40px}button{cursor:pointer}button:disabled{opacity:.4;cursor:default}
+    select{flex:1;min-width:140px;max-width:580px;width:30vw}a{color:#185ba5;text-underline-offset:3px}.count{font-variant-numeric:tabular-nums;white-space:nowrap;margin-inline:3px}.toolbar-link{font-size:14px;white-space:nowrap;padding:6px}.spacer{flex:1}
+    main{display:flex;align-items:center;justify-content:center;flex:1;padding:12px;min-height:0}.slide-frame{position:relative;line-height:0;width:min(100%,calc((100dvh - 130px)*16/9));aspect-ratio:16/9;background:#fff;box-shadow:0 4px 24px #1020301a}
+    #slide{display:block;width:100%;height:100%;object-fit:contain}.slide-link{position:absolute;display:block;border-radius:2px}.slide-link:hover,.slide-link:focus-visible{outline:2px solid #245aca;background:#245aca0d;outline-offset:1px}
+    footer{padding:5px 16px 10px;font-size:13px;color:#4c5a68}footer>p{margin:0 0 6px}details{max-width:1000px;margin:auto}summary{cursor:pointer}#transcript{white-space:pre-line;line-height:1.6;background:white;padding:18px;border-radius:5px;color:#182435}
+    :focus-visible{outline:3px solid #3473e0;outline-offset:2px}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+    @media(max-width:600px){header{padding:8px;gap:5px}select{max-width:none;font-size:14px;order:5;flex-basis:100%}.spacer{display:none}.toolbar-link{font-size:13px}main{padding:6px}.slide-frame{width:100%}footer>p{display:none}body{min-height:100dvh}}
+    :fullscreen main{padding:0}:fullscreen footer{display:none}:fullscreen .slide-frame{width:min(100%,calc((100dvh - 65px)*16/9))}
+    @media print{header,footer{display:none}main{padding:0}.slide-frame{width:100%;box-shadow:none}}
+  </style>
+</head>
+<body>
+<header aria-label="Navigation du diaporama">
+  <button id="prev" aria-label="Diapositive précédente">←</button>
+  <label for="select" class="sr-only">Choisir une diapositive</label><select id="select"></select>
+  <button id="next" aria-label="Diapositive suivante">→</button>
+  <span id="count" class="count" aria-live="polite"></span><span class="spacer"></span>
+  <a class="toolbar-link" href="../index.html" target="_top">Présentation</a>
+  <a class="toolbar-link" href="../Presentation_Au_dela_du_prompt.pdf" target="_blank" rel="noopener" download>PDF</a>
+  <button id="fullscreen" aria-label="Afficher en plein écran">⛶</button>
+</header>
+<main>
+  <div class="slide-frame" id="frame"><img id="slide" alt="" fetchpriority="high"><div id="links"></div></div>
+</main>
+<footer>
+  <p>Flèches du clavier pour naviguer · 18 septembre 2026 · Aurélien Nicosia</p>
+  <details><summary>Lire le texte de la diapositive</summary><div id="transcript"></div></details>
+</footer>
+<noscript>Activez JavaScript pour parcourir les diapositives ou <a href="../Presentation_Au_dela_du_prompt.pdf">téléchargez le PDF</a>.</noscript>
+<script src="slides.js"></script>
+<script>
+  const $=id=>document.getElementById(id);
+  function indexFromHash(){const n=Number(location.hash.slice(1));return Number.isInteger(n)&&n>=1&&n<=slides.length?n-1:0}
+  let index=indexFromHash();
+  for(const [i,s] of slides.entries()){const option=document.createElement('option');option.value=i;option.textContent=`${s.n}. ${s.title}`;$('select').append(option)}
+  function draw(){
+    const s=slides[index];$('slide').src=s.src;$('slide').alt=`Diapositive ${s.n} : ${s.title}`;
+    $('select').value=index;$('count').textContent=`${s.n} / ${slides.length}`;
+    $('prev').disabled=index===0;$('next').disabled=index===slides.length-1;$('transcript').textContent=s.text;
+    $('links').replaceChildren();
+    for(const item of s.links){const a=document.createElement('a');a.href=item.url;a.target='_blank';a.rel='noopener';a.className='slide-link';a.setAttribute('aria-label',item.label);a.title=item.label;const [x,y,w,h]=item.rect;a.style.cssText=`left:${x}%;top:${y}%;width:${w}%;height:${h}%`;$('links').append(a)}
+    if(index+1<slides.length){const next=new Image();next.src=slides[index+1].src}
+  }
+  function go(n){index=Math.max(0,Math.min(slides.length-1,n));history.replaceState(null,'',`#${index+1}`);draw()}
+  $('prev').onclick=()=>go(index-1);$('next').onclick=()=>go(index+1);$('select').onchange=e=>go(Number(e.target.value));
+  addEventListener('hashchange',()=>{index=indexFromHash();draw()});
+  addEventListener('keydown',e=>{
+    if(e.target.closest('select,input,textarea,button,summary,a'))return;
+    if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();go(index+1)}
+    if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();go(index-1)}
+    if(e.key==='Home'){e.preventDefault();go(0)}if(e.key==='End'){e.preventDefault();go(slides.length-1)}
+  });
+  $('fullscreen').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else if(document.documentElement.requestFullscreen)await document.documentElement.requestFullscreen();else window.open(location.href,'_blank','noopener')}catch{window.open(location.href,'_blank','noopener')}};
+  draw();
+</script>
+</body>
+</html>

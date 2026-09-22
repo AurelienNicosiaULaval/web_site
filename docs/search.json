@@ -165,7 +165,7 @@
     "href": "index.html#actualités-et-points-forts",
     "title": "Aurélien Nicosia",
     "section": "Actualités et points forts",
-    "text": "Actualités et points forts\n\n\n\nSoutien à la réussite\n\n\nGPT-CDA dans ULaval Nouvelles\nLe 22 mai 2026, ULaval Nouvelles a consacré un article au GPT-CDA, un assistant conversationnel conçu pour soutenir l’apprentissage en mathématiques et en statistique au CDA.\n\nLire l’article Page CDA\n\n\n\n\n\nLogiciels R\n\n\nPackages récents sur le CRAN\nDonutMap, ggcircular, CircularRegression et tutorizeR soutiennent la cartographie statistique, la visualisation de données circulaires, la régression circulaire et la création de tutoriels interactifs.\n\nDonutMap ggcircular CircularRegression tutorizeR\n\n\n\n\n\nCommunications\n\n\nSSC 2026\nJ’ai animé un atelier sur l’IA et l’enseignement, contribué à une galerie publique de ressources pédagogiques, présenté des travaux sur LOO-LBFP et reçu le prix 2026 de la présentation par un nouveau chercheur.\n\nAI Gallery Présentation LOO-LBFP\n\n\n\n\n\nPublications\n\n\nMouvement animalier\nUn article est publié dans Methods in Ecology and Evolution et deux prépublications bioRxiv portent sur l’inférence des états comportementaux et les diagnostics prédictifs séquentiels pour les modèles de Markov cachés appliqués au mouvement animalier.\n\nArticle MEE Prépublication HMM Prépublication SSF"
+    "text": "Actualités et points forts\n\n\n\nSéminaire OSD · 18 septembre 2026\n\n\nAu-delà du prompt\nDeux années d’expérience avec l’IA dans l’enseignement et la recherche : évaluation, compagnons de cours, GPT-CDA, soutien humain et usages au quotidien.\nConsulter la présentation et télécharger le PDF\n\n\n\n\nSoutien à la réussite\n\n\nGPT-CDA dans ULaval Nouvelles\nLe 22 mai 2026, ULaval Nouvelles a consacré un article au GPT-CDA, un assistant conversationnel conçu pour soutenir l’apprentissage en mathématiques et en statistique au CDA.\n\nLire l’article Page CDA\n\n\n\n\n\nLogiciels R\n\n\nPackages récents sur le CRAN\nDonutMap, ggcircular, CircularRegression et tutorizeR soutiennent la cartographie statistique, la visualisation de données circulaires, la régression circulaire et la création de tutoriels interactifs.\n\nDonutMap ggcircular CircularRegression tutorizeR\n\n\n\n\n\nCommunications\n\n\nSSC 2026\nJ’ai animé un atelier sur l’IA et l’enseignement, contribué à une galerie publique de ressources pédagogiques, présenté des travaux sur LOO-LBFP et reçu le prix 2026 de la présentation par un nouveau chercheur.\n\nAI Gallery Présentation LOO-LBFP\n\n\n\n\n\nPublications\n\n\nMouvement animalier\nUn article est publié dans Methods in Ecology and Evolution et deux prépublications bioRxiv portent sur l’inférence des états comportementaux et les diagnostics prédictifs séquentiels pour les modèles de Markov cachés appliqués au mouvement animalier.\n\nArticle MEE Prépublication HMM Prépublication SSF"
   },
   {
     "objectID": "index.html#axes-du-site",
@@ -361,7 +361,7 @@
     "href": "en/innovation.html#outreach",
     "title": "Educational Innovation",
     "section": "Outreach",
-    "text": "Outreach\nI regularly share my practices in conferences and workshops devoted to university teaching, data science, and open digital tools.\n\nSSC 2026 - AI and teaching workshop: public gallery of prompts, teaching activities, AI-use rules, and reusable verification routines.\nEIOM 2025 - Statistical modeling workshops and website.\nASSQ 2025 - What is new in data science?.\n\n\nGuiding principle: connect statistical rigor, student autonomy, and reproducible resources."
+    "text": "Outreach\nI regularly share my practices in conferences and workshops devoted to university teaching, data science, and open digital tools.\n\nBeyond the prompt: an AI-supported educational ecosystem: OSD seminar, September 18, 2026. Slides and downloadable PDF in French.\nSSC 2026 - AI and teaching workshop: public gallery of prompts, teaching activities, AI-use rules, and reusable verification routines.\nEIOM 2025 - Statistical modeling workshops and website.\nASSQ 2025 - What is new in data science?.\n\n\nGuiding principle: connect statistical rigor, student autonomy, and reproducible resources."
   },
   {
     "objectID": "en/enseignement.html",
@@ -942,7 +942,7 @@
     "href": "innovation.html#rayonnement",
     "title": "Innovation pédagogique",
     "section": "Rayonnement",
-    "text": "Rayonnement\nJe partage régulièrement mes pratiques dans des colloques et ateliers consacrés à la pédagogie universitaire, à la science des données et aux outils numériques ouverts.\n\nSSC 2026 - Atelier IA et enseignement : galerie publique de prompts, activités, règles d’usage de l’IA et routines de vérification réutilisables en enseignement.\nEIOM 2025 - Ateliers de modélisation statistique et site web.\nASSQ 2025 - Quoi de neuf en science des données ?.\n\n\nPrincipe directeur : rapprocher rigueur statistique, autonomie étudiante et ressources reproductibles."
+    "text": "Rayonnement\nJe partage régulièrement mes pratiques dans des colloques et ateliers consacrés à la pédagogie universitaire, à la science des données et aux outils numériques ouverts.\n\nAu-delà du prompt : concevoir un écosystème pédagogique avec l’IA : séminaire OSD du 18 septembre 2026, avec les diapositives et le PDF.\nSSC 2026 - Atelier IA et enseignement : galerie publique de prompts, activités, règles d’usage de l’IA et routines de vérification réutilisables en enseignement.\nEIOM 2025 - Ateliers de modélisation statistique et site web.\nASSQ 2025 - Quoi de neuf en science des données ?.\n\n\nPrincipe directeur : rapprocher rigueur statistique, autonomie étudiante et ressources reproductibles."
   },
   {
     "objectID": "packages/circularregression.html",
@@ -1118,5 +1118,33 @@
     "title": "Research Lab",
     "section": "Collaborations et contact",
     "text": "Collaborations et contact\nLes collaborations sont bienvenues sur les méthodes statistiques, les logiciels R, les applications en écologie du mouvement, les données directionnelles, la pédagogie statistique et la science des données reproductible.\n\nCourriel ORCID LinkedIn"
+  },
+  {
+    "objectID": "presentations/au-dela-du-prompt/index.html",
+    "href": "presentations/au-dela-du-prompt/index.html",
+    "title": "Au-delà du prompt",
+    "section": "",
+    "text": "Je partage deux années d’expérience avec l’IA dans l’enseignement et la recherche : mes essais, les dispositifs mis en place et les leçons que j’en tire.\n79 diapositives, avec les annexes et les références."
+  },
+  {
+    "objectID": "presentations/au-dela-du-prompt/index.html#le-parcours",
+    "href": "presentations/au-dela-du-prompt/index.html#le-parcours",
+    "title": "Au-delà du prompt",
+    "section": "Le parcours",
+    "text": "Le parcours\n\nÉvaluation et place de l’IA : règles d’usage, compétences et activité avec contextR.\nCompagnons de cours et framework : Quarto, ressources de cours et directives pédagogiques.\nHistoire du GPT-CDA : conception, essais et adaptation du dispositif.\nLa place de l’humain : maintenir le relais vers les auxiliaires et le soutien humain.\nDu côté de l’enseignant : préparer les activités, les ressources et la rétroaction ; déléguer des tâches à un agent.\nL’IA dans ma recherche quotidienne : exploration, relecture et confrontation des propositions."
+  },
+  {
+    "objectID": "presentations/au-dela-du-prompt/index.html#ressources",
+    "href": "presentations/au-dela-du-prompt/index.html#ressources",
+    "title": "Au-delà du prompt",
+    "section": "Ressources à réutiliser",
+    "text": "Ressources à réutiliser\n\nDirectives pour un compagnon de cours.\nPrompt de relecture : deux réviseurs et un éditeur.\ncontextR : package R d’interprétation contextuelle.\nMQT-2101 : exemple de site de cours Quarto.\nRessources SSD : gabarits et ressources pour les enseignants.\nDonnées bleues : jeux de données québécois pour l’enseignement.\nGPT-CDA : assistant de soutien en mathématiques et en statistique."
+  },
+  {
+    "objectID": "presentations/au-dela-du-prompt/index.html#references",
+    "href": "presentations/au-dela-du-prompt/index.html#references",
+    "title": "Au-delà du prompt",
+    "section": "Références",
+    "text": "Références\nLes références sont rassemblées dans la dernière diapositive. Les liens vers les publications et les sites sont cliquables dans le diaporama et le PDF."
   }
 ]

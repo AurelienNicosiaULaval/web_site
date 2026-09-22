@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "presentations/au-dela-du-prompt/diaporama/**"
+    - "presentations/au-dela-du-prompt/*.pdf"
+    - "presentations/au-dela-du-prompt/ressources/**"
   render:
     - "*.qmd"
     - "**/*.qmd"

@@ -1,6 +1,7 @@
 ---
 title: "Educational Innovation"
 lang: en
+embed-resources: true
 ---
 
 ## Orientation
@@ -100,6 +101,7 @@ The Digital Drawing with R project explores the graphical potential of R and `gg
 
 I regularly share my practices in conferences and workshops devoted to university teaching, data science, and open digital tools.
 
+- [Beyond the prompt: an AI-supported educational ecosystem](../presentations/au-dela-du-prompt/index.qmd): OSD seminar, September 18, 2026. Slides and downloadable PDF in French.
 - [SSC 2026 - AI and teaching workshop](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/): public gallery of prompts, teaching activities, AI-use rules, and reusable verification routines.
 - [EIOM 2025 - Statistical modeling workshops](https://github.com/AurelienNicosiaULaval/EIOM_2025) and [website](https://aureliennicosiaulaval.github.io/EIOM_2025/).
 - [ASSQ 2025 - What is new in data science?](https://github.com/AurelienNicosiaULaval/ASSQ_E25).

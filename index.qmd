@@ -1,6 +1,7 @@
 ---
 title: "Aurélien Nicosia"
 title-block-banner: true
+embed-resources: true
 toc: false
 ---
 
@@ -32,6 +33,18 @@ Chargé d’enseignement en mathématiques et statistiques à l’Université La
 ## Actualités et points forts
 
 ::: {.news-grid}
+::: {.news-panel}
+::: {.eyebrow}
+Séminaire OSD · 18 septembre 2026
+:::
+
+### Au-delà du prompt
+
+Deux années d’expérience avec l’IA dans l’enseignement et la recherche : évaluation, compagnons de cours, GPT-CDA, soutien humain et usages au quotidien.
+
+[Consulter la présentation et télécharger le PDF](presentations/au-dela-du-prompt/index.qmd){.btn .btn-outline-dark}
+:::
+
 ::: {.news-panel}
 ::: {.eyebrow}
 Soutien à la réussite

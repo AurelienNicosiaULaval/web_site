@@ -1,0 +1,47 @@
+---
+title: "Au-delà du prompt"
+subtitle: "Concevoir un écosystème pédagogique avec l’IA"
+description: "Présentation d’Aurélien Nicosia au Département d’opérations et systèmes de décision, Université Laval, le 18 septembre 2026. Diapositives et PDF."
+author: "Aurélien Nicosia"
+date: 2026-09-18
+date-format: "D MMMM YYYY"
+image: diaporama/slides/slide-01.png
+embed-resources: true
+toc: false
+---
+
+Je partage deux années d’expérience avec l’IA dans l’enseignement et la recherche : mes essais, les dispositifs mis en place et les leçons que j’en tire.
+
+::: {.link-list}
+[Ouvrir le diaporama](diaporama/index.html){.btn .btn-primary target="_blank" rel="noopener"}
+[Télécharger le PDF](Presentation_Au_dela_du_prompt.pdf){.btn .btn-outline-dark download="Presentation_Au_dela_du_prompt.pdf"}
+:::
+
+79 diapositives, avec les annexes et les références.
+
+```{=html}
+<iframe name="seminaire-diaporama" src="diaporama/index.html" data-external="1" title="Au-delà du prompt : les 79 diapositives" loading="lazy" allowfullscreen style="display:block;width:100%;height:clamp(310px,58vw,620px);border:1px solid #d5dce2;border-radius:6px;margin:1.5rem 0;"></iframe>
+```
+
+## Le parcours
+
+1. [Évaluation et place de l’IA](diaporama/index.html#5) : règles d’usage, compétences et activité avec contextR.
+2. [Compagnons de cours et framework](diaporama/index.html#15) : Quarto, ressources de cours et directives pédagogiques.
+3. [Histoire du GPT-CDA](diaporama/index.html#32) : conception, essais et adaptation du dispositif.
+4. [La place de l’humain](diaporama/index.html#41) : maintenir le relais vers les auxiliaires et le soutien humain.
+5. [Du côté de l’enseignant](diaporama/index.html#48) : préparer les activités, les ressources et la rétroaction ; déléguer des tâches à un agent.
+6. [L’IA dans ma recherche quotidienne](diaporama/index.html#59) : exploration, relecture et confrontation des propositions.
+
+## Ressources à réutiliser {#ressources}
+
+- [Directives pour un compagnon de cours](ressources/directives-compagnon.md).
+- [Prompt de relecture : deux réviseurs et un éditeur](ressources/relecture-article.md).
+- [contextR](https://github.com/AurelienNicosiaULaval/contextR) : package R d’interprétation contextuelle.
+- [MQT-2101](https://aureliennicosiaulaval.github.io/MQT-2101/) : exemple de site de cours Quarto.
+- [Ressources SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/) : gabarits et ressources pour les enseignants.
+- [Données bleues](https://donneesbleues.ca/) : jeux de données québécois pour l’enseignement.
+- [GPT-CDA](https://chatgpt.com/g/g-6a7b4091f19c8191bfb88c412fb66f6a-gpt-cda) : assistant de soutien en mathématiques et en statistique.
+
+## Références {#references}
+
+Les références sont rassemblées dans la [dernière diapositive](diaporama/index.html#79). Les liens vers les publications et les sites sont cliquables dans le diaporama et le PDF.

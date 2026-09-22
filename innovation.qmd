@@ -1,5 +1,6 @@
 ---
 title: "Innovation pédagogique"
+embed-resources: true
 ---
 
 ## Orientation
@@ -99,6 +100,7 @@ Le projet Dessin numérique avec R explore le potentiel graphique du langage R e
 
 Je partage régulièrement mes pratiques dans des colloques et ateliers consacrés à la pédagogie universitaire, à la science des données et aux outils numériques ouverts.
 
+- [Au-delà du prompt : concevoir un écosystème pédagogique avec l’IA](presentations/au-dela-du-prompt/index.qmd) : séminaire OSD du 18 septembre 2026, avec les diapositives et le PDF.
 - [SSC 2026 - Atelier IA et enseignement](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/) : galerie publique de prompts, activités, règles d’usage de l’IA et routines de vérification réutilisables en enseignement.
 - [EIOM 2025 - Ateliers de modélisation statistique](https://github.com/AurelienNicosiaULaval/EIOM_2025) et [site web](https://aureliennicosiaulaval.github.io/EIOM_2025/).
 - [ASSQ 2025 - Quoi de neuf en science des données ?](https://github.com/AurelienNicosiaULaval/ASSQ_E25).

@@ -606,3 +606,13 @@ body:has(.home-hero) #title-block-header {
     max-width: 45vw;
   }
 }
+
+/* Keep navigation controls legible on the dark header. */
+.navbar #quarto-search svg {
+  color: #ffffff;
+}
+
+.navbar .navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+  opacity: 0.9;
+}

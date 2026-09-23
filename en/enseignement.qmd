@@ -1,6 +1,7 @@
 ---
 title: "Teaching"
 lang: en
+embed-resources: true
 ---
 
 ## Teaching philosophy
@@ -60,7 +61,7 @@ Approach: active learning, francophone case studies, ethical reflection on data
 Scientific programming
 :::
 
-### STT-4230 - R for Scientists
+### STT-4230 / STT-6230 - Programming for Data Science
 
 Course focused on development practices: project structure, documentation, tests, collaboration, and publication with GitHub.
 
@@ -71,9 +72,24 @@ Approach: clarity, reproducibility, integration of modern tools
 :::
 
 ::: {.link-list}
-[Course notes](https://stt4230.rbind.io/){.btn .btn-outline-dark}
+[Course notes](https://aureliennicosiaulaval.github.io/programmation-pour-la-science-des-donnees/){.btn .btn-outline-dark}
 [STT-4230 GPT](https://chatgpt.com/g/g-689dc0b2bb348191b77cd4609dfce184-r-pour-scientifiques){.btn .btn-outline-dark}
-[UlavalSSD](https://aureliennicosiaulaval.github.io/UlavalSSD/){.btn .btn-outline-dark}
+[UlavalSSD](packages/ulavalssd.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+
+::: {.course-card}
+::: {.eyebrow}
+Applied modelling
+:::
+
+### MQT-2101 - Data Analysis and Modelling
+
+Applied course using R and Quarto to study regression, forecasting and classification, with course notes, video capsules and analysis activities.
+
+::: {.link-list}
+[Course site](https://aureliennicosiaulaval.github.io/MQT-2101/){.btn .btn-outline-dark}
 :::
 :::
 
@@ -125,6 +141,17 @@ I received the Star Teacher Award again in 2026. This recognition adds to the 20
 ## Shared resources
 
 ::: {.resource-grid}
+::: {.resource-card}
+### Données bleues and UlavalSSD
+
+Quebec datasets, documented activities and offline teaching snapshots for learning R and reproducible analysis.
+
+::: {.link-list}
+[Données bleues](https://aureliennicosiaulaval.github.io/donnees-bleues/){.btn .btn-outline-dark}
+[UlavalSSD](packages/ulavalssd.qmd){.btn .btn-outline-dark}
+:::
+:::
+
 ::: {.resource-card}
 ### Teaching portfolio
 

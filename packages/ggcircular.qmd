@@ -1,5 +1,6 @@
 ---
 title: "ggcircular"
+embed-resources: true
 ---
 
 ::: {.package-hero}
@@ -7,6 +8,8 @@ title: "ggcircular"
 `ggcircular` est une extension `ggplot2` pour visualiser des données circulaires, axiales et directionnelles. Le package fournit des géométries, statistiques, échelles et thèmes pour travailler avec des angles, orientations, heures de la journée, directions de mouvement et distributions circulaires.
 
 Version CRAN : 0.1.0, publiée le 4 juin 2026.
+
+La version de développement GitHub 0.2.0 ajoute notamment des représentations circulaires-linéaires et circulaires-circulaires sur cylindres et tores. Ces extensions relèvent de la version de développement.
 
 ::: {.link-list}
 [CRAN](https://cran.r-project.org/web/packages/ggcircular/index.html){.btn .btn-outline-dark .rounded-pill .shadow-sm}

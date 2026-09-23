@@ -1,4 +1,4 @@
-# Site Quarto — Aurélien Nicosia (Université Laval)
+# Site Quarto - Aurélien Nicosia (Université Laval)
 
 [English version ↓](#english-version)
 
@@ -9,7 +9,7 @@ Site personnel construit avec Quarto et déployé via GitHub Pages. Il organise 
 - URL du site: https://aureliennicosiaulaval.github.io/web_site/
 - Navigation (Quarto): Accueil, Enseignement, Recherche, Innovation Pédagogique, Autres, À propos, CV, Langue (EN).
 - Thème: `cosmo` + CSS personnalisé.
-- Déploiement automatisé: GitHub Actions vers la branche `gh-pages`.
+- Déploiement automatisé: GitHub Pages à partir du dossier `docs/` de la branche `main`.
 
 ### Prévisualiser en local
 ```bash
@@ -35,7 +35,7 @@ Personal website built with Quarto and deployed via GitHub Pages. It provides a 
 - Site URL: https://aureliennicosiaulaval.github.io/web_site/
 - Navigation (Quarto): Home, Teaching, Research, Pedagogical Innovation, Other, About, CV, Language (EN).
 - Theme: `cosmo` + custom CSS.
-- Automated deployment: GitHub Actions -> `gh-pages` branch.
+- Automated deployment: GitHub Pages from the `docs/` directory on the `main` branch.
 
 ### Preview locally
 ```bash

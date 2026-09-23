@@ -1,5 +1,6 @@
 ---
 title: "Recherche"
+embed-resources: true
 ---
 
 ## Vision générale
@@ -18,7 +19,7 @@ Densités et anomalies
 
 ### Estimation de densité
 
-Développement de méthodes de type GLBFP, pour Generalized Linear Blend Frequency Polygons, qui prolongent les idées des histogrammes, des average shifted histograms et des linear blend frequency polygons. L’objectif est de produire des estimateurs stables, adaptatifs et interprétables géométriquement, notamment pour la détection d’observations atypiques.
+Développement de méthodes de type GLBFP, pour General Linear Blend Frequency Polygons, qui prolongent les idées des histogrammes, des average shifted histograms et des linear blend frequency polygons. L’objectif est de produire des estimateurs stables, adaptatifs et interprétables géométriquement, notamment pour la détection d’observations atypiques.
 
 [GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark}
 :::
@@ -82,12 +83,76 @@ Cette thèse développe un cadre général de modélisation multi-états pour l�
 
 ## Logiciels et diffusion
 
-- [GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP) : estimation de densité fondée sur les Generalized Linear Blend Frequency Polygons.
+- [GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP) : estimation de densité fondée sur les General Linear Blend Frequency Polygons.
 - [CircularRegression](packages/circularregression.qmd) : package R disponible sur le CRAN pour ajuster des modèles de régression lorsque la réponse est circulaire.
 - [ggcircular](packages/ggcircular.qmd) : extension `ggplot2` pour les données circulaires, axiales et directionnelles.
 - [DonutMap](packages/donutmap.qmd) : package R pour créer des cartes de diagrammes en anneau avec `sf`, `ggplot2` et `leaflet`.
 - [site_ressources_SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/) : plateforme francophone de ressources pédagogiques pour la science des données.
 - [GeneralOaxaca](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html) : package R pour la décomposition de Blinder-Oaxaca généralisée.
+
+
+## Matériel de recherche actuel
+
+Ces dépôts publics donnent accès au code, aux manuscrits et au matériel de reproduction. Leur présence ici ne signifie pas une publication dans une revue.
+
+::: {.research-axis-grid}
+
+::: {.research-card}
+::: {.eyebrow}
+Code de recherche
+:::
+
+### États supplémentaires dans les HMM
+
+Étude des états supplémentaires lorsque la distribution d’émission est mal spécifiée, avec une application génomique et des analyses complémentaires du mouvement de wapitis.
+
+::: {.link-list}
+[Dépôt public](https://github.com/AurelienNicosiaULaval/corrective-hmm-states){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Code de recherche
+:::
+
+### Calcul clairsemé des densités sur grille
+
+Parcours exact de grilles clairsemées pour accélérer des estimateurs existants, avec code R/C++, expériences numériques et matériel de reproduction.
+
+::: {.link-list}
+[Dépôt public](https://github.com/AurelienNicosiaULaval/grid-density-sparse-traversal){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Code de recherche
+:::
+
+### Indépendance des données directionnelles
+
+Matériel de reproduction pour des tests HSIC adaptés aux données circulaires, toroïdales et circulaires-linéaires.
+
+::: {.link-list}
+[Dépôt public](https://github.com/AurelienNicosiaULaval/geometry-aware-hsic-directional){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.research-card}
+::: {.eyebrow}
+Code de recherche
+:::
+
+### Régression angulaire mixte
+
+Prototype public de modèles de régression angulaire à effets aléatoires, implémentés avec R et TMB dans le dépôt anmix.
+
+::: {.link-list}
+[Dépôt public](https://github.com/AurelienNicosiaULaval/anmix){.btn .btn-outline-dark}
+:::
+:::
+:::
 
 ## Communications récentes
 
@@ -114,3 +179,6 @@ Cette thèse développe un cadre général de modélisation multi-états pour l�
 1. Nicosia, A. (2026). Sequential predictive e-diagnostics for hidden Markov models of animal movement. bioRxiv. [https://doi.org/10.64898/2026.07.07.737005](https://doi.org/10.64898/2026.07.07.737005)
 
 2. Bouderbala, I., Nicosia, A., Fortin, D. (2026). Behavioural state inference from movement and environmental data using Markovian step selection functions. bioRxiv. [https://doi.org/10.64898/2026.02.05.704063](https://doi.org/10.64898/2026.02.05.704063)
+
+
+3. Nicosia, A., Duchesne, T., Carbon, M. (2026). A Leave-One-Out Influence Statistic for Density-Based Outlier Detection. arXiv, 2607.14335. [Prépublication](https://arxiv.org/abs/2607.14335).

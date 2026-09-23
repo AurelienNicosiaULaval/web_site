@@ -33,6 +33,50 @@ Chargé d’enseignement en mathématiques et statistiques à l’Université La
 ## Actualités et points forts
 
 ::: {.news-grid}
+
+::: {.news-panel}
+::: {.eyebrow}
+Données et pédagogie
+:::
+
+### Données bleues
+
+Des données québécoises et canadiennes pour enseigner la statistique et R, avec des activités, des sources documentées et des trousses à réutiliser en classe.
+
+::: {.link-list}
+[Explorer les ressources](https://aureliennicosiaulaval.github.io/donnees-bleues/){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.news-panel}
+::: {.eyebrow}
+Logiciels R
+:::
+
+### leaflet.indoor et lmmix
+
+Deux projets logiciels disponibles sur GitHub : des cartes intérieures à plusieurs étages et des modèles mixtes gaussiens à résidus corrélés. Leur statut de développement est précisé sur chaque fiche.
+
+::: {.link-list}
+[leaflet.indoor](packages/leaflet-indoor.qmd){.btn .btn-outline-dark}
+[lmmix](packages/lmmix.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.news-panel}
+::: {.eyebrow}
+Enseignement
+:::
+
+### Cours de l’automne 2026
+
+Les sites de STT-1100, STT-4230 / STT-6230 et MQT-2101 réunissent les notes, activités et ressources pour pratiquer l’analyse de données reproductible.
+
+::: {.link-list}
+[Enseignement](enseignement.qmd){.btn .btn-outline-dark}
+:::
+:::
+
 ::: {.news-panel}
 ::: {.eyebrow}
 Séminaire OSD · 18 septembre 2026
@@ -67,7 +111,7 @@ Logiciels R
 
 ### Packages récents sur le CRAN
 
-`DonutMap`, `ggcircular`, `CircularRegression` et `tutorizeR` soutiennent la cartographie statistique, la visualisation de données circulaires, la régression circulaire et la création de tutoriels interactifs.
+`GLBFP`, `DonutMap`, `ggcircular`, `CircularRegression` et `tutorizeR` soutiennent l’estimation de densité, la cartographie statistique, la visualisation de données circulaires, la régression circulaire et la création de tutoriels interactifs.
 
 ::: {.link-list}
 [DonutMap](packages/donutmap.qmd){.btn .btn-outline-dark}

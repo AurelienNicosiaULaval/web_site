@@ -2,6 +2,7 @@
 title: "Research Lab"
 description: "Open research ecosystem in computational statistics, scientific R software, reproducible data science, and statistical pedagogy."
 lang: en
+embed-resources: true
 ---
 
 ::: {.section-intro}
@@ -213,6 +214,51 @@ Emerging project around contextualized statistical explanations in R, with S3 st
 :::
 :::
 
+## Recent software and teaching resources
+
+::: {.resource-grid}
+
+::: {.resource-card}
+### leaflet.indoor
+
+Indoor floor maps and photo carousels. Experimental package available on GitHub.
+
+::: {.link-list}
+[leaflet.indoor](packages/leaflet-indoor.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.resource-card}
+### lmmix
+
+Gaussian linear mixed models with structured residual covariance. Development version available on GitHub.
+
+::: {.link-list}
+[lmmix](packages/lmmix.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.resource-card}
+### UlavalSSD
+
+Data and tools for introductory data science. Version 0.3.0 available on GitHub.
+
+::: {.link-list}
+[UlavalSSD](packages/ulavalssd.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.resource-card}
+### Ressources SSD
+
+A searchable teaching resource catalogue with learning paths and adaptable materials.
+
+::: {.link-list}
+[Ressources SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/){.btn .btn-outline-dark}
+:::
+:::
+:::
+
 ## Scientific software
 
 The R packages form a central layer of the ecosystem. They turn methodological ideas into tools that can be tested, documented, and reused. `GLBFP`, `ggcircular`, `CircularRegression`, `gmov`, `tutorizeR`, and `contextR` cover density estimation, circular visualization, circular-response modeling, generative movement validation, interactive tutorial production, and contextualized statistical interpretation.
@@ -238,7 +284,7 @@ The teaching resources support open, realistic, and reproducible training in sta
 The course and resource sites structure content in statistics, R, and data science.
 
 ::: {.link-list}
-[STT-1100](https://github.com/AurelienNicosiaULaval/STT-1100_notes_de_cours){.btn .btn-outline-dark}
+[STT-1100](https://aureliennicosiaulaval.github.io/STT-1100_notes_de_cours/){.btn .btn-outline-dark}
 [Programming for data science](https://github.com/AurelienNicosiaULaval/programmation-pour-la-science-des-donnees){.btn .btn-outline-dark}
 [SSD resources](https://aureliennicosiaulaval.github.io/site_ressources_SSD/){.btn .btn-outline-dark}
 :::
@@ -258,6 +304,17 @@ The course and resource sites structure content in statistics, R, and data scien
 ## Reproducible research
 
 Reproducible research repositories document code, analyses, figures, simulations, and materials associated with scientific work. This layer makes results easier to verify and reuse by collaborators, students, article readers, and scientific software users.
+
+
+## Teaching datasets
+
+These resources are linked to Données bleues. Each repository documents its sources, preparation and teaching scope.
+
+- [Arbres du Québec](https://github.com/AurelienNicosiaULaval/arbres_quebec) : tree measurements for exploration, species comparisons and modelling.
+- [Véhicules](https://github.com/AurelienNicosiaULaval/vehicules-quebec) : Canadian vehicle data and a separate overview of the Quebec vehicle fleet.
+- [Empress of Ireland](https://github.com/AurelienNicosiaULaval/empress-of-ireland-data) : aggregated historical tables for studying counts, proportions and interpretation limits.
+
+[See current research repositories](recherche.qmd#current-research-materials).
 
 ## Collaborations and contact
 

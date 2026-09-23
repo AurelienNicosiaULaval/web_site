@@ -1,0 +1,34 @@
+---
+title: "UlavalSSD"
+description: "Quebec data for learning data science"
+lang: en
+embed-resources: true
+---
+
+::: {.section-intro}
+UlavalSSD supports introductory data science, including STT-1100. It provides historical snapshots of Quebec data and teaching tools that can be used offline after installation.
+:::
+
+GitHub version: 0.3.0. Available on GitHub, not yet distributed on CRAN.
+
+::: {.link-list}
+[GitHub](https://github.com/AurelienNicosiaULaval/UlavalSSD){.btn .btn-outline-dark}
+[STT-1100](https://aureliennicosiaulaval.github.io/STT-1100_notes_de_cours/){.btn .btn-outline-dark}
+:::
+
+## Teaching content
+
+- Historical weather observations from Quebec.
+- Historical food-establishment conviction records.
+- Bilingual prompts and feedback for a data-cleaning exercise.
+- An optional R code-style diagnostic using `lintr`.
+
+These data support practice with import, missing values, exploration and reproducible reports. The [repository](https://github.com/AurelienNicosiaULaval/UlavalSSD) documents provenance and limitations; the snapshots do not describe current establishments or weather conditions.
+
+## Installation
+
+The [installation guide](https://github.com/AurelienNicosiaULaval/UlavalSSD#installation-pour-le-cours) provides a public GitHub archive and help with authentication issues.
+
+Public sources checked on September 23, 2026.
+
+[All R packages](../packages.qmd)

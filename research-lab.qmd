@@ -1,6 +1,7 @@
 ---
 title: "Research Lab"
 description: "Écosystème de recherche ouvert en statistique computationnelle, logiciels scientifiques R, science des données reproductible et pédagogie statistique."
+embed-resources: true
 ---
 
 ::: {.section-intro}
@@ -212,6 +213,51 @@ Projet émergent autour d’explications statistiques contextualisées en R, ave
 :::
 :::
 
+## Logiciels et ressources récents
+
+::: {.resource-grid}
+
+::: {.resource-card}
+### leaflet.indoor
+
+Cartes intérieures à étages et carrousels de photos. Package expérimental disponible sur GitHub.
+
+::: {.link-list}
+[leaflet.indoor](packages/leaflet-indoor.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.resource-card}
+### lmmix
+
+Modèles linéaires mixtes gaussiens avec covariance résiduelle structurée. Version de développement disponible sur GitHub.
+
+::: {.link-list}
+[lmmix](packages/lmmix.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.resource-card}
+### UlavalSSD
+
+Données et outils pour l’initiation à la science des données. Version 0.3.0 disponible sur GitHub.
+
+::: {.link-list}
+[UlavalSSD](packages/ulavalssd.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.resource-card}
+### Ressources SSD
+
+Catalogue de ressources pour les enseignants, avec recherche, parcours et supports à adapter.
+
+::: {.link-list}
+[Ressources SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/){.btn .btn-outline-dark}
+:::
+:::
+:::
+
 ## Logiciels scientifiques
 
 Les packages R forment une couche centrale de l’écosystème. Ils transforment les idées méthodologiques en outils testables, documentables et réutilisables. Les projets `GLBFP`, `ggcircular`, `CircularRegression`, `gmov`, `tutorizeR` et `contextR` couvrent respectivement l’estimation de densité, la visualisation circulaire, la modélisation de réponses circulaires, la validation générative du mouvement, la production de tutoriels interactifs et l’interprétation statistique contextualisée.
@@ -237,8 +283,8 @@ Les ressources pédagogiques visent à soutenir une formation ouverte, réaliste
 Les sites de cours et de ressources structurent les contenus en statistique, R et science des données.
 
 ::: {.link-list}
-[STT-1100](https://github.com/AurelienNicosiaULaval/STT-1100_notes_de_cours){.btn .btn-outline-dark}
-[Programmation pour la science des données](https://github.com/AurelienNicosiaULaval/programmation-pour-la-science-des-donnees){.btn .btn-outline-dark}
+[STT-1100](https://aureliennicosiaulaval.github.io/STT-1100_notes_de_cours/){.btn .btn-outline-dark}
+[Programmation pour la science des données](https://aureliennicosiaulaval.github.io/programmation-pour-la-science-des-donnees/){.btn .btn-outline-dark}
 [Ressources SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/){.btn .btn-outline-dark}
 :::
 :::
@@ -257,6 +303,17 @@ Les sites de cours et de ressources structurent les contenus en statistique, R e
 ## Recherche reproductible
 
 Les dépôts de recherche reproductible documentent le code, les analyses, les figures, les simulations et les matériaux associés aux travaux scientifiques. Cette couche rend les résultats plus vérifiables et facilite la réutilisation par des collaborateurs, étudiants, lecteurs d’articles et utilisateurs de logiciels scientifiques.
+
+
+## Jeux de données pédagogiques
+
+Ces ressources sont reliées à Données bleues. Chaque dépôt documente les sources, la préparation et la portée pédagogique.
+
+- [Arbres du Québec](https://github.com/AurelienNicosiaULaval/arbres_quebec) : mesures d’arbres pour l’exploration, la comparaison d’espèces et la modélisation.
+- [Véhicules](https://github.com/AurelienNicosiaULaval/vehicules-quebec) : données canadiennes de véhicules et portrait distinct du parc québécois.
+- [Empress of Ireland](https://github.com/AurelienNicosiaULaval/empress-of-ireland-data) : tableaux historiques agrégés pour travailler les effectifs, les proportions et les limites d’interprétation.
+
+[Consulter les dépôts de recherche actuels](recherche.qmd#matériel-de-recherche-actuel).
 
 ## Collaborations et contact
 

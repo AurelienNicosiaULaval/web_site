@@ -3,6 +3,7 @@ title: "Aurélien Nicosia"
 title-block-banner: true
 toc: false
 lang: en
+embed-resources: true
 ---
 
 ::: {.home-hero}
@@ -33,6 +34,64 @@ Lecturer in mathematics and statistics at Université Laval in Quebec City. I de
 ## Updates and highlights
 
 ::: {.news-grid}
+
+::: {.news-panel}
+::: {.eyebrow}
+Open teaching resources
+:::
+
+### Données bleues
+
+Quebec and Canadian datasets for teaching statistics and R, with activities, source documentation and reusable teaching materials.
+
+::: {.link-list}
+[Explore the resources](https://aureliennicosiaulaval.github.io/donnees-bleues/){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.news-panel}
+::: {.eyebrow}
+R software
+:::
+
+### leaflet.indoor and lmmix
+
+Two software projects available on GitHub: multi-level indoor maps and Gaussian mixed models with correlated residuals. Their development status is stated on each project page.
+
+::: {.link-list}
+[leaflet.indoor](packages/leaflet-indoor.qmd){.btn .btn-outline-dark}
+[lmmix](packages/lmmix.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.news-panel}
+::: {.eyebrow}
+Teaching
+:::
+
+### Fall 2026 courses
+
+Updated course sites for STT-1100, STT-4230 / STT-6230 and MQT-2101 bring together notes, activities and resources for reproducible data analysis.
+
+::: {.link-list}
+[Teaching](enseignement.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.news-panel}
+::: {.eyebrow}
+Seminar
+:::
+
+### Au-delà du prompt
+
+Slides and a PDF from the September 18, 2026 OSD seminar on designing a teaching ecosystem with AI. Materials are in French.
+
+::: {.link-list}
+[Seminar resources](../presentations/au-dela-du-prompt/index.qmd){.btn .btn-outline-dark}
+:::
+:::
+
 ::: {.news-panel}
 ::: {.eyebrow}
 Student support
@@ -55,7 +114,7 @@ R software
 
 ### Recent packages on CRAN
 
-`DonutMap`, `ggcircular`, `CircularRegression`, and `tutorizeR` support statistical mapping, circular-data visualization, circular regression, and interactive tutorial creation.
+`GLBFP`, `DonutMap`, `ggcircular`, `CircularRegression`, and `tutorizeR` support density estimation, statistical mapping, circular-data visualization, circular regression, and interactive tutorial creation.
 
 ::: {.link-list}
 [DonutMap](packages/donutmap.qmd){.btn .btn-outline-dark}

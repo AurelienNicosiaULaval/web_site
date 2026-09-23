@@ -1,1 +1,1 @@
-Sitemap: https://AurelienNicosiaUlaval.github.io/web_site/sitemap.xml
+Sitemap: https://aureliennicosiaulaval.github.io/web_site/sitemap.xml

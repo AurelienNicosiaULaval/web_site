@@ -1,15 +1,36 @@
 ---
 title: "R Packages"
 lang: en
+embed-resources: true
 ---
 
 This page gathers the R packages I develop and maintain, with particular attention to packages available on CRAN and documented openly.
 
-The CRAN information below was verified on June 24, 2026 from the official CRAN `DESCRIPTION` files.
+The CRAN information below was verified on September 23, 2026 from the official CRAN `DESCRIPTION` files.
 
 ## Packages on CRAN
 
 ::: { .grid .gap-4 }
+::: {.g-col-12 .g-col-lg-6}
+::: {.package-card}
+<div class="package-card-header">
+<span class="package-card-fallback">GL</span>
+<h3>GLBFP</h3>
+</div>
+
+Nonparametric density estimation with ASH, LBFP and GLBFP. Fixed-grid leave-one-out diagnostics are available in the GitHub development version.
+
+CRAN version: 0.5.2, published on June 17, 2026.
+
+::: {.link-list}
+[Overview](packages/glbfp.qmd){.btn .btn-outline-dark}
+[CRAN](https://cran.r-project.org/package=GLBFP){.btn .btn-outline-dark}
+[Documentation](https://aureliennicosiaulaval.github.io/GLBFP/){.btn .btn-outline-dark}
+[GitHub](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark}
+:::
+:::
+:::
+
 ::: {.g-col-12 .g-col-lg-6}
 ::: {.package-card}
 <div class="package-card-header">
@@ -110,26 +131,45 @@ CRAN version: 1.0, published on August 17, 2015.
 
 ## Related GitHub projects
 
+GitHub versions were also checked on September 23, 2026. Development versions and research prototypes are identified separately from CRAN releases.
+
 The cards below highlight public R packages and compendia hosted on my GitHub account but not listed in the CRAN section above.
 
 ::: { .grid .gap-4 }
 ::: {.g-col-12 .g-col-lg-6}
-::: {.package-card .github-package-card}
+::: {.package-card}
 <div class="package-card-header">
-<span class="package-card-fallback">GL</span>
-<div>
-<h3>GLBFP</h3>
-<div class="package-card-meta">R package • v0.5.1</div>
-</div>
+<span class="package-card-fallback">LI</span>
+<h3>leaflet.indoor</h3>
 </div>
 
-<span class="package-card-tag">Density estimation</span>
+Multi-level indoor maps with Leaflet, an accessible floor selector and room photo carousels.
 
-ASH, LBFP, and GLBFP estimators for nonparametric density estimation, with grid workflows, sparse computation, leave-one-out scores, and plotting tools.
+Experimental GitHub version: 0.1.0.9000.
 
 ::: {.link-list}
-[GitHub](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[Documentation](https://aureliennicosiaulaval.github.io/GLBFP/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[Overview](packages/leaflet-indoor.qmd){.btn .btn-outline-dark}
+[GitHub](https://github.com/AurelienNicosiaULaval/leaflet-indoor){.btn .btn-outline-dark}
+[Documentation](https://aureliennicosiaulaval.github.io/leaflet-indoor/){.btn .btn-outline-dark}
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+::: {.package-card}
+<div class="package-card-header">
+<span class="package-card-fallback">LM</span>
+<h3>lmmix</h3>
+</div>
+
+Gaussian linear mixed models combining random effects and correlated residuals, estimated by ML or REML.
+
+GitHub development version: 0.4.0.
+
+::: {.link-list}
+[Overview](packages/lmmix.qmd){.btn .btn-outline-dark}
+[GitHub](https://github.com/AurelienNicosiaULaval/lmmix){.btn .btn-outline-dark}
+[Documentation](https://aureliennicosiaulaval.github.io/lmmix/){.btn .btn-outline-dark}
 :::
 :::
 :::
@@ -202,7 +242,7 @@ An S3 API for extracting structured statistical results, building prompts, and g
 <span class="package-card-fallback">UL</span>
 <div>
 <h3>UlavalSSD</h3>
-<div class="package-card-meta">R package • v0.2.0</div>
+<div class="package-card-meta">R package • v0.3.0</div>
 </div>
 </div>
 
@@ -210,7 +250,10 @@ An S3 API for extracting structured statistical results, building prompts, and g
 
 Datasets and helper functions for introductory data science teaching at Université Laval.
 
+Available on GitHub. This version is not yet distributed on CRAN.
+
 ::: {.link-list}
+[Overview](packages/ulavalssd.qmd){.btn .btn-outline-dark}
 [GitHub](https://github.com/AurelienNicosiaULaval/UlavalSSD){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 :::
 :::

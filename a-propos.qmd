@@ -1,4 +1,5 @@
 ---
+embed-resources: true
 title: "À propos"
 ---
 
@@ -40,7 +41,7 @@ Intégration raisonnée d’outils numériques et d’assistants conversationnel
 
 - Développement du [GPT-CDA](cda/index.qmd), présenté dans [ULaval Nouvelles le 22 mai 2026](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30).
 - Publication de [Beyond the next step: A multi-criteria generative validation framework for step selection functions](https://doi.org/10.1111/2041-210X.70313) dans Methods in Ecology and Evolution.
-- Mise à disposition de packages R récents sur le CRAN, dont [DonutMap](packages/donutmap.qmd), [ggcircular](packages/ggcircular.qmd), [CircularRegression](packages/circularregression.qmd) et [tutorizeR](packages/tutorizeR.qmd).
+- Mise à disposition de packages R récents sur le CRAN, dont [GLBFP](packages/glbfp.qmd), [DonutMap](packages/donutmap.qmd), [ggcircular](packages/ggcircular.qmd), [CircularRegression](packages/circularregression.qmd) et [tutorizeR](packages/tutorizeR.qmd).
 - Animation d’un atelier sur l’IA et l’enseignement à SSC 2026, accompagné d’une [galerie publique de ressources pédagogiques](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/).
 - Prix 2026 de la présentation par un nouveau chercheur à SSC 2026 pour une présentation sur LOO-LBFP.
 

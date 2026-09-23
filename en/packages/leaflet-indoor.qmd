@@ -1,0 +1,34 @@
+---
+title: "leaflet.indoor"
+description: "Multi-level indoor mapping"
+lang: en
+embed-resources: true
+---
+
+::: {.section-intro}
+leaflet.indoor adds indoor layers and an accessible floor selector to R Leaflet maps. Each dataset displays one floor at a time, with independent controls when several maps are present.
+:::
+
+GitHub version: 0.1.0.9000. Experimental package, not distributed on CRAN.
+
+::: {.link-list}
+[GitHub](https://github.com/AurelienNicosiaULaval/leaflet-indoor){.btn .btn-outline-dark}
+[Documentation](https://aureliennicosiaulaval.github.io/leaflet-indoor/){.btn .btn-outline-dark}
+:::
+
+## Features
+
+- Display `sf`, GeoJSON and optional `SpatVector` data.
+- Navigate between floors and integrate maps with Shiny.
+- Attach photo carousels and captions to rooms.
+- Work with geographic coordinates or local Cartesian plans.
+
+## Example and getting started
+
+The [getting started guide](https://aureliennicosiaulaval.github.io/leaflet-indoor/articles/get-started.html) demonstrates synthetic data, styles and coordinate systems. The example data do not describe a real building.
+
+The interface remains experimental: consult the documentation for the version used before integrating the package into an application.
+
+Public sources checked on September 23, 2026.
+
+[All R packages](../packages.qmd)

@@ -1,5 +1,6 @@
 ---
 title: "Enseignement"
+embed-resources: true
 ---
 
 ## Philosophie de l’enseignement
@@ -59,7 +60,7 @@ Approche : apprentissage actif, études de cas francophones, réflexion éthique
 Programmation scientifique
 :::
 
-### STT-4230 - R pour scientifiques
+### STT-4230 / STT-6230 - Programmation pour la science des données
 
 Cours axé sur les bonnes pratiques de développement : structuration de projets, documentation, tests, collaboration et diffusion avec GitHub.
 
@@ -70,9 +71,24 @@ Approche : clarté, reproductibilité, intégration des outils modernes
 :::
 
 ::: {.link-list}
-[Notes de cours](https://stt4230.rbind.io/){.btn .btn-outline-dark}
+[Notes de cours](https://aureliennicosiaulaval.github.io/programmation-pour-la-science-des-donnees/){.btn .btn-outline-dark}
 [GPT STT-4230](https://chatgpt.com/g/g-689dc0b2bb348191b77cd4609dfce184-r-pour-scientifiques){.btn .btn-outline-dark}
-[UlavalSSD](https://aureliennicosiaulaval.github.io/UlavalSSD/){.btn .btn-outline-dark}
+[UlavalSSD](packages/ulavalssd.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+
+::: {.course-card}
+::: {.eyebrow}
+Modélisation appliquée
+:::
+
+### MQT-2101 - Analyse et modélisation des données
+
+Cours appliqué mobilisant R et Quarto pour étudier la régression, la prévision et la classification, avec notes, capsules vidéo et activités d’analyse.
+
+::: {.link-list}
+[Site du cours](https://aureliennicosiaulaval.github.io/MQT-2101/){.btn .btn-outline-dark}
 :::
 :::
 
@@ -124,6 +140,17 @@ J’ai reçu à nouveau le Prix Enseignant Étoile en 2026. Cette reconnaissance
 ## Ressources partagées
 
 ::: {.resource-grid}
+::: {.resource-card}
+### Données bleues et UlavalSSD
+
+Jeux de données québécois, activités documentées et instantanés pédagogiques hors ligne pour apprendre R et l’analyse reproductible.
+
+::: {.link-list}
+[Données bleues](https://aureliennicosiaulaval.github.io/donnees-bleues/){.btn .btn-outline-dark}
+[UlavalSSD](packages/ulavalssd.qmd){.btn .btn-outline-dark}
+:::
+:::
+
 ::: {.resource-card}
 ### Dossier d’enseignement
 

@@ -1,0 +1,32 @@
+---
+title: "GLBFP"
+description: "Density estimation and influence diagnostics"
+lang: en
+embed-resources: true
+---
+
+::: {.section-intro}
+GLBFP provides ASH, LBFP and General Linear Blend Frequency Polygon density estimators. It supports pointwise and grid-based estimation, plotting and bandwidth selection.
+:::
+
+CRAN version: 0.5.2. GitHub development version: 0.5.2.9000.
+
+::: {.link-list}
+[CRAN](https://cran.r-project.org/package=GLBFP){.btn .btn-outline-dark}
+[GitHub](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark}
+[Documentation](https://aureliennicosiaulaval.github.io/GLBFP/){.btn .btn-outline-dark}
+:::
+
+## Distinct release capabilities
+
+The CRAN release provides the density estimators. The development version adds `compute_Di()`, a leave-one-out diagnostic with a fixed grid and bandwidth. This function is not included in GLBFP 0.5.2 on CRAN.
+
+The preprint by Nicosia, Duchesne and Carbon (2026), [A Leave-One-Out Influence Statistic for Density-Based Outlier Detection](https://arxiv.org/abs/2607.14335), studies the single-grid LBFP case. The repository separately documents the software extensions to ASH and GLBFP.
+
+## Getting started
+
+The [documentation](https://aureliennicosiaulaval.github.io/GLBFP/) covers installation, estimators, examples and the diagnostics available in each version.
+
+Public sources checked on September 23, 2026.
+
+[All R packages](../packages.qmd)

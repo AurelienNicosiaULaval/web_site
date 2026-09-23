@@ -1,14 +1,35 @@
 ---
 title: "Packages R"
+embed-resources: true
 ---
 
 Cette page rassemble les packages R que je développe et maintiens, avec une attention particulière aux packages disponibles sur le CRAN et accompagnés d’une documentation ouverte.
 
-Les informations CRAN ci-dessous ont été vérifiées le 24 juin 2026 à partir des fichiers `DESCRIPTION` officiels du CRAN.
+Les informations CRAN ci-dessous ont été vérifiées le 23 septembre 2026 à partir des fichiers `DESCRIPTION` officiels du CRAN.
 
 ## Packages sur le CRAN
 
 ::: { .grid .gap-4 }
+::: {.g-col-12 .g-col-lg-6}
+::: {.package-card}
+<div class="package-card-header">
+<span class="package-card-fallback">GL</span>
+<h3>GLBFP</h3>
+</div>
+
+Estimation non paramétrique de densité avec ASH, LBFP et GLBFP. Les diagnostics leave-one-out à grille fixe sont disponibles dans la version de développement sur GitHub.
+
+Version CRAN : 0.5.2, publiée le 17 juin 2026.
+
+::: {.link-list}
+[Page dédiée](packages/glbfp.qmd){.btn .btn-outline-dark}
+[CRAN](https://cran.r-project.org/package=GLBFP){.btn .btn-outline-dark}
+[Documentation](https://aureliennicosiaulaval.github.io/GLBFP/){.btn .btn-outline-dark}
+[GitHub](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark}
+:::
+:::
+:::
+
 ::: {.g-col-12 .g-col-lg-6}
 ::: {.package-card}
 <div class="package-card-header">
@@ -109,26 +130,45 @@ Version CRAN : 1.0, publiée le 17 août 2015.
 
 ## Projets GitHub liés
 
+Les versions GitHub ont également été vérifiées le 23 septembre 2026. Les versions en développement et les prototypes de recherche sont distingués des versions diffusées sur le CRAN.
+
 Les vignettes ci-dessous présentent des packages et compendiums R publics hébergés sur mon GitHub, mais non listés dans la section CRAN ci-dessus.
 
 ::: { .grid .gap-4 }
 ::: {.g-col-12 .g-col-lg-6}
-::: {.package-card .github-package-card}
+::: {.package-card}
 <div class="package-card-header">
-<span class="package-card-fallback">GL</span>
-<div>
-<h3>GLBFP</h3>
-<div class="package-card-meta">Package R • v0.5.1</div>
-</div>
+<span class="package-card-fallback">LI</span>
+<h3>leaflet.indoor</h3>
 </div>
 
-<span class="package-card-tag">Estimation de densité</span>
+Cartes intérieures à plusieurs étages avec Leaflet, sélecteur d’étage accessible et carrousels de photos associés aux pièces.
 
-Estimateurs ASH, LBFP et GLBFP pour l’estimation non paramétrique de densité, avec grilles, calculs clairsemés, scores leave-one-out et outils de visualisation.
+Version expérimentale GitHub : 0.1.0.9000.
 
 ::: {.link-list}
-[GitHub](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-[Documentation](https://aureliennicosiaulaval.github.io/GLBFP/){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+[Page dédiée](packages/leaflet-indoor.qmd){.btn .btn-outline-dark}
+[GitHub](https://github.com/AurelienNicosiaULaval/leaflet-indoor){.btn .btn-outline-dark}
+[Documentation](https://aureliennicosiaulaval.github.io/leaflet-indoor/){.btn .btn-outline-dark}
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+::: {.package-card}
+<div class="package-card-header">
+<span class="package-card-fallback">LM</span>
+<h3>lmmix</h3>
+</div>
+
+Modèles linéaires mixtes gaussiens combinant effets aléatoires et résidus corrélés, estimés par maximum de vraisemblance ou REML.
+
+Version de développement GitHub : 0.4.0.
+
+::: {.link-list}
+[Page dédiée](packages/lmmix.qmd){.btn .btn-outline-dark}
+[GitHub](https://github.com/AurelienNicosiaULaval/lmmix){.btn .btn-outline-dark}
+[Documentation](https://aureliennicosiaulaval.github.io/lmmix/){.btn .btn-outline-dark}
 :::
 :::
 :::
@@ -201,7 +241,7 @@ API S3 pour extraire des résultats statistiques structurés, construire des pro
 <span class="package-card-fallback">UL</span>
 <div>
 <h3>UlavalSSD</h3>
-<div class="package-card-meta">Package R • v0.2.0</div>
+<div class="package-card-meta">Package R • v0.3.0</div>
 </div>
 </div>
 
@@ -209,7 +249,10 @@ API S3 pour extraire des résultats statistiques structurés, construire des pro
 
 Données et fonctions utiles pour l’enseignement de l’introduction à la science des données à l’Université Laval.
 
+Disponible sur GitHub. Cette version n’est pas encore distribuée sur le CRAN.
+
 ::: {.link-list}
+[Page dédiée](packages/ulavalssd.qmd){.btn .btn-outline-dark}
 [GitHub](https://github.com/AurelienNicosiaULaval/UlavalSSD){.btn .btn-outline-dark .rounded-pill .shadow-sm}
 :::
 :::

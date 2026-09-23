@@ -1,0 +1,31 @@
+---
+title: "lmmix"
+description: "Linear mixed models with correlated residuals"
+lang: en
+embed-resources: true
+---
+
+::: {.section-intro}
+lmmix fits Gaussian linear mixed models by maximum likelihood or REML. Its main use case combines random effects with structured residual covariance.
+:::
+
+GitHub development version: 0.4.0. Not distributed on CRAN.
+
+::: {.link-list}
+[GitHub](https://github.com/AurelienNicosiaULaval/lmmix){.btn .btn-outline-dark}
+[Documentation](https://aureliennicosiaulaval.github.io/lmmix/){.btn .btn-outline-dark}
+:::
+
+## Models and inference
+
+The package supports independent, compound-symmetric, AR(1), Toeplitz and unstructured residual covariance. It includes Satterthwaite and Kenward-Roger inference, model comparisons and estimated marginal means.
+
+## Scope and validation
+
+The [validation vignette](https://aureliennicosiaulaval.github.io/lmmix/articles/validation.html) documents comparisons with independent R implementations and PROC MIXED examples, including tolerances and limitations.
+
+The current scope is univariate Gaussian responses. Some covariance matrices and inference calculations remain dense, so large-scale computation depends on the model structure.
+
+Public sources checked on September 23, 2026.
+
+[All R packages](../packages.qmd)

@@ -15,6 +15,21 @@ My projects are organized around three priorities: modernizing courses with open
 ## Main projects
 
 ::: {.resource-grid}
+
+::: {.resource-card}
+::: {.eyebrow}
+Local data
+:::
+
+### Données bleues
+
+A collection of Quebec and Canadian data sources, accompanied by teaching activities and reproducible materials. Recent datasets cover Quebec trees, vehicles and the Empress of Ireland.
+
+::: {.link-list}
+[Explore Données bleues](https://aureliennicosiaulaval.github.io/donnees-bleues/){.btn .btn-outline-dark}
+:::
+:::
+
 ::: {.resource-card}
 ::: {.eyebrow}
 Courses
@@ -103,6 +118,7 @@ I regularly share my practices in conferences and workshops devoted to universit
 
 - [Beyond the prompt: an AI-supported educational ecosystem](../presentations/au-dela-du-prompt/index.qmd): OSD seminar, September 18, 2026. Slides and downloadable PDF in French.
 - [SSC 2026 - AI and teaching workshop](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/): public gallery of prompts, teaching activities, AI-use rules, and reusable verification routines.
+- [EIOM 2026 - Modelling to understand and predict](https://aureliennicosiaulaval.github.io/eiom-2026-modelisation/): open materials for three R workshops on linear regression, logistic regression and machine learning.
 - [EIOM 2025 - Statistical modeling workshops](https://github.com/AurelienNicosiaULaval/EIOM_2025) and [website](https://aureliennicosiaulaval.github.io/EIOM_2025/).
 - [ASSQ 2025 - What is new in data science?](https://github.com/AurelienNicosiaULaval/ASSQ_E25).
 

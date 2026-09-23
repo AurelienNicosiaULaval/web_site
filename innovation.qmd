@@ -14,6 +14,21 @@ Mes projets s’organisent autour de trois priorités : moderniser les cours ave
 ## Projets principaux
 
 ::: {.resource-grid}
+
+::: {.resource-card}
+::: {.eyebrow}
+Données d’ici
+:::
+
+### Données bleues
+
+Une collection de sources québécoises et canadiennes accompagnées d’activités et de matériel reproductible. Les jeux récents portent notamment sur les arbres du Québec, les véhicules et l’Empress of Ireland.
+
+::: {.link-list}
+[Découvrir Données bleues](https://aureliennicosiaulaval.github.io/donnees-bleues/){.btn .btn-outline-dark}
+:::
+:::
+
 ::: {.resource-card}
 ::: {.eyebrow}
 Cours
@@ -60,7 +75,7 @@ Ressources ouvertes
 
 ### Plateforme site_ressources_SSD
 
-Bibliothèque en ligne de gabarits Quarto, tutoriels interactifs, exemples reproductibles, procédures GitHub et ressources pour l’enseignement de la science des données.
+Catalogue de supports à adapter, d’activités et de données pour les cours, avec recherche, filtres, parcours par besoin pédagogique et téléchargements.
 
 [site_ressources_SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/){.btn .btn-outline-dark}
 :::
@@ -102,6 +117,7 @@ Je partage régulièrement mes pratiques dans des colloques et ateliers consacr�
 
 - [Au-delà du prompt : concevoir un écosystème pédagogique avec l’IA](presentations/au-dela-du-prompt/index.qmd) : séminaire OSD du 18 septembre 2026, avec les diapositives et le PDF.
 - [SSC 2026 - Atelier IA et enseignement](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/) : galerie publique de prompts, activités, règles d’usage de l’IA et routines de vérification réutilisables en enseignement.
+- [EIOM 2026 - Modéliser pour comprendre et prédire](https://aureliennicosiaulaval.github.io/eiom-2026-modelisation/) : supports ouverts de trois matinées sur la régression linéaire, la régression logistique et l’apprentissage automatique avec R.
 - [EIOM 2025 - Ateliers de modélisation statistique](https://github.com/AurelienNicosiaULaval/EIOM_2025) et [site web](https://aureliennicosiaulaval.github.io/EIOM_2025/).
 - [ASSQ 2025 - Quoi de neuf en science des données ?](https://github.com/AurelienNicosiaULaval/ASSQ_E25).
 

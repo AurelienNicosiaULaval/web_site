@@ -1,0 +1,33 @@
+---
+title: "UlavalSSD"
+description: "Données québécoises pour apprendre la science des données"
+embed-resources: true
+---
+
+::: {.section-intro}
+UlavalSSD accompagne l’initiation à la science des données, notamment dans STT-1100. Le package fournit des instantanés historiques de données québécoises et des outils pédagogiques utilisables sans connexion réseau après installation.
+:::
+
+Version GitHub : 0.3.0. Disponible sur GitHub, pas encore distribué sur le CRAN.
+
+::: {.link-list}
+[GitHub](https://github.com/AurelienNicosiaULaval/UlavalSSD){.btn .btn-outline-dark}
+[STT-1100](https://aureliennicosiaulaval.github.io/STT-1100_notes_de_cours/){.btn .btn-outline-dark}
+:::
+
+## Contenu pédagogique
+
+- Observations météorologiques historiques au Québec.
+- Données historiques de condamnations d’établissements alimentaires.
+- Consignes et rétroactions bilingues pour un exercice de nettoyage de données.
+- Diagnostic facultatif du style du code R avec `lintr`.
+
+Ces données servent à travailler l’importation, les valeurs manquantes, l’exploration et les rapports reproductibles. Le [dépôt](https://github.com/AurelienNicosiaULaval/UlavalSSD) documente leur provenance et leurs limites ; elles ne représentent pas l’état actuel des établissements ou de la météo.
+
+## Installation
+
+Le [guide d’installation](https://github.com/AurelienNicosiaULaval/UlavalSSD#installation-pour-le-cours) propose l’archive publique GitHub et des indications pour les problèmes d’authentification.
+
+Sources publiques vérifiées le 23 septembre 2026.
+
+[Tous les packages R](../packages.qmd)

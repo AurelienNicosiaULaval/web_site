@@ -1,0 +1,30 @@
+---
+title: "lmmix"
+description: "Modèles linéaires mixtes à résidus corrélés"
+embed-resources: true
+---
+
+::: {.section-intro}
+lmmix ajuste des modèles linéaires mixtes gaussiens par maximum de vraisemblance ou REML. Son cas d’usage principal associe des effets aléatoires à une structure de covariance des résidus.
+:::
+
+Version de développement GitHub : 0.4.0. Non distribué sur le CRAN.
+
+::: {.link-list}
+[GitHub](https://github.com/AurelienNicosiaULaval/lmmix){.btn .btn-outline-dark}
+[Documentation](https://aureliennicosiaulaval.github.io/lmmix/){.btn .btn-outline-dark}
+:::
+
+## Modèles et inférence
+
+Le package propose notamment des résidus indépendants, à symétrie composée, AR(1), de Toeplitz ou à covariance non structurée. Il comprend des outils d’inférence de Satterthwaite et Kenward-Roger, des comparaisons de modèles et des moyennes marginales estimées.
+
+## Portée et validation
+
+La [vignette de validation](https://aureliennicosiaulaval.github.io/lmmix/articles/validation.html) documente les comparaisons avec des implémentations R indépendantes et des exemples PROC MIXED, ainsi que les tolérances et les limites.
+
+La portée actuelle concerne les réponses gaussiennes univariées. Certaines matrices de covariance et certains calculs d’inférence restent denses ; les possibilités de calcul à grande échelle dépendent donc de la structure du modèle.
+
+Sources publiques vérifiées le 23 septembre 2026.
+
+[Tous les packages R](../packages.qmd)

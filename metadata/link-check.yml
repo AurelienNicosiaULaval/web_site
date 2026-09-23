@@ -144,3 +144,28 @@ links:
     category: doi
     url: "https://doi.org/10.5281/zenodo.18010064"
     required: true
+
+  - name: "leaflet.indoor documentation"
+    category: projects
+    url: "https://aureliennicosiaulaval.github.io/leaflet-indoor/"
+    required: true
+
+  - name: "lmmix documentation"
+    category: projects
+    url: "https://aureliennicosiaulaval.github.io/lmmix/"
+    required: true
+
+  - name: "UlavalSSD repository"
+    category: projects
+    url: "https://github.com/AurelienNicosiaULaval/UlavalSSD"
+    required: true
+
+  - name: "EIOM 2026"
+    category: projects
+    url: "https://aureliennicosiaulaval.github.io/eiom-2026-modelisation/"
+    required: true
+
+  - name: "LOO influence preprint"
+    category: projects
+    url: "https://arxiv.org/abs/2607.14335"
+    required: true

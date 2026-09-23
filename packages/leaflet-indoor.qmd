@@ -1,0 +1,33 @@
+---
+title: "leaflet.indoor"
+description: "Cartographie intérieure à plusieurs étages"
+embed-resources: true
+---
+
+::: {.section-intro}
+leaflet.indoor ajoute aux cartes R Leaflet des couches intérieures et un sélecteur d’étage accessible. Un seul étage est affiché à la fois pour chaque jeu de données, avec des contrôles indépendants lorsque plusieurs cartes sont présentes.
+:::
+
+Version GitHub : 0.1.0.9000. Package expérimental, non distribué sur le CRAN.
+
+::: {.link-list}
+[GitHub](https://github.com/AurelienNicosiaULaval/leaflet-indoor){.btn .btn-outline-dark}
+[Documentation](https://aureliennicosiaulaval.github.io/leaflet-indoor/){.btn .btn-outline-dark}
+:::
+
+## Fonctionnalités
+
+- Affichage de données `sf`, GeoJSON et, en option, `SpatVector`.
+- Navigation entre étages et intégration à Shiny.
+- Association de photos et de légendes aux pièces, sous forme de carrousels.
+- Prise en charge des coordonnées géographiques et des plans cartésiens locaux.
+
+## Exemple et prise en main
+
+Le [guide de démarrage](https://aureliennicosiaulaval.github.io/leaflet-indoor/articles/get-started.html) présente une démonstration avec des données synthétiques, les styles et les systèmes de coordonnées. Ces données ne décrivent aucun bâtiment réel.
+
+L’interface demeure expérimentale : consulter la documentation de la version utilisée avant d’intégrer le package à une application.
+
+Sources publiques vérifiées le 23 septembre 2026.
+
+[Tous les packages R](../packages.qmd)

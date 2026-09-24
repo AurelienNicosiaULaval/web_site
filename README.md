@@ -7,7 +7,7 @@
 Site personnel construit avec Quarto et déployé via GitHub Pages. Il organise des contenus d'enseignement, de recherche et de ressources dans un format reproductible et maintenable.
 
 - URL du site: https://aureliennicosiaulaval.github.io/web_site/
-- Navigation (Quarto): Accueil, Enseignement, Recherche, Innovation Pédagogique, Autres, À propos, CV, Langue (EN).
+- Navigation (Quarto): Accueil, Enseignement, Recherche, Projets ouverts, Packages R, Innovation Pédagogique, Autres, À propos, CV, Langue (EN).
 - Thème: `cosmo` + CSS personnalisé.
 - Déploiement automatisé: GitHub Pages à partir du dossier `docs/` de la branche `main`.
 
@@ -32,6 +32,7 @@ quarto preview
 
 ### Structure
 - Pages Quarto: `index.qmd`, `enseignement.qmd`, `recherche.qmd`, `innovation.qmd`, `ressources.qmd`, `a-propos.qmd`
+- Projets ouverts: `research-lab.qmd` (adresse conservée)
 - CV: `cv/index.qmd`
 - Version anglaise: `en/index.qmd`
 - Assets: `assets/logo.svg`, `assets/custom.css`, `assets/language-switch.js`
@@ -47,7 +48,7 @@ quarto preview
 Personal website built with Quarto and deployed via GitHub Pages. It provides a simple, reproducible structure for teaching, research, resources, and an English entry point.
 
 - Site URL: https://aureliennicosiaulaval.github.io/web_site/
-- Navigation (Quarto): Home, Teaching, Research, Pedagogical Innovation, Other, About, CV, Language (EN).
+- Navigation (Quarto): Home, Teaching, Research, Open projects, R packages, Pedagogical Innovation, Other, About, CV, Language (EN).
 - Theme: `cosmo` + custom CSS.
 - Automated deployment: GitHub Pages from the `docs/` directory on the `main` branch.
 
@@ -64,6 +65,7 @@ quarto preview
 
 ### Structure
 - Quarto pages: `index.qmd`, `enseignement.qmd`, `recherche.qmd`, `innovation.qmd`, `ressources.qmd`, `a-propos.qmd`
+- Open projects: `research-lab.qmd` (existing URL retained)
 - CV: `cv/index.qmd`
 - English version: `en/index.qmd`
 - Assets: `assets/logo.svg`, `assets/custom.css`, `assets/language-switch.js`

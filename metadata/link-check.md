@@ -6,7 +6,7 @@ The tool is intentionally non-destructive. It only reads URLs listed in `metadat
 
 ## Why This Exists
 
-The GitHub ecosystem now links together the profile README, the personal website, the Research Lab page, public GitHub Pages sites, pkgdown sites, DOI records, public repositories and teaching resources.
+The GitHub ecosystem now links together the profile README, the personal website, the Open projects page, public GitHub Pages sites, pkgdown sites, DOI records, public repositories and teaching resources.
 
 This check helps detect broken public links before future documentation or website updates are merged. It does not change any URL, DOI, repository metadata, GitHub Pages setting, license, visibility or file outside this repository.
 
@@ -20,7 +20,7 @@ This check helps detect broken public links before future documentation or websi
 
 The configuration uses these categories:
 
-- `core_site`: main website and Research Lab page.
+- `core_site`: main website and Open projects page.
 - `github_pages`: public GitHub Pages or pkgdown sites.
 - `repositories`: public GitHub repositories.
 - `doi`: public DOI resolver links.

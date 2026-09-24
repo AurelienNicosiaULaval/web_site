@@ -93,76 +93,11 @@ This thesis develops a general framework for multi-state modeling of animal move
 
 ## Software and dissemination
 
-- [GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP): density estimation based on General Linear Blend Frequency Polygons.
-- [CircularRegression](packages/circularregression.qmd): R package available on CRAN for fitting regression models when the response is circular.
-- [ggcircular](packages/ggcircular.qmd): `ggplot2` extension for circular, axial, and directional data.
-- [DonutMap](packages/donutmap.qmd): R package for creating donut maps with `sf`, `ggplot2`, and `leaflet`.
-- [site_ressources_SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/): francophone educational resources platform for data science.
-- [GeneralOaxaca](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html): R package for generalized Blinder-Oaxaca decomposition.
-
+R implementations associated with my work are presented in the [package catalogue](packages.qmd), with their features, documentation and release status.
 
 ## Current research materials
 
-These public repositories provide code, manuscripts and reproducibility materials. Their presence here does not imply journal publication.
-
-::: {.research-axis-grid}
-
-::: {.research-card}
-::: {.eyebrow}
-Research code
-:::
-
-### Extra states in HMMs
-
-Study of extra hidden states under emission misspecification, with a genomic application and supplementary elk movement analyses.
-
-::: {.link-list}
-[Repository](https://github.com/AurelienNicosiaULaval/corrective-hmm-states){.btn .btn-outline-dark}
-:::
-:::
-
-::: {.research-card}
-::: {.eyebrow}
-Research code
-:::
-
-### Sparse computation for grid densities
-
-Exact sparse grid traversal to accelerate existing estimators, with R/C++ code, numerical experiments and reproducibility materials.
-
-::: {.link-list}
-[Repository](https://github.com/AurelienNicosiaULaval/grid-density-sparse-traversal){.btn .btn-outline-dark}
-:::
-:::
-
-::: {.research-card}
-::: {.eyebrow}
-Research code
-:::
-
-### Directional independence
-
-Replication materials for HSIC tests adapted to circular, toroidal and circular-linear data.
-
-::: {.link-list}
-[Repository](https://github.com/AurelienNicosiaULaval/geometry-aware-hsic-directional){.btn .btn-outline-dark}
-:::
-:::
-
-::: {.research-card}
-::: {.eyebrow}
-Research code
-:::
-
-### Angular mixed regression
-
-Public prototype of angular regression models with random effects, implemented with R and TMB in the anmix repository.
-
-::: {.link-list}
-[Repository](https://github.com/AurelienNicosiaULaval/anmix){.btn .btn-outline-dark}
-:::
-:::
-:::
+Code repositories, analyses and prototypes are collected in [Open projects](research-lab.qmd#research-code). Each entry links to the available materials.
 
 ## Recent presentations
 

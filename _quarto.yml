@@ -31,7 +31,7 @@ website:
       - href: recherche.qmd
         text: Recherche
       - href: research-lab.qmd
-        text: Research Lab
+        text: Projets ouverts
       - href: packages.qmd
         text: Packages R
       - href: innovation.qmd

@@ -4,7 +4,7 @@
     { fr: "index.html", en: "index.html", frLabel: "Accueil", enLabel: "Home" },
     { fr: "enseignement.html", en: "enseignement.html", frLabel: "Enseignement", enLabel: "Teaching" },
     { fr: "recherche.html", en: "recherche.html", frLabel: "Recherche", enLabel: "Research" },
-    { fr: "research-lab.html", en: "research-lab.html", frLabel: "Research Lab", enLabel: "Research Lab" },
+    { fr: "research-lab.html", en: "research-lab.html", frLabel: "Projets ouverts", enLabel: "Open projects" },
     { fr: "packages.html", en: "packages.html", frLabel: "Packages R", enLabel: "R packages" },
     { fr: "innovation.html", en: "innovation.html", frLabel: "Innovation Pédagogique", enLabel: "Educational innovation" },
     { fr: "ressources.html", en: "ressources.html", frLabel: "Autres", enLabel: "Resources" },

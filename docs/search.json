@@ -60,14 +60,14 @@
     "href": "recherche.html#logiciels-et-diffusion",
     "title": "Recherche",
     "section": "Logiciels et diffusion",
-    "text": "Logiciels et diffusion\n\nGLBFP : estimation de densité fondée sur les General Linear Blend Frequency Polygons.\nCircularRegression : package R disponible sur le CRAN pour ajuster des modèles de régression lorsque la réponse est circulaire.\nggcircular : extension ggplot2 pour les données circulaires, axiales et directionnelles.\nDonutMap : package R pour créer des cartes de diagrammes en anneau avec sf, ggplot2 et leaflet.\nsite_ressources_SSD : plateforme francophone de ressources pédagogiques pour la science des données.\nGeneralOaxaca : package R pour la décomposition de Blinder-Oaxaca généralisée."
+    "text": "Logiciels et diffusion\nLes implémentations R associées à mes travaux sont présentées dans le catalogue des packages, avec leurs fonctionnalités, leur documentation et leur statut de diffusion."
   },
   {
     "objectID": "recherche.html#matériel-de-recherche-actuel",
     "href": "recherche.html#matériel-de-recherche-actuel",
     "title": "Recherche",
     "section": "Matériel de recherche actuel",
-    "text": "Matériel de recherche actuel\nCes dépôts publics donnent accès au code, aux manuscrits et au matériel de reproduction. Leur présence ici ne signifie pas une publication dans une revue.\n\n\n\nCode de recherche\n\n\nÉtats supplémentaires dans les HMM\nÉtude des états supplémentaires lorsque la distribution d’émission est mal spécifiée, avec une application génomique et des analyses complémentaires du mouvement de wapitis.\n\nDépôt public\n\n\n\n\n\nCode de recherche\n\n\nCalcul clairsemé des densités sur grille\nParcours exact de grilles clairsemées pour accélérer des estimateurs existants, avec code R/C++, expériences numériques et matériel de reproduction.\n\nDépôt public\n\n\n\n\n\nCode de recherche\n\n\nIndépendance des données directionnelles\nMatériel de reproduction pour des tests HSIC adaptés aux données circulaires, toroïdales et circulaires-linéaires.\n\nDépôt public\n\n\n\n\n\nCode de recherche\n\n\nRégression angulaire mixte\nPrototype public de modèles de régression angulaire à effets aléatoires, implémentés avec R et TMB dans le dépôt anmix.\n\nDépôt public"
+    "text": "Matériel de recherche actuel\nLes dépôts de code, les analyses et les prototypes sont regroupés dans Projets ouverts. Chaque fiche donne accès au matériel disponible."
   },
   {
     "objectID": "recherche.html#communications-récentes",
@@ -317,79 +317,30 @@
   {
     "objectID": "en/research-lab.html",
     "href": "en/research-lab.html",
-    "title": "Research Lab",
+    "title": "Open projects",
     "section": "",
-    "text": "This page presents the research, scientific software, and open pedagogy ecosystem developed by Aurélien Nicosia at Université Laval. It connects GitHub repositories, R packages, teaching resources, and reproducible research materials in computational statistics."
+    "text": "Explore the code, datasets and resources associated with my projects. Repositories provide analyses, simulations and replication materials; teaching platforms offer resources to reuse in courses.\nScientific questions and publications are presented on the Research page. The R package catalogue brings together software, documentation and release status."
   },
   {
-    "objectID": "en/research-lab.html#mission",
-    "href": "en/research-lab.html#mission",
-    "title": "Research Lab",
-    "section": "Mission",
-    "text": "Mission\nTo develop an open platform for computational statistics that connects methodological research, scientific software, reproducible data science, and statistical pedagogy. The aim is to produce interpretable methods, usable R tools, and open resources that support transmission, verification, and reuse."
+    "objectID": "en/research-lab.html#research-code",
+    "href": "en/research-lab.html#research-code",
+    "title": "Open projects",
+    "section": "Research code and analyses",
+    "text": "Research code and analyses\nThese projects provide reproducible research materials and prototypes. Related articles and preprints are listed in the bibliography.\n\n\n\nReplication materials\n\n\nGenerative validation of step-selection functions\nThe Validation-SSF repository brings together simulations, empirical analyses and sensitivity analyses for generative validation of step-selection functions.\n\nCode and analyses\n\n\n\n\n\nResearch code\n\n\nExtra states in HMMs\nStudy of extra hidden states under emission misspecification, with a genomic application and supplementary elk movement analyses.\n\nRepository\n\n\n\n\n\nResearch code\n\n\nSparse computation for grid densities\nExact sparse grid traversal to accelerate existing estimators, with R/C++ code, numerical experiments and reproducibility materials.\n\nRepository\n\n\n\n\n\nResearch code\n\n\nDirectional independence\nReplication materials for HSIC tests adapted to circular, toroidal and circular-linear data.\n\nRepository\n\n\n\n\n\nResearch code\n\n\nAngular mixed regression\nPublic prototype of angular regression models with random effects, implemented with R and TMB in the anmix repository.\n\nRepository"
   },
   {
-    "objectID": "en/research-lab.html#research-areas",
-    "href": "en/research-lab.html#research-areas",
-    "title": "Research Lab",
-    "section": "Research areas",
-    "text": "Research areas\n\n\n\nDensities and anomalies\n\n\nDensity estimation and anomaly detection\nDensity estimation methods based on the General Linear Blend Frequency Polygon approach, with attention to stability, geometric interpretation, and diagnostics for atypical observations.\n\n\n\n\nDirectional data\n\n\nCircular and directional statistics\nModels, visualizations, and tools for angles, orientations, directions, times of day, and circular responses.\n\n\n\n\nAnimal movement\n\n\nMovement modeling, HMMs, SSFs, and generative validation\nHidden Markov models, step-selection functions, iSSF models, and generative validation of step-selection functions to evaluate simulated movement behavior.\n\n\n\n\nInterpretation\n\n\nAI-assisted statistical interpretation\nTools and workflows for contextualized statistical explanations, with methodological safeguards and attention to interpretation quality.\n\n\n\n\nOpen pedagogy\n\n\nOpen statistical pedagogy and reproducible data science\nQuarto resources, pedagogical datasets, interactive tutorials, and reproducible environments for teaching statistics, R, and data science."
+    "objectID": "en/research-lab.html#data-resources",
+    "href": "en/research-lab.html#data-resources",
+    "title": "Open projects",
+    "section": "Datasets and teaching resources",
+    "text": "Datasets and teaching resources\n\n\nDonnées bleues\nQuebec and Canadian datasets, activities and documented sources for teaching statistics and data science.\n\nExplore datasets and activities Project source\n\n\n\nRessources SSD\nA catalogue for data science teaching: Quarto templates, tutorials, reproducible examples and adaptable learning paths.\n\nBrowse the catalogue\n\n\n\n\nDataset repositories to explore\nThese resources are linked to Données bleues. Each repository documents its sources, preparation and teaching scope.\n\nArbres du Québec: tree measurements for exploration, species comparisons and modelling.\nVéhicules: Canadian vehicle data and a separate overview of the Quebec vehicle fleet.\nEmpress of Ireland: aggregated historical tables for studying counts, proportions and interpretation limits."
   },
   {
-    "objectID": "en/research-lab.html#ecosystem-map",
-    "href": "en/research-lab.html#ecosystem-map",
-    "title": "Research Lab",
-    "section": "Ecosystem map",
-    "text": "Ecosystem map\n\n\n\n\n\nflowchart LR\n  A[\"Methodological research\"] --&gt; B[\"R packages\"]\n  B --&gt; C[\"Applications and diagnostics\"]\n  C --&gt; D[\"Reproducible research repositories\"]\n  D --&gt; E[\"Teaching resources\"]\n  E --&gt; F[\"Open dissemination\"]\n\n  A --&gt; A1[\"GLBFP\"]\n  A --&gt; A2[\"Validation-SSF\"]\n  B --&gt; B1[\"ggcircular\"]\n  B --&gt; B2[\"CircularRegression\"]\n  B --&gt; B3[\"gmov\"]\n  C --&gt; C1[\"contextR\"]\n  E --&gt; E1[\"donnees-bleues\"]\n  E --&gt; E2[\"tutorizeR\"]"
-  },
-  {
-    "objectID": "en/research-lab.html#featured-projects",
-    "href": "en/research-lab.html#featured-projects",
-    "title": "Research Lab",
-    "section": "Featured projects",
-    "text": "Featured projects\n\n\n\nDensities and anomalies\n\n\nGLBFP\nR package for density estimation using the General Linear Blend Frequency Polygon approach. It is the methodological core of the density and atypical-observation axis.\n\nGitHub repository\n\n\n\n\n\nDirectional data\n\n\nggcircular\nggplot2 extension for visualizing circular, axial, and directional data. It supports graphical communication for methods involving angular data.\n\nGitHub repository Documentation\n\n\n\n\n\nDirectional data\n\n\nCircularRegression\nR package for fitting circular-linear regression models, especially for directional and trajectory-related data.\n\nGitHub repository Site page\n\n\n\n\n\nAnimal movement\n\n\nValidation-SSF\nReproducible research repository for generative validation of step-selection functions, including simulations, empirical analyses, and sensitivity analyses.\n\nGitHub repository\n\n\n\n\n\nAnimal movement\n\n\ngmov\nGenerative validation and diagnostic tools for SSF and iSSF movement models. The project connects methodological work with practical movement-model diagnostics.\n\nGitHub repository\n\n\n\n\n\nData and pedagogy\n\n\ndonnees-bleues\nOpen educational platform of Québec datasets for statistics and data science. It provides realistic data for teaching and reproducible exercises.\n\nGitHub repository Website\n\n\n\n\n\nOpen pedagogy\n\n\ntutorizeR\nR package for converting R Markdown and Quarto documents into interactive learnr tutorials with exercises, solutions, and optional quizzes.\n\nGitHub repository Site page\n\n\n\n\n\nEmerging project\n\n\ncontextR\nEmerging project around contextualized statistical explanations in R, with S3 structures, safeguards, and links to AI-assisted statistical interpretation.\n\nGitHub repository"
-  },
-  {
-    "objectID": "en/research-lab.html#recent-software-and-teaching-resources",
-    "href": "en/research-lab.html#recent-software-and-teaching-resources",
-    "title": "Research Lab",
-    "section": "Recent software and teaching resources",
-    "text": "Recent software and teaching resources\n\n\nleaflet.indoor\nIndoor floor maps and photo carousels. Experimental package available on GitHub.\n\nleaflet.indoor\n\n\n\nlmmix\nGaussian linear mixed models with structured residual covariance. Development version available on GitHub.\n\nlmmix\n\n\n\nUlavalSSD\nData and tools for introductory data science. Version 0.3.0 available on GitHub.\n\nUlavalSSD\n\n\n\nRessources SSD\nA searchable teaching resource catalogue with learning paths and adaptable materials.\n\nRessources SSD"
-  },
-  {
-    "objectID": "en/research-lab.html#scientific-software",
-    "href": "en/research-lab.html#scientific-software",
-    "title": "Research Lab",
-    "section": "Scientific software",
-    "text": "Scientific software\nThe R packages form a central layer of the ecosystem. They turn methodological ideas into tools that can be tested, documented, and reused. GLBFP, ggcircular, CircularRegression, gmov, tutorizeR, and contextR cover density estimation, circular visualization, circular-response modeling, generative movement validation, interactive tutorial production, and contextualized statistical interpretation."
-  },
-  {
-    "objectID": "en/research-lab.html#data-and-pedagogy",
-    "href": "en/research-lab.html#data-and-pedagogy",
-    "title": "Research Lab",
-    "section": "Data and pedagogy",
-    "text": "Data and pedagogy\nThe teaching resources support open, realistic, and reproducible training in statistics and data science.\n\n\nDatasets\ndonnees-bleues gathers Québec datasets for courses, exercises, and projects.\n\ndonnees-bleues\n\n\n\nCourses and modules\nThe course and resource sites structure content in statistics, R, and data science.\n\nSTT-1100 Programming for data science SSD resources\n\n\n\nInteractive tutorials\ntutorizeR supports the conversion of reproducible documents into interactive teaching resources.\n\ntutorizeR"
-  },
-  {
-    "objectID": "en/research-lab.html#reproducible-research",
-    "href": "en/research-lab.html#reproducible-research",
-    "title": "Research Lab",
-    "section": "Reproducible research",
-    "text": "Reproducible research\nReproducible research repositories document code, analyses, figures, simulations, and materials associated with scientific work. This layer makes results easier to verify and reuse by collaborators, students, article readers, and scientific software users."
-  },
-  {
-    "objectID": "en/research-lab.html#teaching-datasets",
-    "href": "en/research-lab.html#teaching-datasets",
-    "title": "Research Lab",
-    "section": "Teaching datasets",
-    "text": "Teaching datasets\nThese resources are linked to Données bleues. Each repository documents its sources, preparation and teaching scope.\n\nArbres du Québec : tree measurements for exploration, species comparisons and modelling.\nVéhicules : Canadian vehicle data and a separate overview of the Quebec vehicle fleet.\nEmpress of Ireland : aggregated historical tables for studying counts, proportions and interpretation limits.\n\nSee current research repositories."
-  },
-  {
-    "objectID": "en/research-lab.html#collaborations-and-contact",
-    "href": "en/research-lab.html#collaborations-and-contact",
-    "title": "Research Lab",
-    "section": "Collaborations and contact",
-    "text": "Collaborations and contact\nCollaborations are welcome on statistical methods, R software, movement ecology applications, directional data, statistical pedagogy, and reproducible data science.\n\nEmail ORCID LinkedIn"
+    "objectID": "en/research-lab.html#using-the-resources",
+    "href": "en/research-lab.html#using-the-resources",
+    "title": "Open projects",
+    "section": "Using the resources",
+    "text": "Using the resources\nInstallation instructions, examples and software versions are collected in R packages. Courses and teaching materials and educational innovation projects provide complementary resources.\nTo reproduce an analysis or reuse materials, consult the instructions, data sources and licence in the relevant repository.\nContact me about a project"
   },
   {
     "objectID": "en/publications.html",
@@ -1236,14 +1187,14 @@
     "href": "en/recherche.html#software-and-dissemination",
     "title": "Research",
     "section": "Software and dissemination",
-    "text": "Software and dissemination\n\nGLBFP: density estimation based on General Linear Blend Frequency Polygons.\nCircularRegression: R package available on CRAN for fitting regression models when the response is circular.\nggcircular: ggplot2 extension for circular, axial, and directional data.\nDonutMap: R package for creating donut maps with sf, ggplot2, and leaflet.\nsite_ressources_SSD: francophone educational resources platform for data science.\nGeneralOaxaca: R package for generalized Blinder-Oaxaca decomposition."
+    "text": "Software and dissemination\nR implementations associated with my work are presented in the package catalogue, with their features, documentation and release status."
   },
   {
     "objectID": "en/recherche.html#current-research-materials",
     "href": "en/recherche.html#current-research-materials",
     "title": "Research",
     "section": "Current research materials",
-    "text": "Current research materials\nThese public repositories provide code, manuscripts and reproducibility materials. Their presence here does not imply journal publication.\n\n\n\nResearch code\n\n\nExtra states in HMMs\nStudy of extra hidden states under emission misspecification, with a genomic application and supplementary elk movement analyses.\n\nRepository\n\n\n\n\n\nResearch code\n\n\nSparse computation for grid densities\nExact sparse grid traversal to accelerate existing estimators, with R/C++ code, numerical experiments and reproducibility materials.\n\nRepository\n\n\n\n\n\nResearch code\n\n\nDirectional independence\nReplication materials for HSIC tests adapted to circular, toroidal and circular-linear data.\n\nRepository\n\n\n\n\n\nResearch code\n\n\nAngular mixed regression\nPublic prototype of angular regression models with random effects, implemented with R and TMB in the anmix repository.\n\nRepository"
+    "text": "Current research materials\nCode repositories, analyses and prototypes are collected in Open projects. Each entry links to the available materials."
   },
   {
     "objectID": "en/recherche.html#recent-presentations",
@@ -1479,78 +1430,29 @@
   {
     "objectID": "research-lab.html",
     "href": "research-lab.html",
-    "title": "Research Lab",
+    "title": "Projets ouverts",
     "section": "",
-    "text": "Cette page présente l’écosystème de recherche, de logiciels scientifiques et de pédagogie ouverte développé par Aurélien Nicosia à l’Université Laval. Elle sert de porte d’entrée vers les projets GitHub, les packages R, les ressources pédagogiques et les dépôts de recherche reproductible reliés aux travaux en statistique computationnelle."
+    "text": "Retrouvez ici le code, les données et les ressources associés à mes projets. Les dépôts donnent accès aux analyses, aux simulations et au matériel de reproduction; les plateformes pédagogiques proposent des supports à réutiliser dans les cours.\nLes questions scientifiques et les publications sont présentées dans la page Recherche. Le catalogue des packages R rassemble les logiciels, leur documentation et leur statut de diffusion."
   },
   {
-    "objectID": "research-lab.html#mission",
-    "href": "research-lab.html#mission",
-    "title": "Research Lab",
-    "section": "Mission",
-    "text": "Mission\nDévelopper une plateforme ouverte de statistique computationnelle qui relie la recherche méthodologique, les logiciels scientifiques, la science des données reproductible et l’innovation pédagogique. L’objectif est de produire des méthodes interprétables, des outils R utilisables et des ressources ouvertes qui facilitent la transmission, la vérification et la réutilisation des travaux statistiques."
+    "objectID": "research-lab.html#code-recherche",
+    "href": "research-lab.html#code-recherche",
+    "title": "Projets ouverts",
+    "section": "Code et analyses de recherche",
+    "text": "Code et analyses de recherche\nCes projets donnent accès à du matériel de recherche reproductible et à des prototypes. Les articles et prépublications correspondants figurent dans la bibliographie.\n\n\n\nMatériel de reproduction\n\n\nValidation générative des fonctions de sélection de pas\nLe dépôt Validation-SSF rassemble des simulations, des analyses empiriques et des analyses de sensibilité pour la validation générative des fonctions de sélection de pas.\n\nCode et analyses\n\n\n\n\n\nCode de recherche\n\n\nÉtats supplémentaires dans les HMM\nÉtude des états supplémentaires lorsque la distribution d’émission est mal spécifiée, avec une application génomique et des analyses complémentaires du mouvement de wapitis.\n\nDépôt public\n\n\n\n\n\nCode de recherche\n\n\nCalcul clairsemé des densités sur grille\nParcours exact de grilles clairsemées pour accélérer des estimateurs existants, avec code R/C++, expériences numériques et matériel de reproduction.\n\nDépôt public\n\n\n\n\n\nCode de recherche\n\n\nIndépendance des données directionnelles\nMatériel de reproduction pour des tests HSIC adaptés aux données circulaires, toroïdales et circulaires-linéaires.\n\nDépôt public\n\n\n\n\n\nCode de recherche\n\n\nRégression angulaire mixte\nPrototype public de modèles de régression angulaire à effets aléatoires, implémentés avec R et TMB dans le dépôt anmix.\n\nDépôt public"
   },
   {
-    "objectID": "research-lab.html#axes-scientifiques",
-    "href": "research-lab.html#axes-scientifiques",
-    "title": "Research Lab",
-    "section": "Axes scientifiques",
-    "text": "Axes scientifiques\n\n\n\nDensités et anomalies\n\n\nEstimation de densité et détection d’anomalies\nMéthodes d’estimation de densité fondées sur l’approche General Linear Blend Frequency Polygon, avec un intérêt pour la stabilité, l’interprétation géométrique et les diagnostics d’observations atypiques.\n\n\n\n\nDonnées directionnelles\n\n\nStatistique circulaire et directionnelle\nModèles, visualisations et outils pour les angles, orientations, directions, heures de la journée et réponses circulaires.\n\n\n\n\nMouvement animalier\n\n\nModélisation du mouvement, HMM, SSF et validation générative\nModèles de Markov cachés, fonctions de sélection de pas, modèles iSSF et validation générative de fonctions de sélection de pas pour évaluer les comportements simulés par les modèles.\n\n\n\n\nInterprétation\n\n\nInterprétation statistique assistée par IA\nOutils et cadres de travail pour produire des explications statistiques contextualisées, avec des garde-fous méthodologiques et une attention portée à la qualité de l’interprétation.\n\n\n\n\nPédagogie ouverte\n\n\nPédagogie statistique ouverte et science des données reproductible\nRessources Quarto, jeux de données pédagogiques, tutoriels interactifs et environnements reproductibles pour l’enseignement de la statistique, de R et de la science des données."
+    "objectID": "research-lab.html#donnees-ressources",
+    "href": "research-lab.html#donnees-ressources",
+    "title": "Projets ouverts",
+    "section": "Données et ressources pédagogiques",
+    "text": "Données et ressources pédagogiques\n\n\nDonnées bleues\nJeux de données québécois et canadiens, activités et sources documentées pour enseigner la statistique et la science des données.\n\nExplorer les données et activités Code du projet\n\n\n\nRessources SSD\nCatalogue de ressources pour l’enseignement de la science des données : gabarits Quarto, tutoriels, exemples reproductibles et parcours à adapter.\n\nConsulter le catalogue\n\n\n\n\nDépôts de données à explorer\nCes ressources sont reliées à Données bleues. Chaque dépôt documente ses sources, sa préparation et sa portée pédagogique.\n\nArbres du Québec : mesures d’arbres pour l’exploration, la comparaison d’espèces et la modélisation.\nVéhicules : données canadiennes de véhicules et portrait distinct du parc québécois.\nEmpress of Ireland : tableaux historiques agrégés pour travailler les effectifs, les proportions et les limites d’interprétation."
   },
   {
-    "objectID": "research-lab.html#carte-de-lécosystème",
-    "href": "research-lab.html#carte-de-lécosystème",
-    "title": "Research Lab",
-    "section": "Carte de l’écosystème",
-    "text": "Carte de l’écosystème\n\n\n\n\n\nflowchart LR\n  A[\"Recherche méthodologique\"] --&gt; B[\"Packages R\"]\n  B --&gt; C[\"Applications et diagnostics\"]\n  C --&gt; D[\"Dépôts de recherche reproductible\"]\n  D --&gt; E[\"Ressources pédagogiques\"]\n  E --&gt; F[\"Diffusion ouverte\"]\n\n  A --&gt; A1[\"GLBFP\"]\n  A --&gt; A2[\"Validation-SSF\"]\n  B --&gt; B1[\"ggcircular\"]\n  B --&gt; B2[\"CircularRegression\"]\n  B --&gt; B3[\"gmov\"]\n  C --&gt; C1[\"contextR\"]\n  E --&gt; E1[\"donnees-bleues\"]\n  E --&gt; E2[\"tutorizeR\"]"
-  },
-  {
-    "objectID": "research-lab.html#projets-phares",
-    "href": "research-lab.html#projets-phares",
-    "title": "Research Lab",
-    "section": "Projets phares",
-    "text": "Projets phares\n\n\n\nDensités et anomalies\n\n\nGLBFP\nPackage R pour l’estimation de densité avec l’approche General Linear Blend Frequency Polygon. Le projet constitue le noyau méthodologique de l’axe sur les densités et les observations atypiques.\n\nDépôt GitHub\n\n\n\n\n\nDonnées directionnelles\n\n\nggcircular\nExtension de ggplot2 pour visualiser des données circulaires, axiales et directionnelles. Le projet soutient la diffusion graphique des méthodes pour données angulaires.\n\nDépôt GitHub Documentation\n\n\n\n\n\nDonnées directionnelles\n\n\nCircularRegression\nPackage R pour ajuster des modèles de régression circulaire-linéaire, notamment dans des contextes de données directionnelles et de trajectoires.\n\nDépôt GitHub Page du site\n\n\n\n\n\nMouvement animalier\n\n\nValidation-SSF\nDépôt de recherche reproductible pour la validation générative de fonctions de sélection de pas, incluant des simulations, analyses empiriques et analyses de sensibilité.\n\nDépôt GitHub\n\n\n\n\n\nMouvement animalier\n\n\ngmov\nOutils de validation et diagnostics génératifs pour modèles SSF et iSSF. Le projet relie les développements méthodologiques aux diagnostics utilisables en analyse du mouvement.\n\nDépôt GitHub\n\n\n\n\n\nDonnées et pédagogie\n\n\ndonnees-bleues\nPlateforme pédagogique ouverte de jeux de données québécois pour la statistique et la science des données. Le projet fournit des données réalistes pour l’enseignement et les exercices reproductibles.\n\nDépôt GitHub Site\n\n\n\n\n\nPédagogie ouverte\n\n\ntutorizeR\nPackage R pour convertir des documents R Markdown et Quarto en tutoriels interactifs learnr, avec exercices, solutions et questionnaires facultatifs.\n\nDépôt GitHub Page du site\n\n\n\n\n\nProjet émergent\n\n\ncontextR\nProjet émergent autour d’explications statistiques contextualisées en R, avec structures S3, garde-fous et liens avec l’interprétation statistique assistée par IA.\n\nDépôt GitHub"
-  },
-  {
-    "objectID": "research-lab.html#logiciels-et-ressources-récents",
-    "href": "research-lab.html#logiciels-et-ressources-récents",
-    "title": "Research Lab",
-    "section": "Logiciels et ressources récents",
-    "text": "Logiciels et ressources récents\n\n\nleaflet.indoor\nCartes intérieures à étages et carrousels de photos. Package expérimental disponible sur GitHub.\n\nleaflet.indoor\n\n\n\nlmmix\nModèles linéaires mixtes gaussiens avec covariance résiduelle structurée. Version de développement disponible sur GitHub.\n\nlmmix\n\n\n\nUlavalSSD\nDonnées et outils pour l’initiation à la science des données. Version 0.3.0 disponible sur GitHub.\n\nUlavalSSD\n\n\n\nRessources SSD\nCatalogue de ressources pour les enseignants, avec recherche, parcours et supports à adapter.\n\nRessources SSD"
-  },
-  {
-    "objectID": "research-lab.html#logiciels-scientifiques",
-    "href": "research-lab.html#logiciels-scientifiques",
-    "title": "Research Lab",
-    "section": "Logiciels scientifiques",
-    "text": "Logiciels scientifiques\nLes packages R forment une couche centrale de l’écosystème. Ils transforment les idées méthodologiques en outils testables, documentables et réutilisables. Les projets GLBFP, ggcircular, CircularRegression, gmov, tutorizeR et contextR couvrent respectivement l’estimation de densité, la visualisation circulaire, la modélisation de réponses circulaires, la validation générative du mouvement, la production de tutoriels interactifs et l’interprétation statistique contextualisée."
-  },
-  {
-    "objectID": "research-lab.html#données-et-pédagogie",
-    "href": "research-lab.html#données-et-pédagogie",
-    "title": "Research Lab",
-    "section": "Données et pédagogie",
-    "text": "Données et pédagogie\nLes ressources pédagogiques visent à soutenir une formation ouverte, réaliste et reproductible en statistique et science des données.\n\n\nJeux de données\ndonnees-bleues rassemble des jeux de données québécois utilisables dans les cours, les exercices et les projets.\n\ndonnees-bleues\n\n\n\nCours et modules\nLes sites de cours et de ressources structurent les contenus en statistique, R et science des données.\n\nSTT-1100 Programmation pour la science des données Ressources SSD\n\n\n\nTutoriels interactifs\ntutorizeR soutient la transformation de documents reproductibles en ressources interactives pour l’enseignement.\n\ntutorizeR"
-  },
-  {
-    "objectID": "research-lab.html#recherche-reproductible",
-    "href": "research-lab.html#recherche-reproductible",
-    "title": "Research Lab",
-    "section": "Recherche reproductible",
-    "text": "Recherche reproductible\nLes dépôts de recherche reproductible documentent le code, les analyses, les figures, les simulations et les matériaux associés aux travaux scientifiques. Cette couche rend les résultats plus vérifiables et facilite la réutilisation par des collaborateurs, étudiants, lecteurs d’articles et utilisateurs de logiciels scientifiques."
-  },
-  {
-    "objectID": "research-lab.html#jeux-de-données-pédagogiques",
-    "href": "research-lab.html#jeux-de-données-pédagogiques",
-    "title": "Research Lab",
-    "section": "Jeux de données pédagogiques",
-    "text": "Jeux de données pédagogiques\nCes ressources sont reliées à Données bleues. Chaque dépôt documente les sources, la préparation et la portée pédagogique.\n\nArbres du Québec : mesures d’arbres pour l’exploration, la comparaison d’espèces et la modélisation.\nVéhicules : données canadiennes de véhicules et portrait distinct du parc québécois.\nEmpress of Ireland : tableaux historiques agrégés pour travailler les effectifs, les proportions et les limites d’interprétation.\n\nConsulter les dépôts de recherche actuels."
-  },
-  {
-    "objectID": "research-lab.html#collaborations-et-contact",
-    "href": "research-lab.html#collaborations-et-contact",
-    "title": "Research Lab",
-    "section": "Collaborations et contact",
-    "text": "Collaborations et contact\nLes collaborations sont bienvenues sur les méthodes statistiques, les logiciels R, les applications en écologie du mouvement, les données directionnelles, la pédagogie statistique et la science des données reproductible.\n\nCourriel ORCID LinkedIn"
+    "objectID": "research-lab.html#utiliser-les-ressources",
+    "href": "research-lab.html#utiliser-les-ressources",
+    "title": "Projets ouverts",
+    "section": "Utiliser les ressources",
+    "text": "Utiliser les ressources\nLes instructions d’installation, les exemples et les versions des logiciels sont regroupés dans Packages R. Les cours et supports d’enseignement et les projets d’innovation pédagogique complètent ces ressources.\nPour reproduire une analyse ou réutiliser du matériel, consulter les instructions, les sources de données et la licence du dépôt concerné.\nMe contacter au sujet d’un projet"
   }
 ]

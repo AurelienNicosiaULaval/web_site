@@ -8,7 +8,7 @@ links:
     url: "https://aureliennicosiaulaval.github.io/web_site/"
     required: true
 
-  - name: "Research Lab page"
+  - name: "Open projects page"
     category: core_site
     url: "https://aureliennicosiaulaval.github.io/web_site/research-lab.html"
     required: true

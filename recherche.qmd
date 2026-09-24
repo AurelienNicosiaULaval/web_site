@@ -92,76 +92,11 @@ Cette thèse développe un cadre général de modélisation multi-états pour l�
 
 ## Logiciels et diffusion
 
-- [GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP) : estimation de densité fondée sur les General Linear Blend Frequency Polygons.
-- [CircularRegression](packages/circularregression.qmd) : package R disponible sur le CRAN pour ajuster des modèles de régression lorsque la réponse est circulaire.
-- [ggcircular](packages/ggcircular.qmd) : extension `ggplot2` pour les données circulaires, axiales et directionnelles.
-- [DonutMap](packages/donutmap.qmd) : package R pour créer des cartes de diagrammes en anneau avec `sf`, `ggplot2` et `leaflet`.
-- [site_ressources_SSD](https://aureliennicosiaulaval.github.io/site_ressources_SSD/) : plateforme francophone de ressources pédagogiques pour la science des données.
-- [GeneralOaxaca](https://cran.r-project.org/web/packages/GeneralOaxaca/index.html) : package R pour la décomposition de Blinder-Oaxaca généralisée.
-
+Les implémentations R associées à mes travaux sont présentées dans le [catalogue des packages](packages.qmd), avec leurs fonctionnalités, leur documentation et leur statut de diffusion.
 
 ## Matériel de recherche actuel
 
-Ces dépôts publics donnent accès au code, aux manuscrits et au matériel de reproduction. Leur présence ici ne signifie pas une publication dans une revue.
-
-::: {.research-axis-grid}
-
-::: {.research-card}
-::: {.eyebrow}
-Code de recherche
-:::
-
-### États supplémentaires dans les HMM
-
-Étude des états supplémentaires lorsque la distribution d’émission est mal spécifiée, avec une application génomique et des analyses complémentaires du mouvement de wapitis.
-
-::: {.link-list}
-[Dépôt public](https://github.com/AurelienNicosiaULaval/corrective-hmm-states){.btn .btn-outline-dark}
-:::
-:::
-
-::: {.research-card}
-::: {.eyebrow}
-Code de recherche
-:::
-
-### Calcul clairsemé des densités sur grille
-
-Parcours exact de grilles clairsemées pour accélérer des estimateurs existants, avec code R/C++, expériences numériques et matériel de reproduction.
-
-::: {.link-list}
-[Dépôt public](https://github.com/AurelienNicosiaULaval/grid-density-sparse-traversal){.btn .btn-outline-dark}
-:::
-:::
-
-::: {.research-card}
-::: {.eyebrow}
-Code de recherche
-:::
-
-### Indépendance des données directionnelles
-
-Matériel de reproduction pour des tests HSIC adaptés aux données circulaires, toroïdales et circulaires-linéaires.
-
-::: {.link-list}
-[Dépôt public](https://github.com/AurelienNicosiaULaval/geometry-aware-hsic-directional){.btn .btn-outline-dark}
-:::
-:::
-
-::: {.research-card}
-::: {.eyebrow}
-Code de recherche
-:::
-
-### Régression angulaire mixte
-
-Prototype public de modèles de régression angulaire à effets aléatoires, implémentés avec R et TMB dans le dépôt anmix.
-
-::: {.link-list}
-[Dépôt public](https://github.com/AurelienNicosiaULaval/anmix){.btn .btn-outline-dark}
-:::
-:::
-:::
+Les dépôts de code, les analyses et les prototypes sont regroupés dans [Projets ouverts](research-lab.qmd#code-recherche). Chaque fiche donne accès au matériel disponible.
 
 ## Communications récentes
 

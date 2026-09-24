@@ -30,6 +30,16 @@ Exercises, formative feedback, course assistants, and CDA resources support auto
 :::
 :::
 
+## Teaching experience and languages
+
+I teach at undergraduate and graduate levels at Université Laval and UQAC. My experience covers probability, applied statistics, data science, R programming, visualization and project management.
+
+- GSO-6092, *Project Management*: graduate course taught in English in Winter 2026 and Fall 2026 (in progress).
+- GSO-6082, Gestion de projets: partial assignment of 21 teaching hours in Fall 2026, replacing the regular instructor from August 31 to October 16.
+- STT-1900: in-person and online teaching and coordination for approximately 350 students in 2025.
+
+In assessments, I ask students to justify their choice of methods, verify computations and interpret uncertainty. When AI tools are permitted, their use must be disclosed and their output checked. My [published discussion in the Journal of Data Science (2026)](https://doi.org/10.6339/26-JDS1208H) addresses AI-generated assignments.
+
 ## Courses taught
 
 ### Université Laval
@@ -108,6 +118,23 @@ Tools: R, ggplot2, dplyr, R Markdown
 Approach: interpretation before automation, clear communication of results
 :::
 :::
+
+::: {.course-card}
+### STT-1900 and STT-2920
+
+Statistics for Engineering and Probability for Engineering. Probability foundations, inference and modelling for engineering programs.
+:::
+
+::: {.course-card}
+### GSO-6092 and GSO-6082
+
+Graduate project management in English and French: planning, PERT and CPM networks, resource allocation and project control. The scope of the 2026 assignments is described above.
+
+::: {.link-list}
+[Project Management](https://www.fsa.ulaval.ca/en/course/GSO-6092/){.btn .btn-outline-dark}
+[Gestion de projets](https://www.fsa.ulaval.ca/cours/GSO-6082/){.btn .btn-outline-dark}
+:::
+:::
 :::
 
 ### Université du Québec à Chicoutimi
@@ -120,21 +147,41 @@ Interdisciplinary course presenting the full data science project cycle: prepara
 :::
 
 ::: {.course-card}
-### 8INF416 - Visualization and Interface
+### 8INF416 - Data Visualization and Interface Design
 
 Course devoted to interactive visualization and scientific communication with R, Shiny, and ggplot2.
 :::
 
 ::: {.course-card}
-### 8STT108 - Statistical Methods for Big Data
+### 8STT108 - Statistical Analysis of Large Data Sets
 
 Introduction to statistical methods for large datasets, with emphasis on model logic before automation.
 :::
+
+::: {.course-card}
+### 8GEN444 - Engineering Statistics
+
+Statistical methods applied to engineering problems.
 :::
+:::
+
+## Supervision {#supervision}
+
+I have served as faculty consultant for three undergraduate projects on directional statistics (2024), random matrices (2025) and visual inference (2026). I have also supervised industry internships and undergraduate research projects at UQAC, and examined two master’s theses.
+
+My approach to supervision emphasizes a focused question, explicit milestones, version control and reproducible analysis. My [research themes](recherche.qmd) provide training topics in simulation, diagnostics, visualization and software development.
+
+## Academic coordination and curriculum development
+
+At the CDA, I coordinate and train approximately 30 teaching assistants supporting mathematics and statistics courses. I develop diagnostic assessments to identify learning needs early and guide student support.
+
+I contribute to the review of the statistics degree and the development of Université Laval’s bachelor’s program in statistics and data science. I also contribute to the co-adaptation of *Probabilités et statistique, Science et génie*, fourth edition, forthcoming from TC Média Livres in April 2027.
+
+[GPT-CDA](cda/index.qmd) received two PAIP teaching innovation grants, in 2025 and 2026, of CAD 20,000 each. Open resources, including [tutorizeR](packages/tutorizeR.qmd), datasets and tutorials, extend this training work.
 
 ## Teaching recognition
 
-I received the Star Teacher Award again in 2026. This recognition adds to the 2014, 2023, 2024, and 2025 editions listed in my CV. The Faculty of Science and Engineering describes this title as a recognition given to instructors who receive excellent student evaluations.
+I received Teaching Stars recognition from the Faculty of Science and Engineering for 2022-2023, 2023-2024, 2024-2025 and 2025-2026, as well as the Professor Star Award in 2014. In 2026, I also received student recognition in the teaching award category at the Gala du mérite.
 
 [FSG Teaching Stars ceremony](https://www.fsg.ulaval.ca/faculte/evenements-facultaires/ceremonie-des-etoiles-de-lenseignement-fsg){.btn .btn-outline-dark}
 

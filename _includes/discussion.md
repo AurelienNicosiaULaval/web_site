@@ -1,0 +1,1 @@
+- Nicosia, A. (2026). Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”. Journal of Data Science, 24(1), 276-281. [https://doi.org/10.6339/26-JDS1208H](https://doi.org/10.6339/26-JDS1208H)

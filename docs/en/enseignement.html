@@ -4071,7 +4071,7 @@ vertical-align: -.125em;
   }
 
   function asIndex(pathname) {
-    return pathname === "" ? "index.html" : pathname.replace(/\/$/, "index.html");
+    return pathname === "" ? "index.html" : pathname.replace(/\/$/, "/index.html");
   }
 
   function isEnglishPage(pathname) {
@@ -4706,6 +4706,15 @@ color: #ffffff;
 filter: brightness(0) invert(1);
 opacity: 0.9;
 }
+
+.hero-actions > p,
+.link-list > p {
+display: flex;
+flex-wrap: wrap;
+gap: 0.65rem;
+margin-bottom: 0;
+max-width: none;
+}
 </style>
 <meta property="og:title" content="Teaching – Aurélien Nicosia">
 <meta property="og:description" content>
@@ -4802,11 +4811,14 @@ opacity: 0.9;
    
   <ul>
   <li><a href="#teaching-philosophy" id="toc-teaching-philosophy" class="nav-link active" data-scroll-target="#teaching-philosophy">Teaching philosophy</a></li>
+  <li><a href="#teaching-experience-and-languages" id="toc-teaching-experience-and-languages" class="nav-link" data-scroll-target="#teaching-experience-and-languages">Teaching experience and languages</a></li>
   <li><a href="#courses-taught" id="toc-courses-taught" class="nav-link" data-scroll-target="#courses-taught">Courses taught</a>
   <ul class="collapse">
   <li><a href="#université-laval" id="toc-université-laval" class="nav-link" data-scroll-target="#université-laval">Université Laval</a></li>
   <li><a href="#université-du-québec-à-chicoutimi" id="toc-université-du-québec-à-chicoutimi" class="nav-link" data-scroll-target="#université-du-québec-à-chicoutimi">Université du Québec à Chicoutimi</a></li>
   </ul></li>
+  <li><a href="#supervision" id="toc-supervision" class="nav-link" data-scroll-target="#supervision">Supervision</a></li>
+  <li><a href="#academic-coordination-and-curriculum-development" id="toc-academic-coordination-and-curriculum-development" class="nav-link" data-scroll-target="#academic-coordination-and-curriculum-development">Academic coordination and curriculum development</a></li>
   <li><a href="#teaching-recognition" id="toc-teaching-recognition" class="nav-link" data-scroll-target="#teaching-recognition">Teaching recognition</a></li>
   <li><a href="#shared-resources" id="toc-shared-resources" class="nav-link" data-scroll-target="#shared-resources">Shared resources</a></li>
   </ul>
@@ -4853,6 +4865,16 @@ opacity: 0.9;
 <p>Exercises, formative feedback, course assistants, and CDA resources support autonomy while preserving the central role of student understanding.</p>
 </section>
 </div>
+</section>
+<section id="teaching-experience-and-languages" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-experience-and-languages">Teaching experience and languages</h2>
+<p>I teach at undergraduate and graduate levels at Université Laval and UQAC. My experience covers probability, applied statistics, data science, R programming, visualization and project management.</p>
+<ul>
+<li>GSO-6092, <em>Project Management</em>: graduate course taught in English in Winter 2026 and Fall 2026 (in progress).</li>
+<li>GSO-6082, Gestion de projets: partial assignment of 21 teaching hours in Fall 2026, replacing the regular instructor from August 31 to October 16.</li>
+<li>STT-1900: in-person and online teaching and coordination for approximately 350 students in 2025.</li>
+</ul>
+<p>In assessments, I ask students to justify their choice of methods, verify computations and interpret uncertainty. When AI tools are permitted, their use must be disclosed and their output checked. My <a href="https://doi.org/10.6339/26-JDS1208H">published discussion in the Journal of Data Science (2026)</a> addresses AI-generated assignments.</p>
 </section>
 <section id="courses-taught" class="level2">
 <h2 class="anchored" data-anchor-id="courses-taught">Courses taught</h2>
@@ -4916,6 +4938,17 @@ opacity: 0.9;
 </div>
 </section>
 </div>
+<section id="stt-1900-and-stt-2920" class="level3 course-card">
+<h3 class="anchored" data-anchor-id="stt-1900-and-stt-2920">STT-1900 and STT-2920</h3>
+<p>Statistics for Engineering and Probability for Engineering. Probability foundations, inference and modelling for engineering programs.</p>
+</section>
+<section id="gso-6092-and-gso-6082" class="level3 course-card">
+<h3 class="anchored" data-anchor-id="gso-6092-and-gso-6082">GSO-6092 and GSO-6082</h3>
+<p>Graduate project management in English and French: planning, PERT and CPM networks, resource allocation and project control. The scope of the 2026 assignments is described above.</p>
+<div class="link-list">
+<p><a href="https://www.fsa.ulaval.ca/en/course/GSO-6092/" class="btn btn-outline-dark">Project Management</a> <a href="https://www.fsa.ulaval.ca/cours/GSO-6082/" class="btn btn-outline-dark">Gestion de projets</a></p>
+</div>
+</section>
 </div>
 </section>
 <section id="université-du-québec-à-chicoutimi" class="level3">
@@ -4926,19 +4959,34 @@ opacity: 0.9;
 <h3 class="anchored" data-anchor-id="inf404---introduction-to-data-science-and-business-intelligence">8INF404 - Introduction to Data Science and Business Intelligence</h3>
 <p>Interdisciplinary course presenting the full data science project cycle: preparation, exploration, predictive modeling, and communication.</p>
 </section>
-<section id="inf416---visualization-and-interface" class="level3 course-card">
-<h3 class="anchored" data-anchor-id="inf416---visualization-and-interface">8INF416 - Visualization and Interface</h3>
+<section id="inf416---data-visualization-and-interface-design" class="level3 course-card">
+<h3 class="anchored" data-anchor-id="inf416---data-visualization-and-interface-design">8INF416 - Data Visualization and Interface Design</h3>
 <p>Course devoted to interactive visualization and scientific communication with R, Shiny, and ggplot2.</p>
 </section>
-<section id="stt108---statistical-methods-for-big-data" class="level3 course-card">
-<h3 class="anchored" data-anchor-id="stt108---statistical-methods-for-big-data">8STT108 - Statistical Methods for Big Data</h3>
+<section id="stt108---statistical-analysis-of-large-data-sets" class="level3 course-card">
+<h3 class="anchored" data-anchor-id="stt108---statistical-analysis-of-large-data-sets">8STT108 - Statistical Analysis of Large Data Sets</h3>
 <p>Introduction to statistical methods for large datasets, with emphasis on model logic before automation.</p>
+</section>
+<section id="gen444---engineering-statistics" class="level3 course-card">
+<h3 class="anchored" data-anchor-id="gen444---engineering-statistics">8GEN444 - Engineering Statistics</h3>
+<p>Statistical methods applied to engineering problems.</p>
 </section>
 </div>
 </section>
+<section id="supervision" class="level2">
+<h2 class="anchored" data-anchor-id="supervision">Supervision</h2>
+<p>I have served as faculty consultant for three undergraduate projects on directional statistics (2024), random matrices (2025) and visual inference (2026). I have also supervised industry internships and undergraduate research projects at UQAC, and examined two master’s theses.</p>
+<p>My approach to supervision emphasizes a focused question, explicit milestones, version control and reproducible analysis. My <a href="../en/recherche.html">research themes</a> provide training topics in simulation, diagnostics, visualization and software development.</p>
+</section>
+<section id="academic-coordination-and-curriculum-development" class="level2">
+<h2 class="anchored" data-anchor-id="academic-coordination-and-curriculum-development">Academic coordination and curriculum development</h2>
+<p>At the CDA, I coordinate and train approximately 30 teaching assistants supporting mathematics and statistics courses. I develop diagnostic assessments to identify learning needs early and guide student support.</p>
+<p>I contribute to the review of the statistics degree and the development of Université Laval’s bachelor’s program in statistics and data science. I also contribute to the co-adaptation of <em>Probabilités et statistique, Science et génie</em>, fourth edition, forthcoming from TC Média Livres in April 2027.</p>
+<p><a href="../en/cda/index.html">GPT-CDA</a> received two PAIP teaching innovation grants, in 2025 and 2026, of CAD 20,000 each. Open resources, including <a href="../en/packages/tutorizeR.html">tutorizeR</a>, datasets and tutorials, extend this training work.</p>
+</section>
 <section id="teaching-recognition" class="level2">
 <h2 class="anchored" data-anchor-id="teaching-recognition">Teaching recognition</h2>
-<p>I received the Star Teacher Award again in 2026. This recognition adds to the 2014, 2023, 2024, and 2025 editions listed in my CV. The Faculty of Science and Engineering describes this title as a recognition given to instructors who receive excellent student evaluations.</p>
+<p>I received Teaching Stars recognition from the Faculty of Science and Engineering for 2022-2023, 2023-2024, 2024-2025 and 2025-2026, as well as the Professor Star Award in 2014. In 2026, I also received student recognition in the teaching award category at the Gala du mérite.</p>
 <p><a href="https://www.fsg.ulaval.ca/faculte/evenements-facultaires/ceremonie-des-etoiles-de-lenseignement-fsg" class="btn btn-outline-dark">FSG Teaching Stars ceremony</a></p>
 </section>
 <section id="shared-resources" class="level2">

@@ -29,6 +29,16 @@ Les exercices, rétroactions formatives, assistants de cours et ressources du CD
 :::
 :::
 
+## Expérience et langues d’enseignement
+
+J’enseigne au premier et au deuxième cycle à l’Université Laval et à l’UQAC. Mon expérience couvre les probabilités, la statistique appliquée, la science des données, la programmation R, la visualisation et la gestion de projets.
+
+- GSO-6092, *Project Management* : cours de deuxième cycle enseigné en anglais à l’hiver 2026, puis à l’automne 2026 (en cours).
+- GSO-6082, Gestion de projets : prise en charge partielle de 21 heures à l’automne 2026, dans le cadre d’un remplacement du 31 août au 16 octobre.
+- STT-1900 : enseignement et coordination en présence et à distance pour environ 350 étudiantes et étudiants en 2025.
+
+Dans les évaluations, je demande de justifier les choix de méthode, de vérifier les calculs et d’interpréter l’incertitude. Lorsque l’utilisation d’outils d’IA est permise, elle doit être déclarée et leurs résultats vérifiés. Ma [discussion publiée dans le Journal of Data Science (2026)](https://doi.org/10.6339/26-JDS1208H) porte sur les enjeux des travaux produits avec l’IA.
+
 ## Cours enseignés
 
 ### Université Laval
@@ -107,6 +117,23 @@ Outils : R, ggplot2, dplyr, R Markdown
 Approche : interprétation avant automatisation, communication claire des résultats
 :::
 :::
+
+::: {.course-card}
+### STT-1900 et STT-2920
+
+Méthodes statistiques pour l’ingénierie et Probabilités pour l’ingénierie. Enseignement des fondements probabilistes, de l’inférence et de la modélisation pour les programmes de génie.
+:::
+
+::: {.course-card}
+### GSO-6092 et GSO-6082
+
+Gestion de projets au deuxième cycle, en anglais et en français : planification, réseaux PERT et CPM, allocation des ressources et contrôle de projets. Les mandats de 2026 sont précisés ci-dessus.
+
+::: {.link-list}
+[Project Management](https://www.fsa.ulaval.ca/en/course/GSO-6092/){.btn .btn-outline-dark}
+[Gestion de projets](https://www.fsa.ulaval.ca/cours/GSO-6082/){.btn .btn-outline-dark}
+:::
+:::
 :::
 
 ### Université du Québec à Chicoutimi
@@ -119,21 +146,41 @@ Cours interdisciplinaire présentant le cycle complet d’un projet de science d
 :::
 
 ::: {.course-card}
-### 8INF416 - Visualisation et interface
+### 8INF416 - Visualisation de données et interface
 
 Cours consacré à la visualisation interactive et à la communication scientifique avec R, Shiny et ggplot2.
 :::
 
 ::: {.course-card}
-### 8STT108 - Méthodes statistiques pour les données massives
+### 8STT108 - Analyse statistique des données de masse
 
 Introduction aux méthodes statistiques appliquées aux grands ensembles de données, avec un accent sur la logique des modèles avant leur automatisation.
 :::
+
+::: {.course-card}
+### 8GEN444 - Statistiques de l’ingénieur
+
+Méthodes statistiques appliquées aux problèmes de génie.
 :::
+:::
+
+## Encadrement {#encadrement}
+
+J’ai accompagné, à titre d’enseignant-consultant, trois projets de baccalauréat consacrés à la statistique directionnelle (2024), aux matrices aléatoires (2025) et à l’inférence visuelle (2026). J’ai également supervisé des stages en entreprise et des projets de recherche au baccalauréat à l’UQAC, et évalué deux mémoires de maîtrise.
+
+Mon approche de l’encadrement privilégie une question précise, des étapes de travail explicites, le contrôle de version et des analyses reproductibles. Les [axes de recherche](recherche.qmd) offrent des sujets de formation en simulation, diagnostic, visualisation et développement logiciel.
+
+## Coordination et développement pédagogique
+
+Au CDA, je coordonne et forme environ 30 auxiliaires qui soutiennent les cours de mathématiques et de statistique. Je développe des tests diagnostiques pour repérer les besoins dès le début des cours et orienter l’accompagnement.
+
+Je contribue à la révision du baccalauréat en statistique et au développement du baccalauréat en statistique et science des données de l’Université Laval. Je participe aussi à la coadaptation de *Probabilités et statistique, Science et génie*, 4e édition, à paraître chez TC Média Livres en avril 2027.
+
+Le projet [GPT-CDA](cda/index.qmd) a obtenu deux subventions PAIP, en 2025 et en 2026, de 20 000 CAD chacune. Les ressources ouvertes, dont [tutorizeR](packages/tutorizeR.qmd), les jeux de données et les tutoriels, prolongent ce travail de formation.
 
 ## Reconnaissance pédagogique
 
-J’ai reçu à nouveau le Prix Enseignant Étoile en 2026. Cette reconnaissance s’ajoute aux éditions 2014, 2023, 2024 et 2025 indiquées dans mon CV. La Faculté des sciences et de génie décrit ce titre comme une reconnaissance accordée aux enseignantes et enseignants ayant reçu d’excellentes appréciations étudiantes.
+J’ai reçu les Étoiles de l’enseignement de la Faculté des sciences et de génie pour les années 2022-2023, 2023-2024, 2024-2025 et 2025-2026, ainsi que le Prix Professeur Étoile en 2014. En 2026, j’ai aussi reçu une mention des étudiants au prix de l’enseignement du Gala du mérite.
 
 [Cérémonie des Étoiles de l’enseignement FSG](https://www.fsg.ulaval.ca/faculte/evenements-facultaires/ceremonie-des-etoiles-de-lenseignement-fsg){.btn .btn-outline-dark}
 

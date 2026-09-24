@@ -10,7 +10,13 @@ lang: en
 I am a lecturer in mathematics and statistics in the Department of Mathematics and Statistics at Université Laval, in Quebec City. I also coordinate the Center for Tutoring and Learning in mathematics and statistics, a student success support service for several departmental courses.
 :::
 
-My work is situated at the intersection of university teaching, applied statistics, and digital tool development for teaching and research. I place central importance on reproducibility, open science, clear explanations, and accessible learning resources.
+I hold a PhD in Statistics from Université Laval (2024). I develop diagnostics and uncertainty quantification methods for latent-state models, directional data and density estimation. My work combines statistical methodology, simulation, visualization and reproducible R software.
+
+Before my current appointment, I worked as a statistical consultant at Université Laval (2014-2017), Data Science Manager at GSK Canada (2017-2020), and Director of Research and Analytics Innovation at Co-operators (2020-2022). I have also taught at UQAC since 2021. These experiences inform my approach to collaboration, training and traceable analysis.
+
+My teaching covers statistics, probability, data science and programming, as well as graduate project management in French and English. I emphasize understanding methods, reproducibility and human support.
+
+[Full experience and downloadable CVs](cv/index.qmd){.btn .btn-outline-dark}
 
 ::: {.about-grid}
 ::: {.profile-panel}

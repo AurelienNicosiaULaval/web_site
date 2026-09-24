@@ -75,7 +75,7 @@
   }
 
   function asIndex(pathname) {
-    return pathname === "" ? "index.html" : pathname.replace(/\/$/, "index.html");
+    return pathname === "" ? "index.html" : pathname.replace(/\/$/, "/index.html");
   }
 
   function isEnglishPage(pathname) {

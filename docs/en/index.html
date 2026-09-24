@@ -4071,7 +4071,7 @@ vertical-align: -.125em;
   }
 
   function asIndex(pathname) {
-    return pathname === "" ? "index.html" : pathname.replace(/\/$/, "index.html");
+    return pathname === "" ? "index.html" : pathname.replace(/\/$/, "/index.html");
   }
 
   function isEnglishPage(pathname) {
@@ -4706,6 +4706,15 @@ color: #ffffff;
 filter: brightness(0) invert(1);
 opacity: 0.9;
 }
+
+.hero-actions > p,
+.link-list > p {
+display: flex;
+flex-wrap: wrap;
+gap: 0.65rem;
+margin-bottom: 0;
+max-width: none;
+}
 </style>
 <meta property="og:title" content="Aurélien Nicosia">
 <meta property="og:image" content="https://aureliennicosiaulaval.github.io/web_site/assets/packages/donutmap-logo.svg">
@@ -4824,11 +4833,11 @@ opacity: 0.9;
 <div class="home-hero">
 <section id="aurélien-nicosia" class="level1 home-hero-copy">
 <h1>Aurélien Nicosia</h1>
-<section id="applied-statistics-data-science-and-university-teaching" class="level2">
-<h2 class="anchored" data-anchor-id="applied-statistics-data-science-and-university-teaching">Applied statistics, data science, and university teaching</h2>
-<p>Lecturer in mathematics and statistics at Université Laval in Quebec City. I develop teaching resources, R packages, and statistical methods at the intersection of rigorous analysis, visualization, and active learning.</p>
+<section id="computational-statistics-diagnostics-and-uncertainty" class="level2">
+<h2 class="anchored" data-anchor-id="computational-statistics-diagnostics-and-uncertainty">Computational statistics, diagnostics and uncertainty</h2>
+<p>I hold a PhD in Statistics and a permanent teaching appointment at Université Laval. I develop methods for understanding latent states, directional data and atypical observations, connecting statistical methodology, R software and university teaching.</p>
 <div class="hero-actions">
-<p><a href="../en/enseignement.html" class="btn btn-outline-dark btn-lg">Teaching</a> <a href="../en/recherche.html" class="btn btn-outline-dark btn-lg">Research</a> <a href="../en/packages.html" class="btn btn-outline-dark btn-lg">R packages</a> <a href="../en/innovation.html" class="btn btn-outline-dark btn-lg">Educational innovation</a></p>
+<p><a href="../en/recherche.html" class="btn btn-outline-dark btn-lg">Research and publications</a> <a href="../en/cv/index.html" class="btn btn-outline-dark btn-lg">Academic CV</a> <a href="../en/enseignement.html" class="btn btn-outline-dark btn-lg">Teaching</a> <a href="../en/packages.html" class="btn btn-outline-dark btn-lg">R packages</a></p>
 </div>
 </section>
 </section>
@@ -4838,9 +4847,53 @@ opacity: 0.9;
 </div>
 </div>
 </div>
+<section id="research-teaching-and-software" class="level2">
+<h2 class="anchored" data-anchor-id="research-teaching-and-software">Research, teaching and software</h2>
+<div class="feature-grid">
+<section id="a-connected-research-program" class="level3 feature-panel">
+<h3 class="anchored" data-anchor-id="a-connected-research-program">A connected research program</h3>
+<p>Three themes: sequential model diagnostics, directional statistics and influence in density estimation. Methods are accompanied by simulation studies and reproducible materials.</p>
+<p><a href="../en/recherche.html" class="btn btn-outline-dark">Contributions and directions</a></p>
+</section>
+<section id="teaching-and-student-training" class="level3 feature-panel">
+<h3 class="anchored" data-anchor-id="teaching-and-student-training">Teaching and student training</h3>
+<p>Undergraduate and graduate teaching in French and English, student project advising and coordination of academic support through the CDA.</p>
+<p><a href="../en/enseignement.html" class="btn btn-outline-dark">Courses and supervision</a></p>
+</section>
+<section id="open-software-and-resources" class="level3 feature-panel">
+<h3 class="anchored" data-anchor-id="open-software-and-resources">Open software and resources</h3>
+<p>R packages on CRAN, software under development and teaching resources that make methods accessible and analyses verifiable.</p>
+<p><a href="../en/packages.html" class="btn btn-outline-dark">Software and documentation</a></p>
+</section>
+</div>
+</section>
 <section id="updates-and-highlights" class="level2">
 <h2 class="anchored" data-anchor-id="updates-and-highlights">Updates and highlights</h2>
 <div class="news-grid">
+<div class="news-panel">
+<div class="eyebrow">
+<p>Publications</p>
+</div>
+<section id="animal-movement" class="level3">
+<h3 class="anchored" data-anchor-id="animal-movement">Animal movement</h3>
+<p>An article is published in Methods in Ecology and Evolution, and two bioRxiv preprints focus on behavioural-state inference and sequential predictive diagnostics for hidden Markov models of animal movement.</p>
+<div class="link-list">
+<p><a href="https://doi.org/10.1111/2041-210X.70313" class="btn btn-outline-dark">MEE article</a> <a href="https://doi.org/10.64898/2026.07.07.737005" class="btn btn-outline-dark">HMM preprint</a> <a href="https://doi.org/10.64898/2026.02.05.704063" class="btn btn-outline-dark">SSF preprint</a></p>
+</div>
+</section>
+</div>
+<div class="news-panel">
+<div class="eyebrow">
+<p>Presentations</p>
+</div>
+<section id="ssc-2026" class="level3">
+<h3 class="anchored" data-anchor-id="ssc-2026">SSC 2026</h3>
+<p>I led a workshop on AI and teaching, contributed to a public teaching-resource gallery, presented work on LOO-LBFP, and received the 2026 New Investigator Presentation Award.</p>
+<div class="link-list">
+<p><a href="https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/" class="btn btn-outline-dark">AI Gallery</a> <a href="https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf" class="btn btn-outline-dark">LOO-LBFP presentation</a></p>
+</div>
+</section>
+</div>
 <div class="news-panel">
 <div class="eyebrow">
 <p>Open teaching resources</p>
@@ -4913,53 +4966,9 @@ opacity: 0.9;
 </div>
 </section>
 </div>
-<div class="news-panel">
-<div class="eyebrow">
-<p>Presentations</p>
-</div>
-<section id="ssc-2026" class="level3">
-<h3 class="anchored" data-anchor-id="ssc-2026">SSC 2026</h3>
-<p>I led a workshop on AI and teaching, contributed to a public teaching-resource gallery, presented work on LOO-LBFP, and received the 2026 New Investigator Presentation Award.</p>
-<div class="link-list">
-<p><a href="https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/" class="btn btn-outline-dark">AI Gallery</a> <a href="https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf" class="btn btn-outline-dark">LOO-LBFP presentation</a></p>
-</div>
-</section>
-</div>
-<div class="news-panel">
-<div class="eyebrow">
-<p>Publications</p>
-</div>
-<section id="animal-movement" class="level3">
-<h3 class="anchored" data-anchor-id="animal-movement">Animal movement</h3>
-<p>An article is published in Methods in Ecology and Evolution, and two bioRxiv preprints focus on behavioural-state inference and sequential predictive diagnostics for hidden Markov models of animal movement.</p>
-<div class="link-list">
-<p><a href="https://doi.org/10.1111/2041-210X.70313" class="btn btn-outline-dark">MEE article</a> <a href="https://doi.org/10.64898/2026.07.07.737005" class="btn btn-outline-dark">HMM preprint</a> <a href="https://doi.org/10.64898/2026.02.05.704063" class="btn btn-outline-dark">SSF preprint</a></p>
-</div>
-</section>
-</div>
-</div>
-</section>
-<section id="site-focus" class="level2">
-<h2 class="anchored" data-anchor-id="site-focus">Site focus</h2>
-<div class="feature-grid">
-<section id="teaching" class="level3 feature-panel">
-<h3 class="anchored" data-anchor-id="teaching">Teaching</h3>
-<p>Courses in statistics, data science, and R programming grounded in practice, reproducibility, and scientific communication.</p>
-<p><a href="../en/enseignement.html" class="btn btn-outline-dark">View courses</a></p>
-</section>
-<section id="research" class="level3 feature-panel">
-<h3 class="anchored" data-anchor-id="research">Research</h3>
-<p>Statistical methods for complex data, with emphasis on density estimation, multi-state models, circular data, and animal movement.</p>
-<p><a href="../en/recherche.html" class="btn btn-outline-dark">View research areas</a></p>
-</section>
-<section id="software-and-resources" class="level3 feature-panel">
-<h3 class="anchored" data-anchor-id="software-and-resources">Software and resources</h3>
-<p>R packages, Quarto platforms, interactive tutorials, and open material supporting reproducible research and data science teaching.</p>
-<p><a href="../en/packages.html" class="btn btn-outline-dark">Explore packages</a></p>
-</section>
 </div>
 <div class="highlight-strip">
-<p>This website gathers my research, teaching, and pedagogical innovation activities. It emphasizes verifiable resources, links to repositories or publications, and materials that can be reused directly.</p>
+<p><a href="../en/cv/index.html">Read the academic CV</a>: experience, publications, software, teaching, supervision, funding and service. PDF versions in French and English.</p>
 </div>
 
 

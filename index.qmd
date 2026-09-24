@@ -9,15 +9,15 @@ toc: false
 ::: {.home-hero-copy}
 # Aurélien Nicosia
 
-## Statistique appliquée, science des données et pédagogie universitaire
+## Statistique computationnelle, diagnostics et incertitude
 
-Chargé d’enseignement en mathématiques et statistiques à l’Université Laval, à Québec. Je développe des ressources pédagogiques, des packages R et des méthodes statistiques à l’intersection de l’analyse rigoureuse, de la visualisation et de l’apprentissage actif.
+Chargé d’enseignement à l’Université Laval et docteur en statistique. Je développe des méthodes pour comprendre les états latents, les données directionnelles et les observations atypiques, en reliant recherche méthodologique, logiciels R et enseignement universitaire.
 
 ::: {.hero-actions}
+[Recherche et publications](recherche.qmd){.btn .btn-outline-dark .btn-lg}
+[CV académique](cv/index.qmd){.btn .btn-outline-dark .btn-lg}
 [Enseignement](enseignement.qmd){.btn .btn-outline-dark .btn-lg}
-[Recherche](recherche.qmd){.btn .btn-outline-dark .btn-lg}
 [Packages R](packages.qmd){.btn .btn-outline-dark .btn-lg}
-[Innovation pédagogique](innovation.qmd){.btn .btn-outline-dark .btn-lg}
 :::
 :::
 
@@ -30,9 +30,66 @@ Chargé d’enseignement en mathématiques et statistiques à l’Université La
 :::
 :::
 
+## Recherche, enseignement et logiciels
+
+::: {.feature-grid}
+::: {.feature-panel}
+### Un programme de recherche cohérent
+
+Trois axes : diagnostics des modèles séquentiels, statistique directionnelle et influence en estimation de densité. Les méthodes sont accompagnées de simulations et de matériel reproductible.
+
+[Contributions et perspectives](recherche.qmd){.btn .btn-outline-dark}
+:::
+::: {.feature-panel}
+### Enseigner et former
+
+Expérience au premier et au deuxième cycle, en français et en anglais, accompagnement de projets étudiants et coordination du soutien à la réussite au CDA.
+
+[Cours et encadrement](enseignement.qmd){.btn .btn-outline-dark}
+:::
+::: {.feature-panel}
+### Diffuser des outils ouverts
+
+Packages R sur le CRAN, logiciels en développement et ressources pédagogiques pour rendre les méthodes accessibles et les analyses vérifiables.
+
+[Logiciels et documentation](packages.qmd){.btn .btn-outline-dark}
+:::
+:::
+
 ## Actualités et points forts
 
 ::: {.news-grid}
+
+::: {.news-panel}
+::: {.eyebrow}
+Publications
+:::
+
+### Mouvement animalier
+
+Un article est publié dans Methods in Ecology and Evolution et deux prépublications bioRxiv portent sur l’inférence des états comportementaux et les diagnostics prédictifs séquentiels pour les modèles de Markov cachés appliqués au mouvement animalier.
+
+::: {.link-list}
+[Article MEE](https://doi.org/10.1111/2041-210X.70313){.btn .btn-outline-dark}
+[Prépublication HMM](https://doi.org/10.64898/2026.07.07.737005){.btn .btn-outline-dark}
+[Prépublication SSF](https://doi.org/10.64898/2026.02.05.704063){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.news-panel}
+::: {.eyebrow}
+Communications
+:::
+
+### SSC 2026
+
+J’ai animé un atelier sur l’IA et l’enseignement, contribué à une galerie publique de ressources pédagogiques, présenté des travaux sur LOO-LBFP et reçu le prix 2026 de la présentation par un nouveau chercheur.
+
+::: {.link-list}
+[AI Gallery](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/){.btn .btn-outline-dark}
+[Présentation LOO-LBFP](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf){.btn .btn-outline-dark}
+:::
+:::
 
 ::: {.news-panel}
 ::: {.eyebrow}
@@ -121,66 +178,8 @@ Logiciels R
 :::
 :::
 
-::: {.news-panel}
-::: {.eyebrow}
-Communications
-:::
-
-### SSC 2026
-
-J’ai animé un atelier sur l’IA et l’enseignement, contribué à une galerie publique de ressources pédagogiques, présenté des travaux sur LOO-LBFP et reçu le prix 2026 de la présentation par un nouveau chercheur.
-
-::: {.link-list}
-[AI Gallery](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/){.btn .btn-outline-dark}
-[Présentation LOO-LBFP](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf){.btn .btn-outline-dark}
-:::
-:::
-
-::: {.news-panel}
-::: {.eyebrow}
-Publications
-:::
-
-### Mouvement animalier
-
-Un article est publié dans Methods in Ecology and Evolution et deux prépublications bioRxiv portent sur l’inférence des états comportementaux et les diagnostics prédictifs séquentiels pour les modèles de Markov cachés appliqués au mouvement animalier.
-
-::: {.link-list}
-[Article MEE](https://doi.org/10.1111/2041-210X.70313){.btn .btn-outline-dark}
-[Prépublication HMM](https://doi.org/10.64898/2026.07.07.737005){.btn .btn-outline-dark}
-[Prépublication SSF](https://doi.org/10.64898/2026.02.05.704063){.btn .btn-outline-dark}
-:::
-:::
-:::
-
-## Axes du site
-
-::: {.feature-grid}
-::: {.feature-panel}
-### Enseignement
-
-Cours de statistique, de science des données et de programmation R fondés sur la pratique, la reproductibilité et la communication scientifique.
-
-[Voir les cours](enseignement.qmd){.btn .btn-outline-dark}
-:::
-
-::: {.feature-panel}
-### Recherche
-
-Méthodes statistiques pour données complexes, avec un accent sur l’estimation de densité, les modèles multi-états, les données circulaires et le mouvement animalier.
-
-[Voir les axes de recherche](recherche.qmd){.btn .btn-outline-dark}
-:::
-
-::: {.feature-panel}
-### Logiciels et ressources
-
-Packages R, plateformes Quarto, tutoriels interactifs et matériel ouvert pour soutenir la recherche reproductible et l’enseignement de la science des données.
-
-[Explorer les packages](packages.qmd){.btn .btn-outline-dark}
-:::
 :::
 
 ::: {.highlight-strip}
-Ce site rassemble mes activités de recherche, d’enseignement et d’innovation pédagogique. Les pages privilégient les ressources vérifiables, les liens vers les dépôts ou publications, et les matériaux directement réutilisables.
+[Consulter le CV académique](cv/index.qmd) : parcours, publications, logiciels, enseignement, encadrement, financement et service. Versions PDF en français et en anglais.
 :::

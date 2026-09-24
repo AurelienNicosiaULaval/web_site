@@ -616,3 +616,13 @@ body:has(.home-hero) #title-block-header {
   filter: brightness(0) invert(1);
   opacity: 0.9;
 }
+
+/* Quarto wraps adjacent action links in a paragraph. Keep their spacing. */
+.hero-actions > p,
+.link-list > p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-bottom: 0;
+  max-width: none;
+}

@@ -4,64 +4,73 @@ lang: en
 embed-resources: true
 ---
 
-## Overview
+## Research program
 
 ::: {.section-intro}
-My work is situated at the interface of applied mathematics, computational statistics, and data science. I develop interpretable methods for analysing complex data, with particular attention to reproducibility, open-source software, and translation into usable tools.
+How can we obtain reliable inference when data structure is partly hidden, constrained by geometry or sensitive to numerical approximation? I develop model diagnostics and uncertainty quantification methods to address this question. My program connects probabilistic modelling, simulation, visualization and reproducible R software.
 :::
 
-## Research areas
+::: {.link-list}
+[Publications and preprints](#publications){.btn .btn-outline-dark}
+[Academic CV](cv/index.qmd){.btn .btn-outline-dark}
+:::
 
-::: {.research-axis-grid}
+## Contributions and research themes
+
+::: {.feature-grid}
 ::: {.research-card}
-::: {.eyebrow}
-Densities and anomalies
+### Sequential models and latent states
+
+My work with Thierry Duchesne, Louis-Paul Rivest and Daniel Fortin developed multi-state models for animal movement, published in [CSDA in 2017](https://doi.org/10.1016/j.csda.2016.07.009) and [AOAS in 2017](https://doi.org/10.1214/17-AOAS1045).
+
+In [Beyond the next step (2026)](https://doi.org/10.1111/2041-210X.70313), I propose generative validation for step-selection functions: comparing simulated trajectories with the movement features that motivate the analysis. My preprints study sequential predictive diagnostics and uncertainty in latent-state sequences.
+
+::: {.link-list}
+[Viterbi tubes, preprint](https://arxiv.org/abs/2606.17181){.btn .btn-outline-dark}
 :::
-
-### Density estimation
-
-Development of GLBFP methods, for General Linear Blend Frequency Polygons, extending ideas from histograms, average shifted histograms, and linear blend frequency polygons. The goal is to produce stable, adaptive, and geometrically interpretable estimators, especially for atypical-observation detection.
-
-[GLBFP](https://github.com/AurelienNicosiaULaval/GLBFP){.btn .btn-outline-dark}
 :::
 
 ::: {.research-card}
-::: {.eyebrow}
-Directional data
-:::
+### Directional statistics
 
-### Circular statistics
+With Louis-Paul Rivest, Thierry Duchesne and Daniel Fortin, I contributed to a [general angular regression model (2016)](https://doi.org/10.1111/rssc.12124). A [2026 preprint](https://arxiv.org/abs/2607.06790) proposes an extension with a circular random intercept and a scalar random slope.
 
-Models for circular, axial, and directional data, including angular responses, circular random effects, and visualizations adapted to angles, orientations, directions, and times of day.
+I also develop regression and visualization software connecting the geometry of circular, axial and toroidal data to the statistical questions being studied.
 
+::: {.link-list}
 [CircularRegression](packages/circularregression.qmd){.btn .btn-outline-dark}
 [ggcircular](packages/ggcircular.qmd){.btn .btn-outline-dark}
 :::
-
-::: {.research-card}
-::: {.eyebrow}
-Latent dynamics
-:::
-
-### Hidden Markov models
-
-Modeling of temporal and spatio-temporal data with hidden-state models, with particular interest in the effect of temporal scale on inference, multi-individual models, and links with step-selection functions.
-
-[Thesis and code](https://github.com/AurelienNicosiaULaval/multi-state-model-animal-movement){.btn .btn-outline-dark}
 :::
 
 ::: {.research-card}
-::: {.eyebrow}
-Translation
+### Density and outlier diagnostics
+
+With Thierry Duchesne and Michel Carbon, I develop a [leave-one-out influence diagnostic](https://arxiv.org/abs/2607.14335) for outlier detection based on linear-blend frequency polygons.
+
+The GLBFP package provides the density estimation software base. Leave-one-out diagnostics are available in its GitHub development version. The presentation of this work received the [2026 SSC New Investigator Presentation Award](https://ssc.ca/en/awards/2026/aurelien-nicosia-new-investigator-presentation-award-2026).
+
+::: {.link-list}
+[GLBFP and release status](packages/glbfp.qmd){.btn .btn-outline-dark}
+:::
+:::
 :::
 
-### Applied data science
+## Future directions
 
-Development of resources and tools connecting statistical methods, machine learning, interpretability, robustness, and data science education.
+The next stages of my program address three questions:
 
-[Teaching resources](ressources.qmd){.btn .btn-outline-dark}
-:::
-:::
+- Localizing failures in sequential models, representing multiple plausible latent trajectories and quantifying error introduced by Monte Carlo approximation.
+- Developing diagnostics for hierarchical circular models and dependence tests adapted to circular and toroidal spaces.
+- Studying the stability of density diagnostics across dimensions, tuning choices and sampling regimes, with reproducible comparisons of computational cost.
+
+Animal movement is an established application area. Environmental sequences and sensor data are prospective extensions to be developed with domain specialists.
+
+## Research training
+
+I favour projects that begin with a focused question, a literature review and reproduction of existing results. Contributions can address theory, simulation, visualization or software validation. Each project should distinguish mathematical results, numerical evidence and open questions.
+
+My experience includes undergraduate project advising, industry internship supervision and examination of master’s theses. Proposed graduate projects build on the three themes above. [Teaching and supervision](enseignement.qmd#supervision).
 
 ## Doctoral thesis
 
@@ -159,27 +168,18 @@ Public prototype of angular regression models with random effects, implemented w
 
 - SSC 2026. A Leave-One-Out Influence Statistic for Scalable Density-Based Outlier Detection, with Thierry Duchesne and Michel Carbon. [Presentation PDF](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf) and [GitHub repository](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation). This presentation received the 2026 New Investigator Presentation Award.
 
-## Publications
+## Publications {#publications}
 
-### Published articles
+References updated September 24, 2026. Preprints are listed separately from published journal articles.
 
-1. Nicosia, A. (2026). Beyond the next step: A multi-criteria generative validation framework for step selection functions. Methods in Ecology and Evolution, 17(6), 1754-1767. [https://doi.org/10.1111/2041-210X.70313](https://doi.org/10.1111/2041-210X.70313)
+### Peer-reviewed articles
 
-2. Nicosia, A. (2026). Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”. Journal of Data Science. [https://doi.org/10.6339/26-JDS1208H](https://doi.org/10.6339/26-JDS1208H)
+{{< include ../_includes/articles.md >}}
 
-3. Gagnon, S., Allard, M., Nicosia, A. (2018). Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada. Arctic Science, 4(1), 1-15. [https://doi.org/10.1139/AS-2016-0045](https://doi.org/10.1139/AS-2016-0045)
+### Published discussion in statistics education
 
-4. Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement. Annals of Applied Statistics, 11(3), 1537-1560. [https://doi.org/10.1214/17-AOAS1045](https://doi.org/10.1214/17-AOAS1045)
-
-5. Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A General Hidden State Random Walk Model for Animal Movement. Computational Statistics & Data Analysis, 105, 76-95. [https://doi.org/10.1016/j.csda.2016.07.009](https://doi.org/10.1016/j.csda.2016.07.009)
-
-6. Rivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D. (2016). A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology. Journal of the Royal Statistical Society: Series C, 65(3), 445-463. [https://doi.org/10.1111/rssc.12124](https://doi.org/10.1111/rssc.12124)
+{{< include ../_includes/discussion.md >}}
 
 ### Preprints
 
-1. Nicosia, A. (2026). Sequential predictive e-diagnostics for hidden Markov models of animal movement. bioRxiv. [https://doi.org/10.64898/2026.07.07.737005](https://doi.org/10.64898/2026.07.07.737005)
-
-2. Bouderbala, I., Nicosia, A., Fortin, D. (2026). Behavioural state inference from movement and environmental data using Markovian step selection functions. bioRxiv. [https://doi.org/10.64898/2026.02.05.704063](https://doi.org/10.64898/2026.02.05.704063)
-
-
-3. Nicosia, A., Duchesne, T., Carbon, M. (2026). A Leave-One-Out Influence Statistic for Density-Based Outlier Detection. arXiv, 2607.14335. [Preprint](https://arxiv.org/abs/2607.14335).
+{{< include ../_includes/preprints.md >}}

@@ -18,21 +18,35 @@
     "href": "recherche.html",
     "title": "Recherche",
     "section": "",
-    "text": "Mes travaux se situent à l’interface des mathématiques appliquées, de la statistique computationnelle et de la science des données. Je développe des méthodes interprétables pour analyser des données complexes, avec une attention particulière à la reproductibilité, aux logiciels libres et au transfert vers la pratique."
+    "text": "Comment obtenir une inférence fiable lorsque la structure des données est partiellement cachée, contrainte par leur géométrie ou sensible aux approximations numériques? Je développe des méthodes de diagnostic et de quantification de l’incertitude pour répondre à cette question. Mon programme relie modèles probabilistes, simulation, visualisation et logiciels R reproductibles.\n\n\nPublications et prépublications CV académique"
   },
   {
-    "objectID": "recherche.html#vision-générale",
-    "href": "recherche.html#vision-générale",
+    "objectID": "recherche.html#programme-de-recherche",
+    "href": "recherche.html#programme-de-recherche",
     "title": "Recherche",
     "section": "",
-    "text": "Mes travaux se situent à l’interface des mathématiques appliquées, de la statistique computationnelle et de la science des données. Je développe des méthodes interprétables pour analyser des données complexes, avec une attention particulière à la reproductibilité, aux logiciels libres et au transfert vers la pratique."
+    "text": "Comment obtenir une inférence fiable lorsque la structure des données est partiellement cachée, contrainte par leur géométrie ou sensible aux approximations numériques? Je développe des méthodes de diagnostic et de quantification de l’incertitude pour répondre à cette question. Mon programme relie modèles probabilistes, simulation, visualisation et logiciels R reproductibles.\n\n\nPublications et prépublications CV académique"
   },
   {
-    "objectID": "recherche.html#axes-de-recherche",
-    "href": "recherche.html#axes-de-recherche",
+    "objectID": "recherche.html#contributions-et-axes-de-recherche",
+    "href": "recherche.html#contributions-et-axes-de-recherche",
     "title": "Recherche",
-    "section": "Axes de recherche",
-    "text": "Axes de recherche\n\n\n\nDensités et anomalies\n\n\nEstimation de densité\nDéveloppement de méthodes de type GLBFP, pour General Linear Blend Frequency Polygons, qui prolongent les idées des histogrammes, des average shifted histograms et des linear blend frequency polygons. L’objectif est de produire des estimateurs stables, adaptatifs et interprétables géométriquement, notamment pour la détection d’observations atypiques.\nGLBFP\n\n\n\n\nDonnées directionnelles\n\n\nStatistique circulaire\nModèles pour données circulaires, axiales et directionnelles, incluant des réponses angulaires, des effets aléatoires circulaires et des visualisations adaptées aux angles, orientations, directions et heures de la journée.\nCircularRegression ggcircular\n\n\n\n\nDynamiques latentes\n\n\nModèles de Markov cachés\nModélisation de données temporelles et spatio-temporelles par modèles cachés, avec un intérêt particulier pour l’effet de l’échelle temporelle sur l’inférence, les modèles multi-individus et les liens avec les fonctions de sélection de pas.\nThèse et code\n\n\n\n\nTransfert\n\n\nScience des données appliquée\nDéveloppement de ressources et d’outils qui relient méthodes statistiques, apprentissage automatique, interprétabilité, robustesse et formation en science des données.\nRessources pédagogiques"
+    "section": "Contributions et axes de recherche",
+    "text": "Contributions et axes de recherche\n\n\nModèles séquentiels et états latents\nMes travaux avec Thierry Duchesne, Louis-Paul Rivest et Daniel Fortin ont développé des modèles multi-états pour le mouvement animalier, publiés dans CSDA en 2017 et AOAS en 2017.\nDans Beyond the next step (2026), je propose une validation générative des fonctions de sélection de pas : comparer des trajectoires simulées aux caractéristiques du mouvement qui motivent l’analyse. Mes prépublications étudient les diagnostics prédictifs séquentiels et l’incertitude autour des séquences d’états.\n\nTubes de Viterbi, prépublication\n\n\n\nStatistique directionnelle\nAvec Louis-Paul Rivest, Thierry Duchesne et Daniel Fortin, j’ai contribué à un modèle général de régression angulaire (2016). Une prépublication de 2026 propose une extension avec intercept aléatoire circulaire et pente aléatoire scalaire.\nJe développe aussi des logiciels de régression et de visualisation pour relier la géométrie des données circulaires, axiales ou toroïdales aux questions statistiques posées.\n\nCircularRegression ggcircular\n\n\n\nDensités et observations atypiques\nAvec Thierry Duchesne et Michel Carbon, je développe un diagnostic d’influence leave-one-out pour la détection d’observations atypiques à partir de polygones de fréquence à mélange linéaire.\nLe package GLBFP fournit la base logicielle pour l’estimation de densité. Les diagnostics leave-one-out sont disponibles dans sa version de développement GitHub. La présentation de ces travaux a reçu le New Investigator Presentation Award de la SSC en 2026.\n\nGLBFP et statuts des versions"
+  },
+  {
+    "objectID": "recherche.html#développements-à-venir",
+    "href": "recherche.html#développements-à-venir",
+    "title": "Recherche",
+    "section": "Développements à venir",
+    "text": "Développements à venir\nLes prochaines étapes de mon programme portent sur trois questions :\n\nLocaliser les défauts des modèles séquentiels, représenter plusieurs trajectoires latentes plausibles et quantifier l’erreur introduite par les approximations de Monte Carlo.\nDévelopper des diagnostics pour les modèles circulaires hiérarchiques et des tests de dépendance adaptés aux espaces circulaires et toroïdaux.\nÉtudier la stabilité des diagnostics de densité selon la dimension, les paramètres de réglage et le régime d’échantillonnage, avec des comparaisons reproductibles du coût de calcul.\n\nL’analyse du mouvement animalier constitue un terrain d’application établi. Les séries environnementales et les données de capteurs représentent des prolongements envisagés, à construire avec des spécialistes des domaines concernés."
+  },
+  {
+    "objectID": "recherche.html#formation-par-la-recherche",
+    "href": "recherche.html#formation-par-la-recherche",
+    "title": "Recherche",
+    "section": "Formation par la recherche",
+    "text": "Formation par la recherche\nJe privilégie des projets qui commencent par une question délimitée, une revue de littérature et une reproduction de résultats existants. Les contributions peuvent porter sur la théorie, la simulation, la visualisation ou la validation logicielle. Chaque projet doit distinguer les résultats démontrés, les observations numériques et les questions encore ouvertes.\nMon expérience comprend l’accompagnement de projets de baccalauréat, de stages en entreprise et l’évaluation de mémoires de maîtrise. Les projets proposés aux cycles supérieurs s’inscrivent dans les trois axes ci-dessus. Enseignement et encadrement."
   },
   {
     "objectID": "recherche.html#thèse-de-doctorat",
@@ -67,7 +81,7 @@
     "href": "recherche.html#publications",
     "title": "Recherche",
     "section": "Publications",
-    "text": "Publications\n\nArticles publiés\n\nNicosia, A. (2026). Beyond the next step: A multi-criteria generative validation framework for step selection functions. Methods in Ecology and Evolution, 17(6), 1754-1767. https://doi.org/10.1111/2041-210X.70313\nNicosia, A. (2026). Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”. Journal of Data Science. https://doi.org/10.6339/26-JDS1208H\nGagnon, S., Allard, M., Nicosia, A. (2018). Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada. Arctic Science, 4(1), 1-15. https://doi.org/10.1139/AS-2016-0045\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement. Annals of Applied Statistics, 11(3), 1537-1560. https://doi.org/10.1214/17-AOAS1045\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A General Hidden State Random Walk Model for Animal Movement. Computational Statistics & Data Analysis, 105, 76-95. https://doi.org/10.1016/j.csda.2016.07.009\nRivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D. (2016). A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology. Journal of the Royal Statistical Society: Series C, 65(3), 445-463. https://doi.org/10.1111/rssc.12124\n\n\n\nPrépublications\n\nNicosia, A. (2026). Sequential predictive e-diagnostics for hidden Markov models of animal movement. bioRxiv. https://doi.org/10.64898/2026.07.07.737005\nBouderbala, I., Nicosia, A., Fortin, D. (2026). Behavioural state inference from movement and environmental data using Markovian step selection functions. bioRxiv. https://doi.org/10.64898/2026.02.05.704063\nNicosia, A., Duchesne, T., Carbon, M. (2026). A Leave-One-Out Influence Statistic for Density-Based Outlier Detection. arXiv, 2607.14335. Prépublication."
+    "text": "Publications\nRéférences mises à jour le 24 septembre 2026. Les prépublications sont présentées séparément des articles publiés dans des revues.\n\nArticles publiés avec comité de lecture\n\nNicosia, A. (2026). Beyond the next step: A multi-criteria generative validation framework for step selection functions. Methods in Ecology and Evolution, 17(6), 1754-1767. https://doi.org/10.1111/2041-210X.70313\nGagnon, S., Allard, M., Nicosia, A. (2018). Diurnal and seasonal variations of tundra CO2 emissions in a polygonal peatland near Salluit, Nunavik, Canada. Arctic Science, 4(1), 1-15. https://doi.org/10.1139/AS-2016-0045\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement. Annals of Applied Statistics, 11(3), 1537-1560. https://doi.org/10.1214/17-AOAS1045\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A General Hidden State Random Walk Model for Animal Movement. Computational Statistics & Data Analysis, 105, 76-95. https://doi.org/10.1016/j.csda.2016.07.009\nRivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D. (2016). A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology. Journal of the Royal Statistical Society Series C: Applied Statistics, 65(3), 445-463. https://doi.org/10.1111/rssc.12124\n\n\n\nDiscussion publiée en pédagogie statistique\n\nNicosia, A. (2026). Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”. Journal of Data Science, 24(1), 276-281. https://doi.org/10.6339/26-JDS1208H\n\n\n\nPrépublications\n\nNicosia, A., Duchesne, T., Carbon, M. (2026). A Leave-One-Out Influence Statistic for Density-Based Outlier Detection. arXiv:2607.14335. doi:10.48550/arXiv.2607.14335.\nNicosia, A. (2026). A generalized angular regression model with a circular random intercept and a scalar random slope. arXiv:2607.06790. doi:10.48550/arXiv.2607.06790.\nNicosia, A. (2026). Tropical Viterbi Tubes for Decoding Uncertainty in Hidden Markov Models. arXiv:2606.17181. doi:10.48550/arXiv.2606.17181.\nNicosia, A. (2026). Sequential predictive e-diagnostics for hidden Markov models of animal movement. bioRxiv. doi:10.64898/2026.07.07.737005.\nBouderbala, I., Nicosia, A., Fortin, D. (2026). Behavioural state inference from movement and environmental data using Markovian step selection functions. bioRxiv. doi:10.64898/2026.02.05.704063."
   },
   {
     "objectID": "presentations/au-dela-du-prompt/index.html",
@@ -259,18 +273,39 @@
     "text": "J’aborde l’enseignement des mathématiques, de la statistique et de la science des données comme une activité de compréhension, de pratique et de communication. Les cours sont conçus pour amener les étudiantes et étudiants à produire des analyses reproductibles, à justifier leurs choix et à expliquer clairement leurs résultats.\n\n\n\n\nLes séances privilégient les manipulations, les mises en situation et les projets où les concepts statistiques sont mobilisés dans un contexte concret.\n\n\n\nLes activités utilisent R, Quarto, GitHub et des structures de projet explicites afin de rendre le raisonnement, le code et les résultats vérifiables.\n\n\n\nLes exercices, rétroactions formatives, assistants de cours et ressources du CDA visent à soutenir l’autonomie sans remplacer l’effort de compréhension."
   },
   {
+    "objectID": "enseignement.html#expérience-et-langues-denseignement",
+    "href": "enseignement.html#expérience-et-langues-denseignement",
+    "title": "Enseignement",
+    "section": "Expérience et langues d’enseignement",
+    "text": "Expérience et langues d’enseignement\nJ’enseigne au premier et au deuxième cycle à l’Université Laval et à l’UQAC. Mon expérience couvre les probabilités, la statistique appliquée, la science des données, la programmation R, la visualisation et la gestion de projets.\n\nGSO-6092, Project Management : cours de deuxième cycle enseigné en anglais à l’hiver 2026, puis à l’automne 2026 (en cours).\nGSO-6082, Gestion de projets : prise en charge partielle de 21 heures à l’automne 2026, dans le cadre d’un remplacement du 31 août au 16 octobre.\nSTT-1900 : enseignement et coordination en présence et à distance pour environ 350 étudiantes et étudiants en 2025.\n\nDans les évaluations, je demande de justifier les choix de méthode, de vérifier les calculs et d’interpréter l’incertitude. Lorsque l’utilisation d’outils d’IA est permise, elle doit être déclarée et leurs résultats vérifiés. Ma discussion publiée dans le Journal of Data Science (2026) porte sur les enjeux des travaux produits avec l’IA."
+  },
+  {
     "objectID": "enseignement.html#cours-enseignés",
     "href": "enseignement.html#cours-enseignés",
     "title": "Enseignement",
     "section": "Cours enseignés",
-    "text": "Cours enseignés\n\nUniversité Laval\n\n\n\nScience des données\n\n\nSTT-1100 - Introduction à la science des données\nCours d’introduction centré sur des mises en situation professionnelles où les étudiants incarnent un rôle en science des données. Le cours couvre le cycle d’analyse, de l’importation des données à la communication des résultats.\n\nOutils : R, tidyverse, Quarto, GitHub\nApproche : apprentissage actif, études de cas francophones, réflexion éthique sur les données\n\n\nNotes de cours GPT STT-1100\n\n\n\n\n\nProgrammation scientifique\n\n\nSTT-4230 / STT-6230 - Programmation pour la science des données\nCours axé sur les bonnes pratiques de développement : structuration de projets, documentation, tests, collaboration et diffusion avec GitHub.\n\nOutils : R, Quarto, GitHub, testthat\nApproche : clarté, reproductibilité, intégration des outils modernes\n\n\nNotes de cours GPT STT-4230 UlavalSSD\n\n\n\n\n\nModélisation appliquée\n\n\nMQT-2101 - Analyse et modélisation des données\nCours appliqué mobilisant R et Quarto pour étudier la régression, la prévision et la classification, avec notes, capsules vidéo et activités d’analyse.\n\nSite du cours\n\n\n\n\n\nStatistique appliquée\n\n\nSTT-2200 - Analyse de données\nCours de statistique appliquée où les étudiantes et étudiants travaillent à partir de jeux de données réels et produisent des rapports reproductibles.\n\nOutils : R, ggplot2, dplyr, R Markdown\nApproche : interprétation avant automatisation, communication claire des résultats\n\n\n\n\n\n\nUniversité du Québec à Chicoutimi\n\n\n\n8INF404 - Introduction à la science des données et intelligence d’affaires\nCours interdisciplinaire présentant le cycle complet d’un projet de science des données : préparation, exploration, modélisation prédictive et communication.\n\n\n8INF416 - Visualisation et interface\nCours consacré à la visualisation interactive et à la communication scientifique avec R, Shiny et ggplot2.\n\n\n8STT108 - Méthodes statistiques pour les données massives\nIntroduction aux méthodes statistiques appliquées aux grands ensembles de données, avec un accent sur la logique des modèles avant leur automatisation."
+    "text": "Cours enseignés\n\nUniversité Laval\n\n\n\nScience des données\n\n\nSTT-1100 - Introduction à la science des données\nCours d’introduction centré sur des mises en situation professionnelles où les étudiants incarnent un rôle en science des données. Le cours couvre le cycle d’analyse, de l’importation des données à la communication des résultats.\n\nOutils : R, tidyverse, Quarto, GitHub\nApproche : apprentissage actif, études de cas francophones, réflexion éthique sur les données\n\n\nNotes de cours GPT STT-1100\n\n\n\n\n\nProgrammation scientifique\n\n\nSTT-4230 / STT-6230 - Programmation pour la science des données\nCours axé sur les bonnes pratiques de développement : structuration de projets, documentation, tests, collaboration et diffusion avec GitHub.\n\nOutils : R, Quarto, GitHub, testthat\nApproche : clarté, reproductibilité, intégration des outils modernes\n\n\nNotes de cours GPT STT-4230 UlavalSSD\n\n\n\n\n\nModélisation appliquée\n\n\nMQT-2101 - Analyse et modélisation des données\nCours appliqué mobilisant R et Quarto pour étudier la régression, la prévision et la classification, avec notes, capsules vidéo et activités d’analyse.\n\nSite du cours\n\n\n\n\n\nStatistique appliquée\n\n\nSTT-2200 - Analyse de données\nCours de statistique appliquée où les étudiantes et étudiants travaillent à partir de jeux de données réels et produisent des rapports reproductibles.\n\nOutils : R, ggplot2, dplyr, R Markdown\nApproche : interprétation avant automatisation, communication claire des résultats\n\n\n\n\nSTT-1900 et STT-2920\nMéthodes statistiques pour l’ingénierie et Probabilités pour l’ingénierie. Enseignement des fondements probabilistes, de l’inférence et de la modélisation pour les programmes de génie.\n\n\nGSO-6092 et GSO-6082\nGestion de projets au deuxième cycle, en anglais et en français : planification, réseaux PERT et CPM, allocation des ressources et contrôle de projets. Les mandats de 2026 sont précisés ci-dessus.\n\nProject Management Gestion de projets\n\n\n\n\n\nUniversité du Québec à Chicoutimi\n\n\n\n8INF404 - Introduction à la science des données et intelligence d’affaires\nCours interdisciplinaire présentant le cycle complet d’un projet de science des données : préparation, exploration, modélisation prédictive et communication.\n\n\n8INF416 - Visualisation de données et interface\nCours consacré à la visualisation interactive et à la communication scientifique avec R, Shiny et ggplot2.\n\n\n8STT108 - Analyse statistique des données de masse\nIntroduction aux méthodes statistiques appliquées aux grands ensembles de données, avec un accent sur la logique des modèles avant leur automatisation.\n\n\n8GEN444 - Statistiques de l’ingénieur\nMéthodes statistiques appliquées aux problèmes de génie."
+  },
+  {
+    "objectID": "enseignement.html#encadrement",
+    "href": "enseignement.html#encadrement",
+    "title": "Enseignement",
+    "section": "Encadrement",
+    "text": "Encadrement\nJ’ai accompagné, à titre d’enseignant-consultant, trois projets de baccalauréat consacrés à la statistique directionnelle (2024), aux matrices aléatoires (2025) et à l’inférence visuelle (2026). J’ai également supervisé des stages en entreprise et des projets de recherche au baccalauréat à l’UQAC, et évalué deux mémoires de maîtrise.\nMon approche de l’encadrement privilégie une question précise, des étapes de travail explicites, le contrôle de version et des analyses reproductibles. Les axes de recherche offrent des sujets de formation en simulation, diagnostic, visualisation et développement logiciel."
+  },
+  {
+    "objectID": "enseignement.html#coordination-et-développement-pédagogique",
+    "href": "enseignement.html#coordination-et-développement-pédagogique",
+    "title": "Enseignement",
+    "section": "Coordination et développement pédagogique",
+    "text": "Coordination et développement pédagogique\nAu CDA, je coordonne et forme environ 30 auxiliaires qui soutiennent les cours de mathématiques et de statistique. Je développe des tests diagnostiques pour repérer les besoins dès le début des cours et orienter l’accompagnement.\nJe contribue à la révision du baccalauréat en statistique et au développement du baccalauréat en statistique et science des données de l’Université Laval. Je participe aussi à la coadaptation de Probabilités et statistique, Science et génie, 4e édition, à paraître chez TC Média Livres en avril 2027.\nLe projet GPT-CDA a obtenu deux subventions PAIP, en 2025 et en 2026, de 20 000 CAD chacune. Les ressources ouvertes, dont tutorizeR, les jeux de données et les tutoriels, prolongent ce travail de formation."
   },
   {
     "objectID": "enseignement.html#reconnaissance-pédagogique",
     "href": "enseignement.html#reconnaissance-pédagogique",
     "title": "Enseignement",
     "section": "Reconnaissance pédagogique",
-    "text": "Reconnaissance pédagogique\nJ’ai reçu à nouveau le Prix Enseignant Étoile en 2026. Cette reconnaissance s’ajoute aux éditions 2014, 2023, 2024 et 2025 indiquées dans mon CV. La Faculté des sciences et de génie décrit ce titre comme une reconnaissance accordée aux enseignantes et enseignants ayant reçu d’excellentes appréciations étudiantes.\nCérémonie des Étoiles de l’enseignement FSG"
+    "text": "Reconnaissance pédagogique\nJ’ai reçu les Étoiles de l’enseignement de la Faculté des sciences et de génie pour les années 2022-2023, 2023-2024, 2024-2025 et 2025-2026, ainsi que le Prix Professeur Étoile en 2014. En 2026, j’ai aussi reçu une mention des étudiants au prix de l’enseignement du Gala du mérite.\nCérémonie des Étoiles de l’enseignement FSG"
   },
   {
     "objectID": "enseignement.html#ressources-partagées",
@@ -536,84 +571,147 @@
     "href": "en/index.html",
     "title": "Aurélien Nicosia",
     "section": "",
-    "text": "Lecturer in mathematics and statistics at Université Laval in Quebec City. I develop teaching resources, R packages, and statistical methods at the intersection of rigorous analysis, visualization, and active learning.\n\nTeaching Research R packages Educational innovation"
+    "text": "I hold a PhD in Statistics and a permanent teaching appointment at Université Laval. I develop methods for understanding latent states, directional data and atypical observations, connecting statistical methodology, R software and university teaching.\n\nResearch and publications Academic CV Teaching R packages"
   },
   {
-    "objectID": "en/index.html#applied-statistics-data-science-and-university-teaching",
-    "href": "en/index.html#applied-statistics-data-science-and-university-teaching",
+    "objectID": "en/index.html#computational-statistics-diagnostics-and-uncertainty",
+    "href": "en/index.html#computational-statistics-diagnostics-and-uncertainty",
     "title": "Aurélien Nicosia",
     "section": "",
-    "text": "Lecturer in mathematics and statistics at Université Laval in Quebec City. I develop teaching resources, R packages, and statistical methods at the intersection of rigorous analysis, visualization, and active learning.\n\nTeaching Research R packages Educational innovation"
+    "text": "I hold a PhD in Statistics and a permanent teaching appointment at Université Laval. I develop methods for understanding latent states, directional data and atypical observations, connecting statistical methodology, R software and university teaching.\n\nResearch and publications Academic CV Teaching R packages"
+  },
+  {
+    "objectID": "en/index.html#research-teaching-and-software",
+    "href": "en/index.html#research-teaching-and-software",
+    "title": "Aurélien Nicosia",
+    "section": "Research, teaching and software",
+    "text": "Research, teaching and software\n\n\nA connected research program\nThree themes: sequential model diagnostics, directional statistics and influence in density estimation. Methods are accompanied by simulation studies and reproducible materials.\nContributions and directions\n\n\nTeaching and student training\nUndergraduate and graduate teaching in French and English, student project advising and coordination of academic support through the CDA.\nCourses and supervision\n\n\nOpen software and resources\nR packages on CRAN, software under development and teaching resources that make methods accessible and analyses verifiable.\nSoftware and documentation"
   },
   {
     "objectID": "en/index.html#updates-and-highlights",
     "href": "en/index.html#updates-and-highlights",
     "title": "Aurélien Nicosia",
     "section": "Updates and highlights",
-    "text": "Updates and highlights\n\n\n\nOpen teaching resources\n\n\nDonnées bleues\nQuebec and Canadian datasets for teaching statistics and R, with activities, source documentation and reusable teaching materials.\n\nExplore the resources\n\n\n\n\n\nR software\n\n\nleaflet.indoor and lmmix\nTwo software projects available on GitHub: multi-level indoor maps and Gaussian mixed models with correlated residuals. Their development status is stated on each project page.\n\nleaflet.indoor lmmix\n\n\n\n\n\nTeaching\n\n\nFall 2026 courses\nUpdated course sites for STT-1100, STT-4230 / STT-6230 and MQT-2101 bring together notes, activities and resources for reproducible data analysis.\n\nTeaching\n\n\n\n\n\nSeminar\n\n\nAu-delà du prompt\nSlides and a PDF from the September 18, 2026 OSD seminar on designing a teaching ecosystem with AI. Materials are in French.\n\nSeminar resources\n\n\n\n\n\nStudent support\n\n\nGPT-CDA in ULaval News\nOn May 22, 2026, ULaval News published a story about GPT-CDA, a conversational assistant designed to support learning in mathematics and statistics at the CDA.\n\nRead the article CDA page\n\n\n\n\n\nR software\n\n\nRecent packages on CRAN\nGLBFP, DonutMap, ggcircular, CircularRegression, and tutorizeR support density estimation, statistical mapping, circular-data visualization, circular regression, and interactive tutorial creation.\n\nDonutMap ggcircular CircularRegression tutorizeR\n\n\n\n\n\nPresentations\n\n\nSSC 2026\nI led a workshop on AI and teaching, contributed to a public teaching-resource gallery, presented work on LOO-LBFP, and received the 2026 New Investigator Presentation Award.\n\nAI Gallery LOO-LBFP presentation\n\n\n\n\n\nPublications\n\n\nAnimal movement\nAn article is published in Methods in Ecology and Evolution, and two bioRxiv preprints focus on behavioural-state inference and sequential predictive diagnostics for hidden Markov models of animal movement.\n\nMEE article HMM preprint SSF preprint"
-  },
-  {
-    "objectID": "en/index.html#site-focus",
-    "href": "en/index.html#site-focus",
-    "title": "Aurélien Nicosia",
-    "section": "Site focus",
-    "text": "Site focus\n\n\nTeaching\nCourses in statistics, data science, and R programming grounded in practice, reproducibility, and scientific communication.\nView courses\n\n\nResearch\nStatistical methods for complex data, with emphasis on density estimation, multi-state models, circular data, and animal movement.\nView research areas\n\n\nSoftware and resources\nR packages, Quarto platforms, interactive tutorials, and open material supporting reproducible research and data science teaching.\nExplore packages\n\n\n\nThis website gathers my research, teaching, and pedagogical innovation activities. It emphasizes verifiable resources, links to repositories or publications, and materials that can be reused directly."
+    "text": "Updates and highlights\n\n\n\nPublications\n\n\nAnimal movement\nAn article is published in Methods in Ecology and Evolution, and two bioRxiv preprints focus on behavioural-state inference and sequential predictive diagnostics for hidden Markov models of animal movement.\n\nMEE article HMM preprint SSF preprint\n\n\n\n\n\nPresentations\n\n\nSSC 2026\nI led a workshop on AI and teaching, contributed to a public teaching-resource gallery, presented work on LOO-LBFP, and received the 2026 New Investigator Presentation Award.\n\nAI Gallery LOO-LBFP presentation\n\n\n\n\n\nOpen teaching resources\n\n\nDonnées bleues\nQuebec and Canadian datasets for teaching statistics and R, with activities, source documentation and reusable teaching materials.\n\nExplore the resources\n\n\n\n\n\nR software\n\n\nleaflet.indoor and lmmix\nTwo software projects available on GitHub: multi-level indoor maps and Gaussian mixed models with correlated residuals. Their development status is stated on each project page.\n\nleaflet.indoor lmmix\n\n\n\n\n\nTeaching\n\n\nFall 2026 courses\nUpdated course sites for STT-1100, STT-4230 / STT-6230 and MQT-2101 bring together notes, activities and resources for reproducible data analysis.\n\nTeaching\n\n\n\n\n\nSeminar\n\n\nAu-delà du prompt\nSlides and a PDF from the September 18, 2026 OSD seminar on designing a teaching ecosystem with AI. Materials are in French.\n\nSeminar resources\n\n\n\n\n\nStudent support\n\n\nGPT-CDA in ULaval News\nOn May 22, 2026, ULaval News published a story about GPT-CDA, a conversational assistant designed to support learning in mathematics and statistics at the CDA.\n\nRead the article CDA page\n\n\n\n\n\nR software\n\n\nRecent packages on CRAN\nGLBFP, DonutMap, ggcircular, CircularRegression, and tutorizeR support density estimation, statistical mapping, circular-data visualization, circular regression, and interactive tutorial creation.\n\nDonutMap ggcircular CircularRegression tutorizeR\n\n\n\n\n\nRead the academic CV: experience, publications, software, teaching, supervision, funding and service. PDF versions in French and English."
   },
   {
     "objectID": "en/cv/index.html",
     "href": "en/cv/index.html",
     "title": "Aurélien Nicosia",
     "section": "",
-    "text": "Lecturer, Department of Mathematics and Statistics\nUniversité Laval, Quebec City, Canada\nhttps://aureliennicosiaulaval.github.io/web_site\nORCID: 0000-0002-0974-9988"
+    "text": "Download the English CV (PDF) CV français (PDF)"
   },
   {
     "objectID": "en/cv/index.html#profile",
     "href": "en/cv/index.html#profile",
     "title": "Aurélien Nicosia",
     "section": "Profile",
-    "text": "Profile\nResearcher and instructor in statistics and data science, interested in complex data modeling, computational statistics, and educational innovation. My work connects mathematical rigor, reproducibility, and open knowledge dissemination. I develop open-source tools and digital teaching environments."
+    "text": "Profile\nI develop computational statistical methods for model diagnostics and uncertainty quantification, with a focus on latent-state models, directional data and density estimation. My work connects statistical methodology, simulation, visualization and reproducible R software. My experience combines research, university teaching in French and English, academic coordination and data science leadership in industry."
   },
   {
-    "objectID": "en/cv/index.html#in-brief",
-    "href": "en/cv/index.html#in-brief",
+    "objectID": "en/cv/index.html#education",
+    "href": "en/cv/index.html#education",
     "title": "Aurélien Nicosia",
-    "section": "In brief",
-    "text": "In brief\n\nPh.D. in statistics, Université Laval (2024)\nLecturer and CDA coordinator, Université Laval\nCourse instructor, UQAC (computer science and data science)\nFormer R&D Director, The Co-operators\nCore interests: density estimation, HMMs, directional models, digital pedagogy, and AI in teaching"
+    "section": "Education",
+    "text": "Education\n\n2024. PhD in Statistics, Université Laval. Dissertation: General Multi-State Models for the Analysis of Animal Movement. Supervisors: Thierry Duchesne and Louis-Paul Rivest. Dissertation.\n2010-2013. MSc in Probability and Statistics, Université Toulouse III. Thesis on random matrices and the smallest singular value.\n2007-2010. BSc in Mathematics, Université Toulouse III."
   },
   {
-    "objectID": "en/cv/index.html#selected-publications",
-    "href": "en/cv/index.html#selected-publications",
+    "objectID": "en/cv/index.html#academic-and-professional-experience",
+    "href": "en/cv/index.html#academic-and-professional-experience",
     "title": "Aurélien Nicosia",
-    "section": "Selected publications",
-    "text": "Selected publications\n\nBeyond the next step: A multi-criteria generative validation framework for step selection functions, Methods in Ecology and Evolution, 2026.\nSequential predictive e-diagnostics for hidden Markov models of animal movement, bioRxiv, 2026.\nBehavioural state inference from movement and environmental data using Markovian step selection functions, bioRxiv, 2026.\nA Multi-State Conditional Logistic Regression Model for Animal Movement, Annals of Applied Statistics, 2017.\nA General Angular Regression Model for Data on Animal Movement, JRSS-C, 2015."
+    "section": "Academic and professional experience",
+    "text": "Academic and professional experience\n\nSince 2022. Université Laval, Department of Mathematics and Statistics: chargé d’enseignement (permanent teaching appointment) and coordinator of the Mathematics and Statistics Help and Learning Centre (CDA).\nSince 2021. Université du Québec à Chicoutimi: lecturer in statistics, data science and programming; supervision of undergraduate internships and research projects.\n2020-2022. Co-operators: Director, Research and Analytics Innovation; led data science projects and created the Innovation Space in partnership with UQAC.\n2017-2020. GSK Canada: Data Science Manager; process modelling, data governance and traceability in a regulated pharmaceutical environment.\n2014-2017. Université Laval: statistical consultant for research teams across several faculties."
+  },
+  {
+    "objectID": "en/cv/index.html#research-themes",
+    "href": "en/cv/index.html#research-themes",
+    "title": "Aurélien Nicosia",
+    "section": "Research themes",
+    "text": "Research themes\n\nSequential models: hidden Markov models, step-selection functions, generative validation and uncertainty in latent states.\nDirectional statistics: angular regression, random-effects models and visualization of dependence.\nDensity diagnostics: leave-one-out influence, outlier detection and grid-based computation.\n\nResearch program and reproducible materials."
+  },
+  {
+    "objectID": "en/cv/index.html#peer-reviewed-articles",
+    "href": "en/cv/index.html#peer-reviewed-articles",
+    "title": "Aurélien Nicosia",
+    "section": "Peer-reviewed articles",
+    "text": "Peer-reviewed articles\n\nNicosia, A. (2026). Beyond the next step: A multi-criteria generative validation framework for step selection functions. Methods in Ecology and Evolution, 17(6), 1754-1767. https://doi.org/10.1111/2041-210X.70313\nGagnon, S., Allard, M., Nicosia, A. (2018). Diurnal and seasonal variations of tundra CO2 emissions in a polygonal peatland near Salluit, Nunavik, Canada. Arctic Science, 4(1), 1-15. https://doi.org/10.1139/AS-2016-0045\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement. Annals of Applied Statistics, 11(3), 1537-1560. https://doi.org/10.1214/17-AOAS1045\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A General Hidden State Random Walk Model for Animal Movement. Computational Statistics & Data Analysis, 105, 76-95. https://doi.org/10.1016/j.csda.2016.07.009\nRivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D. (2016). A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology. Journal of the Royal Statistical Society Series C: Applied Statistics, 65(3), 445-463. https://doi.org/10.1111/rssc.12124"
+  },
+  {
+    "objectID": "en/cv/index.html#published-discussion-in-statistics-education",
+    "href": "en/cv/index.html#published-discussion-in-statistics-education",
+    "title": "Aurélien Nicosia",
+    "section": "Published discussion in statistics education",
+    "text": "Published discussion in statistics education\n\nNicosia, A. (2026). Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”. Journal of Data Science, 24(1), 276-281. https://doi.org/10.6339/26-JDS1208H"
+  },
+  {
+    "objectID": "en/cv/index.html#preprints",
+    "href": "en/cv/index.html#preprints",
+    "title": "Aurélien Nicosia",
+    "section": "Preprints",
+    "text": "Preprints\nManuscripts released on arXiv or bioRxiv, listed separately from published journal articles.\n\nNicosia, A., Duchesne, T., Carbon, M. (2026). A Leave-One-Out Influence Statistic for Density-Based Outlier Detection. arXiv:2607.14335. doi:10.48550/arXiv.2607.14335.\nNicosia, A. (2026). A generalized angular regression model with a circular random intercept and a scalar random slope. arXiv:2607.06790. doi:10.48550/arXiv.2607.06790.\nNicosia, A. (2026). Tropical Viterbi Tubes for Decoding Uncertainty in Hidden Markov Models. arXiv:2606.17181. doi:10.48550/arXiv.2606.17181.\nNicosia, A. (2026). Sequential predictive e-diagnostics for hidden Markov models of animal movement. bioRxiv. doi:10.64898/2026.07.07.737005.\nBouderbala, I., Nicosia, A., Fortin, D. (2026). Behavioural state inference from movement and environmental data using Markovian step selection functions. bioRxiv. doi:10.64898/2026.02.05.704063."
   },
   {
     "objectID": "en/cv/index.html#software-and-open-resources",
     "href": "en/cv/index.html#software-and-open-resources",
     "title": "Aurélien Nicosia",
     "section": "Software and open resources",
-    "text": "Software and open resources\n\nDonutMap: R package available on CRAN since 2026 for creating donut maps with sf, ggplot2, and leaflet.\nggcircular: R package available on CRAN since 2026 for circular, axial, and directional data.\nCircularRegression: R package available on CRAN since 2026 for regression with circular responses.\nGLBFP: density estimation on CRAN; leave-one-out diagnostics in the GitHub development version.\ntutorizeR: CRAN package for creating interactive tutorials from R Markdown and Quarto.\nleaflet.indoor: experimental multi-level indoor mapping package on GitHub.\nlmmix: Gaussian mixed models with correlated residuals, under development on GitHub.\nUlavalSSD: Quebec data and tools for introductory data science, available on GitHub.\nDonnées bleues: Quebec and Canadian datasets with reproducible teaching activities.\nsite_ressources_SSD: open teaching-resource platform for data science."
+    "text": "Software and open resources\n\nPackages released on CRAN\n\nCircularRegression: circular regression.\nggcircular: circular, axial and directional visualization with ggplot2.\nGLBFP: density estimation with linear-blend frequency polygons. Leave-one-out diagnostics are in the GitHub development version.\ntutorizeR: interactive tutorial creation from R Markdown or Quarto.\nDonutMap: donut-chart mapping.\nGeneralOaxaca: generalized Blinder-Oaxaca decomposition.\n\n\n\nProjects released on GitHub\n\nlearnrTrackR: tracking and export of interactive tutorial attempts.\nleaflet.indoor: experimental multi-level indoor mapping package.\nlmmix: Gaussian mixed models with correlated residuals, under development.\nUlavalSSD: Quebec datasets and introductory data science tools.\nDonnées bleues: Quebec and Canadian datasets with reproducible teaching activities."
   },
   {
-    "objectID": "en/cv/index.html#awards-and-grants",
-    "href": "en/cv/index.html#awards-and-grants",
+    "objectID": "en/cv/index.html#selected-presentations",
+    "href": "en/cv/index.html#selected-presentations",
     "title": "Aurélien Nicosia",
-    "section": "Awards and grants",
-    "text": "Awards and grants\n\nULaval Star Teacher Award (2014, 2023, 2024, 2025, 2026)\n2026 New Investigator Presentation Award, SSC 2026\nPAIP grants (2023-2026) - educational innovation and AI\nCALQ (2024) - Digital drawing with R"
+    "section": "Selected presentations",
+    "text": "Selected presentations\n\n2026. A Leave-One-Out Influence Statistic for Scalable Density-Based Outlier Detection, with Thierry Duchesne and Michel Carbon, Statistical Society of Canada annual meeting. Presentation.\n2026. Workshop on AI and teaching, Statistical Society of Canada annual meeting. Resource gallery.\nSeptember 18, 2026. Au-delà du prompt, Department of Operations and Decision Systems seminar, Université Laval. Presentation and resources, in French."
+  },
+  {
+    "objectID": "en/cv/index.html#teaching-and-academic-coordination",
+    "href": "en/cv/index.html#teaching-and-academic-coordination",
+    "title": "Aurélien Nicosia",
+    "section": "Teaching and academic coordination",
+    "text": "Teaching and academic coordination\n\nUniversité Laval: STT-1100, Introduction to Data Science; STT-2200, Data Analysis; STT-4230/STT-6230, Programming for Data Science; STT-1900, Statistics for Engineering; STT-2920, Probability for Engineering; MQT-2101, Data Analysis and Modelling.\nGSO-6092, Project Management, graduate level: taught in English in Winter 2026 and Fall 2026 (in progress).\nGSO-6082, Gestion de projets, graduate level: partial replacement assignment of 21 teaching hours, August 31 to October 16, 2026 (in progress).\nUQAC: 8GEN444, Engineering Statistics; 8STT108, Statistical Analysis of Large Data Sets; 8INF404, Introduction to Data Science and Business Intelligence; 8INF416, Data Visualization and Interface Design.\nSTT-1900: in-person and online teaching and coordination for approximately 350 students in 2025.\nCDA: coordination and training of approximately 30 teaching assistants; development of diagnostic assessments in mathematics, numerical analysis and probability to guide student support."
+  },
+  {
+    "objectID": "en/cv/index.html#supervision-and-examination",
+    "href": "en/cv/index.html#supervision-and-examination",
+    "title": "Aurélien Nicosia",
+    "section": "Supervision and examination",
+    "text": "Supervision and examination\n\nFaculty consultant for three undergraduate projects: directional statistics (2024), random matrices (2025) and visual inference (2026).\nSupervision of industry internships and undergraduate research projects at UQAC.\nExaminer for two master’s theses."
+  },
+  {
+    "objectID": "en/cv/index.html#teaching-funding-and-awards",
+    "href": "en/cv/index.html#teaching-funding-and-awards",
+    "title": "Aurélien Nicosia",
+    "section": "Teaching funding and awards",
+    "text": "Teaching funding and awards\n\n2025 and 2026. GPT-CDA and GPT-CDA, Phase 2: two PAIP teaching innovation grants, artificial intelligence and teaching stream, CAD 20,000 each, Université Laval.\n2026. New Investigator Presentation Award, Statistical Society of Canada, for the presentation on leave-one-out influence for outlier detection.\n2022-2023 through 2025-2026. Teaching Stars, Faculty of Science and Engineering, Université Laval.\n2026. Student Recognition, Teaching Award, Gala du mérite.\n2016. Presentation award, Statistical Society of Canada; Student Symposium winner, SAS Global Forum.\n2014. Professor Star Award, Université Laval."
+  },
+  {
+    "objectID": "en/cv/index.html#academic-service-and-program-development",
+    "href": "en/cv/index.html#academic-service-and-program-development",
+    "title": "Aurélien Nicosia",
+    "section": "Academic service and program development",
+    "text": "Academic service and program development\n\nContributed to the review of the statistics degree and the development of the bachelor’s program in statistics and data science at Université Laval.\nProduced and graded the 20-MB-A2 Probability and Statistics examination for the Ordre des ingénieurs du Québec.\nInvited in 2025 to a Canadian Engineering Accreditation Board meeting on common courses and student support for 14 engineering programs.\nCo-adaptation of Probabilités et statistique, Science et génie, fourth edition, forthcoming from TC Média Livres in April 2027."
+  },
+  {
+    "objectID": "en/cv/index.html#languages",
+    "href": "en/cv/index.html#languages",
+    "title": "Aurélien Nicosia",
+    "section": "Languages",
+    "text": "Languages\nUniversity teaching, scientific writing and communication in French and English."
   },
   {
     "objectID": "en/a-propos.html",
     "href": "en/a-propos.html",
     "title": "About",
     "section": "",
-    "text": "I am a lecturer in mathematics and statistics in the Department of Mathematics and Statistics at Université Laval, in Quebec City. I also coordinate the Center for Tutoring and Learning in mathematics and statistics, a student success support service for several departmental courses.\n\nMy work is situated at the intersection of university teaching, applied statistics, and digital tool development for teaching and research. I place central importance on reproducibility, open science, clear explanations, and accessible learning resources.\n\n\n\nCourse design in statistics, data science, and R programming, with emphasis on active learning, realistic case studies, and reproducible reporting.\n\n\n\nDevelopment of methods and software for density estimation, multi-state models, circular data, hidden Markov models, and animal movement analysis.\n\n\n\nCreation of R packages, Quarto platforms, interactive tutorials, and open resources supporting reproducible research and data science teaching.\n\n\n\nCareful integration of digital tools and conversational assistants into supervised learning settings, with human support remaining central."
+    "text": "I am a lecturer in mathematics and statistics in the Department of Mathematics and Statistics at Université Laval, in Quebec City. I also coordinate the Center for Tutoring and Learning in mathematics and statistics, a student success support service for several departmental courses.\n\nI hold a PhD in Statistics from Université Laval (2024). I develop diagnostics and uncertainty quantification methods for latent-state models, directional data and density estimation. My work combines statistical methodology, simulation, visualization and reproducible R software.\nBefore my current appointment, I worked as a statistical consultant at Université Laval (2014-2017), Data Science Manager at GSK Canada (2017-2020), and Director of Research and Analytics Innovation at Co-operators (2020-2022). I have also taught at UQAC since 2021. These experiences inform my approach to collaboration, training and traceable analysis.\nMy teaching covers statistics, probability, data science and programming, as well as graduate project management in French and English. I emphasize understanding methods, reproducibility and human support.\nFull experience and downloadable CVs\n\n\n\nCourse design in statistics, data science, and R programming, with emphasis on active learning, realistic case studies, and reproducible reporting.\n\n\n\nDevelopment of methods and software for density estimation, multi-state models, circular data, hidden Markov models, and animal movement analysis.\n\n\n\nCreation of R packages, Quarto platforms, interactive tutorials, and open resources supporting reproducible research and data science teaching.\n\n\n\nCareful integration of digital tools and conversational assistants into supervised learning settings, with human support remaining central."
   },
   {
     "objectID": "en/a-propos.html#profile",
     "href": "en/a-propos.html#profile",
     "title": "About",
     "section": "",
-    "text": "I am a lecturer in mathematics and statistics in the Department of Mathematics and Statistics at Université Laval, in Quebec City. I also coordinate the Center for Tutoring and Learning in mathematics and statistics, a student success support service for several departmental courses.\n\nMy work is situated at the intersection of university teaching, applied statistics, and digital tool development for teaching and research. I place central importance on reproducibility, open science, clear explanations, and accessible learning resources.\n\n\n\nCourse design in statistics, data science, and R programming, with emphasis on active learning, realistic case studies, and reproducible reporting.\n\n\n\nDevelopment of methods and software for density estimation, multi-state models, circular data, hidden Markov models, and animal movement analysis.\n\n\n\nCreation of R packages, Quarto platforms, interactive tutorials, and open resources supporting reproducible research and data science teaching.\n\n\n\nCareful integration of digital tools and conversational assistants into supervised learning settings, with human support remaining central."
+    "text": "I am a lecturer in mathematics and statistics in the Department of Mathematics and Statistics at Université Laval, in Quebec City. I also coordinate the Center for Tutoring and Learning in mathematics and statistics, a student success support service for several departmental courses.\n\nI hold a PhD in Statistics from Université Laval (2024). I develop diagnostics and uncertainty quantification methods for latent-state models, directional data and density estimation. My work combines statistical methodology, simulation, visualization and reproducible R software.\nBefore my current appointment, I worked as a statistical consultant at Université Laval (2014-2017), Data Science Manager at GSK Canada (2017-2020), and Director of Research and Analytics Innovation at Co-operators (2020-2022). I have also taught at UQAC since 2021. These experiences inform my approach to collaboration, training and traceable analysis.\nMy teaching covers statistics, probability, data science and programming, as well as graduate project management in French and English. I emphasize understanding methods, reproducibility and human support.\nFull experience and downloadable CVs\n\n\n\nCourse design in statistics, data science, and R programming, with emphasis on active learning, realistic case studies, and reproducible reporting.\n\n\n\nDevelopment of methods and software for density estimation, multi-state models, circular data, hidden Markov models, and animal movement analysis.\n\n\n\nCreation of R packages, Quarto platforms, interactive tutorials, and open resources supporting reproducible research and data science teaching.\n\n\n\nCareful integration of digital tools and conversational assistants into supervised learning settings, with human support remaining central."
   },
   {
     "objectID": "en/a-propos.html#recent-highlights",
@@ -690,14 +788,14 @@
     "href": "a-propos.html",
     "title": "À propos",
     "section": "",
-    "text": "Je suis chargé d’enseignement en mathématiques et statistiques au Département de mathématiques et de statistique de l’Université Laval, à Québec. Je coordonne aussi le Centre de Dépannage et d’Apprentissage en mathématiques et statistique, un service de soutien à la réussite destiné aux étudiantes et étudiants de plusieurs cours du Département.\n\nMon travail se situe à l’intersection de la pédagogie universitaire, de la statistique appliquée et du développement d’outils numériques pour l’enseignement et la recherche. J’accorde une importance centrale à la reproductibilité, à la science ouverte, à la clarté des explications et à l’accessibilité des ressources.\n\n\n\nConception de cours en statistique, science des données et programmation R, avec une attention particulière à l’apprentissage actif, aux études de cas réalistes et aux rapports reproductibles.\n\n\n\nDéveloppement de méthodes et de logiciels pour l’estimation de densité, les modèles multi-états, les données circulaires, les modèles de Markov cachés et l’analyse du mouvement animalier.\n\n\n\nCréation de packages R, plateformes Quarto, tutoriels interactifs et ressources ouvertes pour soutenir la recherche reproductible et l’enseignement de la science des données.\n\n\n\nIntégration raisonnée d’outils numériques et d’assistants conversationnels dans des dispositifs encadrés, avec maintien du rôle central de l’accompagnement humain."
+    "text": "Je suis chargé d’enseignement en mathématiques et statistiques au Département de mathématiques et de statistique de l’Université Laval, à Québec. Je coordonne aussi le Centre de Dépannage et d’Apprentissage en mathématiques et statistique, un service de soutien à la réussite destiné aux étudiantes et étudiants de plusieurs cours du Département.\n\nTitulaire d’un doctorat en statistique de l’Université Laval (2024), je développe des méthodes de diagnostic et de quantification de l’incertitude pour les modèles à états latents, les données directionnelles et l’estimation de densité. Mes travaux associent recherche méthodologique, simulation, visualisation et logiciels R reproductibles.\nAvant mon poste actuel, j’ai été consultant en statistique à l’Université Laval (2014-2017), gestionnaire en science des données chez GSK Canada (2017-2020), puis directeur de la recherche et de l’innovation analytique chez Co-operators (2020-2022). J’enseigne également à l’UQAC depuis 2021. Ces expériences nourrissent mon approche des collaborations, de la formation et de la traçabilité des analyses.\nMon enseignement couvre la statistique, les probabilités, la science des données et la programmation, ainsi que la gestion de projets au deuxième cycle, en français et en anglais. J’accorde une place centrale à la compréhension des méthodes, à la reproductibilité et à l’accompagnement humain.\nParcours complet et CV téléchargeables\n\n\n\nConception de cours en statistique, science des données et programmation R, avec une attention particulière à l’apprentissage actif, aux études de cas réalistes et aux rapports reproductibles.\n\n\n\nDéveloppement de méthodes et de logiciels pour l’estimation de densité, les modèles multi-états, les données circulaires, les modèles de Markov cachés et l’analyse du mouvement animalier.\n\n\n\nCréation de packages R, plateformes Quarto, tutoriels interactifs et ressources ouvertes pour soutenir la recherche reproductible et l’enseignement de la science des données.\n\n\n\nIntégration raisonnée d’outils numériques et d’assistants conversationnels dans des dispositifs encadrés, avec maintien du rôle central de l’accompagnement humain."
   },
   {
     "objectID": "a-propos.html#profil",
     "href": "a-propos.html#profil",
     "title": "À propos",
     "section": "",
-    "text": "Je suis chargé d’enseignement en mathématiques et statistiques au Département de mathématiques et de statistique de l’Université Laval, à Québec. Je coordonne aussi le Centre de Dépannage et d’Apprentissage en mathématiques et statistique, un service de soutien à la réussite destiné aux étudiantes et étudiants de plusieurs cours du Département.\n\nMon travail se situe à l’intersection de la pédagogie universitaire, de la statistique appliquée et du développement d’outils numériques pour l’enseignement et la recherche. J’accorde une importance centrale à la reproductibilité, à la science ouverte, à la clarté des explications et à l’accessibilité des ressources.\n\n\n\nConception de cours en statistique, science des données et programmation R, avec une attention particulière à l’apprentissage actif, aux études de cas réalistes et aux rapports reproductibles.\n\n\n\nDéveloppement de méthodes et de logiciels pour l’estimation de densité, les modèles multi-états, les données circulaires, les modèles de Markov cachés et l’analyse du mouvement animalier.\n\n\n\nCréation de packages R, plateformes Quarto, tutoriels interactifs et ressources ouvertes pour soutenir la recherche reproductible et l’enseignement de la science des données.\n\n\n\nIntégration raisonnée d’outils numériques et d’assistants conversationnels dans des dispositifs encadrés, avec maintien du rôle central de l’accompagnement humain."
+    "text": "Je suis chargé d’enseignement en mathématiques et statistiques au Département de mathématiques et de statistique de l’Université Laval, à Québec. Je coordonne aussi le Centre de Dépannage et d’Apprentissage en mathématiques et statistique, un service de soutien à la réussite destiné aux étudiantes et étudiants de plusieurs cours du Département.\n\nTitulaire d’un doctorat en statistique de l’Université Laval (2024), je développe des méthodes de diagnostic et de quantification de l’incertitude pour les modèles à états latents, les données directionnelles et l’estimation de densité. Mes travaux associent recherche méthodologique, simulation, visualisation et logiciels R reproductibles.\nAvant mon poste actuel, j’ai été consultant en statistique à l’Université Laval (2014-2017), gestionnaire en science des données chez GSK Canada (2017-2020), puis directeur de la recherche et de l’innovation analytique chez Co-operators (2020-2022). J’enseigne également à l’UQAC depuis 2021. Ces expériences nourrissent mon approche des collaborations, de la formation et de la traçabilité des analyses.\nMon enseignement couvre la statistique, les probabilités, la science des données et la programmation, ainsi que la gestion de projets au deuxième cycle, en français et en anglais. J’accorde une place centrale à la compréhension des méthodes, à la reproductibilité et à l’accompagnement humain.\nParcours complet et CV téléchargeables\n\n\n\nConception de cours en statistique, science des données et programmation R, avec une attention particulière à l’apprentissage actif, aux études de cas réalistes et aux rapports reproductibles.\n\n\n\nDéveloppement de méthodes et de logiciels pour l’estimation de densité, les modèles multi-états, les données circulaires, les modèles de Markov cachés et l’analyse du mouvement animalier.\n\n\n\nCréation de packages R, plateformes Quarto, tutoriels interactifs et ressources ouvertes pour soutenir la recherche reproductible et l’enseignement de la science des données.\n\n\n\nIntégration raisonnée d’outils numériques et d’assistants conversationnels dans des dispositifs encadrés, avec maintien du rôle central de l’accompagnement humain."
   },
   {
     "objectID": "a-propos.html#réalisations-récentes",
@@ -739,42 +837,105 @@
     "href": "cv/index.html",
     "title": "Aurélien Nicosia",
     "section": "",
-    "text": "Chargé d’enseignement, Département de mathématiques et de statistique\nUniversité Laval, Québec, Canada\nhttps://aureliennicosiaulaval.github.io/web_site\nORCID : 0000-0002-0974-9988"
+    "text": "Télécharger le CV français (PDF) English CV (PDF)"
   },
   {
     "objectID": "cv/index.html#profil",
     "href": "cv/index.html#profil",
     "title": "Aurélien Nicosia",
     "section": "Profil",
-    "text": "Profil\nChercheur et enseignant en statistique et science des données, je m’intéresse à la modélisation de données complexes, la statistique computationnelle et l’innovation pédagogique. Mon approche relie rigueur mathématique, reproductibilité et diffusion libre du savoir. Je développe des outils open source et des environnements pédagogiques numériques."
+    "text": "Profil\nStatisticien en méthodes computationnelles, je développe des diagnostics et des outils de quantification de l’incertitude pour les modèles à états latents, les données directionnelles et l’estimation de densité. Mon travail relie méthodes statistiques, simulation, visualisation et logiciels R reproductibles. Mon parcours associe recherche, enseignement universitaire en français et en anglais, coordination pédagogique et direction de projets de science des données en entreprise."
   },
   {
-    "objectID": "cv/index.html#en-bref",
-    "href": "cv/index.html#en-bref",
+    "objectID": "cv/index.html#formation",
+    "href": "cv/index.html#formation",
     "title": "Aurélien Nicosia",
-    "section": "En bref",
-    "text": "En bref\n\nPh.D. en statistique, Université Laval (2024)\nChargé d’enseignement et responsable du CDA, Université Laval\nChargé de cours, UQAC (informatique et science des données)\nAncien directeur R-D, The Co-operators\nIntérêts principaux : estimation de densité, HMM, modèles directionnels, pédagogie numérique et IA en enseignement"
+    "section": "Formation",
+    "text": "Formation\n\n2024. Doctorat en statistique, Université Laval. Thèse : Modèles multi-états généraux pour l’analyse du mouvement animalier. Direction : Thierry Duchesne et Louis-Paul Rivest. Thèse.\n2010-2013. Maîtrise en probabilités et statistique, Université Toulouse III. Mémoire sur les matrices aléatoires et la plus petite valeur singulière.\n2007-2010. Licence en mathématiques, Université Toulouse III."
   },
   {
-    "objectID": "cv/index.html#sélection-de-publications",
-    "href": "cv/index.html#sélection-de-publications",
+    "objectID": "cv/index.html#expérience-académique-et-professionnelle",
+    "href": "cv/index.html#expérience-académique-et-professionnelle",
     "title": "Aurélien Nicosia",
-    "section": "Sélection de publications",
-    "text": "Sélection de publications\n\nBeyond the next step: A multi-criteria generative validation framework for step selection functions, Methods in Ecology and Evolution, 2026.\nSequential predictive e-diagnostics for hidden Markov models of animal movement, bioRxiv, 2026.\nBehavioural state inference from movement and environmental data using Markovian step selection functions, bioRxiv, 2026.\nA Multi-State Conditional Logistic Regression Model for Animal Movement, Annals of Applied Statistics, 2017.\nA General Angular Regression Model for Data on Animal Movement, JRSS-C, 2015."
+    "section": "Expérience académique et professionnelle",
+    "text": "Expérience académique et professionnelle\n\nDepuis 2022. Université Laval, Département de mathématiques et de statistique : chargé d’enseignement permanent et responsable du Centre de dépannage et d’apprentissage en mathématiques et statistique (CDA).\nDepuis 2021. Université du Québec à Chicoutimi : chargé de cours en statistique, science des données et programmation; supervision de stages et de projets de baccalauréat.\n2020-2022. Co-operators : directeur, recherche et innovation analytique; direction de projets de science des données et création de l’Espace Innovation en partenariat avec l’UQAC.\n2017-2020. GSK Canada : gestionnaire en science des données; modélisation de procédés, gouvernance et traçabilité des données en environnement pharmaceutique réglementé.\n2014-2017. Université Laval : consultant en statistique auprès d’équipes de recherche de plusieurs facultés."
+  },
+  {
+    "objectID": "cv/index.html#axes-de-recherche",
+    "href": "cv/index.html#axes-de-recherche",
+    "title": "Aurélien Nicosia",
+    "section": "Axes de recherche",
+    "text": "Axes de recherche\n\nModèles séquentiels : modèles de Markov cachés, fonctions de sélection de pas, validation générative et incertitude des états latents.\nStatistique directionnelle : régression angulaire, modèles à effets aléatoires et visualisation de la dépendance.\nDiagnostics de densité : influence leave-one-out, observations atypiques et calcul sur grille.\n\nProgramme de recherche et matériel reproductible."
+  },
+  {
+    "objectID": "cv/index.html#articles-publiés-avec-comité-de-lecture",
+    "href": "cv/index.html#articles-publiés-avec-comité-de-lecture",
+    "title": "Aurélien Nicosia",
+    "section": "Articles publiés avec comité de lecture",
+    "text": "Articles publiés avec comité de lecture\n\nNicosia, A. (2026). Beyond the next step: A multi-criteria generative validation framework for step selection functions. Methods in Ecology and Evolution, 17(6), 1754-1767. https://doi.org/10.1111/2041-210X.70313\nGagnon, S., Allard, M., Nicosia, A. (2018). Diurnal and seasonal variations of tundra CO2 emissions in a polygonal peatland near Salluit, Nunavik, Canada. Arctic Science, 4(1), 1-15. https://doi.org/10.1139/AS-2016-0045\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement. Annals of Applied Statistics, 11(3), 1537-1560. https://doi.org/10.1214/17-AOAS1045\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A General Hidden State Random Walk Model for Animal Movement. Computational Statistics & Data Analysis, 105, 76-95. https://doi.org/10.1016/j.csda.2016.07.009\nRivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D. (2016). A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology. Journal of the Royal Statistical Society Series C: Applied Statistics, 65(3), 445-463. https://doi.org/10.1111/rssc.12124"
+  },
+  {
+    "objectID": "cv/index.html#discussion-publiée-en-pédagogie-statistique",
+    "href": "cv/index.html#discussion-publiée-en-pédagogie-statistique",
+    "title": "Aurélien Nicosia",
+    "section": "Discussion publiée en pédagogie statistique",
+    "text": "Discussion publiée en pédagogie statistique\n\nNicosia, A. (2026). Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”. Journal of Data Science, 24(1), 276-281. https://doi.org/10.6339/26-JDS1208H"
+  },
+  {
+    "objectID": "cv/index.html#prépublications",
+    "href": "cv/index.html#prépublications",
+    "title": "Aurélien Nicosia",
+    "section": "Prépublications",
+    "text": "Prépublications\nManuscrits diffusés sur arXiv ou bioRxiv, présentés séparément des articles publiés dans des revues.\n\nNicosia, A., Duchesne, T., Carbon, M. (2026). A Leave-One-Out Influence Statistic for Density-Based Outlier Detection. arXiv:2607.14335. doi:10.48550/arXiv.2607.14335.\nNicosia, A. (2026). A generalized angular regression model with a circular random intercept and a scalar random slope. arXiv:2607.06790. doi:10.48550/arXiv.2607.06790.\nNicosia, A. (2026). Tropical Viterbi Tubes for Decoding Uncertainty in Hidden Markov Models. arXiv:2606.17181. doi:10.48550/arXiv.2606.17181.\nNicosia, A. (2026). Sequential predictive e-diagnostics for hidden Markov models of animal movement. bioRxiv. doi:10.64898/2026.07.07.737005.\nBouderbala, I., Nicosia, A., Fortin, D. (2026). Behavioural state inference from movement and environmental data using Markovian step selection functions. bioRxiv. doi:10.64898/2026.02.05.704063."
   },
   {
     "objectID": "cv/index.html#logiciels-et-ressources-ouvertes",
     "href": "cv/index.html#logiciels-et-ressources-ouvertes",
     "title": "Aurélien Nicosia",
     "section": "Logiciels et ressources ouvertes",
-    "text": "Logiciels et ressources ouvertes\n\nDonutMap : package R disponible sur le CRAN depuis 2026 pour créer des cartes de diagrammes en anneau avec sf, ggplot2 et leaflet.\nggcircular : package R disponible sur le CRAN depuis 2026 pour les données circulaires, axiales et directionnelles.\nCircularRegression : package R disponible sur le CRAN depuis 2026 pour la régression de réponses circulaires.\nGLBFP : estimation de densité sur le CRAN ; diagnostics leave-one-out dans la version de développement GitHub.\ntutorizeR : package CRAN pour créer des tutoriels interactifs à partir de R Markdown et Quarto.\nleaflet.indoor : package expérimental de cartographie intérieure à étages sur GitHub.\nlmmix : modèles mixtes gaussiens à résidus corrélés, en développement sur GitHub.\nUlavalSSD : données québécoises et outils d’initiation à la science des données, disponibles sur GitHub.\nDonnées bleues : jeux de données québécois et canadiens et activités pédagogiques reproductibles.\nsite_ressources_SSD : plateforme de ressources pédagogiques ouvertes pour la science des données."
+    "text": "Logiciels et ressources ouvertes\n\nPackages diffusés sur le CRAN\n\nCircularRegression : régression circulaire.\nggcircular : visualisation de données circulaires, axiales et directionnelles avec ggplot2.\nGLBFP : estimation de densité par polygones de fréquence à mélange linéaire. Les diagnostics leave-one-out sont dans la version de développement GitHub.\ntutorizeR : création de tutoriels interactifs à partir de R Markdown ou Quarto.\nDonutMap : cartographie de diagrammes en anneau.\nGeneralOaxaca : décomposition de Blinder-Oaxaca généralisée.\n\n\n\nProjets diffusés sur GitHub\n\nlearnrTrackR : suivi et export des tentatives dans les tutoriels interactifs.\nleaflet.indoor : cartographie intérieure multiétages, package expérimental.\nlmmix : modèles mixtes gaussiens à résidus corrélés, en développement.\nUlavalSSD : données québécoises et outils d’initiation à la science des données.\nDonnées bleues : jeux de données québécois et canadiens et activités pédagogiques reproductibles."
   },
   {
-    "objectID": "cv/index.html#distinctions-et-subventions",
-    "href": "cv/index.html#distinctions-et-subventions",
+    "objectID": "cv/index.html#communications-sélectionnées",
+    "href": "cv/index.html#communications-sélectionnées",
     "title": "Aurélien Nicosia",
-    "section": "Distinctions et subventions",
-    "text": "Distinctions et subventions\n\nPrix Enseignant Étoile ULaval (2014, 2023, 2024, 2025, 2026)\n2026 New Investigator Presentation Award / Prix de la présentation par un nouveau chercheur, SSC 2026\nSubventions PAIP (2023-2026) - innovation pédagogique et IA\nCALQ (2024) - Dessin numérique avec R"
+    "section": "Communications sélectionnées",
+    "text": "Communications sélectionnées\n\n2026. A Leave-One-Out Influence Statistic for Scalable Density-Based Outlier Detection, avec Thierry Duchesne et Michel Carbon, congrès de la Société statistique du Canada. Présentation.\n2026. Atelier sur l’IA et l’enseignement, congrès de la Société statistique du Canada. Galerie de ressources.\n18 septembre 2026. Au-delà du prompt, séminaire du Département d’opérations et systèmes de décision, Université Laval. Présentation et ressources."
+  },
+  {
+    "objectID": "cv/index.html#enseignement-et-coordination-pédagogique",
+    "href": "cv/index.html#enseignement-et-coordination-pédagogique",
+    "title": "Aurélien Nicosia",
+    "section": "Enseignement et coordination pédagogique",
+    "text": "Enseignement et coordination pédagogique\n\nUniversité Laval : STT-1100, Introduction à la science des données; STT-2200, Analyse de données; STT-4230/STT-6230, Programmation pour la science des données; STT-1900, Méthodes statistiques pour l’ingénierie; STT-2920, Probabilités pour l’ingénierie; MQT-2101, Analyse et modélisation des données.\nGSO-6092, Project Management, deuxième cycle : enseignement en anglais à l’hiver 2026 et à l’automne 2026 (en cours).\nGSO-6082, Gestion de projets, deuxième cycle : remplacement partiel de 21 heures du 31 août au 16 octobre 2026 (en cours).\nUQAC : 8GEN444, Statistiques de l’ingénieur; 8STT108, Analyse statistique des données de masse; 8INF404, Introduction à la science des données et à l’intelligence d’affaires; 8INF416, Visualisation de données et interface.\nSTT-1900 : enseignement et coordination en présence et à distance pour environ 350 étudiantes et étudiants en 2025.\nCDA : coordination et formation d’environ 30 auxiliaires; développement de tests diagnostiques en mathématiques, analyse numérique et probabilités pour orienter le soutien étudiant."
+  },
+  {
+    "objectID": "cv/index.html#encadrement-et-évaluation",
+    "href": "cv/index.html#encadrement-et-évaluation",
+    "title": "Aurélien Nicosia",
+    "section": "Encadrement et évaluation",
+    "text": "Encadrement et évaluation\n\nEnseignant-consultant pour trois projets de baccalauréat : statistique directionnelle (2024), matrices aléatoires (2025), inférence visuelle (2026).\nSupervision de stages en entreprise et de projets de recherche au baccalauréat à l’UQAC.\nÉvaluation de deux mémoires de maîtrise."
+  },
+  {
+    "objectID": "cv/index.html#financement-pédagogique-et-distinctions",
+    "href": "cv/index.html#financement-pédagogique-et-distinctions",
+    "title": "Aurélien Nicosia",
+    "section": "Financement pédagogique et distinctions",
+    "text": "Financement pédagogique et distinctions\n\n2025 et 2026. GPT-CDA et GPT-CDA, phase 2 : deux subventions PAIP, volet intelligence artificielle et enseignement, de 20 000 CAD chacune, Université Laval.\n2026. New Investigator Presentation Award, Société statistique du Canada, pour la présentation sur l’influence leave-one-out en détection d’observations atypiques.\n2022-2023 à 2025-2026. Étoiles de l’enseignement, Faculté des sciences et de génie, Université Laval.\n2026. Mention des étudiants, prix de l’enseignement, Gala du mérite.\n2016. Prix de présentation, Société statistique du Canada; gagnant du Student Symposium, SAS Global Forum.\n2014. Prix Professeur Étoile, Université Laval."
+  },
+  {
+    "objectID": "cv/index.html#service-et-développement-de-programmes",
+    "href": "cv/index.html#service-et-développement-de-programmes",
+    "title": "Aurélien Nicosia",
+    "section": "Service et développement de programmes",
+    "text": "Service et développement de programmes\n\nContribution à la révision du baccalauréat en statistique et au développement du baccalauréat en statistique et science des données, Université Laval.\nProduction et correction de l’examen 20-MB-A2, Probabilités et statistiques, Ordre des ingénieurs du Québec.\nParticipation, sur invitation en 2025, à une rencontre du Bureau canadien d’agrément des programmes de génie sur les cours communs et le soutien étudiant de 14 programmes de génie.\nCoadaptation de Probabilités et statistique, Science et génie, 4e édition, à paraître chez TC Média Livres en avril 2027."
+  },
+  {
+    "objectID": "cv/index.html#langues",
+    "href": "cv/index.html#langues",
+    "title": "Aurélien Nicosia",
+    "section": "Langues",
+    "text": "Langues\nEnseignement universitaire en français et en anglais; rédaction et communication scientifiques dans les deux langues."
   },
   {
     "objectID": "en/cda/index.html",
@@ -826,18 +987,39 @@
     "text": "I approach mathematics, statistics, and data science teaching as an activity of understanding, practice, and communication. Courses are designed to help students produce reproducible analyses, justify their choices, and explain their results clearly.\n\n\n\n\nClasses emphasize hands-on work, applied situations, and projects where statistical concepts are used in concrete contexts.\n\n\n\nActivities use R, Quarto, GitHub, and explicit project structures so that reasoning, code, and results can be checked.\n\n\n\nExercises, formative feedback, course assistants, and CDA resources support autonomy while preserving the central role of student understanding."
   },
   {
+    "objectID": "en/enseignement.html#teaching-experience-and-languages",
+    "href": "en/enseignement.html#teaching-experience-and-languages",
+    "title": "Teaching",
+    "section": "Teaching experience and languages",
+    "text": "Teaching experience and languages\nI teach at undergraduate and graduate levels at Université Laval and UQAC. My experience covers probability, applied statistics, data science, R programming, visualization and project management.\n\nGSO-6092, Project Management: graduate course taught in English in Winter 2026 and Fall 2026 (in progress).\nGSO-6082, Gestion de projets: partial assignment of 21 teaching hours in Fall 2026, replacing the regular instructor from August 31 to October 16.\nSTT-1900: in-person and online teaching and coordination for approximately 350 students in 2025.\n\nIn assessments, I ask students to justify their choice of methods, verify computations and interpret uncertainty. When AI tools are permitted, their use must be disclosed and their output checked. My published discussion in the Journal of Data Science (2026) addresses AI-generated assignments."
+  },
+  {
     "objectID": "en/enseignement.html#courses-taught",
     "href": "en/enseignement.html#courses-taught",
     "title": "Teaching",
     "section": "Courses taught",
-    "text": "Courses taught\n\nUniversité Laval\n\n\n\nData science\n\n\nSTT-1100 - Introduction to Data Science\nIntroductory course centered on professional situations where students take on a data science role. The course covers the analysis cycle, from data import to communication of results.\n\nTools: R, tidyverse, Quarto, GitHub\nApproach: active learning, francophone case studies, ethical reflection on data\n\n\nCourse notes STT-1100 GPT\n\n\n\n\n\nScientific programming\n\n\nSTT-4230 / STT-6230 - Programming for Data Science\nCourse focused on development practices: project structure, documentation, tests, collaboration, and publication with GitHub.\n\nTools: R, Quarto, GitHub, testthat\nApproach: clarity, reproducibility, integration of modern tools\n\n\nCourse notes STT-4230 GPT UlavalSSD\n\n\n\n\n\nApplied modelling\n\n\nMQT-2101 - Data Analysis and Modelling\nApplied course using R and Quarto to study regression, forecasting and classification, with course notes, video capsules and analysis activities.\n\nCourse site\n\n\n\n\n\nApplied statistics\n\n\nSTT-2200 - Data Analysis\nApplied statistics course where students work from real datasets and produce reproducible reports.\n\nTools: R, ggplot2, dplyr, R Markdown\nApproach: interpretation before automation, clear communication of results\n\n\n\n\n\n\nUniversité du Québec à Chicoutimi\n\n\n\n8INF404 - Introduction to Data Science and Business Intelligence\nInterdisciplinary course presenting the full data science project cycle: preparation, exploration, predictive modeling, and communication.\n\n\n8INF416 - Visualization and Interface\nCourse devoted to interactive visualization and scientific communication with R, Shiny, and ggplot2.\n\n\n8STT108 - Statistical Methods for Big Data\nIntroduction to statistical methods for large datasets, with emphasis on model logic before automation."
+    "text": "Courses taught\n\nUniversité Laval\n\n\n\nData science\n\n\nSTT-1100 - Introduction to Data Science\nIntroductory course centered on professional situations where students take on a data science role. The course covers the analysis cycle, from data import to communication of results.\n\nTools: R, tidyverse, Quarto, GitHub\nApproach: active learning, francophone case studies, ethical reflection on data\n\n\nCourse notes STT-1100 GPT\n\n\n\n\n\nScientific programming\n\n\nSTT-4230 / STT-6230 - Programming for Data Science\nCourse focused on development practices: project structure, documentation, tests, collaboration, and publication with GitHub.\n\nTools: R, Quarto, GitHub, testthat\nApproach: clarity, reproducibility, integration of modern tools\n\n\nCourse notes STT-4230 GPT UlavalSSD\n\n\n\n\n\nApplied modelling\n\n\nMQT-2101 - Data Analysis and Modelling\nApplied course using R and Quarto to study regression, forecasting and classification, with course notes, video capsules and analysis activities.\n\nCourse site\n\n\n\n\n\nApplied statistics\n\n\nSTT-2200 - Data Analysis\nApplied statistics course where students work from real datasets and produce reproducible reports.\n\nTools: R, ggplot2, dplyr, R Markdown\nApproach: interpretation before automation, clear communication of results\n\n\n\n\nSTT-1900 and STT-2920\nStatistics for Engineering and Probability for Engineering. Probability foundations, inference and modelling for engineering programs.\n\n\nGSO-6092 and GSO-6082\nGraduate project management in English and French: planning, PERT and CPM networks, resource allocation and project control. The scope of the 2026 assignments is described above.\n\nProject Management Gestion de projets\n\n\n\n\n\nUniversité du Québec à Chicoutimi\n\n\n\n8INF404 - Introduction to Data Science and Business Intelligence\nInterdisciplinary course presenting the full data science project cycle: preparation, exploration, predictive modeling, and communication.\n\n\n8INF416 - Data Visualization and Interface Design\nCourse devoted to interactive visualization and scientific communication with R, Shiny, and ggplot2.\n\n\n8STT108 - Statistical Analysis of Large Data Sets\nIntroduction to statistical methods for large datasets, with emphasis on model logic before automation.\n\n\n8GEN444 - Engineering Statistics\nStatistical methods applied to engineering problems."
+  },
+  {
+    "objectID": "en/enseignement.html#supervision",
+    "href": "en/enseignement.html#supervision",
+    "title": "Teaching",
+    "section": "Supervision",
+    "text": "Supervision\nI have served as faculty consultant for three undergraduate projects on directional statistics (2024), random matrices (2025) and visual inference (2026). I have also supervised industry internships and undergraduate research projects at UQAC, and examined two master’s theses.\nMy approach to supervision emphasizes a focused question, explicit milestones, version control and reproducible analysis. My research themes provide training topics in simulation, diagnostics, visualization and software development."
+  },
+  {
+    "objectID": "en/enseignement.html#academic-coordination-and-curriculum-development",
+    "href": "en/enseignement.html#academic-coordination-and-curriculum-development",
+    "title": "Teaching",
+    "section": "Academic coordination and curriculum development",
+    "text": "Academic coordination and curriculum development\nAt the CDA, I coordinate and train approximately 30 teaching assistants supporting mathematics and statistics courses. I develop diagnostic assessments to identify learning needs early and guide student support.\nI contribute to the review of the statistics degree and the development of Université Laval’s bachelor’s program in statistics and data science. I also contribute to the co-adaptation of Probabilités et statistique, Science et génie, fourth edition, forthcoming from TC Média Livres in April 2027.\nGPT-CDA received two PAIP teaching innovation grants, in 2025 and 2026, of CAD 20,000 each. Open resources, including tutorizeR, datasets and tutorials, extend this training work."
   },
   {
     "objectID": "en/enseignement.html#teaching-recognition",
     "href": "en/enseignement.html#teaching-recognition",
     "title": "Teaching",
     "section": "Teaching recognition",
-    "text": "Teaching recognition\nI received the Star Teacher Award again in 2026. This recognition adds to the 2014, 2023, 2024, and 2025 editions listed in my CV. The Faculty of Science and Engineering describes this title as a recognition given to instructors who receive excellent student evaluations.\nFSG Teaching Stars ceremony"
+    "text": "Teaching recognition\nI received Teaching Stars recognition from the Faculty of Science and Engineering for 2022-2023, 2023-2024, 2024-2025 and 2025-2026, as well as the Professor Star Award in 2014. In 2026, I also received student recognition in the teaching award category at the Gala du mérite.\nFSG Teaching Stars ceremony"
   },
   {
     "objectID": "en/enseignement.html#shared-resources",
@@ -1012,21 +1194,35 @@
     "href": "en/recherche.html",
     "title": "Research",
     "section": "",
-    "text": "My work is situated at the interface of applied mathematics, computational statistics, and data science. I develop interpretable methods for analysing complex data, with particular attention to reproducibility, open-source software, and translation into usable tools."
+    "text": "How can we obtain reliable inference when data structure is partly hidden, constrained by geometry or sensitive to numerical approximation? I develop model diagnostics and uncertainty quantification methods to address this question. My program connects probabilistic modelling, simulation, visualization and reproducible R software.\n\n\nPublications and preprints Academic CV"
   },
   {
-    "objectID": "en/recherche.html#overview",
-    "href": "en/recherche.html#overview",
+    "objectID": "en/recherche.html#research-program",
+    "href": "en/recherche.html#research-program",
     "title": "Research",
     "section": "",
-    "text": "My work is situated at the interface of applied mathematics, computational statistics, and data science. I develop interpretable methods for analysing complex data, with particular attention to reproducibility, open-source software, and translation into usable tools."
+    "text": "How can we obtain reliable inference when data structure is partly hidden, constrained by geometry or sensitive to numerical approximation? I develop model diagnostics and uncertainty quantification methods to address this question. My program connects probabilistic modelling, simulation, visualization and reproducible R software.\n\n\nPublications and preprints Academic CV"
   },
   {
-    "objectID": "en/recherche.html#research-areas",
-    "href": "en/recherche.html#research-areas",
+    "objectID": "en/recherche.html#contributions-and-research-themes",
+    "href": "en/recherche.html#contributions-and-research-themes",
     "title": "Research",
-    "section": "Research areas",
-    "text": "Research areas\n\n\n\nDensities and anomalies\n\n\nDensity estimation\nDevelopment of GLBFP methods, for General Linear Blend Frequency Polygons, extending ideas from histograms, average shifted histograms, and linear blend frequency polygons. The goal is to produce stable, adaptive, and geometrically interpretable estimators, especially for atypical-observation detection.\nGLBFP\n\n\n\n\nDirectional data\n\n\nCircular statistics\nModels for circular, axial, and directional data, including angular responses, circular random effects, and visualizations adapted to angles, orientations, directions, and times of day.\nCircularRegression ggcircular\n\n\n\n\nLatent dynamics\n\n\nHidden Markov models\nModeling of temporal and spatio-temporal data with hidden-state models, with particular interest in the effect of temporal scale on inference, multi-individual models, and links with step-selection functions.\nThesis and code\n\n\n\n\nTranslation\n\n\nApplied data science\nDevelopment of resources and tools connecting statistical methods, machine learning, interpretability, robustness, and data science education.\nTeaching resources"
+    "section": "Contributions and research themes",
+    "text": "Contributions and research themes\n\n\nSequential models and latent states\nMy work with Thierry Duchesne, Louis-Paul Rivest and Daniel Fortin developed multi-state models for animal movement, published in CSDA in 2017 and AOAS in 2017.\nIn Beyond the next step (2026), I propose generative validation for step-selection functions: comparing simulated trajectories with the movement features that motivate the analysis. My preprints study sequential predictive diagnostics and uncertainty in latent-state sequences.\n\nViterbi tubes, preprint\n\n\n\nDirectional statistics\nWith Louis-Paul Rivest, Thierry Duchesne and Daniel Fortin, I contributed to a general angular regression model (2016). A 2026 preprint proposes an extension with a circular random intercept and a scalar random slope.\nI also develop regression and visualization software connecting the geometry of circular, axial and toroidal data to the statistical questions being studied.\n\nCircularRegression ggcircular\n\n\n\nDensity and outlier diagnostics\nWith Thierry Duchesne and Michel Carbon, I develop a leave-one-out influence diagnostic for outlier detection based on linear-blend frequency polygons.\nThe GLBFP package provides the density estimation software base. Leave-one-out diagnostics are available in its GitHub development version. The presentation of this work received the 2026 SSC New Investigator Presentation Award.\n\nGLBFP and release status"
+  },
+  {
+    "objectID": "en/recherche.html#future-directions",
+    "href": "en/recherche.html#future-directions",
+    "title": "Research",
+    "section": "Future directions",
+    "text": "Future directions\nThe next stages of my program address three questions:\n\nLocalizing failures in sequential models, representing multiple plausible latent trajectories and quantifying error introduced by Monte Carlo approximation.\nDeveloping diagnostics for hierarchical circular models and dependence tests adapted to circular and toroidal spaces.\nStudying the stability of density diagnostics across dimensions, tuning choices and sampling regimes, with reproducible comparisons of computational cost.\n\nAnimal movement is an established application area. Environmental sequences and sensor data are prospective extensions to be developed with domain specialists."
+  },
+  {
+    "objectID": "en/recherche.html#research-training",
+    "href": "en/recherche.html#research-training",
+    "title": "Research",
+    "section": "Research training",
+    "text": "Research training\nI favour projects that begin with a focused question, a literature review and reproduction of existing results. Contributions can address theory, simulation, visualization or software validation. Each project should distinguish mathematical results, numerical evidence and open questions.\nMy experience includes undergraduate project advising, industry internship supervision and examination of master’s theses. Proposed graduate projects build on the three themes above. Teaching and supervision."
   },
   {
     "objectID": "en/recherche.html#doctoral-thesis",
@@ -1061,7 +1257,7 @@
     "href": "en/recherche.html#publications",
     "title": "Research",
     "section": "Publications",
-    "text": "Publications\n\nPublished articles\n\nNicosia, A. (2026). Beyond the next step: A multi-criteria generative validation framework for step selection functions. Methods in Ecology and Evolution, 17(6), 1754-1767. https://doi.org/10.1111/2041-210X.70313\nNicosia, A. (2026). Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”. Journal of Data Science. https://doi.org/10.6339/26-JDS1208H\nGagnon, S., Allard, M., Nicosia, A. (2018). Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada. Arctic Science, 4(1), 1-15. https://doi.org/10.1139/AS-2016-0045\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement. Annals of Applied Statistics, 11(3), 1537-1560. https://doi.org/10.1214/17-AOAS1045\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A General Hidden State Random Walk Model for Animal Movement. Computational Statistics & Data Analysis, 105, 76-95. https://doi.org/10.1016/j.csda.2016.07.009\nRivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D. (2016). A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology. Journal of the Royal Statistical Society: Series C, 65(3), 445-463. https://doi.org/10.1111/rssc.12124\n\n\n\nPreprints\n\nNicosia, A. (2026). Sequential predictive e-diagnostics for hidden Markov models of animal movement. bioRxiv. https://doi.org/10.64898/2026.07.07.737005\nBouderbala, I., Nicosia, A., Fortin, D. (2026). Behavioural state inference from movement and environmental data using Markovian step selection functions. bioRxiv. https://doi.org/10.64898/2026.02.05.704063\nNicosia, A., Duchesne, T., Carbon, M. (2026). A Leave-One-Out Influence Statistic for Density-Based Outlier Detection. arXiv, 2607.14335. Preprint."
+    "text": "Publications\nReferences updated September 24, 2026. Preprints are listed separately from published journal articles.\n\nPeer-reviewed articles\n\nNicosia, A. (2026). Beyond the next step: A multi-criteria generative validation framework for step selection functions. Methods in Ecology and Evolution, 17(6), 1754-1767. https://doi.org/10.1111/2041-210X.70313\nGagnon, S., Allard, M., Nicosia, A. (2018). Diurnal and seasonal variations of tundra CO2 emissions in a polygonal peatland near Salluit, Nunavik, Canada. Arctic Science, 4(1), 1-15. https://doi.org/10.1139/AS-2016-0045\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement. Annals of Applied Statistics, 11(3), 1537-1560. https://doi.org/10.1214/17-AOAS1045\nNicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A General Hidden State Random Walk Model for Animal Movement. Computational Statistics & Data Analysis, 105, 76-95. https://doi.org/10.1016/j.csda.2016.07.009\nRivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D. (2016). A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology. Journal of the Royal Statistical Society Series C: Applied Statistics, 65(3), 445-463. https://doi.org/10.1111/rssc.12124\n\n\n\nPublished discussion in statistics education\n\nNicosia, A. (2026). Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”. Journal of Data Science, 24(1), 276-281. https://doi.org/10.6339/26-JDS1208H\n\n\n\nPreprints\n\nNicosia, A., Duchesne, T., Carbon, M. (2026). A Leave-One-Out Influence Statistic for Density-Based Outlier Detection. arXiv:2607.14335. doi:10.48550/arXiv.2607.14335.\nNicosia, A. (2026). A generalized angular regression model with a circular random intercept and a scalar random slope. arXiv:2607.06790. doi:10.48550/arXiv.2607.06790.\nNicosia, A. (2026). Tropical Viterbi Tubes for Decoding Uncertainty in Hidden Markov Models. arXiv:2606.17181. doi:10.48550/arXiv.2606.17181.\nNicosia, A. (2026). Sequential predictive e-diagnostics for hidden Markov models of animal movement. bioRxiv. doi:10.64898/2026.07.07.737005.\nBouderbala, I., Nicosia, A., Fortin, D. (2026). Behavioural state inference from movement and environmental data using Markovian step selection functions. bioRxiv. doi:10.64898/2026.02.05.704063."
   },
   {
     "objectID": "en/ressources.html",
@@ -1082,28 +1278,28 @@
     "href": "index.html",
     "title": "Aurélien Nicosia",
     "section": "",
-    "text": "Chargé d’enseignement en mathématiques et statistiques à l’Université Laval, à Québec. Je développe des ressources pédagogiques, des packages R et des méthodes statistiques à l’intersection de l’analyse rigoureuse, de la visualisation et de l’apprentissage actif.\n\nEnseignement Recherche Packages R Innovation pédagogique"
+    "text": "Chargé d’enseignement à l’Université Laval et docteur en statistique. Je développe des méthodes pour comprendre les états latents, les données directionnelles et les observations atypiques, en reliant recherche méthodologique, logiciels R et enseignement universitaire.\n\nRecherche et publications CV académique Enseignement Packages R"
   },
   {
-    "objectID": "index.html#statistique-appliquée-science-des-données-et-pédagogie-universitaire",
-    "href": "index.html#statistique-appliquée-science-des-données-et-pédagogie-universitaire",
+    "objectID": "index.html#statistique-computationnelle-diagnostics-et-incertitude",
+    "href": "index.html#statistique-computationnelle-diagnostics-et-incertitude",
     "title": "Aurélien Nicosia",
     "section": "",
-    "text": "Chargé d’enseignement en mathématiques et statistiques à l’Université Laval, à Québec. Je développe des ressources pédagogiques, des packages R et des méthodes statistiques à l’intersection de l’analyse rigoureuse, de la visualisation et de l’apprentissage actif.\n\nEnseignement Recherche Packages R Innovation pédagogique"
+    "text": "Chargé d’enseignement à l’Université Laval et docteur en statistique. Je développe des méthodes pour comprendre les états latents, les données directionnelles et les observations atypiques, en reliant recherche méthodologique, logiciels R et enseignement universitaire.\n\nRecherche et publications CV académique Enseignement Packages R"
+  },
+  {
+    "objectID": "index.html#recherche-enseignement-et-logiciels",
+    "href": "index.html#recherche-enseignement-et-logiciels",
+    "title": "Aurélien Nicosia",
+    "section": "Recherche, enseignement et logiciels",
+    "text": "Recherche, enseignement et logiciels\n\n\nUn programme de recherche cohérent\nTrois axes : diagnostics des modèles séquentiels, statistique directionnelle et influence en estimation de densité. Les méthodes sont accompagnées de simulations et de matériel reproductible.\nContributions et perspectives\n\n\nEnseigner et former\nExpérience au premier et au deuxième cycle, en français et en anglais, accompagnement de projets étudiants et coordination du soutien à la réussite au CDA.\nCours et encadrement\n\n\nDiffuser des outils ouverts\nPackages R sur le CRAN, logiciels en développement et ressources pédagogiques pour rendre les méthodes accessibles et les analyses vérifiables.\nLogiciels et documentation"
   },
   {
     "objectID": "index.html#actualités-et-points-forts",
     "href": "index.html#actualités-et-points-forts",
     "title": "Aurélien Nicosia",
     "section": "Actualités et points forts",
-    "text": "Actualités et points forts\n\n\n\nDonnées et pédagogie\n\n\nDonnées bleues\nDes données québécoises et canadiennes pour enseigner la statistique et R, avec des activités, des sources documentées et des trousses à réutiliser en classe.\n\nExplorer les ressources\n\n\n\n\n\nLogiciels R\n\n\nleaflet.indoor et lmmix\nDeux projets logiciels disponibles sur GitHub : des cartes intérieures à plusieurs étages et des modèles mixtes gaussiens à résidus corrélés. Leur statut de développement est précisé sur chaque fiche.\n\nleaflet.indoor lmmix\n\n\n\n\n\nEnseignement\n\n\nCours de l’automne 2026\nLes sites de STT-1100, STT-4230 / STT-6230 et MQT-2101 réunissent les notes, activités et ressources pour pratiquer l’analyse de données reproductible.\n\nEnseignement\n\n\n\n\n\nSéminaire OSD · 18 septembre 2026\n\n\nAu-delà du prompt\nDeux années d’expérience avec l’IA dans l’enseignement et la recherche : évaluation, compagnons de cours, GPT-CDA, soutien humain et usages au quotidien.\nConsulter la présentation et télécharger le PDF\n\n\n\n\nSoutien à la réussite\n\n\nGPT-CDA dans ULaval Nouvelles\nLe 22 mai 2026, ULaval Nouvelles a consacré un article au GPT-CDA, un assistant conversationnel conçu pour soutenir l’apprentissage en mathématiques et en statistique au CDA.\n\nLire l’article Page CDA\n\n\n\n\n\nLogiciels R\n\n\nPackages récents sur le CRAN\nGLBFP, DonutMap, ggcircular, CircularRegression et tutorizeR soutiennent l’estimation de densité, la cartographie statistique, la visualisation de données circulaires, la régression circulaire et la création de tutoriels interactifs.\n\nDonutMap ggcircular CircularRegression tutorizeR\n\n\n\n\n\nCommunications\n\n\nSSC 2026\nJ’ai animé un atelier sur l’IA et l’enseignement, contribué à une galerie publique de ressources pédagogiques, présenté des travaux sur LOO-LBFP et reçu le prix 2026 de la présentation par un nouveau chercheur.\n\nAI Gallery Présentation LOO-LBFP\n\n\n\n\n\nPublications\n\n\nMouvement animalier\nUn article est publié dans Methods in Ecology and Evolution et deux prépublications bioRxiv portent sur l’inférence des états comportementaux et les diagnostics prédictifs séquentiels pour les modèles de Markov cachés appliqués au mouvement animalier.\n\nArticle MEE Prépublication HMM Prépublication SSF"
-  },
-  {
-    "objectID": "index.html#axes-du-site",
-    "href": "index.html#axes-du-site",
-    "title": "Aurélien Nicosia",
-    "section": "Axes du site",
-    "text": "Axes du site\n\n\nEnseignement\nCours de statistique, de science des données et de programmation R fondés sur la pratique, la reproductibilité et la communication scientifique.\nVoir les cours\n\n\nRecherche\nMéthodes statistiques pour données complexes, avec un accent sur l’estimation de densité, les modèles multi-états, les données circulaires et le mouvement animalier.\nVoir les axes de recherche\n\n\nLogiciels et ressources\nPackages R, plateformes Quarto, tutoriels interactifs et matériel ouvert pour soutenir la recherche reproductible et l’enseignement de la science des données.\nExplorer les packages\n\n\n\nCe site rassemble mes activités de recherche, d’enseignement et d’innovation pédagogique. Les pages privilégient les ressources vérifiables, les liens vers les dépôts ou publications, et les matériaux directement réutilisables."
+    "text": "Actualités et points forts\n\n\n\nPublications\n\n\nMouvement animalier\nUn article est publié dans Methods in Ecology and Evolution et deux prépublications bioRxiv portent sur l’inférence des états comportementaux et les diagnostics prédictifs séquentiels pour les modèles de Markov cachés appliqués au mouvement animalier.\n\nArticle MEE Prépublication HMM Prépublication SSF\n\n\n\n\n\nCommunications\n\n\nSSC 2026\nJ’ai animé un atelier sur l’IA et l’enseignement, contribué à une galerie publique de ressources pédagogiques, présenté des travaux sur LOO-LBFP et reçu le prix 2026 de la présentation par un nouveau chercheur.\n\nAI Gallery Présentation LOO-LBFP\n\n\n\n\n\nDonnées et pédagogie\n\n\nDonnées bleues\nDes données québécoises et canadiennes pour enseigner la statistique et R, avec des activités, des sources documentées et des trousses à réutiliser en classe.\n\nExplorer les ressources\n\n\n\n\n\nLogiciels R\n\n\nleaflet.indoor et lmmix\nDeux projets logiciels disponibles sur GitHub : des cartes intérieures à plusieurs étages et des modèles mixtes gaussiens à résidus corrélés. Leur statut de développement est précisé sur chaque fiche.\n\nleaflet.indoor lmmix\n\n\n\n\n\nEnseignement\n\n\nCours de l’automne 2026\nLes sites de STT-1100, STT-4230 / STT-6230 et MQT-2101 réunissent les notes, activités et ressources pour pratiquer l’analyse de données reproductible.\n\nEnseignement\n\n\n\n\n\nSéminaire OSD · 18 septembre 2026\n\n\nAu-delà du prompt\nDeux années d’expérience avec l’IA dans l’enseignement et la recherche : évaluation, compagnons de cours, GPT-CDA, soutien humain et usages au quotidien.\nConsulter la présentation et télécharger le PDF\n\n\n\n\nSoutien à la réussite\n\n\nGPT-CDA dans ULaval Nouvelles\nLe 22 mai 2026, ULaval Nouvelles a consacré un article au GPT-CDA, un assistant conversationnel conçu pour soutenir l’apprentissage en mathématiques et en statistique au CDA.\n\nLire l’article Page CDA\n\n\n\n\n\nLogiciels R\n\n\nPackages récents sur le CRAN\nGLBFP, DonutMap, ggcircular, CircularRegression et tutorizeR soutiennent l’estimation de densité, la cartographie statistique, la visualisation de données circulaires, la régression circulaire et la création de tutoriels interactifs.\n\nDonutMap ggcircular CircularRegression tutorizeR\n\n\n\n\n\nConsulter le CV académique : parcours, publications, logiciels, enseignement, encadrement, financement et service. Versions PDF en français et en anglais."
   },
   {
     "objectID": "packages.html",

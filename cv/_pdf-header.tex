@@ -1,0 +1,19 @@
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Aurélien Nicosia}
+\fancyhead[R]{\small Curriculum vitae}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\titleformat{\section}{\large\normalfont\color{cvnavy}}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\normalfont\itshape}{}{0pt}{}
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\titlespacing*{\subsection}{0pt}{6pt}{3pt}
+\definecolor{cvnavy}{HTML}{102F3F}
+\AtBeginDocument{\hypersetup{colorlinks=true,urlcolor=cvnavy,linkcolor=cvnavy}}
+\setlength{\emergencystretch}{3em}
+
+\ifdefined\frenchsetup\frenchsetup{StandardItemLabels=true}\fi
+\usepackage{enumitem}
+\setlist[itemize]{label=\textbullet, leftmargin=1.4em, itemsep=3pt, topsep=3pt, parsep=0pt}

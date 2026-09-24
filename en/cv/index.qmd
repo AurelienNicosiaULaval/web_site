@@ -1,60 +1,158 @@
 ---
-embed-resources: true
 title: "Aurélien Nicosia"
-subtitle: "CV summary"
+subtitle: "Academic curriculum vitae"
+date: 2026-09-24
+date-format: "D MMMM YYYY"
+lang: en
+embed-resources: true
 format:
   html:
+    toc: true
+    format-links: false
+  pdf:
+    output-file: aurelien-nicosia-cv-en.pdf
+    lang: en
+    shift-heading-level-by: -1
+    latex-auto-install: false
+    documentclass: article
+    pdf-engine: lualatex
+    papersize: letter
+    fontsize: 10pt
+    geometry: [top=0.75in, bottom=0.65in, left=0.75in, right=0.75in]
+    mainfont: TeX Gyre Pagella
+    sansfont: TeX Gyre Heros
     toc: false
-    theme: cosmo
-lang: en
+    number-sections: false
+    colorlinks: true
+    include-in-header: ../../cv/_pdf-header.tex
 ---
 
+::: {.content-visible when-format="html"}
+::: {.link-list}
+[Download the English CV (PDF)](aurelien-nicosia-cv-en.pdf){.btn .btn-outline-dark}
+[CV français (PDF)](../../cv/aurelien-nicosia-cv-fr.pdf){.btn .btn-outline-dark}
+:::
+:::
+
 ::: {.cv-identity}
-Lecturer, Department of Mathematics and Statistics
+Chargé d’enseignement (permanent teaching appointment), Department of Mathematics and Statistics
 
 Université Laval, Quebec City, Canada
 
-<https://aureliennicosiaulaval.github.io/web_site>
-
-ORCID: [0000-0002-0974-9988](https://orcid.org/0000-0002-0974-9988)
+[aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca) · [Website](https://aureliennicosiaulaval.github.io/web_site/en/) · [ORCID 0000-0002-0974-9988](https://orcid.org/0000-0002-0974-9988) · [GitHub](https://github.com/AurelienNicosiaULaval)
 :::
 
 ## Profile
 
-Researcher and instructor in statistics and data science, interested in complex data modeling, computational statistics, and educational innovation. My work connects mathematical rigor, reproducibility, and open knowledge dissemination. I develop open-source tools and digital teaching environments.
+I develop computational statistical methods for model diagnostics and uncertainty quantification, with a focus on latent-state models, directional data and density estimation. My work connects statistical methodology, simulation, visualization and reproducible R software. My experience combines research, university teaching in French and English, academic coordination and data science leadership in industry.
 
-## In brief
+## Education
 
-- Ph.D. in statistics, Université Laval (2024)
-- Lecturer and CDA coordinator, Université Laval
-- Course instructor, UQAC (computer science and data science)
-- Former R&D Director, The Co-operators
-- Core interests: density estimation, HMMs, directional models, digital pedagogy, and AI in teaching
+- 2024\. PhD in Statistics, Université Laval. Dissertation: *General Multi-State Models for the Analysis of Animal Movement*. Supervisors: Thierry Duchesne and Louis-Paul Rivest. [Dissertation](https://corpus.ulaval.ca/server/api/core/bitstreams/cf3426a4-3475-4d48-a4c4-de29df846ed5/content).
+- 2010-2013. MSc in Probability and Statistics, Université Toulouse III. Thesis on random matrices and the smallest singular value.
+- 2007-2010. BSc in Mathematics, Université Toulouse III.
 
-## Selected publications
+## Academic and professional experience
 
-- *Beyond the next step: A multi-criteria generative validation framework for step selection functions*, *Methods in Ecology and Evolution*, 2026.
-- *Sequential predictive e-diagnostics for hidden Markov models of animal movement*, bioRxiv, 2026.
-- *Behavioural state inference from movement and environmental data using Markovian step selection functions*, bioRxiv, 2026.
-- *A Multi-State Conditional Logistic Regression Model for Animal Movement*, *Annals of Applied Statistics*, 2017.
-- *A General Angular Regression Model for Data on Animal Movement*, *JRSS-C*, 2015.
+- Since 2022. Université Laval, Department of Mathematics and Statistics: *chargé d’enseignement* (permanent teaching appointment) and coordinator of the Mathematics and Statistics Help and Learning Centre (CDA).
+- Since 2021. Université du Québec à Chicoutimi: lecturer in statistics, data science and programming; supervision of undergraduate internships and research projects.
+- 2020-2022. Co-operators: Director, Research and Analytics Innovation; led data science projects and created the Innovation Space in partnership with UQAC.
+- 2017-2020. GSK Canada: Data Science Manager; process modelling, data governance and traceability in a regulated pharmaceutical environment.
+- 2014-2017. Université Laval: statistical consultant for research teams across several faculties.
+
+## Research themes
+
+- Sequential models: hidden Markov models, step-selection functions, generative validation and uncertainty in latent states.
+- Directional statistics: angular regression, random-effects models and visualization of dependence.
+- Density diagnostics: leave-one-out influence, outlier detection and grid-based computation.
+
+[Research program and reproducible materials](https://aureliennicosiaulaval.github.io/web_site/en/recherche.html).
+
+
+```{=latex}
+\newpage
+```
+
+## Peer-reviewed articles
+
+{{< include ../../_includes/articles.md >}}
+
+## Published discussion in statistics education
+
+{{< include ../../_includes/discussion.md >}}
+
+## Preprints
+
+Manuscripts released on arXiv or bioRxiv, listed separately from published journal articles.
+
+{{< include ../../_includes/preprints.md >}}
+
+
+```{=latex}
+\newpage
+```
 
 ## Software and open resources
 
-- `DonutMap`: R package available on CRAN since 2026 for creating donut maps with `sf`, `ggplot2`, and `leaflet`.
-- `ggcircular`: R package available on CRAN since 2026 for circular, axial, and directional data.
-- `CircularRegression`: R package available on CRAN since 2026 for regression with circular responses.
-- [GLBFP](../packages/glbfp.qmd): density estimation on CRAN; leave-one-out diagnostics in the GitHub development version.
-- [tutorizeR](../packages/tutorizeR.qmd): CRAN package for creating interactive tutorials from R Markdown and Quarto.
-- [leaflet.indoor](../packages/leaflet-indoor.qmd): experimental multi-level indoor mapping package on GitHub.
-- [lmmix](../packages/lmmix.qmd): Gaussian mixed models with correlated residuals, under development on GitHub.
-- [UlavalSSD](../packages/ulavalssd.qmd): Quebec data and tools for introductory data science, available on GitHub.
+### Packages released on CRAN
+
+- [CircularRegression](https://cran.r-project.org/package=CircularRegression): circular regression.
+- [ggcircular](https://cran.r-project.org/package=ggcircular): circular, axial and directional visualization with ggplot2.
+- [GLBFP](https://cran.r-project.org/package=GLBFP): density estimation with linear-blend frequency polygons. Leave-one-out diagnostics are in the GitHub development version.
+- [tutorizeR](https://cran.r-project.org/package=tutorizeR): interactive tutorial creation from R Markdown or Quarto.
+- [DonutMap](https://cran.r-project.org/package=DonutMap): donut-chart mapping.
+- [GeneralOaxaca](https://cran.r-project.org/package=GeneralOaxaca): generalized Blinder-Oaxaca decomposition.
+
+### Projects released on GitHub
+
+- [learnrTrackR](https://github.com/AurelienNicosiaULaval/learnrTrackR): tracking and export of interactive tutorial attempts.
+- [leaflet.indoor](https://github.com/AurelienNicosiaULaval/leaflet-indoor): experimental multi-level indoor mapping package.
+- [lmmix](https://github.com/AurelienNicosiaULaval/lmmix): Gaussian mixed models with correlated residuals, under development.
+- [UlavalSSD](https://github.com/AurelienNicosiaULaval/UlavalSSD): Quebec datasets and introductory data science tools.
 - [Données bleues](https://aureliennicosiaulaval.github.io/donnees-bleues/): Quebec and Canadian datasets with reproducible teaching activities.
-- `site_ressources_SSD`: open teaching-resource platform for data science.
 
-## Awards and grants
+## Selected presentations
 
-- ULaval Star Teacher Award (2014, 2023, 2024, 2025, 2026)
-- 2026 New Investigator Presentation Award, SSC 2026
-- PAIP grants (2023-2026) - educational innovation and AI
-- CALQ (2024) - *Digital drawing with R*
+- 2026\. *A Leave-One-Out Influence Statistic for Scalable Density-Based Outlier Detection*, with Thierry Duchesne and Michel Carbon, Statistical Society of Canada annual meeting. [Presentation](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf).
+- 2026\. Workshop on AI and teaching, Statistical Society of Canada annual meeting. [Resource gallery](https://aureliennicosiaulaval.github.io/ssc-2026-ai-teaching-gallery/).
+- September 18, 2026. *Au-delà du prompt*, Department of Operations and Decision Systems seminar, Université Laval. [Presentation and resources, in French](https://aureliennicosiaulaval.github.io/web_site/presentations/au-dela-du-prompt/).
+
+
+```{=latex}
+\newpage
+```
+
+## Teaching and academic coordination
+
+- Université Laval: STT-1100, Introduction to Data Science; STT-2200, Data Analysis; STT-4230/STT-6230, Programming for Data Science; STT-1900, Statistics for Engineering; STT-2920, Probability for Engineering; MQT-2101, Data Analysis and Modelling.
+- GSO-6092, *Project Management*, graduate level: taught in English in Winter 2026 and Fall 2026 (in progress).
+- GSO-6082, Gestion de projets, graduate level: partial replacement assignment of 21 teaching hours, August 31 to October 16, 2026 (in progress).
+- UQAC: 8GEN444, Engineering Statistics; 8STT108, Statistical Analysis of Large Data Sets; 8INF404, Introduction to Data Science and Business Intelligence; 8INF416, Data Visualization and Interface Design.
+- STT-1900: in-person and online teaching and coordination for approximately 350 students in 2025.
+- CDA: coordination and training of approximately 30 teaching assistants; development of diagnostic assessments in mathematics, numerical analysis and probability to guide student support.
+
+## Supervision and examination
+
+- Faculty consultant for three undergraduate projects: directional statistics (2024), random matrices (2025) and visual inference (2026).
+- Supervision of industry internships and undergraduate research projects at UQAC.
+- Examiner for two master’s theses.
+
+## Teaching funding and awards
+
+- 2025 and 2026. GPT-CDA and GPT-CDA, Phase 2: two PAIP teaching innovation grants, artificial intelligence and teaching stream, CAD 20,000 each, Université Laval.
+- 2026\. [New Investigator Presentation Award](https://ssc.ca/en/awards/2026/aurelien-nicosia-new-investigator-presentation-award-2026), Statistical Society of Canada, for the presentation on leave-one-out influence for outlier detection.
+- 2022-2023 through 2025-2026. Teaching Stars, Faculty of Science and Engineering, Université Laval.
+- 2026\. Student Recognition, Teaching Award, Gala du mérite.
+- 2016\. Presentation award, Statistical Society of Canada; Student Symposium winner, SAS Global Forum.
+- 2014\. Professor Star Award, Université Laval.
+
+## Academic service and program development
+
+- Contributed to the review of the statistics degree and the development of the bachelor’s program in statistics and data science at Université Laval.
+- Produced and graded the 20-MB-A2 Probability and Statistics examination for the Ordre des ingénieurs du Québec.
+- Invited in 2025 to a Canadian Engineering Accreditation Board meeting on common courses and student support for 14 engineering programs.
+- Co-adaptation of *Probabilités et statistique, Science et génie*, fourth edition, forthcoming from TC Média Livres in April 2027.
+
+## Languages
+
+University teaching, scientific writing and communication in French and English.

@@ -6,6 +6,8 @@ project:
     - "assets/custom.css"
     - "assets/logo.svg"
     - "Example Recipes.pdf"
+    - "cv/*.pdf"
+    - "en/cv/*.pdf"
     - "presentations/au-dela-du-prompt/diaporama/**"
     - "presentations/au-dela-du-prompt/*.pdf"
     - "presentations/au-dela-du-prompt/ressources/**"

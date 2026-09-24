@@ -4071,7 +4071,7 @@ vertical-align: -.125em;
   }
 
   function asIndex(pathname) {
-    return pathname === "" ? "index.html" : pathname.replace(/\/$/, "index.html");
+    return pathname === "" ? "index.html" : pathname.replace(/\/$/, "/index.html");
   }
 
   function isEnglishPage(pathname) {
@@ -4705,6 +4705,15 @@ color: #ffffff;
 .navbar .navbar-toggler-icon {
 filter: brightness(0) invert(1);
 opacity: 0.9;
+}
+
+.hero-actions > p,
+.link-list > p {
+display: flex;
+flex-wrap: wrap;
+gap: 0.65rem;
+margin-bottom: 0;
+max-width: none;
 }
 </style>
 <meta property="og:title" content="CDA : ce que nous offrons – Aurélien Nicosia">

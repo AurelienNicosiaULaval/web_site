@@ -4071,7 +4071,7 @@ vertical-align: -.125em;
   }
 
   function asIndex(pathname) {
-    return pathname === "" ? "index.html" : pathname.replace(/\/$/, "index.html");
+    return pathname === "" ? "index.html" : pathname.replace(/\/$/, "/index.html");
   }
 
   function isEnglishPage(pathname) {
@@ -4706,6 +4706,15 @@ color: #ffffff;
 filter: brightness(0) invert(1);
 opacity: 0.9;
 }
+
+.hero-actions > p,
+.link-list > p {
+display: flex;
+flex-wrap: wrap;
+gap: 0.65rem;
+margin-bottom: 0;
+max-width: none;
+}
 </style>
 <meta property="og:title" content="Research – Aurélien Nicosia">
 <meta property="og:description" content>
@@ -4801,15 +4810,18 @@ opacity: 0.9;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#research-areas" id="toc-research-areas" class="nav-link" data-scroll-target="#research-areas">Research areas</a></li>
+  <li><a href="#research-program" id="toc-research-program" class="nav-link active" data-scroll-target="#research-program">Research program</a></li>
+  <li><a href="#contributions-and-research-themes" id="toc-contributions-and-research-themes" class="nav-link" data-scroll-target="#contributions-and-research-themes">Contributions and research themes</a></li>
+  <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions">Future directions</a></li>
+  <li><a href="#research-training" id="toc-research-training" class="nav-link" data-scroll-target="#research-training">Research training</a></li>
   <li><a href="#doctoral-thesis" id="toc-doctoral-thesis" class="nav-link" data-scroll-target="#doctoral-thesis">Doctoral thesis</a></li>
   <li><a href="#software-and-dissemination" id="toc-software-and-dissemination" class="nav-link" data-scroll-target="#software-and-dissemination">Software and dissemination</a></li>
   <li><a href="#current-research-materials" id="toc-current-research-materials" class="nav-link" data-scroll-target="#current-research-materials">Current research materials</a></li>
   <li><a href="#recent-presentations" id="toc-recent-presentations" class="nav-link" data-scroll-target="#recent-presentations">Recent presentations</a></li>
   <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a>
   <ul class="collapse">
-  <li><a href="#published-articles" id="toc-published-articles" class="nav-link" data-scroll-target="#published-articles">Published articles</a></li>
+  <li><a href="#peer-reviewed-articles" id="toc-peer-reviewed-articles" class="nav-link" data-scroll-target="#peer-reviewed-articles">Peer-reviewed articles</a></li>
+  <li><a href="#published-discussion-in-statistics-education" id="toc-published-discussion-in-statistics-education" class="nav-link" data-scroll-target="#published-discussion-in-statistics-education">Published discussion in statistics education</a></li>
   <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
   </ul></li>
   </ul>
@@ -4837,56 +4849,58 @@ opacity: 0.9;
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<section id="research-program" class="level2">
+<h2 class="anchored" data-anchor-id="research-program">Research program</h2>
 <div class="section-intro">
-<p>My work is situated at the interface of applied mathematics, computational statistics, and data science. I develop interpretable methods for analysing complex data, with particular attention to reproducibility, open-source software, and translation into usable tools.</p>
+<p>How can we obtain reliable inference when data structure is partly hidden, constrained by geometry or sensitive to numerical approximation? I develop model diagnostics and uncertainty quantification methods to address this question. My program connects probabilistic modelling, simulation, visualization and reproducible R software.</p>
+</div>
+<div class="link-list">
+<p><a href="#publications" class="btn btn-outline-dark">Publications and preprints</a> <a href="../en/cv/index.html" class="btn btn-outline-dark">Academic CV</a></p>
 </div>
 </section>
-<section id="research-areas" class="level2">
-<h2 class="anchored" data-anchor-id="research-areas">Research areas</h2>
-<div class="research-axis-grid">
-<div class="research-card">
-<div class="eyebrow">
-<p>Densities and anomalies</p>
+<section id="contributions-and-research-themes" class="level2">
+<h2 class="anchored" data-anchor-id="contributions-and-research-themes">Contributions and research themes</h2>
+<div class="feature-grid">
+<section id="sequential-models-and-latent-states" class="level3 research-card">
+<h3 class="anchored" data-anchor-id="sequential-models-and-latent-states">Sequential models and latent states</h3>
+<p>My work with Thierry Duchesne, Louis-Paul Rivest and Daniel Fortin developed multi-state models for animal movement, published in <a href="https://doi.org/10.1016/j.csda.2016.07.009">CSDA in 2017</a> and <a href="https://doi.org/10.1214/17-AOAS1045">AOAS in 2017</a>.</p>
+<p>In <a href="https://doi.org/10.1111/2041-210X.70313">Beyond the next step (2026)</a>, I propose generative validation for step-selection functions: comparing simulated trajectories with the movement features that motivate the analysis. My preprints study sequential predictive diagnostics and uncertainty in latent-state sequences.</p>
+<div class="link-list">
+<p><a href="https://arxiv.org/abs/2606.17181" class="btn btn-outline-dark">Viterbi tubes, preprint</a></p>
 </div>
-<section id="density-estimation" class="level3">
-<h3 class="anchored" data-anchor-id="density-estimation">Density estimation</h3>
-<p>Development of GLBFP methods, for General Linear Blend Frequency Polygons, extending ideas from histograms, average shifted histograms, and linear blend frequency polygons. The goal is to produce stable, adaptive, and geometrically interpretable estimators, especially for atypical-observation detection.</p>
-<p><a href="https://github.com/AurelienNicosiaULaval/GLBFP" class="btn btn-outline-dark">GLBFP</a></p>
 </section>
-</div>
-<div class="research-card">
-<div class="eyebrow">
-<p>Directional data</p>
-</div>
-<section id="circular-statistics" class="level3">
-<h3 class="anchored" data-anchor-id="circular-statistics">Circular statistics</h3>
-<p>Models for circular, axial, and directional data, including angular responses, circular random effects, and visualizations adapted to angles, orientations, directions, and times of day.</p>
+<section id="directional-statistics" class="level3 research-card">
+<h3 class="anchored" data-anchor-id="directional-statistics">Directional statistics</h3>
+<p>With Louis-Paul Rivest, Thierry Duchesne and Daniel Fortin, I contributed to a <a href="https://doi.org/10.1111/rssc.12124">general angular regression model (2016)</a>. A <a href="https://arxiv.org/abs/2607.06790">2026 preprint</a> proposes an extension with a circular random intercept and a scalar random slope.</p>
+<p>I also develop regression and visualization software connecting the geometry of circular, axial and toroidal data to the statistical questions being studied.</p>
+<div class="link-list">
 <p><a href="../en/packages/circularregression.html" class="btn btn-outline-dark">CircularRegression</a> <a href="../en/packages/ggcircular.html" class="btn btn-outline-dark">ggcircular</a></p>
+</div>
+</section>
+<section id="density-and-outlier-diagnostics" class="level3 research-card">
+<h3 class="anchored" data-anchor-id="density-and-outlier-diagnostics">Density and outlier diagnostics</h3>
+<p>With Thierry Duchesne and Michel Carbon, I develop a <a href="https://arxiv.org/abs/2607.14335">leave-one-out influence diagnostic</a> for outlier detection based on linear-blend frequency polygons.</p>
+<p>The GLBFP package provides the density estimation software base. Leave-one-out diagnostics are available in its GitHub development version. The presentation of this work received the <a href="https://ssc.ca/en/awards/2026/aurelien-nicosia-new-investigator-presentation-award-2026">2026 SSC New Investigator Presentation Award</a>.</p>
+<div class="link-list">
+<p><a href="../en/packages/glbfp.html" class="btn btn-outline-dark">GLBFP and release status</a></p>
+</div>
 </section>
 </div>
-<div class="research-card">
-<div class="eyebrow">
-<p>Latent dynamics</p>
-</div>
-<section id="hidden-markov-models" class="level3">
-<h3 class="anchored" data-anchor-id="hidden-markov-models">Hidden Markov models</h3>
-<p>Modeling of temporal and spatio-temporal data with hidden-state models, with particular interest in the effect of temporal scale on inference, multi-individual models, and links with step-selection functions.</p>
-<p><a href="https://github.com/AurelienNicosiaULaval/multi-state-model-animal-movement" class="btn btn-outline-dark">Thesis and code</a></p>
 </section>
-</div>
-<div class="research-card">
-<div class="eyebrow">
-<p>Translation</p>
-</div>
-<section id="applied-data-science" class="level3">
-<h3 class="anchored" data-anchor-id="applied-data-science">Applied data science</h3>
-<p>Development of resources and tools connecting statistical methods, machine learning, interpretability, robustness, and data science education.</p>
-<p><a href="../en/ressources.html" class="btn btn-outline-dark">Teaching resources</a></p>
+<section id="future-directions" class="level2">
+<h2 class="anchored" data-anchor-id="future-directions">Future directions</h2>
+<p>The next stages of my program address three questions:</p>
+<ul>
+<li>Localizing failures in sequential models, representing multiple plausible latent trajectories and quantifying error introduced by Monte Carlo approximation.</li>
+<li>Developing diagnostics for hierarchical circular models and dependence tests adapted to circular and toroidal spaces.</li>
+<li>Studying the stability of density diagnostics across dimensions, tuning choices and sampling regimes, with reproducible comparisons of computational cost.</li>
+</ul>
+<p>Animal movement is an established application area. Environmental sequences and sensor data are prospective extensions to be developed with domain specialists.</p>
 </section>
-</div>
-</div>
+<section id="research-training" class="level2">
+<h2 class="anchored" data-anchor-id="research-training">Research training</h2>
+<p>I favour projects that begin with a focused question, a literature review and reproduction of existing results. Contributions can address theory, simulation, visualization or software validation. Each project should distinguish mathematical results, numerical evidence and open questions.</p>
+<p>My experience includes undergraduate project advising, industry internship supervision and examination of master’s theses. Proposed graduate projects build on the three themes above. <a href="../en/enseignement.html#supervision">Teaching and supervision</a>.</p>
 </section>
 <section id="doctoral-thesis" class="level2">
 <h2 class="anchored" data-anchor-id="doctoral-thesis">Doctoral thesis</h2>
@@ -4974,24 +4988,32 @@ opacity: 0.9;
 </section>
 <section id="publications" class="level2">
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>
-<section id="published-articles" class="level3">
-<h3 class="anchored" data-anchor-id="published-articles">Published articles</h3>
-<ol type="1">
+<p>References updated September 24, 2026. Preprints are listed separately from published journal articles.</p>
+<section id="peer-reviewed-articles" class="level3">
+<h3 class="anchored" data-anchor-id="peer-reviewed-articles">Peer-reviewed articles</h3>
+<ul>
 <li><p>Nicosia, A. (2026). Beyond the next step: A multi-criteria generative validation framework for step selection functions. Methods in Ecology and Evolution, 17(6), 1754-1767. <a href="https://doi.org/10.1111/2041-210X.70313">https://doi.org/10.1111/2041-210X.70313</a></p></li>
-<li><p>Nicosia, A. (2026). Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”. Journal of Data Science. <a href="https://doi.org/10.6339/26-JDS1208H">https://doi.org/10.6339/26-JDS1208H</a></p></li>
-<li><p>Gagnon, S., Allard, M., Nicosia, A. (2018). Diurnal and seasonal variations of tundra CO₂ emissions in a polygonal peatland near Salluit, Nunavik, Canada. Arctic Science, 4(1), 1-15. <a href="https://doi.org/10.1139/AS-2016-0045">https://doi.org/10.1139/AS-2016-0045</a></p></li>
+<li><p>Gagnon, S., Allard, M., Nicosia, A. (2018). Diurnal and seasonal variations of tundra CO<sub>2</sub> emissions in a polygonal peatland near Salluit, Nunavik, Canada. Arctic Science, 4(1), 1-15. <a href="https://doi.org/10.1139/AS-2016-0045">https://doi.org/10.1139/AS-2016-0045</a></p></li>
 <li><p>Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A Multi-State Conditional Logistic Regression Model for the Analysis of Animal Movement. Annals of Applied Statistics, 11(3), 1537-1560. <a href="https://doi.org/10.1214/17-AOAS1045">https://doi.org/10.1214/17-AOAS1045</a></p></li>
 <li><p>Nicosia, A., Duchesne, T., Rivest, L.-P., Fortin, D. (2017). A General Hidden State Random Walk Model for Animal Movement. Computational Statistics &amp; Data Analysis, 105, 76-95. <a href="https://doi.org/10.1016/j.csda.2016.07.009">https://doi.org/10.1016/j.csda.2016.07.009</a></p></li>
-<li><p>Rivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D. (2016). A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology. Journal of the Royal Statistical Society: Series C, 65(3), 445-463. <a href="https://doi.org/10.1111/rssc.12124">https://doi.org/10.1111/rssc.12124</a></p></li>
-</ol>
+<li><p>Rivest, L.-P., Duchesne, T., Nicosia, A., Fortin, D. (2016). A General Angular Regression Model for the Analysis of Data on Animal Movement in Ecology. Journal of the Royal Statistical Society Series C: Applied Statistics, 65(3), 445-463. <a href="https://doi.org/10.1111/rssc.12124">https://doi.org/10.1111/rssc.12124</a></p></li>
+</ul>
+</section>
+<section id="published-discussion-in-statistics-education" class="level3">
+<h3 class="anchored" data-anchor-id="published-discussion-in-statistics-education">Published discussion in statistics education</h3>
+<ul>
+<li>Nicosia, A. (2026). Discussion of “Addressing the Challenges of AI-Generated Assignment Submissions in Education: Insights and Strategies”. Journal of Data Science, 24(1), 276-281. <a href="https://doi.org/10.6339/26-JDS1208H">https://doi.org/10.6339/26-JDS1208H</a></li>
+</ul>
 </section>
 <section id="preprints" class="level3">
 <h3 class="anchored" data-anchor-id="preprints">Preprints</h3>
-<ol type="1">
-<li><p>Nicosia, A. (2026). Sequential predictive e-diagnostics for hidden Markov models of animal movement. bioRxiv. <a href="https://doi.org/10.64898/2026.07.07.737005">https://doi.org/10.64898/2026.07.07.737005</a></p></li>
-<li><p>Bouderbala, I., Nicosia, A., Fortin, D. (2026). Behavioural state inference from movement and environmental data using Markovian step selection functions. bioRxiv. <a href="https://doi.org/10.64898/2026.02.05.704063">https://doi.org/10.64898/2026.02.05.704063</a></p></li>
-<li><p>Nicosia, A., Duchesne, T., Carbon, M. (2026). A Leave-One-Out Influence Statistic for Density-Based Outlier Detection. arXiv, 2607.14335. <a href="https://arxiv.org/abs/2607.14335">Preprint</a>.</p></li>
-</ol>
+<ul>
+<li><p>Nicosia, A., Duchesne, T., Carbon, M. (2026). A Leave-One-Out Influence Statistic for Density-Based Outlier Detection. arXiv:2607.14335. <a href="https://arxiv.org/abs/2607.14335">doi:10.48550/arXiv.2607.14335</a>.</p></li>
+<li><p>Nicosia, A. (2026). A generalized angular regression model with a circular random intercept and a scalar random slope. arXiv:2607.06790. <a href="https://arxiv.org/abs/2607.06790">doi:10.48550/arXiv.2607.06790</a>.</p></li>
+<li><p>Nicosia, A. (2026). Tropical Viterbi Tubes for Decoding Uncertainty in Hidden Markov Models. arXiv:2606.17181. <a href="https://arxiv.org/abs/2606.17181">doi:10.48550/arXiv.2606.17181</a>.</p></li>
+<li><p>Nicosia, A. (2026). Sequential predictive e-diagnostics for hidden Markov models of animal movement. bioRxiv. <a href="https://doi.org/10.64898/2026.07.07.737005">doi:10.64898/2026.07.07.737005</a>.</p></li>
+<li><p>Bouderbala, I., Nicosia, A., Fortin, D. (2026). Behavioural state inference from movement and environmental data using Markovian step selection functions. bioRxiv. <a href="https://doi.org/10.64898/2026.02.05.704063">doi:10.64898/2026.02.05.704063</a>.</p></li>
+</ul>
 
 
 </section>

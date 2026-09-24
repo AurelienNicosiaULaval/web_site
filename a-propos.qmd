@@ -9,7 +9,13 @@ title: "À propos"
 Je suis chargé d’enseignement en mathématiques et statistiques au Département de mathématiques et de statistique de l’Université Laval, à Québec. Je coordonne aussi le Centre de Dépannage et d’Apprentissage en mathématiques et statistique, un service de soutien à la réussite destiné aux étudiantes et étudiants de plusieurs cours du Département.
 :::
 
-Mon travail se situe à l’intersection de la pédagogie universitaire, de la statistique appliquée et du développement d’outils numériques pour l’enseignement et la recherche. J’accorde une importance centrale à la reproductibilité, à la science ouverte, à la clarté des explications et à l’accessibilité des ressources.
+Titulaire d’un doctorat en statistique de l’Université Laval (2024), je développe des méthodes de diagnostic et de quantification de l’incertitude pour les modèles à états latents, les données directionnelles et l’estimation de densité. Mes travaux associent recherche méthodologique, simulation, visualisation et logiciels R reproductibles.
+
+Avant mon poste actuel, j’ai été consultant en statistique à l’Université Laval (2014-2017), gestionnaire en science des données chez GSK Canada (2017-2020), puis directeur de la recherche et de l’innovation analytique chez Co-operators (2020-2022). J’enseigne également à l’UQAC depuis 2021. Ces expériences nourrissent mon approche des collaborations, de la formation et de la traçabilité des analyses.
+
+Mon enseignement couvre la statistique, les probabilités, la science des données et la programmation, ainsi que la gestion de projets au deuxième cycle, en français et en anglais. J’accorde une place centrale à la compréhension des méthodes, à la reproductibilité et à l’accompagnement humain.
+
+[Parcours complet et CV téléchargeables](cv/index.qmd){.btn .btn-outline-dark}
 
 ::: {.about-grid}
 ::: {.profile-panel}

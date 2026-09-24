@@ -2,7 +2,7 @@
 
 La base publique est reconstruite de façon reproductible à partir de cinq couches.
 
-1. `clz-library-raw.json` conserve sans modification l’extraction du PDF CLZ.
+1. `clz-library-raw.json` conserve les champs bibliographiques de l’export CLZ, en CSV ou en PDF. L’import normalise uniquement les espaces et les caractères Unicode.
 2. Les caches Open Library, Google Books, éditeurs et libraires conservent les réponses externes utilisées pour les métadonnées et les couvertures.
 3. `library-curation.json` décrit chaque correction manuelle, son niveau de confiance et ses sources.
 4. `library-normalization.json` définit les alias d’auteurs et d’éditeurs ainsi que la politique de regroupement des doublons.
@@ -12,9 +12,26 @@ La commande suivante produit `assets/library/library-data.json` et le rapport de
 
 ```bash
 python3 scripts/curate_library_data.py
+python3 scripts/build_library_audit_artifact.py
 ```
 
 Lors d’un nouvel export CLZ, les identifiants des notices existantes sont préservés afin que les corrections manuelles et les couvertures sans ISBN restent associées au bon livre:
+
+```bash
+python3 scripts/extract_clz_library.py \
+  /chemin/vers/export-clz.csv \
+  data/library/clz-library-raw.json \
+  --previous data/library/clz-library-raw.json \
+  --exported-on YYYY-MM-DD
+python3 scripts/curate_library_data.py
+python3 scripts/build_library_audit_artifact.py
+```
+
+Le CSV doit contenir `Author`, `Title`, `ISBN`, `Publisher`, `Publication Date`, `Genre`, `Publication Year` et `Series`. Les autres colonnes, notamment les notes et renseignements d’achat, ne sont pas importées. `source_rows` désigne les lignes logiques du CSV, en comptant l’en-tête comme ligne 1. La date de l’export est distincte de la date d’import dans le site.
+
+L’instantané `clz-books-2026-09-16.csv` contient ces huit colonnes bibliographiques et 618 notices. L’import du 24 septembre conserve les 571 identifiants antérieurs, ajoute 47 notices et ne retire aucune notice. Les règles existantes regroupent 16 paires de notices, pour 602 fiches d’édition. Une valeur d’éditeur erronée (« 1970 ») est corrigée par correspondance exacte d’ISBN avec Google Books, avec sa source dans `library-curation.json`. Les champs sans information restent vides; les caches de métadonnées et de couvertures existants sont conservés.
+
+Pour un export PDF:
 
 ```bash
 uv run --with pdfplumber python scripts/extract_clz_library.py \
@@ -61,7 +78,7 @@ Règles de curation:
 - les notices partageant le même ISBN valide sont regroupées;
 - deux notices sans ISBN distinct sont regroupées seulement si leur titre normalisé et leurs auteurs sont compatibles, sans conflit d’année, d’éditeur ni de collection;
 - deux ISBN valides distincts ne sont jamais regroupés, même si le titre est identique;
-- chaque regroupement conserve `source_record_ids`, `source_pages` et `source_record_count`, afin qu’aucune notice source ne soit perdue;
+- chaque regroupement conserve `source_record_ids`, `source_record_count` et les repères `source_pages` (PDF) ou `source_rows` (CSV), afin qu’aucune notice source ne soit perdue;
 - le nombre de notices sources ne doit pas être interprété comme un nombre confirmé d’exemplaires physiques.
 
 Le pipeline est validé par des tests de traçabilité, d’unicité et de déterminisme:

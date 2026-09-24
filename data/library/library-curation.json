@@ -1,5 +1,5 @@
 {
-  "curated_on": "2026-07-14",
+  "curated_on": "2026-09-24",
   "policy": {
     "confidence_threshold": "high",
     "missing_isbn_before_1970": "expected",
@@ -146,8 +146,13 @@
       "url": "https://books.google.com/books/about/Math%C3%A9matiques_pour_l_%C3%A9l%C3%A8ve_professeur.html?id=dkNblfhmIBMC"
     },
     "clz_latest_export": {
-      "title": "Latest CLZ Books PDF export",
+      "title": "CLZ Books bibliographic export",
       "url": "data/library/clz-library-raw.json"
+    },
+    "google_books_smith_kinetics": {
+      "title": "Google Books, Chemical Engineering Kinetics, 2nd edition (ISBN 9780070586932)",
+      "url": "https://books.google.com/books/about/Chemical_Engineering_Kinetics.html?id=U8ZTAAAAMAAJ",
+      "accessed_on": "2026-09-24"
     }
   },
   "overrides": [
@@ -459,6 +464,16 @@
       "changes": {
         "publisher": "Fonds de rayonnement pédagogique, Cégep Saint-Jean-sur-Richelieu"
       }
+    },
+    {
+      "id": "book-0613",
+      "confidence": "high",
+      "reason": "CLZ records the publication year 1970 as the publisher. The Google Books digitized edition identifies McGraw-Hill for the exact ISBN 9780070586932.",
+      "sources": ["google_books_smith_kinetics"],
+      "changes": {
+        "publisher": "McGraw-Hill"
+      }
     }
-  ]
+  ],
+  "openlibrary_retrieved_on": "2026-07-14"
 }

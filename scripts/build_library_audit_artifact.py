@@ -12,7 +12,6 @@ ROOT = Path(__file__).resolve().parents[1]
 CATALOGUE = ROOT / "assets/library/library-data.json"
 QUALITY = ROOT / "data/library/library-quality-report.json"
 OUTPUT = ROOT / "data/library/library-audit-artifact.json"
-GENERATED_AT = "2026-07-14"
 
 
 def read_json(path: Path):
@@ -35,6 +34,7 @@ def query_rows(connection: sqlite3.Connection, sql: str) -> list[dict[str, objec
 def main() -> None:
     catalogue = read_json(CATALOGUE)
     quality = read_json(QUALITY)
+    generated_at = quality["generated_on"]
     records_by_id = {record["id"]: record for record in catalogue["records"]}
     records_by_source_id = {
         source_id: record
@@ -249,7 +249,7 @@ def main() -> None:
             "query": {
                 "engine": "SQLite",
                 "language": "sql",
-                "executed_at": GENERATED_AT,
+                "executed_at": generated_at,
                 "description": "Calcule les indicateurs synthétiques à partir des notices brutes, curées et du journal de corrections.",
                 "sql": summary_sql,
                 "tables_used": ["records", "raw_records", "corrections"],
@@ -266,7 +266,7 @@ def main() -> None:
             "query": {
                 "engine": "SQLite",
                 "language": "sql",
-                "executed_at": GENERATED_AT,
+                "executed_at": generated_at,
                 "description": "Compte les notices dans chacun des quatre statuts ISBN.",
                 "sql": isbn_status_sql,
                 "tables_used": ["records"],
@@ -279,7 +279,7 @@ def main() -> None:
             "query": {
                 "engine": "SQLite",
                 "language": "sql",
-                "executed_at": GENERATED_AT,
+                "executed_at": generated_at,
                 "description": "Compare les nombres et taux de valeurs vides dans l’extraction CLZ et dans le catalogue regroupé.",
                 "sql": missing_fields_sql,
                 "tables_used": ["raw_records", "records"],
@@ -295,7 +295,7 @@ def main() -> None:
             "query": {
                 "engine": "SQLite",
                 "language": "sql",
-                "executed_at": GENERATED_AT,
+                "executed_at": generated_at,
                 "description": "Liste les publications de 1970 ou après sans ISBN et les publications sans année ni ISBN.",
                 "sql": review_cases_sql,
                 "tables_used": ["records"],
@@ -307,7 +307,7 @@ def main() -> None:
             "query": {
                 "engine": "SQLite",
                 "language": "sql",
-                "executed_at": GENERATED_AT,
+                "executed_at": generated_at,
                 "description": "Liste les champs réellement changés et le nombre de sources pour chaque notice corrigée.",
                 "sql": correction_log_sql,
                 "tables_used": ["corrections"],
@@ -335,7 +335,7 @@ def main() -> None:
         "surface": "report",
         "title": "Audit de qualité de la bibliothèque",
         "description": "État de la base CLZ après validation, enrichissement bibliographique et normalisation.",
-        "generatedAt": GENERATED_AT,
+        "generatedAt": generated_at,
         "cards": [
             {
                 "id": "catalogue_size",
@@ -519,7 +519,7 @@ def main() -> None:
         "manifest": manifest,
         "snapshot": {
             "version": 1,
-            "generatedAt": GENERATED_AT,
+            "generatedAt": generated_at,
             "status": "ready",
             "datasets": {
                 "summary": summary,

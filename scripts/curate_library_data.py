@@ -524,6 +524,10 @@ def merge_duplicate_group(
     )
     merged["source_record_ids"] = source_record_ids
     merged["source_pages"] = source_pages
+    if any("source_rows" in record for record in group):
+        merged["source_rows"] = sorted({
+            row for record in group for row in record.get("source_rows", [])
+        })
     merged["duplicate_group"] = {
         "reason": reason,
         "canonical_record_id": merged["id"],
@@ -863,6 +867,7 @@ def main() -> None:
     theme_rules = read_json(args.themes)
     records = copy.deepcopy(raw_payload["records"])
     curated_on = str(curation.get("curated_on") or date.today().isoformat())
+    openlibrary_retrieved_on = str(curation.get("openlibrary_retrieved_on", curated_on))
     applied = apply_overrides(records, curation)
 
     openlibrary_fills: Counter[str] = Counter()
@@ -877,14 +882,14 @@ def main() -> None:
         if entry:
             for field in fill_from_openlibrary(record, entry, provenance):
                 openlibrary_fills[field] += 1
-            record["openlibrary"] = openlibrary_summary(entry, curated_on)
+            record["openlibrary"] = openlibrary_summary(entry, openlibrary_retrieved_on)
 
         openlibrary_images = record.get("openlibrary", {}).get("cover", {})
         if openlibrary_images.get("medium"):
             record["cover"] = cover_summary(
                 provider="Open Library",
                 source_id="openlibrary_exact",
-                retrieved_on=curated_on,
+                retrieved_on=openlibrary_retrieved_on,
                 match_method="exact_isbn",
                 source_url=record["openlibrary"].get("url", ""),
                 images=openlibrary_images,
@@ -1048,7 +1053,7 @@ def main() -> None:
         openlibrary_fills,
         normalization_stats,
         duplicate_groups,
-        curated_on,
+        raw_payload["source"].get("imported_on", curated_on),
     )
     report["theme_counts"] = dict(sorted(theme_counts.items()))
     write_json(args.output, payload)

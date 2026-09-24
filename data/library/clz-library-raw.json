@@ -1,12 +1,14 @@
 {
   "source": {
-    "name": "pdf_book_2026-07-14_21-30-54.pdf",
-    "format": "CLZ Books PDF export",
-    "pages": 41,
-    "previous_catalogue": "pdf_book_2026-07-14_17-55-30.pdf",
+    "name": "clz-books-2026-09-16.csv",
+    "format": "CLZ Books CSV export",
+    "rows": 618,
+    "exported_on": "2026-09-16",
+    "imported_on": "2026-09-24",
+    "previous_catalogue": "pdf_book_2026-07-14_21-30-54.pdf",
     "reconciliation": {
-      "retained": 560,
-      "added": 11,
+      "retained": 571,
+      "added": 47,
       "removed": 0
     }
   },
@@ -20,8 +22,8 @@
       "genre": "",
       "publication_year": "1887",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        2
       ],
       "id": "book-0002"
     },
@@ -34,8 +36,8 @@
       "genre": "",
       "publication_year": "1922",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        3
       ],
       "id": "book-0003"
     },
@@ -43,13 +45,13 @@
       "author": "",
       "title": "Cours de geometrie",
       "isbn": "",
-      "publisher": "AD Wesmael.- Charlier",
+      "publisher": "AD Wesmael.-Charlier",
       "publication_date": "Jan 01, 1957",
       "genre": "",
       "publication_year": "1957",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        4
       ],
       "id": "book-0004"
     },
@@ -62,8 +64,8 @@
       "genre": "",
       "publication_year": "1985",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        5
       ],
       "id": "book-0005"
     },
@@ -76,8 +78,8 @@
       "genre": "",
       "publication_year": "1978",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        6
       ],
       "id": "book-0006"
     },
@@ -90,8 +92,8 @@
       "genre": "",
       "publication_year": "1970",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        7
       ],
       "id": "book-0007"
     },
@@ -104,8 +106,8 @@
       "genre": "",
       "publication_year": "2015",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        8
       ],
       "id": "book-0008"
     },
@@ -118,8 +120,8 @@
       "genre": "",
       "publication_year": "2015",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        9
       ],
       "id": "book-0009"
     },
@@ -132,8 +134,8 @@
       "genre": "",
       "publication_year": "2016",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        10
       ],
       "id": "book-0010"
     },
@@ -146,8 +148,8 @@
       "genre": "",
       "publication_year": "2024",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        11
       ],
       "id": "book-0011"
     },
@@ -160,8 +162,8 @@
       "genre": "",
       "publication_year": "1968",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        12
       ],
       "id": "book-0012"
     },
@@ -174,8 +176,8 @@
       "genre": "",
       "publication_year": "",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        13
       ],
       "id": "book-0013"
     },
@@ -188,8 +190,8 @@
       "genre": "",
       "publication_year": "1984",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        14
       ],
       "id": "book-0014"
     },
@@ -202,8 +204,8 @@
       "genre": "",
       "publication_year": "2019",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        15
       ],
       "id": "book-0015"
     },
@@ -216,8 +218,8 @@
       "genre": "",
       "publication_year": "1966",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        16
       ],
       "id": "book-0016"
     },
@@ -230,8 +232,8 @@
       "genre": "",
       "publication_year": "2018",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        17
       ],
       "id": "book-0017"
     },
@@ -244,8 +246,8 @@
       "genre": "",
       "publication_year": "1990",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        18
       ],
       "id": "book-0468"
     },
@@ -258,8 +260,8 @@
       "genre": "",
       "publication_year": "1992",
       "series": "",
-      "source_pages": [
-        1
+      "source_rows": [
+        19
       ],
       "id": "book-0469"
     },
@@ -272,9 +274,8 @@
       "genre": "",
       "publication_year": "2003",
       "series": "",
-      "source_pages": [
-        1,
-        2
+      "source_rows": [
+        20
       ],
       "id": "book-0018"
     },
@@ -287,8 +288,8 @@
       "genre": "",
       "publication_year": "2025",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        21
       ],
       "id": "book-0019"
     },
@@ -301,8 +302,8 @@
       "genre": "",
       "publication_year": "2015",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        22
       ],
       "id": "book-0470"
     },
@@ -315,8 +316,8 @@
       "genre": "",
       "publication_year": "1989",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        23
       ],
       "id": "book-0020"
     },
@@ -329,8 +330,8 @@
       "genre": "",
       "publication_year": "1994",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        24
       ],
       "id": "book-0471"
     },
@@ -343,8 +344,8 @@
       "genre": "",
       "publication_year": "1971",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        25
       ],
       "id": "book-0021"
     },
@@ -357,22 +358,22 @@
       "genre": "",
       "publication_year": "1958",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        26
       ],
       "id": "book-0022"
     },
     {
       "author": "William J. Anderson",
-      "title": "Continuous-Time Markov Chains: An Applications- Oriented Approach (Springer Series in Statistics)",
+      "title": "Continuous-Time Markov Chains: An Applications-Oriented Approach (Springer Series in Statistics)",
       "isbn": "9780387973692",
       "publisher": "Springer Verlag",
       "publication_date": "1991",
       "genre": "",
       "publication_year": "1991",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        27
       ],
       "id": "book-0023"
     },
@@ -385,8 +386,8 @@
       "genre": "",
       "publication_year": "1981",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        28
       ],
       "id": "book-0472"
     },
@@ -399,8 +400,8 @@
       "genre": "",
       "publication_year": "1991",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        29
       ],
       "id": "book-0024"
     },
@@ -413,8 +414,8 @@
       "genre": "",
       "publication_year": "2004",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        30
       ],
       "id": "book-0025"
     },
@@ -427,8 +428,8 @@
       "genre": "",
       "publication_year": "2022",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        31
       ],
       "id": "book-0026"
     },
@@ -441,8 +442,8 @@
       "genre": "",
       "publication_year": "1969",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        32
       ],
       "id": "book-0027"
     },
@@ -455,8 +456,8 @@
       "genre": "",
       "publication_year": "2016",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        33
       ],
       "id": "book-0028"
     },
@@ -469,8 +470,8 @@
       "genre": "",
       "publication_year": "1977",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        34
       ],
       "id": "book-0473"
     },
@@ -483,8 +484,8 @@
       "genre": "",
       "publication_year": "1985",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        35
       ],
       "id": "book-0029"
     },
@@ -497,8 +498,8 @@
       "genre": "",
       "publication_year": "2011",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        36
       ],
       "id": "book-0030"
     },
@@ -511,8 +512,8 @@
       "genre": "",
       "publication_year": "1978",
       "series": "",
-      "source_pages": [
-        2
+      "source_rows": [
+        37
       ],
       "id": "book-0031"
     },
@@ -525,10 +526,24 @@
       "genre": "",
       "publication_year": "1996",
       "series": "",
-      "source_pages": [
-        3
+      "source_rows": [
+        38
       ],
       "id": "book-0032"
+    },
+    {
+      "author": "W.L. Badger Banchero",
+      "title": "Introduction to Chemical Engineering (Chemical Engineering S.)",
+      "isbn": "9780070029958",
+      "publisher": "McGraw-Hill Education",
+      "publication_date": "1955",
+      "genre": "",
+      "publication_year": "1955",
+      "series": "",
+      "source_rows": [
+        39
+      ],
+      "id": "book-0573"
     },
     {
       "author": "Gérald Baillargeon",
@@ -539,10 +554,24 @@
       "genre": "",
       "publication_year": "1982",
       "series": "",
-      "source_pages": [
-        3
+      "source_rows": [
+        40
       ],
       "id": "book-0474"
+    },
+    {
+      "author": "Stefan Banach",
+      "title": "Théorie des opérations linéaires",
+      "isbn": "",
+      "publisher": "Chelsea Publishing Company",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        41
+      ],
+      "id": "book-0574"
     },
     {
       "author": "Gang Bao | Lawrence Cowsar | Wen Masters",
@@ -553,8 +582,8 @@
       "genre": "",
       "publication_year": "1987",
       "series": "",
-      "source_pages": [
-        3
+      "source_rows": [
+        42
       ],
       "id": "book-0033"
     },
@@ -567,8 +596,8 @@
       "genre": "",
       "publication_year": "2007",
       "series": "",
-      "source_pages": [
-        3
+      "source_rows": [
+        43
       ],
       "id": "book-0034"
     },
@@ -581,8 +610,8 @@
       "genre": "",
       "publication_year": "1995",
       "series": "",
-      "source_pages": [
-        3
+      "source_rows": [
+        44
       ],
       "id": "book-0035"
     },
@@ -595,10 +624,24 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        3
+      "source_rows": [
+        45
       ],
       "id": "book-0036"
+    },
+    {
+      "author": "Ole E. Barndorff-Nielsen",
+      "title": "Information and Exponential Families",
+      "isbn": "0471995452",
+      "publisher": "John Wiley & Sons",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "Wiley Series in Probability and Mathematical Statistics",
+      "source_rows": [
+        46
+      ],
+      "id": "book-0575"
     },
     {
       "author": "Michael Fielding Barnsley",
@@ -609,8 +652,8 @@
       "genre": "",
       "publication_year": "1988",
       "series": "",
-      "source_pages": [
-        3
+      "source_rows": [
+        47
       ],
       "id": "book-0037"
     },
@@ -623,8 +666,8 @@
       "genre": "",
       "publication_year": "1971",
       "series": "",
-      "source_pages": [
-        3
+      "source_rows": [
+        48
       ],
       "id": "book-0038"
     },
@@ -637,8 +680,8 @@
       "genre": "",
       "publication_year": "2021",
       "series": "",
-      "source_pages": [
-        3
+      "source_rows": [
+        49
       ],
       "id": "book-0039"
     },
@@ -651,8 +694,8 @@
       "genre": "",
       "publication_year": "1966",
       "series": "",
-      "source_pages": [
-        3
+      "source_rows": [
+        50
       ],
       "id": "book-0040"
     },
@@ -665,8 +708,8 @@
       "genre": "",
       "publication_year": "1980",
       "series": "",
-      "source_pages": [
-        3
+      "source_rows": [
+        51
       ],
       "id": "book-0041"
     },
@@ -679,8 +722,8 @@
       "genre": "",
       "publication_year": "1964",
       "series": "",
-      "source_pages": [
-        3
+      "source_rows": [
+        52
       ],
       "id": "book-0042"
     },
@@ -693,8 +736,8 @@
       "genre": "",
       "publication_year": "1964",
       "series": "",
-      "source_pages": [
-        3
+      "source_rows": [
+        53
       ],
       "id": "book-0043"
     },
@@ -707,8 +750,8 @@
       "genre": "",
       "publication_year": "1966",
       "series": "",
-      "source_pages": [
-        3
+      "source_rows": [
+        54
       ],
       "id": "book-0044"
     },
@@ -721,8 +764,8 @@
       "genre": "",
       "publication_year": "2024",
       "series": "",
-      "source_pages": [
-        3
+      "source_rows": [
+        55
       ],
       "id": "book-0045"
     },
@@ -735,8 +778,8 @@
       "genre": "",
       "publication_year": "1976",
       "series": "",
-      "source_pages": [
-        3
+      "source_rows": [
+        56
       ],
       "id": "book-0046"
     },
@@ -749,13 +792,13 @@
       "genre": "",
       "publication_year": "1977",
       "series": "",
-      "source_pages": [
-        4
+      "source_rows": [
+        57
       ],
       "id": "book-0047"
     },
     {
-      "author": "Gérard Beaudry | Auréa Sabourin | Roger Levasseur | M.- Joseph Demers",
+      "author": "Gérard Beaudry | Auréa Sabourin | Roger Levasseur | M.-Joseph Demers",
       "title": "Le Calcul Vivant",
       "isbn": "",
       "publisher": "Éditions Centre de Psychologie et de Pédagogie",
@@ -763,8 +806,8 @@
       "genre": "",
       "publication_year": "1950",
       "series": "",
-      "source_pages": [
-        4
+      "source_rows": [
+        58
       ],
       "id": "book-0048"
     },
@@ -777,8 +820,8 @@
       "genre": "",
       "publication_year": "2005",
       "series": "",
-      "source_pages": [
-        4
+      "source_rows": [
+        59
       ],
       "id": "book-0049"
     },
@@ -791,8 +834,8 @@
       "genre": "",
       "publication_year": "1964",
       "series": "",
-      "source_pages": [
-        4
+      "source_rows": [
+        60
       ],
       "id": "book-0050"
     },
@@ -805,8 +848,8 @@
       "genre": "",
       "publication_year": "1975",
       "series": "",
-      "source_pages": [
-        4
+      "source_rows": [
+        61
       ],
       "id": "book-0051"
     },
@@ -819,8 +862,8 @@
       "genre": "",
       "publication_year": "1983",
       "series": "",
-      "source_pages": [
-        4
+      "source_rows": [
+        62
       ],
       "id": "book-0475"
     },
@@ -833,10 +876,24 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        4
+      "source_rows": [
+        63
       ],
       "id": "book-0052"
+    },
+    {
+      "author": "Bruce C. Berndt",
+      "title": "Ramanujan's Notebooks",
+      "isbn": "0387975039",
+      "publisher": "Springer-Verlag",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        64
+      ],
+      "id": "book-0576"
     },
     {
       "author": "Mackowiak Bernhard",
@@ -847,8 +904,8 @@
       "genre": "",
       "publication_year": "2005",
       "series": "",
-      "source_pages": [
-        4
+      "source_rows": [
+        65
       ],
       "id": "book-0053"
     },
@@ -861,8 +918,8 @@
       "genre": "",
       "publication_year": "1990",
       "series": "",
-      "source_pages": [
-        4
+      "source_rows": [
+        66
       ],
       "id": "book-0476"
     },
@@ -875,8 +932,8 @@
       "genre": "",
       "publication_year": "2017",
       "series": "",
-      "source_pages": [
-        4
+      "source_rows": [
+        67
       ],
       "id": "book-0054"
     },
@@ -889,8 +946,8 @@
       "genre": "",
       "publication_year": "1990",
       "series": "",
-      "source_pages": [
-        4
+      "source_rows": [
+        68
       ],
       "id": "book-0477"
     },
@@ -903,8 +960,8 @@
       "genre": "",
       "publication_year": "2007",
       "series": "",
-      "source_pages": [
-        4
+      "source_rows": [
+        69
       ],
       "id": "book-0055"
     },
@@ -917,8 +974,8 @@
       "genre": "",
       "publication_year": "1984",
       "series": "",
-      "source_pages": [
-        4
+      "source_rows": [
+        70
       ],
       "id": "book-0056"
     },
@@ -931,8 +988,8 @@
       "genre": "",
       "publication_year": "2006",
       "series": "",
-      "source_pages": [
-        4
+      "source_rows": [
+        71
       ],
       "id": "book-0057"
     },
@@ -945,8 +1002,8 @@
       "genre": "",
       "publication_year": "2024",
       "series": "",
-      "source_pages": [
-        5
+      "source_rows": [
+        72
       ],
       "id": "book-0478"
     },
@@ -959,8 +1016,8 @@
       "genre": "",
       "publication_year": "1947",
       "series": "",
-      "source_pages": [
-        5
+      "source_rows": [
+        73
       ],
       "id": "book-0058"
     },
@@ -973,8 +1030,8 @@
       "genre": "",
       "publication_year": "1969",
       "series": "",
-      "source_pages": [
-        5
+      "source_rows": [
+        74
       ],
       "id": "book-0059"
     },
@@ -987,8 +1044,8 @@
       "genre": "",
       "publication_year": "2016",
       "series": "",
-      "source_pages": [
-        5
+      "source_rows": [
+        75
       ],
       "id": "book-0060"
     },
@@ -1001,8 +1058,8 @@
       "genre": "",
       "publication_year": "1959",
       "series": "",
-      "source_pages": [
-        5
+      "source_rows": [
+        76
       ],
       "id": "book-0061"
     },
@@ -1015,8 +1072,8 @@
       "genre": "",
       "publication_year": "2006",
       "series": "",
-      "source_pages": [
-        5
+      "source_rows": [
+        77
       ],
       "id": "book-0062"
     },
@@ -1029,8 +1086,8 @@
       "genre": "",
       "publication_year": "1968",
       "series": "",
-      "source_pages": [
-        5
+      "source_rows": [
+        78
       ],
       "id": "book-0063"
     },
@@ -1043,8 +1100,8 @@
       "genre": "",
       "publication_year": "1980",
       "series": "",
-      "source_pages": [
-        5
+      "source_rows": [
+        79
       ],
       "id": "book-0064"
     },
@@ -1057,8 +1114,8 @@
       "genre": "",
       "publication_year": "2025",
       "series": "",
-      "source_pages": [
-        5
+      "source_rows": [
+        80
       ],
       "id": "book-0065"
     },
@@ -1071,8 +1128,8 @@
       "genre": "",
       "publication_year": "1990",
       "series": "",
-      "source_pages": [
-        5
+      "source_rows": [
+        81
       ],
       "id": "book-0066"
     },
@@ -1080,13 +1137,13 @@
       "author": "William E. Boyce",
       "title": "Équations différentielles",
       "isbn": "9782894617151",
-      "publisher": "Chenelière/ McGraw-Hill",
+      "publisher": "Chenelière/McGraw-Hill",
       "publication_date": "Oct 04, 2002",
       "genre": "",
       "publication_year": "2002",
       "series": "",
-      "source_pages": [
-        5
+      "source_rows": [
+        82
       ],
       "id": "book-0479"
     },
@@ -1099,10 +1156,24 @@
       "genre": "",
       "publication_year": "1992",
       "series": "",
-      "source_pages": [
-        5
+      "source_rows": [
+        83
       ],
       "id": "book-0067"
+    },
+    {
+      "author": "Leo Breiman",
+      "title": "Probability and Stochastic Processes",
+      "isbn": "",
+      "publisher": "Houghton Mifflin Company",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        84
+      ],
+      "id": "book-0577"
     },
     {
       "author": "Haïm Brezis",
@@ -1113,8 +1184,8 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        5
+      "source_rows": [
+        85
       ],
       "id": "book-0068"
     },
@@ -1127,8 +1198,8 @@
       "genre": "",
       "publication_year": "1973",
       "series": "",
-      "source_pages": [
-        6
+      "source_rows": [
+        86
       ],
       "id": "book-0562"
     },
@@ -1141,8 +1212,8 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        6
+      "source_rows": [
+        87
       ],
       "id": "book-0069"
     },
@@ -1155,8 +1226,8 @@
       "genre": "",
       "publication_year": "2010",
       "series": "",
-      "source_pages": [
-        6
+      "source_rows": [
+        88
       ],
       "id": "book-0070"
     },
@@ -1169,8 +1240,8 @@
       "genre": "",
       "publication_year": "2024",
       "series": "",
-      "source_pages": [
-        6
+      "source_rows": [
+        89
       ],
       "id": "book-0071"
     },
@@ -1183,8 +1254,8 @@
       "genre": "",
       "publication_year": "2017",
       "series": "",
-      "source_pages": [
-        6
+      "source_rows": [
+        90
       ],
       "id": "book-0072"
     },
@@ -1197,8 +1268,8 @@
       "genre": "",
       "publication_year": "2018",
       "series": "",
-      "source_pages": [
-        6
+      "source_rows": [
+        91
       ],
       "id": "book-0073"
     },
@@ -1211,8 +1282,8 @@
       "genre": "",
       "publication_year": "2022",
       "series": "",
-      "source_pages": [
-        6
+      "source_rows": [
+        92
       ],
       "id": "book-0074"
     },
@@ -1225,8 +1296,8 @@
       "genre": "",
       "publication_year": "1999",
       "series": "",
-      "source_pages": [
-        6
+      "source_rows": [
+        93
       ],
       "id": "book-0075"
     },
@@ -1239,8 +1310,8 @@
       "genre": "",
       "publication_year": "2014",
       "series": "",
-      "source_pages": [
-        6
+      "source_rows": [
+        94
       ],
       "id": "book-0076"
     },
@@ -1253,22 +1324,22 @@
       "genre": "",
       "publication_year": "2009",
       "series": "",
-      "source_pages": [
-        6
+      "source_rows": [
+        95
       ],
       "id": "book-0077"
     },
     {
       "author": "Xi-Ren Cao",
-      "title": "Stochastic Learning and Optimization: A Sensitivity- Based Approach",
+      "title": "Stochastic Learning and Optimization: A Sensitivity-Based Approach",
       "isbn": "9780387367873",
       "publisher": "Springer",
       "publication_date": "Oct 12, 2007",
       "genre": "",
       "publication_year": "2007",
       "series": "",
-      "source_pages": [
-        7
+      "source_rows": [
+        96
       ],
       "id": "book-0078"
     },
@@ -1281,8 +1352,8 @@
       "genre": "",
       "publication_year": "2008",
       "series": "",
-      "source_pages": [
-        7
+      "source_rows": [
+        97
       ],
       "id": "book-0079"
     },
@@ -1295,8 +1366,8 @@
       "genre": "",
       "publication_year": "1995",
       "series": "",
-      "source_pages": [
-        7
+      "source_rows": [
+        98
       ],
       "id": "book-0080"
     },
@@ -1309,8 +1380,8 @@
       "genre": "",
       "publication_year": "1967",
       "series": "",
-      "source_pages": [
-        7
+      "source_rows": [
+        99
       ],
       "id": "book-0081"
     },
@@ -1323,8 +1394,8 @@
       "genre": "",
       "publication_year": "2002",
       "series": "",
-      "source_pages": [
-        7
+      "source_rows": [
+        100
       ],
       "id": "book-0480"
     },
@@ -1337,13 +1408,13 @@
       "genre": "",
       "publication_year": "2000",
       "series": "",
-      "source_pages": [
-        7
+      "source_rows": [
+        101
       ],
       "id": "book-0082"
     },
     {
-      "author": "Mine Çetinkaya- Rundel | Johanna Hardin",
+      "author": "Mine Çetinkaya-Rundel | Johanna Hardin",
       "title": "Introduction to Modern Statistics",
       "isbn": "9781943450145",
       "publisher": "OpenIntro, Inc.",
@@ -1351,8 +1422,8 @@
       "genre": "",
       "publication_year": "2021",
       "series": "",
-      "source_pages": [
-        7
+      "source_rows": [
+        102
       ],
       "id": "book-0083"
     },
@@ -1365,8 +1436,8 @@
       "genre": "",
       "publication_year": "1969",
       "series": "",
-      "source_pages": [
-        7
+      "source_rows": [
+        103
       ],
       "id": "book-0084"
     },
@@ -1379,8 +1450,8 @@
       "genre": "",
       "publication_year": "1994",
       "series": "",
-      "source_pages": [
-        7
+      "source_rows": [
+        104
       ],
       "id": "book-0563"
     },
@@ -1393,8 +1464,8 @@
       "genre": "",
       "publication_year": "2005",
       "series": "",
-      "source_pages": [
-        7
+      "source_rows": [
+        105
       ],
       "id": "book-0481"
     },
@@ -1407,8 +1478,8 @@
       "genre": "",
       "publication_year": "2019",
       "series": "",
-      "source_pages": [
-        7
+      "source_rows": [
+        106
       ],
       "id": "book-0085"
     },
@@ -1421,8 +1492,8 @@
       "genre": "",
       "publication_year": "2024",
       "series": "",
-      "source_pages": [
-        7
+      "source_rows": [
+        107
       ],
       "id": "book-0086"
     },
@@ -1435,8 +1506,8 @@
       "genre": "",
       "publication_year": "2007",
       "series": "",
-      "source_pages": [
-        7
+      "source_rows": [
+        108
       ],
       "id": "book-0087"
     },
@@ -1449,9 +1520,8 @@
       "genre": "",
       "publication_year": "1932",
       "series": "",
-      "source_pages": [
-        7,
-        8
+      "source_rows": [
+        109
       ],
       "id": "book-0088"
     },
@@ -1464,8 +1534,8 @@
       "genre": "",
       "publication_year": "1986",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        110
       ],
       "id": "book-0482"
     },
@@ -1478,8 +1548,8 @@
       "genre": "",
       "publication_year": "1986",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        111
       ],
       "id": "book-0089"
     },
@@ -1492,8 +1562,8 @@
       "genre": "",
       "publication_year": "1997",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        112
       ],
       "id": "book-0090"
     },
@@ -1506,8 +1576,8 @@
       "genre": "",
       "publication_year": "2021",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        113
       ],
       "id": "book-0091"
     },
@@ -1520,8 +1590,8 @@
       "genre": "",
       "publication_year": "2021",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        114
       ],
       "id": "book-0092"
     },
@@ -1534,8 +1604,8 @@
       "genre": "",
       "publication_year": "2021",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        115
       ],
       "id": "book-0093"
     },
@@ -1548,8 +1618,8 @@
       "genre": "",
       "publication_year": "2021",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        116
       ],
       "id": "book-0094"
     },
@@ -1562,8 +1632,8 @@
       "genre": "",
       "publication_year": "2009",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        117
       ],
       "id": "book-0095"
     },
@@ -1576,8 +1646,8 @@
       "genre": "",
       "publication_year": "1989",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        118
       ],
       "id": "book-0096"
     },
@@ -1590,8 +1660,8 @@
       "genre": "",
       "publication_year": "2024",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        119
       ],
       "id": "book-0097"
     },
@@ -1604,8 +1674,8 @@
       "genre": "",
       "publication_year": "2023",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        120
       ],
       "id": "book-0098"
     },
@@ -1618,8 +1688,8 @@
       "genre": "",
       "publication_year": "1985",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        121
       ],
       "id": "book-0099"
     },
@@ -1632,8 +1702,8 @@
       "genre": "",
       "publication_year": "2012",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        122
       ],
       "id": "book-0100"
     },
@@ -1646,8 +1716,8 @@
       "genre": "",
       "publication_year": "1992",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        123
       ],
       "id": "book-0483"
     },
@@ -1660,8 +1730,8 @@
       "genre": "",
       "publication_year": "2000",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        124
       ],
       "id": "book-0101"
     },
@@ -1674,8 +1744,8 @@
       "genre": "",
       "publication_year": "2012",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        125
       ],
       "id": "book-0102"
     },
@@ -1688,8 +1758,8 @@
       "genre": "",
       "publication_year": "2006",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        126
       ],
       "id": "book-0103"
     },
@@ -1702,8 +1772,8 @@
       "genre": "",
       "publication_year": "1949",
       "series": "",
-      "source_pages": [
-        8
+      "source_rows": [
+        127
       ],
       "id": "book-0104"
     },
@@ -1716,8 +1786,8 @@
       "genre": "",
       "publication_year": "1980",
       "series": "",
-      "source_pages": [
-        9
+      "source_rows": [
+        128
       ],
       "id": "book-0105"
     },
@@ -1730,8 +1800,8 @@
       "genre": "",
       "publication_year": "1973",
       "series": "",
-      "source_pages": [
-        9
+      "source_rows": [
+        129
       ],
       "id": "book-0106"
     },
@@ -1744,10 +1814,24 @@
       "genre": "",
       "publication_year": "2011",
       "series": "",
-      "source_pages": [
-        9
+      "source_rows": [
+        130
       ],
       "id": "book-0107"
+    },
+    {
+      "author": "D. R. Cox | H. D. Miller",
+      "title": "The Theory of Stochastic Processes",
+      "isbn": "",
+      "publisher": "Methuen & Co Ltd",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        131
+      ],
+      "id": "book-0578"
     },
     {
       "author": "David Roxbee Cox | E.J. Snell",
@@ -1758,8 +1842,8 @@
       "genre": "",
       "publication_year": "1989",
       "series": "",
-      "source_pages": [
-        9
+      "source_rows": [
+        132
       ],
       "id": "book-0108"
     },
@@ -1772,8 +1856,8 @@
       "genre": "",
       "publication_year": "2002",
       "series": "",
-      "source_pages": [
-        9
+      "source_rows": [
+        133
       ],
       "id": "book-0109"
     },
@@ -1786,10 +1870,24 @@
       "genre": "",
       "publication_year": "2001",
       "series": "",
-      "source_pages": [
-        9
+      "source_rows": [
+        134
       ],
       "id": "book-0110"
+    },
+    {
+      "author": "Harald Cramér",
+      "title": "Mathematical Methods of Statistics",
+      "isbn": "0-691-08004-6",
+      "publisher": "Princeton University Press",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        135
+      ],
+      "id": "book-0579"
     },
     {
       "author": "Harald Cramér | M. R. Leadbetter",
@@ -1800,8 +1898,8 @@
       "genre": "",
       "publication_year": "1967",
       "series": "",
-      "source_pages": [
-        9
+      "source_rows": [
+        136
       ],
       "id": "book-0111"
     },
@@ -1814,8 +1912,8 @@
       "genre": "",
       "publication_year": "2011",
       "series": "",
-      "source_pages": [
-        9
+      "source_rows": [
+        137
       ],
       "id": "book-0484"
     },
@@ -1828,8 +1926,8 @@
       "genre": "",
       "publication_year": "2005",
       "series": "",
-      "source_pages": [
-        9
+      "source_rows": [
+        138
       ],
       "id": "book-0112"
     },
@@ -1842,8 +1940,8 @@
       "genre": "",
       "publication_year": "2016",
       "series": "",
-      "source_pages": [
-        9
+      "source_rows": [
+        139
       ],
       "id": "book-0113"
     },
@@ -1856,8 +1954,8 @@
       "genre": "",
       "publication_year": "1994",
       "series": "",
-      "source_pages": [
-        9
+      "source_rows": [
+        140
       ],
       "id": "book-0114"
     },
@@ -1870,8 +1968,8 @@
       "genre": "",
       "publication_year": "2003",
       "series": "",
-      "source_pages": [
-        9
+      "source_rows": [
+        141
       ],
       "id": "book-0485"
     },
@@ -1884,10 +1982,38 @@
       "genre": "",
       "publication_year": "1988",
       "series": "",
-      "source_pages": [
-        9
+      "source_rows": [
+        142
       ],
       "id": "book-0115"
+    },
+    {
+      "author": "Ant. Dalle | C. De Waele",
+      "title": "Cours de géométrie à l'usage de l'enseignement moyen et de l'enseignement normal",
+      "isbn": "",
+      "publisher": "Maison d’éditions Ad. Wesmael-Charlier (S.A.)",
+      "publication_date": "1955",
+      "genre": "",
+      "publication_year": "1955",
+      "series": "",
+      "source_rows": [
+        143
+      ],
+      "id": "book-0580"
+    },
+    {
+      "author": "Antoine Dalle",
+      "title": "2000 théorèmes et problèmes de géométrie avec solutions",
+      "isbn": "",
+      "publisher": "Maison d’édition Ad. Wesmael-Charlier, S.A.",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        144
+      ],
+      "id": "book-0581"
     },
     {
       "author": "Christine Dancey | John Reidy",
@@ -1898,8 +2024,8 @@
       "genre": "",
       "publication_year": "2016",
       "series": "",
-      "source_pages": [
-        9
+      "source_rows": [
+        145
       ],
       "id": "book-0116"
     },
@@ -1912,8 +2038,8 @@
       "genre": "",
       "publication_year": "1998",
       "series": "",
-      "source_pages": [
-        9
+      "source_rows": [
+        146
       ],
       "id": "book-0117"
     },
@@ -1926,8 +2052,8 @@
       "genre": "",
       "publication_year": "1887",
       "series": "",
-      "source_pages": [
-        9
+      "source_rows": [
+        147
       ],
       "id": "book-0118"
     },
@@ -1940,8 +2066,8 @@
       "genre": "",
       "publication_year": "1960",
       "series": "",
-      "source_pages": [
-        10
+      "source_rows": [
+        148
       ],
       "id": "book-0119"
     },
@@ -1954,8 +2080,8 @@
       "genre": "",
       "publication_year": "1975",
       "series": "",
-      "source_pages": [
-        10
+      "source_rows": [
+        149
       ],
       "id": "book-0120"
     },
@@ -1968,8 +2094,8 @@
       "genre": "",
       "publication_year": "1989",
       "series": "",
-      "source_pages": [
-        10
+      "source_rows": [
+        150
       ],
       "id": "book-0121"
     },
@@ -1982,8 +2108,8 @@
       "genre": "",
       "publication_year": "1939",
       "series": "",
-      "source_pages": [
-        10
+      "source_rows": [
+        151
       ],
       "id": "book-0122"
     },
@@ -1996,8 +2122,8 @@
       "genre": "",
       "publication_year": "1967",
       "series": "",
-      "source_pages": [
-        10
+      "source_rows": [
+        152
       ],
       "id": "book-0123"
     },
@@ -2010,8 +2136,8 @@
       "genre": "",
       "publication_year": "2025",
       "series": "",
-      "source_pages": [
-        10
+      "source_rows": [
+        153
       ],
       "id": "book-0124"
     },
@@ -2024,8 +2150,8 @@
       "genre": "",
       "publication_year": "1986",
       "series": "",
-      "source_pages": [
-        10
+      "source_rows": [
+        154
       ],
       "id": "book-0125"
     },
@@ -2038,8 +2164,8 @@
       "genre": "",
       "publication_year": "2002",
       "series": "",
-      "source_pages": [
-        10
+      "source_rows": [
+        155
       ],
       "id": "book-0486"
     },
@@ -2052,8 +2178,8 @@
       "genre": "",
       "publication_year": "1997",
       "series": "",
-      "source_pages": [
-        10
+      "source_rows": [
+        156
       ],
       "id": "book-0126"
     },
@@ -2066,8 +2192,8 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        10
+      "source_rows": [
+        157
       ],
       "id": "book-0127"
     },
@@ -2080,8 +2206,8 @@
       "genre": "",
       "publication_year": "1957",
       "series": "",
-      "source_pages": [
-        10
+      "source_rows": [
+        158
       ],
       "id": "book-0128"
     },
@@ -2094,8 +2220,8 @@
       "genre": "",
       "publication_year": "1971",
       "series": "",
-      "source_pages": [
-        10
+      "source_rows": [
+        159
       ],
       "id": "book-0564"
     },
@@ -2108,9 +2234,8 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        10,
-        11
+      "source_rows": [
+        160
       ],
       "id": "book-0129"
     },
@@ -2123,8 +2248,8 @@
       "genre": "",
       "publication_year": "2025",
       "series": "",
-      "source_pages": [
-        11
+      "source_rows": [
+        161
       ],
       "id": "book-0487"
     },
@@ -2137,8 +2262,8 @@
       "genre": "",
       "publication_year": "1987",
       "series": "",
-      "source_pages": [
-        11
+      "source_rows": [
+        162
       ],
       "id": "book-0488"
     },
@@ -2151,8 +2276,8 @@
       "genre": "",
       "publication_year": "1994",
       "series": "",
-      "source_pages": [
-        11
+      "source_rows": [
+        163
       ],
       "id": "book-0489"
     },
@@ -2165,13 +2290,13 @@
       "genre": "",
       "publication_year": "1988",
       "series": "",
-      "source_pages": [
-        11
+      "source_rows": [
+        164
       ],
       "id": "book-0130"
     },
     {
-      "author": "Gema-Maria Díaz- Toca",
+      "author": "Gema-Maria Díaz-Toca",
       "title": "Modules sur les anneaux commutatifs: Cours et exercices.",
       "isbn": "9782916352336",
       "publisher": "CALVAGE MOUNET",
@@ -2179,8 +2304,8 @@
       "genre": "",
       "publication_year": "2014",
       "series": "",
-      "source_pages": [
-        11
+      "source_rows": [
+        165
       ],
       "id": "book-0131"
     },
@@ -2193,8 +2318,8 @@
       "genre": "",
       "publication_year": "1987",
       "series": "",
-      "source_pages": [
-        11
+      "source_rows": [
+        166
       ],
       "id": "book-0132"
     },
@@ -2207,8 +2332,8 @@
       "genre": "",
       "publication_year": "1978",
       "series": "",
-      "source_pages": [
-        11
+      "source_rows": [
+        167
       ],
       "id": "book-0133"
     },
@@ -2221,8 +2346,8 @@
       "genre": "",
       "publication_year": "2019",
       "series": "",
-      "source_pages": [
-        11
+      "source_rows": [
+        168
       ],
       "id": "book-0134"
     },
@@ -2235,8 +2360,8 @@
       "genre": "",
       "publication_year": "1990",
       "series": "",
-      "source_pages": [
-        11
+      "source_rows": [
+        169
       ],
       "id": "book-0135"
     },
@@ -2249,10 +2374,24 @@
       "genre": "",
       "publication_year": "1976",
       "series": "",
-      "source_pages": [
-        11
+      "source_rows": [
+        170
       ],
       "id": "book-0136"
+    },
+    {
+      "author": "J. L. Doob",
+      "title": "Stochastic Processes",
+      "isbn": "",
+      "publisher": "John Wiley & Sons, Inc.",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        171
+      ],
+      "id": "book-0582"
     },
     {
       "author": "Joseph Dopp",
@@ -2263,8 +2402,8 @@
       "genre": "",
       "publication_year": "1967",
       "series": "",
-      "source_pages": [
-        11
+      "source_rows": [
+        172
       ],
       "id": "book-0137"
     },
@@ -2277,8 +2416,8 @@
       "genre": "",
       "publication_year": "2021",
       "series": "",
-      "source_pages": [
-        11
+      "source_rows": [
+        173
       ],
       "id": "book-0138"
     },
@@ -2291,8 +2430,8 @@
       "genre": "",
       "publication_year": "1992",
       "series": "",
-      "source_pages": [
-        11
+      "source_rows": [
+        174
       ],
       "id": "book-0490"
     },
@@ -2305,8 +2444,8 @@
       "genre": "",
       "publication_year": "1989",
       "series": "",
-      "source_pages": [
-        11
+      "source_rows": [
+        175
       ],
       "id": "book-0139"
     },
@@ -2319,10 +2458,38 @@
       "genre": "",
       "publication_year": "1965",
       "series": "",
-      "source_pages": [
-        12
+      "source_rows": [
+        176
       ],
       "id": "book-0140"
+    },
+    {
+      "author": "E. B. Dynkin",
+      "title": "Markov Processes",
+      "isbn": "",
+      "publisher": "Academic Press Inc.; Springer-Verlag",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        177
+      ],
+      "id": "book-0583"
+    },
+    {
+      "author": "E. B. Dynkin",
+      "title": "Markov Processes",
+      "isbn": "",
+      "publisher": "Academic Press Inc.; Springer-Verlag",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        178
+      ],
+      "id": "book-0584"
     },
     {
       "author": "Morris L. Eaton",
@@ -2333,8 +2500,8 @@
       "genre": "",
       "publication_year": "2007",
       "series": "",
-      "source_pages": [
-        12
+      "source_rows": [
+        179
       ],
       "id": "book-0141"
     },
@@ -2347,8 +2514,8 @@
       "genre": "",
       "publication_year": "1994",
       "series": "",
-      "source_pages": [
-        12
+      "source_rows": [
+        180
       ],
       "id": "book-0142"
     },
@@ -2361,8 +2528,8 @@
       "genre": "",
       "publication_year": "1978",
       "series": "",
-      "source_pages": [
-        12
+      "source_rows": [
+        181
       ],
       "id": "book-0143"
     },
@@ -2375,8 +2542,8 @@
       "genre": "",
       "publication_year": "1966",
       "series": "",
-      "source_pages": [
-        12
+      "source_rows": [
+        182
       ],
       "id": "book-0144"
     },
@@ -2389,8 +2556,8 @@
       "genre": "",
       "publication_year": "1966",
       "series": "",
-      "source_pages": [
-        12
+      "source_rows": [
+        183
       ],
       "id": "book-0145"
     },
@@ -2403,8 +2570,8 @@
       "genre": "",
       "publication_year": "1966",
       "series": "",
-      "source_pages": [
-        12
+      "source_rows": [
+        184
       ],
       "id": "book-0146"
     },
@@ -2417,8 +2584,8 @@
       "genre": "",
       "publication_year": "1966",
       "series": "",
-      "source_pages": [
-        12
+      "source_rows": [
+        185
       ],
       "id": "book-0147"
     },
@@ -2431,8 +2598,8 @@
       "genre": "",
       "publication_year": "2025",
       "series": "",
-      "source_pages": [
-        12
+      "source_rows": [
+        186
       ],
       "id": "book-0148"
     },
@@ -2445,8 +2612,8 @@
       "genre": "",
       "publication_year": "1964",
       "series": "",
-      "source_pages": [
-        12
+      "source_rows": [
+        187
       ],
       "id": "book-0149"
     },
@@ -2459,8 +2626,8 @@
       "genre": "",
       "publication_year": "2015",
       "series": "",
-      "source_pages": [
-        12
+      "source_rows": [
+        188
       ],
       "id": "book-0150"
     },
@@ -2473,8 +2640,8 @@
       "genre": "",
       "publication_year": "2017",
       "series": "",
-      "source_pages": [
-        12
+      "source_rows": [
+        189
       ],
       "id": "book-0151"
     },
@@ -2487,8 +2654,8 @@
       "genre": "",
       "publication_year": "2001",
       "series": "",
-      "source_pages": [
-        12
+      "source_rows": [
+        190
       ],
       "id": "book-0152"
     },
@@ -2501,8 +2668,8 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        12
+      "source_rows": [
+        191
       ],
       "id": "book-0153"
     },
@@ -2515,8 +2682,8 @@
       "genre": "",
       "publication_year": "1999",
       "series": "",
-      "source_pages": [
-        12
+      "source_rows": [
+        192
       ],
       "id": "book-0154"
     },
@@ -2529,8 +2696,8 @@
       "genre": "",
       "publication_year": "1998",
       "series": "",
-      "source_pages": [
-        13
+      "source_rows": [
+        193
       ],
       "id": "book-0491"
     },
@@ -2543,8 +2710,8 @@
       "genre": "",
       "publication_year": "1994",
       "series": "",
-      "source_pages": [
-        13
+      "source_rows": [
+        194
       ],
       "id": "book-0155"
     },
@@ -2557,10 +2724,24 @@
       "genre": "",
       "publication_year": "1984",
       "series": "",
-      "source_pages": [
-        13
+      "source_rows": [
+        195
       ],
       "id": "book-0156"
+    },
+    {
+      "author": "Thomas S. Ferguson",
+      "title": "Mathematical Statistics",
+      "isbn": "",
+      "publisher": "Academic Press Inc.",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        196
+      ],
+      "id": "book-0585"
     },
     {
       "author": "Bastien Fernandez",
@@ -2571,8 +2752,8 @@
       "genre": "",
       "publication_year": "2000",
       "series": "",
-      "source_pages": [
-        13
+      "source_rows": [
+        197
       ],
       "id": "book-0157"
     },
@@ -2585,8 +2766,8 @@
       "genre": "",
       "publication_year": "1983",
       "series": "",
-      "source_pages": [
-        13
+      "source_rows": [
+        198
       ],
       "id": "book-0158"
     },
@@ -2599,8 +2780,8 @@
       "genre": "",
       "publication_year": "1992",
       "series": "",
-      "source_pages": [
-        13
+      "source_rows": [
+        199
       ],
       "id": "book-0159"
     },
@@ -2613,8 +2794,8 @@
       "genre": "",
       "publication_year": "1990",
       "series": "",
-      "source_pages": [
-        13
+      "source_rows": [
+        200
       ],
       "id": "book-0160"
     },
@@ -2622,15 +2803,29 @@
       "author": "R. Fildes | E. Parzen | Spyros G. Makridakis | A. Andersen | R. Carbone",
       "title": "The Forecasting Accuracy of Major Time Series Methods",
       "isbn": "9780471903277",
-      "publisher": "Wiley- Interscience",
+      "publisher": "Wiley-Interscience",
       "publication_date": "Apr 25, 1984",
       "genre": "",
       "publication_year": "1984",
       "series": "",
-      "source_pages": [
-        13
+      "source_rows": [
+        201
       ],
       "id": "book-0161"
+    },
+    {
+      "author": "Robert B. Fischer | Dennis G. Peters",
+      "title": "Basic Theory and Practice of Quantitative Chemical Analysis",
+      "isbn": "",
+      "publisher": "W. B. Saunders Company",
+      "publication_date": "Aug 1968",
+      "genre": "",
+      "publication_year": "1968",
+      "series": "",
+      "source_rows": [
+        202
+      ],
+      "id": "book-0586"
     },
     {
       "author": "Marek Fisz",
@@ -2641,8 +2836,8 @@
       "genre": "",
       "publication_year": "1963",
       "series": "",
-      "source_pages": [
-        13
+      "source_rows": [
+        203
       ],
       "id": "book-0162"
     },
@@ -2655,8 +2850,8 @@
       "genre": "",
       "publication_year": "1963",
       "series": "",
-      "source_pages": [
-        13
+      "source_rows": [
+        204
       ],
       "id": "book-0163"
     },
@@ -2669,8 +2864,8 @@
       "genre": "",
       "publication_year": "2015",
       "series": "",
-      "source_pages": [
-        13
+      "source_rows": [
+        205
       ],
       "id": "book-0492"
     },
@@ -2683,8 +2878,8 @@
       "genre": "",
       "publication_year": "2025",
       "series": "",
-      "source_pages": [
-        13
+      "source_rows": [
+        206
       ],
       "id": "book-0493"
     },
@@ -2697,8 +2892,8 @@
       "genre": "",
       "publication_year": "1994",
       "series": "",
-      "source_pages": [
-        13
+      "source_rows": [
+        207
       ],
       "id": "book-0164"
     },
@@ -2711,8 +2906,8 @@
       "genre": "",
       "publication_year": "1999",
       "series": "",
-      "source_pages": [
-        13
+      "source_rows": [
+        208
       ],
       "id": "book-0165"
     },
@@ -2725,9 +2920,8 @@
       "genre": "",
       "publication_year": "2015",
       "series": "",
-      "source_pages": [
-        13,
-        14
+      "source_rows": [
+        209
       ],
       "id": "book-0166"
     },
@@ -2740,8 +2934,8 @@
       "genre": "",
       "publication_year": "1980",
       "series": "",
-      "source_pages": [
-        14
+      "source_rows": [
+        210
       ],
       "id": "book-0494"
     },
@@ -2754,8 +2948,8 @@
       "genre": "",
       "publication_year": "1898",
       "series": "",
-      "source_pages": [
-        14
+      "source_rows": [
+        211
       ],
       "id": "book-0167"
     },
@@ -2768,22 +2962,22 @@
       "genre": "",
       "publication_year": "1975",
       "series": "",
-      "source_pages": [
-        14
+      "source_rows": [
+        212
       ],
       "id": "book-0168"
     },
     {
       "author": "A. Frühling",
-      "title": "Cours d’électricité. Tome 1 : Lois générales des régimes stationnaires et quasi- stationnaires",
+      "title": "Cours d’électricité. Tome 1 : Lois générales des régimes stationnaires et quasi-stationnaires",
       "isbn": "",
       "publisher": "Dunod",
       "publication_date": "1966",
       "genre": "",
       "publication_year": "1966",
       "series": "",
-      "source_pages": [
-        14
+      "source_rows": [
+        213
       ],
       "id": "book-0565"
     },
@@ -2796,8 +2990,8 @@
       "genre": "",
       "publication_year": "1966",
       "series": "",
-      "source_pages": [
-        14
+      "source_rows": [
+        214
       ],
       "id": "book-0566"
     },
@@ -2810,8 +3004,8 @@
       "genre": "",
       "publication_year": "1964",
       "series": "",
-      "source_pages": [
-        14
+      "source_rows": [
+        215
       ],
       "id": "book-0169"
     },
@@ -2824,8 +3018,8 @@
       "genre": "",
       "publication_year": "1965",
       "series": "",
-      "source_pages": [
-        14
+      "source_rows": [
+        216
       ],
       "id": "book-0170"
     },
@@ -2838,8 +3032,8 @@
       "genre": "",
       "publication_year": "1999",
       "series": "",
-      "source_pages": [
-        14
+      "source_rows": [
+        217
       ],
       "id": "book-0171"
     },
@@ -2852,8 +3046,8 @@
       "genre": "",
       "publication_year": "1994",
       "series": "",
-      "source_pages": [
-        14
+      "source_rows": [
+        218
       ],
       "id": "book-0172"
     },
@@ -2866,8 +3060,8 @@
       "genre": "",
       "publication_year": "2006",
       "series": "",
-      "source_pages": [
-        14
+      "source_rows": [
+        219
       ],
       "id": "book-0173"
     },
@@ -2880,8 +3074,8 @@
       "genre": "",
       "publication_year": "2006",
       "series": "",
-      "source_pages": [
-        14
+      "source_rows": [
+        220
       ],
       "id": "book-0174"
     },
@@ -2894,8 +3088,8 @@
       "genre": "",
       "publication_year": "2017",
       "series": "",
-      "source_pages": [
-        14
+      "source_rows": [
+        221
       ],
       "id": "book-0175"
     },
@@ -2908,8 +3102,8 @@
       "genre": "",
       "publication_year": "1983",
       "series": "",
-      "source_pages": [
-        14
+      "source_rows": [
+        222
       ],
       "id": "book-0176"
     },
@@ -2922,8 +3116,8 @@
       "genre": "",
       "publication_year": "2000",
       "series": "",
-      "source_pages": [
-        14
+      "source_rows": [
+        223
       ],
       "id": "book-0177"
     },
@@ -2936,8 +3130,8 @@
       "genre": "",
       "publication_year": "2000",
       "series": "",
-      "source_pages": [
-        15
+      "source_rows": [
+        224
       ],
       "id": "book-0495"
     },
@@ -2950,8 +3144,8 @@
       "genre": "",
       "publication_year": "1998",
       "series": "",
-      "source_pages": [
-        15
+      "source_rows": [
+        225
       ],
       "id": "book-0178"
     },
@@ -2964,8 +3158,8 @@
       "genre": "",
       "publication_year": "2003",
       "series": "",
-      "source_pages": [
-        15
+      "source_rows": [
+        226
       ],
       "id": "book-0179"
     },
@@ -2978,8 +3172,8 @@
       "genre": "",
       "publication_year": "1967",
       "series": "",
-      "source_pages": [
-        15
+      "source_rows": [
+        227
       ],
       "id": "book-0180"
     },
@@ -2992,8 +3186,8 @@
       "genre": "",
       "publication_year": "2015",
       "series": "",
-      "source_pages": [
-        15
+      "source_rows": [
+        228
       ],
       "id": "book-0181"
     },
@@ -3006,8 +3200,8 @@
       "genre": "",
       "publication_year": "2015",
       "series": "",
-      "source_pages": [
-        15
+      "source_rows": [
+        229
       ],
       "id": "book-0182"
     },
@@ -3020,8 +3214,8 @@
       "genre": "",
       "publication_year": "2012",
       "series": "",
-      "source_pages": [
-        15
+      "source_rows": [
+        230
       ],
       "id": "book-0183"
     },
@@ -3034,8 +3228,8 @@
       "genre": "",
       "publication_year": "1971",
       "series": "",
-      "source_pages": [
-        15
+      "source_rows": [
+        231
       ],
       "id": "book-0567"
     },
@@ -3048,8 +3242,8 @@
       "genre": "",
       "publication_year": "1971",
       "series": "",
-      "source_pages": [
-        15
+      "source_rows": [
+        232
       ],
       "id": "book-0184"
     },
@@ -3062,22 +3256,22 @@
       "genre": "",
       "publication_year": "1969",
       "series": "",
-      "source_pages": [
-        15
+      "source_rows": [
+        233
       ],
       "id": "book-0185"
     },
     {
       "author": "Joan Gomez",
-      "title": "Le monde est mathématique Quand les droites deviennent courbes Les géométries non- euclidiennes",
+      "title": "Le monde est mathématique Quand les droites deviennent courbes Les géométries non-euclidiennes",
       "isbn": "9782815202398",
       "publisher": "RBA",
       "publication_date": "2011",
       "genre": "",
       "publication_year": "2011",
       "series": "",
-      "source_pages": [
-        15
+      "source_rows": [
+        234
       ],
       "id": "book-0186"
     },
@@ -3090,22 +3284,22 @@
       "genre": "",
       "publication_year": "1968",
       "series": "",
-      "source_pages": [
-        15
+      "source_rows": [
+        235
       ],
       "id": "book-0187"
     },
     {
       "author": "Leo A. Goodman",
-      "title": "The Analysis of Cross- Classified Data Having Ordered Categories",
+      "title": "The Analysis of Cross-Classified Data Having Ordered Categories",
       "isbn": "9780674031456",
       "publisher": "Harvard University Press",
       "publication_date": "Jul 11, 1984",
       "genre": "",
       "publication_year": "1984",
       "series": "",
-      "source_pages": [
-        15
+      "source_rows": [
+        236
       ],
       "id": "book-0188"
     },
@@ -3118,8 +3312,8 @@
       "genre": "",
       "publication_year": "2021",
       "series": "",
-      "source_pages": [
-        15
+      "source_rows": [
+        237
       ],
       "id": "book-0189"
     },
@@ -3132,8 +3326,8 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        15
+      "source_rows": [
+        238
       ],
       "id": "book-0190"
     },
@@ -3146,8 +3340,8 @@
       "genre": "",
       "publication_year": "2009",
       "series": "",
-      "source_pages": [
-        16
+      "source_rows": [
+        239
       ],
       "id": "book-0191"
     },
@@ -3160,8 +3354,8 @@
       "genre": "",
       "publication_year": "2011",
       "series": "",
-      "source_pages": [
-        16
+      "source_rows": [
+        240
       ],
       "id": "book-0192"
     },
@@ -3174,8 +3368,8 @@
       "genre": "",
       "publication_year": "1971",
       "series": "",
-      "source_pages": [
-        16
+      "source_rows": [
+        241
       ],
       "id": "book-0193"
     },
@@ -3188,10 +3382,24 @@
       "genre": "",
       "publication_year": "1981",
       "series": "",
-      "source_pages": [
-        16
+      "source_rows": [
+        242
       ],
       "id": "book-0194"
+    },
+    {
+      "author": "Ulf Grenander | Gabor Szegő",
+      "title": "Toeplitz Forms and Their Applications",
+      "isbn": "",
+      "publisher": "University of California Press",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        243
+      ],
+      "id": "book-0587"
     },
     {
       "author": "John Gribbin | Mary Gribbin",
@@ -3202,8 +3410,8 @@
       "genre": "",
       "publication_year": "2008",
       "series": "",
-      "source_pages": [
-        16
+      "source_rows": [
+        244
       ],
       "id": "book-0195"
     },
@@ -3216,8 +3424,8 @@
       "genre": "",
       "publication_year": "1992",
       "series": "",
-      "source_pages": [
-        16
+      "source_rows": [
+        245
       ],
       "id": "book-0196"
     },
@@ -3230,8 +3438,8 @@
       "genre": "",
       "publication_year": "1965",
       "series": "",
-      "source_pages": [
-        16
+      "source_rows": [
+        246
       ],
       "id": "book-0197"
     },
@@ -3244,8 +3452,8 @@
       "genre": "",
       "publication_year": "2022",
       "series": "",
-      "source_pages": [
-        16
+      "source_rows": [
+        247
       ],
       "id": "book-0198"
     },
@@ -3258,8 +3466,8 @@
       "genre": "",
       "publication_year": "1989",
       "series": "",
-      "source_pages": [
-        16
+      "source_rows": [
+        248
       ],
       "id": "book-0199"
     },
@@ -3272,8 +3480,8 @@
       "genre": "",
       "publication_year": "1977",
       "series": "",
-      "source_pages": [
-        16
+      "source_rows": [
+        249
       ],
       "id": "book-0200"
     },
@@ -3286,8 +3494,8 @@
       "genre": "",
       "publication_year": "2008",
       "series": "",
-      "source_pages": [
-        16
+      "source_rows": [
+        250
       ],
       "id": "book-0201"
     },
@@ -3300,8 +3508,8 @@
       "genre": "",
       "publication_year": "2013",
       "series": "",
-      "source_pages": [
-        16
+      "source_rows": [
+        251
       ],
       "id": "book-0202"
     },
@@ -3314,8 +3522,8 @@
       "genre": "",
       "publication_year": "1978",
       "series": "",
-      "source_pages": [
-        16
+      "source_rows": [
+        252
       ],
       "id": "book-0496"
     },
@@ -3328,8 +3536,8 @@
       "genre": "",
       "publication_year": "1979",
       "series": "",
-      "source_pages": [
-        16
+      "source_rows": [
+        253
       ],
       "id": "book-0497"
     },
@@ -3342,10 +3550,24 @@
       "genre": "",
       "publication_year": "2016",
       "series": "",
-      "source_pages": [
-        17
+      "source_rows": [
+        254
       ],
       "id": "book-0203"
+    },
+    {
+      "author": "Hall et Knight",
+      "title": "Trigonométrie rectiligne",
+      "isbn": "",
+      "publisher": "Les Presses Universitaires Laval",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        255
+      ],
+      "id": "book-0588"
     },
     {
       "author": "H. S. Hall | S. R. Knight",
@@ -3356,8 +3578,8 @@
       "genre": "",
       "publication_year": "1962",
       "series": "",
-      "source_pages": [
-        17
+      "source_rows": [
+        256
       ],
       "id": "book-0204"
     },
@@ -3370,10 +3592,24 @@
       "genre": "",
       "publication_year": "1936",
       "series": "",
-      "source_pages": [
-        17
+      "source_rows": [
+        257
       ],
       "id": "book-0205"
+    },
+    {
+      "author": "Henry Sinclair Hall | Samuel Ratcliffe Knight",
+      "title": "Trigonométrie rectiligne",
+      "isbn": "",
+      "publisher": "Les Presses Universitaires Laval",
+      "publication_date": "1960",
+      "genre": "",
+      "publication_year": "1960",
+      "series": "",
+      "source_rows": [
+        258
+      ],
+      "id": "book-0589"
     },
     {
       "author": "David Halliday | Robert Resnick",
@@ -3384,10 +3620,24 @@
       "genre": "",
       "publication_year": "1967",
       "series": "",
-      "source_pages": [
-        17
+      "source_rows": [
+        259
       ],
       "id": "book-0206"
+    },
+    {
+      "author": "Paul R. Halmos",
+      "title": "Lectures on Ergodic Theory",
+      "isbn": "",
+      "publisher": "Chelsea Publishing Company",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        260
+      ],
+      "id": "book-0590"
     },
     {
       "author": "Josée Hamel | Luc Amyotte",
@@ -3398,8 +3648,8 @@
       "genre": "",
       "publication_year": "2014",
       "series": "",
-      "source_pages": [
-        17
+      "source_rows": [
+        261
       ],
       "id": "book-0498"
     },
@@ -3412,8 +3662,8 @@
       "genre": "",
       "publication_year": "1967",
       "series": "",
-      "source_pages": [
-        17
+      "source_rows": [
+        262
       ],
       "id": "book-0207"
     },
@@ -3426,8 +3676,8 @@
       "genre": "",
       "publication_year": "2002",
       "series": "",
-      "source_pages": [
-        17
+      "source_rows": [
+        263
       ],
       "id": "book-0208"
     },
@@ -3440,10 +3690,24 @@
       "genre": "",
       "publication_year": "1993",
       "series": "",
-      "source_pages": [
-        17
+      "source_rows": [
+        264
       ],
       "id": "book-0499"
+    },
+    {
+      "author": "Peter Harriott",
+      "title": "Process Control",
+      "isbn": "9780070267855",
+      "publisher": "Mcgraw-Hill Inc.",
+      "publication_date": "Dec 01, 1964",
+      "genre": "",
+      "publication_year": "1964",
+      "series": "",
+      "source_rows": [
+        265
+      ],
+      "id": "book-0591"
     },
     {
       "author": "Bernard Harris",
@@ -3453,9 +3717,9 @@
       "publication_date": "1966",
       "genre": "",
       "publication_year": "1966",
-      "series": "Addison- Wesley Series in Statistics",
-      "source_pages": [
-        17
+      "series": "Addison-Wesley Series in Statistics",
+      "source_rows": [
+        266
       ],
       "id": "book-0209"
     },
@@ -3468,8 +3732,8 @@
       "genre": "",
       "publication_year": "1970",
       "series": "",
-      "source_pages": [
-        17
+      "source_rows": [
+        267
       ],
       "id": "book-0210"
     },
@@ -3482,8 +3746,8 @@
       "genre": "",
       "publication_year": "1981",
       "series": "",
-      "source_pages": [
-        17
+      "source_rows": [
+        268
       ],
       "id": "book-0211"
     },
@@ -3496,8 +3760,8 @@
       "genre": "",
       "publication_year": "1990",
       "series": "",
-      "source_pages": [
-        17
+      "source_rows": [
+        269
       ],
       "id": "book-0212"
     },
@@ -3510,9 +3774,8 @@
       "genre": "",
       "publication_year": "2016",
       "series": "",
-      "source_pages": [
-        17,
-        18
+      "source_rows": [
+        270
       ],
       "id": "book-0213"
     },
@@ -3525,8 +3788,8 @@
       "genre": "",
       "publication_year": "2001",
       "series": "",
-      "source_pages": [
-        18
+      "source_rows": [
+        271
       ],
       "id": "book-0214"
     },
@@ -3539,8 +3802,8 @@
       "genre": "",
       "publication_year": "2023",
       "series": "",
-      "source_pages": [
-        18
+      "source_rows": [
+        272
       ],
       "id": "book-0215"
     },
@@ -3553,8 +3816,8 @@
       "genre": "",
       "publication_year": "2007",
       "series": "",
-      "source_pages": [
-        18
+      "source_rows": [
+        273
       ],
       "id": "book-0216"
     },
@@ -3567,8 +3830,8 @@
       "genre": "",
       "publication_year": "1967",
       "series": "",
-      "source_pages": [
-        18
+      "source_rows": [
+        274
       ],
       "id": "book-0217"
     },
@@ -3581,8 +3844,8 @@
       "genre": "",
       "publication_year": "1998",
       "series": "",
-      "source_pages": [
-        18
+      "source_rows": [
+        275
       ],
       "id": "book-0218"
     },
@@ -3595,8 +3858,8 @@
       "genre": "",
       "publication_year": "1946",
       "series": "",
-      "source_pages": [
-        18
+      "source_rows": [
+        276
       ],
       "id": "book-0219"
     },
@@ -3609,8 +3872,8 @@
       "genre": "",
       "publication_year": "2007",
       "series": "",
-      "source_pages": [
-        18
+      "source_rows": [
+        277
       ],
       "id": "book-0500"
     },
@@ -3623,8 +3886,8 @@
       "genre": "",
       "publication_year": "1964",
       "series": "",
-      "source_pages": [
-        18
+      "source_rows": [
+        278
       ],
       "id": "book-0220"
     },
@@ -3637,10 +3900,38 @@
       "genre": "",
       "publication_year": "2024",
       "series": "",
-      "source_pages": [
-        18
+      "source_rows": [
+        279
       ],
       "id": "book-0221"
+    },
+    {
+      "author": "David Hilbert | Paul Bernays",
+      "title": "Grundlagen der Mathematik",
+      "isbn": "",
+      "publisher": "J. W. Edwards",
+      "publication_date": "1944",
+      "genre": "",
+      "publication_year": "1944",
+      "series": "",
+      "source_rows": [
+        280
+      ],
+      "id": "book-0592"
+    },
+    {
+      "author": "David Hilbert | Paul Bernays",
+      "title": "Grundlagen der Mathematik",
+      "isbn": "",
+      "publisher": "J. W. Edwards",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        281
+      ],
+      "id": "book-0593"
     },
     {
       "author": "R. Hill",
@@ -3651,8 +3942,8 @@
       "genre": "",
       "publication_year": "1967",
       "series": "",
-      "source_pages": [
-        18
+      "source_rows": [
+        282
       ],
       "id": "book-0222"
     },
@@ -3665,8 +3956,8 @@
       "genre": "",
       "publication_year": "2001",
       "series": "",
-      "source_pages": [
-        18
+      "source_rows": [
+        283
       ],
       "id": "book-0223"
     },
@@ -3679,8 +3970,8 @@
       "genre": "",
       "publication_year": "2003",
       "series": "",
-      "source_pages": [
-        19
+      "source_rows": [
+        284
       ],
       "id": "book-0501"
     },
@@ -3693,13 +3984,13 @@
       "genre": "",
       "publication_year": "2017",
       "series": "",
-      "source_pages": [
-        19
+      "source_rows": [
+        285
       ],
       "id": "book-0502"
     },
     {
-      "author": "Jean-Baptiste Hiriart- Urruty",
+      "author": "Jean-Baptiste Hiriart-Urruty",
       "title": "Optimisation et analyse convexe exercices et problèmes corrigés, avec rappels de cours",
       "isbn": "9782759803736",
       "publisher": "EDP sciences",
@@ -3707,8 +3998,8 @@
       "genre": "",
       "publication_year": "2009",
       "series": "",
-      "source_pages": [
-        19
+      "source_rows": [
+        286
       ],
       "id": "book-0224"
     },
@@ -3721,8 +4012,8 @@
       "genre": "",
       "publication_year": "1962",
       "series": "",
-      "source_pages": [
-        19
+      "source_rows": [
+        287
       ],
       "id": "book-0225"
     },
@@ -3735,8 +4026,8 @@
       "genre": "",
       "publication_year": "1965",
       "series": "",
-      "source_pages": [
-        19
+      "source_rows": [
+        288
       ],
       "id": "book-0226"
     },
@@ -3749,8 +4040,8 @@
       "genre": "",
       "publication_year": "1978",
       "series": "",
-      "source_pages": [
-        19
+      "source_rows": [
+        289
       ],
       "id": "book-0227"
     },
@@ -3763,8 +4054,8 @@
       "genre": "",
       "publication_year": "1967",
       "series": "",
-      "source_pages": [
-        19
+      "source_rows": [
+        290
       ],
       "id": "book-0228"
     },
@@ -3777,8 +4068,8 @@
       "genre": "",
       "publication_year": "1988",
       "series": "",
-      "source_pages": [
-        19
+      "source_rows": [
+        291
       ],
       "id": "book-0229"
     },
@@ -3791,8 +4082,8 @@
       "genre": "",
       "publication_year": "2012",
       "series": "",
-      "source_pages": [
-        19
+      "source_rows": [
+        292
       ],
       "id": "book-0230"
     },
@@ -3805,8 +4096,8 @@
       "genre": "",
       "publication_year": "1998",
       "series": "",
-      "source_pages": [
-        19
+      "source_rows": [
+        293
       ],
       "id": "book-0231"
     },
@@ -3819,8 +4110,8 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        19
+      "source_rows": [
+        294
       ],
       "id": "book-0232"
     },
@@ -3828,13 +4119,13 @@
       "author": "David W. Hosmer",
       "title": "Applied Logistic Regression (Wiley Series in Probability and Statistics - Applied Probability and Statistics Section)",
       "isbn": "9780471615538",
-      "publisher": "Wiley- Interscience",
+      "publisher": "Wiley-Interscience",
       "publication_date": "Jul 1989",
       "genre": "",
       "publication_year": "1989",
       "series": "",
-      "source_pages": [
-        19
+      "source_rows": [
+        295
       ],
       "id": "book-0233"
     },
@@ -3847,8 +4138,8 @@
       "genre": "",
       "publication_year": "1995",
       "series": "",
-      "source_pages": [
-        19
+      "source_rows": [
+        296
       ],
       "id": "book-0234"
     },
@@ -3861,8 +4152,8 @@
       "genre": "",
       "publication_year": "1999",
       "series": "",
-      "source_pages": [
-        19
+      "source_rows": [
+        297
       ],
       "id": "book-0235"
     },
@@ -3875,8 +4166,8 @@
       "genre": "",
       "publication_year": "2011",
       "series": "",
-      "source_pages": [
-        19
+      "source_rows": [
+        298
       ],
       "id": "book-0236"
     },
@@ -3889,8 +4180,8 @@
       "genre": "",
       "publication_year": "1999",
       "series": "",
-      "source_pages": [
-        20
+      "source_rows": [
+        299
       ],
       "id": "book-0503"
     },
@@ -3903,8 +4194,8 @@
       "genre": "",
       "publication_year": "2001",
       "series": "",
-      "source_pages": [
-        20
+      "source_rows": [
+        300
       ],
       "id": "book-0237"
     },
@@ -3917,8 +4208,8 @@
       "genre": "Problems And Exercises",
       "publication_year": "2013",
       "series": "",
-      "source_pages": [
-        20
+      "source_rows": [
+        301
       ],
       "id": "book-0238"
     },
@@ -3931,8 +4222,8 @@
       "genre": "",
       "publication_year": "2022",
       "series": "",
-      "source_pages": [
-        20
+      "source_rows": [
+        302
       ],
       "id": "book-0239"
     },
@@ -3945,8 +4236,8 @@
       "genre": "",
       "publication_year": "2016",
       "series": "",
-      "source_pages": [
-        20
+      "source_rows": [
+        303
       ],
       "id": "book-0240"
     },
@@ -3959,8 +4250,8 @@
       "genre": "",
       "publication_year": "2024",
       "series": "",
-      "source_pages": [
-        20
+      "source_rows": [
+        304
       ],
       "id": "book-0241"
     },
@@ -3973,13 +4264,13 @@
       "genre": "",
       "publication_year": "1967",
       "series": "",
-      "source_pages": [
-        20
+      "source_rows": [
+        305
       ],
       "id": "book-0242"
     },
     {
-      "author": "Rombaldi Jean- Etienne",
+      "author": "Rombaldi Jean-Etienne",
       "title": "Thèmes pour l‘Agrégation de mathématiques: 2e édition (Enseignement Sup Math) (French Edition)",
       "isbn": "9782759823406",
       "publisher": "EDP Sciences",
@@ -3987,8 +4278,8 @@
       "genre": "",
       "publication_year": "2019",
       "series": "",
-      "source_pages": [
-        20
+      "source_rows": [
+        306
       ],
       "id": "book-0243"
     },
@@ -4001,8 +4292,8 @@
       "genre": "",
       "publication_year": "2018",
       "series": "",
-      "source_pages": [
-        20
+      "source_rows": [
+        307
       ],
       "id": "book-0244"
     },
@@ -4015,8 +4306,8 @@
       "genre": "",
       "publication_year": "1971",
       "series": "",
-      "source_pages": [
-        20
+      "source_rows": [
+        308
       ],
       "id": "book-0245"
     },
@@ -4029,8 +4320,8 @@
       "genre": "",
       "publication_year": "1971",
       "series": "",
-      "source_pages": [
-        20
+      "source_rows": [
+        309
       ],
       "id": "book-0246"
     },
@@ -4043,8 +4334,8 @@
       "genre": "",
       "publication_year": "1994",
       "series": "",
-      "source_pages": [
-        20
+      "source_rows": [
+        310
       ],
       "id": "book-0247"
     },
@@ -4057,9 +4348,8 @@
       "genre": "",
       "publication_year": "1995",
       "series": "",
-      "source_pages": [
-        20,
-        21
+      "source_rows": [
+        311
       ],
       "id": "book-0248"
     },
@@ -4072,8 +4362,8 @@
       "genre": "",
       "publication_year": "1997",
       "series": "",
-      "source_pages": [
-        21
+      "source_rows": [
+        312
       ],
       "id": "book-0249"
     },
@@ -4081,18 +4371,18 @@
       "author": "Norman L. Johnson | Samuel Kotz | Adrienne W. Kemp",
       "title": "Univariate Discrete Distributions (Wiley Series in Probability and Statistics)",
       "isbn": "9780471548973",
-      "publisher": "Wiley- Interscience",
+      "publisher": "Wiley-Interscience",
       "publication_date": "Feb 22, 1993",
       "genre": "",
       "publication_year": "1993",
       "series": "",
-      "source_pages": [
-        21
+      "source_rows": [
+        313
       ],
       "id": "book-0250"
     },
     {
-      "author": "Philippe Jonnaert | Zita Antoun | Zakaria El- Mrabet",
+      "author": "Philippe Jonnaert | Zita Antoun | Zakaria El-Mrabet",
       "title": "Didactique de l'arithmétique au primaire manuel de formation des enseignantes et des enseignants du primaire et de l'adaptation scolaire",
       "isbn": "9782761371971",
       "publisher": "ERPI",
@@ -4100,8 +4390,8 @@
       "genre": "",
       "publication_year": "2015",
       "series": "",
-      "source_pages": [
-        21
+      "source_rows": [
+        314
       ],
       "id": "book-0504"
     },
@@ -4114,8 +4404,8 @@
       "genre": "",
       "publication_year": "1993",
       "series": "",
-      "source_pages": [
-        21
+      "source_rows": [
+        315
       ],
       "id": "book-0505"
     },
@@ -4128,8 +4418,8 @@
       "genre": "",
       "publication_year": "1995",
       "series": "",
-      "source_pages": [
-        21
+      "source_rows": [
+        316
       ],
       "id": "book-0251"
     },
@@ -4142,8 +4432,8 @@
       "genre": "",
       "publication_year": "1986",
       "series": "",
-      "source_pages": [
-        21
+      "source_rows": [
+        317
       ],
       "id": "book-0252"
     },
@@ -4156,8 +4446,8 @@
       "genre": "",
       "publication_year": "1978",
       "series": "",
-      "source_pages": [
-        21
+      "source_rows": [
+        318
       ],
       "id": "book-0253"
     },
@@ -4170,10 +4460,24 @@
       "genre": "",
       "publication_year": "2002",
       "series": "",
-      "source_pages": [
-        21
+      "source_rows": [
+        319
       ],
       "id": "book-0506"
+    },
+    {
+      "author": "Roger E. Kirk",
+      "title": "Experimental Design",
+      "isbn": "9780534011734",
+      "publisher": "Thomson Brooks/Cole",
+      "publication_date": "Dec 28, 1982",
+      "genre": "",
+      "publication_year": "1982",
+      "series": "",
+      "source_rows": [
+        320
+      ],
+      "id": "book-0594"
     },
     {
       "author": "Stuart A. Klugman",
@@ -4184,8 +4488,8 @@
       "genre": "",
       "publication_year": "2004",
       "series": "",
-      "source_pages": [
-        21
+      "source_rows": [
+        321
       ],
       "id": "book-0507"
     },
@@ -4198,10 +4502,24 @@
       "genre": "Electronic Books",
       "publication_year": "2015",
       "series": "",
-      "source_pages": [
-        22
+      "source_rows": [
+        322
       ],
       "id": "book-0254"
+    },
+    {
+      "author": "A. N. Kolmogorov | S. V. Fomin",
+      "title": "Measure, Lebesgue Integrals, and Hilbert Space",
+      "isbn": "",
+      "publisher": "Academic Press",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        323
+      ],
+      "id": "book-0595"
     },
     {
       "author": "Andreï Kolmogorov",
@@ -4212,8 +4530,8 @@
       "genre": "",
       "publication_year": "2021",
       "series": "",
-      "source_pages": [
-        22
+      "source_rows": [
+        324
       ],
       "id": "book-0255"
     },
@@ -4226,8 +4544,8 @@
       "genre": "",
       "publication_year": "2021",
       "series": "",
-      "source_pages": [
-        22
+      "source_rows": [
+        325
       ],
       "id": "book-0256"
     },
@@ -4240,13 +4558,13 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        22
+      "source_rows": [
+        326
       ],
       "id": "book-0257"
     },
     {
-      "author": "Jean-FRANï¿½JEAN- Marie De Koninck OIS CLICHE",
+      "author": "Jean-FRANï¿½JEAN-Marie De Koninck OIS CLICHE",
       "title": "EN CHAIR ET EN MATHS T01",
       "isbn": "9782894712658",
       "publisher": "SEPTEMBRE INC.",
@@ -4254,8 +4572,8 @@
       "genre": "",
       "publication_year": "2008",
       "series": "",
-      "source_pages": [
-        22
+      "source_rows": [
+        327
       ],
       "id": "book-0258"
     },
@@ -4268,8 +4586,8 @@
       "genre": "",
       "publication_year": "2004",
       "series": "",
-      "source_pages": [
-        22
+      "source_rows": [
+        328
       ],
       "id": "book-0508"
     },
@@ -4277,13 +4595,13 @@
       "author": "Jean-Marie De Koninck | Norbert Lacroix",
       "title": "Introduction Aux Mathématiques de L'ingénieur",
       "isbn": "9782924601020",
-      "publisher": "Editeur Loze- Dion",
+      "publisher": "Editeur Loze-Dion",
       "publication_date": "Nov 2015",
       "genre": "",
       "publication_year": "2015",
       "series": "",
-      "source_pages": [
-        22
+      "source_rows": [
+        329
       ],
       "id": "book-0509"
     },
@@ -4296,8 +4614,8 @@
       "genre": "",
       "publication_year": "1981",
       "series": "",
-      "source_pages": [
-        22
+      "source_rows": [
+        330
       ],
       "id": "book-0568"
     },
@@ -4310,8 +4628,8 @@
       "genre": "",
       "publication_year": "1981",
       "series": "",
-      "source_pages": [
-        22
+      "source_rows": [
+        331
       ],
       "id": "book-0510"
     },
@@ -4319,13 +4637,13 @@
       "author": "Helmut Kopka",
       "title": "Guide to LATEX, A: Document Preparation for Beginners and Advanced Users",
       "isbn": "9780201568899",
-      "publisher": "U.S.A.: Addison- Wesley",
+      "publisher": "U.S.A.: Addison-Wesley",
       "publication_date": "Feb 28, 1993",
       "genre": "",
       "publication_year": "1993",
       "series": "",
-      "source_pages": [
-        22
+      "source_rows": [
+        332
       ],
       "id": "book-0259"
     },
@@ -4333,13 +4651,13 @@
       "author": "Steven G. Krantz",
       "title": "Complex Variables",
       "isbn": "9781584885801",
-      "publisher": "Chapman & Hall/ CRC",
+      "publisher": "Chapman & Hall/CRC",
       "publication_date": "Sep 19, 2007",
       "genre": "",
       "publication_year": "2007",
       "series": "",
-      "source_pages": [
-        22
+      "source_rows": [
+        333
       ],
       "id": "book-0260"
     },
@@ -4352,8 +4670,8 @@
       "genre": "",
       "publication_year": "1978",
       "series": "",
-      "source_pages": [
-        22
+      "source_rows": [
+        334
       ],
       "id": "book-0261"
     },
@@ -4366,10 +4684,24 @@
       "genre": "",
       "publication_year": "1989",
       "series": "",
-      "source_pages": [
-        22
+      "source_rows": [
+        335
       ],
       "id": "book-0262"
+    },
+    {
+      "author": "Frank Kreith",
+      "title": "Principles of Heat Transfer",
+      "isbn": "",
+      "publisher": "International Textbook Company",
+      "publication_date": "May 1967",
+      "genre": "",
+      "publication_year": "1967",
+      "series": "",
+      "source_rows": [
+        336
+      ],
+      "id": "book-0596"
     },
     {
       "author": "Erwin Kreyszig",
@@ -4380,8 +4712,8 @@
       "genre": "",
       "publication_year": "1992",
       "series": "",
-      "source_pages": [
-        23
+      "source_rows": [
+        337
       ],
       "id": "book-0511"
     },
@@ -4394,8 +4726,8 @@
       "genre": "",
       "publication_year": "1992",
       "series": "",
-      "source_pages": [
-        23
+      "source_rows": [
+        338
       ],
       "id": "book-0263"
     },
@@ -4408,8 +4740,8 @@
       "genre": "",
       "publication_year": "1998",
       "series": "",
-      "source_pages": [
-        23
+      "source_rows": [
+        339
       ],
       "id": "book-0264"
     },
@@ -4422,8 +4754,8 @@
       "genre": "",
       "publication_year": "1969",
       "series": "",
-      "source_pages": [
-        23
+      "source_rows": [
+        340
       ],
       "id": "book-0265"
     },
@@ -4436,8 +4768,8 @@
       "genre": "",
       "publication_year": "2003",
       "series": "",
-      "source_pages": [
-        23
+      "source_rows": [
+        341
       ],
       "id": "book-0266"
     },
@@ -4450,8 +4782,8 @@
       "genre": "",
       "publication_year": "1927",
       "series": "",
-      "source_pages": [
-        23
+      "source_rows": [
+        342
       ],
       "id": "book-0267"
     },
@@ -4464,8 +4796,8 @@
       "genre": "",
       "publication_year": "2005",
       "series": "",
-      "source_pages": [
-        23
+      "source_rows": [
+        343
       ],
       "id": "book-0512"
     },
@@ -4478,8 +4810,8 @@
       "genre": "",
       "publication_year": "1968",
       "series": "",
-      "source_pages": [
-        23
+      "source_rows": [
+        344
       ],
       "id": "book-0268"
     },
@@ -4492,8 +4824,8 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        23
+      "source_rows": [
+        345
       ],
       "id": "book-0269"
     },
@@ -4506,8 +4838,8 @@
       "genre": "",
       "publication_year": "2003",
       "series": "",
-      "source_pages": [
-        23
+      "source_rows": [
+        346
       ],
       "id": "book-0270"
     },
@@ -4520,8 +4852,8 @@
       "genre": "",
       "publication_year": "1986",
       "series": "",
-      "source_pages": [
-        23
+      "source_rows": [
+        347
       ],
       "id": "book-0513"
     },
@@ -4534,8 +4866,8 @@
       "genre": "",
       "publication_year": "1982",
       "series": "",
-      "source_pages": [
-        23
+      "source_rows": [
+        348
       ],
       "id": "book-0271"
     },
@@ -4548,10 +4880,24 @@
       "genre": "",
       "publication_year": "1962",
       "series": "",
-      "source_pages": [
-        23
+      "source_rows": [
+        349
       ],
       "id": "book-0272"
+    },
+    {
+      "author": "Alexandre Larue | Marcel Risi",
+      "title": "Mathématiques intermédiaires",
+      "isbn": "",
+      "publisher": "Les Presses de l’Université Laval",
+      "publication_date": "1959",
+      "genre": "",
+      "publication_year": "1959",
+      "series": "",
+      "source_rows": [
+        350
+      ],
+      "id": "book-0597"
     },
     {
       "author": "Mickaël Launy",
@@ -4562,8 +4908,8 @@
       "genre": "",
       "publication_year": "2018",
       "series": "",
-      "source_pages": [
-        23
+      "source_rows": [
+        351
       ],
       "id": "book-0273"
     },
@@ -4576,8 +4922,8 @@
       "genre": "",
       "publication_year": "2003",
       "series": "",
-      "source_pages": [
-        23
+      "source_rows": [
+        352
       ],
       "id": "book-0274"
     },
@@ -4590,8 +4936,8 @@
       "genre": "",
       "publication_year": "2014",
       "series": "",
-      "source_pages": [
-        23
+      "source_rows": [
+        353
       ],
       "id": "book-0275"
     },
@@ -4604,9 +4950,8 @@
       "genre": "",
       "publication_year": "2017",
       "series": "",
-      "source_pages": [
-        23,
-        24
+      "source_rows": [
+        354
       ],
       "id": "book-0514"
     },
@@ -4619,8 +4964,8 @@
       "genre": "",
       "publication_year": "2012",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        355
       ],
       "id": "book-0515"
     },
@@ -4633,10 +4978,24 @@
       "genre": "",
       "publication_year": "1990",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        356
       ],
       "id": "book-0276"
+    },
+    {
+      "author": "E. L. Lehmann",
+      "title": "Testing Statistical Hypotheses",
+      "isbn": "",
+      "publisher": "John Wiley & Sons, Inc.",
+      "publication_date": "1964",
+      "genre": "",
+      "publication_year": "1964",
+      "series": "",
+      "source_rows": [
+        357
+      ],
+      "id": "book-0598"
     },
     {
       "author": "Hervé Lehning",
@@ -4647,8 +5006,8 @@
       "genre": "",
       "publication_year": "2024",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        358
       ],
       "id": "book-0277"
     },
@@ -4661,10 +5020,24 @@
       "genre": "",
       "publication_year": "2025",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        359
       ],
       "id": "book-0278"
+    },
+    {
+      "author": "Lepage",
+      "title": "ELEMENTS DE LOGIQUE CONTEMPORAINE. Avec exercices et corrigés",
+      "isbn": "9782100001620",
+      "publisher": "dunod",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        360
+      ],
+      "id": "book-0599"
     },
     {
       "author": "P. Leroux",
@@ -4675,8 +5048,8 @@
       "genre": "",
       "publication_year": "1999",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        361
       ],
       "id": "book-0279"
     },
@@ -4689,8 +5062,8 @@
       "genre": "",
       "publication_year": "1983",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        362
       ],
       "id": "book-0280"
     },
@@ -4703,8 +5076,8 @@
       "genre": "",
       "publication_year": "2023",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        363
       ],
       "id": "book-0281"
     },
@@ -4717,8 +5090,8 @@
       "genre": "",
       "publication_year": "1967",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        364
       ],
       "id": "book-0282"
     },
@@ -4731,8 +5104,8 @@
       "genre": "",
       "publication_year": "1967",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        365
       ],
       "id": "book-0283"
     },
@@ -4745,8 +5118,8 @@
       "genre": "",
       "publication_year": "2007",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        366
       ],
       "id": "book-0516"
     },
@@ -4759,8 +5132,8 @@
       "genre": "",
       "publication_year": "2000",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        367
       ],
       "id": "book-0517"
     },
@@ -4773,8 +5146,8 @@
       "genre": "",
       "publication_year": "2025",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        368
       ],
       "id": "book-0284"
     },
@@ -4787,8 +5160,8 @@
       "genre": "",
       "publication_year": "1989",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        369
       ],
       "id": "book-0285"
     },
@@ -4801,8 +5174,8 @@
       "genre": "",
       "publication_year": "2024",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        370
       ],
       "id": "book-0286"
     },
@@ -4815,10 +5188,24 @@
       "genre": "",
       "publication_year": "2016",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        371
       ],
       "id": "book-0287"
+    },
+    {
+      "author": "Edwin N. Lightfoot | R. Byron Bird | Warren E. Stewart",
+      "title": "Transport Phenomena",
+      "isbn": "9780471073925",
+      "publisher": "John Wiley & Sons",
+      "publication_date": "Jan 15, 1960",
+      "genre": "",
+      "publication_year": "1960",
+      "series": "",
+      "source_rows": [
+        372
+      ],
+      "id": "book-0600"
     },
     {
       "author": "Daniel Lignon",
@@ -4829,8 +5216,8 @@
       "genre": "",
       "publication_year": "2023",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        373
       ],
       "id": "book-0288"
     },
@@ -4843,8 +5230,8 @@
       "genre": "",
       "publication_year": "1999",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        374
       ],
       "id": "book-0289"
     },
@@ -4857,8 +5244,8 @@
       "genre": "",
       "publication_year": "1994",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        375
       ],
       "id": "book-0518"
     },
@@ -4871,8 +5258,8 @@
       "genre": "",
       "publication_year": "1977",
       "series": "",
-      "source_pages": [
-        24
+      "source_rows": [
+        376
       ],
       "id": "book-0290"
     },
@@ -4885,8 +5272,8 @@
       "genre": "",
       "publication_year": "2023",
       "series": "",
-      "source_pages": [
-        25
+      "source_rows": [
+        377
       ],
       "id": "book-0291"
     },
@@ -4899,10 +5286,24 @@
       "genre": "",
       "publication_year": "1983",
       "series": "",
-      "source_pages": [
-        25
+      "source_rows": [
+        378
       ],
       "id": "book-0292"
+    },
+    {
+      "author": "Michel Loève",
+      "title": "Probability Theory",
+      "isbn": "",
+      "publisher": "D. Van Nostrand Company, Inc.",
+      "publication_date": "1960",
+      "genre": "",
+      "publication_year": "1960",
+      "series": "",
+      "source_rows": [
+        379
+      ],
+      "id": "book-0601"
     },
     {
       "author": "Lynn H. Loomis",
@@ -4913,8 +5314,8 @@
       "genre": "",
       "publication_year": "1968",
       "series": "",
-      "source_pages": [
-        25
+      "source_rows": [
+        380
       ],
       "id": "book-0293"
     },
@@ -4927,8 +5328,8 @@
       "genre": "",
       "publication_year": "1968",
       "series": "",
-      "source_pages": [
-        25
+      "source_rows": [
+        381
       ],
       "id": "book-0294"
     },
@@ -4941,8 +5342,8 @@
       "genre": "",
       "publication_year": "1944",
       "series": "",
-      "source_pages": [
-        25
+      "source_rows": [
+        382
       ],
       "id": "book-0295"
     },
@@ -4955,8 +5356,8 @@
       "genre": "",
       "publication_year": "1973",
       "series": "",
-      "source_pages": [
-        25
+      "source_rows": [
+        383
       ],
       "id": "book-0296"
     },
@@ -4969,8 +5370,8 @@
       "genre": "",
       "publication_year": "1989",
       "series": "",
-      "source_pages": [
-        25
+      "source_rows": [
+        384
       ],
       "id": "book-0297"
     },
@@ -4983,8 +5384,8 @@
       "genre": "",
       "publication_year": "2011",
       "series": "",
-      "source_pages": [
-        25
+      "source_rows": [
+        385
       ],
       "id": "book-0298"
     },
@@ -4997,8 +5398,8 @@
       "genre": "",
       "publication_year": "1974",
       "series": "",
-      "source_pages": [
-        25
+      "source_rows": [
+        386
       ],
       "id": "book-0299"
     },
@@ -5011,8 +5412,8 @@
       "genre": "",
       "publication_year": "1974",
       "series": "",
-      "source_pages": [
-        25
+      "source_rows": [
+        387
       ],
       "id": "book-0300"
     },
@@ -5025,8 +5426,8 @@
       "genre": "",
       "publication_year": "1974",
       "series": "",
-      "source_pages": [
-        25
+      "source_rows": [
+        388
       ],
       "id": "book-0301"
     },
@@ -5039,8 +5440,8 @@
       "genre": "",
       "publication_year": "2007",
       "series": "",
-      "source_pages": [
-        25
+      "source_rows": [
+        389
       ],
       "id": "book-0519"
     },
@@ -5053,8 +5454,8 @@
       "genre": "",
       "publication_year": "2025",
       "series": "",
-      "source_pages": [
-        25
+      "source_rows": [
+        390
       ],
       "id": "book-0302"
     },
@@ -5067,8 +5468,8 @@
       "genre": "",
       "publication_year": "2022",
       "series": "",
-      "source_pages": [
-        25
+      "source_rows": [
+        391
       ],
       "id": "book-0303"
     },
@@ -5081,8 +5482,8 @@
       "genre": "",
       "publication_year": "2013",
       "series": "",
-      "source_pages": [
-        26
+      "source_rows": [
+        392
       ],
       "id": "book-0304"
     },
@@ -5095,8 +5496,8 @@
       "genre": "",
       "publication_year": "2004",
       "series": "",
-      "source_pages": [
-        26
+      "source_rows": [
+        393
       ],
       "id": "book-0305"
     },
@@ -5109,8 +5510,8 @@
       "genre": "",
       "publication_year": "2007",
       "series": "",
-      "source_pages": [
-        26
+      "source_rows": [
+        394
       ],
       "id": "book-0306"
     },
@@ -5123,8 +5524,8 @@
       "genre": "",
       "publication_year": "2007",
       "series": "",
-      "source_pages": [
-        26
+      "source_rows": [
+        395
       ],
       "id": "book-0307"
     },
@@ -5132,13 +5533,13 @@
       "author": "Marvin Marcus",
       "title": "Introduction to Linear Algebra",
       "isbn": "9786001417351",
-      "publisher": "Univ Of Ca/ princeton",
+      "publisher": "Univ Of Ca/princeton",
       "publication_date": "Jan 01, 1965",
       "genre": "",
       "publication_year": "1965",
       "series": "",
-      "source_pages": [
-        26
+      "source_rows": [
+        396
       ],
       "id": "book-0308"
     },
@@ -5151,8 +5552,8 @@
       "genre": "",
       "publication_year": "1969",
       "series": "",
-      "source_pages": [
-        26
+      "source_rows": [
+        397
       ],
       "id": "book-0309"
     },
@@ -5165,8 +5566,8 @@
       "genre": "",
       "publication_year": "1980",
       "series": "",
-      "source_pages": [
-        26
+      "source_rows": [
+        398
       ],
       "id": "book-0520"
     },
@@ -5179,8 +5580,8 @@
       "genre": "",
       "publication_year": "2019",
       "series": "",
-      "source_pages": [
-        26
+      "source_rows": [
+        399
       ],
       "id": "book-0521"
     },
@@ -5193,8 +5594,8 @@
       "genre": "",
       "publication_year": "2002",
       "series": "",
-      "source_pages": [
-        26
+      "source_rows": [
+        400
       ],
       "id": "book-0522"
     },
@@ -5207,8 +5608,8 @@
       "genre": "",
       "publication_year": "1972",
       "series": "",
-      "source_pages": [
-        26
+      "source_rows": [
+        401
       ],
       "id": "book-0310"
     },
@@ -5221,8 +5622,8 @@
       "genre": "",
       "publication_year": "1996",
       "series": "",
-      "source_pages": [
-        27
+      "source_rows": [
+        402
       ],
       "id": "book-0311"
     },
@@ -5235,8 +5636,8 @@
       "genre": "",
       "publication_year": "1998",
       "series": "",
-      "source_pages": [
-        27
+      "source_rows": [
+        403
       ],
       "id": "book-0523"
     },
@@ -5244,13 +5645,13 @@
       "author": "William Gordon McCallum",
       "title": "Fonctions de plusieurs variables",
       "isbn": "9782894612606",
-      "publisher": "Cheneliere/ McGraw-Hill",
+      "publisher": "Cheneliere/McGraw-Hill",
       "publication_date": "1999",
       "genre": "",
       "publication_year": "1999",
       "series": "",
-      "source_pages": [
-        27
+      "source_rows": [
+        404
       ],
       "id": "book-0524"
     },
@@ -5263,8 +5664,8 @@
       "genre": "",
       "publication_year": "1989",
       "series": "",
-      "source_pages": [
-        27
+      "source_rows": [
+        405
       ],
       "id": "book-0312"
     },
@@ -5277,8 +5678,8 @@
       "genre": "",
       "publication_year": "2017",
       "series": "",
-      "source_pages": [
-        27
+      "source_rows": [
+        406
       ],
       "id": "book-0313"
     },
@@ -5291,8 +5692,8 @@
       "genre": "",
       "publication_year": "1998",
       "series": "",
-      "source_pages": [
-        27
+      "source_rows": [
+        407
       ],
       "id": "book-0314"
     },
@@ -5305,8 +5706,8 @@
       "genre": "",
       "publication_year": "1971",
       "series": "",
-      "source_pages": [
-        27
+      "source_rows": [
+        408
       ],
       "id": "book-0315"
     },
@@ -5319,8 +5720,8 @@
       "genre": "",
       "publication_year": "1990",
       "series": "",
-      "source_pages": [
-        27
+      "source_rows": [
+        409
       ],
       "id": "book-0316"
     },
@@ -5333,8 +5734,8 @@
       "genre": "",
       "publication_year": "1974",
       "series": "",
-      "source_pages": [
-        27
+      "source_rows": [
+        410
       ],
       "id": "book-0569"
     },
@@ -5347,8 +5748,8 @@
       "genre": "",
       "publication_year": "1986",
       "series": "",
-      "source_pages": [
-        27
+      "source_rows": [
+        411
       ],
       "id": "book-0525"
     },
@@ -5361,8 +5762,8 @@
       "genre": "",
       "publication_year": "2003",
       "series": "",
-      "source_pages": [
-        27
+      "source_rows": [
+        412
       ],
       "id": "book-0317"
     },
@@ -5375,8 +5776,8 @@
       "genre": "",
       "publication_year": "2002",
       "series": "",
-      "source_pages": [
-        27
+      "source_rows": [
+        413
       ],
       "id": "book-0318"
     },
@@ -5389,8 +5790,8 @@
       "genre": "",
       "publication_year": "2008",
       "series": "",
-      "source_pages": [
-        27
+      "source_rows": [
+        414
       ],
       "id": "book-0319"
     },
@@ -5403,8 +5804,8 @@
       "genre": "",
       "publication_year": "2011",
       "series": "",
-      "source_pages": [
-        27
+      "source_rows": [
+        415
       ],
       "id": "book-0320"
     },
@@ -5417,8 +5818,8 @@
       "genre": "",
       "publication_year": "2025",
       "series": "",
-      "source_pages": [
-        28
+      "source_rows": [
+        416
       ],
       "id": "book-0321"
     },
@@ -5431,8 +5832,8 @@
       "genre": "",
       "publication_year": "1998",
       "series": "",
-      "source_pages": [
-        28
+      "source_rows": [
+        417
       ],
       "id": "book-0526"
     },
@@ -5445,8 +5846,8 @@
       "genre": "",
       "publication_year": "2001",
       "series": "",
-      "source_pages": [
-        28
+      "source_rows": [
+        418
       ],
       "id": "book-0322"
     },
@@ -5459,8 +5860,8 @@
       "genre": "",
       "publication_year": "1986",
       "series": "",
-      "source_pages": [
-        28
+      "source_rows": [
+        419
       ],
       "id": "book-0323"
     },
@@ -5473,8 +5874,8 @@
       "genre": "",
       "publication_year": "1991",
       "series": "",
-      "source_pages": [
-        28
+      "source_rows": [
+        420
       ],
       "id": "book-0324"
     },
@@ -5487,8 +5888,8 @@
       "genre": "",
       "publication_year": "1996",
       "series": "",
-      "source_pages": [
-        28
+      "source_rows": [
+        421
       ],
       "id": "book-0527"
     },
@@ -5501,8 +5902,8 @@
       "genre": "",
       "publication_year": "1991",
       "series": "",
-      "source_pages": [
-        28
+      "source_rows": [
+        422
       ],
       "id": "book-0325"
     },
@@ -5515,8 +5916,8 @@
       "genre": "",
       "publication_year": "2000",
       "series": "",
-      "source_pages": [
-        28
+      "source_rows": [
+        423
       ],
       "id": "book-0528"
     },
@@ -5529,8 +5930,8 @@
       "genre": "",
       "publication_year": "1997",
       "series": "",
-      "source_pages": [
-        28
+      "source_rows": [
+        424
       ],
       "id": "book-0529"
     },
@@ -5543,8 +5944,8 @@
       "genre": "",
       "publication_year": "1993",
       "series": "",
-      "source_pages": [
-        28
+      "source_rows": [
+        425
       ],
       "id": "book-0326"
     },
@@ -5557,8 +5958,8 @@
       "genre": "",
       "publication_year": "1987",
       "series": "",
-      "source_pages": [
-        28
+      "source_rows": [
+        426
       ],
       "id": "book-0327"
     },
@@ -5571,8 +5972,8 @@
       "genre": "",
       "publication_year": "1987",
       "series": "",
-      "source_pages": [
-        29
+      "source_rows": [
+        427
       ],
       "id": "book-0328"
     },
@@ -5585,8 +5986,8 @@
       "genre": "",
       "publication_year": "1963",
       "series": "",
-      "source_pages": [
-        29
+      "source_rows": [
+        428
       ],
       "id": "book-0329"
     },
@@ -5599,8 +6000,8 @@
       "genre": "",
       "publication_year": "2021",
       "series": "",
-      "source_pages": [
-        29
+      "source_rows": [
+        429
       ],
       "id": "book-0330"
     },
@@ -5613,8 +6014,8 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        29
+      "source_rows": [
+        430
       ],
       "id": "book-0331"
     },
@@ -5627,8 +6028,8 @@
       "genre": "",
       "publication_year": "2019",
       "series": "",
-      "source_pages": [
-        29
+      "source_rows": [
+        431
       ],
       "id": "book-0332"
     },
@@ -5641,8 +6042,8 @@
       "genre": "",
       "publication_year": "2016",
       "series": "",
-      "source_pages": [
-        29
+      "source_rows": [
+        432
       ],
       "id": "book-0530"
     },
@@ -5655,8 +6056,8 @@
       "genre": "",
       "publication_year": "1999",
       "series": "",
-      "source_pages": [
-        29
+      "source_rows": [
+        433
       ],
       "id": "book-0531"
     },
@@ -5669,8 +6070,8 @@
       "genre": "",
       "publication_year": "2012",
       "series": "",
-      "source_pages": [
-        29
+      "source_rows": [
+        434
       ],
       "id": "book-0333"
     },
@@ -5683,8 +6084,8 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        29
+      "source_rows": [
+        435
       ],
       "id": "book-0334"
     },
@@ -5697,22 +6098,22 @@
       "genre": "",
       "publication_year": "2024",
       "series": "",
-      "source_pages": [
-        30
+      "source_rows": [
+        436
       ],
       "id": "book-0335"
     },
     {
       "author": "Terrence P. Murphy",
-      "title": "Complex Analysis: a Self- Study Guide",
+      "title": "Complex Analysis: a Self-Study Guide",
       "isbn": "9780996167154",
       "publisher": "Paramount Ridge Press",
       "publication_date": "Mar 16, 2022",
       "genre": "",
       "publication_year": "2022",
       "series": "",
-      "source_pages": [
-        30
+      "source_rows": [
+        437
       ],
       "id": "book-0336"
     },
@@ -5725,8 +6126,8 @@
       "genre": "",
       "publication_year": "1977",
       "series": "",
-      "source_pages": [
-        30
+      "source_rows": [
+        438
       ],
       "id": "book-0337"
     },
@@ -5739,10 +6140,24 @@
       "genre": "",
       "publication_year": "2014",
       "series": "",
-      "source_pages": [
-        30
+      "source_rows": [
+        439
       ],
       "id": "book-0532"
+    },
+    {
+      "author": "M. A. Naimark",
+      "title": "Normed Rings",
+      "isbn": "",
+      "publisher": "P. Noordhoff N.V.",
+      "publication_date": "1964",
+      "genre": "",
+      "publication_year": "1964",
+      "series": "",
+      "source_rows": [
+        440
+      ],
+      "id": "book-0602"
     },
     {
       "author": "Thomas L. Naps | Douglas W. Nance",
@@ -5753,8 +6168,8 @@
       "genre": "",
       "publication_year": "1995",
       "series": "",
-      "source_pages": [
-        30
+      "source_rows": [
+        441
       ],
       "id": "book-0533"
     },
@@ -5767,8 +6182,8 @@
       "genre": "",
       "publication_year": "1968",
       "series": "",
-      "source_pages": [
-        30
+      "source_rows": [
+        442
       ],
       "id": "book-0338"
     },
@@ -5781,10 +6196,24 @@
       "genre": "",
       "publication_year": "2023",
       "series": "",
-      "source_pages": [
-        30
+      "source_rows": [
+        443
       ],
       "id": "book-0339"
+    },
+    {
+      "author": "Zeev Nehari",
+      "title": "Introduction to Complex Analysis",
+      "isbn": "",
+      "publisher": "Allyn and Bacon, Inc.",
+      "publication_date": "1968",
+      "genre": "",
+      "publication_year": "1968",
+      "series": "",
+      "source_rows": [
+        444
+      ],
+      "id": "book-0603"
     },
     {
       "author": "Dwight E. Neuenschwander",
@@ -5795,8 +6224,8 @@
       "genre": "",
       "publication_year": "2010",
       "series": "",
-      "source_pages": [
-        30
+      "source_rows": [
+        445
       ],
       "id": "book-0340"
     },
@@ -5809,8 +6238,8 @@
       "genre": "",
       "publication_year": "1964",
       "series": "",
-      "source_pages": [
-        30
+      "source_rows": [
+        446
       ],
       "id": "book-0341"
     },
@@ -5823,8 +6252,8 @@
       "genre": "Juvenile Works | Study Guides",
       "publication_year": "2016",
       "series": "",
-      "source_pages": [
-        30
+      "source_rows": [
+        447
       ],
       "id": "book-0342"
     },
@@ -5837,8 +6266,8 @@
       "genre": "",
       "publication_year": "1944",
       "series": "",
-      "source_pages": [
-        31
+      "source_rows": [
+        448
       ],
       "id": "book-0343"
     },
@@ -5851,8 +6280,8 @@
       "genre": "",
       "publication_year": "1974",
       "series": "",
-      "source_pages": [
-        31
+      "source_rows": [
+        449
       ],
       "id": "book-0344"
     },
@@ -5865,8 +6294,8 @@
       "genre": "",
       "publication_year": "2017",
       "series": "",
-      "source_pages": [
-        31
+      "source_rows": [
+        450
       ],
       "id": "book-0345"
     },
@@ -5879,8 +6308,8 @@
       "genre": "",
       "publication_year": "1964",
       "series": "",
-      "source_pages": [
-        31
+      "source_rows": [
+        451
       ],
       "id": "book-0346"
     },
@@ -5893,8 +6322,8 @@
       "genre": "",
       "publication_year": "1975",
       "series": "",
-      "source_pages": [
-        31
+      "source_rows": [
+        452
       ],
       "id": "book-0347"
     },
@@ -5907,8 +6336,8 @@
       "genre": "",
       "publication_year": "1998",
       "series": "",
-      "source_pages": [
-        31
+      "source_rows": [
+        453
       ],
       "id": "book-0348"
     },
@@ -5921,8 +6350,8 @@
       "genre": "",
       "publication_year": "2019",
       "series": "",
-      "source_pages": [
-        31
+      "source_rows": [
+        454
       ],
       "id": "book-0349"
     },
@@ -5935,8 +6364,8 @@
       "genre": "",
       "publication_year": "2014",
       "series": "",
-      "source_pages": [
-        31
+      "source_rows": [
+        455
       ],
       "id": "book-0350"
     },
@@ -5949,8 +6378,8 @@
       "genre": "",
       "publication_year": "1967",
       "series": "",
-      "source_pages": [
-        31
+      "source_rows": [
+        456
       ],
       "id": "book-0351"
     },
@@ -5963,8 +6392,8 @@
       "genre": "",
       "publication_year": "1988",
       "series": "",
-      "source_pages": [
-        31
+      "source_rows": [
+        457
       ],
       "id": "book-0352"
     },
@@ -5977,8 +6406,8 @@
       "genre": "",
       "publication_year": "1992",
       "series": "",
-      "source_pages": [
-        31
+      "source_rows": [
+        458
       ],
       "id": "book-0353"
     },
@@ -5991,8 +6420,8 @@
       "genre": "",
       "publication_year": "1981",
       "series": "",
-      "source_pages": [
-        31
+      "source_rows": [
+        459
       ],
       "id": "book-0534"
     },
@@ -6005,8 +6434,8 @@
       "genre": "",
       "publication_year": "1981",
       "series": "",
-      "source_pages": [
-        31
+      "source_rows": [
+        460
       ],
       "id": "book-0354"
     },
@@ -6019,8 +6448,8 @@
       "genre": "",
       "publication_year": "1998",
       "series": "",
-      "source_pages": [
-        31
+      "source_rows": [
+        461
       ],
       "id": "book-0535"
     },
@@ -6033,9 +6462,8 @@
       "genre": "",
       "publication_year": "2010",
       "series": "",
-      "source_pages": [
-        31,
-        32
+      "source_rows": [
+        462
       ],
       "id": "book-0355"
     },
@@ -6048,8 +6476,8 @@
       "genre": "",
       "publication_year": "1966",
       "series": "",
-      "source_pages": [
-        32
+      "source_rows": [
+        463
       ],
       "id": "book-0356"
     },
@@ -6062,8 +6490,8 @@
       "genre": "",
       "publication_year": "1998",
       "series": "",
-      "source_pages": [
-        32
+      "source_rows": [
+        464
       ],
       "id": "book-0357"
     },
@@ -6076,8 +6504,8 @@
       "genre": "",
       "publication_year": "2001",
       "series": "",
-      "source_pages": [
-        32
+      "source_rows": [
+        465
       ],
       "id": "book-0358"
     },
@@ -6090,8 +6518,8 @@
       "genre": "",
       "publication_year": "2003",
       "series": "",
-      "source_pages": [
-        32
+      "source_rows": [
+        466
       ],
       "id": "book-0536"
     },
@@ -6104,8 +6532,8 @@
       "genre": "",
       "publication_year": "1980",
       "series": "",
-      "source_pages": [
-        32
+      "source_rows": [
+        467
       ],
       "id": "book-0359"
     },
@@ -6118,8 +6546,8 @@
       "genre": "",
       "publication_year": "1996",
       "series": "",
-      "source_pages": [
-        32
+      "source_rows": [
+        468
       ],
       "id": "book-0360"
     },
@@ -6132,8 +6560,8 @@
       "genre": "",
       "publication_year": "1996",
       "series": "",
-      "source_pages": [
-        32
+      "source_rows": [
+        469
       ],
       "id": "book-0361"
     },
@@ -6146,8 +6574,8 @@
       "genre": "",
       "publication_year": "2007",
       "series": "",
-      "source_pages": [
-        32
+      "source_rows": [
+        470
       ],
       "id": "book-0362"
     },
@@ -6160,8 +6588,8 @@
       "genre": "",
       "publication_year": "1999",
       "series": "",
-      "source_pages": [
-        32
+      "source_rows": [
+        471
       ],
       "id": "book-0537"
     },
@@ -6174,8 +6602,8 @@
       "genre": "",
       "publication_year": "2004",
       "series": "",
-      "source_pages": [
-        32
+      "source_rows": [
+        472
       ],
       "id": "book-0363"
     },
@@ -6188,8 +6616,8 @@
       "genre": "",
       "publication_year": "2009",
       "series": "",
-      "source_pages": [
-        32
+      "source_rows": [
+        473
       ],
       "id": "book-0364"
     },
@@ -6202,8 +6630,8 @@
       "genre": "",
       "publication_year": "1989",
       "series": "",
-      "source_pages": [
-        32
+      "source_rows": [
+        474
       ],
       "id": "book-0570"
     },
@@ -6216,8 +6644,8 @@
       "genre": "",
       "publication_year": "1994",
       "series": "",
-      "source_pages": [
-        32
+      "source_rows": [
+        475
       ],
       "id": "book-0538"
     },
@@ -6230,8 +6658,8 @@
       "genre": "",
       "publication_year": "1993",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        476
       ],
       "id": "book-0539"
     },
@@ -6244,8 +6672,8 @@
       "genre": "",
       "publication_year": "1985",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        477
       ],
       "id": "book-0540"
     },
@@ -6258,10 +6686,24 @@
       "genre": "",
       "publication_year": "1966",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        478
       ],
       "id": "book-0365"
+    },
+    {
+      "author": "G. Pólya | G. Szegő",
+      "title": "Aufgaben und Lehrsätze aus der Analysis",
+      "isbn": "",
+      "publisher": "Springer-Verlag",
+      "publication_date": "1954",
+      "genre": "",
+      "publication_year": "1954",
+      "series": "",
+      "source_rows": [
+        479
+      ],
+      "id": "book-0604"
     },
     {
       "author": "Daniel Ponasse",
@@ -6272,8 +6714,8 @@
       "genre": "",
       "publication_year": "1967",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        480
       ],
       "id": "book-0366"
     },
@@ -6286,8 +6728,8 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        481
       ],
       "id": "book-0367"
     },
@@ -6300,8 +6742,8 @@
       "genre": "",
       "publication_year": "2025",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        482
       ],
       "id": "book-0368"
     },
@@ -6314,8 +6756,8 @@
       "genre": "",
       "publication_year": "1964",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        483
       ],
       "id": "book-0369"
     },
@@ -6328,8 +6770,8 @@
       "genre": "",
       "publication_year": "1965",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        484
       ],
       "id": "book-0370"
     },
@@ -6342,8 +6784,8 @@
       "genre": "",
       "publication_year": "2023",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        485
       ],
       "id": "book-0371"
     },
@@ -6356,8 +6798,8 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        486
       ],
       "id": "book-0372"
     },
@@ -6370,8 +6812,8 @@
       "genre": "",
       "publication_year": "1964",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        487
       ],
       "id": "book-0373"
     },
@@ -6384,8 +6826,8 @@
       "genre": "",
       "publication_year": "1955",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        488
       ],
       "id": "book-0374"
     },
@@ -6398,8 +6840,8 @@
       "genre": "",
       "publication_year": "2008",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        489
       ],
       "id": "book-0375"
     },
@@ -6412,8 +6854,8 @@
       "genre": "",
       "publication_year": "1981",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        490
       ],
       "id": "book-0376"
     },
@@ -6426,8 +6868,8 @@
       "genre": "",
       "publication_year": "2022",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        491
       ],
       "id": "book-0377"
     },
@@ -6440,8 +6882,8 @@
       "genre": "",
       "publication_year": "2022",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        492
       ],
       "id": "book-0378"
     },
@@ -6454,8 +6896,8 @@
       "genre": "",
       "publication_year": "2021",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        493
       ],
       "id": "book-0379"
     },
@@ -6468,8 +6910,8 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        494
       ],
       "id": "book-0380"
     },
@@ -6482,8 +6924,8 @@
       "genre": "",
       "publication_year": "2023",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        495
       ],
       "id": "book-0381"
     },
@@ -6496,10 +6938,24 @@
       "genre": "",
       "publication_year": "2024",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        496
       ],
       "id": "book-0382"
+    },
+    {
+      "author": "C. Radhakrishna Rao",
+      "title": "Advanced Statistical Methods in Biometric Research",
+      "isbn": "",
+      "publisher": "John Wiley & Sons, Inc.",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        497
+      ],
+      "id": "book-0605"
     },
     {
       "author": "Elvira Rapaport",
@@ -6510,8 +6966,8 @@
       "genre": "",
       "publication_year": "1963",
       "series": "",
-      "source_pages": [
-        33
+      "source_rows": [
+        498
       ],
       "id": "book-0383"
     },
@@ -6524,8 +6980,8 @@
       "genre": "",
       "publication_year": "1967",
       "series": "Berkeley Physics Course, Volume 5",
-      "source_pages": [
-        34
+      "source_rows": [
+        499
       ],
       "id": "book-0384"
     },
@@ -6538,8 +6994,8 @@
       "genre": "",
       "publication_year": "1980",
       "series": "",
-      "source_pages": [
-        34
+      "source_rows": [
+        500
       ],
       "id": "book-0385"
     },
@@ -6552,8 +7008,8 @@
       "genre": "",
       "publication_year": "1992",
       "series": "",
-      "source_pages": [
-        34
+      "source_rows": [
+        501
       ],
       "id": "book-0386"
     },
@@ -6566,10 +7022,24 @@
       "genre": "",
       "publication_year": "1980",
       "series": "",
-      "source_pages": [
-        34
+      "source_rows": [
+        502
       ],
       "id": "book-0387"
+    },
+    {
+      "author": "Réunion de professeurs",
+      "title": "Cours de géométrie : classes de 2e et de 1e",
+      "isbn": "",
+      "publisher": "Ligel",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        503
+      ],
+      "id": "book-0606"
     },
     {
       "author": "Durrett Richard",
@@ -6580,10 +7050,38 @@
       "genre": "",
       "publication_year": "2012",
       "series": "",
-      "source_pages": [
-        34
+      "source_rows": [
+        504
       ],
       "id": "book-0388"
+    },
+    {
+      "author": "James A. Richards | Francis Weston Sears | M. Russell Wehr | Mark W. Zemansky",
+      "title": "Modern University Physics",
+      "isbn": "",
+      "publisher": "Addison-Wesley Publishing Company, Inc.",
+      "publication_date": "1960",
+      "genre": "",
+      "publication_year": "1960",
+      "series": "",
+      "source_rows": [
+        505
+      ],
+      "id": "book-0607"
+    },
+    {
+      "author": "Frigyes Riesz | Béla Sz.-Nagy",
+      "title": "Functional Analysis",
+      "isbn": "",
+      "publisher": "Frederick Ungar Publishing Co.",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        506
+      ],
+      "id": "book-0608"
     },
     {
       "author": "Odeh. Robert E.",
@@ -6594,8 +7092,8 @@
       "genre": "",
       "publication_year": "1977",
       "series": "",
-      "source_pages": [
-        34
+      "source_rows": [
+        507
       ],
       "id": "book-0541"
     },
@@ -6608,8 +7106,8 @@
       "genre": "",
       "publication_year": "1959",
       "series": "",
-      "source_pages": [
-        34
+      "source_rows": [
+        508
       ],
       "id": "book-0389"
     },
@@ -6617,13 +7115,13 @@
       "author": "Serge Robert",
       "title": "Initiation aux statistiques",
       "isbn": "",
-      "publisher": "Fonds de rayonnement pédagogique, Cégep Saint- Jean-sur- Richelieu",
+      "publisher": "Fonds de rayonnement pédagogique, Cégep Saint-Jean-sur-Richelieu",
       "publication_date": "1988",
       "genre": "",
       "publication_year": "1988",
       "series": "",
-      "source_pages": [
-        34
+      "source_rows": [
+        509
       ],
       "id": "book-0571"
     },
@@ -6636,8 +7134,8 @@
       "genre": "",
       "publication_year": "1986",
       "series": "",
-      "source_pages": [
-        34
+      "source_rows": [
+        510
       ],
       "id": "book-0390"
     },
@@ -6650,8 +7148,8 @@
       "genre": "",
       "publication_year": "2019",
       "series": "",
-      "source_pages": [
-        34
+      "source_rows": [
+        511
       ],
       "id": "book-0391"
     },
@@ -6664,8 +7162,8 @@
       "genre": "",
       "publication_year": "2018",
       "series": "",
-      "source_pages": [
-        34
+      "source_rows": [
+        512
       ],
       "id": "book-0392"
     },
@@ -6678,8 +7176,8 @@
       "genre": "",
       "publication_year": "2021",
       "series": "",
-      "source_pages": [
-        34
+      "source_rows": [
+        513
       ],
       "id": "book-0393"
     },
@@ -6692,8 +7190,8 @@
       "genre": "",
       "publication_year": "2023",
       "series": "",
-      "source_pages": [
-        34
+      "source_rows": [
+        514
       ],
       "id": "book-0394"
     },
@@ -6706,8 +7204,8 @@
       "genre": "",
       "publication_year": "1997",
       "series": "",
-      "source_pages": [
-        34
+      "source_rows": [
+        515
       ],
       "id": "book-0395"
     },
@@ -6720,10 +7218,24 @@
       "genre": "",
       "publication_year": "1963",
       "series": "",
-      "source_pages": [
-        34
+      "source_rows": [
+        516
       ],
       "id": "book-0396"
+    },
+    {
+      "author": "Murray Rosenblatt",
+      "title": "Random Processes",
+      "isbn": "",
+      "publisher": "Oxford University Press",
+      "publication_date": "1962",
+      "genre": "",
+      "publication_year": "1962",
+      "series": "",
+      "source_rows": [
+        517
+      ],
+      "id": "book-0609"
     },
     {
       "author": "Bernard A. Rosner",
@@ -6734,8 +7246,8 @@
       "genre": "",
       "publication_year": "1994",
       "series": "",
-      "source_pages": [
-        35
+      "source_rows": [
+        518
       ],
       "id": "book-0542"
     },
@@ -6748,8 +7260,8 @@
       "genre": "",
       "publication_year": "2016",
       "series": "",
-      "source_pages": [
-        35
+      "source_rows": [
+        519
       ],
       "id": "book-0543"
     },
@@ -6762,8 +7274,8 @@
       "genre": "",
       "publication_year": "1987",
       "series": "",
-      "source_pages": [
-        35
+      "source_rows": [
+        520
       ],
       "id": "book-0544"
     },
@@ -6776,8 +7288,8 @@
       "genre": "",
       "publication_year": "2006",
       "series": "",
-      "source_pages": [
-        35
+      "source_rows": [
+        521
       ],
       "id": "book-0545"
     },
@@ -6790,8 +7302,8 @@
       "genre": "",
       "publication_year": "1995",
       "series": "",
-      "source_pages": [
-        35
+      "source_rows": [
+        522
       ],
       "id": "book-0397"
     },
@@ -6804,8 +7316,8 @@
       "genre": "",
       "publication_year": "1995",
       "series": "",
-      "source_pages": [
-        35
+      "source_rows": [
+        523
       ],
       "id": "book-0398"
     },
@@ -6818,8 +7330,8 @@
       "genre": "",
       "publication_year": "1984",
       "series": "",
-      "source_pages": [
-        35
+      "source_rows": [
+        524
       ],
       "id": "book-0399"
     },
@@ -6832,8 +7344,8 @@
       "genre": "",
       "publication_year": "1969",
       "series": "",
-      "source_pages": [
-        35
+      "source_rows": [
+        525
       ],
       "id": "book-0400"
     },
@@ -6846,22 +7358,22 @@
       "genre": "",
       "publication_year": "1977",
       "series": "",
-      "source_pages": [
-        35
+      "source_rows": [
+        526
       ],
       "id": "book-0401"
     },
     {
       "author": "Walter Rudin",
-      "title": "Functional Analysis (McGraw- Hill Series in Higher Mathematics)",
+      "title": "Functional Analysis (McGraw-Hill Series in Higher Mathematics)",
       "isbn": "9780070542259",
       "publisher": "McGraw-Hill",
       "publication_date": "Jan 01, 1973",
       "genre": "",
       "publication_year": "1973",
       "series": "",
-      "source_pages": [
-        35
+      "source_rows": [
+        527
       ],
       "id": "book-0402"
     },
@@ -6874,8 +7386,8 @@
       "genre": "",
       "publication_year": "1964",
       "series": "",
-      "source_pages": [
-        35
+      "source_rows": [
+        528
       ],
       "id": "book-0403"
     },
@@ -6888,8 +7400,8 @@
       "genre": "",
       "publication_year": "1988",
       "series": "",
-      "source_pages": [
-        35
+      "source_rows": [
+        529
       ],
       "id": "book-0546"
     },
@@ -6902,8 +7414,8 @@
       "genre": "",
       "publication_year": "1995",
       "series": "",
-      "source_pages": [
-        35
+      "source_rows": [
+        530
       ],
       "id": "book-0404"
     },
@@ -6916,13 +7428,13 @@
       "genre": "",
       "publication_year": "2009",
       "series": "",
-      "source_pages": [
-        35
+      "source_rows": [
+        531
       ],
       "id": "book-0405"
     },
     {
-      "author": "Les Frères du Sacré- Cœur",
+      "author": "Les Frères du Sacré-Cœur",
       "title": "Arithmétique",
       "isbn": "",
       "publisher": "Les Frères du Sacré-Cœur",
@@ -6930,8 +7442,8 @@
       "genre": "",
       "publication_year": "1949",
       "series": "",
-      "source_pages": [
-        35
+      "source_rows": [
+        532
       ],
       "id": "book-0406"
     },
@@ -6944,9 +7456,8 @@
       "genre": "",
       "publication_year": "2022",
       "series": "",
-      "source_pages": [
-        35,
-        36
+      "source_rows": [
+        533
       ],
       "id": "book-0407"
     },
@@ -6959,8 +7470,8 @@
       "genre": "",
       "publication_year": "1974",
       "series": "",
-      "source_pages": [
-        36
+      "source_rows": [
+        534
       ],
       "id": "book-0408"
     },
@@ -6973,8 +7484,8 @@
       "genre": "",
       "publication_year": "1974",
       "series": "",
-      "source_pages": [
-        36
+      "source_rows": [
+        535
       ],
       "id": "book-0409"
     },
@@ -6987,10 +7498,38 @@
       "genre": "",
       "publication_year": "2014",
       "series": "",
-      "source_pages": [
-        36
+      "source_rows": [
+        536
       ],
       "id": "book-0410"
+    },
+    {
+      "author": "Robert Schatten",
+      "title": "Norm Ideals of Completely Continuous Operators",
+      "isbn": "",
+      "publisher": "Springer-Verlag",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        537
+      ],
+      "id": "book-0610"
+    },
+    {
+      "author": "Henry Scheffé",
+      "title": "The Analysis of Variance. (A Wiley Publication in Mathematical Statistics)",
+      "isbn": "9780471758341",
+      "publisher": "John Wiley & Sons, Inc",
+      "publication_date": "1959",
+      "genre": "",
+      "publication_year": "1959",
+      "series": "",
+      "source_rows": [
+        538
+      ],
+      "id": "book-0611"
     },
     {
       "author": "Schmitt",
@@ -7001,8 +7540,8 @@
       "genre": "",
       "publication_year": "2013",
       "series": "",
-      "source_pages": [
-        36
+      "source_rows": [
+        539
       ],
       "id": "book-0411"
     },
@@ -7015,8 +7554,8 @@
       "genre": "",
       "publication_year": "2004",
       "series": "",
-      "source_pages": [
-        36
+      "source_rows": [
+        540
       ],
       "id": "book-0412"
     },
@@ -7029,8 +7568,8 @@
       "genre": "",
       "publication_year": "1997",
       "series": "",
-      "source_pages": [
-        36
+      "source_rows": [
+        541
       ],
       "id": "book-0413"
     },
@@ -7043,8 +7582,8 @@
       "genre": "",
       "publication_year": "1981",
       "series": "",
-      "source_pages": [
-        36
+      "source_rows": [
+        542
       ],
       "id": "book-0414"
     },
@@ -7057,8 +7596,8 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        36
+      "source_rows": [
+        543
       ],
       "id": "book-0415"
     },
@@ -7071,8 +7610,8 @@
       "genre": "",
       "publication_year": "1966",
       "series": "",
-      "source_pages": [
-        36
+      "source_rows": [
+        544
       ],
       "id": "book-0416"
     },
@@ -7085,8 +7624,8 @@
       "genre": "",
       "publication_year": "1977",
       "series": "",
-      "source_pages": [
-        36
+      "source_rows": [
+        545
       ],
       "id": "book-0417"
     },
@@ -7094,13 +7633,13 @@
       "author": "Libeskind Shlomo | Lott W. Johnny | Billstein Rick",
       "title": "A problem solving approach to mathematics for elementary school teachers",
       "isbn": "9780805308518",
-      "publisher": "Benjamin/ Cummings Pub. Co",
+      "publisher": "Benjamin/Cummings Pub. Co",
       "publication_date": "Jan 01, 1981",
       "genre": "",
       "publication_year": "1981",
       "series": "",
-      "source_pages": [
-        36
+      "source_rows": [
+        546
       ],
       "id": "book-0418"
     },
@@ -7113,8 +7652,8 @@
       "genre": "",
       "publication_year": "1981",
       "series": "",
-      "source_pages": [
-        37
+      "source_rows": [
+        547
       ],
       "id": "book-0419"
     },
@@ -7127,8 +7666,8 @@
       "genre": "",
       "publication_year": "1988",
       "series": "",
-      "source_pages": [
-        37
+      "source_rows": [
+        548
       ],
       "id": "book-0547"
     },
@@ -7141,8 +7680,8 @@
       "genre": "",
       "publication_year": "1988",
       "series": "",
-      "source_pages": [
-        37
+      "source_rows": [
+        549
       ],
       "id": "book-0548"
     },
@@ -7155,8 +7694,8 @@
       "genre": "",
       "publication_year": "1984",
       "series": "",
-      "source_pages": [
-        37
+      "source_rows": [
+        550
       ],
       "id": "book-0420"
     },
@@ -7169,8 +7708,8 @@
       "genre": "",
       "publication_year": "1998",
       "series": "",
-      "source_pages": [
-        37
+      "source_rows": [
+        551
       ],
       "id": "book-0421"
     },
@@ -7183,8 +7722,8 @@
       "genre": "",
       "publication_year": "2008",
       "series": "",
-      "source_pages": [
-        37
+      "source_rows": [
+        552
       ],
       "id": "book-0422"
     },
@@ -7197,8 +7736,8 @@
       "genre": "",
       "publication_year": "1999",
       "series": "",
-      "source_pages": [
-        37
+      "source_rows": [
+        553
       ],
       "id": "book-0549"
     },
@@ -7211,10 +7750,38 @@
       "genre": "",
       "publication_year": "1969",
       "series": "",
-      "source_pages": [
-        37
+      "source_rows": [
+        554
       ],
       "id": "book-0423"
+    },
+    {
+      "author": "J. M. Smith | H. C. Van Ness",
+      "title": "Introduction to Chemical Engineering Thermodynamics",
+      "isbn": "",
+      "publisher": "McGraw-Hill Book Company, Inc.",
+      "publication_date": "1959",
+      "genre": "",
+      "publication_year": "1959",
+      "series": "",
+      "source_rows": [
+        555
+      ],
+      "id": "book-0612"
+    },
+    {
+      "author": "J.M. Smith",
+      "title": "Chemical Engineering Kinetics",
+      "isbn": "9780070586932",
+      "publisher": "1970",
+      "publication_date": "1970",
+      "genre": "",
+      "publication_year": "1970",
+      "series": "",
+      "source_rows": [
+        556
+      ],
+      "id": "book-0613"
     },
     {
       "author": "Percey Franklyn Smith | William Anthony Granville | William Raymond Longley",
@@ -7225,8 +7792,8 @@
       "genre": "",
       "publication_year": "1968",
       "series": "",
-      "source_pages": [
-        37
+      "source_rows": [
+        557
       ],
       "id": "book-0424"
     },
@@ -7239,8 +7806,8 @@
       "genre": "",
       "publication_year": "1991",
       "series": "",
-      "source_pages": [
-        37
+      "source_rows": [
+        558
       ],
       "id": "book-0425"
     },
@@ -7253,8 +7820,8 @@
       "genre": "",
       "publication_year": "1956",
       "series": "",
-      "source_pages": [
-        37
+      "source_rows": [
+        559
       ],
       "id": "book-0426"
     },
@@ -7267,8 +7834,8 @@
       "genre": "",
       "publication_year": "2006",
       "series": "",
-      "source_pages": [
-        37
+      "source_rows": [
+        560
       ],
       "id": "book-0572"
     },
@@ -7281,8 +7848,8 @@
       "genre": "",
       "publication_year": "1943",
       "series": "",
-      "source_pages": [
-        38
+      "source_rows": [
+        561
       ],
       "id": "book-0427"
     },
@@ -7295,8 +7862,8 @@
       "genre": "",
       "publication_year": "1980",
       "series": "",
-      "source_pages": [
-        38
+      "source_rows": [
+        562
       ],
       "id": "book-0428"
     },
@@ -7309,8 +7876,8 @@
       "genre": "",
       "publication_year": "1994",
       "series": "",
-      "source_pages": [
-        38
+      "source_rows": [
+        563
       ],
       "id": "book-0550"
     },
@@ -7323,8 +7890,8 @@
       "genre": "",
       "publication_year": "1965",
       "series": "",
-      "source_pages": [
-        38
+      "source_rows": [
+        564
       ],
       "id": "book-0429"
     },
@@ -7337,8 +7904,8 @@
       "genre": "",
       "publication_year": "2022",
       "series": "",
-      "source_pages": [
-        38
+      "source_rows": [
+        565
       ],
       "id": "book-0430"
     },
@@ -7351,8 +7918,8 @@
       "genre": "",
       "publication_year": "2001",
       "series": "",
-      "source_pages": [
-        38
+      "source_rows": [
+        566
       ],
       "id": "book-0551"
     },
@@ -7365,8 +7932,8 @@
       "genre": "",
       "publication_year": "2006",
       "series": "",
-      "source_pages": [
-        38
+      "source_rows": [
+        567
       ],
       "id": "book-0552"
     },
@@ -7374,13 +7941,13 @@
       "author": "J. J. Stoker",
       "title": "Differential Geometry",
       "isbn": "",
-      "publisher": "Wiley- Interscience",
+      "publisher": "Wiley-Interscience",
       "publication_date": "1969",
       "genre": "",
       "publication_year": "1969",
       "series": "",
-      "source_pages": [
-        38
+      "source_rows": [
+        568
       ],
       "id": "book-0431"
     },
@@ -7388,13 +7955,13 @@
       "author": "J.J. Stoker",
       "title": "Differential Geometry (Pure and Applied Mathematics Volume XX)",
       "isbn": "9780471828259",
-      "publisher": "Wiley- Interscience",
+      "publisher": "Wiley-Interscience",
       "publication_date": "Jan 15, 1969",
       "genre": "",
       "publication_year": "1969",
       "series": "",
-      "source_pages": [
-        38
+      "source_rows": [
+        569
       ],
       "id": "book-0432"
     },
@@ -7407,8 +7974,8 @@
       "genre": "",
       "publication_year": "2012",
       "series": "",
-      "source_pages": [
-        38
+      "source_rows": [
+        570
       ],
       "id": "book-0433"
     },
@@ -7416,13 +7983,13 @@
       "author": "Gilbert Strang",
       "title": "Introduction to Applied Mathematics",
       "isbn": "9780961408800",
-      "publisher": "Wellesley- Cambridge Press",
+      "publisher": "Wellesley-Cambridge Press",
       "publication_date": "Jan 01, 1986",
       "genre": "",
       "publication_year": "1986",
       "series": "",
-      "source_pages": [
-        38
+      "source_rows": [
+        571
       ],
       "id": "book-0434"
     },
@@ -7435,8 +8002,8 @@
       "genre": "",
       "publication_year": "1988",
       "series": "",
-      "source_pages": [
-        38
+      "source_rows": [
+        572
       ],
       "id": "book-0435"
     },
@@ -7449,10 +8016,38 @@
       "genre": "",
       "publication_year": "1978",
       "series": "",
-      "source_pages": [
-        38
+      "source_rows": [
+        573
       ],
       "id": "book-0436"
+    },
+    {
+      "author": "Béla Sz.-Nagy",
+      "title": "Appendix to Functional Analysis",
+      "isbn": "",
+      "publisher": "Frederick Ungar Publishing Co.",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        574
+      ],
+      "id": "book-0614"
+    },
+    {
+      "author": "Béla Sz.-Nagy | Ciprian Foiaș",
+      "title": "Analyse harmonique des opérateurs de l'espace de Hilbert",
+      "isbn": "",
+      "publisher": "Masson et Cie; Akadémiai Kiadó",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        575
+      ],
+      "id": "book-0615"
     },
     {
       "author": "Aviva Szpirglas",
@@ -7463,10 +8058,24 @@
       "genre": "",
       "publication_year": "2023",
       "series": "",
-      "source_pages": [
-        38
+      "source_rows": [
+        576
       ],
       "id": "book-0437"
+    },
+    {
+      "author": "M. Takesaki",
+      "title": "Tomita's Theory of Modular Hilbert Algebras and its Applications",
+      "isbn": "",
+      "publisher": "Springer-Verlag",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "Lecture Notes in Mathematics",
+      "source_rows": [
+        577
+      ],
+      "id": "book-0616"
     },
     {
       "author": "Tanfani",
@@ -7477,9 +8086,8 @@
       "genre": "Case Studies",
       "publication_year": "2012",
       "series": "",
-      "source_pages": [
-        38,
-        39
+      "source_rows": [
+        578
       ],
       "id": "book-0438"
     },
@@ -7492,8 +8100,8 @@
       "genre": "",
       "publication_year": "2023",
       "series": "",
-      "source_pages": [
-        39
+      "source_rows": [
+        579
       ],
       "id": "book-0439"
     },
@@ -7506,8 +8114,8 @@
       "genre": "",
       "publication_year": "1958",
       "series": "",
-      "source_pages": [
-        39
+      "source_rows": [
+        580
       ],
       "id": "book-0440"
     },
@@ -7520,8 +8128,8 @@
       "genre": "",
       "publication_year": "1970",
       "series": "",
-      "source_pages": [
-        39
+      "source_rows": [
+        581
       ],
       "id": "book-0441"
     },
@@ -7534,10 +8142,24 @@
       "genre": "",
       "publication_year": "2020",
       "series": "",
-      "source_pages": [
-        39
+      "source_rows": [
+        582
       ],
       "id": "book-0442"
+    },
+    {
+      "author": "George B. Thomas, Jr.",
+      "title": "Calculus and Analytic Geometry",
+      "isbn": "",
+      "publisher": "Addison-Wesley Publishing Company, Inc.",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        583
+      ],
+      "id": "book-0617"
     },
     {
       "author": "Gowers Timothy",
@@ -7548,8 +8170,8 @@
       "genre": "",
       "publication_year": "2008",
       "series": "",
-      "source_pages": [
-        39
+      "source_rows": [
+        584
       ],
       "id": "book-0443"
     },
@@ -7562,8 +8184,8 @@
       "genre": "",
       "publication_year": "2017",
       "series": "",
-      "source_pages": [
-        39
+      "source_rows": [
+        585
       ],
       "id": "book-0444"
     },
@@ -7576,22 +8198,22 @@
       "genre": "",
       "publication_year": "2011",
       "series": "",
-      "source_pages": [
-        39
+      "source_rows": [
+        586
       ],
       "id": "book-0445"
     },
     {
       "author": "Jean-Paul Tremblay | Grant A. Cheston",
-      "title": "Data Structures and Software Development in an Object- oriented Domain",
+      "title": "Data Structures and Software Development in an Object-oriented Domain",
       "isbn": "9780137879465",
       "publisher": "Prentice Hall",
       "publication_date": "Mar 08, 2001",
       "genre": "",
       "publication_year": "2001",
       "series": "",
-      "source_pages": [
-        39
+      "source_rows": [
+        587
       ],
       "id": "book-0553"
     },
@@ -7604,8 +8226,8 @@
       "genre": "",
       "publication_year": "2004",
       "series": "",
-      "source_pages": [
-        39
+      "source_rows": [
+        588
       ],
       "id": "book-0554"
     },
@@ -7618,8 +8240,8 @@
       "genre": "",
       "publication_year": "2011",
       "series": "",
-      "source_pages": [
-        39
+      "source_rows": [
+        589
       ],
       "id": "book-0446"
     },
@@ -7632,10 +8254,24 @@
       "genre": "",
       "publication_year": "2005",
       "series": "",
-      "source_pages": [
-        39
+      "source_rows": [
+        590
       ],
       "id": "book-0555"
+    },
+    {
+      "author": "R. Vaidyanathaswamy",
+      "title": "Treatise on Set Topology",
+      "isbn": "",
+      "publisher": "Indian Mathematical Society",
+      "publication_date": "1947",
+      "genre": "",
+      "publication_year": "1947",
+      "series": "",
+      "source_rows": [
+        591
+      ],
+      "id": "book-0618"
     },
     {
       "author": "Stephen B. Vardeman | John Marcus Jobe",
@@ -7646,8 +8282,8 @@
       "genre": "",
       "publication_year": "2000",
       "series": "",
-      "source_pages": [
-        39
+      "source_rows": [
+        592
       ],
       "id": "book-0556"
     },
@@ -7660,8 +8296,8 @@
       "genre": "",
       "publication_year": "1981",
       "series": "",
-      "source_pages": [
-        39
+      "source_rows": [
+        593
       ],
       "id": "book-0557"
     },
@@ -7674,8 +8310,8 @@
       "genre": "",
       "publication_year": "2003",
       "series": "",
-      "source_pages": [
-        40
+      "source_rows": [
+        594
       ],
       "id": "book-0558"
     },
@@ -7688,8 +8324,8 @@
       "genre": "",
       "publication_year": "2018",
       "series": "",
-      "source_pages": [
-        40
+      "source_rows": [
+        595
       ],
       "id": "book-0447"
     },
@@ -7702,8 +8338,8 @@
       "genre": "",
       "publication_year": "2001",
       "series": "",
-      "source_pages": [
-        40
+      "source_rows": [
+        596
       ],
       "id": "book-0448"
     },
@@ -7716,8 +8352,8 @@
       "genre": "",
       "publication_year": "2025",
       "series": "",
-      "source_pages": [
-        40
+      "source_rows": [
+        597
       ],
       "id": "book-0449"
     },
@@ -7730,8 +8366,8 @@
       "genre": "",
       "publication_year": "2012",
       "series": "",
-      "source_pages": [
-        40
+      "source_rows": [
+        598
       ],
       "id": "book-0450"
     },
@@ -7744,8 +8380,8 @@
       "genre": "",
       "publication_year": "1943",
       "series": "",
-      "source_pages": [
-        40
+      "source_rows": [
+        599
       ],
       "id": "book-0451"
     },
@@ -7758,8 +8394,8 @@
       "genre": "",
       "publication_year": "2011",
       "series": "",
-      "source_pages": [
-        40
+      "source_rows": [
+        600
       ],
       "id": "book-0452"
     },
@@ -7772,10 +8408,24 @@
       "genre": "",
       "publication_year": "2019",
       "series": "",
-      "source_pages": [
-        40
+      "source_rows": [
+        601
       ],
       "id": "book-0453"
+    },
+    {
+      "author": "Abraham Wald",
+      "title": "Sequential Analysis",
+      "isbn": "",
+      "publisher": "John Wiley & Sons, Inc.",
+      "publication_date": "",
+      "genre": "",
+      "publication_year": "",
+      "series": "",
+      "source_rows": [
+        602
+      ],
+      "id": "book-0619"
     },
     {
       "author": "Ronald E. Walpole",
@@ -7786,8 +8436,8 @@
       "genre": "",
       "publication_year": "1982",
       "series": "",
-      "source_pages": [
-        40
+      "source_rows": [
+        603
       ],
       "id": "book-0454"
     },
@@ -7800,8 +8450,8 @@
       "genre": "",
       "publication_year": "1997",
       "series": "",
-      "source_pages": [
-        40
+      "source_rows": [
+        604
       ],
       "id": "book-0559"
     },
@@ -7814,8 +8464,8 @@
       "genre": "",
       "publication_year": "1990",
       "series": "",
-      "source_pages": [
-        40
+      "source_rows": [
+        605
       ],
       "id": "book-0455"
     },
@@ -7828,8 +8478,8 @@
       "genre": "",
       "publication_year": "2004",
       "series": "",
-      "source_pages": [
-        40
+      "source_rows": [
+        606
       ],
       "id": "book-0456"
     },
@@ -7842,8 +8492,8 @@
       "genre": "",
       "publication_year": "2014",
       "series": "",
-      "source_pages": [
-        41
+      "source_rows": [
+        607
       ],
       "id": "book-0457"
     },
@@ -7856,8 +8506,8 @@
       "genre": "",
       "publication_year": "1995",
       "series": "",
-      "source_pages": [
-        41
+      "source_rows": [
+        608
       ],
       "id": "book-0560"
     },
@@ -7870,8 +8520,8 @@
       "genre": "",
       "publication_year": "1966",
       "series": "",
-      "source_pages": [
-        41
+      "source_rows": [
+        609
       ],
       "id": "book-0458"
     },
@@ -7884,8 +8534,8 @@
       "genre": "",
       "publication_year": "1950",
       "series": "",
-      "source_pages": [
-        41
+      "source_rows": [
+        610
       ],
       "id": "book-0459"
     },
@@ -7898,8 +8548,8 @@
       "genre": "",
       "publication_year": "1991",
       "series": "",
-      "source_pages": [
-        41
+      "source_rows": [
+        611
       ],
       "id": "book-0460"
     },
@@ -7912,8 +8562,8 @@
       "genre": "",
       "publication_year": "2003",
       "series": "",
-      "source_pages": [
-        41
+      "source_rows": [
+        612
       ],
       "id": "book-0561"
     },
@@ -7926,8 +8576,8 @@
       "genre": "",
       "publication_year": "1974",
       "series": "",
-      "source_pages": [
-        41
+      "source_rows": [
+        613
       ],
       "id": "book-0461"
     },
@@ -7940,8 +8590,8 @@
       "genre": "",
       "publication_year": "1982",
       "series": "",
-      "source_pages": [
-        41
+      "source_rows": [
+        614
       ],
       "id": "book-0462"
     },
@@ -7954,8 +8604,8 @@
       "genre": "",
       "publication_year": "1982",
       "series": "",
-      "source_pages": [
-        41
+      "source_rows": [
+        615
       ],
       "id": "book-0463"
     },
@@ -7968,8 +8618,8 @@
       "genre": "",
       "publication_year": "1962",
       "series": "",
-      "source_pages": [
-        41
+      "source_rows": [
+        616
       ],
       "id": "book-0464"
     },
@@ -7982,8 +8632,8 @@
       "genre": "",
       "publication_year": "1968",
       "series": "",
-      "source_pages": [
-        41
+      "source_rows": [
+        617
       ],
       "id": "book-0465"
     },
@@ -7996,8 +8646,8 @@
       "genre": "",
       "publication_year": "1973",
       "series": "",
-      "source_pages": [
-        41
+      "source_rows": [
+        618
       ],
       "id": "book-0466"
     },
@@ -8010,8 +8660,8 @@
       "genre": "",
       "publication_year": "1962",
       "series": "",
-      "source_pages": [
-        41
+      "source_rows": [
+        619
       ],
       "id": "book-0467"
     }

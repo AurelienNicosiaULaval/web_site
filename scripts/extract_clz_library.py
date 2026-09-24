@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract a compact library catalogue from a CLZ Books PDF export.
+"""Extract a compact library catalogue from a CLZ Books PDF or CSV export.
 
 Run reproducibly with:
 
@@ -13,15 +13,14 @@ script detects and joins those fragments before writing the JSON catalogue.
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import re
 import unicodedata
 from collections import defaultdict, deque
+from datetime import date
 from pathlib import Path
 from typing import Any
-
-import pdfplumber
-
 
 FIELDS = (
     "author",
@@ -230,6 +229,8 @@ def merge_fragment(target: dict[str, object], fragment: dict[str, object]) -> No
 
 
 def extract_catalogue(pdf_path: Path) -> tuple[list[dict[str, object]], int]:
+    import pdfplumber
+
     records: list[dict[str, object]] = []
 
     with pdfplumber.open(pdf_path) as pdf:
@@ -260,10 +261,36 @@ def extract_catalogue(pdf_path: Path) -> tuple[list[dict[str, object]], int]:
     return records, page_count
 
 
+def extract_csv(csv_path: Path) -> list[dict[str, object]]:
+    """Read bibliographic columns only; exclude personal collection fields.
+
+    Source rows identify logical CSV rows, with the header counted as row 1.
+    """
+    columns = {field: field.replace("_", " ").title() for field in FIELDS}
+    columns["isbn"] = "ISBN"
+    records = []
+    with csv_path.open(encoding="utf-8-sig", newline="") as stream:
+        reader = csv.DictReader(stream)
+        missing = set(columns.values()) - set(reader.fieldnames or [])
+        if missing:
+            raise ValueError(f"Missing CLZ bibliographic columns: {sorted(missing)}")
+        for row_number, row in enumerate(reader, start=2):
+            record = {field: clean_cell(row[column]) for field, column in columns.items()}
+            if not any(record.values()):
+                continue
+            if not record["title"]:
+                raise ValueError(f"Missing title in CSV row {row_number}")
+            record["source_rows"] = [row_number]
+            record["id"] = f"book-{len(records) + 1:04d}"
+            records.append(record)
+    return records
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("input_pdf", type=Path)
+    parser.add_argument("input_file", type=Path)
     parser.add_argument("output_json", type=Path)
+    parser.add_argument("--exported-on", help="Verified date of the source export (YYYY-MM-DD).")
     parser.add_argument(
         "--previous",
         type=Path,
@@ -274,7 +301,15 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
-    records, page_count = extract_catalogue(args.input_pdf)
+    if args.input_file.suffix.lower() == ".csv":
+        records = extract_csv(args.input_file)
+        source = {"name": args.input_file.name, "format": "CLZ Books CSV export", "rows": len(records)}
+    else:
+        records, page_count = extract_catalogue(args.input_file)
+        source = {"name": args.input_file.name, "format": "CLZ Books PDF export", "pages": page_count}
+    if args.exported_on:
+        source["exported_on"] = date.fromisoformat(args.exported_on).isoformat()
+    source["imported_on"] = date.today().isoformat()
     reconciliation = None
     previous_catalogue = None
     if args.previous:
@@ -284,11 +319,7 @@ def main() -> None:
             "name", str(args.previous)
         )
     payload = {
-        "source": {
-            "name": args.input_pdf.name,
-            "format": "CLZ Books PDF export",
-            "pages": page_count,
-        },
+        "source": source,
         "records": records,
     }
     if reconciliation is not None:
@@ -300,7 +331,7 @@ def main() -> None:
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    message = f"Extracted {len(records)} records from {page_count} pages."
+    message = f"Extracted {len(records)} records from {args.input_file.name}."
     if reconciliation is not None:
         message += (
             f" Retained {reconciliation['retained']} stable IDs; "

@@ -62,6 +62,21 @@ Packages R sur le CRAN, logiciels en développement et ressources pédagogiques 
 
 ::: {.news-panel}
 ::: {.eyebrow}
+Publication · 1er octobre 2026
+:::
+
+### Visualiser la dépendance directionnelle
+
+Mon article *Visualizing directional dependence on cylinders and tori* est publié dans le *Journal of Data Science, Statistics, and Visualisation*, 6(7). Il présente une grammaire graphique conditionnelle pour les données sur cylindres et tores, implémentée dans ggcircular.
+
+::: {.link-list}
+[Lire l’article](https://doi.org/10.52933/jdssv.v6i7.181){.btn .btn-outline-dark}
+[ggcircular](packages/ggcircular.qmd){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.news-panel}
+::: {.eyebrow}
 Publications
 :::
 

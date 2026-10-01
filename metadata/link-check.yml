@@ -169,3 +169,8 @@ links:
     category: projects
     url: "https://arxiv.org/abs/2607.14335"
     required: true
+
+  - name: "JDSSV directional visualization article"
+    category: doi
+    url: "https://doi.org/10.52933/jdssv.v6i7.181"
+    required: true

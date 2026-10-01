@@ -1,3 +1,5 @@
+- Nicosia, A. (2026). Visualizing directional dependence on cylinders and tori. Journal of Data Science, Statistics, and Visualisation, 6(7). [https://doi.org/10.52933/jdssv.v6i7.181](https://doi.org/10.52933/jdssv.v6i7.181)
+
 - Nicosia, A. (2026). Beyond the next step: A multi-criteria generative validation framework for step selection functions. Methods in Ecology and Evolution, 17(6), 1754-1767. [https://doi.org/10.1111/2041-210X.70313](https://doi.org/10.1111/2041-210X.70313)
 
 - Gagnon, S., Allard, M., Nicosia, A. (2018). Diurnal and seasonal variations of tundra CO~2~ emissions in a polygonal peatland near Salluit, Nunavik, Canada. Arctic Science, 4(1), 1-15. [https://doi.org/10.1139/AS-2016-0045](https://doi.org/10.1139/AS-2016-0045)

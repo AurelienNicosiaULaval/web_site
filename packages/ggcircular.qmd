@@ -22,6 +22,10 @@ La version de développement GitHub 0.2.0 ajoute notamment des représentations 
 ![](../assets/packages/ggcircular-logo.svg){fig-alt="Logo hexagonal ggcircular" fig-cap="Logo hexagonal ggcircular" .package-logo}
 :::
 
+## Article associé
+
+Nicosia, A. (2026). *Visualizing directional dependence on cylinders and tori*. *Journal of Data Science, Statistics, and Visualisation*, 6(7). Publié le 1er octobre 2026. [Article et DOI](https://doi.org/10.52933/jdssv.v6i7.181).
+
 ## Aperçu visuel
 
 ::: {.package-gallery}

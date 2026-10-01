@@ -35,6 +35,8 @@ In [Beyond the next step (2026)](https://doi.org/10.1111/2041-210X.70313), I pro
 
 With Louis-Paul Rivest, Thierry Duchesne and Daniel Fortin, I contributed to a [general angular regression model (2016)](https://doi.org/10.1111/rssc.12124). A [2026 preprint](https://arxiv.org/abs/2607.06790) proposes an extension with a circular random intercept and a scalar random slope.
 
+In [Visualizing directional dependence on cylinders and tori (2026)](https://doi.org/10.52933/jdssv.v6i7.181), published in the *Journal of Data Science, Statistics, and Visualisation*, I propose a conditional graphical grammar for dependence on cylinders and tori. The displays are implemented in ggcircular.
+
 I also develop regression and visualization software connecting the geometry of circular, axial and toroidal data to the statistical questions being studied.
 
 ::: {.link-list}
@@ -105,7 +107,7 @@ Code repositories, analyses and prototypes are collected in [Open projects](rese
 
 ## Publications {#publications}
 
-References updated September 24, 2026. Preprints are listed separately from published journal articles.
+References updated October 1, 2026. Preprints are listed separately from published journal articles.
 
 ### Peer-reviewed articles
 

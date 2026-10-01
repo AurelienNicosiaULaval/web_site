@@ -23,6 +23,10 @@ The GitHub development version 0.2.0 also includes circular-linear and circular-
 ![](../../assets/packages/ggcircular-logo.svg){fig-alt="ggcircular hex logo" fig-cap="ggcircular hex logo" .package-logo}
 :::
 
+## Associated article
+
+Nicosia, A. (2026). *Visualizing directional dependence on cylinders and tori*. *Journal of Data Science, Statistics, and Visualisation*, 6(7). Published October 1, 2026. [Article and DOI](https://doi.org/10.52933/jdssv.v6i7.181).
+
 ## Visual preview
 
 ::: {.package-gallery}

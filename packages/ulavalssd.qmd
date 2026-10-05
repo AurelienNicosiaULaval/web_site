@@ -8,9 +8,10 @@ embed-resources: true
 UlavalSSD accompagne l’initiation à la science des données, notamment dans STT-1100. Le package fournit des instantanés historiques de données québécoises et des outils pédagogiques utilisables sans connexion réseau après installation.
 :::
 
-Version GitHub : 0.3.0. Disponible sur GitHub, pas encore distribué sur le CRAN.
+Version CRAN : 0.3.1, publiée le 2 octobre 2026.
 
 ::: {.link-list}
+[CRAN](https://CRAN.R-project.org/package=UlavalSSD){.btn .btn-outline-dark}
 [GitHub](https://github.com/AurelienNicosiaULaval/UlavalSSD){.btn .btn-outline-dark}
 [STT-1100](https://aureliennicosiaulaval.github.io/STT-1100_notes_de_cours/){.btn .btn-outline-dark}
 :::
@@ -26,8 +27,14 @@ Ces données servent à travailler l’importation, les valeurs manquantes, l’
 
 ## Installation
 
-Le [guide d’installation](https://github.com/AurelienNicosiaULaval/UlavalSSD#installation-pour-le-cours) propose l’archive publique GitHub et des indications pour les problèmes d’authentification.
+La version publiée s’installe directement depuis le CRAN :
 
-Sources publiques vérifiées le 23 septembre 2026.
+```r
+install.packages("UlavalSSD")
+```
+
+Le [dépôt GitHub](https://github.com/AurelienNicosiaULaval/UlavalSSD) contient les sources de développement et des indications complémentaires pour l’installation.
+
+Sources publiques vérifiées le 5 octobre 2026.
 
 [Tous les packages R](../packages.qmd)

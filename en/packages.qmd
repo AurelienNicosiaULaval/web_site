@@ -6,11 +6,35 @@ embed-resources: true
 
 This page gathers the R packages I develop and maintain, with particular attention to packages available on CRAN and documented openly.
 
-The CRAN information below was verified on September 23, 2026 from the official CRAN `DESCRIPTION` files.
+The CRAN information below was verified on October 5, 2026 from the official CRAN package index.
 
 ## Packages on CRAN
 
 ::: { .grid .gap-4 }
+::: {.g-col-12 .g-col-lg-6}
+::: {.package-card}
+<div class="package-card-header">
+<span class="package-card-fallback">UL</span>
+<div>
+<h3>UlavalSSD</h3>
+<div class="package-card-meta">R package • v0.3.1</div>
+</div>
+</div>
+
+<span class="package-card-tag">Teaching datasets</span>
+
+Datasets and helper functions for introductory data science teaching at Université Laval.
+
+CRAN version: 0.3.1, published on October 2, 2026.
+
+::: {.link-list}
+[CRAN](https://CRAN.R-project.org/package=UlavalSSD){.btn .btn-outline-dark}
+[Overview](packages/ulavalssd.qmd){.btn .btn-outline-dark}
+[GitHub](https://github.com/AurelienNicosiaULaval/UlavalSSD){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+:::
+
 ::: {.g-col-12 .g-col-lg-6}
 ::: {.package-card}
 <div class="package-card-header">
@@ -236,28 +260,7 @@ An S3 API for extracting structured statistical results, building prompts, and g
 :::
 :::
 
-::: {.g-col-12 .g-col-lg-6}
-::: {.package-card .github-package-card}
-<div class="package-card-header">
-<span class="package-card-fallback">UL</span>
-<div>
-<h3>UlavalSSD</h3>
-<div class="package-card-meta">R package • v0.3.0</div>
-</div>
-</div>
 
-<span class="package-card-tag">Teaching datasets</span>
-
-Datasets and helper functions for introductory data science teaching at Université Laval.
-
-Available on GitHub. This version is not yet distributed on CRAN.
-
-::: {.link-list}
-[Overview](packages/ulavalssd.qmd){.btn .btn-outline-dark}
-[GitHub](https://github.com/AurelienNicosiaULaval/UlavalSSD){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-:::
-:::
-:::
 
 ::: {.g-col-12 .g-col-lg-6}
 ::: {.package-card .github-package-card}

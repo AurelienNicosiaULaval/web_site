@@ -190,7 +190,7 @@ J’ai reçu les Étoiles de l’enseignement de la Faculté des sciences et de 
 ::: {.resource-card}
 ### Données bleues et UlavalSSD
 
-Jeux de données québécois, activités documentées et instantanés pédagogiques hors ligne pour apprendre R et l’analyse reproductible.
+Jeux de données québécois, activités documentées et instantanés pédagogiques hors ligne pour apprendre R et l’analyse reproductible. UlavalSSD est disponible sur le CRAN en version 0.3.1, publiée le 2 octobre 2026.
 
 ::: {.link-list}
 [Données bleues](https://aureliennicosiaulaval.github.io/donnees-bleues/){.btn .btn-outline-dark}

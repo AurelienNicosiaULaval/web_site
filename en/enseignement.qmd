@@ -191,7 +191,7 @@ I received Teaching Stars recognition from the Faculty of Science and Engineerin
 ::: {.resource-card}
 ### Données bleues and UlavalSSD
 
-Quebec datasets, documented activities and offline teaching snapshots for learning R and reproducible analysis.
+Quebec datasets, documented activities and offline teaching snapshots for learning R and reproducible analysis. UlavalSSD is available on CRAN in version 0.3.1, published October 2, 2026.
 
 ::: {.link-list}
 [Données bleues](https://aureliennicosiaulaval.github.io/donnees-bleues/){.btn .btn-outline-dark}

@@ -9,9 +9,10 @@ embed-resources: true
 UlavalSSD supports introductory data science, including STT-1100. It provides historical snapshots of Quebec data and teaching tools that can be used offline after installation.
 :::
 
-GitHub version: 0.3.0. Available on GitHub, not yet distributed on CRAN.
+CRAN version: 0.3.1, published on October 2, 2026.
 
 ::: {.link-list}
+[CRAN](https://CRAN.R-project.org/package=UlavalSSD){.btn .btn-outline-dark}
 [GitHub](https://github.com/AurelienNicosiaULaval/UlavalSSD){.btn .btn-outline-dark}
 [STT-1100](https://aureliennicosiaulaval.github.io/STT-1100_notes_de_cours/){.btn .btn-outline-dark}
 :::
@@ -27,8 +28,14 @@ These data support practice with import, missing values, exploration and reprodu
 
 ## Installation
 
-The [installation guide](https://github.com/AurelienNicosiaULaval/UlavalSSD#installation-pour-le-cours) provides a public GitHub archive and help with authentication issues.
+Install the released version directly from CRAN:
 
-Public sources checked on September 23, 2026.
+```r
+install.packages("UlavalSSD")
+```
+
+The [GitHub repository](https://github.com/AurelienNicosiaULaval/UlavalSSD) contains the development source and additional installation guidance.
+
+Public sources checked on October 5, 2026.
 
 [All R packages](../packages.qmd)

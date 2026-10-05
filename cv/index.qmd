@@ -1,7 +1,7 @@
 ---
 title: "Aurélien Nicosia"
 subtitle: "Curriculum vitae académique"
-date: 2026-10-01
+date: 2026-10-05
 date-format: "D MMMM YYYY"
 lang: fr-CA
 embed-resources: true
@@ -103,12 +103,13 @@ Manuscrits diffusés sur arXiv ou bioRxiv, présentés séparément des articles
 - [DonutMap](https://cran.r-project.org/package=DonutMap) : cartographie de diagrammes en anneau.
 - [GeneralOaxaca](https://cran.r-project.org/package=GeneralOaxaca) : décomposition de Blinder-Oaxaca généralisée.
 
+- [UlavalSSD](https://CRAN.R-project.org/package=UlavalSSD) : données québécoises et outils d’initiation à la science des données; version 0.3.1, publiée le 2 octobre 2026.
+
 ### Projets diffusés sur GitHub
 
 - [learnrTrackR](https://github.com/AurelienNicosiaULaval/learnrTrackR) : suivi et export des tentatives dans les tutoriels interactifs.
 - [leaflet.indoor](https://github.com/AurelienNicosiaULaval/leaflet-indoor) : cartographie intérieure multiétages, package expérimental.
 - [lmmix](https://github.com/AurelienNicosiaULaval/lmmix) : modèles mixtes gaussiens à résidus corrélés, en développement.
-- [UlavalSSD](https://github.com/AurelienNicosiaULaval/UlavalSSD) : données québécoises et outils d’initiation à la science des données.
 - [Données bleues](https://aureliennicosiaulaval.github.io/donnees-bleues/) : jeux de données québécois et canadiens et activités pédagogiques reproductibles.
 
 ## Communications sélectionnées

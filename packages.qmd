@@ -5,11 +5,35 @@ embed-resources: true
 
 Cette page rassemble les packages R que je développe et maintiens, avec une attention particulière aux packages disponibles sur le CRAN et accompagnés d’une documentation ouverte.
 
-Les informations CRAN ci-dessous ont été vérifiées le 23 septembre 2026 à partir des fichiers `DESCRIPTION` officiels du CRAN.
+Les informations CRAN ci-dessous ont été vérifiées le 5 octobre 2026 à partir de l’index officiel du CRAN.
 
 ## Packages sur le CRAN
 
 ::: { .grid .gap-4 }
+::: {.g-col-12 .g-col-lg-6}
+::: {.package-card}
+<div class="package-card-header">
+<span class="package-card-fallback">UL</span>
+<div>
+<h3>UlavalSSD</h3>
+<div class="package-card-meta">Package R • v0.3.1</div>
+</div>
+</div>
+
+<span class="package-card-tag">Données pédagogiques</span>
+
+Données et fonctions utiles pour l’enseignement de l’introduction à la science des données à l’Université Laval.
+
+Version CRAN : 0.3.1, publiée le 2 octobre 2026.
+
+::: {.link-list}
+[CRAN](https://CRAN.R-project.org/package=UlavalSSD){.btn .btn-outline-dark}
+[Page dédiée](packages/ulavalssd.qmd){.btn .btn-outline-dark}
+[GitHub](https://github.com/AurelienNicosiaULaval/UlavalSSD){.btn .btn-outline-dark .rounded-pill .shadow-sm}
+:::
+:::
+:::
+
 ::: {.g-col-12 .g-col-lg-6}
 ::: {.package-card}
 <div class="package-card-header">
@@ -235,28 +259,7 @@ API S3 pour extraire des résultats statistiques structurés, construire des pro
 :::
 :::
 
-::: {.g-col-12 .g-col-lg-6}
-::: {.package-card .github-package-card}
-<div class="package-card-header">
-<span class="package-card-fallback">UL</span>
-<div>
-<h3>UlavalSSD</h3>
-<div class="package-card-meta">Package R • v0.3.0</div>
-</div>
-</div>
 
-<span class="package-card-tag">Données pédagogiques</span>
-
-Données et fonctions utiles pour l’enseignement de l’introduction à la science des données à l’Université Laval.
-
-Disponible sur GitHub. Cette version n’est pas encore distribuée sur le CRAN.
-
-::: {.link-list}
-[Page dédiée](packages/ulavalssd.qmd){.btn .btn-outline-dark}
-[GitHub](https://github.com/AurelienNicosiaULaval/UlavalSSD){.btn .btn-outline-dark .rounded-pill .shadow-sm}
-:::
-:::
-:::
 
 ::: {.g-col-12 .g-col-lg-6}
 ::: {.package-card .github-package-card}

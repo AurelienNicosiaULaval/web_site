@@ -1,7 +1,7 @@
 ---
 title: "Aurélien Nicosia"
 subtitle: "Academic curriculum vitae"
-date: 2026-10-01
+date: 2026-10-05
 date-format: "D MMMM YYYY"
 lang: en
 embed-resources: true
@@ -103,12 +103,13 @@ Manuscripts released on arXiv or bioRxiv, listed separately from published journ
 - [DonutMap](https://cran.r-project.org/package=DonutMap): donut-chart mapping.
 - [GeneralOaxaca](https://cran.r-project.org/package=GeneralOaxaca): generalized Blinder-Oaxaca decomposition.
 
+- [UlavalSSD](https://CRAN.R-project.org/package=UlavalSSD): Quebec data and tools for introductory data science; version 0.3.1, published October 2, 2026.
+
 ### Projects released on GitHub
 
 - [learnrTrackR](https://github.com/AurelienNicosiaULaval/learnrTrackR): tracking and export of interactive tutorial attempts.
 - [leaflet.indoor](https://github.com/AurelienNicosiaULaval/leaflet-indoor): experimental multi-level indoor mapping package.
 - [lmmix](https://github.com/AurelienNicosiaULaval/lmmix): Gaussian mixed models with correlated residuals, under development.
-- [UlavalSSD](https://github.com/AurelienNicosiaULaval/UlavalSSD): Quebec datasets and introductory data science tools.
 - [Données bleues](https://aureliennicosiaulaval.github.io/donnees-bleues/): Quebec and Canadian datasets with reproducible teaching activities.
 
 ## Selected presentations

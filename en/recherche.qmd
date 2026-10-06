@@ -123,7 +123,7 @@ Code repositories, analyses and prototypes are collected in [Open projects](rese
 
 ## Publications {#publications}
 
-References updated October 1, 2026. Preprints are listed separately from published journal articles.
+References updated October 6, 2026. Preprints are listed separately from published journal articles.
 
 ### Peer-reviewed articles
 

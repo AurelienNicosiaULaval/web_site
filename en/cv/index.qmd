@@ -1,7 +1,7 @@
 ---
 title: "Aurélien Nicosia"
 subtitle: "Academic curriculum vitae"
-date: 2026-10-05
+date: 2026-10-06
 date-format: "D MMMM YYYY"
 lang: en
 embed-resources: true

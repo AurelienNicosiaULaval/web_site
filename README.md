@@ -24,7 +24,7 @@ quarto render --to html
 python3 scripts/check-links.py metadata/link-check.yml
 ```
 
-Vérifier les deux PDF, les liens de téléchargement et les pages françaises et anglaises avant de publier `docs/` sur `main`. Les fichiers PDF datés du 1er octobre 2026 sont inclus dans le dépôt pour permettre le déploiement sans compilation LaTeX.
+Vérifier les deux PDF, les liens de téléchargement et les pages françaises et anglaises avant de publier `docs/` sur `main`. Les fichiers PDF datés du 6 octobre 2026 sont inclus dans le dépôt pour permettre le déploiement sans compilation LaTeX.
 
 ### Prévisualiser en local
 ```bash

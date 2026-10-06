@@ -121,6 +121,20 @@ R packages on CRAN, software under development and teaching resources that make 
 
 ::: {.news-panel}
 ::: {.eyebrow}
+Publication · October 6, 2026
+:::
+
+### Influenza vaccines: systematic review
+
+Our systematic review and meta-analysis of the relative effectiveness of adjuvanted influenza vaccines for preventing hospitalization is published in *Vaccines*, 14(10), 883, with Daniela Amicizia and our collaborators.
+
+::: {.link-list}
+[Read the article](https://doi.org/10.3390/vaccines14100883){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.news-panel}
+::: {.eyebrow}
 Publication · October 1, 2026
 :::
 

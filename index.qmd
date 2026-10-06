@@ -120,6 +120,20 @@ Packages R sur le CRAN, logiciels en développement et ressources pédagogiques 
 
 ::: {.news-panel}
 ::: {.eyebrow}
+Publication · 6 octobre 2026
+:::
+
+### Vaccins antigrippaux : revue systématique
+
+Notre revue systématique et méta-analyse sur l’efficacité relative des vaccins antigrippaux avec adjuvant pour prévenir les hospitalisations est publiée dans *Vaccines*, 14(10), 883, avec Daniela Amicizia et nos collaborateurs.
+
+::: {.link-list}
+[Lire l’article](https://doi.org/10.3390/vaccines14100883){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.news-panel}
+::: {.eyebrow}
 Publication · 1er octobre 2026
 :::
 

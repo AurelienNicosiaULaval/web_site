@@ -2,6 +2,22 @@
 embed-resources: true
 title: "About"
 lang: en
+title-block-banner: true
+page-hero:
+  kicker: "Aurélien Nicosia · Université Laval"
+  lead: "A background in research and teaching."
+  summary: "My profile, experience in data science and academic activities, with contact information."
+  image: "../assets/design/headers/about.png"
+  nav-label: "On this page"
+  compact: false
+  token: false
+  links:
+    - label: "Profile"
+      href: "#profile"
+    - label: "Highlights"
+      href: "#recent-highlights"
+    - label: "Contact"
+      href: "#contact"
 ---
 
 ## Profile

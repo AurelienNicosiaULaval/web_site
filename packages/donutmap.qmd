@@ -1,5 +1,22 @@
 ---
 title: "DonutMap"
+embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Cartographie · Compositions · R"
+  lead: "Représenter les compositions sur une carte."
+  summary: "Cartes statiques et interactives, diagrammes en anneau et flux origine-destination."
+  image: "../assets/design/featured-donutmap.png"
+  nav-label: "Dans cette page"
+  compact: false
+  token: false
+  links:
+    - label: "Aperçu"
+      href: "#toc-title"
+    - label: "Exemple"
+      href: "#aperçu-visuel"
+    - label: "Fonctions"
+      href: "#exemple-dutilisation"
 ---
 
 ::: {.package-hero}

@@ -2,3 +2,7 @@
 /.Rproj.user/
 /.quarto/
 **/*.quarto_ipynb
+/_preview/
+/.diagnostics/
+/_site/
+/design-qa.md

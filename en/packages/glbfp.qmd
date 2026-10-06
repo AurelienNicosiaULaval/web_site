@@ -3,6 +3,20 @@ title: "GLBFP"
 description: "Density estimation and influence diagnostics"
 lang: en
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Densities · Diagnostics · R"
+  lead: "Estimate densities, examine influence."
+  summary: "ASH, LBFP and GLBFP estimators, visualization and bandwidth selection."
+  image: "../../assets/design/headers/glbfp.png"
+  nav-label: "On this page"
+  compact: false
+  token: false
+  links:
+    - label: "On this page"
+      href: "#toc-title"
+    - label: "Distinct release capabilities"
+      href: "#distinct-release-capabilities"
 ---
 
 ::: {.section-intro}

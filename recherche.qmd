@@ -1,6 +1,22 @@
 ---
 title: "Recherche"
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Statistique · Méthodes · Visualisation"
+  lead: "Comprendre les modèles, représenter l’incertitude."
+  summary: "Modèles séquentiels, données directionnelles et estimation de densité : les questions, les méthodes et les publications de mon programme de recherche."
+  image: "assets/design/headers/research-v2.png"
+  nav-label: "Dans cette page"
+  compact: false
+  token: false
+  links:
+    - label: "Axes de recherche"
+      href: "#contributions-et-axes-de-recherche"
+    - label: "Publications"
+      href: "#publications"
+    - label: "Thèse"
+      href: "#thèse-de-doctorat"
 ---
 
 ## Programme de recherche

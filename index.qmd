@@ -1,34 +1,92 @@
 ---
 title: "Aurélien Nicosia"
-title-block-banner: true
+title-block-banner: false
 embed-resources: true
 toc: false
+anchor-sections: false
+page-layout: full
 ---
 
 ::: {.home-hero}
+::: {.home-inner .home-hero-grid}
 ::: {.home-hero-copy}
-# Aurélien Nicosia
-
-## Statistique computationnelle, diagnostics et incertitude
-
-Chargé d’enseignement à l’Université Laval et docteur en statistique. Je développe des méthodes pour comprendre les états latents, les données directionnelles et les observations atypiques, en reliant recherche méthodologique, logiciels R et enseignement universitaire.
+<p class="home-kicker">UNIVERSITÉ LAVAL · QUÉBEC</p>
+<h1 id="aurélien-nicosia"><span>Aurélien</span> <span>Nicosia</span></h1>
+<p class="home-tagline">Statistique, science des données et pédagogie universitaire.</p>
+<p class="home-description">Chargé d’enseignement à l’Université Laval.<br>Recherche méthodologique, logiciels R et ressources ouvertes.</p>
 
 ::: {.hero-actions}
-[Recherche et publications](recherche.qmd){.btn .btn-outline-dark .btn-lg}
-[CV académique](cv/index.qmd){.btn .btn-outline-dark .btn-lg}
-[Enseignement](enseignement.qmd){.btn .btn-outline-dark .btn-lg}
-[Packages R](packages.qmd){.btn .btn-outline-dark .btn-lg}
+[Explorer mes travaux <i class="bi bi-arrow-right" aria-hidden="true"></i>](recherche.qmd){.btn}
+[Voir mon parcours](cv/index.qmd){.text-link}
 :::
 :::
 
-::: {.home-hero-visual}
-::: {.home-hero-thumbs}
-![Logo DonutMap](assets/packages/donutmap-logo.svg)
-![Exemple ggcircular](assets/packages/ggcircular-example.png)
-![Logo CircularRegression](assets/packages/circularregression-logo.svg)
+::: {.home-art}
+<a class="hero-chart-link" href="packages/ggcircular.html" aria-label="ggcircular"><img src="assets/design/hero-circular.png" width="1254" height="1254" alt="" fetchpriority="high"></a>
+[Données circulaires](packages/circularregression.qmd){.hero-topic .topic-circular}
+[Estimation de densité](packages/glbfp.qmd){.hero-topic .topic-density}
+[Modèles séquentiels](recherche.qmd){.hero-topic .topic-sequential}
+<a class="hero-chart-detail" href="packages/ggcircular.html"><span>ggcircular</span><br>Visualiser les données circulaires</a>
+<span class="hero-chart-caption">Composition illustrative</span>
 :::
 :::
 :::
+
+::: {.home-inner .home-featured}
+::: {.home-section-head}
+## Une sélection de mes travaux
+
+[Tous les projets <i class="bi bi-arrow-right" aria-hidden="true"></i>](research-lab.qmd)
+:::
+
+::: {.featured-grid}
+
+```{=html}
+<div class="featured-work">
+<a href="packages/ggcircular.html"><div class="featured-visual"><img src="assets/design/hero-circular.png" width="1254" height="1254" alt="" loading="lazy"><span>Illustration</span></div><h3>ggcircular</h3><p>Visualiser les données circulaires</p></a>
+</div>
+<div class="featured-work">
+<a href="packages/donutmap.html"><div class="featured-visual"><img src="assets/design/featured-donutmap.png" width="1254" height="1254" alt="" loading="lazy"><span>Illustration</span></div><h3>DonutMap</h3><p>Cartographier les compositions locales</p></a>
+</div>
+<div class="featured-work">
+<a href="enseignement.html"><div class="featured-visual"><img src="assets/design/featured-teaching.png" width="1254" height="1254" alt="" loading="lazy"><span>Illustration</span></div><h3>Enseignement</h3><p>Apprendre la statistique et R</p></a>
+</div>
+```
+
+:::
+:::
+
+::: {.home-pathways}
+::: {.home-inner .pathway-grid}
+::: {}
+## Enseigner et accompagner
+
+Cours, encadrement et innovation pédagogique à l’Université Laval.
+
+::: {.link-list}
+[Cours et encadrement](enseignement.qmd){.btn .btn-outline-dark}
+[Innovation pédagogique](innovation.qmd){.btn .btn-outline-dark}
+[CDA et GPT-CDA](cda/index.qmd){.btn .btn-outline-dark}
+:::
+:::
+::: {}
+## Explorer et réutiliser
+
+Des données, des supports pédagogiques et une bibliothèque à explorer.
+
+::: {.link-list}
+[Bibliothèque](bibliotheque.qmd){.btn .btn-outline-dark}
+[Ressources ouvertes](ressources.qmd){.btn .btn-outline-dark}
+:::
+:::
+:::
+:::
+
+::: {.home-inner .home-reading}
+
+## Statistique computationnelle, diagnostics et incertitude {.home-context-title}
+
+Chargé d’enseignement à l’Université Laval et docteur en statistique. Je développe des méthodes pour comprendre les états latents, les données directionnelles et les observations atypiques, en reliant recherche méthodologique, logiciels R et enseignement universitaire.
 
 ## Recherche, enseignement et logiciels
 
@@ -197,4 +255,6 @@ Logiciels R
 
 ::: {.highlight-strip}
 [Consulter le CV académique](cv/index.qmd) : parcours, publications, logiciels, enseignement, encadrement, financement et service. Versions PDF en français et en anglais.
+:::
+
 :::

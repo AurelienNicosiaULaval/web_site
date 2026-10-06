@@ -2,6 +2,22 @@
 title: "Teaching"
 lang: en
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Statistics · Data science · R"
+  lead: "Learn through practice, explain with rigor."
+  summary: "Courses, supervision and resources for understanding methods, producing reproducible analyses and communicating results."
+  image: "../assets/design/headers/teaching.png"
+  nav-label: "On this page"
+  compact: false
+  token: false
+  links:
+    - label: "Courses"
+      href: "#courses-taught"
+    - label: "Supervision"
+      href: "#supervision"
+    - label: "Innovation"
+      href: "#teaching-innovation-and-learning-support"
 ---
 
 ## Teaching philosophy
@@ -30,6 +46,15 @@ Exercises, formative feedback, course assistants, and CDA resources support auto
 :::
 :::
 
+## Teaching innovation and learning support
+
+Explore the projects, resources and student support initiatives on the teaching innovation and CDA pages.
+
+::: {.link-list}
+[Teaching innovation](innovation.qmd){.btn .btn-outline-dark}
+[CDA and GPT-CDA](cda/index.qmd){.btn .btn-outline-dark}
+:::
+
 ## Teaching experience and languages
 
 I teach at undergraduate and graduate levels at Université Laval and UQAC. My experience covers probability, applied statistics, data science, R programming, visualization and project management.
@@ -50,7 +75,7 @@ In assessments, I ask students to justify their choice of methods, verify comput
 Data science
 :::
 
-### STT-1100 - Introduction to Data Science
+#### STT-1100 - Introduction to Data Science
 
 Introductory course centered on professional situations where students take on a data science role. The course covers the analysis cycle, from data import to communication of results.
 
@@ -71,7 +96,7 @@ Approach: active learning, francophone case studies, ethical reflection on data
 Scientific programming
 :::
 
-### STT-4230 / STT-6230 - Programming for Data Science
+#### STT-4230 / STT-6230 - Programming for Data Science
 
 Course focused on development practices: project structure, documentation, tests, collaboration, and publication with GitHub.
 
@@ -94,7 +119,7 @@ Approach: clarity, reproducibility, integration of modern tools
 Applied modelling
 :::
 
-### MQT-2101 - Data Analysis and Modelling
+#### MQT-2101 - Data Analysis and Modelling
 
 Applied course using R and Quarto to study regression, forecasting and classification, with course notes, video capsules and analysis activities.
 
@@ -108,7 +133,7 @@ Applied course using R and Quarto to study regression, forecasting and classific
 Applied statistics
 :::
 
-### STT-2200 - Data Analysis
+#### STT-2200 - Data Analysis
 
 Applied statistics course where students work from real datasets and produce reproducible reports.
 
@@ -120,13 +145,13 @@ Approach: interpretation before automation, clear communication of results
 :::
 
 ::: {.course-card}
-### STT-1900 and STT-2920
+#### STT-1900 and STT-2920
 
 Statistics for Engineering and Probability for Engineering. Probability foundations, inference and modelling for engineering programs.
 :::
 
 ::: {.course-card}
-### GSO-6092 and GSO-6082
+#### GSO-6092 and GSO-6082
 
 Graduate project management in English and French: planning, PERT and CPM networks, resource allocation and project control. The scope of the 2026 assignments is described above.
 
@@ -141,25 +166,25 @@ Graduate project management in English and French: planning, PERT and CPM networ
 
 ::: {.course-grid}
 ::: {.course-card}
-### 8INF404 - Introduction to Data Science and Business Intelligence
+#### 8INF404 - Introduction to Data Science and Business Intelligence
 
 Interdisciplinary course presenting the full data science project cycle: preparation, exploration, predictive modeling, and communication.
 :::
 
 ::: {.course-card}
-### 8INF416 - Data Visualization and Interface Design
+#### 8INF416 - Data Visualization and Interface Design
 
 Course devoted to interactive visualization and scientific communication with R, Shiny, and ggplot2.
 :::
 
 ::: {.course-card}
-### 8STT108 - Statistical Analysis of Large Data Sets
+#### 8STT108 - Statistical Analysis of Large Data Sets
 
 Introduction to statistical methods for large datasets, with emphasis on model logic before automation.
 :::
 
 ::: {.course-card}
-### 8GEN444 - Engineering Statistics
+#### 8GEN444 - Engineering Statistics
 
 Statistical methods applied to engineering problems.
 :::

@@ -1,6 +1,23 @@
 ---
 title: "DonutMap"
 lang: en
+embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Mapping · Compositions · R"
+  lead: "Map local compositions."
+  summary: "Static and interactive maps, donut charts and origin-destination flows."
+  image: "../../assets/design/featured-donutmap.png"
+  nav-label: "On this page"
+  compact: false
+  token: false
+  links:
+    - label: "Preview"
+      href: "#toc-title"
+    - label: "Example"
+      href: "#visual-preview"
+    - label: "Functions"
+      href: "#usage-example"
 ---
 
 ::: {.package-hero}

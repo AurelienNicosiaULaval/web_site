@@ -1,0 +1,108 @@
+---
+title: "Plan du site"
+lang: fr-CA
+embed-resources: true
+toc: false
+title-block-banner: true
+page-hero:
+  kicker: "Navigation · Rubriques · Pages"
+  lead: "Tout le site, en un regard."
+  summary: "Retrouver les pages de recherche, d’enseignement, de logiciels et de ressources, en français et en anglais."
+  image: "assets/design/headers/sitemap.png"
+  nav-label: "Dans cette page"
+  compact: true
+  token: false
+  links:
+    - label: "Recherche"
+      href: "#recherche"
+    - label: "Enseignement"
+      href: "#enseignement"
+    - label: "Logiciels"
+      href: "#logiciels"
+---
+
+::: {.section-intro}
+Toutes les rubriques et les pages, regroupées par activité. Les versions anglaises sont également accessibles en fin de page.
+:::
+
+::: {.sitemap-grid}
+::: {.sitemap-section}
+## Accueil et parcours
+
+- [Accueil](index.qmd)
+- [CV académique](cv/index.qmd)
+:::
+
+::: {.sitemap-section}
+## Recherche
+
+- [Programme, communications et publications](recherche.qmd)
+- [Projets ouverts](research-lab.qmd)
+:::
+
+::: {.sitemap-section}
+## Enseignement
+
+- [Cours, démarche et encadrement](enseignement.qmd)
+- [Innovation pédagogique](innovation.qmd)
+- [CDA et GPT-CDA](cda/index.qmd)
+:::
+
+::: {.sitemap-section}
+## Logiciels
+
+- [Catalogue complet des logiciels et contributions](packages.qmd)
+- [UlavalSSD](packages/ulavalssd.qmd)
+- [GLBFP](packages/glbfp.qmd)
+- [tutorizeR](packages/tutorizeR.qmd)
+- [DonutMap](packages/donutmap.qmd)
+- [ggcircular](packages/ggcircular.qmd)
+- [CircularRegression](packages/circularregression.qmd)
+- [leaflet.indoor](packages/leaflet-indoor.qmd)
+- [lmmix](packages/lmmix.qmd)
+:::
+
+::: {.sitemap-section}
+## Ressources et billets
+
+- [Données, supports et explorations](ressources.qmd)
+- [Bibliothèque](bibliotheque.qmd)
+- [Au-delà du prompt : diaporama, PDF et ressources](presentations/au-dela-du-prompt/index.qmd)
+- [Billets](blog/index.qmd)
+- [Bienvenue sur mon site Quarto](blog/posts/2025-10-09-bienvenue.qmd)
+- [CDA : ce que nous offrons](blog/posts/2025-10-09-cda.qmd)
+:::
+
+::: {.sitemap-section}
+## À propos
+
+- [Profil et contact](a-propos.qmd)
+- [Médias et distinctions](publications.qmd)
+:::
+
+:::
+
+## Pages en anglais
+
+- [Home](en/index.qmd)
+- [Academic CV](en/cv/index.qmd)
+- [Research program, presentations and publications](en/recherche.qmd)
+- [Open projects](en/research-lab.qmd)
+- [Courses, approach and supervision](en/enseignement.qmd)
+- [Teaching innovation](en/innovation.qmd)
+- [CDA and GPT-CDA](en/cda/index.qmd)
+- [Full catalogue of software and contributions](en/packages.qmd)
+- [UlavalSSD](en/packages/ulavalssd.qmd)
+- [GLBFP](en/packages/glbfp.qmd)
+- [tutorizeR](en/packages/tutorizeR.qmd)
+- [DonutMap](en/packages/donutmap.qmd)
+- [ggcircular](en/packages/ggcircular.qmd)
+- [CircularRegression](en/packages/circularregression.qmd)
+- [leaflet.indoor](en/packages/leaflet-indoor.qmd)
+- [lmmix](en/packages/lmmix.qmd)
+- [Datasets, materials and explorations](en/ressources.qmd)
+- [Library](en/library.qmd)
+- [Profile and contact](en/a-propos.qmd)
+- [Media and awards](en/publications.qmd)
+
+[English sitemap](en/plan-du-site.qmd)

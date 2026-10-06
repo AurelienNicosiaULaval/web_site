@@ -3,6 +3,20 @@ title: "UlavalSSD"
 description: "Quebec data for learning data science"
 lang: en
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Local data · Teaching · R"
+  lead: "Learn data science with Quebec data."
+  summary: "Historical snapshots and teaching tools for introductory data science."
+  image: "../../assets/design/headers/ulavalssd.png"
+  nav-label: "On this page"
+  compact: false
+  token: false
+  links:
+    - label: "On this page"
+      href: "#toc-title"
+    - label: "Teaching content"
+      href: "#teaching-content"
 ---
 
 ::: {.section-intro}

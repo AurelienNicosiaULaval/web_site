@@ -3,6 +3,22 @@ title: "Open projects"
 description: "Research code, datasets and teaching resources to explore and reuse."
 lang: en
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Research · Code · Data"
+  lead: "Explore code, data and analyses."
+  summary: "Find reproducibility materials, research projects and teaching resources."
+  image: "../assets/design/headers/open-projects.png"
+  nav-label: "On this page"
+  compact: true
+  token: false
+  links:
+    - label: "Code and analyses"
+      href: "#research-code"
+    - label: "Data and materials"
+      href: "#data-resources"
+    - label: "Reuse"
+      href: "#using-the-resources"
 ---
 
 ::: {.section-intro}

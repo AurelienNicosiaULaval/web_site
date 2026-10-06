@@ -3,6 +3,20 @@ title: "lmmix"
 description: "Linear mixed models with correlated residuals"
 lang: en
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Mixed models · Inference · R"
+  lead: "Model random effects and correlation."
+  summary: "Gaussian linear mixed models, covariance structures and inference tools."
+  image: "../../assets/design/headers/lmmix.png"
+  nav-label: "On this page"
+  compact: false
+  token: false
+  links:
+    - label: "On this page"
+      href: "#toc-title"
+    - label: "Models and inference"
+      href: "#models-and-inference"
 ---
 
 ::: {.section-intro}

@@ -3,6 +3,20 @@ title: "leaflet.indoor"
 description: "Multi-level indoor mapping"
 lang: en
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Mapping · Interfaces · R"
+  lead: "Navigate indoor maps."
+  summary: "Indoor layers, floor selection and integration with Leaflet and Shiny."
+  image: "../../assets/design/headers/indoor.png"
+  nav-label: "On this page"
+  compact: true
+  token: false
+  links:
+    - label: "On this page"
+      href: "#toc-title"
+    - label: "Features"
+      href: "#features"
 ---
 
 ::: {.section-intro}

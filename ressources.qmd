@@ -1,57 +1,156 @@
 ---
-title: "Autres"
+title: "Ressources"
+embed-resources: true
+toc: false
+page-layout: full
 ---
 
+::::: {.resources-page}
+
+```{=html}
+<section class="resources-hero" aria-labelledby="resources-title">
+  <div class="resources-inner resources-hero-grid">
+    <div class="resources-hero-copy">
+      <p class="resources-kicker">Données · Enseignement · Création</p>
+      <h1 id="resources-title">Ressources</h1>
+      <p class="resources-lead">Pour enseigner, apprendre<br>et explorer autrement.</p>
+      <p class="resources-description">Données, supports pédagogiques, lectures et projets à la croisée des mathématiques et de la création.</p>
+      <nav class="resources-jump" aria-label="Dans cette page">
+        <a href="#données-supports-et-ateliers">Données et supports</a>
+        <a href="#bibliothèque">Bibliothèque</a>
+        <a href="#explorations">Explorations</a>
+      </nav>
+    </div>
+    <div class="resources-hero-art" aria-hidden="true">
+      <img src="assets/design/featured-teaching.png" alt="" width="1254" height="1254">
+    </div>
+  </div>
+</section>
+```
+
+:::: {.resources-inner .resources-content}
+
+## Données, supports et ateliers
+
+::: {.resources-access-grid}
+::: {.resources-access}
+### Données et supports
+
+Des points d’entrée vers les données et les ressources pédagogiques en statistique et en science des données.
+
+[Données bleues <i class="bi bi-arrow-up-right" aria-hidden="true"></i>](https://aureliennicosiaulaval.github.io/donnees-bleues/){.resources-access-link}
+
+[Ressources SSD <i class="bi bi-arrow-up-right" aria-hidden="true"></i>](https://aureliennicosiaulaval.github.io/site_ressources_SSD/){.resources-access-link}
+:::
+
+::: {.resources-access}
+### Présentations et ateliers
+
+Retrouver une présentation ou parcourir les activités de partage et de formation.
+
+[Au-delà du prompt (français) <i class="bi bi-arrow-right" aria-hidden="true"></i>](presentations/au-dela-du-prompt/index.qmd){.resources-access-link}
+
+[Ateliers <i class="bi bi-arrow-right" aria-hidden="true"></i>](innovation.qmd#rayonnement){.resources-access-link}
+:::
+:::
+
+::: {.resources-library}
+::: {.resources-library-copy}
+<p class="resources-kicker">Au fil des lectures</p>
+
+## Bibliothèque
+
+602 éditions distinctes, entre classiques des mathématiques, statistique, science des données et curiosités scientifiques.
+
+[Explorer la collection <i class="bi bi-arrow-right" aria-hidden="true"></i>](bibliotheque.qmd){.btn .btn-primary}
+:::
+
+```{=html}
+<div class="resources-book-covers">
+  <img src="https://covers.openlibrary.org/b/id/7863918-M.jpg" alt="Couverture de An Introduction to Statistical Learning, Gareth James" width="180" height="270" loading="lazy">
+  <img src="https://covers.openlibrary.org/b/id/245123-M.jpg" alt="Couverture de All of Statistics, Larry Wasserman" width="180" height="270" loading="lazy">
+</div>
+```
+:::
+
+::: {.resources-updates}
+### Actualités et billets
+
+::: {.resources-update-links}
+[Actualités <i class="bi bi-arrow-right" aria-hidden="true"></i>](index.qmd#actualités-et-points-forts){.resources-text-link}
+
+[Billets <i class="bi bi-arrow-right" aria-hidden="true"></i>](blog/index.qmd){.resources-text-link}
+:::
+:::
+
+::: {.resources-explorations}
 ## Explorations
 
-::: {.section-intro}
+::: {.resources-exploration-intro}
 Cette page rassemble des projets plus exploratoires qui complètent mes activités de recherche et d’enseignement. Ils portent sur les liens entre mathématiques, écriture, visualisation et création numérique.
 :::
 
-::: {.resource-grid}
-::: {.resource-card}
+::: {.resources-exploration-row}
+::: {.resources-exploration-heading}
 ::: {.eyebrow}
 Mathématiques et art
 :::
 
 ### Dessin numérique avec R
-
-Exploration de textures, motifs et images génératives produits avec R, `ggplot2` et des processus probabilistes. Le projet sert à réfléchir à la visualisation comme espace commun entre rigueur statistique et création.
 :::
 
-::: {.resource-card}
+::: {.resources-exploration-body}
+Exploration de textures, motifs et images génératives produits avec R, `ggplot2` et des processus probabilistes. Le projet sert à réfléchir à la visualisation comme espace commun entre rigueur statistique et création.
+:::
+:::
+
+::: {.resources-exploration-row}
+::: {.resources-exploration-heading}
 ::: {.eyebrow}
 Vulgarisation
 :::
 
 ### Recettes mathématiques
-
-Projet d’écriture où des concepts mathématiques sont présentés comme des recettes courtes, visuelles et structurées. L’objectif est de rendre la beauté formelle des mathématiques plus accessible sans sacrifier la précision.
-
-[Exemple de deux recettes mathématiques](Example Recipes.pdf){.btn .btn-outline-dark}
 :::
 
-::: {.resource-card}
+::: {.resources-exploration-body}
+Projet d’écriture où des concepts mathématiques sont présentés comme des recettes courtes, visuelles et structurées. L’objectif est de rendre la beauté formelle des mathématiques plus accessible sans sacrifier la précision.
+
+[Exemple de deux recettes mathématiques <i class="bi bi-file-earmark-pdf" aria-hidden="true"></i>](Example Recipes.pdf){.resources-text-link}
+:::
+:::
+
+::: {.resources-exploration-row}
+::: {.resources-exploration-heading}
 ::: {.eyebrow}
 Science des données
 :::
 
 ### La cuisine des données
-
-Projet de plateforme d’apprentissage inspirée de l’univers culinaire, conçu pour expliquer les étapes d’un projet de données à partir d’analogies concrètes et d’exemples reproductibles.
 :::
 
-::: {.resource-card}
+::: {.resources-exploration-body}
+Projet de plateforme d’apprentissage inspirée de l’univers culinaire, conçu pour expliquer les étapes d’un projet de données à partir d’analogies concrètes et d’exemples reproductibles.
+:::
+:::
+
+::: {.resources-exploration-row}
+::: {.resources-exploration-heading}
 ::: {.eyebrow}
 Créativité numérique
 :::
 
 ### Visualisation et transmission
+:::
 
+::: {.resources-exploration-body}
 Travail exploratoire sur la manière dont les formes visuelles, les métaphores et les interfaces peuvent soutenir la compréhension de concepts statistiques ou mathématiques.
 :::
 :::
 
-::: {.highlight-strip}
+::: {.resources-guiding-thread}
 Fil conducteur : faire dialoguer rigueur scientifique, clarté visuelle et créativité humaine afin de rendre les mathématiques et la science des données plus accessibles.
 :::
+:::
+::::
+:::::

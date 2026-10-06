@@ -1,5 +1,23 @@
 ---
-title: "Centre du Dépannage et d'Apprentissage (CDA) - Math & Stat"
+title: "CDA et GPT-CDA"
+subtitle: "Centre de Dépannage et d’Apprentissage · Mathématiques et statistique"
+embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Enseignement · Soutien · Réussite"
+  lead: "Accompagner les apprentissages en mathématiques et en statistique."
+  summary: "Tutorat, ateliers et ressources numériques pour soutenir le raisonnement et la progression dans les cours."
+  image: "../assets/design/headers/cda.png"
+  nav-label: "Dans cette page"
+  compact: true
+  token: false
+  links:
+    - label: "Services"
+      href: "#services"
+    - label: "GPT-CDA"
+      href: "#gpt-cda"
+    - label: "Informations"
+      href: "#informations-pratiques"
 ---
 
 ## Mission

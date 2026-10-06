@@ -25,6 +25,23 @@ format:
     number-sections: false
     colorlinks: true
     include-in-header: ../../cv/_pdf-header.tex
+title-block-banner: true
+page-hero:
+  kicker: "Aurélien Nicosia · Université Laval"
+  lead: "Academic and professional background."
+  summary: "Education, experience, publications and teaching activities: the full background and PDF versions."
+  image: "../../assets/design/headers/cv.png"
+  nav-label: "On this page"
+  compact: true
+  token: false
+  links:
+    - label: "Download PDF"
+      href: "aurelien-nicosia-cv-en.pdf"
+    - label: "Experience"
+      href: "#academic-and-professional-experience"
+    - label: "Publications"
+      href: "#peer-reviewed-articles"
+  title: "Curriculum vitae"
 ---
 
 ::: {.content-visible when-format="html"}

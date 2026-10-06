@@ -2,6 +2,20 @@
 title: "UlavalSSD"
 description: "Données québécoises pour apprendre la science des données"
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Données locales · Enseignement · R"
+  lead: "Apprendre la science des données avec des données québécoises."
+  summary: "Instantanés historiques et outils pédagogiques pour l’initiation à la science des données."
+  image: "../assets/design/headers/ulavalssd.png"
+  nav-label: "Dans cette page"
+  compact: false
+  token: false
+  links:
+    - label: "Sur cette page"
+      href: "#toc-title"
+    - label: "Contenu pédagogique"
+      href: "#contenu-pédagogique"
 ---
 
 ::: {.section-intro}

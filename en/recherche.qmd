@@ -2,6 +2,22 @@
 title: "Research"
 lang: en
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Statistics · Methods · Visualization"
+  lead: "Understand models, represent uncertainty."
+  summary: "Sequential models, directional data and density estimation: the questions, methods and publications of my research program."
+  image: "../assets/design/headers/research-v2.png"
+  nav-label: "On this page"
+  compact: false
+  token: false
+  links:
+    - label: "Research themes"
+      href: "#contributions-and-research-themes"
+    - label: "Publications"
+      href: "#publications"
+    - label: "Thesis"
+      href: "#doctoral-thesis"
 ---
 
 ## Research program

@@ -1,6 +1,23 @@
 ---
 title: "tutorizeR"
 lang: en
+embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Teaching · Tutorials · R"
+  lead: "From course materials to interactive tutorials."
+  summary: "Convert R Markdown and Quarto documents into interactive activities with learnr or quarto-live."
+  image: "../../assets/design/headers/tutorizer.png"
+  nav-label: "On this page"
+  compact: false
+  token: false
+  links:
+    - label: "Preview"
+      href: "#toc-title"
+    - label: "Example"
+      href: "#visual-preview"
+    - label: "Functions"
+      href: "#usage-example"
 ---
 
 ::: {.package-hero}

@@ -1,6 +1,22 @@
 ---
 title: "Enseignement"
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Statistique · Science des données · R"
+  lead: "Apprendre par la pratique, expliquer avec rigueur."
+  summary: "Cours, encadrement et ressources pour comprendre les méthodes, produire des analyses reproductibles et communiquer les résultats."
+  image: "assets/design/headers/teaching.png"
+  nav-label: "Dans cette page"
+  compact: true
+  token: false
+  links:
+    - label: "Cours"
+      href: "#cours-enseignés"
+    - label: "Encadrement"
+      href: "#encadrement"
+    - label: "Innovation"
+      href: "#innovation-pédagogique-et-soutien-à-lapprentissage"
 ---
 
 ## Philosophie de l’enseignement
@@ -29,6 +45,15 @@ Les exercices, rétroactions formatives, assistants de cours et ressources du CD
 :::
 :::
 
+## Innovation pédagogique et soutien à l’apprentissage
+
+Retrouvez les projets, les ressources et les dispositifs d’accompagnement dans les pages consacrées à l’innovation pédagogique et au CDA.
+
+::: {.link-list}
+[Innovation pédagogique](innovation.qmd){.btn .btn-outline-dark}
+[CDA et GPT-CDA](cda/index.qmd){.btn .btn-outline-dark}
+:::
+
 ## Expérience et langues d’enseignement
 
 J’enseigne au premier et au deuxième cycle à l’Université Laval et à l’UQAC. Mon expérience couvre les probabilités, la statistique appliquée, la science des données, la programmation R, la visualisation et la gestion de projets.
@@ -49,7 +74,7 @@ Dans les évaluations, je demande de justifier les choix de méthode, de vérifi
 Science des données
 :::
 
-### STT-1100 - Introduction à la science des données
+#### STT-1100 - Introduction à la science des données
 
 Cours d’introduction centré sur des mises en situation professionnelles où les étudiants incarnent un rôle en science des données. Le cours couvre le cycle d’analyse, de l’importation des données à la communication des résultats.
 
@@ -70,7 +95,7 @@ Approche : apprentissage actif, études de cas francophones, réflexion éthique
 Programmation scientifique
 :::
 
-### STT-4230 / STT-6230 - Programmation pour la science des données
+#### STT-4230 / STT-6230 - Programmation pour la science des données
 
 Cours axé sur les bonnes pratiques de développement : structuration de projets, documentation, tests, collaboration et diffusion avec GitHub.
 
@@ -93,7 +118,7 @@ Approche : clarté, reproductibilité, intégration des outils modernes
 Modélisation appliquée
 :::
 
-### MQT-2101 - Analyse et modélisation des données
+#### MQT-2101 - Analyse et modélisation des données
 
 Cours appliqué mobilisant R et Quarto pour étudier la régression, la prévision et la classification, avec notes, capsules vidéo et activités d’analyse.
 
@@ -107,7 +132,7 @@ Cours appliqué mobilisant R et Quarto pour étudier la régression, la prévisi
 Statistique appliquée
 :::
 
-### STT-2200 - Analyse de données
+#### STT-2200 - Analyse de données
 
 Cours de statistique appliquée où les étudiantes et étudiants travaillent à partir de jeux de données réels et produisent des rapports reproductibles.
 
@@ -119,13 +144,13 @@ Approche : interprétation avant automatisation, communication claire des résul
 :::
 
 ::: {.course-card}
-### STT-1900 et STT-2920
+#### STT-1900 et STT-2920
 
 Méthodes statistiques pour l’ingénierie et Probabilités pour l’ingénierie. Enseignement des fondements probabilistes, de l’inférence et de la modélisation pour les programmes de génie.
 :::
 
 ::: {.course-card}
-### GSO-6092 et GSO-6082
+#### GSO-6092 et GSO-6082
 
 Gestion de projets au deuxième cycle, en anglais et en français : planification, réseaux PERT et CPM, allocation des ressources et contrôle de projets. Les mandats de 2026 sont précisés ci-dessus.
 
@@ -140,25 +165,25 @@ Gestion de projets au deuxième cycle, en anglais et en français : planificatio
 
 ::: {.course-grid}
 ::: {.course-card}
-### 8INF404 - Introduction à la science des données et intelligence d’affaires
+#### 8INF404 - Introduction à la science des données et intelligence d’affaires
 
 Cours interdisciplinaire présentant le cycle complet d’un projet de science des données : préparation, exploration, modélisation prédictive et communication.
 :::
 
 ::: {.course-card}
-### 8INF416 - Visualisation de données et interface
+#### 8INF416 - Visualisation de données et interface
 
 Cours consacré à la visualisation interactive et à la communication scientifique avec R, Shiny et ggplot2.
 :::
 
 ::: {.course-card}
-### 8STT108 - Analyse statistique des données de masse
+#### 8STT108 - Analyse statistique des données de masse
 
 Introduction aux méthodes statistiques appliquées aux grands ensembles de données, avec un accent sur la logique des modèles avant leur automatisation.
 :::
 
 ::: {.course-card}
-### 8GEN444 - Statistiques de l’ingénieur
+#### 8GEN444 - Statistiques de l’ingénieur
 
 Méthodes statistiques appliquées aux problèmes de génie.
 :::

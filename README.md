@@ -7,9 +7,10 @@
 Site personnel construit avec Quarto et déployé via GitHub Pages. Il organise des contenus d'enseignement, de recherche et de ressources dans un format reproductible et maintenable.
 
 - URL du site: https://aureliennicosiaulaval.github.io/web_site/
-- Navigation (Quarto): Accueil, Enseignement, Recherche, Projets ouverts, Packages R, Innovation Pédagogique, Autres, À propos, CV, Langue (EN).
-- Thème: `cosmo` + CSS personnalisé.
+- Navigation : Recherche, Enseignement, Logiciels, Ressources, À propos, CV et FR/EN. Le logo mène à l’accueil; Innovation pédagogique est regroupée dans Enseignement et reste accessible depuis l’accueil.
+- Présentation : thème `cosmo`, styles personnalisés, polices locales Cormorant Garamond et Source Sans 3, illustrations propres aux pages. Les crédits des illustrations figurent dans `assets/design/README.md`.
 - Déploiement automatisé: GitHub Pages à partir du dossier `docs/` de la branche `main`.
+- Le fichier `.nojekyll`, copié dans `docs/` lors du rendu, conserve les fichiers Quarto tels qu’ils ont été générés.
 
 ### CV académiques et publication
 
@@ -48,9 +49,10 @@ quarto preview
 Personal website built with Quarto and deployed via GitHub Pages. It provides a simple, reproducible structure for teaching, research, resources, and an English entry point.
 
 - Site URL: https://aureliennicosiaulaval.github.io/web_site/
-- Navigation (Quarto): Home, Teaching, Research, Open projects, R packages, Pedagogical Innovation, Other, About, CV, Language (EN).
-- Theme: `cosmo` + custom CSS.
+- Navigation: Research, Teaching, Software, Resources, About, CV and FR/EN. The logo links to Home; Teaching innovation is grouped under Teaching and remains accessible from Home.
+- Presentation: `cosmo`, custom styles, local Cormorant Garamond and Source Sans 3 fonts, and page-specific illustrations. Illustration credits are in `assets/design/README.md`.
 - Automated deployment: GitHub Pages from the `docs/` directory on the `main` branch.
+- `.nojekyll` is copied to `docs/` during rendering so that the generated Quarto files are served directly.
 
 ### Academic CVs and publishing
 

@@ -1,6 +1,22 @@
 ---
 title: "Innovation pédagogique"
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Enseignement · Ressources · Accompagnement"
+  lead: "Des outils qui soutiennent la compréhension."
+  summary: "Cours ouverts, tutoriels interactifs, données locales et soutien aux apprentissages : les projets et les activités de partage."
+  image: "assets/design/headers/innovation.png"
+  nav-label: "Dans cette page"
+  compact: true
+  token: false
+  links:
+    - label: "Projets"
+      href: "#projets-principaux"
+    - label: "Tutoriels"
+      href: "#tutoriels-interactifs"
+    - label: "Ateliers"
+      href: "#rayonnement"
 ---
 
 ## Orientation

@@ -2,6 +2,22 @@
 title: "Projets ouverts"
 description: "Code de recherche, données et ressources pédagogiques à explorer et à réutiliser."
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Recherche · Code · Données"
+  lead: "Code, données et analyses à explorer."
+  summary: "Retrouver le matériel de reproduction, les projets de recherche et les ressources pédagogiques."
+  image: "assets/design/headers/open-projects.png"
+  nav-label: "Dans cette page"
+  compact: true
+  token: false
+  links:
+    - label: "Code et analyses"
+      href: "#code-recherche"
+    - label: "Données et supports"
+      href: "#donnees-ressources"
+    - label: "Réutiliser"
+      href: "#utiliser-les-ressources"
 ---
 
 ::: {.section-intro}

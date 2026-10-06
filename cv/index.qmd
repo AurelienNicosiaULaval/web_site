@@ -25,6 +25,23 @@ format:
     number-sections: false
     colorlinks: true
     include-in-header: _pdf-header.tex
+title-block-banner: true
+page-hero:
+  kicker: "Aurélien Nicosia · Université Laval"
+  lead: "Parcours académique et professionnel."
+  summary: "Formation, expérience, publications et activités d’enseignement : le parcours complet et les versions PDF."
+  image: "../assets/design/headers/cv.png"
+  nav-label: "Dans cette page"
+  compact: true
+  token: false
+  links:
+    - label: "Télécharger le PDF"
+      href: "aurelien-nicosia-cv-fr.pdf"
+    - label: "Expérience"
+      href: "#expérience-académique-et-professionnelle"
+    - label: "Publications"
+      href: "#articles-publiés-avec-comité-de-lecture"
+  title: "Curriculum vitae"
 ---
 
 ::: {.content-visible when-format="html"}

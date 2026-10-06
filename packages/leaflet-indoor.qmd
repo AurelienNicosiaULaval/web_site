@@ -2,6 +2,20 @@
 title: "leaflet.indoor"
 description: "Cartographie intérieure à plusieurs étages"
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Cartographie · Interfaces · R"
+  lead: "Naviguer dans les cartes intérieures."
+  summary: "Couches intérieures, sélection d’étage et intégration avec Leaflet et Shiny."
+  image: "../assets/design/headers/indoor.png"
+  nav-label: "Dans cette page"
+  compact: true
+  token: false
+  links:
+    - label: "Sur cette page"
+      href: "#toc-title"
+    - label: "Fonctionnalités"
+      href: "#fonctionnalités"
 ---
 
 ::: {.section-intro}

@@ -2,6 +2,20 @@
 title: "GLBFP"
 description: "Estimation de densité et diagnostics d’influence"
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Densités · Diagnostics · R"
+  lead: "Estimer les densités, examiner l’influence."
+  summary: "Estimateurs ASH, LBFP et GLBFP, visualisation et choix de largeur de bande."
+  image: "../assets/design/headers/glbfp.png"
+  nav-label: "Dans cette page"
+  compact: false
+  token: false
+  links:
+    - label: "Sur cette page"
+      href: "#toc-title"
+    - label: "Deux versions, des fonctions distinctes"
+      href: "#deux-versions-des-fonctions-distinctes"
 ---
 
 ::: {.section-intro}

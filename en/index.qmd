@@ -1,35 +1,93 @@
 ---
 title: "Aurélien Nicosia"
-title-block-banner: true
+title-block-banner: false
 toc: false
+anchor-sections: false
 lang: en
 embed-resources: true
+page-layout: full
 ---
 
 ::: {.home-hero}
+::: {.home-inner .home-hero-grid}
 ::: {.home-hero-copy}
-# Aurélien Nicosia
-
-## Computational statistics, diagnostics and uncertainty
-
-I hold a PhD in Statistics and a permanent teaching appointment at Université Laval. I develop methods for understanding latent states, directional data and atypical observations, connecting statistical methodology, R software and university teaching.
+<p class="home-kicker">UNIVERSITÉ LAVAL · QUÉBEC</p>
+<h1 id="aurélien-nicosia"><span>Aurélien</span> <span>Nicosia</span></h1>
+<p class="home-tagline">Statistics, data science and university teaching.</p>
+<p class="home-description">Teaching at Université Laval.<br>Statistical methodology, R software and open resources.</p>
 
 ::: {.hero-actions}
-[Research and publications](recherche.qmd){.btn .btn-outline-dark .btn-lg}
-[Academic CV](cv/index.qmd){.btn .btn-outline-dark .btn-lg}
-[Teaching](enseignement.qmd){.btn .btn-outline-dark .btn-lg}
-[R packages](packages.qmd){.btn .btn-outline-dark .btn-lg}
+[Explore my work <i class="bi bi-arrow-right" aria-hidden="true"></i>](recherche.qmd){.btn}
+[View my background](cv/index.qmd){.text-link}
 :::
 :::
 
-::: {.home-hero-visual}
-::: {.home-hero-thumbs}
-![DonutMap logo](../assets/packages/donutmap-logo.svg)
-![ggcircular example](../assets/packages/ggcircular-example.png)
-![CircularRegression logo](../assets/packages/circularregression-logo.svg)
+::: {.home-art}
+<a class="hero-chart-link" href="packages/ggcircular.html" aria-label="ggcircular"><img src="../assets/design/hero-circular.png" width="1254" height="1254" alt="" fetchpriority="high"></a>
+[Circular data](packages/circularregression.qmd){.hero-topic .topic-circular}
+[Density estimation](packages/glbfp.qmd){.hero-topic .topic-density}
+[Sequential models](recherche.qmd){.hero-topic .topic-sequential}
+<a class="hero-chart-detail" href="packages/ggcircular.html"><span>ggcircular</span><br>Visualizing circular data</a>
+<span class="hero-chart-caption">Illustrative composition</span>
 :::
 :::
 :::
+
+::: {.home-inner .home-featured}
+::: {.home-section-head}
+## A selection of my work
+
+[All projects <i class="bi bi-arrow-right" aria-hidden="true"></i>](research-lab.qmd)
+:::
+
+::: {.featured-grid}
+
+```{=html}
+<div class="featured-work">
+<a href="packages/ggcircular.html"><div class="featured-visual"><img src="../assets/design/hero-circular.png" width="1254" height="1254" alt="" loading="lazy"><span>Illustration</span></div><h3>ggcircular</h3><p>Visualizing circular data</p></a>
+</div>
+<div class="featured-work">
+<a href="packages/donutmap.html"><div class="featured-visual"><img src="../assets/design/featured-donutmap.png" width="1254" height="1254" alt="" loading="lazy"><span>Illustration</span></div><h3>DonutMap</h3><p>Mapping local compositions</p></a>
+</div>
+<div class="featured-work">
+<a href="enseignement.html"><div class="featured-visual"><img src="../assets/design/featured-teaching.png" width="1254" height="1254" alt="" loading="lazy"><span>Illustration</span></div><h3>Teaching</h3><p>Learning statistics and R</p></a>
+</div>
+```
+
+:::
+:::
+
+::: {.home-pathways}
+::: {.home-inner .pathway-grid}
+::: {}
+## Teaching and student support
+
+Courses, supervision and teaching innovation at Université Laval.
+
+::: {.link-list}
+[Courses and supervision](enseignement.qmd){.btn .btn-outline-dark}
+[Teaching innovation](innovation.qmd){.btn .btn-outline-dark}
+[CDA and GPT-CDA](cda/index.qmd){.btn .btn-outline-dark}
+:::
+:::
+::: {}
+## Explore and reuse
+
+Datasets, teaching materials and a library to explore.
+
+::: {.link-list}
+[Library](library.qmd){.btn .btn-outline-dark}
+[Open resources](ressources.qmd){.btn .btn-outline-dark}
+:::
+:::
+:::
+:::
+
+::: {.home-inner .home-reading}
+
+## Computational statistics, diagnostics and uncertainty {.home-context-title}
+
+I hold a PhD in Statistics and a permanent teaching appointment at Université Laval. I develop methods for understanding latent states, directional data and atypical observations, connecting statistical methodology, R software and university teaching.
 
 ## Research, teaching and software
 
@@ -200,4 +258,6 @@ R software
 
 ::: {.highlight-strip}
 [Read the academic CV](cv/index.qmd): experience, publications, software, teaching, supervision, funding and service. PDF versions in French and English.
+:::
+
 :::

@@ -8,6 +8,22 @@ date-format: "D MMMM YYYY"
 image: diaporama/slides/slide-01.png
 embed-resources: true
 toc: false
+title-block-banner: true
+page-hero:
+  kicker: "Présentation · Enseignement · IA"
+  lead: "Concevoir un écosystème pédagogique avec l’IA."
+  summary: "Diapositives, PDF et ressources de la présentation."
+  image: "../../assets/design/headers/beyond-prompt.png"
+  nav-label: "Dans cette page"
+  compact: true
+  token: false
+  links:
+    - label: "Diaporama"
+      href: "diaporama/index.html"
+    - label: "PDF"
+      href: "Presentation_Au_dela_du_prompt.pdf"
+    - label: "Ressources"
+      href: "#ressources"
 ---
 
 Je partage deux années d’expérience avec l’IA dans l’enseignement et la recherche : mes essais, les dispositifs mis en place et les leçons que j’en tire.

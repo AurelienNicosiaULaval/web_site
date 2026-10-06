@@ -2,6 +2,22 @@
 title: "ggcircular"
 lang: en
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Visualization · Geometry · R"
+  lead: "Visualize directional data."
+  summary: "A ggplot2 extension for circular, axial and directional data."
+  image: "../../assets/design/headers/ggcircular.png"
+  nav-label: "On this page"
+  compact: false
+  token: false
+  links:
+    - label: "Preview"
+      href: "#toc-title"
+    - label: "Example"
+      href: "#visual-preview"
+    - label: "Functions"
+      href: "#usage-example"
 ---
 
 ::: {.package-hero}

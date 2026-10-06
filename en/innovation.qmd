@@ -2,6 +2,22 @@
 title: "Educational Innovation"
 lang: en
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Teaching · Resources · Support"
+  lead: "Tools that support understanding."
+  summary: "Open courses, interactive tutorials, local data and learning support: projects and outreach activities."
+  image: "../assets/design/headers/innovation.png"
+  nav-label: "On this page"
+  compact: true
+  token: false
+  links:
+    - label: "Projects"
+      href: "#main-projects"
+    - label: "Tutorials"
+      href: "#interactive-tutorials"
+    - label: "Workshops"
+      href: "#outreach"
 ---
 
 ## Orientation

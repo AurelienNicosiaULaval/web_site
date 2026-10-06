@@ -2,8 +2,19 @@ project:
   type: website
   output-dir: docs
   resources:
+    - ".nojekyll"
     - "!_site/**"
+    - "!docs/**"
     - "assets/custom.css"
+    - "assets/refonte.css"
+    - "assets/design/**"
+    - "assets/fonts/**"
+    - "!.diagnostics/**"
+    - "!design-qa.md"
+    - "!_includes/title-block.html"
+    - "!metadata/**"
+    - "!scripts/**"
+    - "!data/**"
     - "assets/logo.svg"
     - "Example Recipes.pdf"
     - "cv/*.pdf"
@@ -21,39 +32,72 @@ website:
   repo-url: https://github.com/AurelienNicosiaUlaval/web_site
   repo-actions: [edit, issue]
   navbar:
-    logo: assets/logo.svg
-    collapse-below: xxl
+    logo: assets/design/monogram-an.png
+    background: light
+    foreground: "#173D42"
+    collapse-below: lg
     right:
-      - href: index.qmd
-        text: Accueil
-      - href: enseignement.qmd
-        text: Enseignement
-      - href: recherche.qmd
-        text: Recherche
-      - href: research-lab.qmd
-        text: Projets ouverts
-      - href: packages.qmd
-        text: Packages R
-      - href: innovation.qmd
-        text: Innovation Pédagogique
-      - text: Autres
+      - text: Recherche
         menu:
-          - href: ressources.qmd
-            text: Ressources
-          - href: bibliotheque.qmd
-            text: Bibliothèque
-#      - href: publications.qmd
-#        text: Média
-      - href: a-propos.qmd
-        text: À propos
-      - href: cv/index.qmd
-        text: CV
-      - text: Langue
+          - text: Programme de recherche
+            href: recherche.qmd
+          - text: Publications et prépublications
+            href: recherche.qmd#publications
+          - text: Projets ouverts
+            href: research-lab.qmd
+          - text: Communications et thèse
+            href: recherche.qmd#thèse-de-doctorat
+      - text: Enseignement
+        menu:
+          - text: Cours et démarche
+            href: enseignement.qmd
+          - text: Encadrement
+            href: enseignement.qmd#encadrement
+          - text: Innovation pédagogique
+            href: innovation.qmd
+          - text: CDA et GPT-CDA
+            href: cda/index.qmd
+      - text: Logiciels
+        menu:
+          - text: Catalogue des logiciels
+            href: packages.qmd
+          - text: Packages R
+            href: packages.qmd#packages-sur-le-cran
+          - text: Projets en développement
+            href: packages.qmd#projets-github-liés
+          - text: Contributions
+            href: packages.qmd#contributions-open-source-externes
+      - text: Ressources
+        menu:
+          - text: Données et supports
+            href: ressources.qmd
+          - text: Présentations et ateliers
+            href: innovation.qmd#rayonnement
+          - text: Bibliothèque
+            href: bibliotheque.qmd
+          - text: Explorations
+            href: ressources.qmd#explorations
+          - text: Actualités
+            href: index.qmd#actualités-et-points-forts
+          - text: Billets (français)
+            href: blog/index.qmd
+      - text: À propos
+        menu:
+          - text: Profil et parcours
+            href: a-propos.qmd
+          - text: Médias et distinctions
+            href: publications.qmd
+          - text: Contact
+            href: a-propos.qmd#contact
+      - text: CV
+        href: cv/index.qmd
+      - text: FR / EN
         href: en/index.qmd
   page-footer:
     left: |
       © 2026 Aurélien Nicosia - Université Laval<br>
-      Québec, QC - [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca)
+      Québec, QC - [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca)<br>
+      [Plan du site](/plan-du-site.qmd)
     right: |
       [GitHub](https://github.com/AurelienNicosiaULaval) •
       [LinkedIn](https://www.linkedin.com/in/aur%C3%A9lien-nicosia-6a52487b/) •
@@ -77,7 +121,11 @@ format:
       sidebar-width: 220px
       margin-width: 220px
       gutter-width: 1.5rem
-    css: assets/custom.css
+    css:
+      - assets/custom.css
+      - assets/refonte.css
+    template-partials:
+      - _includes/title-block.html
     include-in-header:
       - assets/language-switch.js
     toc: true

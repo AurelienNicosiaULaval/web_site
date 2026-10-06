@@ -2,8 +2,28 @@
 title: "CDA : ce que nous offrons"
 date: 2025-10-09
 categories: [CDA, Pédagogie]
+embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Billets · Enseignement · CDA"
+  lead: "Accompagner les apprentissages en mathématiques et en statistique."
+  summary: "Tutorat, ateliers et conseils méthodologiques : les repères pour trouver du soutien."
+  image: "../../assets/design/headers/cda-services.png"
+  nav-label: "Dans cette page"
+  compact: true
+  token: false
+  links:
+    - label: "Services et informations"
+      href: "#services-et-informations-pratiques"
 ---
 
-Le **Centre du Dépannage et d'Apprentissage en math et en stat** vise à soutenir les apprentissages : 
-tutorat, ateliers ciblés, et conseils méthodologiques. 
+Le Centre du Dépannage et d'Apprentissage en math et en stat vise à soutenir les apprentissages :
+tutorat, ateliers ciblés, et conseils méthodologiques.
 Les détails (horaires, inscriptions) sont publiés sur la page [CDA](../../cda/index.qmd).
+
+## Services et informations pratiques
+
+::: {.link-list}
+[Mission, services et GPT-CDA](../../cda/index.qmd){.btn .btn-outline-dark}
+[Page officielle et modalités du CDA](https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique/etudier/centre-de-depannage-et-dapprentissage){.btn .btn-outline-dark}
+:::

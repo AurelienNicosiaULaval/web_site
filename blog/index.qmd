@@ -5,7 +5,27 @@ listing:
   sort: "date desc"
   type: default
   categories: true
+embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Enseignement · Statistique · CDA"
+  lead: "Notes sur les cours et la vie du CDA."
+  summary: "Les billets du site et les archives du blog."
+  image: "../assets/design/headers/blog.png"
+  nav-label: "Dans cette page"
+  compact: false
+  token: false
+  links:
+    - label: "Les billets"
+      href: "#listing-listing"
+    - label: "Archives WordPress"
+      href: "https://aureliennicosia.wordpress.com/"
 ---
 
 
-Notes rapides sur l'enseignement, la statistique et la vie du **CDA**.
+Notes rapides sur l'enseignement, la statistique et la vie du CDA.
+
+::: {.blog-links .link-list}
+[Actualités récentes](../index.qmd#actualités-et-points-forts){.btn .btn-outline-dark}
+[Archives du blog WordPress](https://aureliennicosia.wordpress.com/){.btn .btn-outline-dark}
+:::

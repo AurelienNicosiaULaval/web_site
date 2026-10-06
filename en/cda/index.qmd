@@ -1,6 +1,24 @@
 ---
-title: "Center for Tutoring and Learning (CDA) - Math & Stat"
+title: "CDA and GPT-CDA"
+subtitle: "Center for Tutoring and Learning · Mathematics and Statistics"
 lang: en
+embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Teaching · Support · Learning"
+  lead: "Support learning in mathematics and statistics."
+  summary: "Tutoring, workshops and digital resources to support reasoning and progress in courses."
+  image: "../../assets/design/headers/cda.png"
+  nav-label: "On this page"
+  compact: true
+  token: false
+  links:
+    - label: "Services"
+      href: "#services"
+    - label: "GPT-CDA"
+      href: "#gpt-cda"
+    - label: "Information"
+      href: "#practical-information"
 ---
 
 ## Mission

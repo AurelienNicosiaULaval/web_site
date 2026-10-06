@@ -1,58 +1,157 @@
 ---
 title: "Resources"
 lang: en
+embed-resources: true
+toc: false
+page-layout: full
 ---
 
+::::: {.resources-page}
+
+```{=html}
+<section class="resources-hero" aria-labelledby="resources-title">
+  <div class="resources-inner resources-hero-grid">
+    <div class="resources-hero-copy">
+      <p class="resources-kicker">Data · Teaching · Creation</p>
+      <h1 id="resources-title">Resources</h1>
+      <p class="resources-lead">Teach, learn<br>and explore differently.</p>
+      <p class="resources-description">Data, teaching materials, reading and projects at the intersection of mathematics and creativity.</p>
+      <nav class="resources-jump" aria-label="On this page">
+        <a href="#datasets-materials-and-workshops">Datasets and materials</a>
+        <a href="#library">Library</a>
+        <a href="#explorations">Explorations</a>
+      </nav>
+    </div>
+    <div class="resources-hero-art" aria-hidden="true">
+      <img src="../assets/design/featured-teaching.png" alt="" width="1254" height="1254">
+    </div>
+  </div>
+</section>
+```
+
+:::: {.resources-inner .resources-content}
+
+## Datasets, materials and workshops
+
+::: {.resources-access-grid}
+::: {.resources-access}
+### Datasets and materials
+
+Access data and teaching resources in statistics and data science.
+
+[Données bleues <i class="bi bi-arrow-up-right" aria-hidden="true"></i>](https://aureliennicosiaulaval.github.io/donnees-bleues/){.resources-access-link}
+
+[Ressources SSD <i class="bi bi-arrow-up-right" aria-hidden="true"></i>](https://aureliennicosiaulaval.github.io/site_ressources_SSD/){.resources-access-link}
+:::
+
+::: {.resources-access}
+### Presentations and workshops
+
+Find a presentation or explore outreach and training activities.
+
+[Au-delà du prompt (French) <i class="bi bi-arrow-right" aria-hidden="true"></i>](../presentations/au-dela-du-prompt/index.qmd){.resources-access-link}
+
+[Workshops <i class="bi bi-arrow-right" aria-hidden="true"></i>](innovation.qmd#outreach){.resources-access-link}
+:::
+:::
+
+::: {.resources-library}
+::: {.resources-library-copy}
+<p class="resources-kicker">Along the bookshelves</p>
+
+## Library
+
+602 distinct editions, from classics in mathematics to statistics, data science and scientific curiosities.
+
+[Explore the collection <i class="bi bi-arrow-right" aria-hidden="true"></i>](library.qmd){.btn .btn-primary}
+:::
+
+```{=html}
+<div class="resources-book-covers">
+  <img src="https://covers.openlibrary.org/b/id/7863918-M.jpg" alt="Cover of An Introduction to Statistical Learning, Gareth James" width="180" height="270" loading="lazy">
+  <img src="https://covers.openlibrary.org/b/id/245123-M.jpg" alt="Cover of All of Statistics, Larry Wasserman" width="180" height="270" loading="lazy">
+</div>
+```
+:::
+
+::: {.resources-updates}
+### Updates and posts
+
+::: {.resources-update-links}
+[Updates <i class="bi bi-arrow-right" aria-hidden="true"></i>](index.qmd#updates-and-highlights){.resources-text-link}
+
+[Posts (French) <i class="bi bi-arrow-right" aria-hidden="true"></i>](../blog/index.qmd){.resources-text-link}
+:::
+:::
+
+::: {.resources-explorations}
 ## Explorations
 
-::: {.section-intro}
+::: {.resources-exploration-intro}
 This page gathers more exploratory projects that complement my research and teaching activities. They focus on connections between mathematics, writing, visualization, and digital creation.
 :::
 
-::: {.resource-grid}
-::: {.resource-card}
+::: {.resources-exploration-row}
+::: {.resources-exploration-heading}
 ::: {.eyebrow}
 Mathematics and art
 :::
 
 ### Digital drawing with R
-
-Exploration of textures, patterns, and generative images produced with R, `ggplot2`, and probabilistic processes. The project uses visualization as a meeting point between statistical rigor and creative work.
 :::
 
-::: {.resource-card}
+::: {.resources-exploration-body}
+Exploration of textures, patterns, and generative images produced with R, `ggplot2`, and probabilistic processes. The project uses visualization as a meeting point between statistical rigor and creative work.
+:::
+:::
+
+::: {.resources-exploration-row}
+::: {.resources-exploration-heading}
 ::: {.eyebrow}
 Outreach writing
 :::
 
 ### Mathematical recipes
-
-Writing project where mathematical concepts are presented as short, visual, and structured recipes. The objective is to make the formal beauty of mathematics more accessible without sacrificing precision.
-
-[Sample of two mathematical recipes](../Example Recipes.pdf){.btn .btn-outline-dark}
 :::
 
-::: {.resource-card}
+::: {.resources-exploration-body}
+Writing project where mathematical concepts are presented as short, visual, and structured recipes. The objective is to make the formal beauty of mathematics more accessible without sacrificing precision.
+
+[Sample of two mathematical recipes <i class="bi bi-file-earmark-pdf" aria-hidden="true"></i>](../Example Recipes.pdf){.resources-text-link}
+:::
+:::
+
+::: {.resources-exploration-row}
+::: {.resources-exploration-heading}
 ::: {.eyebrow}
 Data science
 :::
 
 ### Data Kitchen
-
-Learning-platform project inspired by culinary language, designed to explain the stages of a data project through concrete analogies and reproducible examples.
 :::
 
-::: {.resource-card}
+::: {.resources-exploration-body}
+Learning-platform project inspired by culinary language, designed to explain the stages of a data project through concrete analogies and reproducible examples.
+:::
+:::
+
+::: {.resources-exploration-row}
+::: {.resources-exploration-heading}
 ::: {.eyebrow}
 Digital creativity
 :::
 
 ### Visualization and communication
+:::
 
+::: {.resources-exploration-body}
 Exploratory work on how visual forms, metaphors, and interfaces can support understanding of statistical or mathematical concepts.
 :::
 :::
 
-::: {.highlight-strip}
+::: {.resources-guiding-thread}
 Guiding thread: connect scientific rigor, visual clarity, and human creativity to make mathematics and data science more accessible.
 :::
+:::
+::::
+:::::

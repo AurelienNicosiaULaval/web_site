@@ -1,6 +1,22 @@
 ---
 embed-resources: true
 title: "À propos"
+title-block-banner: true
+page-hero:
+  kicker: "Aurélien Nicosia · Université Laval"
+  lead: "Un parcours entre recherche et enseignement."
+  summary: "Mon profil, mes expériences en science des données et mes activités universitaires, avec les coordonnées pour me joindre."
+  image: "assets/design/headers/about.png"
+  nav-label: "Dans cette page"
+  compact: false
+  token: false
+  links:
+    - label: "Profil"
+      href: "#profil"
+    - label: "Réalisations"
+      href: "#réalisations-récentes"
+    - label: "Contact"
+      href: "#contact"
 ---
 
 ## Profil

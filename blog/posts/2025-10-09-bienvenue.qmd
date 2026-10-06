@@ -2,7 +2,29 @@
 title: "Bienvenue sur mon site Quarto"
 date: 2025-10-09
 categories: [Annonce]
+embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Billets · Site · Ressources"
+  lead: "Un site pour les cours, les ressources et le CDA."
+  summary: "Présentation du site d’enseignement réalisé avec Quarto et GitHub Pages."
+  image: "../../assets/design/headers/welcome.png"
+  nav-label: "Dans cette page"
+  compact: true
+  token: false
+  links:
+    - label: "Explorer le site"
+      href: "#explorer-le-site"
 ---
 
-Lancement de mon site d'enseignant (Quarto + GitHub Pages). 
-Vous y trouverez mes pages de cours, des ressources et les informations du **CDA**.
+Lancement de mon site d'enseignant (Quarto + GitHub Pages).
+Vous y trouverez mes pages de cours, des ressources et les informations du CDA.
+
+## Explorer le site
+
+::: {.link-list}
+[Cours et encadrement](../../enseignement.qmd){.btn .btn-outline-dark}
+[Recherche et publications](../../recherche.qmd){.btn .btn-outline-dark}
+[Ressources et bibliothèque](../../ressources.qmd){.btn .btn-outline-dark}
+[CDA et GPT-CDA](../../cda/index.qmd){.btn .btn-outline-dark}
+:::

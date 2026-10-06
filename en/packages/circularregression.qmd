@@ -1,6 +1,23 @@
 ---
 title: "CircularRegression"
 lang: en
+embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Regression · Circular data · R"
+  lead: "Model a circular response."
+  summary: "Angular regression, consensus models and clustered circular responses."
+  image: "../../assets/design/headers/circularregression.png"
+  nav-label: "On this page"
+  compact: true
+  token: true
+  links:
+    - label: "Preview"
+      href: "#toc-title"
+    - label: "Example"
+      href: "#visual-preview"
+    - label: "Functions"
+      href: "#usage-example"
 ---
 
 ::: {.package-hero}

@@ -2,6 +2,20 @@
 title: "lmmix"
 description: "Modèles linéaires mixtes à résidus corrélés"
 embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Modèles mixtes · Inférence · R"
+  lead: "Modéliser les effets aléatoires et la corrélation."
+  summary: "Modèles linéaires mixtes gaussiens, structures de covariance et outils d’inférence."
+  image: "../assets/design/headers/lmmix.png"
+  nav-label: "Dans cette page"
+  compact: false
+  token: false
+  links:
+    - label: "Sur cette page"
+      href: "#toc-title"
+    - label: "Modèles et inférence"
+      href: "#modèles-et-inférence"
 ---
 
 ::: {.section-intro}

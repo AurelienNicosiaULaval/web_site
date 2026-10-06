@@ -1,6 +1,23 @@
 ---
-title: "Media"
+title: "Media and awards"
 lang: en
+embed-resources: true
+title-block-banner: true
+page-hero:
+  kicker: "Media · Communication · Awards"
+  lead: "Share ideas and research."
+  summary: "Articles, videos, public mentions and competitions, with links to their sources."
+  image: "../assets/design/headers/media-awards.png"
+  nav-label: "On this page"
+  compact: true
+  token: false
+  links:
+    - label: "Videos"
+      href: "#videos"
+    - label: "Press"
+      href: "#press-news-selection"
+    - label: "Competitions"
+      href: "#competitions"
 ---
 
 ## Overview
@@ -14,45 +31,49 @@ This page gathers public mentions, articles, videos, competitions, and professio
 ### Cogito 2016 - *Animal habits and cloud formation*
 
 <div style="aspect-ratio:16/9;">
-  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/k96TG-NBua4" title="Cogito 2016 - Episode 1" frameborder="0" allowfullscreen></iframe>
+  <iframe data-external="1" width="100%" height="100%" src="https://www.youtube.com/embed/k96TG-NBua4" title="Cogito 2016 - Episode 1" frameborder="0" allowfullscreen></iframe>
 </div>
+
+[Watch this video on YouTube](https://www.youtube.com/watch?v=k96TG-NBua4)
 
 _Source:_ Cogito series (Canal Savoir / AELIÉS, 2016).
 
 ### Co-operators Innovation Space presentation
 
 <div style="aspect-ratio:16/9;">
-  <iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=dvhPPcdSVDM" title="Co-operators Innovation Space presentation" frameborder="0" allowfullscreen></iframe>
+  <iframe data-external="1" width="100%" height="100%" src="https://www.youtube.com/embed/dvhPPcdSVDM" title="Co-operators Innovation Space presentation" frameborder="0" allowfullscreen></iframe>
 </div>
+
+[Watch this video on YouTube](https://www.youtube.com/watch?v=dvhPPcdSVDM)
 
 
 ### SAS Global Forum 2016 - Student Symposium
 
-Official recap (SAS Blog) with archive resources and videos.
-→ <https://www.fsg.ulaval.ca/faculte/actualites/mm-nicosia-et-perreault-grands-vainqueurs-du-symposium-etudiant-du-sas-global-forum-2016-1812>
+Article from the Faculty of Science and Engineering (April 27, 2016), with links to a report and an interview.
+→ [Article and resources](https://www.fsg.ulaval.ca/faculte/actualites/mm-nicosia-et-perreault-grands-vainqueurs-du-symposium-etudiant-du-sas-global-forum-2016-1812)
 
 ---
 
 ## Press & news (selection)
 
-- **ULaval News** - *Le GPT-CDA, un robot conversationnel qui épaule les étudiantes et étudiants dans les cours de mathématiques et de statistique* (May 22, 2026).
-  Article: <https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30>
+- ULaval News - *Le GPT-CDA, un robot conversationnel qui épaule les étudiantes et étudiants dans les cours de mathématiques et de statistique* (May 22, 2026).
+  Article: [Read the ULaval News article](https://nouvelles.ulaval.ca/2026/05/22/le-gpt-cda-un-robot-conversationnel-qui-epaule-les-etudiantes-et-etudiants-dans-les-cours-de-mathematiques-et-de-statistique-66c35c61-4649-41a0-befb-c2f79036ac30)
 
-- **SSC 2026** - 2026 New Investigator Presentation Award for a presentation on LOO-LBFP.
-  Presentation: <https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf>
+- SSC 2026 - 2026 New Investigator Presentation Award for a presentation on LOO-LBFP.
+  Presentation: [SSC 2026 presentation (PDF)](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf)
 
-- **MT180 (Faculty of Science and Engineering, Université Laval)** - *Jury favorite* (March 7, 2016).
+- MT180 (Faculty of Science and Engineering, Université Laval) - *Jury favorite* (March 7, 2016).
 
-- **ActuLab (Université Laval - Actuarial Science)** - Event poster (2016), including the presentation *"Can you predict my golf score?"*.
+- ActuLab (Université Laval - Actuarial Science) - Event poster (2016), including the presentation *"Can you predict my golf score?"*.
 
 ---
 
 ## Competitions
 
-- **SAS Global Forum - Student Symposium (2016)**
+- SAS Global Forum - Student Symposium (2016)
   Proceedings recap from SAS GF 2016, program and papers.
 
-- **ActuLab (2015)** - *"Can you predict my golf score?"* (winning problem).
+- ActuLab (2015) - *"Can you predict my golf score?"* (winning problem).
   Explanatory WordPress post: "How to predict your golf score like a pro?"
 
 ---
@@ -61,26 +82,26 @@ Official recap (SAS Blog) with archive resources and videos.
 
 ### Shiny App Store - Shiny Contest (Posit Community, 2021)
 
-"App Store" prototype for Shiny applications, co-developed by **Penelope Ferron** and **Aurélien Nicosia** (May 12, 2021).
-→ Discussion (Posit Community): <https://forum.posit.co/t/shiny-app-store-shiny-contest-submission/104579>
+"App Store" prototype for Shiny applications, co-developed by Penelope Ferron and Aurélien Nicosia (May 12, 2021).
+→ Discussion (Posit Community): [Posit Community discussion](https://forum.posit.co/t/shiny-app-store-shiny-contest-submission/104579)
 
 ---
 
 ## Blog & personal website
 
-- **WordPress (blog / portfolio)** - Posts on SAS GF, Cogito, Shiny apps, publications, etc.
-  Home page: <https://aureliennicosia.wordpress.com/>
-  Shiny page (demo related to the Student Symposium): <https://aureliennicosia.wordpress.com/shiny-app/>
+- WordPress (blog / portfolio) - Posts on SAS GF, Cogito, Shiny apps, publications, etc.
+  Home page: [WordPress blog](https://aureliennicosia.wordpress.com/)
+  Shiny page (demo related to the Student Symposium): [Shiny demonstration](https://aureliennicosia.wordpress.com/shiny-app/)
   Post: "How to predict your golf score like a pro?" (ActuLab, 2015).
 
 ---
 
 ## Professional presence
 
-- **ResearchGate** - Public profile (publications, reads, citations).
-  <https://www.researchgate.net/profile/Aurelien-Nicosia-2>
+- ResearchGate - Public profile (publications, reads, citations).
+  [ResearchGate profile](https://www.researchgate.net/profile/Aurelien-Nicosia-2)
 
 ## EIOM - Interdisciplinary School of Tools & Methods (LinkedIn mention)
 
-- **EIOM (Université Laval)** - LinkedIn post (5th edition, 2025).
-  Link: <https://www.linkedin.com/posts/eiomulaval_jour-2-de-leiom-2025-5e-%C3%A9dition-activity-7366140743142240256-d4O_>
+- EIOM (Université Laval) - LinkedIn post (5th edition, 2025).
+  Link: [EIOM LinkedIn post](https://www.linkedin.com/posts/eiomulaval_jour-2-de-leiom-2025-5e-%C3%A9dition-activity-7366140743142240256-d4O_)

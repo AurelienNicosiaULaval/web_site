@@ -1,10 +1,10 @@
 ---
+embed-resources: true
 title: "Ma bibliothèque"
 toc: false
 page-layout: full
 format:
   html:
-    embed-resources: true
     css: assets/library/library.css
 resources:
   - assets/library/library-data.json
@@ -15,6 +15,8 @@ resources:
 ::: {.library-hero aria-labelledby="library-title"}
 ::: {.library-shell .library-hero-layout}
 ::: {.library-hero-copy}
+<p class="site-hero-kicker">Au fil des lectures · Mathématiques · Science des données</p>
+
 <h1 id="library-title">Ma bibliothèque</h1>
 
 <p class="library-lead">Une collection vivante de <span data-total-books>602</span> éditions distinctes issues de <span data-total-source-records>618</span> notices CLZ, entre classiques des mathématiques, statistique, science des données et curiosités scientifiques.</p>
@@ -44,9 +46,19 @@ resources:
 :::
 
 ::: {.library-hero-visual}
+```{=html}
+<div class="resources-book-covers">
+  <img src="https://covers.openlibrary.org/b/id/7863918-M.jpg" alt="Couverture de An Introduction to Statistical Learning, Gareth James" width="180" height="270">
+  <img src="https://covers.openlibrary.org/b/id/245123-M.jpg" alt="Couverture de All of Statistics, Larry Wasserman" width="180" height="270">
+</div>
+```
+:::
+:::
+:::
+
+::: {.library-shell .library-header-selection}
+<h2>Une première sélection</h2>
 <div class="library-hero-shelf" id="library-hero-shelf" aria-label="Sélection de livres du catalogue"></div>
-:::
-:::
 :::
 
 ::: {.library-analysis aria-labelledby="analysis-title"}

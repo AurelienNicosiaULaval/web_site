@@ -58,9 +58,10 @@ Research code
 
 ### Extra states in HMMs
 
-Study of extra hidden states under emission misspecification, with a genomic application and supplementary elk movement analyses.
+Reproducibility materials for *Extra hidden states under emission misspecification in hidden Markov models*, published in *Statistica Neerlandica* (2026), with a genomic application.
 
 ::: {.link-list}
+[Published article](https://doi.org/10.1111/stan.70042){.btn .btn-outline-dark}
 [Repository](https://github.com/AurelienNicosiaULaval/corrective-hmm-states){.btn .btn-outline-dark}
 :::
 :::

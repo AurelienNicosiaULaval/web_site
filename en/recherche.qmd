@@ -41,6 +41,8 @@ My work with Thierry Duchesne, Louis-Paul Rivest and Daniel Fortin developed mul
 
 In [Beyond the next step (2026)](https://doi.org/10.1111/2041-210X.70313), I propose generative validation for step-selection functions: comparing simulated trajectories with the movement features that motivate the analysis. My preprints study sequential predictive diagnostics and uncertainty in latent-state sequences.
 
+In [Extra hidden states under emission misspecification in hidden Markov models (2026)](https://doi.org/10.1111/stan.70042), published in *Statistica Neerlandica*, I study how additional states can compensate for restrictive emission distributions. A genomic application illustrates the distinction between the number of fitted states and the number of scientifically distinct regimes.
+
 ::: {.link-list}
 [Viterbi tubes, preprint](https://arxiv.org/abs/2606.17181){.btn .btn-outline-dark}
 :::
@@ -123,7 +125,7 @@ Code repositories, analyses and prototypes are collected in [Open projects](rese
 
 ## Publications {#publications}
 
-References updated October 6, 2026. Preprints are listed separately from published journal articles.
+References updated October 15, 2026. Preprints are listed separately from published journal articles.
 
 ### Peer-reviewed articles
 

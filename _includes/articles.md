@@ -1,3 +1,5 @@
+- Nicosia, A. (2026). Extra hidden states under emission misspecification in hidden Markov models. Statistica Neerlandica, 80(4), e70042. [https://doi.org/10.1111/stan.70042](https://doi.org/10.1111/stan.70042)
+
 - Amicizia, D., Marchini, F., Schenone, I., Massaro, E., Landa, P., Nicosia, A., Orsi, A., Icardi, G., Ansaldi, F. (2026). Adjuvanted Influenza Vaccines Versus Other Influenza Vaccines in Adults Aged ≥60 Years: A Systematic Review and Meta-Analysis of Relative Effectiveness for Preventing Influenza-Related Hospitalization. Vaccines, 14(10), 883. [https://doi.org/10.3390/vaccines14100883](https://doi.org/10.3390/vaccines14100883)
 
 - Nicosia, A. (2026). Visualizing directional dependence on cylinders and tori. Journal of Data Science, Statistics, and Visualisation, 6(7). [https://doi.org/10.52933/jdssv.v6i7.181](https://doi.org/10.52933/jdssv.v6i7.181)

@@ -120,6 +120,21 @@ Packages R sur le CRAN, logiciels en développement et ressources pédagogiques 
 
 ::: {.news-panel}
 ::: {.eyebrow}
+Publication · 14 octobre 2026
+:::
+
+### États supplémentaires dans les HMM
+
+Mon article *Extra hidden states under emission misspecification in hidden Markov models* est publié dans *Statistica Neerlandica*, 80(4), e70042. Il étudie comment des états supplémentaires peuvent compenser des distributions d’émission trop restrictives, avec une application génomique.
+
+::: {.link-list}
+[Lire l’article](https://doi.org/10.1111/stan.70042){.btn .btn-outline-dark}
+[Code et analyses](https://github.com/AurelienNicosiaULaval/corrective-hmm-states){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.news-panel}
+::: {.eyebrow}
 Publication · 6 octobre 2026
 :::
 

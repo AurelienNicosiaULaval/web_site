@@ -57,9 +57,10 @@ Code de recherche
 
 ### États supplémentaires dans les HMM
 
-Étude des états supplémentaires lorsque la distribution d’émission est mal spécifiée, avec une application génomique et des analyses complémentaires du mouvement de wapitis.
+Matériel de reproduction de l’article *Extra hidden states under emission misspecification in hidden Markov models*, publié dans *Statistica Neerlandica* (2026), avec une application génomique.
 
 ::: {.link-list}
+[Article publié](https://doi.org/10.1111/stan.70042){.btn .btn-outline-dark}
 [Dépôt public](https://github.com/AurelienNicosiaULaval/corrective-hmm-states){.btn .btn-outline-dark}
 :::
 :::

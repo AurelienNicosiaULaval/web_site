@@ -1,0 +1,8 @@
+Paysage imaginaire de l’atelier AMQ
+
+Fichier : paysage-aventure.png
+Illustration créée le 24 septembre 2026 avec l’outil de génération d’images intégré à Codex. Elle sert de décor narratif. Ce n’est ni une photographie documentaire ni une carte de l’habitat du cerf suivi.
+
+Consigne de création : panorama 16:9 vu en surplomb d’un paysage tempéré imaginaire, forêt sombre à gauche, prairies au centre, rivière sinueuse et collines boisées à droite; petit cerf en bas à gauche; style atlas naturaliste à l’encre et à la gouache, verts profonds, ivoire et ocre; zones calmes dans la moitié supérieure pour les titres; sans texte, symboles mathématiques, légende, tracé GPS ou filigrane.
+
+Les scènes de données, les probabilités et les diagrammes mathématiques sont calculés séparément dans aventure.js et labs.js. Le paysage n’ajoute aucune information scientifique aux positions GPS.

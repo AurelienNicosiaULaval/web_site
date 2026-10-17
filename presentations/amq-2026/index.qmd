@@ -1,0 +1,33 @@
+---
+title: "Sur la piste des animaux"
+subtitle: "Les mathématiques du mouvement"
+description: "Présentation interactive d’Aurélien Nicosia pour l’atelier AMQ 2026 : marches aléatoires, directions, sélection de pas, régimes de mouvement et validation."
+author: "Aurélien Nicosia"
+embed-resources: true
+toc: false
+title-block-banner: true
+page-hero:
+  kicker: "Atelier AMQ 2026"
+  lead: "Les mathématiques du mouvement"
+  summary: "Des positions GPS aux modèles de mouvement animal."
+  image: "assets/cerf-elaphe.jpg"
+  nav-label: "Accès à la présentation"
+  compact: true
+  token: false
+  links:
+    - label: "Ouvrir la présentation"
+      href: "presentation.html"
+---
+
+Comment passer d’une suite de positions GPS à un modèle de mouvement animal? La présentation relie la géométrie des déplacements aux marches aléatoires, aux lois directionnelles, à la sélection de pas et aux modèles à régimes, puis à la validation par simulation.
+
+::: {.link-list}
+[Ouvrir la présentation interactive](presentation.html){.btn .btn-primary target="_blank" rel="noopener"}
+[Télécharger la version HTML](presentation.html){.btn .btn-outline-dark download="presentation-amq-2026.html"}
+:::
+
+Le parcours comprend 49 diapositives principales, suivies des annexes et des références. Les flèches permettent d’avancer dans les animations; les démonstrations comportent leurs propres commandes.
+
+La même adresse donne accès aux mises à jour de la présentation.
+
+Les références et crédits sont regroupés à la fin du diaporama. Les [crédits détaillés des images](assets/SOURCES-IMAGES.md) et la [notice de l’illustration](assets/illustration.txt) sont aussi disponibles séparément.

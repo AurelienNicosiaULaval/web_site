@@ -22,6 +22,8 @@ project:
     - "presentations/au-dela-du-prompt/diaporama/**"
     - "presentations/au-dela-du-prompt/*.pdf"
     - "presentations/au-dela-du-prompt/ressources/**"
+    - "presentations/amq-2026/presentation.html"
+    - "presentations/amq-2026/assets/**"
   render:
     - "*.qmd"
     - "**/*.qmd"

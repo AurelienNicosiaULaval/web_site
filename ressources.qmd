@@ -48,6 +48,8 @@ Des points d’entrée vers les données et les ressources pédagogiques en stat
 
 Retrouver une présentation ou parcourir les activités de partage et de formation.
 
+[Sur la piste des animaux · AMQ 2026 <i class="bi bi-arrow-right" aria-hidden="true"></i>](presentations/amq-2026/index.qmd){.resources-access-link}
+
 [Au-delà du prompt (français) <i class="bi bi-arrow-right" aria-hidden="true"></i>](presentations/au-dela-du-prompt/index.qmd){.resources-access-link}
 
 [Ateliers <i class="bi bi-arrow-right" aria-hidden="true"></i>](innovation.qmd#rayonnement){.resources-access-link}

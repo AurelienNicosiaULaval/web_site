@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aureliennicosiaulaval.github.io/web_site/ressources.html</loc>
-    <lastmod>2026-10-05T19:06:13.016Z</lastmod>
+    <lastmod>2026-10-17T12:05:53.890Z</lastmod>
   </url>
   <url>
     <loc>https://aureliennicosiaulaval.github.io/web_site/recherche.html</loc>
@@ -154,7 +154,7 @@
   </url>
   <url>
     <loc>https://aureliennicosiaulaval.github.io/web_site/innovation.html</loc>
-    <lastmod>2026-10-05T22:24:29.736Z</lastmod>
+    <lastmod>2026-10-17T12:05:53.890Z</lastmod>
   </url>
   <url>
     <loc>https://aureliennicosiaulaval.github.io/web_site/packages/circularregression.html</loc>
@@ -183,5 +183,9 @@
   <url>
     <loc>https://aureliennicosiaulaval.github.io/web_site/research-lab.html</loc>
     <lastmod>2026-10-15T10:02:06.607Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aureliennicosiaulaval.github.io/web_site/presentations/amq-2026/index.html</loc>
+    <lastmod>2026-10-17T12:06:52.471Z</lastmod>
   </url>
 </urlset>

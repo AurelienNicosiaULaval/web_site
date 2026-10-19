@@ -120,6 +120,18 @@ Packages R sur le CRAN, logiciels en développement et ressources pédagogiques 
 
 ::: {.news-panel}
 ::: {.eyebrow}
+Atelier AMQ 2026
+:::
+
+### Sur la piste des animaux {#actualite-amq-2026}
+
+Des positions GPS aux modèles de mouvement animal : marches aléatoires, statistiques directionnelles, sélection de pas, régimes de mouvement et validation par simulation.
+
+[Ouvrir la présentation interactive](presentations/amq-2026/presentation.html){.btn .btn-outline-dark}
+:::
+
+::: {.news-panel}
+::: {.eyebrow}
 Publication · 14 octobre 2026
 :::
 

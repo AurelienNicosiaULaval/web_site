@@ -120,14 +120,11 @@ R implementations associated with my work are presented in the [package catalogu
 
 Code repositories, analyses and prototypes are collected in [Open projects](research-lab.qmd#research-code). Each entry links to the available materials.
 
-## Recent presentations
+## Presentations {#presentations}
 
-- SSC 2026. A Leave-One-Out Influence Statistic for Scalable Density-Based Outlier Detection, with Thierry Duchesne and Michel Carbon. [Presentation PDF](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf) and [GitHub repository](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation). This presentation received the 2026 New Investigator Presentation Award.
+<span id="recent-presentations"></span><span id="earlier-presentations"></span>
 
-## Earlier presentations (2014-2016) {#earlier-presentations}
-
-These historical documents trace my early work on directional statistics and animal movement models. They are preserved in their original form.
-
+- 2026\. *A Leave-One-Out Influence Statistic for Scalable Density-Based Outlier Detection*, Statistical Society of Canada meeting, with Thierry Duchesne and Michel Carbon. [Presentation PDF](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf) and [GitHub repository](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation). This presentation received the 2026 New Investigator Presentation Award.
 - 2016\. *Multi-state Models for Animal Movement Analysis*, Statistical Society of Canada meeting, St. Catharines. [Original presentation (PDF)](../assets/archives/2016-ssc-modeles-multi-etats.pdf).
 - 2015\. *Statistique directionnelle et modèle caché… ou comment modéliser le mouvement d’un animal?*, statistics seminar, Université Laval, with Thierry Duchesne, Louis-Paul Rivest and Daniel Fortin. [Original presentation in French (PDF)](../assets/archives/2015-seminaire-statistique-directionnelle.pdf).
 - 2015\. *Un modèle général de marche aléatoire directionnelle : application au mouvement animalier*, ACFAS congress, with Thierry Duchesne and Louis-Paul Rivest. [Original presentation in French (PDF)](../assets/archives/2015-acfas-marche-aleatoire-directionnelle.pdf).

@@ -119,14 +119,11 @@ Les implémentations R associées à mes travaux sont présentées dans le [cata
 
 Les dépôts de code, les analyses et les prototypes sont regroupés dans [Projets ouverts](research-lab.qmd#code-recherche). Chaque fiche donne accès au matériel disponible.
 
-## Communications récentes
+## Communications {#communications}
 
-- SSC 2026. A Leave-One-Out Influence Statistic for Scalable Density-Based Outlier Detection, avec Thierry Duchesne et Michel Carbon. [PDF de la présentation](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf) et [dépôt GitHub](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation). Cette présentation a reçu le 2026 New Investigator Presentation Award.
+<span id="communications-récentes"></span><span id="communications-anterieures"></span>
 
-## Communications antérieures (2014-2016) {#communications-anterieures}
-
-Ces documents d’époque retracent mes premiers travaux en statistique directionnelle et en modélisation du mouvement animalier. Ils sont conservés dans leur version originale.
-
+- 2026\. *A Leave-One-Out Influence Statistic for Scalable Density-Based Outlier Detection*, congrès de la Société statistique du Canada, avec Thierry Duchesne et Michel Carbon. [PDF de la présentation](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf) et [dépôt GitHub](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation). Cette présentation a reçu le 2026 New Investigator Presentation Award.
 - 2016\. *Multi-state Models for Animal Movement Analysis*, congrès de la Société statistique du Canada, St. Catharines. [Présentation originale (PDF)](assets/archives/2016-ssc-modeles-multi-etats.pdf).
 - 2015\. *Statistique directionnelle et modèle caché… ou comment modéliser le mouvement d’un animal?*, séminaire de statistique, Université Laval, avec Thierry Duchesne, Louis-Paul Rivest et Daniel Fortin. [Présentation originale (PDF)](assets/archives/2015-seminaire-statistique-directionnelle.pdf).
 - 2015\. *Un modèle général de marche aléatoire directionnelle : application au mouvement animalier*, congrès de l’ACFAS, avec Thierry Duchesne et Louis-Paul Rivest. [Présentation originale (PDF)](assets/archives/2015-acfas-marche-aleatoire-directionnelle.pdf).

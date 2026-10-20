@@ -22,6 +22,8 @@ page-hero:
 
 ## Profil
 
+<img src="assets/design/portrait-aurelien-nicosia.png" alt="Portrait d’Aurélien Nicosia" width="240" height="240" style="float: right; width: min(38%, 240px); height: auto; margin: 0 0 1.25rem 1.5rem; border-radius: 50%;">
+
 ::: {.section-intro}
 Je suis chargé d’enseignement en mathématiques et statistiques au Département de mathématiques et de statistique de l’Université Laval, à Québec. Je coordonne aussi le Centre de Dépannage et d’Apprentissage en mathématiques et statistique, un service de soutien à la réussite destiné aux étudiantes et étudiants de plusieurs cours du Département.
 :::

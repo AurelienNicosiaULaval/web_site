@@ -1,4 +1,5 @@
 ---
+description: "Tutorat, ateliers et conseils méthodologiques : les repères pour trouver du soutien."
 title: "CDA : ce que nous offrons"
 date: 2025-10-09
 categories: [CDA, Pédagogie]

@@ -1,4 +1,5 @@
 ---
+description: "A ggplot2 extension for circular, axial and directional data."
 title: "ggcircular"
 lang: en
 embed-resources: true

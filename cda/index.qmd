@@ -1,4 +1,5 @@
 ---
+description: "Tutorat, ateliers et ressources numériques pour soutenir le raisonnement et la progression dans les cours."
 title: "CDA et GPT-CDA"
 subtitle: "Centre de Dépannage et d’Apprentissage · Mathématiques et statistique"
 embed-resources: true

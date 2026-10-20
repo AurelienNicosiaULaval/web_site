@@ -1,4 +1,5 @@
 ---
+description: "Data, teaching materials, reading and projects at the intersection of mathematics and creativity."
 title: "Resources"
 lang: en
 embed-resources: true

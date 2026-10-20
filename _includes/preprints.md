@@ -1,6 +1,6 @@
 - Nicosia, A., Duchesne, T., Carbon, M. (2026). A Leave-One-Out Influence Statistic for Density-Based Outlier Detection. arXiv:2607.14335. [doi:10.48550/arXiv.2607.14335](https://arxiv.org/abs/2607.14335).
 
-- Nicosia, A. (2026). A generalized angular regression model with a circular random intercept and a scalar random slope. arXiv:2607.06790. [doi:10.48550/arXiv.2607.06790](https://arxiv.org/abs/2607.06790).
+- Nicosia, A. (2026). Identifiability and likelihood estimation for homogeneous angular regression with random coefficients. arXiv:2607.06790. [doi:10.48550/arXiv.2607.06790](https://arxiv.org/abs/2607.06790).
 
 - Nicosia, A. (2026). Tropical Viterbi Tubes for Decoding Uncertainty in Hidden Markov Models. arXiv:2606.17181. [doi:10.48550/arXiv.2606.17181](https://arxiv.org/abs/2606.17181).
 

@@ -1,4 +1,5 @@
 ---
+description: "Données, supports pédagogiques, lectures et projets à la croisée des mathématiques et de la création."
 title: "Ressources"
 embed-resources: true
 toc: false

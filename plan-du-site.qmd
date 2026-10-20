@@ -1,4 +1,5 @@
 ---
+description: "Retrouver les pages de recherche, d’enseignement, de logiciels et de ressources, en français et en anglais."
 title: "Plan du site"
 lang: fr-CA
 embed-resources: true

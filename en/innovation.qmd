@@ -1,4 +1,5 @@
 ---
+description: "Open courses, interactive tutorials, local data and learning support: projects and outreach activities."
 title: "Educational Innovation"
 lang: en
 embed-resources: true

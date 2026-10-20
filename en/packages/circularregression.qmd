@@ -1,4 +1,5 @@
 ---
+description: "Angular regression, consensus models and clustered circular responses."
 title: "CircularRegression"
 lang: en
 embed-resources: true

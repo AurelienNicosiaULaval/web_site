@@ -1,4 +1,5 @@
 ---
+description: "Mon profil, mes expériences en science des données et mes activités universitaires, avec les coordonnées pour me joindre."
 embed-resources: true
 title: "À propos"
 title-block-banner: true

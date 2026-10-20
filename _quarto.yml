@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  post-render:
+    - python3 scripts/add-canonical.py
   resources:
     - ".nojekyll"
     - "!_site/**"
@@ -16,6 +18,7 @@ project:
     - "!scripts/**"
     - "!data/**"
     - "assets/logo.svg"
+    - "assets/archives/*.pdf"
     - "Example Recipes.pdf"
     - "cv/*.pdf"
     - "en/cv/*.pdf"
@@ -101,6 +104,7 @@ website:
       Québec, QC - [aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca)<br>
       [Plan du site](/plan-du-site.qmd)
     right: |
+      [Google Scholar](https://scholar.google.com/citations?user=lddfYEUAAAAJ) •
       [GitHub](https://github.com/AurelienNicosiaULaval) •
       [LinkedIn](https://www.linkedin.com/in/aur%C3%A9lien-nicosia-6a52487b/) •
       [ResearchGate](https://www.researchgate.net/profile/Aurelien-Nicosia-2?ev=prf_overview) •

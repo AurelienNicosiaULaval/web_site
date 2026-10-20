@@ -1,4 +1,5 @@
 ---
+description: "Aurélien Nicosia, PhD in statistics and lecturer at Université Laval: statistical methodology, R software and teaching resources."
 title: "Aurélien Nicosia"
 title-block-banner: false
 toc: false

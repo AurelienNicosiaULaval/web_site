@@ -1,4 +1,5 @@
 ---
+description: "R packages, documentation and open projects for modeling, visualization and teaching."
 title: "Software"
 lang: en
 embed-resources: true

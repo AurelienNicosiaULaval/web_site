@@ -1,4 +1,5 @@
 ---
+description: "Présentation du site d’enseignement réalisé avec Quarto et GitHub Pages."
 title: "Bienvenue sur mon site Quarto"
 date: 2025-10-09
 categories: [Annonce]

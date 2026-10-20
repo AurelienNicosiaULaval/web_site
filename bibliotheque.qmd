@@ -1,4 +1,5 @@
 ---
+description: "Catalogue de lectures en mathématiques, statistique et science des données, avec recherche et filtres."
 embed-resources: true
 title: "Ma bibliothèque"
 toc: false

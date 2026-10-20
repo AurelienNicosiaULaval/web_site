@@ -1,4 +1,5 @@
 ---
+description: "Aurélien Nicosia, docteur en statistique et chargé d’enseignement à l’Université Laval : recherche méthodologique, logiciels R et ressources pédagogiques."
 title: "Aurélien Nicosia"
 title-block-banner: false
 embed-resources: true

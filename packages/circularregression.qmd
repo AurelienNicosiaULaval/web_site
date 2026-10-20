@@ -1,4 +1,5 @@
 ---
+description: "Régression angulaire, modèles de consensus et réponses circulaires regroupées."
 title: "CircularRegression"
 embed-resources: true
 title-block-banner: true

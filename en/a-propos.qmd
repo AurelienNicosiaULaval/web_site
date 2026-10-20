@@ -1,4 +1,5 @@
 ---
+description: "My profile, experience in data science and academic activities, with contact information."
 embed-resources: true
 title: "About"
 lang: en

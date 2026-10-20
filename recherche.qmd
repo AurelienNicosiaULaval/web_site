@@ -1,4 +1,5 @@
 ---
+description: "Modèles séquentiels, données directionnelles et estimation de densité : les questions, les méthodes et les publications de mon programme de recherche."
 title: "Recherche"
 embed-resources: true
 title-block-banner: true
@@ -50,7 +51,7 @@ Dans [Extra hidden states under emission misspecification in hidden Markov model
 ::: {.research-card}
 ### Statistique directionnelle
 
-Avec Louis-Paul Rivest, Thierry Duchesne et Daniel Fortin, j’ai contribué à un [modèle général de régression angulaire (2016)](https://doi.org/10.1111/rssc.12124). Une [prépublication de 2026](https://arxiv.org/abs/2607.06790) propose une extension avec intercept aléatoire circulaire et pente aléatoire scalaire.
+Avec Louis-Paul Rivest, Thierry Duchesne et Daniel Fortin, j’ai contribué à un [modèle général de régression angulaire (2016)](https://doi.org/10.1111/rssc.12124). Ma [prépublication de 2026, révisée le 30 septembre](https://arxiv.org/abs/2607.06790), étudie l’identifiabilité et l’estimation par vraisemblance d’une régression angulaire homogène avec coefficients aléatoires corrélés et intercept aléatoire circulaire. Elle distingue les résultats d’identification des limites de calibration observées dans les simulations.
 
 Dans [Visualizing directional dependence on cylinders and tori (2026)](https://doi.org/10.52933/jdssv.v6i7.181), publié dans le *Journal of Data Science, Statistics, and Visualisation*, je propose une grammaire graphique conditionnelle pour la dépendance sur cylindres et tores. Les représentations sont implémentées dans ggcircular.
 
@@ -122,9 +123,20 @@ Les dépôts de code, les analyses et les prototypes sont regroupés dans [Proje
 
 - SSC 2026. A Leave-One-Out Influence Statistic for Scalable Density-Based Outlier Detection, avec Thierry Duchesne et Michel Carbon. [PDF de la présentation](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation/raw/main/main-beamer.pdf) et [dépôt GitHub](https://github.com/AurelienNicosiaULaval/ssc-2026-loo-lbfp-presentation). Cette présentation a reçu le 2026 New Investigator Presentation Award.
 
+## Communications antérieures (2014-2016) {#communications-anterieures}
+
+Ces documents d’époque retracent mes premiers travaux en statistique directionnelle et en modélisation du mouvement animalier. Ils sont conservés dans leur version originale.
+
+- 2016\. *Multi-state Models for Animal Movement Analysis*, congrès de la Société statistique du Canada, St. Catharines. [Présentation originale (PDF)](assets/archives/2016-ssc-modeles-multi-etats.pdf).
+- 2015\. *Statistique directionnelle et modèle caché… ou comment modéliser le mouvement d’un animal?*, séminaire de statistique, Université Laval, avec Thierry Duchesne, Louis-Paul Rivest et Daniel Fortin. [Présentation originale (PDF)](assets/archives/2015-seminaire-statistique-directionnelle.pdf).
+- 2015\. *Un modèle général de marche aléatoire directionnelle : application au mouvement animalier*, congrès de l’ACFAS, avec Thierry Duchesne et Louis-Paul Rivest. [Présentation originale (PDF)](assets/archives/2015-acfas-marche-aleatoire-directionnelle.pdf).
+- 2015\. Même thème présenté au XVIIIe Colloque panquébécois des étudiants et étudiantes de l’Institut des sciences mathématiques. [Présentation originale (PDF)](assets/archives/2015-ism-marche-aleatoire-directionnelle.pdf).
+- 2015\. Affiches sur les marches aléatoires directionnelles au congrès de la SSC et aux 20 ans de l’Association des statisticiennes et statisticiens du Québec.
+- 2014\. *Aventure statistique sur le cercle*, avec Jessica Bach, Université Laval. [Présentation originale (PDF)](assets/archives/2014-aventure-statistique-sur-le-cercle.pdf).
+
 ## Publications {#publications}
 
-Références mises à jour le 15 octobre 2026. Les prépublications sont présentées séparément des articles publiés dans des revues.
+Références mises à jour le 20 octobre 2026. Les prépublications sont présentées séparément des articles publiés dans des revues.
 
 ### Articles publiés avec comité de lecture
 

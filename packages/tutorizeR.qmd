@@ -1,4 +1,5 @@
 ---
+description: "Convertir des documents R Markdown et Quarto en activités interactives avec learnr ou quarto-live."
 title: "tutorizeR"
 embed-resources: true
 title-block-banner: true

@@ -1,4 +1,5 @@
 ---
+description: "Static and interactive maps, donut charts and origin-destination flows."
 title: "DonutMap"
 lang: en
 embed-resources: true

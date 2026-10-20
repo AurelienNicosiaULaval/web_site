@@ -1,4 +1,5 @@
 ---
+description: "Find research, teaching, software and resource pages in French and English."
 title: "Sitemap"
 lang: en
 embed-resources: true

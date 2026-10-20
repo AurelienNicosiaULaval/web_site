@@ -1,4 +1,5 @@
 ---
+description: "Reading catalogue in mathematics, statistics and data science, with search and filtering tools."
 embed-resources: true
 title: "My library"
 lang: en

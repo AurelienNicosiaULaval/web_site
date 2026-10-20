@@ -1,4 +1,5 @@
 ---
+description: "Tutoring, workshops and digital resources to support reasoning and progress in courses."
 title: "CDA and GPT-CDA"
 subtitle: "Center for Tutoring and Learning · Mathematics and Statistics"
 lang: en

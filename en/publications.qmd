@@ -1,4 +1,5 @@
 ---
+description: "Articles, videos, public mentions and competitions, with links to their sources."
 title: "Media and awards"
 lang: en
 embed-resources: true
@@ -49,7 +50,7 @@ _Source:_ Cogito series (Canal Savoir / AELIÉS, 2016).
 
 ### SAS Global Forum 2016 - Student Symposium
 
-Article from the Faculty of Science and Engineering (April 27, 2016), with links to a report and an interview.
+With Samuel Perreault, I won the Student Symposium at SAS Global Forum 2016 in Las Vegas for a large-scale data analysis project. The Faculty of Science and Engineering article published April 27, 2016 links to a report and an interview.
 → [Article and resources](https://www.fsg.ulaval.ca/faculte/actualites/mm-nicosia-et-perreault-grands-vainqueurs-du-symposium-etudiant-du-sas-global-forum-2016-1812)
 
 ---
@@ -70,11 +71,9 @@ Article from the Faculty of Science and Engineering (April 27, 2016), with links
 
 ## Competitions
 
-- SAS Global Forum - Student Symposium (2016)
-  Proceedings recap from SAS GF 2016, program and papers.
+- SAS Global Forum - Student Symposium (2016). Competition won with Samuel Perreault. [Université Laval article in French](https://www.fsg.ulaval.ca/faculte/actualites/mm-nicosia-et-perreault-grands-vainqueurs-du-symposium-etudiant-du-sas-global-forum-2016-1812).
 
-- ActuLab (2015) - *"Can you predict my golf score?"* (winning problem).
-  Explanatory WordPress post: "How to predict your golf score like a pro?"
+- ActuLab (2015) - *"Can you predict my golf score?"*. Competition won with Sylvain Demars. Our method predicts a final round score from the holes already played. [Original report in French: Méthode du plus proche voisinage (May 30, 2015, PDF)](../assets/archives/2015-demars-nicosia-golf.pdf).
 
 ---
 
@@ -87,12 +86,15 @@ Article from the Faculty of Science and Engineering (April 27, 2016), with links
 
 ---
 
-## Blog & personal website
+## Early work and tools (2015-2016) {#early-work}
 
-- WordPress (blog / portfolio) - Posts on SAS GF, Cogito, Shiny apps, publications, etc.
-  Home page: [WordPress blog](https://aureliennicosia.wordpress.com/)
-  Shiny page (demo related to the Student Symposium): [Shiny demonstration](https://aureliennicosia.wordpress.com/shiny-app/)
-  Post: "How to predict your golf score like a pro?" (ActuLab, 2015).
+These projects document my early R development and science communication activities.
+
+- 2015\. [GeneralOaxaca](packages.qmd#software-generaloaxaca), an R package for Blinder-Oaxaca decomposition of generalized linear models, published on CRAN.
+- 2016\. [Corrected-Ngrams](https://github.com/aureliennicosia/Corrected-Ngrams), a Shiny application associated with the work presented at the SAS Global Forum Student Symposium. It explores word frequencies in Google Ngram while accounting for the growth of the scientific literature.
+- 2016\. [Angular-Regression](https://github.com/aureliennicosia/Angular-Regression), a Shiny angular regression application with an example based on caribou movement.
+
+The application links lead to historical code and its original instructions. Current software is presented in the [software catalogue](packages.qmd).
 
 ---
 

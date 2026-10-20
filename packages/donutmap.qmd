@@ -1,4 +1,5 @@
 ---
+description: "Cartes statiques et interactives, diagrammes en anneau et flux origine-destination."
 title: "DonutMap"
 embed-resources: true
 title-block-banner: true

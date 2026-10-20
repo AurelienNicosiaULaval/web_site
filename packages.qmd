@@ -1,4 +1,5 @@
 ---
+description: "Packages R, documentation et projets ouverts pour la modélisation, la visualisation et l’enseignement."
 title: "Logiciels"
 embed-resources: true
 title-block-banner: true

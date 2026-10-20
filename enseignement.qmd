@@ -1,4 +1,5 @@
 ---
+description: "Cours, encadrement et ressources pour comprendre les méthodes, produire des analyses reproductibles et communiquer les résultats."
 title: "Enseignement"
 embed-resources: true
 title-block-banner: true
@@ -208,6 +209,10 @@ Le projet [GPT-CDA](cda/index.qmd) a obtenu deux subventions PAIP, en 2025 et en
 J’ai reçu les Étoiles de l’enseignement de la Faculté des sciences et de génie pour les années 2022-2023, 2023-2024, 2024-2025 et 2025-2026, ainsi que le Prix Professeur Étoile en 2014. En 2026, j’ai aussi reçu une mention des étudiants au prix de l’enseignement du Gala du mérite.
 
 [Cérémonie des Étoiles de l’enseignement FSG](https://www.fsg.ulaval.ca/faculte/evenements-facultaires/ceremonie-des-etoiles-de-lenseignement-fsg){.btn .btn-outline-dark}
+
+## Premiers ateliers R (2017)
+
+En juin 2017, un atelier de statistique CBS QCSC était accompagné de supports d’introduction à R et RStudio. Cette activité fait partie de mes premières ressources de formation à l’analyse de données.
 
 ## Ressources partagées
 

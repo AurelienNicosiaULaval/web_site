@@ -1,7 +1,8 @@
 ---
+description: "Formation, expérience, publications et activités d’enseignement : le parcours complet et les versions PDF."
 title: "Aurélien Nicosia"
 subtitle: "Curriculum vitae académique"
-date: 2026-10-15
+date: 2026-10-20
 date-format: "D MMMM YYYY"
 lang: fr-CA
 embed-resources: true
@@ -56,7 +57,7 @@ Chargé d’enseignement, Département de mathématiques et de statistique
 
 Université Laval, Québec, Canada
 
-[aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca) · [Site web](https://aureliennicosiaulaval.github.io/web_site/) · [ORCID 0000-0002-0974-9988](https://orcid.org/0000-0002-0974-9988) · [GitHub](https://github.com/AurelienNicosiaULaval)
+[aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca) · [Site web](https://aureliennicosiaulaval.github.io/web_site/) · [ORCID 0000-0002-0974-9988](https://orcid.org/0000-0002-0974-9988) · [Google Scholar](https://scholar.google.com/citations?user=lddfYEUAAAAJ) · [GitHub](https://github.com/AurelienNicosiaULaval)
 :::
 
 ## Profil

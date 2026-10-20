@@ -1,4 +1,5 @@
 ---
+description: "Courses, supervision and resources for understanding methods, producing reproducible analyses and communicating results."
 title: "Teaching"
 lang: en
 embed-resources: true
@@ -209,6 +210,10 @@ I contribute to the review of the statistics degree and the development of Unive
 I received Teaching Stars recognition from the Faculty of Science and Engineering for 2022-2023, 2023-2024, 2024-2025 and 2025-2026, as well as the Professor Star Award in 2014. In 2026, I also received student recognition in the teaching award category at the Gala du mérite.
 
 [FSG Teaching Stars ceremony](https://www.fsg.ulaval.ca/faculte/evenements-facultaires/ceremonie-des-etoiles-de-lenseignement-fsg){.btn .btn-outline-dark}
+
+## Early R workshops (2017)
+
+In June 2017, a CBS QCSC statistics workshop was accompanied by introductory R and RStudio materials. This activity is part of my early work on data analysis training resources.
 
 ## Shared resources
 

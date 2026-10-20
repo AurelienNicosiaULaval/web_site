@@ -1,7 +1,8 @@
 ---
+description: "Education, experience, publications and teaching activities: the full background and PDF versions."
 title: "Aurélien Nicosia"
 subtitle: "Academic curriculum vitae"
-date: 2026-10-15
+date: 2026-10-20
 date-format: "D MMMM YYYY"
 lang: en
 embed-resources: true
@@ -56,7 +57,7 @@ Chargé d’enseignement (permanent teaching appointment), Department of Mathema
 
 Université Laval, Quebec City, Canada
 
-[aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca) · [Website](https://aureliennicosiaulaval.github.io/web_site/en/) · [ORCID 0000-0002-0974-9988](https://orcid.org/0000-0002-0974-9988) · [GitHub](https://github.com/AurelienNicosiaULaval)
+[aurelien.nicosia@mat.ulaval.ca](mailto:aurelien.nicosia@mat.ulaval.ca) · [Website](https://aureliennicosiaulaval.github.io/web_site/en/) · [ORCID 0000-0002-0974-9988](https://orcid.org/0000-0002-0974-9988) · [Google Scholar](https://scholar.google.com/citations?user=lddfYEUAAAAJ) · [GitHub](https://github.com/AurelienNicosiaULaval)
 :::
 
 ## Profile

@@ -1,4 +1,5 @@
 ---
+description: "Cours ouverts, tutoriels interactifs, données locales et soutien aux apprentissages : les projets et les activités de partage."
 title: "Innovation pédagogique"
 embed-resources: true
 title-block-banner: true

@@ -2,7 +2,7 @@
 description: "Education, experience, publications and teaching activities: the full background and PDF versions."
 title: "Aurélien Nicosia"
 subtitle: "Academic curriculum vitae"
-date: 2026-10-20
+date: 2026-10-21
 date-format: "D MMMM YYYY"
 lang: en
 embed-resources: true
@@ -67,7 +67,7 @@ I develop computational statistical methods for model diagnostics and uncertaint
 ## Education
 
 - 2024\. PhD in Statistics, Université Laval. Dissertation: *General Multi-State Models for the Analysis of Animal Movement*. Supervisors: Thierry Duchesne and Louis-Paul Rivest. [Dissertation](https://corpus.ulaval.ca/server/api/core/bitstreams/cf3426a4-3475-4d48-a4c4-de29df846ed5/content).
-- 2010-2013. MSc in Probability and Statistics, Université Toulouse III. Thesis on random matrices and the smallest singular value.
+- 2010-2013. MSc in Probability and Statistics, Université Toulouse III. Thesis on random matrices and the smallest singular value. [Master’s thesis, Toulouse 2013, corrected edition 2026 (PDF)](https://aureliennicosiaulaval.github.io/web_site/assets/archives/2013-memoire-maitrise-nicosia-edition-corrigee-2026.pdf).
 - 2007-2010. BSc in Mathematics, Université Toulouse III.
 
 ## Academic and professional experience

@@ -2,7 +2,7 @@
 description: "Formation, expérience, publications et activités d’enseignement : le parcours complet et les versions PDF."
 title: "Aurélien Nicosia"
 subtitle: "Curriculum vitae académique"
-date: 2026-10-20
+date: 2026-10-21
 date-format: "D MMMM YYYY"
 lang: fr-CA
 embed-resources: true
@@ -67,7 +67,7 @@ Statisticien en méthodes computationnelles, je développe des diagnostics et de
 ## Formation
 
 - 2024\. Doctorat en statistique, Université Laval. Thèse : *Modèles multi-états généraux pour l’analyse du mouvement animalier*. Direction : Thierry Duchesne et Louis-Paul Rivest. [Thèse](https://corpus.ulaval.ca/server/api/core/bitstreams/cf3426a4-3475-4d48-a4c4-de29df846ed5/content).
-- 2010-2013. Maîtrise en probabilités et statistique, Université Toulouse III. Mémoire sur les matrices aléatoires et la plus petite valeur singulière.
+- 2010-2013. Maîtrise en probabilités et statistique, Université Toulouse III. Mémoire sur les matrices aléatoires et la plus petite valeur singulière. [Mémoire de maîtrise, Toulouse 2013, édition corrigée 2026 (PDF)](https://aureliennicosiaulaval.github.io/web_site/assets/archives/2013-memoire-maitrise-nicosia-edition-corrigee-2026.pdf).
 - 2007-2010. Licence en mathématiques, Université Toulouse III.
 
 ## Expérience académique et professionnelle

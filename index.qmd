@@ -121,6 +121,20 @@ Packages R sur le CRAN, logiciels en développement et ressources pédagogiques 
 
 ::: {.news-panel}
 ::: {.eyebrow}
+Publication · 26 octobre 2026
+:::
+
+### Inférer les états comportementaux du mouvement animal
+
+Notre article *Behavioural state inference from movement and environmental data using Markovian step selection functions*, avec Ilhem Bouderbala et Daniel Fortin, est publié dans *PLOS ONE*, 21(10), e0360547. Il propose une démarche guidée par des hypothèses biologiques pour inférer les états comportementaux, avec une application à la trajectoire d’un zèbre des plaines.
+
+::: {.link-list}
+[Lire l’article](https://doi.org/10.1371/journal.pone.0360547){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.news-panel}
+::: {.eyebrow}
 Atelier AMQ 2026
 :::
 
@@ -182,12 +196,12 @@ Publications
 
 ### Mouvement animalier
 
-Un article est publié dans Methods in Ecology and Evolution et deux prépublications bioRxiv portent sur l’inférence des états comportementaux et les diagnostics prédictifs séquentiels pour les modèles de Markov cachés appliqués au mouvement animalier.
+Deux articles publiés dans *Methods in Ecology and Evolution* et *PLOS ONE* portent sur la validation générative des fonctions de sélection de pas et l’inférence des états comportementaux. Une prépublication bioRxiv étudie les diagnostics prédictifs séquentiels pour les modèles de Markov cachés appliqués au mouvement animalier.
 
 ::: {.link-list}
 [Article MEE](https://doi.org/10.1111/2041-210X.70313){.btn .btn-outline-dark}
 [Prépublication HMM](https://doi.org/10.64898/2026.07.07.737005){.btn .btn-outline-dark}
-[Prépublication SSF](https://doi.org/10.64898/2026.02.05.704063){.btn .btn-outline-dark}
+[Article PLOS ONE](https://doi.org/10.1371/journal.pone.0360547){.btn .btn-outline-dark}
 :::
 :::
 

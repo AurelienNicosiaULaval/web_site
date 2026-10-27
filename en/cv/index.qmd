@@ -2,7 +2,7 @@
 description: "Education, experience, publications and teaching activities: the full background and PDF versions."
 title: "Aurélien Nicosia"
 subtitle: "Academic curriculum vitae"
-date: 2026-10-21
+date: 2026-10-27
 date-format: "D MMMM YYYY"
 lang: en
 embed-resources: true

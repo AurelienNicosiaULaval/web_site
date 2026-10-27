@@ -42,6 +42,8 @@ My work with Thierry Duchesne, Louis-Paul Rivest and Daniel Fortin developed mul
 
 In [Beyond the next step (2026)](https://doi.org/10.1111/2041-210X.70313), I propose generative validation for step-selection functions: comparing simulated trajectories with the movement features that motivate the analysis. My preprints study sequential predictive diagnostics and uncertainty in latent-state sequences.
 
+With Ilhem Bouderbala and Daniel Fortin, we propose in [Behavioural state inference from movement and environmental data using Markovian step selection functions (2026)](https://doi.org/10.1371/journal.pone.0360547), published in *PLOS ONE*, a workflow for behavioural-state inference based on biological hypotheses and hidden Markov models with step-selection functions. An application to a plains zebra trajectory illustrates the approach.
+
 In [Extra hidden states under emission misspecification in hidden Markov models (2026)](https://doi.org/10.1111/stan.70042), published in *Statistica Neerlandica*, I study how additional states can compensate for restrictive emission distributions. A genomic application illustrates the distinction between the number of fitted states and the number of scientifically distinct regimes.
 
 ::: {.link-list}
@@ -134,7 +136,7 @@ Code repositories, analyses and prototypes are collected in [Open projects](rese
 
 ## Publications {#publications}
 
-References updated October 20, 2026. Preprints are listed separately from published journal articles.
+References updated October 27, 2026. Preprints are listed separately from published journal articles.
 
 ### Peer-reviewed articles
 

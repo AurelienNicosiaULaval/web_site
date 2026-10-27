@@ -122,6 +122,20 @@ R packages on CRAN, software under development and teaching resources that make 
 
 ::: {.news-panel}
 ::: {.eyebrow}
+Publication · October 26, 2026
+:::
+
+### Inferring behavioural states from animal movement
+
+Our article *Behavioural state inference from movement and environmental data using Markovian step selection functions*, with Ilhem Bouderbala and Daniel Fortin, is published in *PLOS ONE*, 21(10), e0360547. It presents a workflow guided by biological hypotheses for inferring behavioural states, illustrated with a plains zebra trajectory.
+
+::: {.link-list}
+[Read the article](https://doi.org/10.1371/journal.pone.0360547){.btn .btn-outline-dark}
+:::
+:::
+
+::: {.news-panel}
+::: {.eyebrow}
 Publication · October 14, 2026
 :::
 
@@ -171,12 +185,12 @@ Publications
 
 ### Animal movement
 
-An article is published in Methods in Ecology and Evolution, and two bioRxiv preprints focus on behavioural-state inference and sequential predictive diagnostics for hidden Markov models of animal movement.
+Two articles published in *Methods in Ecology and Evolution* and *PLOS ONE* address generative validation of step-selection functions and behavioural-state inference. A bioRxiv preprint studies sequential predictive diagnostics for hidden Markov models of animal movement.
 
 ::: {.link-list}
 [MEE article](https://doi.org/10.1111/2041-210X.70313){.btn .btn-outline-dark}
 [HMM preprint](https://doi.org/10.64898/2026.07.07.737005){.btn .btn-outline-dark}
-[SSF preprint](https://doi.org/10.64898/2026.02.05.704063){.btn .btn-outline-dark}
+[PLOS ONE article](https://doi.org/10.1371/journal.pone.0360547){.btn .btn-outline-dark}
 :::
 :::
 

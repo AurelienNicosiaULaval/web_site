@@ -41,6 +41,8 @@ Mes travaux avec Thierry Duchesne, Louis-Paul Rivest et Daniel Fortin ont dével
 
 Dans [Beyond the next step (2026)](https://doi.org/10.1111/2041-210X.70313), je propose une validation générative des fonctions de sélection de pas : comparer des trajectoires simulées aux caractéristiques du mouvement qui motivent l’analyse. Mes prépublications étudient les diagnostics prédictifs séquentiels et l’incertitude autour des séquences d’états.
 
+Avec Ilhem Bouderbala et Daniel Fortin, nous proposons dans [Behavioural state inference from movement and environmental data using Markovian step selection functions (2026)](https://doi.org/10.1371/journal.pone.0360547), publié dans *PLOS ONE*, une démarche d’inférence des états comportementaux fondée sur des hypothèses biologiques et des modèles de Markov cachés avec fonctions de sélection de pas. Une application à la trajectoire d’un zèbre des plaines illustre la démarche.
+
 Dans [Extra hidden states under emission misspecification in hidden Markov models (2026)](https://doi.org/10.1111/stan.70042), publié dans *Statistica Neerlandica*, j’étudie comment des états supplémentaires peuvent compenser des distributions d’émission trop restrictives. Une application génomique illustre la distinction entre le nombre d’états ajustés et le nombre de régimes scientifiquement distincts.
 
 ::: {.link-list}
@@ -133,7 +135,7 @@ Les dépôts de code, les analyses et les prototypes sont regroupés dans [Proje
 
 ## Publications {#publications}
 
-Références mises à jour le 20 octobre 2026. Les prépublications sont présentées séparément des articles publiés dans des revues.
+Références mises à jour le 27 octobre 2026. Les prépublications sont présentées séparément des articles publiés dans des revues.
 
 ### Articles publiés avec comité de lecture
 
